@@ -1,0 +1,720 @@
+[
+  {
+    "id": "a",
+    "devanagari": "अ",
+    "roman": "a",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Short"
+    ],
+    "pronunciation_tips_html": "Pronounced like:<br>f<span class=\"coloredletter1\">a</span>r, b<span class=\"coloredletter1\">a</span>r, st<span class=\"coloredletter1\">a</span>r<br><br>Not like:<br>s<span class=\"coloredletter2\">a</span>d, b<span class=\"coloredletter2\">a</span>d, c<span class=\"coloredletter2\">a</span>t, d<span class=\"coloredletter2\">a</span>te<br><br><span class=\"tipsmallfont\">mouth should be open but not too much - not wide open.</span>",
+    "pronunciation_tips_text": "Pronounced like:\nfar, bar, star\n\nNot like:\nsad, bad, cat, date\n\nmouth should be open but not too much - not wide open.",
+    "audio_file": "a.mp3"
+  },
+  {
+    "id": "aa",
+    "devanagari": "आ",
+    "roman": "ā",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounced like the short \"a\",\r\n\r\n<br>\r\n\r\nbut twice as long, and the mouth should be more open.",
+    "pronunciation_tips_text": "Pronounced like the short \"a\",\r\n\r\n\n\r\n\r\nbut twice as long, and the mouth should be more open.",
+    "audio_file": "aa.mp3"
+  },
+  {
+    "id": "i",
+    "devanagari": "इ",
+    "roman": "i",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Short"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"i\" in:\r\n\r\n<br>\r\n\r\nb<span class=\"coloredletter1\">i</span>p, s<span class=\"coloredletter1\">i</span>t, <span class=\"coloredletter1\">I</span>taly, <span class=\"coloredletter1\">i</span>n.\r\n\r\n<br><br>\r\n\r\nNot like the i in:\r\n\r\n<br>\r\n\r\n<span class=\"coloredletter2\">i</span>ce, <span class=\"coloredletter2\">I</span>reland, <span class=\"coloredletter2\">i</span>ron, <span class=\"coloredletter2\">i</span>-pod.",
+    "pronunciation_tips_text": "Pronounced like the \"i\" in:\r\n\r\n\n\r\n\r\nbip, sit, Italy, in.\r\n\r\n\n\r\n\r\nNot like the i in:\r\n\r\n\n\r\n\r\nice, Ireland, iron, i-pod.",
+    "audio_file": "i.mp3"
+  },
+  {
+    "id": "ii",
+    "devanagari": "ई",
+    "roman": "ī",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounced like  the short \"i\", but twice as long.\r\n\r\n<br><br>\r\n\r\nSimilar to the \"ee\" or \"ea\" in the words:\r\n\r\n<br>\r\n\r\ns<span class=\"coloredletter1\">ee</span>n, d<span class=\"coloredletter1\">ea</span>r, n<span class=\"coloredletter1\">ea</span>r, cl<span class=\"coloredletter1\">ea</span>r.\r\n\r\n<br>\r\n\r\n(...but a bit longer) \r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced like  the short \"i\", but twice as long.\r\n\r\n\n\r\n\r\nSimilar to the \"ee\" or \"ea\" in the words:\r\n\r\n\n\r\n\r\nseen, dear, near, clear.\r\n\r\n\n\r\n\r\n(...but a bit longer)",
+    "audio_file": "ii.mp3"
+  },
+  {
+    "id": "u",
+    "devanagari": "उ",
+    "roman": "u",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Short"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"u\" in:\r\n\r\n<br>\r\n\r\np<span class=\"coloredletter1\">u</span>t. \r\n\r\n<br><br>\r\n\r\nnot like the \"u\" in:\r\n\r\n<br>\r\n\r\n<span class=\"coloredletter2\">u</span>p, b<span class=\"coloredletter2\">u</span>t, h<span class=\"coloredletter2\">u</span>t.",
+    "pronunciation_tips_text": "Pronounced like the \"u\" in:\r\n\r\n\n\r\n\r\nput. \r\n\r\n\n\r\n\r\nnot like the \"u\" in:\r\n\r\n\n\r\n\r\nup, but, hut.",
+    "audio_file": "u.mp3"
+  },
+  {
+    "id": "uu",
+    "devanagari": "ऊ",
+    "roman": "ū",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounced like the short \"u\" but twice as long.\r\n\r\n<br><br>\r\n\r\n Similar to the double \"o\" in:\r\n\r\n<br>\r\n\r\nr<span class=\"coloredletter1\">oo</span>m, bl<span class=\"coloredletter1\">oo</span>m.\r\n\r\n<br>\r\n\r\n(...but a bit longer)\r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced like the short \"u\" but twice as long.\r\n\r\n\n\r\n\r\n Similar to the double \"o\" in:\r\n\r\n\n\r\n\r\nroom, bloom.\r\n\r\n\n\r\n\r\n(...but a bit longer)",
+    "audio_file": "uu.mp3"
+  },
+  {
+    "id": "RRi",
+    "devanagari": "ऋ",
+    "roman": "ṛ",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Short"
+    ],
+    "pronunciation_tips_html": "The vocalic \"r\" is a special sound. It is not the consonant \"r\" but a reverberating vowel that has a flow of its own.\r\n\r\n<br><br>\r\n\r\nIt is pronounced with the tongue curling backwards and up to reverberate in touching the upper area of the palate.\r\n\r\n<br><br>\r\n\r\nTips for pronounciation: try to curve the tongue up to the palate and pronounce a rolling \"r\" sound without pronouncing \"i\" or \"u\" after it.\r\n\r\n<br>",
+    "pronunciation_tips_text": "The vocalic \"r\" is a special sound. It is not the consonant \"r\" but a reverberating vowel that has a flow of its own.\r\n\r\n\n\r\n\r\nIt is pronounced with the tongue curling backwards and up to reverberate in touching the upper area of the palate.\r\n\r\n\n\r\n\r\nTips for pronounciation: try to curve the tongue up to the palate and pronounce a rolling \"r\" sound without pronouncing \"i\" or \"u\" after it.",
+    "audio_file": "r2.mp3"
+  },
+  {
+    "id": "RRI",
+    "devanagari": "ॠ",
+    "roman": "ṝ",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Same like the previous letter - the short vocalic \"r\" - but twice as long.\r\n\r\n<br>\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "Same like the previous letter - the short vocalic \"r\" - but twice as long.",
+    "audio_file": "r3.mp3"
+  },
+  {
+    "id": "LLi",
+    "devanagari": "ऌ",
+    "roman": "ḷ",
+    "properties": [
+      "Vowel",
+      "Simple",
+      "Short"
+    ],
+    "pronunciation_tips_html": "Very similar to the short vocalic \"r\". <br>the difference is that in this letter the tongue touches in a slightly different place.",
+    "pronunciation_tips_text": "Very similar to the short vocalic \"r\". \nthe difference is that in this letter the tongue touches in a slightly different place.",
+    "audio_file": "l2.mp3"
+  },
+  {
+    "id": "e",
+    "devanagari": "ए",
+    "roman": "e",
+    "properties": [
+      "Vowel",
+      "Combined",
+      "Guna",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"e\" in\"\r\n\r\n<br>\r\n\r\n<span class=\"coloredletter1\">e</span>v<span class=\"coloredletter1\">e</span>r, n<span class=\"coloredletter1\">e</span>v<span class=\"coloredletter1\">e</span>r, b<span class=\"coloredletter1\">e</span>tter\r\n\r\n<br>\r\n\r\n(...but longer)\r\n\r\n<br><br>\r\n\r\nnot like the \"e\" in:\r\n\r\n<br>\r\n\r\n<span class=\"coloredletter2\">e</span>conomy, b<span class=\"coloredletter2\">e</span>.",
+    "pronunciation_tips_text": "Pronounced like the \"e\" in\"\r\n\r\n\n\r\n\r\never, never, better\r\n\r\n\n\r\n\r\n(...but longer)\r\n\r\n\n\r\n\r\nnot like the \"e\" in:\r\n\r\n\n\r\n\r\neconomy, be.",
+    "audio_file": "e.mp3"
+  },
+  {
+    "id": "ai",
+    "devanagari": "ऐ",
+    "roman": "ai",
+    "properties": [
+      "Vowel",
+      "Combined",
+      "Vriddhi",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounce like the \"i\" in:\r\n\r\n<br>\r\n\r\nsight, bright, glide\r\n\r\n<br><br>",
+    "pronunciation_tips_text": "Pronounce like the \"i\" in:\r\n\r\n\n\r\n\r\nsight, bright, glide",
+    "audio_file": "ai.mp3"
+  },
+  {
+    "id": "o",
+    "devanagari": "ओ",
+    "roman": "o",
+    "properties": [
+      "Vowel",
+      "Combined",
+      "Guna",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"o\" in:\r\n\r\n<br>\r\n\r\nst<span class=\"coloredletter1\">o</span>ry, gl<span class=\"coloredletter1\">o</span>ry\r\n\r\n<br><br>\r\n\r\nNot like:\r\n\r\ng<span class=\"coloredletter2\">o</span> (gou), <span class=\"coloredletter2\">o</span>pen (oupen)",
+    "pronunciation_tips_text": "Pronounced like the \"o\" in:\r\n\r\n\n\r\n\r\nstory, glory\r\n\r\n\n\r\n\r\nNot like:\r\n\r\ngo (gou), open (oupen)",
+    "audio_file": "o.mp3"
+  },
+  {
+    "id": "au",
+    "devanagari": "औ",
+    "roman": "au",
+    "properties": [
+      "Vowel",
+      "Combined",
+      "Vriddhi",
+      "Long"
+    ],
+    "pronunciation_tips_html": "Pronounce like the \"ou\" in:\r\n\r\n<br>\r\n\r\nout, doubt\r\n\r\n<br><br>",
+    "pronunciation_tips_text": "Pronounce like the \"ou\" in:\r\n\r\n\n\r\n\r\nout, doubt",
+    "audio_file": "au.mp3"
+  },
+  {
+    "id": "aM",
+    "devanagari": "अं",
+    "roman": "aṁ",
+    "properties": [
+      "Vowel",
+      "Anusvara"
+    ],
+    "pronunciation_tips_html": "Anusvara - (sound that follows) is a pure nasel sound, which is created as an effect of the dynamics of speech.\r\n\r\n<br><br>\r\n\r\n When the anusvara is pronounced the place of pronounciation in the mouth becomes less dominant and the passage of the air containing the sound vibration flows through the nose.\r\n\r\n<br><br>\r\n\r\nThe anusvara often takes on the \"flavor\" of the following consonant:\r\n\r\n<br><br>\r\n\r\nit can have 5 differnt \"flavors\" according to the area of pronunciation of the following consonant. \r\n\r\n<br><br>\r\n\r\n4 of these \"flavors\" can be found in English also:\r\n\r\n<br><br>\r\n\r\nlike the \"n\" in: \"incomplete\" <br>(when followed by a gutteral consonant).\r\n\r\n<br><br>\r\n\r\nlike the \"n\" in: \"incharge\"<br> (when followed by a palatel consonant).\r\n\r\n<br><br>\r\n\r\nlike the \"n\" in: \"independent\" <br>(when followed by a dental consonant).\r\n\r\n<br><br>\r\n\r\nlike the \"m\" in: \"impossible\" <br>(when followed by a labial consonant).\r\n\r\n<br><br>",
+    "pronunciation_tips_text": "Anusvara - (sound that follows) is a pure nasel sound, which is created as an effect of the dynamics of speech.\r\n\r\n\n\r\n\r\n When the anusvara is pronounced the place of pronounciation in the mouth becomes less dominant and the passage of the air containing the sound vibration flows through the nose.\r\n\r\n\n\r\n\r\nThe anusvara often takes on the \"flavor\" of the following consonant:\r\n\r\n\n\r\n\r\nit can have 5 differnt \"flavors\" according to the area of pronunciation of the following consonant. \r\n\r\n\n\r\n\r\n4 of these \"flavors\" can be found in English also:\r\n\r\n\n\r\n\r\nlike the \"n\" in: \"incomplete\" \n(when followed by a gutteral consonant).\r\n\r\n\n\r\n\r\nlike the \"n\" in: \"incharge\"\n (when followed by a palatel consonant).\r\n\r\n\n\r\n\r\nlike the \"n\" in: \"independent\" \n(when followed by a dental consonant).\r\n\r\n\n\r\n\r\nlike the \"m\" in: \"impossible\" \n(when followed by a labial consonant).",
+    "audio_file": "aM.mp3"
+  },
+  {
+    "id": "aH",
+    "devanagari": "अः",
+    "roman": "aḥ",
+    "properties": [
+      "Vowel",
+      "Visarga"
+    ],
+    "pronunciation_tips_html": "Visarga (sending forth) is a sound effect created by the expulsion of extra air that echos the previous vowel.\r\n\r\n<br><br>\r\n\r\nFor example: When visarga follows the vowel \"e\", it sounds a bit like the end of the slang version of the word \"yes\", i.e. \"yeah\"\r\n\r\n<br>",
+    "pronunciation_tips_text": "Visarga (sending forth) is a sound effect created by the expulsion of extra air that echos the previous vowel.\r\n\r\n\n\r\n\r\nFor example: When visarga follows the vowel \"e\", it sounds a bit like the end of the slang version of the word \"yes\", i.e. \"yeah\"",
+    "audio_file": "aH.mp3"
+  },
+  {
+    "id": "ka",
+    "devanagari": "क",
+    "roman": "ka",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Unvoiced",
+      "Guttural (throat)"
+    ],
+    "pronunciation_tips_html": "Pronounced  like the 'k\" in;\r\n\r\n<br>\r\n\r\n<span class=\"coloredletter1\">k</span>it, <span class=\"coloredletter1\">k</span>eep, <span class=\"coloredletter1\">k</span>iss\r\n\r\n<br><br>\r\n\r\nor like the \"c\" in:\r\n\r\n<br>\r\n\r\n<span class=\"coloredletter1\">c</span>ar, <span class=\"coloredletter1\">c</span>ountry, <span class=\"coloredletter1\">c</span>at.",
+    "pronunciation_tips_text": "Pronounced  like the 'k\" in;\r\n\r\n\n\r\n\r\nkit, keep, kiss\r\n\r\n\n\r\n\r\nor like the \"c\" in:\r\n\r\n\n\r\n\r\ncar, country, cat.",
+    "audio_file": "k1a.mp3"
+  },
+  {
+    "id": "kha",
+    "devanagari": "ख",
+    "roman": "kha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Unvoiced",
+      "Guttural (throat)"
+    ],
+    "pronunciation_tips_html": "Pronounced like \"k\" but with extra expulssion of  air right after it -  before the vowel.\r\n\r\n<br><br>\r\n\r\nTips: try saying \"lake\" and \"house\" one after the other with no gap. The last sound of \"lake\" and the first sound of \"house\" will combine to exact sound of \"kha\".\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced like \"k\" but with extra expulssion of  air right after it -  before the vowel.\r\n\r\n\n\r\n\r\nTips: try saying \"lake\" and \"house\" one after the other with no gap. The last sound of \"lake\" and the first sound of \"house\" will combine to exact sound of \"kha\".",
+    "audio_file": "kha.mp3"
+  },
+  {
+    "id": "ga",
+    "devanagari": "ग",
+    "roman": "ga",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Voiced",
+      "Guttural (throat)"
+    ],
+    "pronunciation_tips_html": "Pronounced  like the \"g\" in:\r\n\r\n<br>\r\n\r\ngo, dog, give.\r\n\r\n<br><br>\r\n\r\nNot like the  \"g\" in:\r\n\r\n<br>\r\n\r\nage, rage, cage.",
+    "pronunciation_tips_text": "Pronounced  like the \"g\" in:\r\n\r\n\n\r\n\r\ngo, dog, give.\r\n\r\n\n\r\n\r\nNot like the  \"g\" in:\r\n\r\n\n\r\n\r\nage, rage, cage.",
+    "audio_file": "ga.mp3"
+  },
+  {
+    "id": "gha",
+    "devanagari": "घ",
+    "roman": "gha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Voiced",
+      "Guttural (throat)"
+    ],
+    "pronunciation_tips_html": "Pronounced like \"g\" but with extra expulssion of  air right after it -  before the vowel.\r\n\r\n<br><br>\r\n\r\nTips: try saying \"dog\" and \"house\" one after the other with no gap. The last sound of \"dog\" and the first sound of \"house\" will combine to the exact sound of \"gha\".\r\n\r\n<br><br>\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced like \"g\" but with extra expulssion of  air right after it -  before the vowel.\r\n\r\n\n\r\n\r\nTips: try saying \"dog\" and \"house\" one after the other with no gap. The last sound of \"dog\" and the first sound of \"house\" will combine to the exact sound of \"gha\".",
+    "audio_file": "gha.mp3"
+  },
+  {
+    "id": "GNa",
+    "devanagari": "ङ",
+    "roman": "ṅa",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Nasal",
+      "Unaspirated",
+      "Voiced",
+      "Guttural (throat)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"n\" sound where it apears before a \"k\" or a \"g\" sound.\r\n\r\n(like the \"n\" in the word: ink)",
+    "pronunciation_tips_text": "Pronounced like the \"n\" sound where it apears before a \"k\" or a \"g\" sound.\r\n\r\n(like the \"n\" in the word: ink)",
+    "audio_file": "GNa.mp3"
+  },
+  {
+    "id": "ca",
+    "devanagari": "च",
+    "roman": "ca",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Unvoiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced  like the \"ch\" in:\r\n\r\n<br>\r\n\r\nchair, check, charm.\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced  like the \"ch\" in:\r\n\r\n\n\r\n\r\nchair, check, charm.",
+    "audio_file": "ca.mp3"
+  },
+  {
+    "id": "cha",
+    "devanagari": "छ",
+    "roman": "cha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Unvoiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced like \"ch\" in the word \"church\" but with extra expulssion of  air right after it -  before the vowel.\r\n\r\n<br><br>\r\n\r\nTips: try saying \"church\" and \"house\" one after the other with no gap. The last sound of \"church\" and the first sound of \"house\" will combine to the exact sound of \"cha\" (chha).",
+    "pronunciation_tips_text": "Pronounced like \"ch\" in the word \"church\" but with extra expulssion of  air right after it -  before the vowel.\r\n\r\n\n\r\n\r\nTips: try saying \"church\" and \"house\" one after the other with no gap. The last sound of \"church\" and the first sound of \"house\" will combine to the exact sound of \"cha\" (chha).",
+    "audio_file": "cha.mp3"
+  },
+  {
+    "id": "ja",
+    "devanagari": "ज",
+    "roman": "ja",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Voiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced like \"j\" in\"\r\n\r\n<br>\r\n\r\njack, jim, jail.",
+    "pronunciation_tips_text": "Pronounced like \"j\" in\"\r\n\r\n\n\r\n\r\njack, jim, jail.",
+    "audio_file": "ja.mp3"
+  },
+  {
+    "id": "jha",
+    "devanagari": "झ",
+    "roman": "jha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Voiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced like \"j\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n<br>\r\n\r\n<br><br>\r\n\r\nTips: try saying \"stage\" and \"house\" one after the other with no gap. The last sound of \"stage\" and the first sound of \"house\" will combine to the exact sound of \"jha\".",
+    "pronunciation_tips_text": "Pronounced like \"j\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n\n\r\n\r\n\n\r\n\r\nTips: try saying \"stage\" and \"house\" one after the other with no gap. The last sound of \"stage\" and the first sound of \"house\" will combine to the exact sound of \"jha\".",
+    "audio_file": "jha.mp3"
+  },
+  {
+    "id": "JNa",
+    "devanagari": "ञ",
+    "roman": "ña",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Nasal",
+      "Unaspirated",
+      "Voiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"n\" sound where it apears before a \"ch\" sound.\r\n\r\n<br>\r\n\r\n(like the \"n\" in: incharge)\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced like the \"n\" sound where it apears before a \"ch\" sound.\r\n\r\n\n\r\n\r\n(like the \"n\" in: incharge)",
+    "audio_file": "JNa.mp3"
+  },
+  {
+    "id": "Ta",
+    "devanagari": "ट",
+    "roman": "ṭa",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Unvoiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is very similar to the dental \"t\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "pronunciation_tips_text": "This is a retroflex sound which is very similar to the dental \"t\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "audio_file": "t2a.mp3"
+  },
+  {
+    "id": "Tha",
+    "devanagari": "ठ",
+    "roman": "ṭha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Unvoiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is very similar to the dental \"th\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.\r\n\r\n<br>\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "This is a retroflex sound which is very similar to the dental \"th\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "audio_file": "t2ha.mp3"
+  },
+  {
+    "id": "Da",
+    "devanagari": "ड",
+    "roman": "ḍa",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Voiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is very similar to the dental \"d\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "pronunciation_tips_text": "This is a retroflex sound which is very similar to the dental \"d\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "audio_file": "d2a.mp3"
+  },
+  {
+    "id": "Dha",
+    "devanagari": "ढ",
+    "roman": "ḍha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Voiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is very similar to the dental \"dh\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "pronunciation_tips_text": "This is a retroflex sound which is very similar to the dental \"dh\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "audio_file": "d2ha.mp3"
+  },
+  {
+    "id": "Na",
+    "devanagari": "ण",
+    "roman": "ṇa",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Nasal",
+      "Unaspirated",
+      "Voiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is very similar to the dental \"n\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "pronunciation_tips_text": "This is a retroflex sound which is very similar to the dental \"n\" but it is Pronounced by the tongue curving upwards to touch the upper palate. There are no examples in English.",
+    "audio_file": "n3a.mp3"
+  },
+  {
+    "id": "ta",
+    "devanagari": "त",
+    "roman": "ta",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Unvoiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"t\" in:\r\n\r\n<br>\r\n\r\ntar, take, tape.",
+    "pronunciation_tips_text": "Pronounced like the \"t\" in:\r\n\r\n\n\r\n\r\ntar, take, tape.",
+    "audio_file": "ta.mp3"
+  },
+  {
+    "id": "tha",
+    "devanagari": "थ",
+    "roman": "tha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Unvoiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"t\" in \"take\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n<br>\r\n\r\nTips: try saying \"what\" and \"house\" one after the other with no gap. The last sound of \"what\" and the first sound of \"house\" will combine to the exact sound of \"tha\".",
+    "pronunciation_tips_text": "Pronounced like like the \"t\" in \"take\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n\n\r\n\r\nTips: try saying \"what\" and \"house\" one after the other with no gap. The last sound of \"what\" and the first sound of \"house\" will combine to the exact sound of \"tha\".",
+    "audio_file": "tha.mp3"
+  },
+  {
+    "id": "da",
+    "devanagari": "द",
+    "roman": "da",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Voiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"d\" in:\r\n\r\n<br>\r\n\r\ndark, dog, deep",
+    "pronunciation_tips_text": "Pronounced like like the \"d\" in:\r\n\r\n\n\r\n\r\ndark, dog, deep",
+    "audio_file": "da.mp3"
+  },
+  {
+    "id": "dha",
+    "devanagari": "ध",
+    "roman": "dha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Voiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"d\" in \"dog\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n<br>\r\n\r\nTips: try saying \"road\" and \"house\" one after the other with no gap. The last sound of \"road\" and the first sound of \"house\" will combine to the exact sound of \"dha\".\r\n\r\n<br><br>\r\n\r\n<br>",
+    "pronunciation_tips_text": "Pronounced like like the \"d\" in \"dog\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n\n\r\n\r\nTips: try saying \"road\" and \"house\" one after the other with no gap. The last sound of \"road\" and the first sound of \"house\" will combine to the exact sound of \"dha\".",
+    "audio_file": "dha.mp3"
+  },
+  {
+    "id": "na",
+    "devanagari": "न",
+    "roman": "na",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Nasal",
+      "Unaspirated",
+      "Voiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"n\" in:\r\n\r\n<br>\r\n\r\nin, intake, into.\r\n\r\n<br><br>\r\n\r\nNon like the \"n\" in:\r\n\r\n<br>\r\n\r\nincharge, incomplete.",
+    "pronunciation_tips_text": "Pronounced like like the \"n\" in:\r\n\r\n\n\r\n\r\nin, intake, into.\r\n\r\n\n\r\n\r\nNon like the \"n\" in:\r\n\r\n\n\r\n\r\nincharge, incomplete.",
+    "audio_file": "na.mp3"
+  },
+  {
+    "id": "pa",
+    "devanagari": "प",
+    "roman": "pa",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Unvoiced",
+      "Labial (lips)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"p\" in:\r\n\r\n<br>\r\n\r\npark, party, partake.",
+    "pronunciation_tips_text": "Pronounced like like the \"p\" in:\r\n\r\n\n\r\n\r\npark, party, partake.",
+    "audio_file": "pa.mp3"
+  },
+  {
+    "id": "pha",
+    "devanagari": "फ",
+    "roman": "pha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Unvoiced",
+      "Labial (lips)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"ph\" in \"uphold\".\r\n\r\n<br>\r\n\r\nTips: try saying \"uphold upheld\" a few times and then say \"pha\" a few times. Do this until you pronounce the \"pha\" just like the \"ph\" in \"uphold\" \r\n\r\n<br><br>\r\n\r\nvery important! this is not the sound \"f\" . It should not be pronounced like the sound \"f\" as the \"ph\" in the word phone.",
+    "pronunciation_tips_text": "Pronounced like like the \"ph\" in \"uphold\".\r\n\r\n\n\r\n\r\nTips: try saying \"uphold upheld\" a few times and then say \"pha\" a few times. Do this until you pronounce the \"pha\" just like the \"ph\" in \"uphold\" \r\n\r\n\n\r\n\r\nvery important! this is not the sound \"f\" . It should not be pronounced like the sound \"f\" as the \"ph\" in the word phone.",
+    "audio_file": "pha.mp3"
+  },
+  {
+    "id": "ba",
+    "devanagari": "ब",
+    "roman": "ba",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Unaspirated",
+      "Voiced",
+      "Labial (lips)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"b\" in:\r\n\r\n<br>\r\n\r\nbut, bake, been.",
+    "pronunciation_tips_text": "Pronounced like the \"b\" in:\r\n\r\n\n\r\n\r\nbut, bake, been.",
+    "audio_file": "ba.mp3"
+  },
+  {
+    "id": "bha",
+    "devanagari": "भ",
+    "roman": "bha",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Aspirated",
+      "Voiced",
+      "Labial (lips)"
+    ],
+    "pronunciation_tips_html": "Pronounced like like the \"b\" in \"bark\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n<br>\r\n\r\nTips: try saying \"snob\" and \"house\" one after the other with no gap. The last sound of \"snob\" and the first sound of \"house\" will combine to the exact sound of \"bha\".",
+    "pronunciation_tips_text": "Pronounced like like the \"b\" in \"bark\", but with extra expulssion of  air right after it - before the vowel.\r\n\r\n\n\r\n\r\nTips: try saying \"snob\" and \"house\" one after the other with no gap. The last sound of \"snob\" and the first sound of \"house\" will combine to the exact sound of \"bha\".",
+    "audio_file": "bha.mp3"
+  },
+  {
+    "id": "ma",
+    "devanagari": "म",
+    "roman": "ma",
+    "properties": [
+      "Consonant",
+      "Touch",
+      "Nasal",
+      "Unaspirated",
+      "Voiced",
+      "Labial (lips)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"m\" in:\r\n\r\n<br>\r\n\r\nmark, might, my.",
+    "pronunciation_tips_text": "Pronounced like the \"m\" in:\r\n\r\n\n\r\n\r\nmark, might, my.",
+    "audio_file": "ma.mp3"
+  },
+  {
+    "id": "ya",
+    "devanagari": "य",
+    "roman": "ya",
+    "properties": [
+      "Consonant",
+      "Semivowel",
+      "Unaspirated",
+      "Voiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"y\" in:\r\n\r\n<br>\r\n\r\nyacht, yet, you.",
+    "pronunciation_tips_text": "Pronounced like the \"y\" in:\r\n\r\n\n\r\n\r\nyacht, yet, you.",
+    "audio_file": "ya.mp3"
+  },
+  {
+    "id": "ra",
+    "devanagari": "र",
+    "roman": "ra",
+    "properties": [
+      "Consonant",
+      "Semivowel",
+      "Unaspirated",
+      "Voiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is a bit different than the \"r\" in English.\r\n\r\n<br><br>\r\n\r\nIt is pronounced by  the tongue curving upwards to touch the upper palate.\r\n\r\n<br>",
+    "pronunciation_tips_text": "This is a retroflex sound which is a bit different than the \"r\" in English.\r\n\r\n\n\r\n\r\nIt is pronounced by  the tongue curving upwards to touch the upper palate.",
+    "audio_file": "ra.mp3"
+  },
+  {
+    "id": "la",
+    "devanagari": "ल",
+    "roman": "la",
+    "properties": [
+      "Consonant",
+      "Semivowel",
+      "Unaspirated",
+      "Voiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"L\" in:\r\n\r\n<br>\r\n\r\nlike, lake, link.",
+    "pronunciation_tips_text": "Pronounced like the \"L\" in:\r\n\r\n\n\r\n\r\nlike, lake, link.",
+    "audio_file": "la.mp3"
+  },
+  {
+    "id": "va",
+    "devanagari": "व",
+    "roman": "va",
+    "properties": [
+      "Consonant",
+      "Semivowel",
+      "Unaspirated",
+      "Voiced",
+      "Labial (lips)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"v\" in most English words but in many cases it tends to sound a bit more towards the sound of \"w\" in English.\r\n\r\n<br><br>\r\n\r\n it is somewhere in between, so sometimes it will sound more like the \"v\" in victory, and sometimes more like the \"w\" in wait.",
+    "pronunciation_tips_text": "Pronounced like the \"v\" in most English words but in many cases it tends to sound a bit more towards the sound of \"w\" in English.\r\n\r\n\n\r\n\r\n it is somewhere in between, so sometimes it will sound more like the \"v\" in victory, and sometimes more like the \"w\" in wait.",
+    "audio_file": "va.mp3"
+  },
+  {
+    "id": "sha",
+    "devanagari": "श",
+    "roman": "śa",
+    "properties": [
+      "Consonant",
+      "Sibilant",
+      "Aspirated",
+      "Unvoiced",
+      "Palatal (palate)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"sh\" in:\r\n\r\n<br>\r\n\r\nshoe, show, shine.",
+    "pronunciation_tips_text": "Pronounced like the \"sh\" in:\r\n\r\n\n\r\n\r\nshoe, show, shine.",
+    "audio_file": "sha.mp3"
+  },
+  {
+    "id": "Sha",
+    "devanagari": "ष",
+    "roman": "ṣa",
+    "properties": [
+      "Consonant",
+      "Sibilant",
+      "Aspirated",
+      "Unvoiced",
+      "Retroflex (roof of mouth)"
+    ],
+    "pronunciation_tips_html": "This is a retroflex sound which is a bit different than the \"sh\" in English.\r\n\r\n<br><br>\r\n\r\nIt is pronounced by the tongue curving upwards to touch the upper palate.",
+    "pronunciation_tips_text": "This is a retroflex sound which is a bit different than the \"sh\" in English.\r\n\r\n\n\r\n\r\nIt is pronounced by the tongue curving upwards to touch the upper palate.",
+    "audio_file": "s2a.mp3"
+  },
+  {
+    "id": "sa",
+    "devanagari": "स",
+    "roman": "sa",
+    "properties": [
+      "Consonant",
+      "Sibilant",
+      "Aspirated",
+      "Unvoiced",
+      "Dental (teeth)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"s\" in:\r\n\r\n<br>\r\n\r\nside, saga, sight",
+    "pronunciation_tips_text": "Pronounced like the \"s\" in:\r\n\r\n\n\r\n\r\nside, saga, sight",
+    "audio_file": "sa.mp3"
+  },
+  {
+    "id": "ha",
+    "devanagari": "ह",
+    "roman": "ha",
+    "properties": [
+      "Consonant",
+      "Aspirated",
+      "Voiced",
+      "Guttural (throat)"
+    ],
+    "pronunciation_tips_html": "Pronounced like the \"h\" in:\r\n\r\n<br>\r\n\r\nhigh, house, hot.",
+    "pronunciation_tips_text": "Pronounced like the \"h\" in:\r\n\r\n\n\r\n\r\nhigh, house, hot.",
+    "audio_file": "ha.mp3"
+  },
+  {
+    "id": "kSha",
+    "devanagari": "क्ष",
+    "roman": "kṣa",
+    "properties": [
+      "Combination letter"
+    ],
+    "pronunciation_tips_html": "",
+    "pronunciation_tips_text": "",
+    "audio_file": "kSha.mp3"
+  },
+  {
+    "id": "jJNa",
+    "devanagari": "ज्ञ",
+    "roman": "jña",
+    "properties": [
+      "Combination letter"
+    ],
+    "pronunciation_tips_html": "",
+    "pronunciation_tips_text": "",
+    "audio_file": "jJNa.mp3"
+  }
+]
