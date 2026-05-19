@@ -117,7 +117,27 @@ def write_json(path, data)
   puts "  Wrote #{data.size} entries to #{path}"
 end
 
-def write_anki_file(path, entries)
+# Standalone Devanagari letters that compose a combination, shown on the back.
+# Anusvara/visarga are rendered on U+25CC (◌) so the bare mark is visible —
+# the letters.json forms अं/अः include a spurious 'a' and would mislead.
+def components_devanagari(entry, letters_by_id)
+  if entry.key?("mark_id")
+    [letters_by_id.fetch(entry["vowel_id"])["devanagari"],
+     "◌#{VOWEL_MARKS.fetch(entry["mark_id"])[:char]}"]
+  else
+    consonant_char = letters_by_id.fetch(entry["consonant_id"])["devanagari"]
+    vowel_id       = entry["vowel_id"]
+    vowel_char =
+      case vowel_id
+      when "aM" then "◌ं"
+      when "aH" then "◌ः"
+      else letters_by_id.fetch(vowel_id)["devanagari"]
+      end
+    [consonant_char, vowel_char]
+  end
+end
+
+def write_anki_file(path, entries, letters_by_id)
   File.open(path, "w:UTF-8") do |f|
     f.puts "#separator:Tab"
     f.puts "#html:true"
@@ -127,9 +147,10 @@ def write_anki_file(path, entries)
     f.puts "#guid column:1"
 
     entries.each do |entry|
-      key   = entry["id"]
-      front = "<center><big><big><big><big><big>#{entry["devanagari"]}</big></big></big></big></big></center>"
-      back  = "<center><big><big><b>#{entry["roman"]}</b></big></big></center>"
+      key       = entry["id"]
+      front     = "<center><big><big><big><big><big>#{entry["devanagari"]}</big></big></big></big></big></center>"
+      breakdown = components_devanagari(entry, letters_by_id).join(" + ")
+      back      = "<center><big><big><b>#{entry["roman"]}</b></big></big><br><big>#{breakdown}</big></center>"
       f.puts "#{key}\t#{front}\t#{back}"
     end
   end
@@ -163,7 +184,7 @@ write_json(ANUSVARA_VISARGA_JSON, vowel_marks)
 puts
 
 puts "Step 3: Writing combined Anki import file..."
-write_anki_file(OUTPUT_FILE, combos + vowel_marks)
+write_anki_file(OUTPUT_FILE, combos + vowel_marks, letters_by_id)
 
 puts
 puts "=== Done! ==="

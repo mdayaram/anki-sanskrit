@@ -4,517 +4,517 @@
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1
-ka_aa	<center><big><big><big><big><big>का</big></big></big></big></big></center>	<center><big><big><b>kā</b></big></big></center>
-ka_i	<center><big><big><big><big><big>कि</big></big></big></big></big></center>	<center><big><big><b>ki</b></big></big></center>
-ka_ii	<center><big><big><big><big><big>की</big></big></big></big></big></center>	<center><big><big><b>kī</b></big></big></center>
-ka_u	<center><big><big><big><big><big>कु</big></big></big></big></big></center>	<center><big><big><b>ku</b></big></big></center>
-ka_uu	<center><big><big><big><big><big>कू</big></big></big></big></big></center>	<center><big><big><b>kū</b></big></big></center>
-ka_RRi	<center><big><big><big><big><big>कृ</big></big></big></big></big></center>	<center><big><big><b>kṛ</b></big></big></center>
-ka_RRI	<center><big><big><big><big><big>कॄ</big></big></big></big></big></center>	<center><big><big><b>kṝ</b></big></big></center>
-ka_LLi	<center><big><big><big><big><big>कॢ</big></big></big></big></big></center>	<center><big><big><b>kḷ</b></big></big></center>
-ka_e	<center><big><big><big><big><big>के</big></big></big></big></big></center>	<center><big><big><b>ke</b></big></big></center>
-ka_ai	<center><big><big><big><big><big>कै</big></big></big></big></big></center>	<center><big><big><b>kai</b></big></big></center>
-ka_o	<center><big><big><big><big><big>को</big></big></big></big></big></center>	<center><big><big><b>ko</b></big></big></center>
-ka_au	<center><big><big><big><big><big>कौ</big></big></big></big></big></center>	<center><big><big><b>kau</b></big></big></center>
-ka_aM	<center><big><big><big><big><big>कं</big></big></big></big></big></center>	<center><big><big><b>kaṁ</b></big></big></center>
-ka_aH	<center><big><big><big><big><big>कः</big></big></big></big></big></center>	<center><big><big><b>kaḥ</b></big></big></center>
-kha_aa	<center><big><big><big><big><big>खा</big></big></big></big></big></center>	<center><big><big><b>khā</b></big></big></center>
-kha_i	<center><big><big><big><big><big>खि</big></big></big></big></big></center>	<center><big><big><b>khi</b></big></big></center>
-kha_ii	<center><big><big><big><big><big>खी</big></big></big></big></big></center>	<center><big><big><b>khī</b></big></big></center>
-kha_u	<center><big><big><big><big><big>खु</big></big></big></big></big></center>	<center><big><big><b>khu</b></big></big></center>
-kha_uu	<center><big><big><big><big><big>खू</big></big></big></big></big></center>	<center><big><big><b>khū</b></big></big></center>
-kha_RRi	<center><big><big><big><big><big>खृ</big></big></big></big></big></center>	<center><big><big><b>khṛ</b></big></big></center>
-kha_RRI	<center><big><big><big><big><big>खॄ</big></big></big></big></big></center>	<center><big><big><b>khṝ</b></big></big></center>
-kha_LLi	<center><big><big><big><big><big>खॢ</big></big></big></big></big></center>	<center><big><big><b>khḷ</b></big></big></center>
-kha_e	<center><big><big><big><big><big>खे</big></big></big></big></big></center>	<center><big><big><b>khe</b></big></big></center>
-kha_ai	<center><big><big><big><big><big>खै</big></big></big></big></big></center>	<center><big><big><b>khai</b></big></big></center>
-kha_o	<center><big><big><big><big><big>खो</big></big></big></big></big></center>	<center><big><big><b>kho</b></big></big></center>
-kha_au	<center><big><big><big><big><big>खौ</big></big></big></big></big></center>	<center><big><big><b>khau</b></big></big></center>
-kha_aM	<center><big><big><big><big><big>खं</big></big></big></big></big></center>	<center><big><big><b>khaṁ</b></big></big></center>
-kha_aH	<center><big><big><big><big><big>खः</big></big></big></big></big></center>	<center><big><big><b>khaḥ</b></big></big></center>
-ga_aa	<center><big><big><big><big><big>गा</big></big></big></big></big></center>	<center><big><big><b>gā</b></big></big></center>
-ga_i	<center><big><big><big><big><big>गि</big></big></big></big></big></center>	<center><big><big><b>gi</b></big></big></center>
-ga_ii	<center><big><big><big><big><big>गी</big></big></big></big></big></center>	<center><big><big><b>gī</b></big></big></center>
-ga_u	<center><big><big><big><big><big>गु</big></big></big></big></big></center>	<center><big><big><b>gu</b></big></big></center>
-ga_uu	<center><big><big><big><big><big>गू</big></big></big></big></big></center>	<center><big><big><b>gū</b></big></big></center>
-ga_RRi	<center><big><big><big><big><big>गृ</big></big></big></big></big></center>	<center><big><big><b>gṛ</b></big></big></center>
-ga_RRI	<center><big><big><big><big><big>गॄ</big></big></big></big></big></center>	<center><big><big><b>gṝ</b></big></big></center>
-ga_LLi	<center><big><big><big><big><big>गॢ</big></big></big></big></big></center>	<center><big><big><b>gḷ</b></big></big></center>
-ga_e	<center><big><big><big><big><big>गे</big></big></big></big></big></center>	<center><big><big><b>ge</b></big></big></center>
-ga_ai	<center><big><big><big><big><big>गै</big></big></big></big></big></center>	<center><big><big><b>gai</b></big></big></center>
-ga_o	<center><big><big><big><big><big>गो</big></big></big></big></big></center>	<center><big><big><b>go</b></big></big></center>
-ga_au	<center><big><big><big><big><big>गौ</big></big></big></big></big></center>	<center><big><big><b>gau</b></big></big></center>
-ga_aM	<center><big><big><big><big><big>गं</big></big></big></big></big></center>	<center><big><big><b>gaṁ</b></big></big></center>
-ga_aH	<center><big><big><big><big><big>गः</big></big></big></big></big></center>	<center><big><big><b>gaḥ</b></big></big></center>
-gha_aa	<center><big><big><big><big><big>घा</big></big></big></big></big></center>	<center><big><big><b>ghā</b></big></big></center>
-gha_i	<center><big><big><big><big><big>घि</big></big></big></big></big></center>	<center><big><big><b>ghi</b></big></big></center>
-gha_ii	<center><big><big><big><big><big>घी</big></big></big></big></big></center>	<center><big><big><b>ghī</b></big></big></center>
-gha_u	<center><big><big><big><big><big>घु</big></big></big></big></big></center>	<center><big><big><b>ghu</b></big></big></center>
-gha_uu	<center><big><big><big><big><big>घू</big></big></big></big></big></center>	<center><big><big><b>ghū</b></big></big></center>
-gha_RRi	<center><big><big><big><big><big>घृ</big></big></big></big></big></center>	<center><big><big><b>ghṛ</b></big></big></center>
-gha_RRI	<center><big><big><big><big><big>घॄ</big></big></big></big></big></center>	<center><big><big><b>ghṝ</b></big></big></center>
-gha_LLi	<center><big><big><big><big><big>घॢ</big></big></big></big></big></center>	<center><big><big><b>ghḷ</b></big></big></center>
-gha_e	<center><big><big><big><big><big>घे</big></big></big></big></big></center>	<center><big><big><b>ghe</b></big></big></center>
-gha_ai	<center><big><big><big><big><big>घै</big></big></big></big></big></center>	<center><big><big><b>ghai</b></big></big></center>
-gha_o	<center><big><big><big><big><big>घो</big></big></big></big></big></center>	<center><big><big><b>gho</b></big></big></center>
-gha_au	<center><big><big><big><big><big>घौ</big></big></big></big></big></center>	<center><big><big><b>ghau</b></big></big></center>
-gha_aM	<center><big><big><big><big><big>घं</big></big></big></big></big></center>	<center><big><big><b>ghaṁ</b></big></big></center>
-gha_aH	<center><big><big><big><big><big>घः</big></big></big></big></big></center>	<center><big><big><b>ghaḥ</b></big></big></center>
-GNa_aa	<center><big><big><big><big><big>ङा</big></big></big></big></big></center>	<center><big><big><b>ṅā</b></big></big></center>
-GNa_i	<center><big><big><big><big><big>ङि</big></big></big></big></big></center>	<center><big><big><b>ṅi</b></big></big></center>
-GNa_ii	<center><big><big><big><big><big>ङी</big></big></big></big></big></center>	<center><big><big><b>ṅī</b></big></big></center>
-GNa_u	<center><big><big><big><big><big>ङु</big></big></big></big></big></center>	<center><big><big><b>ṅu</b></big></big></center>
-GNa_uu	<center><big><big><big><big><big>ङू</big></big></big></big></big></center>	<center><big><big><b>ṅū</b></big></big></center>
-GNa_RRi	<center><big><big><big><big><big>ङृ</big></big></big></big></big></center>	<center><big><big><b>ṅṛ</b></big></big></center>
-GNa_RRI	<center><big><big><big><big><big>ङॄ</big></big></big></big></big></center>	<center><big><big><b>ṅṝ</b></big></big></center>
-GNa_LLi	<center><big><big><big><big><big>ङॢ</big></big></big></big></big></center>	<center><big><big><b>ṅḷ</b></big></big></center>
-GNa_e	<center><big><big><big><big><big>ङे</big></big></big></big></big></center>	<center><big><big><b>ṅe</b></big></big></center>
-GNa_ai	<center><big><big><big><big><big>ङै</big></big></big></big></big></center>	<center><big><big><b>ṅai</b></big></big></center>
-GNa_o	<center><big><big><big><big><big>ङो</big></big></big></big></big></center>	<center><big><big><b>ṅo</b></big></big></center>
-GNa_au	<center><big><big><big><big><big>ङौ</big></big></big></big></big></center>	<center><big><big><b>ṅau</b></big></big></center>
-GNa_aM	<center><big><big><big><big><big>ङं</big></big></big></big></big></center>	<center><big><big><b>ṅaṁ</b></big></big></center>
-GNa_aH	<center><big><big><big><big><big>ङः</big></big></big></big></big></center>	<center><big><big><b>ṅaḥ</b></big></big></center>
-ca_aa	<center><big><big><big><big><big>चा</big></big></big></big></big></center>	<center><big><big><b>cā</b></big></big></center>
-ca_i	<center><big><big><big><big><big>चि</big></big></big></big></big></center>	<center><big><big><b>ci</b></big></big></center>
-ca_ii	<center><big><big><big><big><big>ची</big></big></big></big></big></center>	<center><big><big><b>cī</b></big></big></center>
-ca_u	<center><big><big><big><big><big>चु</big></big></big></big></big></center>	<center><big><big><b>cu</b></big></big></center>
-ca_uu	<center><big><big><big><big><big>चू</big></big></big></big></big></center>	<center><big><big><b>cū</b></big></big></center>
-ca_RRi	<center><big><big><big><big><big>चृ</big></big></big></big></big></center>	<center><big><big><b>cṛ</b></big></big></center>
-ca_RRI	<center><big><big><big><big><big>चॄ</big></big></big></big></big></center>	<center><big><big><b>cṝ</b></big></big></center>
-ca_LLi	<center><big><big><big><big><big>चॢ</big></big></big></big></big></center>	<center><big><big><b>cḷ</b></big></big></center>
-ca_e	<center><big><big><big><big><big>चे</big></big></big></big></big></center>	<center><big><big><b>ce</b></big></big></center>
-ca_ai	<center><big><big><big><big><big>चै</big></big></big></big></big></center>	<center><big><big><b>cai</b></big></big></center>
-ca_o	<center><big><big><big><big><big>चो</big></big></big></big></big></center>	<center><big><big><b>co</b></big></big></center>
-ca_au	<center><big><big><big><big><big>चौ</big></big></big></big></big></center>	<center><big><big><b>cau</b></big></big></center>
-ca_aM	<center><big><big><big><big><big>चं</big></big></big></big></big></center>	<center><big><big><b>caṁ</b></big></big></center>
-ca_aH	<center><big><big><big><big><big>चः</big></big></big></big></big></center>	<center><big><big><b>caḥ</b></big></big></center>
-cha_aa	<center><big><big><big><big><big>छा</big></big></big></big></big></center>	<center><big><big><b>chā</b></big></big></center>
-cha_i	<center><big><big><big><big><big>छि</big></big></big></big></big></center>	<center><big><big><b>chi</b></big></big></center>
-cha_ii	<center><big><big><big><big><big>छी</big></big></big></big></big></center>	<center><big><big><b>chī</b></big></big></center>
-cha_u	<center><big><big><big><big><big>छु</big></big></big></big></big></center>	<center><big><big><b>chu</b></big></big></center>
-cha_uu	<center><big><big><big><big><big>छू</big></big></big></big></big></center>	<center><big><big><b>chū</b></big></big></center>
-cha_RRi	<center><big><big><big><big><big>छृ</big></big></big></big></big></center>	<center><big><big><b>chṛ</b></big></big></center>
-cha_RRI	<center><big><big><big><big><big>छॄ</big></big></big></big></big></center>	<center><big><big><b>chṝ</b></big></big></center>
-cha_LLi	<center><big><big><big><big><big>छॢ</big></big></big></big></big></center>	<center><big><big><b>chḷ</b></big></big></center>
-cha_e	<center><big><big><big><big><big>छे</big></big></big></big></big></center>	<center><big><big><b>che</b></big></big></center>
-cha_ai	<center><big><big><big><big><big>छै</big></big></big></big></big></center>	<center><big><big><b>chai</b></big></big></center>
-cha_o	<center><big><big><big><big><big>छो</big></big></big></big></big></center>	<center><big><big><b>cho</b></big></big></center>
-cha_au	<center><big><big><big><big><big>छौ</big></big></big></big></big></center>	<center><big><big><b>chau</b></big></big></center>
-cha_aM	<center><big><big><big><big><big>छं</big></big></big></big></big></center>	<center><big><big><b>chaṁ</b></big></big></center>
-cha_aH	<center><big><big><big><big><big>छः</big></big></big></big></big></center>	<center><big><big><b>chaḥ</b></big></big></center>
-ja_aa	<center><big><big><big><big><big>जा</big></big></big></big></big></center>	<center><big><big><b>jā</b></big></big></center>
-ja_i	<center><big><big><big><big><big>जि</big></big></big></big></big></center>	<center><big><big><b>ji</b></big></big></center>
-ja_ii	<center><big><big><big><big><big>जी</big></big></big></big></big></center>	<center><big><big><b>jī</b></big></big></center>
-ja_u	<center><big><big><big><big><big>जु</big></big></big></big></big></center>	<center><big><big><b>ju</b></big></big></center>
-ja_uu	<center><big><big><big><big><big>जू</big></big></big></big></big></center>	<center><big><big><b>jū</b></big></big></center>
-ja_RRi	<center><big><big><big><big><big>जृ</big></big></big></big></big></center>	<center><big><big><b>jṛ</b></big></big></center>
-ja_RRI	<center><big><big><big><big><big>जॄ</big></big></big></big></big></center>	<center><big><big><b>jṝ</b></big></big></center>
-ja_LLi	<center><big><big><big><big><big>जॢ</big></big></big></big></big></center>	<center><big><big><b>jḷ</b></big></big></center>
-ja_e	<center><big><big><big><big><big>जे</big></big></big></big></big></center>	<center><big><big><b>je</b></big></big></center>
-ja_ai	<center><big><big><big><big><big>जै</big></big></big></big></big></center>	<center><big><big><b>jai</b></big></big></center>
-ja_o	<center><big><big><big><big><big>जो</big></big></big></big></big></center>	<center><big><big><b>jo</b></big></big></center>
-ja_au	<center><big><big><big><big><big>जौ</big></big></big></big></big></center>	<center><big><big><b>jau</b></big></big></center>
-ja_aM	<center><big><big><big><big><big>जं</big></big></big></big></big></center>	<center><big><big><b>jaṁ</b></big></big></center>
-ja_aH	<center><big><big><big><big><big>जः</big></big></big></big></big></center>	<center><big><big><b>jaḥ</b></big></big></center>
-jha_aa	<center><big><big><big><big><big>झा</big></big></big></big></big></center>	<center><big><big><b>jhā</b></big></big></center>
-jha_i	<center><big><big><big><big><big>झि</big></big></big></big></big></center>	<center><big><big><b>jhi</b></big></big></center>
-jha_ii	<center><big><big><big><big><big>झी</big></big></big></big></big></center>	<center><big><big><b>jhī</b></big></big></center>
-jha_u	<center><big><big><big><big><big>झु</big></big></big></big></big></center>	<center><big><big><b>jhu</b></big></big></center>
-jha_uu	<center><big><big><big><big><big>झू</big></big></big></big></big></center>	<center><big><big><b>jhū</b></big></big></center>
-jha_RRi	<center><big><big><big><big><big>झृ</big></big></big></big></big></center>	<center><big><big><b>jhṛ</b></big></big></center>
-jha_RRI	<center><big><big><big><big><big>झॄ</big></big></big></big></big></center>	<center><big><big><b>jhṝ</b></big></big></center>
-jha_LLi	<center><big><big><big><big><big>झॢ</big></big></big></big></big></center>	<center><big><big><b>jhḷ</b></big></big></center>
-jha_e	<center><big><big><big><big><big>झे</big></big></big></big></big></center>	<center><big><big><b>jhe</b></big></big></center>
-jha_ai	<center><big><big><big><big><big>झै</big></big></big></big></big></center>	<center><big><big><b>jhai</b></big></big></center>
-jha_o	<center><big><big><big><big><big>झो</big></big></big></big></big></center>	<center><big><big><b>jho</b></big></big></center>
-jha_au	<center><big><big><big><big><big>झौ</big></big></big></big></big></center>	<center><big><big><b>jhau</b></big></big></center>
-jha_aM	<center><big><big><big><big><big>झं</big></big></big></big></big></center>	<center><big><big><b>jhaṁ</b></big></big></center>
-jha_aH	<center><big><big><big><big><big>झः</big></big></big></big></big></center>	<center><big><big><b>jhaḥ</b></big></big></center>
-JNa_aa	<center><big><big><big><big><big>ञा</big></big></big></big></big></center>	<center><big><big><b>ñā</b></big></big></center>
-JNa_i	<center><big><big><big><big><big>ञि</big></big></big></big></big></center>	<center><big><big><b>ñi</b></big></big></center>
-JNa_ii	<center><big><big><big><big><big>ञी</big></big></big></big></big></center>	<center><big><big><b>ñī</b></big></big></center>
-JNa_u	<center><big><big><big><big><big>ञु</big></big></big></big></big></center>	<center><big><big><b>ñu</b></big></big></center>
-JNa_uu	<center><big><big><big><big><big>ञू</big></big></big></big></big></center>	<center><big><big><b>ñū</b></big></big></center>
-JNa_RRi	<center><big><big><big><big><big>ञृ</big></big></big></big></big></center>	<center><big><big><b>ñṛ</b></big></big></center>
-JNa_RRI	<center><big><big><big><big><big>ञॄ</big></big></big></big></big></center>	<center><big><big><b>ñṝ</b></big></big></center>
-JNa_LLi	<center><big><big><big><big><big>ञॢ</big></big></big></big></big></center>	<center><big><big><b>ñḷ</b></big></big></center>
-JNa_e	<center><big><big><big><big><big>ञे</big></big></big></big></big></center>	<center><big><big><b>ñe</b></big></big></center>
-JNa_ai	<center><big><big><big><big><big>ञै</big></big></big></big></big></center>	<center><big><big><b>ñai</b></big></big></center>
-JNa_o	<center><big><big><big><big><big>ञो</big></big></big></big></big></center>	<center><big><big><b>ño</b></big></big></center>
-JNa_au	<center><big><big><big><big><big>ञौ</big></big></big></big></big></center>	<center><big><big><b>ñau</b></big></big></center>
-JNa_aM	<center><big><big><big><big><big>ञं</big></big></big></big></big></center>	<center><big><big><b>ñaṁ</b></big></big></center>
-JNa_aH	<center><big><big><big><big><big>ञः</big></big></big></big></big></center>	<center><big><big><b>ñaḥ</b></big></big></center>
-Ta_aa	<center><big><big><big><big><big>टा</big></big></big></big></big></center>	<center><big><big><b>ṭā</b></big></big></center>
-Ta_i	<center><big><big><big><big><big>टि</big></big></big></big></big></center>	<center><big><big><b>ṭi</b></big></big></center>
-Ta_ii	<center><big><big><big><big><big>टी</big></big></big></big></big></center>	<center><big><big><b>ṭī</b></big></big></center>
-Ta_u	<center><big><big><big><big><big>टु</big></big></big></big></big></center>	<center><big><big><b>ṭu</b></big></big></center>
-Ta_uu	<center><big><big><big><big><big>टू</big></big></big></big></big></center>	<center><big><big><b>ṭū</b></big></big></center>
-Ta_RRi	<center><big><big><big><big><big>टृ</big></big></big></big></big></center>	<center><big><big><b>ṭṛ</b></big></big></center>
-Ta_RRI	<center><big><big><big><big><big>टॄ</big></big></big></big></big></center>	<center><big><big><b>ṭṝ</b></big></big></center>
-Ta_LLi	<center><big><big><big><big><big>टॢ</big></big></big></big></big></center>	<center><big><big><b>ṭḷ</b></big></big></center>
-Ta_e	<center><big><big><big><big><big>टे</big></big></big></big></big></center>	<center><big><big><b>ṭe</b></big></big></center>
-Ta_ai	<center><big><big><big><big><big>टै</big></big></big></big></big></center>	<center><big><big><b>ṭai</b></big></big></center>
-Ta_o	<center><big><big><big><big><big>टो</big></big></big></big></big></center>	<center><big><big><b>ṭo</b></big></big></center>
-Ta_au	<center><big><big><big><big><big>टौ</big></big></big></big></big></center>	<center><big><big><b>ṭau</b></big></big></center>
-Ta_aM	<center><big><big><big><big><big>टं</big></big></big></big></big></center>	<center><big><big><b>ṭaṁ</b></big></big></center>
-Ta_aH	<center><big><big><big><big><big>टः</big></big></big></big></big></center>	<center><big><big><b>ṭaḥ</b></big></big></center>
-Tha_aa	<center><big><big><big><big><big>ठा</big></big></big></big></big></center>	<center><big><big><b>ṭhā</b></big></big></center>
-Tha_i	<center><big><big><big><big><big>ठि</big></big></big></big></big></center>	<center><big><big><b>ṭhi</b></big></big></center>
-Tha_ii	<center><big><big><big><big><big>ठी</big></big></big></big></big></center>	<center><big><big><b>ṭhī</b></big></big></center>
-Tha_u	<center><big><big><big><big><big>ठु</big></big></big></big></big></center>	<center><big><big><b>ṭhu</b></big></big></center>
-Tha_uu	<center><big><big><big><big><big>ठू</big></big></big></big></big></center>	<center><big><big><b>ṭhū</b></big></big></center>
-Tha_RRi	<center><big><big><big><big><big>ठृ</big></big></big></big></big></center>	<center><big><big><b>ṭhṛ</b></big></big></center>
-Tha_RRI	<center><big><big><big><big><big>ठॄ</big></big></big></big></big></center>	<center><big><big><b>ṭhṝ</b></big></big></center>
-Tha_LLi	<center><big><big><big><big><big>ठॢ</big></big></big></big></big></center>	<center><big><big><b>ṭhḷ</b></big></big></center>
-Tha_e	<center><big><big><big><big><big>ठे</big></big></big></big></big></center>	<center><big><big><b>ṭhe</b></big></big></center>
-Tha_ai	<center><big><big><big><big><big>ठै</big></big></big></big></big></center>	<center><big><big><b>ṭhai</b></big></big></center>
-Tha_o	<center><big><big><big><big><big>ठो</big></big></big></big></big></center>	<center><big><big><b>ṭho</b></big></big></center>
-Tha_au	<center><big><big><big><big><big>ठौ</big></big></big></big></big></center>	<center><big><big><b>ṭhau</b></big></big></center>
-Tha_aM	<center><big><big><big><big><big>ठं</big></big></big></big></big></center>	<center><big><big><b>ṭhaṁ</b></big></big></center>
-Tha_aH	<center><big><big><big><big><big>ठः</big></big></big></big></big></center>	<center><big><big><b>ṭhaḥ</b></big></big></center>
-Da_aa	<center><big><big><big><big><big>डा</big></big></big></big></big></center>	<center><big><big><b>ḍā</b></big></big></center>
-Da_i	<center><big><big><big><big><big>डि</big></big></big></big></big></center>	<center><big><big><b>ḍi</b></big></big></center>
-Da_ii	<center><big><big><big><big><big>डी</big></big></big></big></big></center>	<center><big><big><b>ḍī</b></big></big></center>
-Da_u	<center><big><big><big><big><big>डु</big></big></big></big></big></center>	<center><big><big><b>ḍu</b></big></big></center>
-Da_uu	<center><big><big><big><big><big>डू</big></big></big></big></big></center>	<center><big><big><b>ḍū</b></big></big></center>
-Da_RRi	<center><big><big><big><big><big>डृ</big></big></big></big></big></center>	<center><big><big><b>ḍṛ</b></big></big></center>
-Da_RRI	<center><big><big><big><big><big>डॄ</big></big></big></big></big></center>	<center><big><big><b>ḍṝ</b></big></big></center>
-Da_LLi	<center><big><big><big><big><big>डॢ</big></big></big></big></big></center>	<center><big><big><b>ḍḷ</b></big></big></center>
-Da_e	<center><big><big><big><big><big>डे</big></big></big></big></big></center>	<center><big><big><b>ḍe</b></big></big></center>
-Da_ai	<center><big><big><big><big><big>डै</big></big></big></big></big></center>	<center><big><big><b>ḍai</b></big></big></center>
-Da_o	<center><big><big><big><big><big>डो</big></big></big></big></big></center>	<center><big><big><b>ḍo</b></big></big></center>
-Da_au	<center><big><big><big><big><big>डौ</big></big></big></big></big></center>	<center><big><big><b>ḍau</b></big></big></center>
-Da_aM	<center><big><big><big><big><big>डं</big></big></big></big></big></center>	<center><big><big><b>ḍaṁ</b></big></big></center>
-Da_aH	<center><big><big><big><big><big>डः</big></big></big></big></big></center>	<center><big><big><b>ḍaḥ</b></big></big></center>
-Dha_aa	<center><big><big><big><big><big>ढा</big></big></big></big></big></center>	<center><big><big><b>ḍhā</b></big></big></center>
-Dha_i	<center><big><big><big><big><big>ढि</big></big></big></big></big></center>	<center><big><big><b>ḍhi</b></big></big></center>
-Dha_ii	<center><big><big><big><big><big>ढी</big></big></big></big></big></center>	<center><big><big><b>ḍhī</b></big></big></center>
-Dha_u	<center><big><big><big><big><big>ढु</big></big></big></big></big></center>	<center><big><big><b>ḍhu</b></big></big></center>
-Dha_uu	<center><big><big><big><big><big>ढू</big></big></big></big></big></center>	<center><big><big><b>ḍhū</b></big></big></center>
-Dha_RRi	<center><big><big><big><big><big>ढृ</big></big></big></big></big></center>	<center><big><big><b>ḍhṛ</b></big></big></center>
-Dha_RRI	<center><big><big><big><big><big>ढॄ</big></big></big></big></big></center>	<center><big><big><b>ḍhṝ</b></big></big></center>
-Dha_LLi	<center><big><big><big><big><big>ढॢ</big></big></big></big></big></center>	<center><big><big><b>ḍhḷ</b></big></big></center>
-Dha_e	<center><big><big><big><big><big>ढे</big></big></big></big></big></center>	<center><big><big><b>ḍhe</b></big></big></center>
-Dha_ai	<center><big><big><big><big><big>ढै</big></big></big></big></big></center>	<center><big><big><b>ḍhai</b></big></big></center>
-Dha_o	<center><big><big><big><big><big>ढो</big></big></big></big></big></center>	<center><big><big><b>ḍho</b></big></big></center>
-Dha_au	<center><big><big><big><big><big>ढौ</big></big></big></big></big></center>	<center><big><big><b>ḍhau</b></big></big></center>
-Dha_aM	<center><big><big><big><big><big>ढं</big></big></big></big></big></center>	<center><big><big><b>ḍhaṁ</b></big></big></center>
-Dha_aH	<center><big><big><big><big><big>ढः</big></big></big></big></big></center>	<center><big><big><b>ḍhaḥ</b></big></big></center>
-Na_aa	<center><big><big><big><big><big>णा</big></big></big></big></big></center>	<center><big><big><b>ṇā</b></big></big></center>
-Na_i	<center><big><big><big><big><big>णि</big></big></big></big></big></center>	<center><big><big><b>ṇi</b></big></big></center>
-Na_ii	<center><big><big><big><big><big>णी</big></big></big></big></big></center>	<center><big><big><b>ṇī</b></big></big></center>
-Na_u	<center><big><big><big><big><big>णु</big></big></big></big></big></center>	<center><big><big><b>ṇu</b></big></big></center>
-Na_uu	<center><big><big><big><big><big>णू</big></big></big></big></big></center>	<center><big><big><b>ṇū</b></big></big></center>
-Na_RRi	<center><big><big><big><big><big>णृ</big></big></big></big></big></center>	<center><big><big><b>ṇṛ</b></big></big></center>
-Na_RRI	<center><big><big><big><big><big>णॄ</big></big></big></big></big></center>	<center><big><big><b>ṇṝ</b></big></big></center>
-Na_LLi	<center><big><big><big><big><big>णॢ</big></big></big></big></big></center>	<center><big><big><b>ṇḷ</b></big></big></center>
-Na_e	<center><big><big><big><big><big>णे</big></big></big></big></big></center>	<center><big><big><b>ṇe</b></big></big></center>
-Na_ai	<center><big><big><big><big><big>णै</big></big></big></big></big></center>	<center><big><big><b>ṇai</b></big></big></center>
-Na_o	<center><big><big><big><big><big>णो</big></big></big></big></big></center>	<center><big><big><b>ṇo</b></big></big></center>
-Na_au	<center><big><big><big><big><big>णौ</big></big></big></big></big></center>	<center><big><big><b>ṇau</b></big></big></center>
-Na_aM	<center><big><big><big><big><big>णं</big></big></big></big></big></center>	<center><big><big><b>ṇaṁ</b></big></big></center>
-Na_aH	<center><big><big><big><big><big>णः</big></big></big></big></big></center>	<center><big><big><b>ṇaḥ</b></big></big></center>
-ta_aa	<center><big><big><big><big><big>ता</big></big></big></big></big></center>	<center><big><big><b>tā</b></big></big></center>
-ta_i	<center><big><big><big><big><big>ति</big></big></big></big></big></center>	<center><big><big><b>ti</b></big></big></center>
-ta_ii	<center><big><big><big><big><big>ती</big></big></big></big></big></center>	<center><big><big><b>tī</b></big></big></center>
-ta_u	<center><big><big><big><big><big>तु</big></big></big></big></big></center>	<center><big><big><b>tu</b></big></big></center>
-ta_uu	<center><big><big><big><big><big>तू</big></big></big></big></big></center>	<center><big><big><b>tū</b></big></big></center>
-ta_RRi	<center><big><big><big><big><big>तृ</big></big></big></big></big></center>	<center><big><big><b>tṛ</b></big></big></center>
-ta_RRI	<center><big><big><big><big><big>तॄ</big></big></big></big></big></center>	<center><big><big><b>tṝ</b></big></big></center>
-ta_LLi	<center><big><big><big><big><big>तॢ</big></big></big></big></big></center>	<center><big><big><b>tḷ</b></big></big></center>
-ta_e	<center><big><big><big><big><big>ते</big></big></big></big></big></center>	<center><big><big><b>te</b></big></big></center>
-ta_ai	<center><big><big><big><big><big>तै</big></big></big></big></big></center>	<center><big><big><b>tai</b></big></big></center>
-ta_o	<center><big><big><big><big><big>तो</big></big></big></big></big></center>	<center><big><big><b>to</b></big></big></center>
-ta_au	<center><big><big><big><big><big>तौ</big></big></big></big></big></center>	<center><big><big><b>tau</b></big></big></center>
-ta_aM	<center><big><big><big><big><big>तं</big></big></big></big></big></center>	<center><big><big><b>taṁ</b></big></big></center>
-ta_aH	<center><big><big><big><big><big>तः</big></big></big></big></big></center>	<center><big><big><b>taḥ</b></big></big></center>
-tha_aa	<center><big><big><big><big><big>था</big></big></big></big></big></center>	<center><big><big><b>thā</b></big></big></center>
-tha_i	<center><big><big><big><big><big>थि</big></big></big></big></big></center>	<center><big><big><b>thi</b></big></big></center>
-tha_ii	<center><big><big><big><big><big>थी</big></big></big></big></big></center>	<center><big><big><b>thī</b></big></big></center>
-tha_u	<center><big><big><big><big><big>थु</big></big></big></big></big></center>	<center><big><big><b>thu</b></big></big></center>
-tha_uu	<center><big><big><big><big><big>थू</big></big></big></big></big></center>	<center><big><big><b>thū</b></big></big></center>
-tha_RRi	<center><big><big><big><big><big>थृ</big></big></big></big></big></center>	<center><big><big><b>thṛ</b></big></big></center>
-tha_RRI	<center><big><big><big><big><big>थॄ</big></big></big></big></big></center>	<center><big><big><b>thṝ</b></big></big></center>
-tha_LLi	<center><big><big><big><big><big>थॢ</big></big></big></big></big></center>	<center><big><big><b>thḷ</b></big></big></center>
-tha_e	<center><big><big><big><big><big>थे</big></big></big></big></big></center>	<center><big><big><b>the</b></big></big></center>
-tha_ai	<center><big><big><big><big><big>थै</big></big></big></big></big></center>	<center><big><big><b>thai</b></big></big></center>
-tha_o	<center><big><big><big><big><big>थो</big></big></big></big></big></center>	<center><big><big><b>tho</b></big></big></center>
-tha_au	<center><big><big><big><big><big>थौ</big></big></big></big></big></center>	<center><big><big><b>thau</b></big></big></center>
-tha_aM	<center><big><big><big><big><big>थं</big></big></big></big></big></center>	<center><big><big><b>thaṁ</b></big></big></center>
-tha_aH	<center><big><big><big><big><big>थः</big></big></big></big></big></center>	<center><big><big><b>thaḥ</b></big></big></center>
-da_aa	<center><big><big><big><big><big>दा</big></big></big></big></big></center>	<center><big><big><b>dā</b></big></big></center>
-da_i	<center><big><big><big><big><big>दि</big></big></big></big></big></center>	<center><big><big><b>di</b></big></big></center>
-da_ii	<center><big><big><big><big><big>दी</big></big></big></big></big></center>	<center><big><big><b>dī</b></big></big></center>
-da_u	<center><big><big><big><big><big>दु</big></big></big></big></big></center>	<center><big><big><b>du</b></big></big></center>
-da_uu	<center><big><big><big><big><big>दू</big></big></big></big></big></center>	<center><big><big><b>dū</b></big></big></center>
-da_RRi	<center><big><big><big><big><big>दृ</big></big></big></big></big></center>	<center><big><big><b>dṛ</b></big></big></center>
-da_RRI	<center><big><big><big><big><big>दॄ</big></big></big></big></big></center>	<center><big><big><b>dṝ</b></big></big></center>
-da_LLi	<center><big><big><big><big><big>दॢ</big></big></big></big></big></center>	<center><big><big><b>dḷ</b></big></big></center>
-da_e	<center><big><big><big><big><big>दे</big></big></big></big></big></center>	<center><big><big><b>de</b></big></big></center>
-da_ai	<center><big><big><big><big><big>दै</big></big></big></big></big></center>	<center><big><big><b>dai</b></big></big></center>
-da_o	<center><big><big><big><big><big>दो</big></big></big></big></big></center>	<center><big><big><b>do</b></big></big></center>
-da_au	<center><big><big><big><big><big>दौ</big></big></big></big></big></center>	<center><big><big><b>dau</b></big></big></center>
-da_aM	<center><big><big><big><big><big>दं</big></big></big></big></big></center>	<center><big><big><b>daṁ</b></big></big></center>
-da_aH	<center><big><big><big><big><big>दः</big></big></big></big></big></center>	<center><big><big><b>daḥ</b></big></big></center>
-dha_aa	<center><big><big><big><big><big>धा</big></big></big></big></big></center>	<center><big><big><b>dhā</b></big></big></center>
-dha_i	<center><big><big><big><big><big>धि</big></big></big></big></big></center>	<center><big><big><b>dhi</b></big></big></center>
-dha_ii	<center><big><big><big><big><big>धी</big></big></big></big></big></center>	<center><big><big><b>dhī</b></big></big></center>
-dha_u	<center><big><big><big><big><big>धु</big></big></big></big></big></center>	<center><big><big><b>dhu</b></big></big></center>
-dha_uu	<center><big><big><big><big><big>धू</big></big></big></big></big></center>	<center><big><big><b>dhū</b></big></big></center>
-dha_RRi	<center><big><big><big><big><big>धृ</big></big></big></big></big></center>	<center><big><big><b>dhṛ</b></big></big></center>
-dha_RRI	<center><big><big><big><big><big>धॄ</big></big></big></big></big></center>	<center><big><big><b>dhṝ</b></big></big></center>
-dha_LLi	<center><big><big><big><big><big>धॢ</big></big></big></big></big></center>	<center><big><big><b>dhḷ</b></big></big></center>
-dha_e	<center><big><big><big><big><big>धे</big></big></big></big></big></center>	<center><big><big><b>dhe</b></big></big></center>
-dha_ai	<center><big><big><big><big><big>धै</big></big></big></big></big></center>	<center><big><big><b>dhai</b></big></big></center>
-dha_o	<center><big><big><big><big><big>धो</big></big></big></big></big></center>	<center><big><big><b>dho</b></big></big></center>
-dha_au	<center><big><big><big><big><big>धौ</big></big></big></big></big></center>	<center><big><big><b>dhau</b></big></big></center>
-dha_aM	<center><big><big><big><big><big>धं</big></big></big></big></big></center>	<center><big><big><b>dhaṁ</b></big></big></center>
-dha_aH	<center><big><big><big><big><big>धः</big></big></big></big></big></center>	<center><big><big><b>dhaḥ</b></big></big></center>
-na_aa	<center><big><big><big><big><big>ना</big></big></big></big></big></center>	<center><big><big><b>nā</b></big></big></center>
-na_i	<center><big><big><big><big><big>नि</big></big></big></big></big></center>	<center><big><big><b>ni</b></big></big></center>
-na_ii	<center><big><big><big><big><big>नी</big></big></big></big></big></center>	<center><big><big><b>nī</b></big></big></center>
-na_u	<center><big><big><big><big><big>नु</big></big></big></big></big></center>	<center><big><big><b>nu</b></big></big></center>
-na_uu	<center><big><big><big><big><big>नू</big></big></big></big></big></center>	<center><big><big><b>nū</b></big></big></center>
-na_RRi	<center><big><big><big><big><big>नृ</big></big></big></big></big></center>	<center><big><big><b>nṛ</b></big></big></center>
-na_RRI	<center><big><big><big><big><big>नॄ</big></big></big></big></big></center>	<center><big><big><b>nṝ</b></big></big></center>
-na_LLi	<center><big><big><big><big><big>नॢ</big></big></big></big></big></center>	<center><big><big><b>nḷ</b></big></big></center>
-na_e	<center><big><big><big><big><big>ने</big></big></big></big></big></center>	<center><big><big><b>ne</b></big></big></center>
-na_ai	<center><big><big><big><big><big>नै</big></big></big></big></big></center>	<center><big><big><b>nai</b></big></big></center>
-na_o	<center><big><big><big><big><big>नो</big></big></big></big></big></center>	<center><big><big><b>no</b></big></big></center>
-na_au	<center><big><big><big><big><big>नौ</big></big></big></big></big></center>	<center><big><big><b>nau</b></big></big></center>
-na_aM	<center><big><big><big><big><big>नं</big></big></big></big></big></center>	<center><big><big><b>naṁ</b></big></big></center>
-na_aH	<center><big><big><big><big><big>नः</big></big></big></big></big></center>	<center><big><big><b>naḥ</b></big></big></center>
-pa_aa	<center><big><big><big><big><big>पा</big></big></big></big></big></center>	<center><big><big><b>pā</b></big></big></center>
-pa_i	<center><big><big><big><big><big>पि</big></big></big></big></big></center>	<center><big><big><b>pi</b></big></big></center>
-pa_ii	<center><big><big><big><big><big>पी</big></big></big></big></big></center>	<center><big><big><b>pī</b></big></big></center>
-pa_u	<center><big><big><big><big><big>पु</big></big></big></big></big></center>	<center><big><big><b>pu</b></big></big></center>
-pa_uu	<center><big><big><big><big><big>पू</big></big></big></big></big></center>	<center><big><big><b>pū</b></big></big></center>
-pa_RRi	<center><big><big><big><big><big>पृ</big></big></big></big></big></center>	<center><big><big><b>pṛ</b></big></big></center>
-pa_RRI	<center><big><big><big><big><big>पॄ</big></big></big></big></big></center>	<center><big><big><b>pṝ</b></big></big></center>
-pa_LLi	<center><big><big><big><big><big>पॢ</big></big></big></big></big></center>	<center><big><big><b>pḷ</b></big></big></center>
-pa_e	<center><big><big><big><big><big>पे</big></big></big></big></big></center>	<center><big><big><b>pe</b></big></big></center>
-pa_ai	<center><big><big><big><big><big>पै</big></big></big></big></big></center>	<center><big><big><b>pai</b></big></big></center>
-pa_o	<center><big><big><big><big><big>पो</big></big></big></big></big></center>	<center><big><big><b>po</b></big></big></center>
-pa_au	<center><big><big><big><big><big>पौ</big></big></big></big></big></center>	<center><big><big><b>pau</b></big></big></center>
-pa_aM	<center><big><big><big><big><big>पं</big></big></big></big></big></center>	<center><big><big><b>paṁ</b></big></big></center>
-pa_aH	<center><big><big><big><big><big>पः</big></big></big></big></big></center>	<center><big><big><b>paḥ</b></big></big></center>
-pha_aa	<center><big><big><big><big><big>फा</big></big></big></big></big></center>	<center><big><big><b>phā</b></big></big></center>
-pha_i	<center><big><big><big><big><big>फि</big></big></big></big></big></center>	<center><big><big><b>phi</b></big></big></center>
-pha_ii	<center><big><big><big><big><big>फी</big></big></big></big></big></center>	<center><big><big><b>phī</b></big></big></center>
-pha_u	<center><big><big><big><big><big>फु</big></big></big></big></big></center>	<center><big><big><b>phu</b></big></big></center>
-pha_uu	<center><big><big><big><big><big>फू</big></big></big></big></big></center>	<center><big><big><b>phū</b></big></big></center>
-pha_RRi	<center><big><big><big><big><big>फृ</big></big></big></big></big></center>	<center><big><big><b>phṛ</b></big></big></center>
-pha_RRI	<center><big><big><big><big><big>फॄ</big></big></big></big></big></center>	<center><big><big><b>phṝ</b></big></big></center>
-pha_LLi	<center><big><big><big><big><big>फॢ</big></big></big></big></big></center>	<center><big><big><b>phḷ</b></big></big></center>
-pha_e	<center><big><big><big><big><big>फे</big></big></big></big></big></center>	<center><big><big><b>phe</b></big></big></center>
-pha_ai	<center><big><big><big><big><big>फै</big></big></big></big></big></center>	<center><big><big><b>phai</b></big></big></center>
-pha_o	<center><big><big><big><big><big>फो</big></big></big></big></big></center>	<center><big><big><b>pho</b></big></big></center>
-pha_au	<center><big><big><big><big><big>फौ</big></big></big></big></big></center>	<center><big><big><b>phau</b></big></big></center>
-pha_aM	<center><big><big><big><big><big>फं</big></big></big></big></big></center>	<center><big><big><b>phaṁ</b></big></big></center>
-pha_aH	<center><big><big><big><big><big>फः</big></big></big></big></big></center>	<center><big><big><b>phaḥ</b></big></big></center>
-ba_aa	<center><big><big><big><big><big>बा</big></big></big></big></big></center>	<center><big><big><b>bā</b></big></big></center>
-ba_i	<center><big><big><big><big><big>बि</big></big></big></big></big></center>	<center><big><big><b>bi</b></big></big></center>
-ba_ii	<center><big><big><big><big><big>बी</big></big></big></big></big></center>	<center><big><big><b>bī</b></big></big></center>
-ba_u	<center><big><big><big><big><big>बु</big></big></big></big></big></center>	<center><big><big><b>bu</b></big></big></center>
-ba_uu	<center><big><big><big><big><big>बू</big></big></big></big></big></center>	<center><big><big><b>bū</b></big></big></center>
-ba_RRi	<center><big><big><big><big><big>बृ</big></big></big></big></big></center>	<center><big><big><b>bṛ</b></big></big></center>
-ba_RRI	<center><big><big><big><big><big>बॄ</big></big></big></big></big></center>	<center><big><big><b>bṝ</b></big></big></center>
-ba_LLi	<center><big><big><big><big><big>बॢ</big></big></big></big></big></center>	<center><big><big><b>bḷ</b></big></big></center>
-ba_e	<center><big><big><big><big><big>बे</big></big></big></big></big></center>	<center><big><big><b>be</b></big></big></center>
-ba_ai	<center><big><big><big><big><big>बै</big></big></big></big></big></center>	<center><big><big><b>bai</b></big></big></center>
-ba_o	<center><big><big><big><big><big>बो</big></big></big></big></big></center>	<center><big><big><b>bo</b></big></big></center>
-ba_au	<center><big><big><big><big><big>बौ</big></big></big></big></big></center>	<center><big><big><b>bau</b></big></big></center>
-ba_aM	<center><big><big><big><big><big>बं</big></big></big></big></big></center>	<center><big><big><b>baṁ</b></big></big></center>
-ba_aH	<center><big><big><big><big><big>बः</big></big></big></big></big></center>	<center><big><big><b>baḥ</b></big></big></center>
-bha_aa	<center><big><big><big><big><big>भा</big></big></big></big></big></center>	<center><big><big><b>bhā</b></big></big></center>
-bha_i	<center><big><big><big><big><big>भि</big></big></big></big></big></center>	<center><big><big><b>bhi</b></big></big></center>
-bha_ii	<center><big><big><big><big><big>भी</big></big></big></big></big></center>	<center><big><big><b>bhī</b></big></big></center>
-bha_u	<center><big><big><big><big><big>भु</big></big></big></big></big></center>	<center><big><big><b>bhu</b></big></big></center>
-bha_uu	<center><big><big><big><big><big>भू</big></big></big></big></big></center>	<center><big><big><b>bhū</b></big></big></center>
-bha_RRi	<center><big><big><big><big><big>भृ</big></big></big></big></big></center>	<center><big><big><b>bhṛ</b></big></big></center>
-bha_RRI	<center><big><big><big><big><big>भॄ</big></big></big></big></big></center>	<center><big><big><b>bhṝ</b></big></big></center>
-bha_LLi	<center><big><big><big><big><big>भॢ</big></big></big></big></big></center>	<center><big><big><b>bhḷ</b></big></big></center>
-bha_e	<center><big><big><big><big><big>भे</big></big></big></big></big></center>	<center><big><big><b>bhe</b></big></big></center>
-bha_ai	<center><big><big><big><big><big>भै</big></big></big></big></big></center>	<center><big><big><b>bhai</b></big></big></center>
-bha_o	<center><big><big><big><big><big>भो</big></big></big></big></big></center>	<center><big><big><b>bho</b></big></big></center>
-bha_au	<center><big><big><big><big><big>भौ</big></big></big></big></big></center>	<center><big><big><b>bhau</b></big></big></center>
-bha_aM	<center><big><big><big><big><big>भं</big></big></big></big></big></center>	<center><big><big><b>bhaṁ</b></big></big></center>
-bha_aH	<center><big><big><big><big><big>भः</big></big></big></big></big></center>	<center><big><big><b>bhaḥ</b></big></big></center>
-ma_aa	<center><big><big><big><big><big>मा</big></big></big></big></big></center>	<center><big><big><b>mā</b></big></big></center>
-ma_i	<center><big><big><big><big><big>मि</big></big></big></big></big></center>	<center><big><big><b>mi</b></big></big></center>
-ma_ii	<center><big><big><big><big><big>मी</big></big></big></big></big></center>	<center><big><big><b>mī</b></big></big></center>
-ma_u	<center><big><big><big><big><big>मु</big></big></big></big></big></center>	<center><big><big><b>mu</b></big></big></center>
-ma_uu	<center><big><big><big><big><big>मू</big></big></big></big></big></center>	<center><big><big><b>mū</b></big></big></center>
-ma_RRi	<center><big><big><big><big><big>मृ</big></big></big></big></big></center>	<center><big><big><b>mṛ</b></big></big></center>
-ma_RRI	<center><big><big><big><big><big>मॄ</big></big></big></big></big></center>	<center><big><big><b>mṝ</b></big></big></center>
-ma_LLi	<center><big><big><big><big><big>मॢ</big></big></big></big></big></center>	<center><big><big><b>mḷ</b></big></big></center>
-ma_e	<center><big><big><big><big><big>मे</big></big></big></big></big></center>	<center><big><big><b>me</b></big></big></center>
-ma_ai	<center><big><big><big><big><big>मै</big></big></big></big></big></center>	<center><big><big><b>mai</b></big></big></center>
-ma_o	<center><big><big><big><big><big>मो</big></big></big></big></big></center>	<center><big><big><b>mo</b></big></big></center>
-ma_au	<center><big><big><big><big><big>मौ</big></big></big></big></big></center>	<center><big><big><b>mau</b></big></big></center>
-ma_aM	<center><big><big><big><big><big>मं</big></big></big></big></big></center>	<center><big><big><b>maṁ</b></big></big></center>
-ma_aH	<center><big><big><big><big><big>मः</big></big></big></big></big></center>	<center><big><big><b>maḥ</b></big></big></center>
-ya_aa	<center><big><big><big><big><big>या</big></big></big></big></big></center>	<center><big><big><b>yā</b></big></big></center>
-ya_i	<center><big><big><big><big><big>यि</big></big></big></big></big></center>	<center><big><big><b>yi</b></big></big></center>
-ya_ii	<center><big><big><big><big><big>यी</big></big></big></big></big></center>	<center><big><big><b>yī</b></big></big></center>
-ya_u	<center><big><big><big><big><big>यु</big></big></big></big></big></center>	<center><big><big><b>yu</b></big></big></center>
-ya_uu	<center><big><big><big><big><big>यू</big></big></big></big></big></center>	<center><big><big><b>yū</b></big></big></center>
-ya_RRi	<center><big><big><big><big><big>यृ</big></big></big></big></big></center>	<center><big><big><b>yṛ</b></big></big></center>
-ya_RRI	<center><big><big><big><big><big>यॄ</big></big></big></big></big></center>	<center><big><big><b>yṝ</b></big></big></center>
-ya_LLi	<center><big><big><big><big><big>यॢ</big></big></big></big></big></center>	<center><big><big><b>yḷ</b></big></big></center>
-ya_e	<center><big><big><big><big><big>ये</big></big></big></big></big></center>	<center><big><big><b>ye</b></big></big></center>
-ya_ai	<center><big><big><big><big><big>यै</big></big></big></big></big></center>	<center><big><big><b>yai</b></big></big></center>
-ya_o	<center><big><big><big><big><big>यो</big></big></big></big></big></center>	<center><big><big><b>yo</b></big></big></center>
-ya_au	<center><big><big><big><big><big>यौ</big></big></big></big></big></center>	<center><big><big><b>yau</b></big></big></center>
-ya_aM	<center><big><big><big><big><big>यं</big></big></big></big></big></center>	<center><big><big><b>yaṁ</b></big></big></center>
-ya_aH	<center><big><big><big><big><big>यः</big></big></big></big></big></center>	<center><big><big><b>yaḥ</b></big></big></center>
-ra_aa	<center><big><big><big><big><big>रा</big></big></big></big></big></center>	<center><big><big><b>rā</b></big></big></center>
-ra_i	<center><big><big><big><big><big>रि</big></big></big></big></big></center>	<center><big><big><b>ri</b></big></big></center>
-ra_ii	<center><big><big><big><big><big>री</big></big></big></big></big></center>	<center><big><big><b>rī</b></big></big></center>
-ra_u	<center><big><big><big><big><big>रु</big></big></big></big></big></center>	<center><big><big><b>ru</b></big></big></center>
-ra_uu	<center><big><big><big><big><big>रू</big></big></big></big></big></center>	<center><big><big><b>rū</b></big></big></center>
-ra_RRi	<center><big><big><big><big><big>रृ</big></big></big></big></big></center>	<center><big><big><b>rṛ</b></big></big></center>
-ra_RRI	<center><big><big><big><big><big>रॄ</big></big></big></big></big></center>	<center><big><big><b>rṝ</b></big></big></center>
-ra_LLi	<center><big><big><big><big><big>रॢ</big></big></big></big></big></center>	<center><big><big><b>rḷ</b></big></big></center>
-ra_e	<center><big><big><big><big><big>रे</big></big></big></big></big></center>	<center><big><big><b>re</b></big></big></center>
-ra_ai	<center><big><big><big><big><big>रै</big></big></big></big></big></center>	<center><big><big><b>rai</b></big></big></center>
-ra_o	<center><big><big><big><big><big>रो</big></big></big></big></big></center>	<center><big><big><b>ro</b></big></big></center>
-ra_au	<center><big><big><big><big><big>रौ</big></big></big></big></big></center>	<center><big><big><b>rau</b></big></big></center>
-ra_aM	<center><big><big><big><big><big>रं</big></big></big></big></big></center>	<center><big><big><b>raṁ</b></big></big></center>
-ra_aH	<center><big><big><big><big><big>रः</big></big></big></big></big></center>	<center><big><big><b>raḥ</b></big></big></center>
-la_aa	<center><big><big><big><big><big>ला</big></big></big></big></big></center>	<center><big><big><b>lā</b></big></big></center>
-la_i	<center><big><big><big><big><big>लि</big></big></big></big></big></center>	<center><big><big><b>li</b></big></big></center>
-la_ii	<center><big><big><big><big><big>ली</big></big></big></big></big></center>	<center><big><big><b>lī</b></big></big></center>
-la_u	<center><big><big><big><big><big>लु</big></big></big></big></big></center>	<center><big><big><b>lu</b></big></big></center>
-la_uu	<center><big><big><big><big><big>लू</big></big></big></big></big></center>	<center><big><big><b>lū</b></big></big></center>
-la_RRi	<center><big><big><big><big><big>लृ</big></big></big></big></big></center>	<center><big><big><b>lṛ</b></big></big></center>
-la_RRI	<center><big><big><big><big><big>लॄ</big></big></big></big></big></center>	<center><big><big><b>lṝ</b></big></big></center>
-la_LLi	<center><big><big><big><big><big>लॢ</big></big></big></big></big></center>	<center><big><big><b>lḷ</b></big></big></center>
-la_e	<center><big><big><big><big><big>ले</big></big></big></big></big></center>	<center><big><big><b>le</b></big></big></center>
-la_ai	<center><big><big><big><big><big>लै</big></big></big></big></big></center>	<center><big><big><b>lai</b></big></big></center>
-la_o	<center><big><big><big><big><big>लो</big></big></big></big></big></center>	<center><big><big><b>lo</b></big></big></center>
-la_au	<center><big><big><big><big><big>लौ</big></big></big></big></big></center>	<center><big><big><b>lau</b></big></big></center>
-la_aM	<center><big><big><big><big><big>लं</big></big></big></big></big></center>	<center><big><big><b>laṁ</b></big></big></center>
-la_aH	<center><big><big><big><big><big>लः</big></big></big></big></big></center>	<center><big><big><b>laḥ</b></big></big></center>
-va_aa	<center><big><big><big><big><big>वा</big></big></big></big></big></center>	<center><big><big><b>vā</b></big></big></center>
-va_i	<center><big><big><big><big><big>वि</big></big></big></big></big></center>	<center><big><big><b>vi</b></big></big></center>
-va_ii	<center><big><big><big><big><big>वी</big></big></big></big></big></center>	<center><big><big><b>vī</b></big></big></center>
-va_u	<center><big><big><big><big><big>वु</big></big></big></big></big></center>	<center><big><big><b>vu</b></big></big></center>
-va_uu	<center><big><big><big><big><big>वू</big></big></big></big></big></center>	<center><big><big><b>vū</b></big></big></center>
-va_RRi	<center><big><big><big><big><big>वृ</big></big></big></big></big></center>	<center><big><big><b>vṛ</b></big></big></center>
-va_RRI	<center><big><big><big><big><big>वॄ</big></big></big></big></big></center>	<center><big><big><b>vṝ</b></big></big></center>
-va_LLi	<center><big><big><big><big><big>वॢ</big></big></big></big></big></center>	<center><big><big><b>vḷ</b></big></big></center>
-va_e	<center><big><big><big><big><big>वे</big></big></big></big></big></center>	<center><big><big><b>ve</b></big></big></center>
-va_ai	<center><big><big><big><big><big>वै</big></big></big></big></big></center>	<center><big><big><b>vai</b></big></big></center>
-va_o	<center><big><big><big><big><big>वो</big></big></big></big></big></center>	<center><big><big><b>vo</b></big></big></center>
-va_au	<center><big><big><big><big><big>वौ</big></big></big></big></big></center>	<center><big><big><b>vau</b></big></big></center>
-va_aM	<center><big><big><big><big><big>वं</big></big></big></big></big></center>	<center><big><big><b>vaṁ</b></big></big></center>
-va_aH	<center><big><big><big><big><big>वः</big></big></big></big></big></center>	<center><big><big><b>vaḥ</b></big></big></center>
-sha_aa	<center><big><big><big><big><big>शा</big></big></big></big></big></center>	<center><big><big><b>śā</b></big></big></center>
-sha_i	<center><big><big><big><big><big>शि</big></big></big></big></big></center>	<center><big><big><b>śi</b></big></big></center>
-sha_ii	<center><big><big><big><big><big>शी</big></big></big></big></big></center>	<center><big><big><b>śī</b></big></big></center>
-sha_u	<center><big><big><big><big><big>शु</big></big></big></big></big></center>	<center><big><big><b>śu</b></big></big></center>
-sha_uu	<center><big><big><big><big><big>शू</big></big></big></big></big></center>	<center><big><big><b>śū</b></big></big></center>
-sha_RRi	<center><big><big><big><big><big>शृ</big></big></big></big></big></center>	<center><big><big><b>śṛ</b></big></big></center>
-sha_RRI	<center><big><big><big><big><big>शॄ</big></big></big></big></big></center>	<center><big><big><b>śṝ</b></big></big></center>
-sha_LLi	<center><big><big><big><big><big>शॢ</big></big></big></big></big></center>	<center><big><big><b>śḷ</b></big></big></center>
-sha_e	<center><big><big><big><big><big>शे</big></big></big></big></big></center>	<center><big><big><b>śe</b></big></big></center>
-sha_ai	<center><big><big><big><big><big>शै</big></big></big></big></big></center>	<center><big><big><b>śai</b></big></big></center>
-sha_o	<center><big><big><big><big><big>शो</big></big></big></big></big></center>	<center><big><big><b>śo</b></big></big></center>
-sha_au	<center><big><big><big><big><big>शौ</big></big></big></big></big></center>	<center><big><big><b>śau</b></big></big></center>
-sha_aM	<center><big><big><big><big><big>शं</big></big></big></big></big></center>	<center><big><big><b>śaṁ</b></big></big></center>
-sha_aH	<center><big><big><big><big><big>शः</big></big></big></big></big></center>	<center><big><big><b>śaḥ</b></big></big></center>
-Sha_aa	<center><big><big><big><big><big>षा</big></big></big></big></big></center>	<center><big><big><b>ṣā</b></big></big></center>
-Sha_i	<center><big><big><big><big><big>षि</big></big></big></big></big></center>	<center><big><big><b>ṣi</b></big></big></center>
-Sha_ii	<center><big><big><big><big><big>षी</big></big></big></big></big></center>	<center><big><big><b>ṣī</b></big></big></center>
-Sha_u	<center><big><big><big><big><big>षु</big></big></big></big></big></center>	<center><big><big><b>ṣu</b></big></big></center>
-Sha_uu	<center><big><big><big><big><big>षू</big></big></big></big></big></center>	<center><big><big><b>ṣū</b></big></big></center>
-Sha_RRi	<center><big><big><big><big><big>षृ</big></big></big></big></big></center>	<center><big><big><b>ṣṛ</b></big></big></center>
-Sha_RRI	<center><big><big><big><big><big>षॄ</big></big></big></big></big></center>	<center><big><big><b>ṣṝ</b></big></big></center>
-Sha_LLi	<center><big><big><big><big><big>षॢ</big></big></big></big></big></center>	<center><big><big><b>ṣḷ</b></big></big></center>
-Sha_e	<center><big><big><big><big><big>षे</big></big></big></big></big></center>	<center><big><big><b>ṣe</b></big></big></center>
-Sha_ai	<center><big><big><big><big><big>षै</big></big></big></big></big></center>	<center><big><big><b>ṣai</b></big></big></center>
-Sha_o	<center><big><big><big><big><big>षो</big></big></big></big></big></center>	<center><big><big><b>ṣo</b></big></big></center>
-Sha_au	<center><big><big><big><big><big>षौ</big></big></big></big></big></center>	<center><big><big><b>ṣau</b></big></big></center>
-Sha_aM	<center><big><big><big><big><big>षं</big></big></big></big></big></center>	<center><big><big><b>ṣaṁ</b></big></big></center>
-Sha_aH	<center><big><big><big><big><big>षः</big></big></big></big></big></center>	<center><big><big><b>ṣaḥ</b></big></big></center>
-sa_aa	<center><big><big><big><big><big>सा</big></big></big></big></big></center>	<center><big><big><b>sā</b></big></big></center>
-sa_i	<center><big><big><big><big><big>सि</big></big></big></big></big></center>	<center><big><big><b>si</b></big></big></center>
-sa_ii	<center><big><big><big><big><big>सी</big></big></big></big></big></center>	<center><big><big><b>sī</b></big></big></center>
-sa_u	<center><big><big><big><big><big>सु</big></big></big></big></big></center>	<center><big><big><b>su</b></big></big></center>
-sa_uu	<center><big><big><big><big><big>सू</big></big></big></big></big></center>	<center><big><big><b>sū</b></big></big></center>
-sa_RRi	<center><big><big><big><big><big>सृ</big></big></big></big></big></center>	<center><big><big><b>sṛ</b></big></big></center>
-sa_RRI	<center><big><big><big><big><big>सॄ</big></big></big></big></big></center>	<center><big><big><b>sṝ</b></big></big></center>
-sa_LLi	<center><big><big><big><big><big>सॢ</big></big></big></big></big></center>	<center><big><big><b>sḷ</b></big></big></center>
-sa_e	<center><big><big><big><big><big>से</big></big></big></big></big></center>	<center><big><big><b>se</b></big></big></center>
-sa_ai	<center><big><big><big><big><big>सै</big></big></big></big></big></center>	<center><big><big><b>sai</b></big></big></center>
-sa_o	<center><big><big><big><big><big>सो</big></big></big></big></big></center>	<center><big><big><b>so</b></big></big></center>
-sa_au	<center><big><big><big><big><big>सौ</big></big></big></big></big></center>	<center><big><big><b>sau</b></big></big></center>
-sa_aM	<center><big><big><big><big><big>सं</big></big></big></big></big></center>	<center><big><big><b>saṁ</b></big></big></center>
-sa_aH	<center><big><big><big><big><big>सः</big></big></big></big></big></center>	<center><big><big><b>saḥ</b></big></big></center>
-ha_aa	<center><big><big><big><big><big>हा</big></big></big></big></big></center>	<center><big><big><b>hā</b></big></big></center>
-ha_i	<center><big><big><big><big><big>हि</big></big></big></big></big></center>	<center><big><big><b>hi</b></big></big></center>
-ha_ii	<center><big><big><big><big><big>ही</big></big></big></big></big></center>	<center><big><big><b>hī</b></big></big></center>
-ha_u	<center><big><big><big><big><big>हु</big></big></big></big></big></center>	<center><big><big><b>hu</b></big></big></center>
-ha_uu	<center><big><big><big><big><big>हू</big></big></big></big></big></center>	<center><big><big><b>hū</b></big></big></center>
-ha_RRi	<center><big><big><big><big><big>हृ</big></big></big></big></big></center>	<center><big><big><b>hṛ</b></big></big></center>
-ha_RRI	<center><big><big><big><big><big>हॄ</big></big></big></big></big></center>	<center><big><big><b>hṝ</b></big></big></center>
-ha_LLi	<center><big><big><big><big><big>हॢ</big></big></big></big></big></center>	<center><big><big><b>hḷ</b></big></big></center>
-ha_e	<center><big><big><big><big><big>हे</big></big></big></big></big></center>	<center><big><big><b>he</b></big></big></center>
-ha_ai	<center><big><big><big><big><big>है</big></big></big></big></big></center>	<center><big><big><b>hai</b></big></big></center>
-ha_o	<center><big><big><big><big><big>हो</big></big></big></big></big></center>	<center><big><big><b>ho</b></big></big></center>
-ha_au	<center><big><big><big><big><big>हौ</big></big></big></big></big></center>	<center><big><big><b>hau</b></big></big></center>
-ha_aM	<center><big><big><big><big><big>हं</big></big></big></big></big></center>	<center><big><big><b>haṁ</b></big></big></center>
-ha_aH	<center><big><big><big><big><big>हः</big></big></big></big></big></center>	<center><big><big><b>haḥ</b></big></big></center>
-kSha_aa	<center><big><big><big><big><big>क्षा</big></big></big></big></big></center>	<center><big><big><b>kṣā</b></big></big></center>
-kSha_i	<center><big><big><big><big><big>क्षि</big></big></big></big></big></center>	<center><big><big><b>kṣi</b></big></big></center>
-kSha_ii	<center><big><big><big><big><big>क्षी</big></big></big></big></big></center>	<center><big><big><b>kṣī</b></big></big></center>
-kSha_u	<center><big><big><big><big><big>क्षु</big></big></big></big></big></center>	<center><big><big><b>kṣu</b></big></big></center>
-kSha_uu	<center><big><big><big><big><big>क्षू</big></big></big></big></big></center>	<center><big><big><b>kṣū</b></big></big></center>
-kSha_RRi	<center><big><big><big><big><big>क्षृ</big></big></big></big></big></center>	<center><big><big><b>kṣṛ</b></big></big></center>
-kSha_RRI	<center><big><big><big><big><big>क्षॄ</big></big></big></big></big></center>	<center><big><big><b>kṣṝ</b></big></big></center>
-kSha_LLi	<center><big><big><big><big><big>क्षॢ</big></big></big></big></big></center>	<center><big><big><b>kṣḷ</b></big></big></center>
-kSha_e	<center><big><big><big><big><big>क्षे</big></big></big></big></big></center>	<center><big><big><b>kṣe</b></big></big></center>
-kSha_ai	<center><big><big><big><big><big>क्षै</big></big></big></big></big></center>	<center><big><big><b>kṣai</b></big></big></center>
-kSha_o	<center><big><big><big><big><big>क्षो</big></big></big></big></big></center>	<center><big><big><b>kṣo</b></big></big></center>
-kSha_au	<center><big><big><big><big><big>क्षौ</big></big></big></big></big></center>	<center><big><big><b>kṣau</b></big></big></center>
-kSha_aM	<center><big><big><big><big><big>क्षं</big></big></big></big></big></center>	<center><big><big><b>kṣaṁ</b></big></big></center>
-kSha_aH	<center><big><big><big><big><big>क्षः</big></big></big></big></big></center>	<center><big><big><b>kṣaḥ</b></big></big></center>
-jJNa_aa	<center><big><big><big><big><big>ज्ञा</big></big></big></big></big></center>	<center><big><big><b>jñā</b></big></big></center>
-jJNa_i	<center><big><big><big><big><big>ज्ञि</big></big></big></big></big></center>	<center><big><big><b>jñi</b></big></big></center>
-jJNa_ii	<center><big><big><big><big><big>ज्ञी</big></big></big></big></big></center>	<center><big><big><b>jñī</b></big></big></center>
-jJNa_u	<center><big><big><big><big><big>ज्ञु</big></big></big></big></big></center>	<center><big><big><b>jñu</b></big></big></center>
-jJNa_uu	<center><big><big><big><big><big>ज्ञू</big></big></big></big></big></center>	<center><big><big><b>jñū</b></big></big></center>
-jJNa_RRi	<center><big><big><big><big><big>ज्ञृ</big></big></big></big></big></center>	<center><big><big><b>jñṛ</b></big></big></center>
-jJNa_RRI	<center><big><big><big><big><big>ज्ञॄ</big></big></big></big></big></center>	<center><big><big><b>jñṝ</b></big></big></center>
-jJNa_LLi	<center><big><big><big><big><big>ज्ञॢ</big></big></big></big></big></center>	<center><big><big><b>jñḷ</b></big></big></center>
-jJNa_e	<center><big><big><big><big><big>ज्ञे</big></big></big></big></big></center>	<center><big><big><b>jñe</b></big></big></center>
-jJNa_ai	<center><big><big><big><big><big>ज्ञै</big></big></big></big></big></center>	<center><big><big><b>jñai</b></big></big></center>
-jJNa_o	<center><big><big><big><big><big>ज्ञो</big></big></big></big></big></center>	<center><big><big><b>jño</b></big></big></center>
-jJNa_au	<center><big><big><big><big><big>ज्ञौ</big></big></big></big></big></center>	<center><big><big><b>jñau</b></big></big></center>
-jJNa_aM	<center><big><big><big><big><big>ज्ञं</big></big></big></big></big></center>	<center><big><big><b>jñaṁ</b></big></big></center>
-jJNa_aH	<center><big><big><big><big><big>ज्ञः</big></big></big></big></big></center>	<center><big><big><b>jñaḥ</b></big></big></center>
-aa_M	<center><big><big><big><big><big>आं</big></big></big></big></big></center>	<center><big><big><b>āṁ</b></big></big></center>
-aa_H	<center><big><big><big><big><big>आः</big></big></big></big></big></center>	<center><big><big><b>āḥ</b></big></big></center>
-i_M	<center><big><big><big><big><big>इं</big></big></big></big></big></center>	<center><big><big><b>iṁ</b></big></big></center>
-i_H	<center><big><big><big><big><big>इः</big></big></big></big></big></center>	<center><big><big><b>iḥ</b></big></big></center>
-ii_M	<center><big><big><big><big><big>ईं</big></big></big></big></big></center>	<center><big><big><b>īṁ</b></big></big></center>
-ii_H	<center><big><big><big><big><big>ईः</big></big></big></big></big></center>	<center><big><big><b>īḥ</b></big></big></center>
-u_M	<center><big><big><big><big><big>उं</big></big></big></big></big></center>	<center><big><big><b>uṁ</b></big></big></center>
-u_H	<center><big><big><big><big><big>उः</big></big></big></big></big></center>	<center><big><big><b>uḥ</b></big></big></center>
-uu_M	<center><big><big><big><big><big>ऊं</big></big></big></big></big></center>	<center><big><big><b>ūṁ</b></big></big></center>
-uu_H	<center><big><big><big><big><big>ऊः</big></big></big></big></big></center>	<center><big><big><b>ūḥ</b></big></big></center>
-RRi_M	<center><big><big><big><big><big>ऋं</big></big></big></big></big></center>	<center><big><big><b>ṛṁ</b></big></big></center>
-RRi_H	<center><big><big><big><big><big>ऋः</big></big></big></big></big></center>	<center><big><big><b>ṛḥ</b></big></big></center>
-RRI_M	<center><big><big><big><big><big>ॠं</big></big></big></big></big></center>	<center><big><big><b>ṝṁ</b></big></big></center>
-RRI_H	<center><big><big><big><big><big>ॠः</big></big></big></big></big></center>	<center><big><big><b>ṝḥ</b></big></big></center>
-LLi_M	<center><big><big><big><big><big>ऌं</big></big></big></big></big></center>	<center><big><big><b>ḷṁ</b></big></big></center>
-LLi_H	<center><big><big><big><big><big>ऌः</big></big></big></big></big></center>	<center><big><big><b>ḷḥ</b></big></big></center>
-e_M	<center><big><big><big><big><big>एं</big></big></big></big></big></center>	<center><big><big><b>eṁ</b></big></big></center>
-e_H	<center><big><big><big><big><big>एः</big></big></big></big></big></center>	<center><big><big><b>eḥ</b></big></big></center>
-ai_M	<center><big><big><big><big><big>ऐं</big></big></big></big></big></center>	<center><big><big><b>aiṁ</b></big></big></center>
-ai_H	<center><big><big><big><big><big>ऐः</big></big></big></big></big></center>	<center><big><big><b>aiḥ</b></big></big></center>
-o_M	<center><big><big><big><big><big>ओं</big></big></big></big></big></center>	<center><big><big><b>oṁ</b></big></big></center>
-o_H	<center><big><big><big><big><big>ओः</big></big></big></big></big></center>	<center><big><big><b>oḥ</b></big></big></center>
-au_M	<center><big><big><big><big><big>औं</big></big></big></big></big></center>	<center><big><big><b>auṁ</b></big></big></center>
-au_H	<center><big><big><big><big><big>औः</big></big></big></big></big></center>	<center><big><big><b>auḥ</b></big></big></center>
+ka_aa	<center><big><big><big><big><big>का</big></big></big></big></big></center>	<center><big><big><b>kā</b></big></big><br><big>क + आ</big></center>
+ka_i	<center><big><big><big><big><big>कि</big></big></big></big></big></center>	<center><big><big><b>ki</b></big></big><br><big>क + इ</big></center>
+ka_ii	<center><big><big><big><big><big>की</big></big></big></big></big></center>	<center><big><big><b>kī</b></big></big><br><big>क + ई</big></center>
+ka_u	<center><big><big><big><big><big>कु</big></big></big></big></big></center>	<center><big><big><b>ku</b></big></big><br><big>क + उ</big></center>
+ka_uu	<center><big><big><big><big><big>कू</big></big></big></big></big></center>	<center><big><big><b>kū</b></big></big><br><big>क + ऊ</big></center>
+ka_RRi	<center><big><big><big><big><big>कृ</big></big></big></big></big></center>	<center><big><big><b>kṛ</b></big></big><br><big>क + ऋ</big></center>
+ka_RRI	<center><big><big><big><big><big>कॄ</big></big></big></big></big></center>	<center><big><big><b>kṝ</b></big></big><br><big>क + ॠ</big></center>
+ka_LLi	<center><big><big><big><big><big>कॢ</big></big></big></big></big></center>	<center><big><big><b>kḷ</b></big></big><br><big>क + ऌ</big></center>
+ka_e	<center><big><big><big><big><big>के</big></big></big></big></big></center>	<center><big><big><b>ke</b></big></big><br><big>क + ए</big></center>
+ka_ai	<center><big><big><big><big><big>कै</big></big></big></big></big></center>	<center><big><big><b>kai</b></big></big><br><big>क + ऐ</big></center>
+ka_o	<center><big><big><big><big><big>को</big></big></big></big></big></center>	<center><big><big><b>ko</b></big></big><br><big>क + ओ</big></center>
+ka_au	<center><big><big><big><big><big>कौ</big></big></big></big></big></center>	<center><big><big><b>kau</b></big></big><br><big>क + औ</big></center>
+ka_aM	<center><big><big><big><big><big>कं</big></big></big></big></big></center>	<center><big><big><b>kaṁ</b></big></big><br><big>क + ◌ं</big></center>
+ka_aH	<center><big><big><big><big><big>कः</big></big></big></big></big></center>	<center><big><big><b>kaḥ</b></big></big><br><big>क + ◌ः</big></center>
+kha_aa	<center><big><big><big><big><big>खा</big></big></big></big></big></center>	<center><big><big><b>khā</b></big></big><br><big>ख + आ</big></center>
+kha_i	<center><big><big><big><big><big>खि</big></big></big></big></big></center>	<center><big><big><b>khi</b></big></big><br><big>ख + इ</big></center>
+kha_ii	<center><big><big><big><big><big>खी</big></big></big></big></big></center>	<center><big><big><b>khī</b></big></big><br><big>ख + ई</big></center>
+kha_u	<center><big><big><big><big><big>खु</big></big></big></big></big></center>	<center><big><big><b>khu</b></big></big><br><big>ख + उ</big></center>
+kha_uu	<center><big><big><big><big><big>खू</big></big></big></big></big></center>	<center><big><big><b>khū</b></big></big><br><big>ख + ऊ</big></center>
+kha_RRi	<center><big><big><big><big><big>खृ</big></big></big></big></big></center>	<center><big><big><b>khṛ</b></big></big><br><big>ख + ऋ</big></center>
+kha_RRI	<center><big><big><big><big><big>खॄ</big></big></big></big></big></center>	<center><big><big><b>khṝ</b></big></big><br><big>ख + ॠ</big></center>
+kha_LLi	<center><big><big><big><big><big>खॢ</big></big></big></big></big></center>	<center><big><big><b>khḷ</b></big></big><br><big>ख + ऌ</big></center>
+kha_e	<center><big><big><big><big><big>खे</big></big></big></big></big></center>	<center><big><big><b>khe</b></big></big><br><big>ख + ए</big></center>
+kha_ai	<center><big><big><big><big><big>खै</big></big></big></big></big></center>	<center><big><big><b>khai</b></big></big><br><big>ख + ऐ</big></center>
+kha_o	<center><big><big><big><big><big>खो</big></big></big></big></big></center>	<center><big><big><b>kho</b></big></big><br><big>ख + ओ</big></center>
+kha_au	<center><big><big><big><big><big>खौ</big></big></big></big></big></center>	<center><big><big><b>khau</b></big></big><br><big>ख + औ</big></center>
+kha_aM	<center><big><big><big><big><big>खं</big></big></big></big></big></center>	<center><big><big><b>khaṁ</b></big></big><br><big>ख + ◌ं</big></center>
+kha_aH	<center><big><big><big><big><big>खः</big></big></big></big></big></center>	<center><big><big><b>khaḥ</b></big></big><br><big>ख + ◌ः</big></center>
+ga_aa	<center><big><big><big><big><big>गा</big></big></big></big></big></center>	<center><big><big><b>gā</b></big></big><br><big>ग + आ</big></center>
+ga_i	<center><big><big><big><big><big>गि</big></big></big></big></big></center>	<center><big><big><b>gi</b></big></big><br><big>ग + इ</big></center>
+ga_ii	<center><big><big><big><big><big>गी</big></big></big></big></big></center>	<center><big><big><b>gī</b></big></big><br><big>ग + ई</big></center>
+ga_u	<center><big><big><big><big><big>गु</big></big></big></big></big></center>	<center><big><big><b>gu</b></big></big><br><big>ग + उ</big></center>
+ga_uu	<center><big><big><big><big><big>गू</big></big></big></big></big></center>	<center><big><big><b>gū</b></big></big><br><big>ग + ऊ</big></center>
+ga_RRi	<center><big><big><big><big><big>गृ</big></big></big></big></big></center>	<center><big><big><b>gṛ</b></big></big><br><big>ग + ऋ</big></center>
+ga_RRI	<center><big><big><big><big><big>गॄ</big></big></big></big></big></center>	<center><big><big><b>gṝ</b></big></big><br><big>ग + ॠ</big></center>
+ga_LLi	<center><big><big><big><big><big>गॢ</big></big></big></big></big></center>	<center><big><big><b>gḷ</b></big></big><br><big>ग + ऌ</big></center>
+ga_e	<center><big><big><big><big><big>गे</big></big></big></big></big></center>	<center><big><big><b>ge</b></big></big><br><big>ग + ए</big></center>
+ga_ai	<center><big><big><big><big><big>गै</big></big></big></big></big></center>	<center><big><big><b>gai</b></big></big><br><big>ग + ऐ</big></center>
+ga_o	<center><big><big><big><big><big>गो</big></big></big></big></big></center>	<center><big><big><b>go</b></big></big><br><big>ग + ओ</big></center>
+ga_au	<center><big><big><big><big><big>गौ</big></big></big></big></big></center>	<center><big><big><b>gau</b></big></big><br><big>ग + औ</big></center>
+ga_aM	<center><big><big><big><big><big>गं</big></big></big></big></big></center>	<center><big><big><b>gaṁ</b></big></big><br><big>ग + ◌ं</big></center>
+ga_aH	<center><big><big><big><big><big>गः</big></big></big></big></big></center>	<center><big><big><b>gaḥ</b></big></big><br><big>ग + ◌ः</big></center>
+gha_aa	<center><big><big><big><big><big>घा</big></big></big></big></big></center>	<center><big><big><b>ghā</b></big></big><br><big>घ + आ</big></center>
+gha_i	<center><big><big><big><big><big>घि</big></big></big></big></big></center>	<center><big><big><b>ghi</b></big></big><br><big>घ + इ</big></center>
+gha_ii	<center><big><big><big><big><big>घी</big></big></big></big></big></center>	<center><big><big><b>ghī</b></big></big><br><big>घ + ई</big></center>
+gha_u	<center><big><big><big><big><big>घु</big></big></big></big></big></center>	<center><big><big><b>ghu</b></big></big><br><big>घ + उ</big></center>
+gha_uu	<center><big><big><big><big><big>घू</big></big></big></big></big></center>	<center><big><big><b>ghū</b></big></big><br><big>घ + ऊ</big></center>
+gha_RRi	<center><big><big><big><big><big>घृ</big></big></big></big></big></center>	<center><big><big><b>ghṛ</b></big></big><br><big>घ + ऋ</big></center>
+gha_RRI	<center><big><big><big><big><big>घॄ</big></big></big></big></big></center>	<center><big><big><b>ghṝ</b></big></big><br><big>घ + ॠ</big></center>
+gha_LLi	<center><big><big><big><big><big>घॢ</big></big></big></big></big></center>	<center><big><big><b>ghḷ</b></big></big><br><big>घ + ऌ</big></center>
+gha_e	<center><big><big><big><big><big>घे</big></big></big></big></big></center>	<center><big><big><b>ghe</b></big></big><br><big>घ + ए</big></center>
+gha_ai	<center><big><big><big><big><big>घै</big></big></big></big></big></center>	<center><big><big><b>ghai</b></big></big><br><big>घ + ऐ</big></center>
+gha_o	<center><big><big><big><big><big>घो</big></big></big></big></big></center>	<center><big><big><b>gho</b></big></big><br><big>घ + ओ</big></center>
+gha_au	<center><big><big><big><big><big>घौ</big></big></big></big></big></center>	<center><big><big><b>ghau</b></big></big><br><big>घ + औ</big></center>
+gha_aM	<center><big><big><big><big><big>घं</big></big></big></big></big></center>	<center><big><big><b>ghaṁ</b></big></big><br><big>घ + ◌ं</big></center>
+gha_aH	<center><big><big><big><big><big>घः</big></big></big></big></big></center>	<center><big><big><b>ghaḥ</b></big></big><br><big>घ + ◌ः</big></center>
+GNa_aa	<center><big><big><big><big><big>ङा</big></big></big></big></big></center>	<center><big><big><b>ṅā</b></big></big><br><big>ङ + आ</big></center>
+GNa_i	<center><big><big><big><big><big>ङि</big></big></big></big></big></center>	<center><big><big><b>ṅi</b></big></big><br><big>ङ + इ</big></center>
+GNa_ii	<center><big><big><big><big><big>ङी</big></big></big></big></big></center>	<center><big><big><b>ṅī</b></big></big><br><big>ङ + ई</big></center>
+GNa_u	<center><big><big><big><big><big>ङु</big></big></big></big></big></center>	<center><big><big><b>ṅu</b></big></big><br><big>ङ + उ</big></center>
+GNa_uu	<center><big><big><big><big><big>ङू</big></big></big></big></big></center>	<center><big><big><b>ṅū</b></big></big><br><big>ङ + ऊ</big></center>
+GNa_RRi	<center><big><big><big><big><big>ङृ</big></big></big></big></big></center>	<center><big><big><b>ṅṛ</b></big></big><br><big>ङ + ऋ</big></center>
+GNa_RRI	<center><big><big><big><big><big>ङॄ</big></big></big></big></big></center>	<center><big><big><b>ṅṝ</b></big></big><br><big>ङ + ॠ</big></center>
+GNa_LLi	<center><big><big><big><big><big>ङॢ</big></big></big></big></big></center>	<center><big><big><b>ṅḷ</b></big></big><br><big>ङ + ऌ</big></center>
+GNa_e	<center><big><big><big><big><big>ङे</big></big></big></big></big></center>	<center><big><big><b>ṅe</b></big></big><br><big>ङ + ए</big></center>
+GNa_ai	<center><big><big><big><big><big>ङै</big></big></big></big></big></center>	<center><big><big><b>ṅai</b></big></big><br><big>ङ + ऐ</big></center>
+GNa_o	<center><big><big><big><big><big>ङो</big></big></big></big></big></center>	<center><big><big><b>ṅo</b></big></big><br><big>ङ + ओ</big></center>
+GNa_au	<center><big><big><big><big><big>ङौ</big></big></big></big></big></center>	<center><big><big><b>ṅau</b></big></big><br><big>ङ + औ</big></center>
+GNa_aM	<center><big><big><big><big><big>ङं</big></big></big></big></big></center>	<center><big><big><b>ṅaṁ</b></big></big><br><big>ङ + ◌ं</big></center>
+GNa_aH	<center><big><big><big><big><big>ङः</big></big></big></big></big></center>	<center><big><big><b>ṅaḥ</b></big></big><br><big>ङ + ◌ः</big></center>
+ca_aa	<center><big><big><big><big><big>चा</big></big></big></big></big></center>	<center><big><big><b>cā</b></big></big><br><big>च + आ</big></center>
+ca_i	<center><big><big><big><big><big>चि</big></big></big></big></big></center>	<center><big><big><b>ci</b></big></big><br><big>च + इ</big></center>
+ca_ii	<center><big><big><big><big><big>ची</big></big></big></big></big></center>	<center><big><big><b>cī</b></big></big><br><big>च + ई</big></center>
+ca_u	<center><big><big><big><big><big>चु</big></big></big></big></big></center>	<center><big><big><b>cu</b></big></big><br><big>च + उ</big></center>
+ca_uu	<center><big><big><big><big><big>चू</big></big></big></big></big></center>	<center><big><big><b>cū</b></big></big><br><big>च + ऊ</big></center>
+ca_RRi	<center><big><big><big><big><big>चृ</big></big></big></big></big></center>	<center><big><big><b>cṛ</b></big></big><br><big>च + ऋ</big></center>
+ca_RRI	<center><big><big><big><big><big>चॄ</big></big></big></big></big></center>	<center><big><big><b>cṝ</b></big></big><br><big>च + ॠ</big></center>
+ca_LLi	<center><big><big><big><big><big>चॢ</big></big></big></big></big></center>	<center><big><big><b>cḷ</b></big></big><br><big>च + ऌ</big></center>
+ca_e	<center><big><big><big><big><big>चे</big></big></big></big></big></center>	<center><big><big><b>ce</b></big></big><br><big>च + ए</big></center>
+ca_ai	<center><big><big><big><big><big>चै</big></big></big></big></big></center>	<center><big><big><b>cai</b></big></big><br><big>च + ऐ</big></center>
+ca_o	<center><big><big><big><big><big>चो</big></big></big></big></big></center>	<center><big><big><b>co</b></big></big><br><big>च + ओ</big></center>
+ca_au	<center><big><big><big><big><big>चौ</big></big></big></big></big></center>	<center><big><big><b>cau</b></big></big><br><big>च + औ</big></center>
+ca_aM	<center><big><big><big><big><big>चं</big></big></big></big></big></center>	<center><big><big><b>caṁ</b></big></big><br><big>च + ◌ं</big></center>
+ca_aH	<center><big><big><big><big><big>चः</big></big></big></big></big></center>	<center><big><big><b>caḥ</b></big></big><br><big>च + ◌ः</big></center>
+cha_aa	<center><big><big><big><big><big>छा</big></big></big></big></big></center>	<center><big><big><b>chā</b></big></big><br><big>छ + आ</big></center>
+cha_i	<center><big><big><big><big><big>छि</big></big></big></big></big></center>	<center><big><big><b>chi</b></big></big><br><big>छ + इ</big></center>
+cha_ii	<center><big><big><big><big><big>छी</big></big></big></big></big></center>	<center><big><big><b>chī</b></big></big><br><big>छ + ई</big></center>
+cha_u	<center><big><big><big><big><big>छु</big></big></big></big></big></center>	<center><big><big><b>chu</b></big></big><br><big>छ + उ</big></center>
+cha_uu	<center><big><big><big><big><big>छू</big></big></big></big></big></center>	<center><big><big><b>chū</b></big></big><br><big>छ + ऊ</big></center>
+cha_RRi	<center><big><big><big><big><big>छृ</big></big></big></big></big></center>	<center><big><big><b>chṛ</b></big></big><br><big>छ + ऋ</big></center>
+cha_RRI	<center><big><big><big><big><big>छॄ</big></big></big></big></big></center>	<center><big><big><b>chṝ</b></big></big><br><big>छ + ॠ</big></center>
+cha_LLi	<center><big><big><big><big><big>छॢ</big></big></big></big></big></center>	<center><big><big><b>chḷ</b></big></big><br><big>छ + ऌ</big></center>
+cha_e	<center><big><big><big><big><big>छे</big></big></big></big></big></center>	<center><big><big><b>che</b></big></big><br><big>छ + ए</big></center>
+cha_ai	<center><big><big><big><big><big>छै</big></big></big></big></big></center>	<center><big><big><b>chai</b></big></big><br><big>छ + ऐ</big></center>
+cha_o	<center><big><big><big><big><big>छो</big></big></big></big></big></center>	<center><big><big><b>cho</b></big></big><br><big>छ + ओ</big></center>
+cha_au	<center><big><big><big><big><big>छौ</big></big></big></big></big></center>	<center><big><big><b>chau</b></big></big><br><big>छ + औ</big></center>
+cha_aM	<center><big><big><big><big><big>छं</big></big></big></big></big></center>	<center><big><big><b>chaṁ</b></big></big><br><big>छ + ◌ं</big></center>
+cha_aH	<center><big><big><big><big><big>छः</big></big></big></big></big></center>	<center><big><big><b>chaḥ</b></big></big><br><big>छ + ◌ः</big></center>
+ja_aa	<center><big><big><big><big><big>जा</big></big></big></big></big></center>	<center><big><big><b>jā</b></big></big><br><big>ज + आ</big></center>
+ja_i	<center><big><big><big><big><big>जि</big></big></big></big></big></center>	<center><big><big><b>ji</b></big></big><br><big>ज + इ</big></center>
+ja_ii	<center><big><big><big><big><big>जी</big></big></big></big></big></center>	<center><big><big><b>jī</b></big></big><br><big>ज + ई</big></center>
+ja_u	<center><big><big><big><big><big>जु</big></big></big></big></big></center>	<center><big><big><b>ju</b></big></big><br><big>ज + उ</big></center>
+ja_uu	<center><big><big><big><big><big>जू</big></big></big></big></big></center>	<center><big><big><b>jū</b></big></big><br><big>ज + ऊ</big></center>
+ja_RRi	<center><big><big><big><big><big>जृ</big></big></big></big></big></center>	<center><big><big><b>jṛ</b></big></big><br><big>ज + ऋ</big></center>
+ja_RRI	<center><big><big><big><big><big>जॄ</big></big></big></big></big></center>	<center><big><big><b>jṝ</b></big></big><br><big>ज + ॠ</big></center>
+ja_LLi	<center><big><big><big><big><big>जॢ</big></big></big></big></big></center>	<center><big><big><b>jḷ</b></big></big><br><big>ज + ऌ</big></center>
+ja_e	<center><big><big><big><big><big>जे</big></big></big></big></big></center>	<center><big><big><b>je</b></big></big><br><big>ज + ए</big></center>
+ja_ai	<center><big><big><big><big><big>जै</big></big></big></big></big></center>	<center><big><big><b>jai</b></big></big><br><big>ज + ऐ</big></center>
+ja_o	<center><big><big><big><big><big>जो</big></big></big></big></big></center>	<center><big><big><b>jo</b></big></big><br><big>ज + ओ</big></center>
+ja_au	<center><big><big><big><big><big>जौ</big></big></big></big></big></center>	<center><big><big><b>jau</b></big></big><br><big>ज + औ</big></center>
+ja_aM	<center><big><big><big><big><big>जं</big></big></big></big></big></center>	<center><big><big><b>jaṁ</b></big></big><br><big>ज + ◌ं</big></center>
+ja_aH	<center><big><big><big><big><big>जः</big></big></big></big></big></center>	<center><big><big><b>jaḥ</b></big></big><br><big>ज + ◌ः</big></center>
+jha_aa	<center><big><big><big><big><big>झा</big></big></big></big></big></center>	<center><big><big><b>jhā</b></big></big><br><big>झ + आ</big></center>
+jha_i	<center><big><big><big><big><big>झि</big></big></big></big></big></center>	<center><big><big><b>jhi</b></big></big><br><big>झ + इ</big></center>
+jha_ii	<center><big><big><big><big><big>झी</big></big></big></big></big></center>	<center><big><big><b>jhī</b></big></big><br><big>झ + ई</big></center>
+jha_u	<center><big><big><big><big><big>झु</big></big></big></big></big></center>	<center><big><big><b>jhu</b></big></big><br><big>झ + उ</big></center>
+jha_uu	<center><big><big><big><big><big>झू</big></big></big></big></big></center>	<center><big><big><b>jhū</b></big></big><br><big>झ + ऊ</big></center>
+jha_RRi	<center><big><big><big><big><big>झृ</big></big></big></big></big></center>	<center><big><big><b>jhṛ</b></big></big><br><big>झ + ऋ</big></center>
+jha_RRI	<center><big><big><big><big><big>झॄ</big></big></big></big></big></center>	<center><big><big><b>jhṝ</b></big></big><br><big>झ + ॠ</big></center>
+jha_LLi	<center><big><big><big><big><big>झॢ</big></big></big></big></big></center>	<center><big><big><b>jhḷ</b></big></big><br><big>झ + ऌ</big></center>
+jha_e	<center><big><big><big><big><big>झे</big></big></big></big></big></center>	<center><big><big><b>jhe</b></big></big><br><big>झ + ए</big></center>
+jha_ai	<center><big><big><big><big><big>झै</big></big></big></big></big></center>	<center><big><big><b>jhai</b></big></big><br><big>झ + ऐ</big></center>
+jha_o	<center><big><big><big><big><big>झो</big></big></big></big></big></center>	<center><big><big><b>jho</b></big></big><br><big>झ + ओ</big></center>
+jha_au	<center><big><big><big><big><big>झौ</big></big></big></big></big></center>	<center><big><big><b>jhau</b></big></big><br><big>झ + औ</big></center>
+jha_aM	<center><big><big><big><big><big>झं</big></big></big></big></big></center>	<center><big><big><b>jhaṁ</b></big></big><br><big>झ + ◌ं</big></center>
+jha_aH	<center><big><big><big><big><big>झः</big></big></big></big></big></center>	<center><big><big><b>jhaḥ</b></big></big><br><big>झ + ◌ः</big></center>
+JNa_aa	<center><big><big><big><big><big>ञा</big></big></big></big></big></center>	<center><big><big><b>ñā</b></big></big><br><big>ञ + आ</big></center>
+JNa_i	<center><big><big><big><big><big>ञि</big></big></big></big></big></center>	<center><big><big><b>ñi</b></big></big><br><big>ञ + इ</big></center>
+JNa_ii	<center><big><big><big><big><big>ञी</big></big></big></big></big></center>	<center><big><big><b>ñī</b></big></big><br><big>ञ + ई</big></center>
+JNa_u	<center><big><big><big><big><big>ञु</big></big></big></big></big></center>	<center><big><big><b>ñu</b></big></big><br><big>ञ + उ</big></center>
+JNa_uu	<center><big><big><big><big><big>ञू</big></big></big></big></big></center>	<center><big><big><b>ñū</b></big></big><br><big>ञ + ऊ</big></center>
+JNa_RRi	<center><big><big><big><big><big>ञृ</big></big></big></big></big></center>	<center><big><big><b>ñṛ</b></big></big><br><big>ञ + ऋ</big></center>
+JNa_RRI	<center><big><big><big><big><big>ञॄ</big></big></big></big></big></center>	<center><big><big><b>ñṝ</b></big></big><br><big>ञ + ॠ</big></center>
+JNa_LLi	<center><big><big><big><big><big>ञॢ</big></big></big></big></big></center>	<center><big><big><b>ñḷ</b></big></big><br><big>ञ + ऌ</big></center>
+JNa_e	<center><big><big><big><big><big>ञे</big></big></big></big></big></center>	<center><big><big><b>ñe</b></big></big><br><big>ञ + ए</big></center>
+JNa_ai	<center><big><big><big><big><big>ञै</big></big></big></big></big></center>	<center><big><big><b>ñai</b></big></big><br><big>ञ + ऐ</big></center>
+JNa_o	<center><big><big><big><big><big>ञो</big></big></big></big></big></center>	<center><big><big><b>ño</b></big></big><br><big>ञ + ओ</big></center>
+JNa_au	<center><big><big><big><big><big>ञौ</big></big></big></big></big></center>	<center><big><big><b>ñau</b></big></big><br><big>ञ + औ</big></center>
+JNa_aM	<center><big><big><big><big><big>ञं</big></big></big></big></big></center>	<center><big><big><b>ñaṁ</b></big></big><br><big>ञ + ◌ं</big></center>
+JNa_aH	<center><big><big><big><big><big>ञः</big></big></big></big></big></center>	<center><big><big><b>ñaḥ</b></big></big><br><big>ञ + ◌ः</big></center>
+Ta_aa	<center><big><big><big><big><big>टा</big></big></big></big></big></center>	<center><big><big><b>ṭā</b></big></big><br><big>ट + आ</big></center>
+Ta_i	<center><big><big><big><big><big>टि</big></big></big></big></big></center>	<center><big><big><b>ṭi</b></big></big><br><big>ट + इ</big></center>
+Ta_ii	<center><big><big><big><big><big>टी</big></big></big></big></big></center>	<center><big><big><b>ṭī</b></big></big><br><big>ट + ई</big></center>
+Ta_u	<center><big><big><big><big><big>टु</big></big></big></big></big></center>	<center><big><big><b>ṭu</b></big></big><br><big>ट + उ</big></center>
+Ta_uu	<center><big><big><big><big><big>टू</big></big></big></big></big></center>	<center><big><big><b>ṭū</b></big></big><br><big>ट + ऊ</big></center>
+Ta_RRi	<center><big><big><big><big><big>टृ</big></big></big></big></big></center>	<center><big><big><b>ṭṛ</b></big></big><br><big>ट + ऋ</big></center>
+Ta_RRI	<center><big><big><big><big><big>टॄ</big></big></big></big></big></center>	<center><big><big><b>ṭṝ</b></big></big><br><big>ट + ॠ</big></center>
+Ta_LLi	<center><big><big><big><big><big>टॢ</big></big></big></big></big></center>	<center><big><big><b>ṭḷ</b></big></big><br><big>ट + ऌ</big></center>
+Ta_e	<center><big><big><big><big><big>टे</big></big></big></big></big></center>	<center><big><big><b>ṭe</b></big></big><br><big>ट + ए</big></center>
+Ta_ai	<center><big><big><big><big><big>टै</big></big></big></big></big></center>	<center><big><big><b>ṭai</b></big></big><br><big>ट + ऐ</big></center>
+Ta_o	<center><big><big><big><big><big>टो</big></big></big></big></big></center>	<center><big><big><b>ṭo</b></big></big><br><big>ट + ओ</big></center>
+Ta_au	<center><big><big><big><big><big>टौ</big></big></big></big></big></center>	<center><big><big><b>ṭau</b></big></big><br><big>ट + औ</big></center>
+Ta_aM	<center><big><big><big><big><big>टं</big></big></big></big></big></center>	<center><big><big><b>ṭaṁ</b></big></big><br><big>ट + ◌ं</big></center>
+Ta_aH	<center><big><big><big><big><big>टः</big></big></big></big></big></center>	<center><big><big><b>ṭaḥ</b></big></big><br><big>ट + ◌ः</big></center>
+Tha_aa	<center><big><big><big><big><big>ठा</big></big></big></big></big></center>	<center><big><big><b>ṭhā</b></big></big><br><big>ठ + आ</big></center>
+Tha_i	<center><big><big><big><big><big>ठि</big></big></big></big></big></center>	<center><big><big><b>ṭhi</b></big></big><br><big>ठ + इ</big></center>
+Tha_ii	<center><big><big><big><big><big>ठी</big></big></big></big></big></center>	<center><big><big><b>ṭhī</b></big></big><br><big>ठ + ई</big></center>
+Tha_u	<center><big><big><big><big><big>ठु</big></big></big></big></big></center>	<center><big><big><b>ṭhu</b></big></big><br><big>ठ + उ</big></center>
+Tha_uu	<center><big><big><big><big><big>ठू</big></big></big></big></big></center>	<center><big><big><b>ṭhū</b></big></big><br><big>ठ + ऊ</big></center>
+Tha_RRi	<center><big><big><big><big><big>ठृ</big></big></big></big></big></center>	<center><big><big><b>ṭhṛ</b></big></big><br><big>ठ + ऋ</big></center>
+Tha_RRI	<center><big><big><big><big><big>ठॄ</big></big></big></big></big></center>	<center><big><big><b>ṭhṝ</b></big></big><br><big>ठ + ॠ</big></center>
+Tha_LLi	<center><big><big><big><big><big>ठॢ</big></big></big></big></big></center>	<center><big><big><b>ṭhḷ</b></big></big><br><big>ठ + ऌ</big></center>
+Tha_e	<center><big><big><big><big><big>ठे</big></big></big></big></big></center>	<center><big><big><b>ṭhe</b></big></big><br><big>ठ + ए</big></center>
+Tha_ai	<center><big><big><big><big><big>ठै</big></big></big></big></big></center>	<center><big><big><b>ṭhai</b></big></big><br><big>ठ + ऐ</big></center>
+Tha_o	<center><big><big><big><big><big>ठो</big></big></big></big></big></center>	<center><big><big><b>ṭho</b></big></big><br><big>ठ + ओ</big></center>
+Tha_au	<center><big><big><big><big><big>ठौ</big></big></big></big></big></center>	<center><big><big><b>ṭhau</b></big></big><br><big>ठ + औ</big></center>
+Tha_aM	<center><big><big><big><big><big>ठं</big></big></big></big></big></center>	<center><big><big><b>ṭhaṁ</b></big></big><br><big>ठ + ◌ं</big></center>
+Tha_aH	<center><big><big><big><big><big>ठः</big></big></big></big></big></center>	<center><big><big><b>ṭhaḥ</b></big></big><br><big>ठ + ◌ः</big></center>
+Da_aa	<center><big><big><big><big><big>डा</big></big></big></big></big></center>	<center><big><big><b>ḍā</b></big></big><br><big>ड + आ</big></center>
+Da_i	<center><big><big><big><big><big>डि</big></big></big></big></big></center>	<center><big><big><b>ḍi</b></big></big><br><big>ड + इ</big></center>
+Da_ii	<center><big><big><big><big><big>डी</big></big></big></big></big></center>	<center><big><big><b>ḍī</b></big></big><br><big>ड + ई</big></center>
+Da_u	<center><big><big><big><big><big>डु</big></big></big></big></big></center>	<center><big><big><b>ḍu</b></big></big><br><big>ड + उ</big></center>
+Da_uu	<center><big><big><big><big><big>डू</big></big></big></big></big></center>	<center><big><big><b>ḍū</b></big></big><br><big>ड + ऊ</big></center>
+Da_RRi	<center><big><big><big><big><big>डृ</big></big></big></big></big></center>	<center><big><big><b>ḍṛ</b></big></big><br><big>ड + ऋ</big></center>
+Da_RRI	<center><big><big><big><big><big>डॄ</big></big></big></big></big></center>	<center><big><big><b>ḍṝ</b></big></big><br><big>ड + ॠ</big></center>
+Da_LLi	<center><big><big><big><big><big>डॢ</big></big></big></big></big></center>	<center><big><big><b>ḍḷ</b></big></big><br><big>ड + ऌ</big></center>
+Da_e	<center><big><big><big><big><big>डे</big></big></big></big></big></center>	<center><big><big><b>ḍe</b></big></big><br><big>ड + ए</big></center>
+Da_ai	<center><big><big><big><big><big>डै</big></big></big></big></big></center>	<center><big><big><b>ḍai</b></big></big><br><big>ड + ऐ</big></center>
+Da_o	<center><big><big><big><big><big>डो</big></big></big></big></big></center>	<center><big><big><b>ḍo</b></big></big><br><big>ड + ओ</big></center>
+Da_au	<center><big><big><big><big><big>डौ</big></big></big></big></big></center>	<center><big><big><b>ḍau</b></big></big><br><big>ड + औ</big></center>
+Da_aM	<center><big><big><big><big><big>डं</big></big></big></big></big></center>	<center><big><big><b>ḍaṁ</b></big></big><br><big>ड + ◌ं</big></center>
+Da_aH	<center><big><big><big><big><big>डः</big></big></big></big></big></center>	<center><big><big><b>ḍaḥ</b></big></big><br><big>ड + ◌ः</big></center>
+Dha_aa	<center><big><big><big><big><big>ढा</big></big></big></big></big></center>	<center><big><big><b>ḍhā</b></big></big><br><big>ढ + आ</big></center>
+Dha_i	<center><big><big><big><big><big>ढि</big></big></big></big></big></center>	<center><big><big><b>ḍhi</b></big></big><br><big>ढ + इ</big></center>
+Dha_ii	<center><big><big><big><big><big>ढी</big></big></big></big></big></center>	<center><big><big><b>ḍhī</b></big></big><br><big>ढ + ई</big></center>
+Dha_u	<center><big><big><big><big><big>ढु</big></big></big></big></big></center>	<center><big><big><b>ḍhu</b></big></big><br><big>ढ + उ</big></center>
+Dha_uu	<center><big><big><big><big><big>ढू</big></big></big></big></big></center>	<center><big><big><b>ḍhū</b></big></big><br><big>ढ + ऊ</big></center>
+Dha_RRi	<center><big><big><big><big><big>ढृ</big></big></big></big></big></center>	<center><big><big><b>ḍhṛ</b></big></big><br><big>ढ + ऋ</big></center>
+Dha_RRI	<center><big><big><big><big><big>ढॄ</big></big></big></big></big></center>	<center><big><big><b>ḍhṝ</b></big></big><br><big>ढ + ॠ</big></center>
+Dha_LLi	<center><big><big><big><big><big>ढॢ</big></big></big></big></big></center>	<center><big><big><b>ḍhḷ</b></big></big><br><big>ढ + ऌ</big></center>
+Dha_e	<center><big><big><big><big><big>ढे</big></big></big></big></big></center>	<center><big><big><b>ḍhe</b></big></big><br><big>ढ + ए</big></center>
+Dha_ai	<center><big><big><big><big><big>ढै</big></big></big></big></big></center>	<center><big><big><b>ḍhai</b></big></big><br><big>ढ + ऐ</big></center>
+Dha_o	<center><big><big><big><big><big>ढो</big></big></big></big></big></center>	<center><big><big><b>ḍho</b></big></big><br><big>ढ + ओ</big></center>
+Dha_au	<center><big><big><big><big><big>ढौ</big></big></big></big></big></center>	<center><big><big><b>ḍhau</b></big></big><br><big>ढ + औ</big></center>
+Dha_aM	<center><big><big><big><big><big>ढं</big></big></big></big></big></center>	<center><big><big><b>ḍhaṁ</b></big></big><br><big>ढ + ◌ं</big></center>
+Dha_aH	<center><big><big><big><big><big>ढः</big></big></big></big></big></center>	<center><big><big><b>ḍhaḥ</b></big></big><br><big>ढ + ◌ः</big></center>
+Na_aa	<center><big><big><big><big><big>णा</big></big></big></big></big></center>	<center><big><big><b>ṇā</b></big></big><br><big>ण + आ</big></center>
+Na_i	<center><big><big><big><big><big>णि</big></big></big></big></big></center>	<center><big><big><b>ṇi</b></big></big><br><big>ण + इ</big></center>
+Na_ii	<center><big><big><big><big><big>णी</big></big></big></big></big></center>	<center><big><big><b>ṇī</b></big></big><br><big>ण + ई</big></center>
+Na_u	<center><big><big><big><big><big>णु</big></big></big></big></big></center>	<center><big><big><b>ṇu</b></big></big><br><big>ण + उ</big></center>
+Na_uu	<center><big><big><big><big><big>णू</big></big></big></big></big></center>	<center><big><big><b>ṇū</b></big></big><br><big>ण + ऊ</big></center>
+Na_RRi	<center><big><big><big><big><big>णृ</big></big></big></big></big></center>	<center><big><big><b>ṇṛ</b></big></big><br><big>ण + ऋ</big></center>
+Na_RRI	<center><big><big><big><big><big>णॄ</big></big></big></big></big></center>	<center><big><big><b>ṇṝ</b></big></big><br><big>ण + ॠ</big></center>
+Na_LLi	<center><big><big><big><big><big>णॢ</big></big></big></big></big></center>	<center><big><big><b>ṇḷ</b></big></big><br><big>ण + ऌ</big></center>
+Na_e	<center><big><big><big><big><big>णे</big></big></big></big></big></center>	<center><big><big><b>ṇe</b></big></big><br><big>ण + ए</big></center>
+Na_ai	<center><big><big><big><big><big>णै</big></big></big></big></big></center>	<center><big><big><b>ṇai</b></big></big><br><big>ण + ऐ</big></center>
+Na_o	<center><big><big><big><big><big>णो</big></big></big></big></big></center>	<center><big><big><b>ṇo</b></big></big><br><big>ण + ओ</big></center>
+Na_au	<center><big><big><big><big><big>णौ</big></big></big></big></big></center>	<center><big><big><b>ṇau</b></big></big><br><big>ण + औ</big></center>
+Na_aM	<center><big><big><big><big><big>णं</big></big></big></big></big></center>	<center><big><big><b>ṇaṁ</b></big></big><br><big>ण + ◌ं</big></center>
+Na_aH	<center><big><big><big><big><big>णः</big></big></big></big></big></center>	<center><big><big><b>ṇaḥ</b></big></big><br><big>ण + ◌ः</big></center>
+ta_aa	<center><big><big><big><big><big>ता</big></big></big></big></big></center>	<center><big><big><b>tā</b></big></big><br><big>त + आ</big></center>
+ta_i	<center><big><big><big><big><big>ति</big></big></big></big></big></center>	<center><big><big><b>ti</b></big></big><br><big>त + इ</big></center>
+ta_ii	<center><big><big><big><big><big>ती</big></big></big></big></big></center>	<center><big><big><b>tī</b></big></big><br><big>त + ई</big></center>
+ta_u	<center><big><big><big><big><big>तु</big></big></big></big></big></center>	<center><big><big><b>tu</b></big></big><br><big>त + उ</big></center>
+ta_uu	<center><big><big><big><big><big>तू</big></big></big></big></big></center>	<center><big><big><b>tū</b></big></big><br><big>त + ऊ</big></center>
+ta_RRi	<center><big><big><big><big><big>तृ</big></big></big></big></big></center>	<center><big><big><b>tṛ</b></big></big><br><big>त + ऋ</big></center>
+ta_RRI	<center><big><big><big><big><big>तॄ</big></big></big></big></big></center>	<center><big><big><b>tṝ</b></big></big><br><big>त + ॠ</big></center>
+ta_LLi	<center><big><big><big><big><big>तॢ</big></big></big></big></big></center>	<center><big><big><b>tḷ</b></big></big><br><big>त + ऌ</big></center>
+ta_e	<center><big><big><big><big><big>ते</big></big></big></big></big></center>	<center><big><big><b>te</b></big></big><br><big>त + ए</big></center>
+ta_ai	<center><big><big><big><big><big>तै</big></big></big></big></big></center>	<center><big><big><b>tai</b></big></big><br><big>त + ऐ</big></center>
+ta_o	<center><big><big><big><big><big>तो</big></big></big></big></big></center>	<center><big><big><b>to</b></big></big><br><big>त + ओ</big></center>
+ta_au	<center><big><big><big><big><big>तौ</big></big></big></big></big></center>	<center><big><big><b>tau</b></big></big><br><big>त + औ</big></center>
+ta_aM	<center><big><big><big><big><big>तं</big></big></big></big></big></center>	<center><big><big><b>taṁ</b></big></big><br><big>त + ◌ं</big></center>
+ta_aH	<center><big><big><big><big><big>तः</big></big></big></big></big></center>	<center><big><big><b>taḥ</b></big></big><br><big>त + ◌ः</big></center>
+tha_aa	<center><big><big><big><big><big>था</big></big></big></big></big></center>	<center><big><big><b>thā</b></big></big><br><big>थ + आ</big></center>
+tha_i	<center><big><big><big><big><big>थि</big></big></big></big></big></center>	<center><big><big><b>thi</b></big></big><br><big>थ + इ</big></center>
+tha_ii	<center><big><big><big><big><big>थी</big></big></big></big></big></center>	<center><big><big><b>thī</b></big></big><br><big>थ + ई</big></center>
+tha_u	<center><big><big><big><big><big>थु</big></big></big></big></big></center>	<center><big><big><b>thu</b></big></big><br><big>थ + उ</big></center>
+tha_uu	<center><big><big><big><big><big>थू</big></big></big></big></big></center>	<center><big><big><b>thū</b></big></big><br><big>थ + ऊ</big></center>
+tha_RRi	<center><big><big><big><big><big>थृ</big></big></big></big></big></center>	<center><big><big><b>thṛ</b></big></big><br><big>थ + ऋ</big></center>
+tha_RRI	<center><big><big><big><big><big>थॄ</big></big></big></big></big></center>	<center><big><big><b>thṝ</b></big></big><br><big>थ + ॠ</big></center>
+tha_LLi	<center><big><big><big><big><big>थॢ</big></big></big></big></big></center>	<center><big><big><b>thḷ</b></big></big><br><big>थ + ऌ</big></center>
+tha_e	<center><big><big><big><big><big>थे</big></big></big></big></big></center>	<center><big><big><b>the</b></big></big><br><big>थ + ए</big></center>
+tha_ai	<center><big><big><big><big><big>थै</big></big></big></big></big></center>	<center><big><big><b>thai</b></big></big><br><big>थ + ऐ</big></center>
+tha_o	<center><big><big><big><big><big>थो</big></big></big></big></big></center>	<center><big><big><b>tho</b></big></big><br><big>थ + ओ</big></center>
+tha_au	<center><big><big><big><big><big>थौ</big></big></big></big></big></center>	<center><big><big><b>thau</b></big></big><br><big>थ + औ</big></center>
+tha_aM	<center><big><big><big><big><big>थं</big></big></big></big></big></center>	<center><big><big><b>thaṁ</b></big></big><br><big>थ + ◌ं</big></center>
+tha_aH	<center><big><big><big><big><big>थः</big></big></big></big></big></center>	<center><big><big><b>thaḥ</b></big></big><br><big>थ + ◌ः</big></center>
+da_aa	<center><big><big><big><big><big>दा</big></big></big></big></big></center>	<center><big><big><b>dā</b></big></big><br><big>द + आ</big></center>
+da_i	<center><big><big><big><big><big>दि</big></big></big></big></big></center>	<center><big><big><b>di</b></big></big><br><big>द + इ</big></center>
+da_ii	<center><big><big><big><big><big>दी</big></big></big></big></big></center>	<center><big><big><b>dī</b></big></big><br><big>द + ई</big></center>
+da_u	<center><big><big><big><big><big>दु</big></big></big></big></big></center>	<center><big><big><b>du</b></big></big><br><big>द + उ</big></center>
+da_uu	<center><big><big><big><big><big>दू</big></big></big></big></big></center>	<center><big><big><b>dū</b></big></big><br><big>द + ऊ</big></center>
+da_RRi	<center><big><big><big><big><big>दृ</big></big></big></big></big></center>	<center><big><big><b>dṛ</b></big></big><br><big>द + ऋ</big></center>
+da_RRI	<center><big><big><big><big><big>दॄ</big></big></big></big></big></center>	<center><big><big><b>dṝ</b></big></big><br><big>द + ॠ</big></center>
+da_LLi	<center><big><big><big><big><big>दॢ</big></big></big></big></big></center>	<center><big><big><b>dḷ</b></big></big><br><big>द + ऌ</big></center>
+da_e	<center><big><big><big><big><big>दे</big></big></big></big></big></center>	<center><big><big><b>de</b></big></big><br><big>द + ए</big></center>
+da_ai	<center><big><big><big><big><big>दै</big></big></big></big></big></center>	<center><big><big><b>dai</b></big></big><br><big>द + ऐ</big></center>
+da_o	<center><big><big><big><big><big>दो</big></big></big></big></big></center>	<center><big><big><b>do</b></big></big><br><big>द + ओ</big></center>
+da_au	<center><big><big><big><big><big>दौ</big></big></big></big></big></center>	<center><big><big><b>dau</b></big></big><br><big>द + औ</big></center>
+da_aM	<center><big><big><big><big><big>दं</big></big></big></big></big></center>	<center><big><big><b>daṁ</b></big></big><br><big>द + ◌ं</big></center>
+da_aH	<center><big><big><big><big><big>दः</big></big></big></big></big></center>	<center><big><big><b>daḥ</b></big></big><br><big>द + ◌ः</big></center>
+dha_aa	<center><big><big><big><big><big>धा</big></big></big></big></big></center>	<center><big><big><b>dhā</b></big></big><br><big>ध + आ</big></center>
+dha_i	<center><big><big><big><big><big>धि</big></big></big></big></big></center>	<center><big><big><b>dhi</b></big></big><br><big>ध + इ</big></center>
+dha_ii	<center><big><big><big><big><big>धी</big></big></big></big></big></center>	<center><big><big><b>dhī</b></big></big><br><big>ध + ई</big></center>
+dha_u	<center><big><big><big><big><big>धु</big></big></big></big></big></center>	<center><big><big><b>dhu</b></big></big><br><big>ध + उ</big></center>
+dha_uu	<center><big><big><big><big><big>धू</big></big></big></big></big></center>	<center><big><big><b>dhū</b></big></big><br><big>ध + ऊ</big></center>
+dha_RRi	<center><big><big><big><big><big>धृ</big></big></big></big></big></center>	<center><big><big><b>dhṛ</b></big></big><br><big>ध + ऋ</big></center>
+dha_RRI	<center><big><big><big><big><big>धॄ</big></big></big></big></big></center>	<center><big><big><b>dhṝ</b></big></big><br><big>ध + ॠ</big></center>
+dha_LLi	<center><big><big><big><big><big>धॢ</big></big></big></big></big></center>	<center><big><big><b>dhḷ</b></big></big><br><big>ध + ऌ</big></center>
+dha_e	<center><big><big><big><big><big>धे</big></big></big></big></big></center>	<center><big><big><b>dhe</b></big></big><br><big>ध + ए</big></center>
+dha_ai	<center><big><big><big><big><big>धै</big></big></big></big></big></center>	<center><big><big><b>dhai</b></big></big><br><big>ध + ऐ</big></center>
+dha_o	<center><big><big><big><big><big>धो</big></big></big></big></big></center>	<center><big><big><b>dho</b></big></big><br><big>ध + ओ</big></center>
+dha_au	<center><big><big><big><big><big>धौ</big></big></big></big></big></center>	<center><big><big><b>dhau</b></big></big><br><big>ध + औ</big></center>
+dha_aM	<center><big><big><big><big><big>धं</big></big></big></big></big></center>	<center><big><big><b>dhaṁ</b></big></big><br><big>ध + ◌ं</big></center>
+dha_aH	<center><big><big><big><big><big>धः</big></big></big></big></big></center>	<center><big><big><b>dhaḥ</b></big></big><br><big>ध + ◌ः</big></center>
+na_aa	<center><big><big><big><big><big>ना</big></big></big></big></big></center>	<center><big><big><b>nā</b></big></big><br><big>न + आ</big></center>
+na_i	<center><big><big><big><big><big>नि</big></big></big></big></big></center>	<center><big><big><b>ni</b></big></big><br><big>न + इ</big></center>
+na_ii	<center><big><big><big><big><big>नी</big></big></big></big></big></center>	<center><big><big><b>nī</b></big></big><br><big>न + ई</big></center>
+na_u	<center><big><big><big><big><big>नु</big></big></big></big></big></center>	<center><big><big><b>nu</b></big></big><br><big>न + उ</big></center>
+na_uu	<center><big><big><big><big><big>नू</big></big></big></big></big></center>	<center><big><big><b>nū</b></big></big><br><big>न + ऊ</big></center>
+na_RRi	<center><big><big><big><big><big>नृ</big></big></big></big></big></center>	<center><big><big><b>nṛ</b></big></big><br><big>न + ऋ</big></center>
+na_RRI	<center><big><big><big><big><big>नॄ</big></big></big></big></big></center>	<center><big><big><b>nṝ</b></big></big><br><big>न + ॠ</big></center>
+na_LLi	<center><big><big><big><big><big>नॢ</big></big></big></big></big></center>	<center><big><big><b>nḷ</b></big></big><br><big>न + ऌ</big></center>
+na_e	<center><big><big><big><big><big>ने</big></big></big></big></big></center>	<center><big><big><b>ne</b></big></big><br><big>न + ए</big></center>
+na_ai	<center><big><big><big><big><big>नै</big></big></big></big></big></center>	<center><big><big><b>nai</b></big></big><br><big>न + ऐ</big></center>
+na_o	<center><big><big><big><big><big>नो</big></big></big></big></big></center>	<center><big><big><b>no</b></big></big><br><big>न + ओ</big></center>
+na_au	<center><big><big><big><big><big>नौ</big></big></big></big></big></center>	<center><big><big><b>nau</b></big></big><br><big>न + औ</big></center>
+na_aM	<center><big><big><big><big><big>नं</big></big></big></big></big></center>	<center><big><big><b>naṁ</b></big></big><br><big>न + ◌ं</big></center>
+na_aH	<center><big><big><big><big><big>नः</big></big></big></big></big></center>	<center><big><big><b>naḥ</b></big></big><br><big>न + ◌ः</big></center>
+pa_aa	<center><big><big><big><big><big>पा</big></big></big></big></big></center>	<center><big><big><b>pā</b></big></big><br><big>प + आ</big></center>
+pa_i	<center><big><big><big><big><big>पि</big></big></big></big></big></center>	<center><big><big><b>pi</b></big></big><br><big>प + इ</big></center>
+pa_ii	<center><big><big><big><big><big>पी</big></big></big></big></big></center>	<center><big><big><b>pī</b></big></big><br><big>प + ई</big></center>
+pa_u	<center><big><big><big><big><big>पु</big></big></big></big></big></center>	<center><big><big><b>pu</b></big></big><br><big>प + उ</big></center>
+pa_uu	<center><big><big><big><big><big>पू</big></big></big></big></big></center>	<center><big><big><b>pū</b></big></big><br><big>प + ऊ</big></center>
+pa_RRi	<center><big><big><big><big><big>पृ</big></big></big></big></big></center>	<center><big><big><b>pṛ</b></big></big><br><big>प + ऋ</big></center>
+pa_RRI	<center><big><big><big><big><big>पॄ</big></big></big></big></big></center>	<center><big><big><b>pṝ</b></big></big><br><big>प + ॠ</big></center>
+pa_LLi	<center><big><big><big><big><big>पॢ</big></big></big></big></big></center>	<center><big><big><b>pḷ</b></big></big><br><big>प + ऌ</big></center>
+pa_e	<center><big><big><big><big><big>पे</big></big></big></big></big></center>	<center><big><big><b>pe</b></big></big><br><big>प + ए</big></center>
+pa_ai	<center><big><big><big><big><big>पै</big></big></big></big></big></center>	<center><big><big><b>pai</b></big></big><br><big>प + ऐ</big></center>
+pa_o	<center><big><big><big><big><big>पो</big></big></big></big></big></center>	<center><big><big><b>po</b></big></big><br><big>प + ओ</big></center>
+pa_au	<center><big><big><big><big><big>पौ</big></big></big></big></big></center>	<center><big><big><b>pau</b></big></big><br><big>प + औ</big></center>
+pa_aM	<center><big><big><big><big><big>पं</big></big></big></big></big></center>	<center><big><big><b>paṁ</b></big></big><br><big>प + ◌ं</big></center>
+pa_aH	<center><big><big><big><big><big>पः</big></big></big></big></big></center>	<center><big><big><b>paḥ</b></big></big><br><big>प + ◌ः</big></center>
+pha_aa	<center><big><big><big><big><big>फा</big></big></big></big></big></center>	<center><big><big><b>phā</b></big></big><br><big>फ + आ</big></center>
+pha_i	<center><big><big><big><big><big>फि</big></big></big></big></big></center>	<center><big><big><b>phi</b></big></big><br><big>फ + इ</big></center>
+pha_ii	<center><big><big><big><big><big>फी</big></big></big></big></big></center>	<center><big><big><b>phī</b></big></big><br><big>फ + ई</big></center>
+pha_u	<center><big><big><big><big><big>फु</big></big></big></big></big></center>	<center><big><big><b>phu</b></big></big><br><big>फ + उ</big></center>
+pha_uu	<center><big><big><big><big><big>फू</big></big></big></big></big></center>	<center><big><big><b>phū</b></big></big><br><big>फ + ऊ</big></center>
+pha_RRi	<center><big><big><big><big><big>फृ</big></big></big></big></big></center>	<center><big><big><b>phṛ</b></big></big><br><big>फ + ऋ</big></center>
+pha_RRI	<center><big><big><big><big><big>फॄ</big></big></big></big></big></center>	<center><big><big><b>phṝ</b></big></big><br><big>फ + ॠ</big></center>
+pha_LLi	<center><big><big><big><big><big>फॢ</big></big></big></big></big></center>	<center><big><big><b>phḷ</b></big></big><br><big>फ + ऌ</big></center>
+pha_e	<center><big><big><big><big><big>फे</big></big></big></big></big></center>	<center><big><big><b>phe</b></big></big><br><big>फ + ए</big></center>
+pha_ai	<center><big><big><big><big><big>फै</big></big></big></big></big></center>	<center><big><big><b>phai</b></big></big><br><big>फ + ऐ</big></center>
+pha_o	<center><big><big><big><big><big>फो</big></big></big></big></big></center>	<center><big><big><b>pho</b></big></big><br><big>फ + ओ</big></center>
+pha_au	<center><big><big><big><big><big>फौ</big></big></big></big></big></center>	<center><big><big><b>phau</b></big></big><br><big>फ + औ</big></center>
+pha_aM	<center><big><big><big><big><big>फं</big></big></big></big></big></center>	<center><big><big><b>phaṁ</b></big></big><br><big>फ + ◌ं</big></center>
+pha_aH	<center><big><big><big><big><big>फः</big></big></big></big></big></center>	<center><big><big><b>phaḥ</b></big></big><br><big>फ + ◌ः</big></center>
+ba_aa	<center><big><big><big><big><big>बा</big></big></big></big></big></center>	<center><big><big><b>bā</b></big></big><br><big>ब + आ</big></center>
+ba_i	<center><big><big><big><big><big>बि</big></big></big></big></big></center>	<center><big><big><b>bi</b></big></big><br><big>ब + इ</big></center>
+ba_ii	<center><big><big><big><big><big>बी</big></big></big></big></big></center>	<center><big><big><b>bī</b></big></big><br><big>ब + ई</big></center>
+ba_u	<center><big><big><big><big><big>बु</big></big></big></big></big></center>	<center><big><big><b>bu</b></big></big><br><big>ब + उ</big></center>
+ba_uu	<center><big><big><big><big><big>बू</big></big></big></big></big></center>	<center><big><big><b>bū</b></big></big><br><big>ब + ऊ</big></center>
+ba_RRi	<center><big><big><big><big><big>बृ</big></big></big></big></big></center>	<center><big><big><b>bṛ</b></big></big><br><big>ब + ऋ</big></center>
+ba_RRI	<center><big><big><big><big><big>बॄ</big></big></big></big></big></center>	<center><big><big><b>bṝ</b></big></big><br><big>ब + ॠ</big></center>
+ba_LLi	<center><big><big><big><big><big>बॢ</big></big></big></big></big></center>	<center><big><big><b>bḷ</b></big></big><br><big>ब + ऌ</big></center>
+ba_e	<center><big><big><big><big><big>बे</big></big></big></big></big></center>	<center><big><big><b>be</b></big></big><br><big>ब + ए</big></center>
+ba_ai	<center><big><big><big><big><big>बै</big></big></big></big></big></center>	<center><big><big><b>bai</b></big></big><br><big>ब + ऐ</big></center>
+ba_o	<center><big><big><big><big><big>बो</big></big></big></big></big></center>	<center><big><big><b>bo</b></big></big><br><big>ब + ओ</big></center>
+ba_au	<center><big><big><big><big><big>बौ</big></big></big></big></big></center>	<center><big><big><b>bau</b></big></big><br><big>ब + औ</big></center>
+ba_aM	<center><big><big><big><big><big>बं</big></big></big></big></big></center>	<center><big><big><b>baṁ</b></big></big><br><big>ब + ◌ं</big></center>
+ba_aH	<center><big><big><big><big><big>बः</big></big></big></big></big></center>	<center><big><big><b>baḥ</b></big></big><br><big>ब + ◌ः</big></center>
+bha_aa	<center><big><big><big><big><big>भा</big></big></big></big></big></center>	<center><big><big><b>bhā</b></big></big><br><big>भ + आ</big></center>
+bha_i	<center><big><big><big><big><big>भि</big></big></big></big></big></center>	<center><big><big><b>bhi</b></big></big><br><big>भ + इ</big></center>
+bha_ii	<center><big><big><big><big><big>भी</big></big></big></big></big></center>	<center><big><big><b>bhī</b></big></big><br><big>भ + ई</big></center>
+bha_u	<center><big><big><big><big><big>भु</big></big></big></big></big></center>	<center><big><big><b>bhu</b></big></big><br><big>भ + उ</big></center>
+bha_uu	<center><big><big><big><big><big>भू</big></big></big></big></big></center>	<center><big><big><b>bhū</b></big></big><br><big>भ + ऊ</big></center>
+bha_RRi	<center><big><big><big><big><big>भृ</big></big></big></big></big></center>	<center><big><big><b>bhṛ</b></big></big><br><big>भ + ऋ</big></center>
+bha_RRI	<center><big><big><big><big><big>भॄ</big></big></big></big></big></center>	<center><big><big><b>bhṝ</b></big></big><br><big>भ + ॠ</big></center>
+bha_LLi	<center><big><big><big><big><big>भॢ</big></big></big></big></big></center>	<center><big><big><b>bhḷ</b></big></big><br><big>भ + ऌ</big></center>
+bha_e	<center><big><big><big><big><big>भे</big></big></big></big></big></center>	<center><big><big><b>bhe</b></big></big><br><big>भ + ए</big></center>
+bha_ai	<center><big><big><big><big><big>भै</big></big></big></big></big></center>	<center><big><big><b>bhai</b></big></big><br><big>भ + ऐ</big></center>
+bha_o	<center><big><big><big><big><big>भो</big></big></big></big></big></center>	<center><big><big><b>bho</b></big></big><br><big>भ + ओ</big></center>
+bha_au	<center><big><big><big><big><big>भौ</big></big></big></big></big></center>	<center><big><big><b>bhau</b></big></big><br><big>भ + औ</big></center>
+bha_aM	<center><big><big><big><big><big>भं</big></big></big></big></big></center>	<center><big><big><b>bhaṁ</b></big></big><br><big>भ + ◌ं</big></center>
+bha_aH	<center><big><big><big><big><big>भः</big></big></big></big></big></center>	<center><big><big><b>bhaḥ</b></big></big><br><big>भ + ◌ः</big></center>
+ma_aa	<center><big><big><big><big><big>मा</big></big></big></big></big></center>	<center><big><big><b>mā</b></big></big><br><big>म + आ</big></center>
+ma_i	<center><big><big><big><big><big>मि</big></big></big></big></big></center>	<center><big><big><b>mi</b></big></big><br><big>म + इ</big></center>
+ma_ii	<center><big><big><big><big><big>मी</big></big></big></big></big></center>	<center><big><big><b>mī</b></big></big><br><big>म + ई</big></center>
+ma_u	<center><big><big><big><big><big>मु</big></big></big></big></big></center>	<center><big><big><b>mu</b></big></big><br><big>म + उ</big></center>
+ma_uu	<center><big><big><big><big><big>मू</big></big></big></big></big></center>	<center><big><big><b>mū</b></big></big><br><big>म + ऊ</big></center>
+ma_RRi	<center><big><big><big><big><big>मृ</big></big></big></big></big></center>	<center><big><big><b>mṛ</b></big></big><br><big>म + ऋ</big></center>
+ma_RRI	<center><big><big><big><big><big>मॄ</big></big></big></big></big></center>	<center><big><big><b>mṝ</b></big></big><br><big>म + ॠ</big></center>
+ma_LLi	<center><big><big><big><big><big>मॢ</big></big></big></big></big></center>	<center><big><big><b>mḷ</b></big></big><br><big>म + ऌ</big></center>
+ma_e	<center><big><big><big><big><big>मे</big></big></big></big></big></center>	<center><big><big><b>me</b></big></big><br><big>म + ए</big></center>
+ma_ai	<center><big><big><big><big><big>मै</big></big></big></big></big></center>	<center><big><big><b>mai</b></big></big><br><big>म + ऐ</big></center>
+ma_o	<center><big><big><big><big><big>मो</big></big></big></big></big></center>	<center><big><big><b>mo</b></big></big><br><big>म + ओ</big></center>
+ma_au	<center><big><big><big><big><big>मौ</big></big></big></big></big></center>	<center><big><big><b>mau</b></big></big><br><big>म + औ</big></center>
+ma_aM	<center><big><big><big><big><big>मं</big></big></big></big></big></center>	<center><big><big><b>maṁ</b></big></big><br><big>म + ◌ं</big></center>
+ma_aH	<center><big><big><big><big><big>मः</big></big></big></big></big></center>	<center><big><big><b>maḥ</b></big></big><br><big>म + ◌ः</big></center>
+ya_aa	<center><big><big><big><big><big>या</big></big></big></big></big></center>	<center><big><big><b>yā</b></big></big><br><big>य + आ</big></center>
+ya_i	<center><big><big><big><big><big>यि</big></big></big></big></big></center>	<center><big><big><b>yi</b></big></big><br><big>य + इ</big></center>
+ya_ii	<center><big><big><big><big><big>यी</big></big></big></big></big></center>	<center><big><big><b>yī</b></big></big><br><big>य + ई</big></center>
+ya_u	<center><big><big><big><big><big>यु</big></big></big></big></big></center>	<center><big><big><b>yu</b></big></big><br><big>य + उ</big></center>
+ya_uu	<center><big><big><big><big><big>यू</big></big></big></big></big></center>	<center><big><big><b>yū</b></big></big><br><big>य + ऊ</big></center>
+ya_RRi	<center><big><big><big><big><big>यृ</big></big></big></big></big></center>	<center><big><big><b>yṛ</b></big></big><br><big>य + ऋ</big></center>
+ya_RRI	<center><big><big><big><big><big>यॄ</big></big></big></big></big></center>	<center><big><big><b>yṝ</b></big></big><br><big>य + ॠ</big></center>
+ya_LLi	<center><big><big><big><big><big>यॢ</big></big></big></big></big></center>	<center><big><big><b>yḷ</b></big></big><br><big>य + ऌ</big></center>
+ya_e	<center><big><big><big><big><big>ये</big></big></big></big></big></center>	<center><big><big><b>ye</b></big></big><br><big>य + ए</big></center>
+ya_ai	<center><big><big><big><big><big>यै</big></big></big></big></big></center>	<center><big><big><b>yai</b></big></big><br><big>य + ऐ</big></center>
+ya_o	<center><big><big><big><big><big>यो</big></big></big></big></big></center>	<center><big><big><b>yo</b></big></big><br><big>य + ओ</big></center>
+ya_au	<center><big><big><big><big><big>यौ</big></big></big></big></big></center>	<center><big><big><b>yau</b></big></big><br><big>य + औ</big></center>
+ya_aM	<center><big><big><big><big><big>यं</big></big></big></big></big></center>	<center><big><big><b>yaṁ</b></big></big><br><big>य + ◌ं</big></center>
+ya_aH	<center><big><big><big><big><big>यः</big></big></big></big></big></center>	<center><big><big><b>yaḥ</b></big></big><br><big>य + ◌ः</big></center>
+ra_aa	<center><big><big><big><big><big>रा</big></big></big></big></big></center>	<center><big><big><b>rā</b></big></big><br><big>र + आ</big></center>
+ra_i	<center><big><big><big><big><big>रि</big></big></big></big></big></center>	<center><big><big><b>ri</b></big></big><br><big>र + इ</big></center>
+ra_ii	<center><big><big><big><big><big>री</big></big></big></big></big></center>	<center><big><big><b>rī</b></big></big><br><big>र + ई</big></center>
+ra_u	<center><big><big><big><big><big>रु</big></big></big></big></big></center>	<center><big><big><b>ru</b></big></big><br><big>र + उ</big></center>
+ra_uu	<center><big><big><big><big><big>रू</big></big></big></big></big></center>	<center><big><big><b>rū</b></big></big><br><big>र + ऊ</big></center>
+ra_RRi	<center><big><big><big><big><big>रृ</big></big></big></big></big></center>	<center><big><big><b>rṛ</b></big></big><br><big>र + ऋ</big></center>
+ra_RRI	<center><big><big><big><big><big>रॄ</big></big></big></big></big></center>	<center><big><big><b>rṝ</b></big></big><br><big>र + ॠ</big></center>
+ra_LLi	<center><big><big><big><big><big>रॢ</big></big></big></big></big></center>	<center><big><big><b>rḷ</b></big></big><br><big>र + ऌ</big></center>
+ra_e	<center><big><big><big><big><big>रे</big></big></big></big></big></center>	<center><big><big><b>re</b></big></big><br><big>र + ए</big></center>
+ra_ai	<center><big><big><big><big><big>रै</big></big></big></big></big></center>	<center><big><big><b>rai</b></big></big><br><big>र + ऐ</big></center>
+ra_o	<center><big><big><big><big><big>रो</big></big></big></big></big></center>	<center><big><big><b>ro</b></big></big><br><big>र + ओ</big></center>
+ra_au	<center><big><big><big><big><big>रौ</big></big></big></big></big></center>	<center><big><big><b>rau</b></big></big><br><big>र + औ</big></center>
+ra_aM	<center><big><big><big><big><big>रं</big></big></big></big></big></center>	<center><big><big><b>raṁ</b></big></big><br><big>र + ◌ं</big></center>
+ra_aH	<center><big><big><big><big><big>रः</big></big></big></big></big></center>	<center><big><big><b>raḥ</b></big></big><br><big>र + ◌ः</big></center>
+la_aa	<center><big><big><big><big><big>ला</big></big></big></big></big></center>	<center><big><big><b>lā</b></big></big><br><big>ल + आ</big></center>
+la_i	<center><big><big><big><big><big>लि</big></big></big></big></big></center>	<center><big><big><b>li</b></big></big><br><big>ल + इ</big></center>
+la_ii	<center><big><big><big><big><big>ली</big></big></big></big></big></center>	<center><big><big><b>lī</b></big></big><br><big>ल + ई</big></center>
+la_u	<center><big><big><big><big><big>लु</big></big></big></big></big></center>	<center><big><big><b>lu</b></big></big><br><big>ल + उ</big></center>
+la_uu	<center><big><big><big><big><big>लू</big></big></big></big></big></center>	<center><big><big><b>lū</b></big></big><br><big>ल + ऊ</big></center>
+la_RRi	<center><big><big><big><big><big>लृ</big></big></big></big></big></center>	<center><big><big><b>lṛ</b></big></big><br><big>ल + ऋ</big></center>
+la_RRI	<center><big><big><big><big><big>लॄ</big></big></big></big></big></center>	<center><big><big><b>lṝ</b></big></big><br><big>ल + ॠ</big></center>
+la_LLi	<center><big><big><big><big><big>लॢ</big></big></big></big></big></center>	<center><big><big><b>lḷ</b></big></big><br><big>ल + ऌ</big></center>
+la_e	<center><big><big><big><big><big>ले</big></big></big></big></big></center>	<center><big><big><b>le</b></big></big><br><big>ल + ए</big></center>
+la_ai	<center><big><big><big><big><big>लै</big></big></big></big></big></center>	<center><big><big><b>lai</b></big></big><br><big>ल + ऐ</big></center>
+la_o	<center><big><big><big><big><big>लो</big></big></big></big></big></center>	<center><big><big><b>lo</b></big></big><br><big>ल + ओ</big></center>
+la_au	<center><big><big><big><big><big>लौ</big></big></big></big></big></center>	<center><big><big><b>lau</b></big></big><br><big>ल + औ</big></center>
+la_aM	<center><big><big><big><big><big>लं</big></big></big></big></big></center>	<center><big><big><b>laṁ</b></big></big><br><big>ल + ◌ं</big></center>
+la_aH	<center><big><big><big><big><big>लः</big></big></big></big></big></center>	<center><big><big><b>laḥ</b></big></big><br><big>ल + ◌ः</big></center>
+va_aa	<center><big><big><big><big><big>वा</big></big></big></big></big></center>	<center><big><big><b>vā</b></big></big><br><big>व + आ</big></center>
+va_i	<center><big><big><big><big><big>वि</big></big></big></big></big></center>	<center><big><big><b>vi</b></big></big><br><big>व + इ</big></center>
+va_ii	<center><big><big><big><big><big>वी</big></big></big></big></big></center>	<center><big><big><b>vī</b></big></big><br><big>व + ई</big></center>
+va_u	<center><big><big><big><big><big>वु</big></big></big></big></big></center>	<center><big><big><b>vu</b></big></big><br><big>व + उ</big></center>
+va_uu	<center><big><big><big><big><big>वू</big></big></big></big></big></center>	<center><big><big><b>vū</b></big></big><br><big>व + ऊ</big></center>
+va_RRi	<center><big><big><big><big><big>वृ</big></big></big></big></big></center>	<center><big><big><b>vṛ</b></big></big><br><big>व + ऋ</big></center>
+va_RRI	<center><big><big><big><big><big>वॄ</big></big></big></big></big></center>	<center><big><big><b>vṝ</b></big></big><br><big>व + ॠ</big></center>
+va_LLi	<center><big><big><big><big><big>वॢ</big></big></big></big></big></center>	<center><big><big><b>vḷ</b></big></big><br><big>व + ऌ</big></center>
+va_e	<center><big><big><big><big><big>वे</big></big></big></big></big></center>	<center><big><big><b>ve</b></big></big><br><big>व + ए</big></center>
+va_ai	<center><big><big><big><big><big>वै</big></big></big></big></big></center>	<center><big><big><b>vai</b></big></big><br><big>व + ऐ</big></center>
+va_o	<center><big><big><big><big><big>वो</big></big></big></big></big></center>	<center><big><big><b>vo</b></big></big><br><big>व + ओ</big></center>
+va_au	<center><big><big><big><big><big>वौ</big></big></big></big></big></center>	<center><big><big><b>vau</b></big></big><br><big>व + औ</big></center>
+va_aM	<center><big><big><big><big><big>वं</big></big></big></big></big></center>	<center><big><big><b>vaṁ</b></big></big><br><big>व + ◌ं</big></center>
+va_aH	<center><big><big><big><big><big>वः</big></big></big></big></big></center>	<center><big><big><b>vaḥ</b></big></big><br><big>व + ◌ः</big></center>
+sha_aa	<center><big><big><big><big><big>शा</big></big></big></big></big></center>	<center><big><big><b>śā</b></big></big><br><big>श + आ</big></center>
+sha_i	<center><big><big><big><big><big>शि</big></big></big></big></big></center>	<center><big><big><b>śi</b></big></big><br><big>श + इ</big></center>
+sha_ii	<center><big><big><big><big><big>शी</big></big></big></big></big></center>	<center><big><big><b>śī</b></big></big><br><big>श + ई</big></center>
+sha_u	<center><big><big><big><big><big>शु</big></big></big></big></big></center>	<center><big><big><b>śu</b></big></big><br><big>श + उ</big></center>
+sha_uu	<center><big><big><big><big><big>शू</big></big></big></big></big></center>	<center><big><big><b>śū</b></big></big><br><big>श + ऊ</big></center>
+sha_RRi	<center><big><big><big><big><big>शृ</big></big></big></big></big></center>	<center><big><big><b>śṛ</b></big></big><br><big>श + ऋ</big></center>
+sha_RRI	<center><big><big><big><big><big>शॄ</big></big></big></big></big></center>	<center><big><big><b>śṝ</b></big></big><br><big>श + ॠ</big></center>
+sha_LLi	<center><big><big><big><big><big>शॢ</big></big></big></big></big></center>	<center><big><big><b>śḷ</b></big></big><br><big>श + ऌ</big></center>
+sha_e	<center><big><big><big><big><big>शे</big></big></big></big></big></center>	<center><big><big><b>śe</b></big></big><br><big>श + ए</big></center>
+sha_ai	<center><big><big><big><big><big>शै</big></big></big></big></big></center>	<center><big><big><b>śai</b></big></big><br><big>श + ऐ</big></center>
+sha_o	<center><big><big><big><big><big>शो</big></big></big></big></big></center>	<center><big><big><b>śo</b></big></big><br><big>श + ओ</big></center>
+sha_au	<center><big><big><big><big><big>शौ</big></big></big></big></big></center>	<center><big><big><b>śau</b></big></big><br><big>श + औ</big></center>
+sha_aM	<center><big><big><big><big><big>शं</big></big></big></big></big></center>	<center><big><big><b>śaṁ</b></big></big><br><big>श + ◌ं</big></center>
+sha_aH	<center><big><big><big><big><big>शः</big></big></big></big></big></center>	<center><big><big><b>śaḥ</b></big></big><br><big>श + ◌ः</big></center>
+Sha_aa	<center><big><big><big><big><big>षा</big></big></big></big></big></center>	<center><big><big><b>ṣā</b></big></big><br><big>ष + आ</big></center>
+Sha_i	<center><big><big><big><big><big>षि</big></big></big></big></big></center>	<center><big><big><b>ṣi</b></big></big><br><big>ष + इ</big></center>
+Sha_ii	<center><big><big><big><big><big>षी</big></big></big></big></big></center>	<center><big><big><b>ṣī</b></big></big><br><big>ष + ई</big></center>
+Sha_u	<center><big><big><big><big><big>षु</big></big></big></big></big></center>	<center><big><big><b>ṣu</b></big></big><br><big>ष + उ</big></center>
+Sha_uu	<center><big><big><big><big><big>षू</big></big></big></big></big></center>	<center><big><big><b>ṣū</b></big></big><br><big>ष + ऊ</big></center>
+Sha_RRi	<center><big><big><big><big><big>षृ</big></big></big></big></big></center>	<center><big><big><b>ṣṛ</b></big></big><br><big>ष + ऋ</big></center>
+Sha_RRI	<center><big><big><big><big><big>षॄ</big></big></big></big></big></center>	<center><big><big><b>ṣṝ</b></big></big><br><big>ष + ॠ</big></center>
+Sha_LLi	<center><big><big><big><big><big>षॢ</big></big></big></big></big></center>	<center><big><big><b>ṣḷ</b></big></big><br><big>ष + ऌ</big></center>
+Sha_e	<center><big><big><big><big><big>षे</big></big></big></big></big></center>	<center><big><big><b>ṣe</b></big></big><br><big>ष + ए</big></center>
+Sha_ai	<center><big><big><big><big><big>षै</big></big></big></big></big></center>	<center><big><big><b>ṣai</b></big></big><br><big>ष + ऐ</big></center>
+Sha_o	<center><big><big><big><big><big>षो</big></big></big></big></big></center>	<center><big><big><b>ṣo</b></big></big><br><big>ष + ओ</big></center>
+Sha_au	<center><big><big><big><big><big>षौ</big></big></big></big></big></center>	<center><big><big><b>ṣau</b></big></big><br><big>ष + औ</big></center>
+Sha_aM	<center><big><big><big><big><big>षं</big></big></big></big></big></center>	<center><big><big><b>ṣaṁ</b></big></big><br><big>ष + ◌ं</big></center>
+Sha_aH	<center><big><big><big><big><big>षः</big></big></big></big></big></center>	<center><big><big><b>ṣaḥ</b></big></big><br><big>ष + ◌ः</big></center>
+sa_aa	<center><big><big><big><big><big>सा</big></big></big></big></big></center>	<center><big><big><b>sā</b></big></big><br><big>स + आ</big></center>
+sa_i	<center><big><big><big><big><big>सि</big></big></big></big></big></center>	<center><big><big><b>si</b></big></big><br><big>स + इ</big></center>
+sa_ii	<center><big><big><big><big><big>सी</big></big></big></big></big></center>	<center><big><big><b>sī</b></big></big><br><big>स + ई</big></center>
+sa_u	<center><big><big><big><big><big>सु</big></big></big></big></big></center>	<center><big><big><b>su</b></big></big><br><big>स + उ</big></center>
+sa_uu	<center><big><big><big><big><big>सू</big></big></big></big></big></center>	<center><big><big><b>sū</b></big></big><br><big>स + ऊ</big></center>
+sa_RRi	<center><big><big><big><big><big>सृ</big></big></big></big></big></center>	<center><big><big><b>sṛ</b></big></big><br><big>स + ऋ</big></center>
+sa_RRI	<center><big><big><big><big><big>सॄ</big></big></big></big></big></center>	<center><big><big><b>sṝ</b></big></big><br><big>स + ॠ</big></center>
+sa_LLi	<center><big><big><big><big><big>सॢ</big></big></big></big></big></center>	<center><big><big><b>sḷ</b></big></big><br><big>स + ऌ</big></center>
+sa_e	<center><big><big><big><big><big>से</big></big></big></big></big></center>	<center><big><big><b>se</b></big></big><br><big>स + ए</big></center>
+sa_ai	<center><big><big><big><big><big>सै</big></big></big></big></big></center>	<center><big><big><b>sai</b></big></big><br><big>स + ऐ</big></center>
+sa_o	<center><big><big><big><big><big>सो</big></big></big></big></big></center>	<center><big><big><b>so</b></big></big><br><big>स + ओ</big></center>
+sa_au	<center><big><big><big><big><big>सौ</big></big></big></big></big></center>	<center><big><big><b>sau</b></big></big><br><big>स + औ</big></center>
+sa_aM	<center><big><big><big><big><big>सं</big></big></big></big></big></center>	<center><big><big><b>saṁ</b></big></big><br><big>स + ◌ं</big></center>
+sa_aH	<center><big><big><big><big><big>सः</big></big></big></big></big></center>	<center><big><big><b>saḥ</b></big></big><br><big>स + ◌ः</big></center>
+ha_aa	<center><big><big><big><big><big>हा</big></big></big></big></big></center>	<center><big><big><b>hā</b></big></big><br><big>ह + आ</big></center>
+ha_i	<center><big><big><big><big><big>हि</big></big></big></big></big></center>	<center><big><big><b>hi</b></big></big><br><big>ह + इ</big></center>
+ha_ii	<center><big><big><big><big><big>ही</big></big></big></big></big></center>	<center><big><big><b>hī</b></big></big><br><big>ह + ई</big></center>
+ha_u	<center><big><big><big><big><big>हु</big></big></big></big></big></center>	<center><big><big><b>hu</b></big></big><br><big>ह + उ</big></center>
+ha_uu	<center><big><big><big><big><big>हू</big></big></big></big></big></center>	<center><big><big><b>hū</b></big></big><br><big>ह + ऊ</big></center>
+ha_RRi	<center><big><big><big><big><big>हृ</big></big></big></big></big></center>	<center><big><big><b>hṛ</b></big></big><br><big>ह + ऋ</big></center>
+ha_RRI	<center><big><big><big><big><big>हॄ</big></big></big></big></big></center>	<center><big><big><b>hṝ</b></big></big><br><big>ह + ॠ</big></center>
+ha_LLi	<center><big><big><big><big><big>हॢ</big></big></big></big></big></center>	<center><big><big><b>hḷ</b></big></big><br><big>ह + ऌ</big></center>
+ha_e	<center><big><big><big><big><big>हे</big></big></big></big></big></center>	<center><big><big><b>he</b></big></big><br><big>ह + ए</big></center>
+ha_ai	<center><big><big><big><big><big>है</big></big></big></big></big></center>	<center><big><big><b>hai</b></big></big><br><big>ह + ऐ</big></center>
+ha_o	<center><big><big><big><big><big>हो</big></big></big></big></big></center>	<center><big><big><b>ho</b></big></big><br><big>ह + ओ</big></center>
+ha_au	<center><big><big><big><big><big>हौ</big></big></big></big></big></center>	<center><big><big><b>hau</b></big></big><br><big>ह + औ</big></center>
+ha_aM	<center><big><big><big><big><big>हं</big></big></big></big></big></center>	<center><big><big><b>haṁ</b></big></big><br><big>ह + ◌ं</big></center>
+ha_aH	<center><big><big><big><big><big>हः</big></big></big></big></big></center>	<center><big><big><b>haḥ</b></big></big><br><big>ह + ◌ः</big></center>
+kSha_aa	<center><big><big><big><big><big>क्षा</big></big></big></big></big></center>	<center><big><big><b>kṣā</b></big></big><br><big>क्ष + आ</big></center>
+kSha_i	<center><big><big><big><big><big>क्षि</big></big></big></big></big></center>	<center><big><big><b>kṣi</b></big></big><br><big>क्ष + इ</big></center>
+kSha_ii	<center><big><big><big><big><big>क्षी</big></big></big></big></big></center>	<center><big><big><b>kṣī</b></big></big><br><big>क्ष + ई</big></center>
+kSha_u	<center><big><big><big><big><big>क्षु</big></big></big></big></big></center>	<center><big><big><b>kṣu</b></big></big><br><big>क्ष + उ</big></center>
+kSha_uu	<center><big><big><big><big><big>क्षू</big></big></big></big></big></center>	<center><big><big><b>kṣū</b></big></big><br><big>क्ष + ऊ</big></center>
+kSha_RRi	<center><big><big><big><big><big>क्षृ</big></big></big></big></big></center>	<center><big><big><b>kṣṛ</b></big></big><br><big>क्ष + ऋ</big></center>
+kSha_RRI	<center><big><big><big><big><big>क्षॄ</big></big></big></big></big></center>	<center><big><big><b>kṣṝ</b></big></big><br><big>क्ष + ॠ</big></center>
+kSha_LLi	<center><big><big><big><big><big>क्षॢ</big></big></big></big></big></center>	<center><big><big><b>kṣḷ</b></big></big><br><big>क्ष + ऌ</big></center>
+kSha_e	<center><big><big><big><big><big>क्षे</big></big></big></big></big></center>	<center><big><big><b>kṣe</b></big></big><br><big>क्ष + ए</big></center>
+kSha_ai	<center><big><big><big><big><big>क्षै</big></big></big></big></big></center>	<center><big><big><b>kṣai</b></big></big><br><big>क्ष + ऐ</big></center>
+kSha_o	<center><big><big><big><big><big>क्षो</big></big></big></big></big></center>	<center><big><big><b>kṣo</b></big></big><br><big>क्ष + ओ</big></center>
+kSha_au	<center><big><big><big><big><big>क्षौ</big></big></big></big></big></center>	<center><big><big><b>kṣau</b></big></big><br><big>क्ष + औ</big></center>
+kSha_aM	<center><big><big><big><big><big>क्षं</big></big></big></big></big></center>	<center><big><big><b>kṣaṁ</b></big></big><br><big>क्ष + ◌ं</big></center>
+kSha_aH	<center><big><big><big><big><big>क्षः</big></big></big></big></big></center>	<center><big><big><b>kṣaḥ</b></big></big><br><big>क्ष + ◌ः</big></center>
+jJNa_aa	<center><big><big><big><big><big>ज्ञा</big></big></big></big></big></center>	<center><big><big><b>jñā</b></big></big><br><big>ज्ञ + आ</big></center>
+jJNa_i	<center><big><big><big><big><big>ज्ञि</big></big></big></big></big></center>	<center><big><big><b>jñi</b></big></big><br><big>ज्ञ + इ</big></center>
+jJNa_ii	<center><big><big><big><big><big>ज्ञी</big></big></big></big></big></center>	<center><big><big><b>jñī</b></big></big><br><big>ज्ञ + ई</big></center>
+jJNa_u	<center><big><big><big><big><big>ज्ञु</big></big></big></big></big></center>	<center><big><big><b>jñu</b></big></big><br><big>ज्ञ + उ</big></center>
+jJNa_uu	<center><big><big><big><big><big>ज्ञू</big></big></big></big></big></center>	<center><big><big><b>jñū</b></big></big><br><big>ज्ञ + ऊ</big></center>
+jJNa_RRi	<center><big><big><big><big><big>ज्ञृ</big></big></big></big></big></center>	<center><big><big><b>jñṛ</b></big></big><br><big>ज्ञ + ऋ</big></center>
+jJNa_RRI	<center><big><big><big><big><big>ज्ञॄ</big></big></big></big></big></center>	<center><big><big><b>jñṝ</b></big></big><br><big>ज्ञ + ॠ</big></center>
+jJNa_LLi	<center><big><big><big><big><big>ज्ञॢ</big></big></big></big></big></center>	<center><big><big><b>jñḷ</b></big></big><br><big>ज्ञ + ऌ</big></center>
+jJNa_e	<center><big><big><big><big><big>ज्ञे</big></big></big></big></big></center>	<center><big><big><b>jñe</b></big></big><br><big>ज्ञ + ए</big></center>
+jJNa_ai	<center><big><big><big><big><big>ज्ञै</big></big></big></big></big></center>	<center><big><big><b>jñai</b></big></big><br><big>ज्ञ + ऐ</big></center>
+jJNa_o	<center><big><big><big><big><big>ज्ञो</big></big></big></big></big></center>	<center><big><big><b>jño</b></big></big><br><big>ज्ञ + ओ</big></center>
+jJNa_au	<center><big><big><big><big><big>ज्ञौ</big></big></big></big></big></center>	<center><big><big><b>jñau</b></big></big><br><big>ज्ञ + औ</big></center>
+jJNa_aM	<center><big><big><big><big><big>ज्ञं</big></big></big></big></big></center>	<center><big><big><b>jñaṁ</b></big></big><br><big>ज्ञ + ◌ं</big></center>
+jJNa_aH	<center><big><big><big><big><big>ज्ञः</big></big></big></big></big></center>	<center><big><big><b>jñaḥ</b></big></big><br><big>ज्ञ + ◌ः</big></center>
+aa_M	<center><big><big><big><big><big>आं</big></big></big></big></big></center>	<center><big><big><b>āṁ</b></big></big><br><big>आ + ◌ं</big></center>
+aa_H	<center><big><big><big><big><big>आः</big></big></big></big></big></center>	<center><big><big><b>āḥ</b></big></big><br><big>आ + ◌ः</big></center>
+i_M	<center><big><big><big><big><big>इं</big></big></big></big></big></center>	<center><big><big><b>iṁ</b></big></big><br><big>इ + ◌ं</big></center>
+i_H	<center><big><big><big><big><big>इः</big></big></big></big></big></center>	<center><big><big><b>iḥ</b></big></big><br><big>इ + ◌ः</big></center>
+ii_M	<center><big><big><big><big><big>ईं</big></big></big></big></big></center>	<center><big><big><b>īṁ</b></big></big><br><big>ई + ◌ं</big></center>
+ii_H	<center><big><big><big><big><big>ईः</big></big></big></big></big></center>	<center><big><big><b>īḥ</b></big></big><br><big>ई + ◌ः</big></center>
+u_M	<center><big><big><big><big><big>उं</big></big></big></big></big></center>	<center><big><big><b>uṁ</b></big></big><br><big>उ + ◌ं</big></center>
+u_H	<center><big><big><big><big><big>उः</big></big></big></big></big></center>	<center><big><big><b>uḥ</b></big></big><br><big>उ + ◌ः</big></center>
+uu_M	<center><big><big><big><big><big>ऊं</big></big></big></big></big></center>	<center><big><big><b>ūṁ</b></big></big><br><big>ऊ + ◌ं</big></center>
+uu_H	<center><big><big><big><big><big>ऊः</big></big></big></big></big></center>	<center><big><big><b>ūḥ</b></big></big><br><big>ऊ + ◌ः</big></center>
+RRi_M	<center><big><big><big><big><big>ऋं</big></big></big></big></big></center>	<center><big><big><b>ṛṁ</b></big></big><br><big>ऋ + ◌ं</big></center>
+RRi_H	<center><big><big><big><big><big>ऋः</big></big></big></big></big></center>	<center><big><big><b>ṛḥ</b></big></big><br><big>ऋ + ◌ः</big></center>
+RRI_M	<center><big><big><big><big><big>ॠं</big></big></big></big></big></center>	<center><big><big><b>ṝṁ</b></big></big><br><big>ॠ + ◌ं</big></center>
+RRI_H	<center><big><big><big><big><big>ॠः</big></big></big></big></big></center>	<center><big><big><b>ṝḥ</b></big></big><br><big>ॠ + ◌ः</big></center>
+LLi_M	<center><big><big><big><big><big>ऌं</big></big></big></big></big></center>	<center><big><big><b>ḷṁ</b></big></big><br><big>ऌ + ◌ं</big></center>
+LLi_H	<center><big><big><big><big><big>ऌः</big></big></big></big></big></center>	<center><big><big><b>ḷḥ</b></big></big><br><big>ऌ + ◌ः</big></center>
+e_M	<center><big><big><big><big><big>एं</big></big></big></big></big></center>	<center><big><big><b>eṁ</b></big></big><br><big>ए + ◌ं</big></center>
+e_H	<center><big><big><big><big><big>एः</big></big></big></big></big></center>	<center><big><big><b>eḥ</b></big></big><br><big>ए + ◌ः</big></center>
+ai_M	<center><big><big><big><big><big>ऐं</big></big></big></big></big></center>	<center><big><big><b>aiṁ</b></big></big><br><big>ऐ + ◌ं</big></center>
+ai_H	<center><big><big><big><big><big>ऐः</big></big></big></big></big></center>	<center><big><big><b>aiḥ</b></big></big><br><big>ऐ + ◌ः</big></center>
+o_M	<center><big><big><big><big><big>ओं</big></big></big></big></big></center>	<center><big><big><b>oṁ</b></big></big><br><big>ओ + ◌ं</big></center>
+o_H	<center><big><big><big><big><big>ओः</big></big></big></big></big></center>	<center><big><big><b>oḥ</b></big></big><br><big>ओ + ◌ः</big></center>
+au_M	<center><big><big><big><big><big>औं</big></big></big></big></big></center>	<center><big><big><b>auṁ</b></big></big><br><big>औ + ◌ं</big></center>
+au_H	<center><big><big><big><big><big>औः</big></big></big></big></big></center>	<center><big><big><b>auḥ</b></big></big><br><big>औ + ◌ः</big></center>
