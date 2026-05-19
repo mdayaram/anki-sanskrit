@@ -1,0 +1,3432 @@
+[
+  {
+    "id": "ka_aa",
+    "consonant_id": "ka",
+    "vowel_id": "aa",
+    "devanagari": "का",
+    "roman": "kā"
+  },
+  {
+    "id": "ka_i",
+    "consonant_id": "ka",
+    "vowel_id": "i",
+    "devanagari": "कि",
+    "roman": "ki"
+  },
+  {
+    "id": "ka_ii",
+    "consonant_id": "ka",
+    "vowel_id": "ii",
+    "devanagari": "की",
+    "roman": "kī"
+  },
+  {
+    "id": "ka_u",
+    "consonant_id": "ka",
+    "vowel_id": "u",
+    "devanagari": "कु",
+    "roman": "ku"
+  },
+  {
+    "id": "ka_uu",
+    "consonant_id": "ka",
+    "vowel_id": "uu",
+    "devanagari": "कू",
+    "roman": "kū"
+  },
+  {
+    "id": "ka_RRi",
+    "consonant_id": "ka",
+    "vowel_id": "RRi",
+    "devanagari": "कृ",
+    "roman": "kṛ"
+  },
+  {
+    "id": "ka_RRI",
+    "consonant_id": "ka",
+    "vowel_id": "RRI",
+    "devanagari": "कॄ",
+    "roman": "kṝ"
+  },
+  {
+    "id": "ka_LLi",
+    "consonant_id": "ka",
+    "vowel_id": "LLi",
+    "devanagari": "कॢ",
+    "roman": "kḷ"
+  },
+  {
+    "id": "ka_e",
+    "consonant_id": "ka",
+    "vowel_id": "e",
+    "devanagari": "के",
+    "roman": "ke"
+  },
+  {
+    "id": "ka_ai",
+    "consonant_id": "ka",
+    "vowel_id": "ai",
+    "devanagari": "कै",
+    "roman": "kai"
+  },
+  {
+    "id": "ka_o",
+    "consonant_id": "ka",
+    "vowel_id": "o",
+    "devanagari": "को",
+    "roman": "ko"
+  },
+  {
+    "id": "ka_au",
+    "consonant_id": "ka",
+    "vowel_id": "au",
+    "devanagari": "कौ",
+    "roman": "kau"
+  },
+  {
+    "id": "ka_aM",
+    "consonant_id": "ka",
+    "vowel_id": "aM",
+    "devanagari": "कं",
+    "roman": "kaṁ"
+  },
+  {
+    "id": "ka_aH",
+    "consonant_id": "ka",
+    "vowel_id": "aH",
+    "devanagari": "कः",
+    "roman": "kaḥ"
+  },
+  {
+    "id": "kha_aa",
+    "consonant_id": "kha",
+    "vowel_id": "aa",
+    "devanagari": "खा",
+    "roman": "khā"
+  },
+  {
+    "id": "kha_i",
+    "consonant_id": "kha",
+    "vowel_id": "i",
+    "devanagari": "खि",
+    "roman": "khi"
+  },
+  {
+    "id": "kha_ii",
+    "consonant_id": "kha",
+    "vowel_id": "ii",
+    "devanagari": "खी",
+    "roman": "khī"
+  },
+  {
+    "id": "kha_u",
+    "consonant_id": "kha",
+    "vowel_id": "u",
+    "devanagari": "खु",
+    "roman": "khu"
+  },
+  {
+    "id": "kha_uu",
+    "consonant_id": "kha",
+    "vowel_id": "uu",
+    "devanagari": "खू",
+    "roman": "khū"
+  },
+  {
+    "id": "kha_RRi",
+    "consonant_id": "kha",
+    "vowel_id": "RRi",
+    "devanagari": "खृ",
+    "roman": "khṛ"
+  },
+  {
+    "id": "kha_RRI",
+    "consonant_id": "kha",
+    "vowel_id": "RRI",
+    "devanagari": "खॄ",
+    "roman": "khṝ"
+  },
+  {
+    "id": "kha_LLi",
+    "consonant_id": "kha",
+    "vowel_id": "LLi",
+    "devanagari": "खॢ",
+    "roman": "khḷ"
+  },
+  {
+    "id": "kha_e",
+    "consonant_id": "kha",
+    "vowel_id": "e",
+    "devanagari": "खे",
+    "roman": "khe"
+  },
+  {
+    "id": "kha_ai",
+    "consonant_id": "kha",
+    "vowel_id": "ai",
+    "devanagari": "खै",
+    "roman": "khai"
+  },
+  {
+    "id": "kha_o",
+    "consonant_id": "kha",
+    "vowel_id": "o",
+    "devanagari": "खो",
+    "roman": "kho"
+  },
+  {
+    "id": "kha_au",
+    "consonant_id": "kha",
+    "vowel_id": "au",
+    "devanagari": "खौ",
+    "roman": "khau"
+  },
+  {
+    "id": "kha_aM",
+    "consonant_id": "kha",
+    "vowel_id": "aM",
+    "devanagari": "खं",
+    "roman": "khaṁ"
+  },
+  {
+    "id": "kha_aH",
+    "consonant_id": "kha",
+    "vowel_id": "aH",
+    "devanagari": "खः",
+    "roman": "khaḥ"
+  },
+  {
+    "id": "ga_aa",
+    "consonant_id": "ga",
+    "vowel_id": "aa",
+    "devanagari": "गा",
+    "roman": "gā"
+  },
+  {
+    "id": "ga_i",
+    "consonant_id": "ga",
+    "vowel_id": "i",
+    "devanagari": "गि",
+    "roman": "gi"
+  },
+  {
+    "id": "ga_ii",
+    "consonant_id": "ga",
+    "vowel_id": "ii",
+    "devanagari": "गी",
+    "roman": "gī"
+  },
+  {
+    "id": "ga_u",
+    "consonant_id": "ga",
+    "vowel_id": "u",
+    "devanagari": "गु",
+    "roman": "gu"
+  },
+  {
+    "id": "ga_uu",
+    "consonant_id": "ga",
+    "vowel_id": "uu",
+    "devanagari": "गू",
+    "roman": "gū"
+  },
+  {
+    "id": "ga_RRi",
+    "consonant_id": "ga",
+    "vowel_id": "RRi",
+    "devanagari": "गृ",
+    "roman": "gṛ"
+  },
+  {
+    "id": "ga_RRI",
+    "consonant_id": "ga",
+    "vowel_id": "RRI",
+    "devanagari": "गॄ",
+    "roman": "gṝ"
+  },
+  {
+    "id": "ga_LLi",
+    "consonant_id": "ga",
+    "vowel_id": "LLi",
+    "devanagari": "गॢ",
+    "roman": "gḷ"
+  },
+  {
+    "id": "ga_e",
+    "consonant_id": "ga",
+    "vowel_id": "e",
+    "devanagari": "गे",
+    "roman": "ge"
+  },
+  {
+    "id": "ga_ai",
+    "consonant_id": "ga",
+    "vowel_id": "ai",
+    "devanagari": "गै",
+    "roman": "gai"
+  },
+  {
+    "id": "ga_o",
+    "consonant_id": "ga",
+    "vowel_id": "o",
+    "devanagari": "गो",
+    "roman": "go"
+  },
+  {
+    "id": "ga_au",
+    "consonant_id": "ga",
+    "vowel_id": "au",
+    "devanagari": "गौ",
+    "roman": "gau"
+  },
+  {
+    "id": "ga_aM",
+    "consonant_id": "ga",
+    "vowel_id": "aM",
+    "devanagari": "गं",
+    "roman": "gaṁ"
+  },
+  {
+    "id": "ga_aH",
+    "consonant_id": "ga",
+    "vowel_id": "aH",
+    "devanagari": "गः",
+    "roman": "gaḥ"
+  },
+  {
+    "id": "gha_aa",
+    "consonant_id": "gha",
+    "vowel_id": "aa",
+    "devanagari": "घा",
+    "roman": "ghā"
+  },
+  {
+    "id": "gha_i",
+    "consonant_id": "gha",
+    "vowel_id": "i",
+    "devanagari": "घि",
+    "roman": "ghi"
+  },
+  {
+    "id": "gha_ii",
+    "consonant_id": "gha",
+    "vowel_id": "ii",
+    "devanagari": "घी",
+    "roman": "ghī"
+  },
+  {
+    "id": "gha_u",
+    "consonant_id": "gha",
+    "vowel_id": "u",
+    "devanagari": "घु",
+    "roman": "ghu"
+  },
+  {
+    "id": "gha_uu",
+    "consonant_id": "gha",
+    "vowel_id": "uu",
+    "devanagari": "घू",
+    "roman": "ghū"
+  },
+  {
+    "id": "gha_RRi",
+    "consonant_id": "gha",
+    "vowel_id": "RRi",
+    "devanagari": "घृ",
+    "roman": "ghṛ"
+  },
+  {
+    "id": "gha_RRI",
+    "consonant_id": "gha",
+    "vowel_id": "RRI",
+    "devanagari": "घॄ",
+    "roman": "ghṝ"
+  },
+  {
+    "id": "gha_LLi",
+    "consonant_id": "gha",
+    "vowel_id": "LLi",
+    "devanagari": "घॢ",
+    "roman": "ghḷ"
+  },
+  {
+    "id": "gha_e",
+    "consonant_id": "gha",
+    "vowel_id": "e",
+    "devanagari": "घे",
+    "roman": "ghe"
+  },
+  {
+    "id": "gha_ai",
+    "consonant_id": "gha",
+    "vowel_id": "ai",
+    "devanagari": "घै",
+    "roman": "ghai"
+  },
+  {
+    "id": "gha_o",
+    "consonant_id": "gha",
+    "vowel_id": "o",
+    "devanagari": "घो",
+    "roman": "gho"
+  },
+  {
+    "id": "gha_au",
+    "consonant_id": "gha",
+    "vowel_id": "au",
+    "devanagari": "घौ",
+    "roman": "ghau"
+  },
+  {
+    "id": "gha_aM",
+    "consonant_id": "gha",
+    "vowel_id": "aM",
+    "devanagari": "घं",
+    "roman": "ghaṁ"
+  },
+  {
+    "id": "gha_aH",
+    "consonant_id": "gha",
+    "vowel_id": "aH",
+    "devanagari": "घः",
+    "roman": "ghaḥ"
+  },
+  {
+    "id": "GNa_aa",
+    "consonant_id": "GNa",
+    "vowel_id": "aa",
+    "devanagari": "ङा",
+    "roman": "ṅā"
+  },
+  {
+    "id": "GNa_i",
+    "consonant_id": "GNa",
+    "vowel_id": "i",
+    "devanagari": "ङि",
+    "roman": "ṅi"
+  },
+  {
+    "id": "GNa_ii",
+    "consonant_id": "GNa",
+    "vowel_id": "ii",
+    "devanagari": "ङी",
+    "roman": "ṅī"
+  },
+  {
+    "id": "GNa_u",
+    "consonant_id": "GNa",
+    "vowel_id": "u",
+    "devanagari": "ङु",
+    "roman": "ṅu"
+  },
+  {
+    "id": "GNa_uu",
+    "consonant_id": "GNa",
+    "vowel_id": "uu",
+    "devanagari": "ङू",
+    "roman": "ṅū"
+  },
+  {
+    "id": "GNa_RRi",
+    "consonant_id": "GNa",
+    "vowel_id": "RRi",
+    "devanagari": "ङृ",
+    "roman": "ṅṛ"
+  },
+  {
+    "id": "GNa_RRI",
+    "consonant_id": "GNa",
+    "vowel_id": "RRI",
+    "devanagari": "ङॄ",
+    "roman": "ṅṝ"
+  },
+  {
+    "id": "GNa_LLi",
+    "consonant_id": "GNa",
+    "vowel_id": "LLi",
+    "devanagari": "ङॢ",
+    "roman": "ṅḷ"
+  },
+  {
+    "id": "GNa_e",
+    "consonant_id": "GNa",
+    "vowel_id": "e",
+    "devanagari": "ङे",
+    "roman": "ṅe"
+  },
+  {
+    "id": "GNa_ai",
+    "consonant_id": "GNa",
+    "vowel_id": "ai",
+    "devanagari": "ङै",
+    "roman": "ṅai"
+  },
+  {
+    "id": "GNa_o",
+    "consonant_id": "GNa",
+    "vowel_id": "o",
+    "devanagari": "ङो",
+    "roman": "ṅo"
+  },
+  {
+    "id": "GNa_au",
+    "consonant_id": "GNa",
+    "vowel_id": "au",
+    "devanagari": "ङौ",
+    "roman": "ṅau"
+  },
+  {
+    "id": "GNa_aM",
+    "consonant_id": "GNa",
+    "vowel_id": "aM",
+    "devanagari": "ङं",
+    "roman": "ṅaṁ"
+  },
+  {
+    "id": "GNa_aH",
+    "consonant_id": "GNa",
+    "vowel_id": "aH",
+    "devanagari": "ङः",
+    "roman": "ṅaḥ"
+  },
+  {
+    "id": "ca_aa",
+    "consonant_id": "ca",
+    "vowel_id": "aa",
+    "devanagari": "चा",
+    "roman": "cā"
+  },
+  {
+    "id": "ca_i",
+    "consonant_id": "ca",
+    "vowel_id": "i",
+    "devanagari": "चि",
+    "roman": "ci"
+  },
+  {
+    "id": "ca_ii",
+    "consonant_id": "ca",
+    "vowel_id": "ii",
+    "devanagari": "ची",
+    "roman": "cī"
+  },
+  {
+    "id": "ca_u",
+    "consonant_id": "ca",
+    "vowel_id": "u",
+    "devanagari": "चु",
+    "roman": "cu"
+  },
+  {
+    "id": "ca_uu",
+    "consonant_id": "ca",
+    "vowel_id": "uu",
+    "devanagari": "चू",
+    "roman": "cū"
+  },
+  {
+    "id": "ca_RRi",
+    "consonant_id": "ca",
+    "vowel_id": "RRi",
+    "devanagari": "चृ",
+    "roman": "cṛ"
+  },
+  {
+    "id": "ca_RRI",
+    "consonant_id": "ca",
+    "vowel_id": "RRI",
+    "devanagari": "चॄ",
+    "roman": "cṝ"
+  },
+  {
+    "id": "ca_LLi",
+    "consonant_id": "ca",
+    "vowel_id": "LLi",
+    "devanagari": "चॢ",
+    "roman": "cḷ"
+  },
+  {
+    "id": "ca_e",
+    "consonant_id": "ca",
+    "vowel_id": "e",
+    "devanagari": "चे",
+    "roman": "ce"
+  },
+  {
+    "id": "ca_ai",
+    "consonant_id": "ca",
+    "vowel_id": "ai",
+    "devanagari": "चै",
+    "roman": "cai"
+  },
+  {
+    "id": "ca_o",
+    "consonant_id": "ca",
+    "vowel_id": "o",
+    "devanagari": "चो",
+    "roman": "co"
+  },
+  {
+    "id": "ca_au",
+    "consonant_id": "ca",
+    "vowel_id": "au",
+    "devanagari": "चौ",
+    "roman": "cau"
+  },
+  {
+    "id": "ca_aM",
+    "consonant_id": "ca",
+    "vowel_id": "aM",
+    "devanagari": "चं",
+    "roman": "caṁ"
+  },
+  {
+    "id": "ca_aH",
+    "consonant_id": "ca",
+    "vowel_id": "aH",
+    "devanagari": "चः",
+    "roman": "caḥ"
+  },
+  {
+    "id": "cha_aa",
+    "consonant_id": "cha",
+    "vowel_id": "aa",
+    "devanagari": "छा",
+    "roman": "chā"
+  },
+  {
+    "id": "cha_i",
+    "consonant_id": "cha",
+    "vowel_id": "i",
+    "devanagari": "छि",
+    "roman": "chi"
+  },
+  {
+    "id": "cha_ii",
+    "consonant_id": "cha",
+    "vowel_id": "ii",
+    "devanagari": "छी",
+    "roman": "chī"
+  },
+  {
+    "id": "cha_u",
+    "consonant_id": "cha",
+    "vowel_id": "u",
+    "devanagari": "छु",
+    "roman": "chu"
+  },
+  {
+    "id": "cha_uu",
+    "consonant_id": "cha",
+    "vowel_id": "uu",
+    "devanagari": "छू",
+    "roman": "chū"
+  },
+  {
+    "id": "cha_RRi",
+    "consonant_id": "cha",
+    "vowel_id": "RRi",
+    "devanagari": "छृ",
+    "roman": "chṛ"
+  },
+  {
+    "id": "cha_RRI",
+    "consonant_id": "cha",
+    "vowel_id": "RRI",
+    "devanagari": "छॄ",
+    "roman": "chṝ"
+  },
+  {
+    "id": "cha_LLi",
+    "consonant_id": "cha",
+    "vowel_id": "LLi",
+    "devanagari": "छॢ",
+    "roman": "chḷ"
+  },
+  {
+    "id": "cha_e",
+    "consonant_id": "cha",
+    "vowel_id": "e",
+    "devanagari": "छे",
+    "roman": "che"
+  },
+  {
+    "id": "cha_ai",
+    "consonant_id": "cha",
+    "vowel_id": "ai",
+    "devanagari": "छै",
+    "roman": "chai"
+  },
+  {
+    "id": "cha_o",
+    "consonant_id": "cha",
+    "vowel_id": "o",
+    "devanagari": "छो",
+    "roman": "cho"
+  },
+  {
+    "id": "cha_au",
+    "consonant_id": "cha",
+    "vowel_id": "au",
+    "devanagari": "छौ",
+    "roman": "chau"
+  },
+  {
+    "id": "cha_aM",
+    "consonant_id": "cha",
+    "vowel_id": "aM",
+    "devanagari": "छं",
+    "roman": "chaṁ"
+  },
+  {
+    "id": "cha_aH",
+    "consonant_id": "cha",
+    "vowel_id": "aH",
+    "devanagari": "छः",
+    "roman": "chaḥ"
+  },
+  {
+    "id": "ja_aa",
+    "consonant_id": "ja",
+    "vowel_id": "aa",
+    "devanagari": "जा",
+    "roman": "jā"
+  },
+  {
+    "id": "ja_i",
+    "consonant_id": "ja",
+    "vowel_id": "i",
+    "devanagari": "जि",
+    "roman": "ji"
+  },
+  {
+    "id": "ja_ii",
+    "consonant_id": "ja",
+    "vowel_id": "ii",
+    "devanagari": "जी",
+    "roman": "jī"
+  },
+  {
+    "id": "ja_u",
+    "consonant_id": "ja",
+    "vowel_id": "u",
+    "devanagari": "जु",
+    "roman": "ju"
+  },
+  {
+    "id": "ja_uu",
+    "consonant_id": "ja",
+    "vowel_id": "uu",
+    "devanagari": "जू",
+    "roman": "jū"
+  },
+  {
+    "id": "ja_RRi",
+    "consonant_id": "ja",
+    "vowel_id": "RRi",
+    "devanagari": "जृ",
+    "roman": "jṛ"
+  },
+  {
+    "id": "ja_RRI",
+    "consonant_id": "ja",
+    "vowel_id": "RRI",
+    "devanagari": "जॄ",
+    "roman": "jṝ"
+  },
+  {
+    "id": "ja_LLi",
+    "consonant_id": "ja",
+    "vowel_id": "LLi",
+    "devanagari": "जॢ",
+    "roman": "jḷ"
+  },
+  {
+    "id": "ja_e",
+    "consonant_id": "ja",
+    "vowel_id": "e",
+    "devanagari": "जे",
+    "roman": "je"
+  },
+  {
+    "id": "ja_ai",
+    "consonant_id": "ja",
+    "vowel_id": "ai",
+    "devanagari": "जै",
+    "roman": "jai"
+  },
+  {
+    "id": "ja_o",
+    "consonant_id": "ja",
+    "vowel_id": "o",
+    "devanagari": "जो",
+    "roman": "jo"
+  },
+  {
+    "id": "ja_au",
+    "consonant_id": "ja",
+    "vowel_id": "au",
+    "devanagari": "जौ",
+    "roman": "jau"
+  },
+  {
+    "id": "ja_aM",
+    "consonant_id": "ja",
+    "vowel_id": "aM",
+    "devanagari": "जं",
+    "roman": "jaṁ"
+  },
+  {
+    "id": "ja_aH",
+    "consonant_id": "ja",
+    "vowel_id": "aH",
+    "devanagari": "जः",
+    "roman": "jaḥ"
+  },
+  {
+    "id": "jha_aa",
+    "consonant_id": "jha",
+    "vowel_id": "aa",
+    "devanagari": "झा",
+    "roman": "jhā"
+  },
+  {
+    "id": "jha_i",
+    "consonant_id": "jha",
+    "vowel_id": "i",
+    "devanagari": "झि",
+    "roman": "jhi"
+  },
+  {
+    "id": "jha_ii",
+    "consonant_id": "jha",
+    "vowel_id": "ii",
+    "devanagari": "झी",
+    "roman": "jhī"
+  },
+  {
+    "id": "jha_u",
+    "consonant_id": "jha",
+    "vowel_id": "u",
+    "devanagari": "झु",
+    "roman": "jhu"
+  },
+  {
+    "id": "jha_uu",
+    "consonant_id": "jha",
+    "vowel_id": "uu",
+    "devanagari": "झू",
+    "roman": "jhū"
+  },
+  {
+    "id": "jha_RRi",
+    "consonant_id": "jha",
+    "vowel_id": "RRi",
+    "devanagari": "झृ",
+    "roman": "jhṛ"
+  },
+  {
+    "id": "jha_RRI",
+    "consonant_id": "jha",
+    "vowel_id": "RRI",
+    "devanagari": "झॄ",
+    "roman": "jhṝ"
+  },
+  {
+    "id": "jha_LLi",
+    "consonant_id": "jha",
+    "vowel_id": "LLi",
+    "devanagari": "झॢ",
+    "roman": "jhḷ"
+  },
+  {
+    "id": "jha_e",
+    "consonant_id": "jha",
+    "vowel_id": "e",
+    "devanagari": "झे",
+    "roman": "jhe"
+  },
+  {
+    "id": "jha_ai",
+    "consonant_id": "jha",
+    "vowel_id": "ai",
+    "devanagari": "झै",
+    "roman": "jhai"
+  },
+  {
+    "id": "jha_o",
+    "consonant_id": "jha",
+    "vowel_id": "o",
+    "devanagari": "झो",
+    "roman": "jho"
+  },
+  {
+    "id": "jha_au",
+    "consonant_id": "jha",
+    "vowel_id": "au",
+    "devanagari": "झौ",
+    "roman": "jhau"
+  },
+  {
+    "id": "jha_aM",
+    "consonant_id": "jha",
+    "vowel_id": "aM",
+    "devanagari": "झं",
+    "roman": "jhaṁ"
+  },
+  {
+    "id": "jha_aH",
+    "consonant_id": "jha",
+    "vowel_id": "aH",
+    "devanagari": "झः",
+    "roman": "jhaḥ"
+  },
+  {
+    "id": "JNa_aa",
+    "consonant_id": "JNa",
+    "vowel_id": "aa",
+    "devanagari": "ञा",
+    "roman": "ñā"
+  },
+  {
+    "id": "JNa_i",
+    "consonant_id": "JNa",
+    "vowel_id": "i",
+    "devanagari": "ञि",
+    "roman": "ñi"
+  },
+  {
+    "id": "JNa_ii",
+    "consonant_id": "JNa",
+    "vowel_id": "ii",
+    "devanagari": "ञी",
+    "roman": "ñī"
+  },
+  {
+    "id": "JNa_u",
+    "consonant_id": "JNa",
+    "vowel_id": "u",
+    "devanagari": "ञु",
+    "roman": "ñu"
+  },
+  {
+    "id": "JNa_uu",
+    "consonant_id": "JNa",
+    "vowel_id": "uu",
+    "devanagari": "ञू",
+    "roman": "ñū"
+  },
+  {
+    "id": "JNa_RRi",
+    "consonant_id": "JNa",
+    "vowel_id": "RRi",
+    "devanagari": "ञृ",
+    "roman": "ñṛ"
+  },
+  {
+    "id": "JNa_RRI",
+    "consonant_id": "JNa",
+    "vowel_id": "RRI",
+    "devanagari": "ञॄ",
+    "roman": "ñṝ"
+  },
+  {
+    "id": "JNa_LLi",
+    "consonant_id": "JNa",
+    "vowel_id": "LLi",
+    "devanagari": "ञॢ",
+    "roman": "ñḷ"
+  },
+  {
+    "id": "JNa_e",
+    "consonant_id": "JNa",
+    "vowel_id": "e",
+    "devanagari": "ञे",
+    "roman": "ñe"
+  },
+  {
+    "id": "JNa_ai",
+    "consonant_id": "JNa",
+    "vowel_id": "ai",
+    "devanagari": "ञै",
+    "roman": "ñai"
+  },
+  {
+    "id": "JNa_o",
+    "consonant_id": "JNa",
+    "vowel_id": "o",
+    "devanagari": "ञो",
+    "roman": "ño"
+  },
+  {
+    "id": "JNa_au",
+    "consonant_id": "JNa",
+    "vowel_id": "au",
+    "devanagari": "ञौ",
+    "roman": "ñau"
+  },
+  {
+    "id": "JNa_aM",
+    "consonant_id": "JNa",
+    "vowel_id": "aM",
+    "devanagari": "ञं",
+    "roman": "ñaṁ"
+  },
+  {
+    "id": "JNa_aH",
+    "consonant_id": "JNa",
+    "vowel_id": "aH",
+    "devanagari": "ञः",
+    "roman": "ñaḥ"
+  },
+  {
+    "id": "Ta_aa",
+    "consonant_id": "Ta",
+    "vowel_id": "aa",
+    "devanagari": "टा",
+    "roman": "ṭā"
+  },
+  {
+    "id": "Ta_i",
+    "consonant_id": "Ta",
+    "vowel_id": "i",
+    "devanagari": "टि",
+    "roman": "ṭi"
+  },
+  {
+    "id": "Ta_ii",
+    "consonant_id": "Ta",
+    "vowel_id": "ii",
+    "devanagari": "टी",
+    "roman": "ṭī"
+  },
+  {
+    "id": "Ta_u",
+    "consonant_id": "Ta",
+    "vowel_id": "u",
+    "devanagari": "टु",
+    "roman": "ṭu"
+  },
+  {
+    "id": "Ta_uu",
+    "consonant_id": "Ta",
+    "vowel_id": "uu",
+    "devanagari": "टू",
+    "roman": "ṭū"
+  },
+  {
+    "id": "Ta_RRi",
+    "consonant_id": "Ta",
+    "vowel_id": "RRi",
+    "devanagari": "टृ",
+    "roman": "ṭṛ"
+  },
+  {
+    "id": "Ta_RRI",
+    "consonant_id": "Ta",
+    "vowel_id": "RRI",
+    "devanagari": "टॄ",
+    "roman": "ṭṝ"
+  },
+  {
+    "id": "Ta_LLi",
+    "consonant_id": "Ta",
+    "vowel_id": "LLi",
+    "devanagari": "टॢ",
+    "roman": "ṭḷ"
+  },
+  {
+    "id": "Ta_e",
+    "consonant_id": "Ta",
+    "vowel_id": "e",
+    "devanagari": "टे",
+    "roman": "ṭe"
+  },
+  {
+    "id": "Ta_ai",
+    "consonant_id": "Ta",
+    "vowel_id": "ai",
+    "devanagari": "टै",
+    "roman": "ṭai"
+  },
+  {
+    "id": "Ta_o",
+    "consonant_id": "Ta",
+    "vowel_id": "o",
+    "devanagari": "टो",
+    "roman": "ṭo"
+  },
+  {
+    "id": "Ta_au",
+    "consonant_id": "Ta",
+    "vowel_id": "au",
+    "devanagari": "टौ",
+    "roman": "ṭau"
+  },
+  {
+    "id": "Ta_aM",
+    "consonant_id": "Ta",
+    "vowel_id": "aM",
+    "devanagari": "टं",
+    "roman": "ṭaṁ"
+  },
+  {
+    "id": "Ta_aH",
+    "consonant_id": "Ta",
+    "vowel_id": "aH",
+    "devanagari": "टः",
+    "roman": "ṭaḥ"
+  },
+  {
+    "id": "Tha_aa",
+    "consonant_id": "Tha",
+    "vowel_id": "aa",
+    "devanagari": "ठा",
+    "roman": "ṭhā"
+  },
+  {
+    "id": "Tha_i",
+    "consonant_id": "Tha",
+    "vowel_id": "i",
+    "devanagari": "ठि",
+    "roman": "ṭhi"
+  },
+  {
+    "id": "Tha_ii",
+    "consonant_id": "Tha",
+    "vowel_id": "ii",
+    "devanagari": "ठी",
+    "roman": "ṭhī"
+  },
+  {
+    "id": "Tha_u",
+    "consonant_id": "Tha",
+    "vowel_id": "u",
+    "devanagari": "ठु",
+    "roman": "ṭhu"
+  },
+  {
+    "id": "Tha_uu",
+    "consonant_id": "Tha",
+    "vowel_id": "uu",
+    "devanagari": "ठू",
+    "roman": "ṭhū"
+  },
+  {
+    "id": "Tha_RRi",
+    "consonant_id": "Tha",
+    "vowel_id": "RRi",
+    "devanagari": "ठृ",
+    "roman": "ṭhṛ"
+  },
+  {
+    "id": "Tha_RRI",
+    "consonant_id": "Tha",
+    "vowel_id": "RRI",
+    "devanagari": "ठॄ",
+    "roman": "ṭhṝ"
+  },
+  {
+    "id": "Tha_LLi",
+    "consonant_id": "Tha",
+    "vowel_id": "LLi",
+    "devanagari": "ठॢ",
+    "roman": "ṭhḷ"
+  },
+  {
+    "id": "Tha_e",
+    "consonant_id": "Tha",
+    "vowel_id": "e",
+    "devanagari": "ठे",
+    "roman": "ṭhe"
+  },
+  {
+    "id": "Tha_ai",
+    "consonant_id": "Tha",
+    "vowel_id": "ai",
+    "devanagari": "ठै",
+    "roman": "ṭhai"
+  },
+  {
+    "id": "Tha_o",
+    "consonant_id": "Tha",
+    "vowel_id": "o",
+    "devanagari": "ठो",
+    "roman": "ṭho"
+  },
+  {
+    "id": "Tha_au",
+    "consonant_id": "Tha",
+    "vowel_id": "au",
+    "devanagari": "ठौ",
+    "roman": "ṭhau"
+  },
+  {
+    "id": "Tha_aM",
+    "consonant_id": "Tha",
+    "vowel_id": "aM",
+    "devanagari": "ठं",
+    "roman": "ṭhaṁ"
+  },
+  {
+    "id": "Tha_aH",
+    "consonant_id": "Tha",
+    "vowel_id": "aH",
+    "devanagari": "ठः",
+    "roman": "ṭhaḥ"
+  },
+  {
+    "id": "Da_aa",
+    "consonant_id": "Da",
+    "vowel_id": "aa",
+    "devanagari": "डा",
+    "roman": "ḍā"
+  },
+  {
+    "id": "Da_i",
+    "consonant_id": "Da",
+    "vowel_id": "i",
+    "devanagari": "डि",
+    "roman": "ḍi"
+  },
+  {
+    "id": "Da_ii",
+    "consonant_id": "Da",
+    "vowel_id": "ii",
+    "devanagari": "डी",
+    "roman": "ḍī"
+  },
+  {
+    "id": "Da_u",
+    "consonant_id": "Da",
+    "vowel_id": "u",
+    "devanagari": "डु",
+    "roman": "ḍu"
+  },
+  {
+    "id": "Da_uu",
+    "consonant_id": "Da",
+    "vowel_id": "uu",
+    "devanagari": "डू",
+    "roman": "ḍū"
+  },
+  {
+    "id": "Da_RRi",
+    "consonant_id": "Da",
+    "vowel_id": "RRi",
+    "devanagari": "डृ",
+    "roman": "ḍṛ"
+  },
+  {
+    "id": "Da_RRI",
+    "consonant_id": "Da",
+    "vowel_id": "RRI",
+    "devanagari": "डॄ",
+    "roman": "ḍṝ"
+  },
+  {
+    "id": "Da_LLi",
+    "consonant_id": "Da",
+    "vowel_id": "LLi",
+    "devanagari": "डॢ",
+    "roman": "ḍḷ"
+  },
+  {
+    "id": "Da_e",
+    "consonant_id": "Da",
+    "vowel_id": "e",
+    "devanagari": "डे",
+    "roman": "ḍe"
+  },
+  {
+    "id": "Da_ai",
+    "consonant_id": "Da",
+    "vowel_id": "ai",
+    "devanagari": "डै",
+    "roman": "ḍai"
+  },
+  {
+    "id": "Da_o",
+    "consonant_id": "Da",
+    "vowel_id": "o",
+    "devanagari": "डो",
+    "roman": "ḍo"
+  },
+  {
+    "id": "Da_au",
+    "consonant_id": "Da",
+    "vowel_id": "au",
+    "devanagari": "डौ",
+    "roman": "ḍau"
+  },
+  {
+    "id": "Da_aM",
+    "consonant_id": "Da",
+    "vowel_id": "aM",
+    "devanagari": "डं",
+    "roman": "ḍaṁ"
+  },
+  {
+    "id": "Da_aH",
+    "consonant_id": "Da",
+    "vowel_id": "aH",
+    "devanagari": "डः",
+    "roman": "ḍaḥ"
+  },
+  {
+    "id": "Dha_aa",
+    "consonant_id": "Dha",
+    "vowel_id": "aa",
+    "devanagari": "ढा",
+    "roman": "ḍhā"
+  },
+  {
+    "id": "Dha_i",
+    "consonant_id": "Dha",
+    "vowel_id": "i",
+    "devanagari": "ढि",
+    "roman": "ḍhi"
+  },
+  {
+    "id": "Dha_ii",
+    "consonant_id": "Dha",
+    "vowel_id": "ii",
+    "devanagari": "ढी",
+    "roman": "ḍhī"
+  },
+  {
+    "id": "Dha_u",
+    "consonant_id": "Dha",
+    "vowel_id": "u",
+    "devanagari": "ढु",
+    "roman": "ḍhu"
+  },
+  {
+    "id": "Dha_uu",
+    "consonant_id": "Dha",
+    "vowel_id": "uu",
+    "devanagari": "ढू",
+    "roman": "ḍhū"
+  },
+  {
+    "id": "Dha_RRi",
+    "consonant_id": "Dha",
+    "vowel_id": "RRi",
+    "devanagari": "ढृ",
+    "roman": "ḍhṛ"
+  },
+  {
+    "id": "Dha_RRI",
+    "consonant_id": "Dha",
+    "vowel_id": "RRI",
+    "devanagari": "ढॄ",
+    "roman": "ḍhṝ"
+  },
+  {
+    "id": "Dha_LLi",
+    "consonant_id": "Dha",
+    "vowel_id": "LLi",
+    "devanagari": "ढॢ",
+    "roman": "ḍhḷ"
+  },
+  {
+    "id": "Dha_e",
+    "consonant_id": "Dha",
+    "vowel_id": "e",
+    "devanagari": "ढे",
+    "roman": "ḍhe"
+  },
+  {
+    "id": "Dha_ai",
+    "consonant_id": "Dha",
+    "vowel_id": "ai",
+    "devanagari": "ढै",
+    "roman": "ḍhai"
+  },
+  {
+    "id": "Dha_o",
+    "consonant_id": "Dha",
+    "vowel_id": "o",
+    "devanagari": "ढो",
+    "roman": "ḍho"
+  },
+  {
+    "id": "Dha_au",
+    "consonant_id": "Dha",
+    "vowel_id": "au",
+    "devanagari": "ढौ",
+    "roman": "ḍhau"
+  },
+  {
+    "id": "Dha_aM",
+    "consonant_id": "Dha",
+    "vowel_id": "aM",
+    "devanagari": "ढं",
+    "roman": "ḍhaṁ"
+  },
+  {
+    "id": "Dha_aH",
+    "consonant_id": "Dha",
+    "vowel_id": "aH",
+    "devanagari": "ढः",
+    "roman": "ḍhaḥ"
+  },
+  {
+    "id": "Na_aa",
+    "consonant_id": "Na",
+    "vowel_id": "aa",
+    "devanagari": "णा",
+    "roman": "ṇā"
+  },
+  {
+    "id": "Na_i",
+    "consonant_id": "Na",
+    "vowel_id": "i",
+    "devanagari": "णि",
+    "roman": "ṇi"
+  },
+  {
+    "id": "Na_ii",
+    "consonant_id": "Na",
+    "vowel_id": "ii",
+    "devanagari": "णी",
+    "roman": "ṇī"
+  },
+  {
+    "id": "Na_u",
+    "consonant_id": "Na",
+    "vowel_id": "u",
+    "devanagari": "णु",
+    "roman": "ṇu"
+  },
+  {
+    "id": "Na_uu",
+    "consonant_id": "Na",
+    "vowel_id": "uu",
+    "devanagari": "णू",
+    "roman": "ṇū"
+  },
+  {
+    "id": "Na_RRi",
+    "consonant_id": "Na",
+    "vowel_id": "RRi",
+    "devanagari": "णृ",
+    "roman": "ṇṛ"
+  },
+  {
+    "id": "Na_RRI",
+    "consonant_id": "Na",
+    "vowel_id": "RRI",
+    "devanagari": "णॄ",
+    "roman": "ṇṝ"
+  },
+  {
+    "id": "Na_LLi",
+    "consonant_id": "Na",
+    "vowel_id": "LLi",
+    "devanagari": "णॢ",
+    "roman": "ṇḷ"
+  },
+  {
+    "id": "Na_e",
+    "consonant_id": "Na",
+    "vowel_id": "e",
+    "devanagari": "णे",
+    "roman": "ṇe"
+  },
+  {
+    "id": "Na_ai",
+    "consonant_id": "Na",
+    "vowel_id": "ai",
+    "devanagari": "णै",
+    "roman": "ṇai"
+  },
+  {
+    "id": "Na_o",
+    "consonant_id": "Na",
+    "vowel_id": "o",
+    "devanagari": "णो",
+    "roman": "ṇo"
+  },
+  {
+    "id": "Na_au",
+    "consonant_id": "Na",
+    "vowel_id": "au",
+    "devanagari": "णौ",
+    "roman": "ṇau"
+  },
+  {
+    "id": "Na_aM",
+    "consonant_id": "Na",
+    "vowel_id": "aM",
+    "devanagari": "णं",
+    "roman": "ṇaṁ"
+  },
+  {
+    "id": "Na_aH",
+    "consonant_id": "Na",
+    "vowel_id": "aH",
+    "devanagari": "णः",
+    "roman": "ṇaḥ"
+  },
+  {
+    "id": "ta_aa",
+    "consonant_id": "ta",
+    "vowel_id": "aa",
+    "devanagari": "ता",
+    "roman": "tā"
+  },
+  {
+    "id": "ta_i",
+    "consonant_id": "ta",
+    "vowel_id": "i",
+    "devanagari": "ति",
+    "roman": "ti"
+  },
+  {
+    "id": "ta_ii",
+    "consonant_id": "ta",
+    "vowel_id": "ii",
+    "devanagari": "ती",
+    "roman": "tī"
+  },
+  {
+    "id": "ta_u",
+    "consonant_id": "ta",
+    "vowel_id": "u",
+    "devanagari": "तु",
+    "roman": "tu"
+  },
+  {
+    "id": "ta_uu",
+    "consonant_id": "ta",
+    "vowel_id": "uu",
+    "devanagari": "तू",
+    "roman": "tū"
+  },
+  {
+    "id": "ta_RRi",
+    "consonant_id": "ta",
+    "vowel_id": "RRi",
+    "devanagari": "तृ",
+    "roman": "tṛ"
+  },
+  {
+    "id": "ta_RRI",
+    "consonant_id": "ta",
+    "vowel_id": "RRI",
+    "devanagari": "तॄ",
+    "roman": "tṝ"
+  },
+  {
+    "id": "ta_LLi",
+    "consonant_id": "ta",
+    "vowel_id": "LLi",
+    "devanagari": "तॢ",
+    "roman": "tḷ"
+  },
+  {
+    "id": "ta_e",
+    "consonant_id": "ta",
+    "vowel_id": "e",
+    "devanagari": "ते",
+    "roman": "te"
+  },
+  {
+    "id": "ta_ai",
+    "consonant_id": "ta",
+    "vowel_id": "ai",
+    "devanagari": "तै",
+    "roman": "tai"
+  },
+  {
+    "id": "ta_o",
+    "consonant_id": "ta",
+    "vowel_id": "o",
+    "devanagari": "तो",
+    "roman": "to"
+  },
+  {
+    "id": "ta_au",
+    "consonant_id": "ta",
+    "vowel_id": "au",
+    "devanagari": "तौ",
+    "roman": "tau"
+  },
+  {
+    "id": "ta_aM",
+    "consonant_id": "ta",
+    "vowel_id": "aM",
+    "devanagari": "तं",
+    "roman": "taṁ"
+  },
+  {
+    "id": "ta_aH",
+    "consonant_id": "ta",
+    "vowel_id": "aH",
+    "devanagari": "तः",
+    "roman": "taḥ"
+  },
+  {
+    "id": "tha_aa",
+    "consonant_id": "tha",
+    "vowel_id": "aa",
+    "devanagari": "था",
+    "roman": "thā"
+  },
+  {
+    "id": "tha_i",
+    "consonant_id": "tha",
+    "vowel_id": "i",
+    "devanagari": "थि",
+    "roman": "thi"
+  },
+  {
+    "id": "tha_ii",
+    "consonant_id": "tha",
+    "vowel_id": "ii",
+    "devanagari": "थी",
+    "roman": "thī"
+  },
+  {
+    "id": "tha_u",
+    "consonant_id": "tha",
+    "vowel_id": "u",
+    "devanagari": "थु",
+    "roman": "thu"
+  },
+  {
+    "id": "tha_uu",
+    "consonant_id": "tha",
+    "vowel_id": "uu",
+    "devanagari": "थू",
+    "roman": "thū"
+  },
+  {
+    "id": "tha_RRi",
+    "consonant_id": "tha",
+    "vowel_id": "RRi",
+    "devanagari": "थृ",
+    "roman": "thṛ"
+  },
+  {
+    "id": "tha_RRI",
+    "consonant_id": "tha",
+    "vowel_id": "RRI",
+    "devanagari": "थॄ",
+    "roman": "thṝ"
+  },
+  {
+    "id": "tha_LLi",
+    "consonant_id": "tha",
+    "vowel_id": "LLi",
+    "devanagari": "थॢ",
+    "roman": "thḷ"
+  },
+  {
+    "id": "tha_e",
+    "consonant_id": "tha",
+    "vowel_id": "e",
+    "devanagari": "थे",
+    "roman": "the"
+  },
+  {
+    "id": "tha_ai",
+    "consonant_id": "tha",
+    "vowel_id": "ai",
+    "devanagari": "थै",
+    "roman": "thai"
+  },
+  {
+    "id": "tha_o",
+    "consonant_id": "tha",
+    "vowel_id": "o",
+    "devanagari": "थो",
+    "roman": "tho"
+  },
+  {
+    "id": "tha_au",
+    "consonant_id": "tha",
+    "vowel_id": "au",
+    "devanagari": "थौ",
+    "roman": "thau"
+  },
+  {
+    "id": "tha_aM",
+    "consonant_id": "tha",
+    "vowel_id": "aM",
+    "devanagari": "थं",
+    "roman": "thaṁ"
+  },
+  {
+    "id": "tha_aH",
+    "consonant_id": "tha",
+    "vowel_id": "aH",
+    "devanagari": "थः",
+    "roman": "thaḥ"
+  },
+  {
+    "id": "da_aa",
+    "consonant_id": "da",
+    "vowel_id": "aa",
+    "devanagari": "दा",
+    "roman": "dā"
+  },
+  {
+    "id": "da_i",
+    "consonant_id": "da",
+    "vowel_id": "i",
+    "devanagari": "दि",
+    "roman": "di"
+  },
+  {
+    "id": "da_ii",
+    "consonant_id": "da",
+    "vowel_id": "ii",
+    "devanagari": "दी",
+    "roman": "dī"
+  },
+  {
+    "id": "da_u",
+    "consonant_id": "da",
+    "vowel_id": "u",
+    "devanagari": "दु",
+    "roman": "du"
+  },
+  {
+    "id": "da_uu",
+    "consonant_id": "da",
+    "vowel_id": "uu",
+    "devanagari": "दू",
+    "roman": "dū"
+  },
+  {
+    "id": "da_RRi",
+    "consonant_id": "da",
+    "vowel_id": "RRi",
+    "devanagari": "दृ",
+    "roman": "dṛ"
+  },
+  {
+    "id": "da_RRI",
+    "consonant_id": "da",
+    "vowel_id": "RRI",
+    "devanagari": "दॄ",
+    "roman": "dṝ"
+  },
+  {
+    "id": "da_LLi",
+    "consonant_id": "da",
+    "vowel_id": "LLi",
+    "devanagari": "दॢ",
+    "roman": "dḷ"
+  },
+  {
+    "id": "da_e",
+    "consonant_id": "da",
+    "vowel_id": "e",
+    "devanagari": "दे",
+    "roman": "de"
+  },
+  {
+    "id": "da_ai",
+    "consonant_id": "da",
+    "vowel_id": "ai",
+    "devanagari": "दै",
+    "roman": "dai"
+  },
+  {
+    "id": "da_o",
+    "consonant_id": "da",
+    "vowel_id": "o",
+    "devanagari": "दो",
+    "roman": "do"
+  },
+  {
+    "id": "da_au",
+    "consonant_id": "da",
+    "vowel_id": "au",
+    "devanagari": "दौ",
+    "roman": "dau"
+  },
+  {
+    "id": "da_aM",
+    "consonant_id": "da",
+    "vowel_id": "aM",
+    "devanagari": "दं",
+    "roman": "daṁ"
+  },
+  {
+    "id": "da_aH",
+    "consonant_id": "da",
+    "vowel_id": "aH",
+    "devanagari": "दः",
+    "roman": "daḥ"
+  },
+  {
+    "id": "dha_aa",
+    "consonant_id": "dha",
+    "vowel_id": "aa",
+    "devanagari": "धा",
+    "roman": "dhā"
+  },
+  {
+    "id": "dha_i",
+    "consonant_id": "dha",
+    "vowel_id": "i",
+    "devanagari": "धि",
+    "roman": "dhi"
+  },
+  {
+    "id": "dha_ii",
+    "consonant_id": "dha",
+    "vowel_id": "ii",
+    "devanagari": "धी",
+    "roman": "dhī"
+  },
+  {
+    "id": "dha_u",
+    "consonant_id": "dha",
+    "vowel_id": "u",
+    "devanagari": "धु",
+    "roman": "dhu"
+  },
+  {
+    "id": "dha_uu",
+    "consonant_id": "dha",
+    "vowel_id": "uu",
+    "devanagari": "धू",
+    "roman": "dhū"
+  },
+  {
+    "id": "dha_RRi",
+    "consonant_id": "dha",
+    "vowel_id": "RRi",
+    "devanagari": "धृ",
+    "roman": "dhṛ"
+  },
+  {
+    "id": "dha_RRI",
+    "consonant_id": "dha",
+    "vowel_id": "RRI",
+    "devanagari": "धॄ",
+    "roman": "dhṝ"
+  },
+  {
+    "id": "dha_LLi",
+    "consonant_id": "dha",
+    "vowel_id": "LLi",
+    "devanagari": "धॢ",
+    "roman": "dhḷ"
+  },
+  {
+    "id": "dha_e",
+    "consonant_id": "dha",
+    "vowel_id": "e",
+    "devanagari": "धे",
+    "roman": "dhe"
+  },
+  {
+    "id": "dha_ai",
+    "consonant_id": "dha",
+    "vowel_id": "ai",
+    "devanagari": "धै",
+    "roman": "dhai"
+  },
+  {
+    "id": "dha_o",
+    "consonant_id": "dha",
+    "vowel_id": "o",
+    "devanagari": "धो",
+    "roman": "dho"
+  },
+  {
+    "id": "dha_au",
+    "consonant_id": "dha",
+    "vowel_id": "au",
+    "devanagari": "धौ",
+    "roman": "dhau"
+  },
+  {
+    "id": "dha_aM",
+    "consonant_id": "dha",
+    "vowel_id": "aM",
+    "devanagari": "धं",
+    "roman": "dhaṁ"
+  },
+  {
+    "id": "dha_aH",
+    "consonant_id": "dha",
+    "vowel_id": "aH",
+    "devanagari": "धः",
+    "roman": "dhaḥ"
+  },
+  {
+    "id": "na_aa",
+    "consonant_id": "na",
+    "vowel_id": "aa",
+    "devanagari": "ना",
+    "roman": "nā"
+  },
+  {
+    "id": "na_i",
+    "consonant_id": "na",
+    "vowel_id": "i",
+    "devanagari": "नि",
+    "roman": "ni"
+  },
+  {
+    "id": "na_ii",
+    "consonant_id": "na",
+    "vowel_id": "ii",
+    "devanagari": "नी",
+    "roman": "nī"
+  },
+  {
+    "id": "na_u",
+    "consonant_id": "na",
+    "vowel_id": "u",
+    "devanagari": "नु",
+    "roman": "nu"
+  },
+  {
+    "id": "na_uu",
+    "consonant_id": "na",
+    "vowel_id": "uu",
+    "devanagari": "नू",
+    "roman": "nū"
+  },
+  {
+    "id": "na_RRi",
+    "consonant_id": "na",
+    "vowel_id": "RRi",
+    "devanagari": "नृ",
+    "roman": "nṛ"
+  },
+  {
+    "id": "na_RRI",
+    "consonant_id": "na",
+    "vowel_id": "RRI",
+    "devanagari": "नॄ",
+    "roman": "nṝ"
+  },
+  {
+    "id": "na_LLi",
+    "consonant_id": "na",
+    "vowel_id": "LLi",
+    "devanagari": "नॢ",
+    "roman": "nḷ"
+  },
+  {
+    "id": "na_e",
+    "consonant_id": "na",
+    "vowel_id": "e",
+    "devanagari": "ने",
+    "roman": "ne"
+  },
+  {
+    "id": "na_ai",
+    "consonant_id": "na",
+    "vowel_id": "ai",
+    "devanagari": "नै",
+    "roman": "nai"
+  },
+  {
+    "id": "na_o",
+    "consonant_id": "na",
+    "vowel_id": "o",
+    "devanagari": "नो",
+    "roman": "no"
+  },
+  {
+    "id": "na_au",
+    "consonant_id": "na",
+    "vowel_id": "au",
+    "devanagari": "नौ",
+    "roman": "nau"
+  },
+  {
+    "id": "na_aM",
+    "consonant_id": "na",
+    "vowel_id": "aM",
+    "devanagari": "नं",
+    "roman": "naṁ"
+  },
+  {
+    "id": "na_aH",
+    "consonant_id": "na",
+    "vowel_id": "aH",
+    "devanagari": "नः",
+    "roman": "naḥ"
+  },
+  {
+    "id": "pa_aa",
+    "consonant_id": "pa",
+    "vowel_id": "aa",
+    "devanagari": "पा",
+    "roman": "pā"
+  },
+  {
+    "id": "pa_i",
+    "consonant_id": "pa",
+    "vowel_id": "i",
+    "devanagari": "पि",
+    "roman": "pi"
+  },
+  {
+    "id": "pa_ii",
+    "consonant_id": "pa",
+    "vowel_id": "ii",
+    "devanagari": "पी",
+    "roman": "pī"
+  },
+  {
+    "id": "pa_u",
+    "consonant_id": "pa",
+    "vowel_id": "u",
+    "devanagari": "पु",
+    "roman": "pu"
+  },
+  {
+    "id": "pa_uu",
+    "consonant_id": "pa",
+    "vowel_id": "uu",
+    "devanagari": "पू",
+    "roman": "pū"
+  },
+  {
+    "id": "pa_RRi",
+    "consonant_id": "pa",
+    "vowel_id": "RRi",
+    "devanagari": "पृ",
+    "roman": "pṛ"
+  },
+  {
+    "id": "pa_RRI",
+    "consonant_id": "pa",
+    "vowel_id": "RRI",
+    "devanagari": "पॄ",
+    "roman": "pṝ"
+  },
+  {
+    "id": "pa_LLi",
+    "consonant_id": "pa",
+    "vowel_id": "LLi",
+    "devanagari": "पॢ",
+    "roman": "pḷ"
+  },
+  {
+    "id": "pa_e",
+    "consonant_id": "pa",
+    "vowel_id": "e",
+    "devanagari": "पे",
+    "roman": "pe"
+  },
+  {
+    "id": "pa_ai",
+    "consonant_id": "pa",
+    "vowel_id": "ai",
+    "devanagari": "पै",
+    "roman": "pai"
+  },
+  {
+    "id": "pa_o",
+    "consonant_id": "pa",
+    "vowel_id": "o",
+    "devanagari": "पो",
+    "roman": "po"
+  },
+  {
+    "id": "pa_au",
+    "consonant_id": "pa",
+    "vowel_id": "au",
+    "devanagari": "पौ",
+    "roman": "pau"
+  },
+  {
+    "id": "pa_aM",
+    "consonant_id": "pa",
+    "vowel_id": "aM",
+    "devanagari": "पं",
+    "roman": "paṁ"
+  },
+  {
+    "id": "pa_aH",
+    "consonant_id": "pa",
+    "vowel_id": "aH",
+    "devanagari": "पः",
+    "roman": "paḥ"
+  },
+  {
+    "id": "pha_aa",
+    "consonant_id": "pha",
+    "vowel_id": "aa",
+    "devanagari": "फा",
+    "roman": "phā"
+  },
+  {
+    "id": "pha_i",
+    "consonant_id": "pha",
+    "vowel_id": "i",
+    "devanagari": "फि",
+    "roman": "phi"
+  },
+  {
+    "id": "pha_ii",
+    "consonant_id": "pha",
+    "vowel_id": "ii",
+    "devanagari": "फी",
+    "roman": "phī"
+  },
+  {
+    "id": "pha_u",
+    "consonant_id": "pha",
+    "vowel_id": "u",
+    "devanagari": "फु",
+    "roman": "phu"
+  },
+  {
+    "id": "pha_uu",
+    "consonant_id": "pha",
+    "vowel_id": "uu",
+    "devanagari": "फू",
+    "roman": "phū"
+  },
+  {
+    "id": "pha_RRi",
+    "consonant_id": "pha",
+    "vowel_id": "RRi",
+    "devanagari": "फृ",
+    "roman": "phṛ"
+  },
+  {
+    "id": "pha_RRI",
+    "consonant_id": "pha",
+    "vowel_id": "RRI",
+    "devanagari": "फॄ",
+    "roman": "phṝ"
+  },
+  {
+    "id": "pha_LLi",
+    "consonant_id": "pha",
+    "vowel_id": "LLi",
+    "devanagari": "फॢ",
+    "roman": "phḷ"
+  },
+  {
+    "id": "pha_e",
+    "consonant_id": "pha",
+    "vowel_id": "e",
+    "devanagari": "फे",
+    "roman": "phe"
+  },
+  {
+    "id": "pha_ai",
+    "consonant_id": "pha",
+    "vowel_id": "ai",
+    "devanagari": "फै",
+    "roman": "phai"
+  },
+  {
+    "id": "pha_o",
+    "consonant_id": "pha",
+    "vowel_id": "o",
+    "devanagari": "फो",
+    "roman": "pho"
+  },
+  {
+    "id": "pha_au",
+    "consonant_id": "pha",
+    "vowel_id": "au",
+    "devanagari": "फौ",
+    "roman": "phau"
+  },
+  {
+    "id": "pha_aM",
+    "consonant_id": "pha",
+    "vowel_id": "aM",
+    "devanagari": "फं",
+    "roman": "phaṁ"
+  },
+  {
+    "id": "pha_aH",
+    "consonant_id": "pha",
+    "vowel_id": "aH",
+    "devanagari": "फः",
+    "roman": "phaḥ"
+  },
+  {
+    "id": "ba_aa",
+    "consonant_id": "ba",
+    "vowel_id": "aa",
+    "devanagari": "बा",
+    "roman": "bā"
+  },
+  {
+    "id": "ba_i",
+    "consonant_id": "ba",
+    "vowel_id": "i",
+    "devanagari": "बि",
+    "roman": "bi"
+  },
+  {
+    "id": "ba_ii",
+    "consonant_id": "ba",
+    "vowel_id": "ii",
+    "devanagari": "बी",
+    "roman": "bī"
+  },
+  {
+    "id": "ba_u",
+    "consonant_id": "ba",
+    "vowel_id": "u",
+    "devanagari": "बु",
+    "roman": "bu"
+  },
+  {
+    "id": "ba_uu",
+    "consonant_id": "ba",
+    "vowel_id": "uu",
+    "devanagari": "बू",
+    "roman": "bū"
+  },
+  {
+    "id": "ba_RRi",
+    "consonant_id": "ba",
+    "vowel_id": "RRi",
+    "devanagari": "बृ",
+    "roman": "bṛ"
+  },
+  {
+    "id": "ba_RRI",
+    "consonant_id": "ba",
+    "vowel_id": "RRI",
+    "devanagari": "बॄ",
+    "roman": "bṝ"
+  },
+  {
+    "id": "ba_LLi",
+    "consonant_id": "ba",
+    "vowel_id": "LLi",
+    "devanagari": "बॢ",
+    "roman": "bḷ"
+  },
+  {
+    "id": "ba_e",
+    "consonant_id": "ba",
+    "vowel_id": "e",
+    "devanagari": "बे",
+    "roman": "be"
+  },
+  {
+    "id": "ba_ai",
+    "consonant_id": "ba",
+    "vowel_id": "ai",
+    "devanagari": "बै",
+    "roman": "bai"
+  },
+  {
+    "id": "ba_o",
+    "consonant_id": "ba",
+    "vowel_id": "o",
+    "devanagari": "बो",
+    "roman": "bo"
+  },
+  {
+    "id": "ba_au",
+    "consonant_id": "ba",
+    "vowel_id": "au",
+    "devanagari": "बौ",
+    "roman": "bau"
+  },
+  {
+    "id": "ba_aM",
+    "consonant_id": "ba",
+    "vowel_id": "aM",
+    "devanagari": "बं",
+    "roman": "baṁ"
+  },
+  {
+    "id": "ba_aH",
+    "consonant_id": "ba",
+    "vowel_id": "aH",
+    "devanagari": "बः",
+    "roman": "baḥ"
+  },
+  {
+    "id": "bha_aa",
+    "consonant_id": "bha",
+    "vowel_id": "aa",
+    "devanagari": "भा",
+    "roman": "bhā"
+  },
+  {
+    "id": "bha_i",
+    "consonant_id": "bha",
+    "vowel_id": "i",
+    "devanagari": "भि",
+    "roman": "bhi"
+  },
+  {
+    "id": "bha_ii",
+    "consonant_id": "bha",
+    "vowel_id": "ii",
+    "devanagari": "भी",
+    "roman": "bhī"
+  },
+  {
+    "id": "bha_u",
+    "consonant_id": "bha",
+    "vowel_id": "u",
+    "devanagari": "भु",
+    "roman": "bhu"
+  },
+  {
+    "id": "bha_uu",
+    "consonant_id": "bha",
+    "vowel_id": "uu",
+    "devanagari": "भू",
+    "roman": "bhū"
+  },
+  {
+    "id": "bha_RRi",
+    "consonant_id": "bha",
+    "vowel_id": "RRi",
+    "devanagari": "भृ",
+    "roman": "bhṛ"
+  },
+  {
+    "id": "bha_RRI",
+    "consonant_id": "bha",
+    "vowel_id": "RRI",
+    "devanagari": "भॄ",
+    "roman": "bhṝ"
+  },
+  {
+    "id": "bha_LLi",
+    "consonant_id": "bha",
+    "vowel_id": "LLi",
+    "devanagari": "भॢ",
+    "roman": "bhḷ"
+  },
+  {
+    "id": "bha_e",
+    "consonant_id": "bha",
+    "vowel_id": "e",
+    "devanagari": "भे",
+    "roman": "bhe"
+  },
+  {
+    "id": "bha_ai",
+    "consonant_id": "bha",
+    "vowel_id": "ai",
+    "devanagari": "भै",
+    "roman": "bhai"
+  },
+  {
+    "id": "bha_o",
+    "consonant_id": "bha",
+    "vowel_id": "o",
+    "devanagari": "भो",
+    "roman": "bho"
+  },
+  {
+    "id": "bha_au",
+    "consonant_id": "bha",
+    "vowel_id": "au",
+    "devanagari": "भौ",
+    "roman": "bhau"
+  },
+  {
+    "id": "bha_aM",
+    "consonant_id": "bha",
+    "vowel_id": "aM",
+    "devanagari": "भं",
+    "roman": "bhaṁ"
+  },
+  {
+    "id": "bha_aH",
+    "consonant_id": "bha",
+    "vowel_id": "aH",
+    "devanagari": "भः",
+    "roman": "bhaḥ"
+  },
+  {
+    "id": "ma_aa",
+    "consonant_id": "ma",
+    "vowel_id": "aa",
+    "devanagari": "मा",
+    "roman": "mā"
+  },
+  {
+    "id": "ma_i",
+    "consonant_id": "ma",
+    "vowel_id": "i",
+    "devanagari": "मि",
+    "roman": "mi"
+  },
+  {
+    "id": "ma_ii",
+    "consonant_id": "ma",
+    "vowel_id": "ii",
+    "devanagari": "मी",
+    "roman": "mī"
+  },
+  {
+    "id": "ma_u",
+    "consonant_id": "ma",
+    "vowel_id": "u",
+    "devanagari": "मु",
+    "roman": "mu"
+  },
+  {
+    "id": "ma_uu",
+    "consonant_id": "ma",
+    "vowel_id": "uu",
+    "devanagari": "मू",
+    "roman": "mū"
+  },
+  {
+    "id": "ma_RRi",
+    "consonant_id": "ma",
+    "vowel_id": "RRi",
+    "devanagari": "मृ",
+    "roman": "mṛ"
+  },
+  {
+    "id": "ma_RRI",
+    "consonant_id": "ma",
+    "vowel_id": "RRI",
+    "devanagari": "मॄ",
+    "roman": "mṝ"
+  },
+  {
+    "id": "ma_LLi",
+    "consonant_id": "ma",
+    "vowel_id": "LLi",
+    "devanagari": "मॢ",
+    "roman": "mḷ"
+  },
+  {
+    "id": "ma_e",
+    "consonant_id": "ma",
+    "vowel_id": "e",
+    "devanagari": "मे",
+    "roman": "me"
+  },
+  {
+    "id": "ma_ai",
+    "consonant_id": "ma",
+    "vowel_id": "ai",
+    "devanagari": "मै",
+    "roman": "mai"
+  },
+  {
+    "id": "ma_o",
+    "consonant_id": "ma",
+    "vowel_id": "o",
+    "devanagari": "मो",
+    "roman": "mo"
+  },
+  {
+    "id": "ma_au",
+    "consonant_id": "ma",
+    "vowel_id": "au",
+    "devanagari": "मौ",
+    "roman": "mau"
+  },
+  {
+    "id": "ma_aM",
+    "consonant_id": "ma",
+    "vowel_id": "aM",
+    "devanagari": "मं",
+    "roman": "maṁ"
+  },
+  {
+    "id": "ma_aH",
+    "consonant_id": "ma",
+    "vowel_id": "aH",
+    "devanagari": "मः",
+    "roman": "maḥ"
+  },
+  {
+    "id": "ya_aa",
+    "consonant_id": "ya",
+    "vowel_id": "aa",
+    "devanagari": "या",
+    "roman": "yā"
+  },
+  {
+    "id": "ya_i",
+    "consonant_id": "ya",
+    "vowel_id": "i",
+    "devanagari": "यि",
+    "roman": "yi"
+  },
+  {
+    "id": "ya_ii",
+    "consonant_id": "ya",
+    "vowel_id": "ii",
+    "devanagari": "यी",
+    "roman": "yī"
+  },
+  {
+    "id": "ya_u",
+    "consonant_id": "ya",
+    "vowel_id": "u",
+    "devanagari": "यु",
+    "roman": "yu"
+  },
+  {
+    "id": "ya_uu",
+    "consonant_id": "ya",
+    "vowel_id": "uu",
+    "devanagari": "यू",
+    "roman": "yū"
+  },
+  {
+    "id": "ya_RRi",
+    "consonant_id": "ya",
+    "vowel_id": "RRi",
+    "devanagari": "यृ",
+    "roman": "yṛ"
+  },
+  {
+    "id": "ya_RRI",
+    "consonant_id": "ya",
+    "vowel_id": "RRI",
+    "devanagari": "यॄ",
+    "roman": "yṝ"
+  },
+  {
+    "id": "ya_LLi",
+    "consonant_id": "ya",
+    "vowel_id": "LLi",
+    "devanagari": "यॢ",
+    "roman": "yḷ"
+  },
+  {
+    "id": "ya_e",
+    "consonant_id": "ya",
+    "vowel_id": "e",
+    "devanagari": "ये",
+    "roman": "ye"
+  },
+  {
+    "id": "ya_ai",
+    "consonant_id": "ya",
+    "vowel_id": "ai",
+    "devanagari": "यै",
+    "roman": "yai"
+  },
+  {
+    "id": "ya_o",
+    "consonant_id": "ya",
+    "vowel_id": "o",
+    "devanagari": "यो",
+    "roman": "yo"
+  },
+  {
+    "id": "ya_au",
+    "consonant_id": "ya",
+    "vowel_id": "au",
+    "devanagari": "यौ",
+    "roman": "yau"
+  },
+  {
+    "id": "ya_aM",
+    "consonant_id": "ya",
+    "vowel_id": "aM",
+    "devanagari": "यं",
+    "roman": "yaṁ"
+  },
+  {
+    "id": "ya_aH",
+    "consonant_id": "ya",
+    "vowel_id": "aH",
+    "devanagari": "यः",
+    "roman": "yaḥ"
+  },
+  {
+    "id": "ra_aa",
+    "consonant_id": "ra",
+    "vowel_id": "aa",
+    "devanagari": "रा",
+    "roman": "rā"
+  },
+  {
+    "id": "ra_i",
+    "consonant_id": "ra",
+    "vowel_id": "i",
+    "devanagari": "रि",
+    "roman": "ri"
+  },
+  {
+    "id": "ra_ii",
+    "consonant_id": "ra",
+    "vowel_id": "ii",
+    "devanagari": "री",
+    "roman": "rī"
+  },
+  {
+    "id": "ra_u",
+    "consonant_id": "ra",
+    "vowel_id": "u",
+    "devanagari": "रु",
+    "roman": "ru"
+  },
+  {
+    "id": "ra_uu",
+    "consonant_id": "ra",
+    "vowel_id": "uu",
+    "devanagari": "रू",
+    "roman": "rū"
+  },
+  {
+    "id": "ra_RRi",
+    "consonant_id": "ra",
+    "vowel_id": "RRi",
+    "devanagari": "रृ",
+    "roman": "rṛ"
+  },
+  {
+    "id": "ra_RRI",
+    "consonant_id": "ra",
+    "vowel_id": "RRI",
+    "devanagari": "रॄ",
+    "roman": "rṝ"
+  },
+  {
+    "id": "ra_LLi",
+    "consonant_id": "ra",
+    "vowel_id": "LLi",
+    "devanagari": "रॢ",
+    "roman": "rḷ"
+  },
+  {
+    "id": "ra_e",
+    "consonant_id": "ra",
+    "vowel_id": "e",
+    "devanagari": "रे",
+    "roman": "re"
+  },
+  {
+    "id": "ra_ai",
+    "consonant_id": "ra",
+    "vowel_id": "ai",
+    "devanagari": "रै",
+    "roman": "rai"
+  },
+  {
+    "id": "ra_o",
+    "consonant_id": "ra",
+    "vowel_id": "o",
+    "devanagari": "रो",
+    "roman": "ro"
+  },
+  {
+    "id": "ra_au",
+    "consonant_id": "ra",
+    "vowel_id": "au",
+    "devanagari": "रौ",
+    "roman": "rau"
+  },
+  {
+    "id": "ra_aM",
+    "consonant_id": "ra",
+    "vowel_id": "aM",
+    "devanagari": "रं",
+    "roman": "raṁ"
+  },
+  {
+    "id": "ra_aH",
+    "consonant_id": "ra",
+    "vowel_id": "aH",
+    "devanagari": "रः",
+    "roman": "raḥ"
+  },
+  {
+    "id": "la_aa",
+    "consonant_id": "la",
+    "vowel_id": "aa",
+    "devanagari": "ला",
+    "roman": "lā"
+  },
+  {
+    "id": "la_i",
+    "consonant_id": "la",
+    "vowel_id": "i",
+    "devanagari": "लि",
+    "roman": "li"
+  },
+  {
+    "id": "la_ii",
+    "consonant_id": "la",
+    "vowel_id": "ii",
+    "devanagari": "ली",
+    "roman": "lī"
+  },
+  {
+    "id": "la_u",
+    "consonant_id": "la",
+    "vowel_id": "u",
+    "devanagari": "लु",
+    "roman": "lu"
+  },
+  {
+    "id": "la_uu",
+    "consonant_id": "la",
+    "vowel_id": "uu",
+    "devanagari": "लू",
+    "roman": "lū"
+  },
+  {
+    "id": "la_RRi",
+    "consonant_id": "la",
+    "vowel_id": "RRi",
+    "devanagari": "लृ",
+    "roman": "lṛ"
+  },
+  {
+    "id": "la_RRI",
+    "consonant_id": "la",
+    "vowel_id": "RRI",
+    "devanagari": "लॄ",
+    "roman": "lṝ"
+  },
+  {
+    "id": "la_LLi",
+    "consonant_id": "la",
+    "vowel_id": "LLi",
+    "devanagari": "लॢ",
+    "roman": "lḷ"
+  },
+  {
+    "id": "la_e",
+    "consonant_id": "la",
+    "vowel_id": "e",
+    "devanagari": "ले",
+    "roman": "le"
+  },
+  {
+    "id": "la_ai",
+    "consonant_id": "la",
+    "vowel_id": "ai",
+    "devanagari": "लै",
+    "roman": "lai"
+  },
+  {
+    "id": "la_o",
+    "consonant_id": "la",
+    "vowel_id": "o",
+    "devanagari": "लो",
+    "roman": "lo"
+  },
+  {
+    "id": "la_au",
+    "consonant_id": "la",
+    "vowel_id": "au",
+    "devanagari": "लौ",
+    "roman": "lau"
+  },
+  {
+    "id": "la_aM",
+    "consonant_id": "la",
+    "vowel_id": "aM",
+    "devanagari": "लं",
+    "roman": "laṁ"
+  },
+  {
+    "id": "la_aH",
+    "consonant_id": "la",
+    "vowel_id": "aH",
+    "devanagari": "लः",
+    "roman": "laḥ"
+  },
+  {
+    "id": "va_aa",
+    "consonant_id": "va",
+    "vowel_id": "aa",
+    "devanagari": "वा",
+    "roman": "vā"
+  },
+  {
+    "id": "va_i",
+    "consonant_id": "va",
+    "vowel_id": "i",
+    "devanagari": "वि",
+    "roman": "vi"
+  },
+  {
+    "id": "va_ii",
+    "consonant_id": "va",
+    "vowel_id": "ii",
+    "devanagari": "वी",
+    "roman": "vī"
+  },
+  {
+    "id": "va_u",
+    "consonant_id": "va",
+    "vowel_id": "u",
+    "devanagari": "वु",
+    "roman": "vu"
+  },
+  {
+    "id": "va_uu",
+    "consonant_id": "va",
+    "vowel_id": "uu",
+    "devanagari": "वू",
+    "roman": "vū"
+  },
+  {
+    "id": "va_RRi",
+    "consonant_id": "va",
+    "vowel_id": "RRi",
+    "devanagari": "वृ",
+    "roman": "vṛ"
+  },
+  {
+    "id": "va_RRI",
+    "consonant_id": "va",
+    "vowel_id": "RRI",
+    "devanagari": "वॄ",
+    "roman": "vṝ"
+  },
+  {
+    "id": "va_LLi",
+    "consonant_id": "va",
+    "vowel_id": "LLi",
+    "devanagari": "वॢ",
+    "roman": "vḷ"
+  },
+  {
+    "id": "va_e",
+    "consonant_id": "va",
+    "vowel_id": "e",
+    "devanagari": "वे",
+    "roman": "ve"
+  },
+  {
+    "id": "va_ai",
+    "consonant_id": "va",
+    "vowel_id": "ai",
+    "devanagari": "वै",
+    "roman": "vai"
+  },
+  {
+    "id": "va_o",
+    "consonant_id": "va",
+    "vowel_id": "o",
+    "devanagari": "वो",
+    "roman": "vo"
+  },
+  {
+    "id": "va_au",
+    "consonant_id": "va",
+    "vowel_id": "au",
+    "devanagari": "वौ",
+    "roman": "vau"
+  },
+  {
+    "id": "va_aM",
+    "consonant_id": "va",
+    "vowel_id": "aM",
+    "devanagari": "वं",
+    "roman": "vaṁ"
+  },
+  {
+    "id": "va_aH",
+    "consonant_id": "va",
+    "vowel_id": "aH",
+    "devanagari": "वः",
+    "roman": "vaḥ"
+  },
+  {
+    "id": "sha_aa",
+    "consonant_id": "sha",
+    "vowel_id": "aa",
+    "devanagari": "शा",
+    "roman": "śā"
+  },
+  {
+    "id": "sha_i",
+    "consonant_id": "sha",
+    "vowel_id": "i",
+    "devanagari": "शि",
+    "roman": "śi"
+  },
+  {
+    "id": "sha_ii",
+    "consonant_id": "sha",
+    "vowel_id": "ii",
+    "devanagari": "शी",
+    "roman": "śī"
+  },
+  {
+    "id": "sha_u",
+    "consonant_id": "sha",
+    "vowel_id": "u",
+    "devanagari": "शु",
+    "roman": "śu"
+  },
+  {
+    "id": "sha_uu",
+    "consonant_id": "sha",
+    "vowel_id": "uu",
+    "devanagari": "शू",
+    "roman": "śū"
+  },
+  {
+    "id": "sha_RRi",
+    "consonant_id": "sha",
+    "vowel_id": "RRi",
+    "devanagari": "शृ",
+    "roman": "śṛ"
+  },
+  {
+    "id": "sha_RRI",
+    "consonant_id": "sha",
+    "vowel_id": "RRI",
+    "devanagari": "शॄ",
+    "roman": "śṝ"
+  },
+  {
+    "id": "sha_LLi",
+    "consonant_id": "sha",
+    "vowel_id": "LLi",
+    "devanagari": "शॢ",
+    "roman": "śḷ"
+  },
+  {
+    "id": "sha_e",
+    "consonant_id": "sha",
+    "vowel_id": "e",
+    "devanagari": "शे",
+    "roman": "śe"
+  },
+  {
+    "id": "sha_ai",
+    "consonant_id": "sha",
+    "vowel_id": "ai",
+    "devanagari": "शै",
+    "roman": "śai"
+  },
+  {
+    "id": "sha_o",
+    "consonant_id": "sha",
+    "vowel_id": "o",
+    "devanagari": "शो",
+    "roman": "śo"
+  },
+  {
+    "id": "sha_au",
+    "consonant_id": "sha",
+    "vowel_id": "au",
+    "devanagari": "शौ",
+    "roman": "śau"
+  },
+  {
+    "id": "sha_aM",
+    "consonant_id": "sha",
+    "vowel_id": "aM",
+    "devanagari": "शं",
+    "roman": "śaṁ"
+  },
+  {
+    "id": "sha_aH",
+    "consonant_id": "sha",
+    "vowel_id": "aH",
+    "devanagari": "शः",
+    "roman": "śaḥ"
+  },
+  {
+    "id": "Sha_aa",
+    "consonant_id": "Sha",
+    "vowel_id": "aa",
+    "devanagari": "षा",
+    "roman": "ṣā"
+  },
+  {
+    "id": "Sha_i",
+    "consonant_id": "Sha",
+    "vowel_id": "i",
+    "devanagari": "षि",
+    "roman": "ṣi"
+  },
+  {
+    "id": "Sha_ii",
+    "consonant_id": "Sha",
+    "vowel_id": "ii",
+    "devanagari": "षी",
+    "roman": "ṣī"
+  },
+  {
+    "id": "Sha_u",
+    "consonant_id": "Sha",
+    "vowel_id": "u",
+    "devanagari": "षु",
+    "roman": "ṣu"
+  },
+  {
+    "id": "Sha_uu",
+    "consonant_id": "Sha",
+    "vowel_id": "uu",
+    "devanagari": "षू",
+    "roman": "ṣū"
+  },
+  {
+    "id": "Sha_RRi",
+    "consonant_id": "Sha",
+    "vowel_id": "RRi",
+    "devanagari": "षृ",
+    "roman": "ṣṛ"
+  },
+  {
+    "id": "Sha_RRI",
+    "consonant_id": "Sha",
+    "vowel_id": "RRI",
+    "devanagari": "षॄ",
+    "roman": "ṣṝ"
+  },
+  {
+    "id": "Sha_LLi",
+    "consonant_id": "Sha",
+    "vowel_id": "LLi",
+    "devanagari": "षॢ",
+    "roman": "ṣḷ"
+  },
+  {
+    "id": "Sha_e",
+    "consonant_id": "Sha",
+    "vowel_id": "e",
+    "devanagari": "षे",
+    "roman": "ṣe"
+  },
+  {
+    "id": "Sha_ai",
+    "consonant_id": "Sha",
+    "vowel_id": "ai",
+    "devanagari": "षै",
+    "roman": "ṣai"
+  },
+  {
+    "id": "Sha_o",
+    "consonant_id": "Sha",
+    "vowel_id": "o",
+    "devanagari": "षो",
+    "roman": "ṣo"
+  },
+  {
+    "id": "Sha_au",
+    "consonant_id": "Sha",
+    "vowel_id": "au",
+    "devanagari": "षौ",
+    "roman": "ṣau"
+  },
+  {
+    "id": "Sha_aM",
+    "consonant_id": "Sha",
+    "vowel_id": "aM",
+    "devanagari": "षं",
+    "roman": "ṣaṁ"
+  },
+  {
+    "id": "Sha_aH",
+    "consonant_id": "Sha",
+    "vowel_id": "aH",
+    "devanagari": "षः",
+    "roman": "ṣaḥ"
+  },
+  {
+    "id": "sa_aa",
+    "consonant_id": "sa",
+    "vowel_id": "aa",
+    "devanagari": "सा",
+    "roman": "sā"
+  },
+  {
+    "id": "sa_i",
+    "consonant_id": "sa",
+    "vowel_id": "i",
+    "devanagari": "सि",
+    "roman": "si"
+  },
+  {
+    "id": "sa_ii",
+    "consonant_id": "sa",
+    "vowel_id": "ii",
+    "devanagari": "सी",
+    "roman": "sī"
+  },
+  {
+    "id": "sa_u",
+    "consonant_id": "sa",
+    "vowel_id": "u",
+    "devanagari": "सु",
+    "roman": "su"
+  },
+  {
+    "id": "sa_uu",
+    "consonant_id": "sa",
+    "vowel_id": "uu",
+    "devanagari": "सू",
+    "roman": "sū"
+  },
+  {
+    "id": "sa_RRi",
+    "consonant_id": "sa",
+    "vowel_id": "RRi",
+    "devanagari": "सृ",
+    "roman": "sṛ"
+  },
+  {
+    "id": "sa_RRI",
+    "consonant_id": "sa",
+    "vowel_id": "RRI",
+    "devanagari": "सॄ",
+    "roman": "sṝ"
+  },
+  {
+    "id": "sa_LLi",
+    "consonant_id": "sa",
+    "vowel_id": "LLi",
+    "devanagari": "सॢ",
+    "roman": "sḷ"
+  },
+  {
+    "id": "sa_e",
+    "consonant_id": "sa",
+    "vowel_id": "e",
+    "devanagari": "से",
+    "roman": "se"
+  },
+  {
+    "id": "sa_ai",
+    "consonant_id": "sa",
+    "vowel_id": "ai",
+    "devanagari": "सै",
+    "roman": "sai"
+  },
+  {
+    "id": "sa_o",
+    "consonant_id": "sa",
+    "vowel_id": "o",
+    "devanagari": "सो",
+    "roman": "so"
+  },
+  {
+    "id": "sa_au",
+    "consonant_id": "sa",
+    "vowel_id": "au",
+    "devanagari": "सौ",
+    "roman": "sau"
+  },
+  {
+    "id": "sa_aM",
+    "consonant_id": "sa",
+    "vowel_id": "aM",
+    "devanagari": "सं",
+    "roman": "saṁ"
+  },
+  {
+    "id": "sa_aH",
+    "consonant_id": "sa",
+    "vowel_id": "aH",
+    "devanagari": "सः",
+    "roman": "saḥ"
+  },
+  {
+    "id": "ha_aa",
+    "consonant_id": "ha",
+    "vowel_id": "aa",
+    "devanagari": "हा",
+    "roman": "hā"
+  },
+  {
+    "id": "ha_i",
+    "consonant_id": "ha",
+    "vowel_id": "i",
+    "devanagari": "हि",
+    "roman": "hi"
+  },
+  {
+    "id": "ha_ii",
+    "consonant_id": "ha",
+    "vowel_id": "ii",
+    "devanagari": "ही",
+    "roman": "hī"
+  },
+  {
+    "id": "ha_u",
+    "consonant_id": "ha",
+    "vowel_id": "u",
+    "devanagari": "हु",
+    "roman": "hu"
+  },
+  {
+    "id": "ha_uu",
+    "consonant_id": "ha",
+    "vowel_id": "uu",
+    "devanagari": "हू",
+    "roman": "hū"
+  },
+  {
+    "id": "ha_RRi",
+    "consonant_id": "ha",
+    "vowel_id": "RRi",
+    "devanagari": "हृ",
+    "roman": "hṛ"
+  },
+  {
+    "id": "ha_RRI",
+    "consonant_id": "ha",
+    "vowel_id": "RRI",
+    "devanagari": "हॄ",
+    "roman": "hṝ"
+  },
+  {
+    "id": "ha_LLi",
+    "consonant_id": "ha",
+    "vowel_id": "LLi",
+    "devanagari": "हॢ",
+    "roman": "hḷ"
+  },
+  {
+    "id": "ha_e",
+    "consonant_id": "ha",
+    "vowel_id": "e",
+    "devanagari": "हे",
+    "roman": "he"
+  },
+  {
+    "id": "ha_ai",
+    "consonant_id": "ha",
+    "vowel_id": "ai",
+    "devanagari": "है",
+    "roman": "hai"
+  },
+  {
+    "id": "ha_o",
+    "consonant_id": "ha",
+    "vowel_id": "o",
+    "devanagari": "हो",
+    "roman": "ho"
+  },
+  {
+    "id": "ha_au",
+    "consonant_id": "ha",
+    "vowel_id": "au",
+    "devanagari": "हौ",
+    "roman": "hau"
+  },
+  {
+    "id": "ha_aM",
+    "consonant_id": "ha",
+    "vowel_id": "aM",
+    "devanagari": "हं",
+    "roman": "haṁ"
+  },
+  {
+    "id": "ha_aH",
+    "consonant_id": "ha",
+    "vowel_id": "aH",
+    "devanagari": "हः",
+    "roman": "haḥ"
+  },
+  {
+    "id": "kSha_aa",
+    "consonant_id": "kSha",
+    "vowel_id": "aa",
+    "devanagari": "क्षा",
+    "roman": "kṣā"
+  },
+  {
+    "id": "kSha_i",
+    "consonant_id": "kSha",
+    "vowel_id": "i",
+    "devanagari": "क्षि",
+    "roman": "kṣi"
+  },
+  {
+    "id": "kSha_ii",
+    "consonant_id": "kSha",
+    "vowel_id": "ii",
+    "devanagari": "क्षी",
+    "roman": "kṣī"
+  },
+  {
+    "id": "kSha_u",
+    "consonant_id": "kSha",
+    "vowel_id": "u",
+    "devanagari": "क्षु",
+    "roman": "kṣu"
+  },
+  {
+    "id": "kSha_uu",
+    "consonant_id": "kSha",
+    "vowel_id": "uu",
+    "devanagari": "क्षू",
+    "roman": "kṣū"
+  },
+  {
+    "id": "kSha_RRi",
+    "consonant_id": "kSha",
+    "vowel_id": "RRi",
+    "devanagari": "क्षृ",
+    "roman": "kṣṛ"
+  },
+  {
+    "id": "kSha_RRI",
+    "consonant_id": "kSha",
+    "vowel_id": "RRI",
+    "devanagari": "क्षॄ",
+    "roman": "kṣṝ"
+  },
+  {
+    "id": "kSha_LLi",
+    "consonant_id": "kSha",
+    "vowel_id": "LLi",
+    "devanagari": "क्षॢ",
+    "roman": "kṣḷ"
+  },
+  {
+    "id": "kSha_e",
+    "consonant_id": "kSha",
+    "vowel_id": "e",
+    "devanagari": "क्षे",
+    "roman": "kṣe"
+  },
+  {
+    "id": "kSha_ai",
+    "consonant_id": "kSha",
+    "vowel_id": "ai",
+    "devanagari": "क्षै",
+    "roman": "kṣai"
+  },
+  {
+    "id": "kSha_o",
+    "consonant_id": "kSha",
+    "vowel_id": "o",
+    "devanagari": "क्षो",
+    "roman": "kṣo"
+  },
+  {
+    "id": "kSha_au",
+    "consonant_id": "kSha",
+    "vowel_id": "au",
+    "devanagari": "क्षौ",
+    "roman": "kṣau"
+  },
+  {
+    "id": "kSha_aM",
+    "consonant_id": "kSha",
+    "vowel_id": "aM",
+    "devanagari": "क्षं",
+    "roman": "kṣaṁ"
+  },
+  {
+    "id": "kSha_aH",
+    "consonant_id": "kSha",
+    "vowel_id": "aH",
+    "devanagari": "क्षः",
+    "roman": "kṣaḥ"
+  },
+  {
+    "id": "jJNa_aa",
+    "consonant_id": "jJNa",
+    "vowel_id": "aa",
+    "devanagari": "ज्ञा",
+    "roman": "jñā"
+  },
+  {
+    "id": "jJNa_i",
+    "consonant_id": "jJNa",
+    "vowel_id": "i",
+    "devanagari": "ज्ञि",
+    "roman": "jñi"
+  },
+  {
+    "id": "jJNa_ii",
+    "consonant_id": "jJNa",
+    "vowel_id": "ii",
+    "devanagari": "ज्ञी",
+    "roman": "jñī"
+  },
+  {
+    "id": "jJNa_u",
+    "consonant_id": "jJNa",
+    "vowel_id": "u",
+    "devanagari": "ज्ञु",
+    "roman": "jñu"
+  },
+  {
+    "id": "jJNa_uu",
+    "consonant_id": "jJNa",
+    "vowel_id": "uu",
+    "devanagari": "ज्ञू",
+    "roman": "jñū"
+  },
+  {
+    "id": "jJNa_RRi",
+    "consonant_id": "jJNa",
+    "vowel_id": "RRi",
+    "devanagari": "ज्ञृ",
+    "roman": "jñṛ"
+  },
+  {
+    "id": "jJNa_RRI",
+    "consonant_id": "jJNa",
+    "vowel_id": "RRI",
+    "devanagari": "ज्ञॄ",
+    "roman": "jñṝ"
+  },
+  {
+    "id": "jJNa_LLi",
+    "consonant_id": "jJNa",
+    "vowel_id": "LLi",
+    "devanagari": "ज्ञॢ",
+    "roman": "jñḷ"
+  },
+  {
+    "id": "jJNa_e",
+    "consonant_id": "jJNa",
+    "vowel_id": "e",
+    "devanagari": "ज्ञे",
+    "roman": "jñe"
+  },
+  {
+    "id": "jJNa_ai",
+    "consonant_id": "jJNa",
+    "vowel_id": "ai",
+    "devanagari": "ज्ञै",
+    "roman": "jñai"
+  },
+  {
+    "id": "jJNa_o",
+    "consonant_id": "jJNa",
+    "vowel_id": "o",
+    "devanagari": "ज्ञो",
+    "roman": "jño"
+  },
+  {
+    "id": "jJNa_au",
+    "consonant_id": "jJNa",
+    "vowel_id": "au",
+    "devanagari": "ज्ञौ",
+    "roman": "jñau"
+  },
+  {
+    "id": "jJNa_aM",
+    "consonant_id": "jJNa",
+    "vowel_id": "aM",
+    "devanagari": "ज्ञं",
+    "roman": "jñaṁ"
+  },
+  {
+    "id": "jJNa_aH",
+    "consonant_id": "jJNa",
+    "vowel_id": "aH",
+    "devanagari": "ज्ञः",
+    "roman": "jñaḥ"
+  }
+]
