@@ -1,0 +1,899 @@
+[
+  {
+    "id": "pa_ra",
+    "component_ids": [
+      "pa",
+      "ra"
+    ],
+    "devanagari": "प्र",
+    "roman": "pra",
+    "frequency": 21.172
+  },
+  {
+    "id": "ta_ra",
+    "component_ids": [
+      "ta",
+      "ra"
+    ],
+    "devanagari": "त्र",
+    "roman": "tra",
+    "frequency": 14.06
+  },
+  {
+    "id": "sa_ta",
+    "component_ids": [
+      "sa",
+      "ta"
+    ],
+    "devanagari": "स्त",
+    "roman": "sta",
+    "frequency": 13.762
+  },
+  {
+    "id": "sa_ya",
+    "component_ids": [
+      "sa",
+      "ya"
+    ],
+    "devanagari": "स्य",
+    "roman": "sya",
+    "frequency": 13.483
+  },
+  {
+    "id": "sha_ca",
+    "component_ids": [
+      "sha",
+      "ca"
+    ],
+    "devanagari": "श्च",
+    "roman": "śca",
+    "frequency": 12.999
+  },
+  {
+    "id": "na_ta",
+    "component_ids": [
+      "na",
+      "ta"
+    ],
+    "devanagari": "न्त",
+    "roman": "nta",
+    "frequency": 12.919
+  },
+  {
+    "id": "ra_va",
+    "component_ids": [
+      "ra",
+      "va"
+    ],
+    "devanagari": "र्व",
+    "roman": "rva",
+    "frequency": 11.898
+  },
+  {
+    "id": "ta_ya",
+    "component_ids": [
+      "ta",
+      "ya"
+    ],
+    "devanagari": "त्य",
+    "roman": "tya",
+    "frequency": 9.763
+  },
+  {
+    "id": "ra_ma",
+    "component_ids": [
+      "ra",
+      "ma"
+    ],
+    "devanagari": "र्म",
+    "roman": "rma",
+    "frequency": 9.114
+  },
+  {
+    "id": "ta_va",
+    "component_ids": [
+      "ta",
+      "va"
+    ],
+    "devanagari": "त्व",
+    "roman": "tva",
+    "frequency": 8.125
+  },
+  {
+    "id": "ta_ta",
+    "component_ids": [
+      "ta",
+      "ta"
+    ],
+    "devanagari": "त्त",
+    "roman": "tta",
+    "frequency": 7.464
+  },
+  {
+    "id": "na_ya",
+    "component_ids": [
+      "na",
+      "ya"
+    ],
+    "devanagari": "न्य",
+    "roman": "nya",
+    "frequency": 7.223
+  },
+  {
+    "id": "ra_ya",
+    "component_ids": [
+      "ra",
+      "ya"
+    ],
+    "devanagari": "र्य",
+    "roman": "rya",
+    "frequency": 6.633
+  },
+  {
+    "id": "da_dha",
+    "component_ids": [
+      "da",
+      "dha"
+    ],
+    "devanagari": "द्ध",
+    "roman": "ddha",
+    "frequency": 6.155
+  },
+  {
+    "id": "va_ya",
+    "component_ids": [
+      "va",
+      "ya"
+    ],
+    "devanagari": "व्य",
+    "roman": "vya",
+    "frequency": 6.095
+  },
+  {
+    "id": "da_ra",
+    "component_ids": [
+      "da",
+      "ra"
+    ],
+    "devanagari": "द्र",
+    "roman": "dra",
+    "frequency": 5.763
+  },
+  {
+    "id": "sha_ra",
+    "component_ids": [
+      "sha",
+      "ra"
+    ],
+    "devanagari": "श्र",
+    "roman": "śra",
+    "frequency": 5.604
+  },
+  {
+    "id": "da_ya",
+    "component_ids": [
+      "da",
+      "ya"
+    ],
+    "devanagari": "द्य",
+    "roman": "dya",
+    "frequency": 5.591
+  },
+  {
+    "id": "ka_ra",
+    "component_ids": [
+      "ka",
+      "ra"
+    ],
+    "devanagari": "क्र",
+    "roman": "kra",
+    "frequency": 5.207
+  },
+  {
+    "id": "da_va",
+    "component_ids": [
+      "da",
+      "va"
+    ],
+    "devanagari": "द्व",
+    "roman": "dva",
+    "frequency": 5.162
+  },
+  {
+    "id": "na_na",
+    "component_ids": [
+      "na",
+      "na"
+    ],
+    "devanagari": "न्न",
+    "roman": "nna",
+    "frequency": 5.086
+  },
+  {
+    "id": "sa_ma",
+    "component_ids": [
+      "sa",
+      "ma"
+    ],
+    "devanagari": "स्म",
+    "roman": "sma",
+    "frequency": 4.964
+  },
+  {
+    "id": "ra_tha",
+    "component_ids": [
+      "ra",
+      "tha"
+    ],
+    "devanagari": "र्थ",
+    "roman": "rtha",
+    "frequency": 4.883
+  },
+  {
+    "id": "Sha_Ta",
+    "component_ids": [
+      "Sha",
+      "Ta"
+    ],
+    "devanagari": "ष्ट",
+    "roman": "ṣṭa",
+    "frequency": 4.855
+  },
+  {
+    "id": "ka_ta",
+    "component_ids": [
+      "ka",
+      "ta"
+    ],
+    "devanagari": "क्त",
+    "roman": "kta",
+    "frequency": 4.85
+  },
+  {
+    "id": "sa_va",
+    "component_ids": [
+      "sa",
+      "va"
+    ],
+    "devanagari": "स्व",
+    "roman": "sva",
+    "frequency": 4.801
+  },
+  {
+    "id": "ba_ra",
+    "component_ids": [
+      "ba",
+      "ra"
+    ],
+    "devanagari": "ब्र",
+    "roman": "bra",
+    "frequency": 4.583
+  },
+  {
+    "id": "Na_Da",
+    "component_ids": [
+      "Na",
+      "Da"
+    ],
+    "devanagari": "ण्ड",
+    "roman": "ṇḍa",
+    "frequency": 4.57
+  },
+  {
+    "id": "Sha_Tha",
+    "component_ids": [
+      "Sha",
+      "Tha"
+    ],
+    "devanagari": "ष्ठ",
+    "roman": "ṣṭha",
+    "frequency": 4.521
+  },
+  {
+    "id": "ra_ta",
+    "component_ids": [
+      "ra",
+      "ta"
+    ],
+    "devanagari": "र्त",
+    "roman": "rta",
+    "frequency": 4.314
+  },
+  {
+    "id": "ca_cha",
+    "component_ids": [
+      "ca",
+      "cha"
+    ],
+    "devanagari": "च्छ",
+    "roman": "ccha",
+    "frequency": 4.297
+  },
+  {
+    "id": "ta_ma",
+    "component_ids": [
+      "ta",
+      "ma"
+    ],
+    "devanagari": "त्म",
+    "roman": "tma",
+    "frequency": 4.163
+  },
+  {
+    "id": "ra_Sha",
+    "component_ids": [
+      "ra",
+      "Sha"
+    ],
+    "devanagari": "र्ष",
+    "roman": "rṣa",
+    "frequency": 4.117
+  },
+  {
+    "id": "sa_tha",
+    "component_ids": [
+      "sa",
+      "tha"
+    ],
+    "devanagari": "स्थ",
+    "roman": "stha",
+    "frequency": 3.492
+  },
+  {
+    "id": "sha_va",
+    "component_ids": [
+      "sha",
+      "va"
+    ],
+    "devanagari": "श्व",
+    "roman": "śva",
+    "frequency": 3.454
+  },
+  {
+    "id": "Sha_ya",
+    "component_ids": [
+      "Sha",
+      "ya"
+    ],
+    "devanagari": "ष्य",
+    "roman": "ṣya",
+    "frequency": 3.44
+  },
+  {
+    "id": "ra_Na",
+    "component_ids": [
+      "ra",
+      "Na"
+    ],
+    "devanagari": "र्ण",
+    "roman": "rṇa",
+    "frequency": 3.357
+  },
+  {
+    "id": "ta_sa",
+    "component_ids": [
+      "ta",
+      "sa"
+    ],
+    "devanagari": "त्स",
+    "roman": "tsa",
+    "frequency": 3.35
+  },
+  {
+    "id": "sha_ya",
+    "component_ids": [
+      "sha",
+      "ya"
+    ],
+    "devanagari": "श्य",
+    "roman": "śya",
+    "frequency": 3.276
+  },
+  {
+    "id": "bha_ya",
+    "component_ids": [
+      "bha",
+      "ya"
+    ],
+    "devanagari": "भ्य",
+    "roman": "bhya",
+    "frequency": 3.24
+  },
+  {
+    "id": "ha_ma",
+    "component_ids": [
+      "ha",
+      "ma"
+    ],
+    "devanagari": "ह्म",
+    "roman": "hma",
+    "frequency": 2.98
+  },
+  {
+    "id": "na_ma",
+    "component_ids": [
+      "na",
+      "ma"
+    ],
+    "devanagari": "न्म",
+    "roman": "nma",
+    "frequency": 2.803
+  },
+  {
+    "id": "sa_ta_ra",
+    "component_ids": [
+      "sa",
+      "ta",
+      "ra"
+    ],
+    "devanagari": "स्त्र",
+    "roman": "stra",
+    "frequency": 2.764
+  },
+  {
+    "id": "dha_ya",
+    "component_ids": [
+      "dha",
+      "ya"
+    ],
+    "devanagari": "ध्य",
+    "roman": "dhya",
+    "frequency": 2.68
+  },
+  {
+    "id": "pa_ta",
+    "component_ids": [
+      "pa",
+      "ta"
+    ],
+    "devanagari": "प्त",
+    "roman": "pta",
+    "frequency": 2.664
+  },
+  {
+    "id": "na_va",
+    "component_ids": [
+      "na",
+      "va"
+    ],
+    "devanagari": "न्व",
+    "roman": "nva",
+    "frequency": 2.65
+  },
+  {
+    "id": "na_da",
+    "component_ids": [
+      "na",
+      "da"
+    ],
+    "devanagari": "न्द",
+    "roman": "nda",
+    "frequency": 2.632
+  },
+  {
+    "id": "ga_ra",
+    "component_ids": [
+      "ga",
+      "ra"
+    ],
+    "devanagari": "ग्र",
+    "roman": "gra",
+    "frequency": 2.453
+  },
+  {
+    "id": "na_da_ra",
+    "component_ids": [
+      "na",
+      "da",
+      "ra"
+    ],
+    "devanagari": "न्द्र",
+    "roman": "ndra",
+    "frequency": 2.427
+  },
+  {
+    "id": "na_dha",
+    "component_ids": [
+      "na",
+      "dha"
+    ],
+    "devanagari": "न्ध",
+    "roman": "ndha",
+    "frequency": 2.396
+  },
+  {
+    "id": "pa_ya",
+    "component_ids": [
+      "pa",
+      "ya"
+    ],
+    "devanagari": "प्य",
+    "roman": "pya",
+    "frequency": 2.285
+  },
+  {
+    "id": "ra_ja",
+    "component_ids": [
+      "ra",
+      "ja"
+    ],
+    "devanagari": "र्ज",
+    "roman": "rja",
+    "frequency": 2.24
+  },
+  {
+    "id": "ma_ya",
+    "component_ids": [
+      "ma",
+      "ya"
+    ],
+    "devanagari": "म्य",
+    "roman": "mya",
+    "frequency": 2.118
+  },
+  {
+    "id": "ha_ya",
+    "component_ids": [
+      "ha",
+      "ya"
+    ],
+    "devanagari": "ह्य",
+    "roman": "hya",
+    "frequency": 2.118
+  },
+  {
+    "id": "GNa_ga",
+    "component_ids": [
+      "GNa",
+      "ga"
+    ],
+    "devanagari": "ङ्ग",
+    "roman": "ṅga",
+    "frequency": 2.091
+  },
+  {
+    "id": "ja_ya",
+    "component_ids": [
+      "ja",
+      "ya"
+    ],
+    "devanagari": "ज्य",
+    "roman": "jya",
+    "frequency": 1.937
+  },
+  {
+    "id": "ta_pa",
+    "component_ids": [
+      "ta",
+      "pa"
+    ],
+    "devanagari": "त्प",
+    "roman": "tpa",
+    "frequency": 1.918
+  },
+  {
+    "id": "ta_ka",
+    "component_ids": [
+      "ta",
+      "ka"
+    ],
+    "devanagari": "त्क",
+    "roman": "tka",
+    "frequency": 1.883
+  },
+  {
+    "id": "ra_da",
+    "component_ids": [
+      "ra",
+      "da"
+    ],
+    "devanagari": "र्द",
+    "roman": "rda",
+    "frequency": 1.873
+  },
+  {
+    "id": "Sha_Na",
+    "component_ids": [
+      "Sha",
+      "Na"
+    ],
+    "devanagari": "ष्ण",
+    "roman": "ṣṇa",
+    "frequency": 1.793
+  },
+  {
+    "id": "JNa_ca",
+    "component_ids": [
+      "JNa",
+      "ca"
+    ],
+    "devanagari": "ञ्च",
+    "roman": "ñca",
+    "frequency": 1.779
+  },
+  {
+    "id": "na_sa",
+    "component_ids": [
+      "na",
+      "sa"
+    ],
+    "devanagari": "न्स",
+    "roman": "nsa",
+    "frequency": 1.767
+  },
+  {
+    "id": "ca_ca",
+    "component_ids": [
+      "ca",
+      "ca"
+    ],
+    "devanagari": "च्च",
+    "roman": "cca",
+    "frequency": 1.716
+  },
+  {
+    "id": "ra_ga",
+    "component_ids": [
+      "ra",
+      "ga"
+    ],
+    "devanagari": "र्ग",
+    "roman": "rga",
+    "frequency": 1.698
+  },
+  {
+    "id": "ra_ha",
+    "component_ids": [
+      "ra",
+      "ha"
+    ],
+    "devanagari": "र्ह",
+    "roman": "rha",
+    "frequency": 1.688
+  },
+  {
+    "id": "da_bha",
+    "component_ids": [
+      "da",
+      "bha"
+    ],
+    "devanagari": "द्भ",
+    "roman": "dbha",
+    "frequency": 1.687
+  },
+  {
+    "id": "Na_ya",
+    "component_ids": [
+      "Na",
+      "ya"
+    ],
+    "devanagari": "ण्य",
+    "roman": "ṇya",
+    "frequency": 1.523
+  },
+  {
+    "id": "Sha_ma",
+    "component_ids": [
+      "Sha",
+      "ma"
+    ],
+    "devanagari": "ष्म",
+    "roman": "ṣma",
+    "frequency": 1.504
+  },
+  {
+    "id": "sa_ra",
+    "component_ids": [
+      "sa",
+      "ra"
+    ],
+    "devanagari": "स्र",
+    "roman": "sra",
+    "frequency": 1.481
+  },
+  {
+    "id": "ka_Sha_ya",
+    "component_ids": [
+      "ka",
+      "Sha",
+      "ya"
+    ],
+    "devanagari": "क्ष्य",
+    "roman": "kṣya",
+    "frequency": 1.476
+  },
+  {
+    "id": "ra_sha",
+    "component_ids": [
+      "ra",
+      "sha"
+    ],
+    "devanagari": "र्श",
+    "roman": "rśa",
+    "frequency": 1.443
+  },
+  {
+    "id": "ra_dha",
+    "component_ids": [
+      "ra",
+      "dha"
+    ],
+    "devanagari": "र्ध",
+    "roman": "rdha",
+    "frequency": 1.434
+  },
+  {
+    "id": "Sha_Ta_va",
+    "component_ids": [
+      "Sha",
+      "Ta",
+      "va"
+    ],
+    "devanagari": "ष्ट्व",
+    "roman": "ṣṭva",
+    "frequency": 1.405
+  },
+  {
+    "id": "ta_ta_va",
+    "component_ids": [
+      "ta",
+      "ta",
+      "va"
+    ],
+    "devanagari": "त्त्व",
+    "roman": "ttva",
+    "frequency": 1.339
+  },
+  {
+    "id": "sa_ta_va",
+    "component_ids": [
+      "sa",
+      "ta",
+      "va"
+    ],
+    "devanagari": "स्त्व",
+    "roman": "stva",
+    "frequency": 1.339
+  },
+  {
+    "id": "ka_ya",
+    "component_ids": [
+      "ka",
+      "ya"
+    ],
+    "devanagari": "क्य",
+    "roman": "kya",
+    "frequency": 1.308
+  },
+  {
+    "id": "kha_ya",
+    "component_ids": [
+      "kha",
+      "ya"
+    ],
+    "devanagari": "ख्य",
+    "roman": "khya",
+    "frequency": 1.307
+  },
+  {
+    "id": "ga_na",
+    "component_ids": [
+      "ga",
+      "na"
+    ],
+    "devanagari": "ग्न",
+    "roman": "gna",
+    "frequency": 1.29
+  },
+  {
+    "id": "ra_bha",
+    "component_ids": [
+      "ra",
+      "bha"
+    ],
+    "devanagari": "र्भ",
+    "roman": "rbha",
+    "frequency": 1.285
+  },
+  {
+    "id": "Sha_Ta_ra",
+    "component_ids": [
+      "Sha",
+      "Ta",
+      "ra"
+    ],
+    "devanagari": "ष्ट्र",
+    "roman": "ṣṭra",
+    "frequency": 1.252
+  },
+  {
+    "id": "bha_ra",
+    "component_ids": [
+      "bha",
+      "ra"
+    ],
+    "devanagari": "भ्र",
+    "roman": "bhra",
+    "frequency": 1.242
+  },
+  {
+    "id": "na_pa",
+    "component_ids": [
+      "na",
+      "pa"
+    ],
+    "devanagari": "न्प",
+    "roman": "npa",
+    "frequency": 1.195
+  },
+  {
+    "id": "la_ya",
+    "component_ids": [
+      "la",
+      "ya"
+    ],
+    "devanagari": "ल्य",
+    "roman": "lya",
+    "frequency": 1.178
+  },
+  {
+    "id": "va_ra",
+    "component_ids": [
+      "va",
+      "ra"
+    ],
+    "devanagari": "व्र",
+    "roman": "vra",
+    "frequency": 1.172
+  },
+  {
+    "id": "Sha_va",
+    "component_ids": [
+      "Sha",
+      "va"
+    ],
+    "devanagari": "ष्व",
+    "roman": "ṣva",
+    "frequency": 1.145
+  },
+  {
+    "id": "ra_na",
+    "component_ids": [
+      "ra",
+      "na"
+    ],
+    "devanagari": "र्न",
+    "roman": "rna",
+    "frequency": 1.118
+  },
+  {
+    "id": "ca_ya",
+    "component_ids": [
+      "ca",
+      "ya"
+    ],
+    "devanagari": "च्य",
+    "roman": "cya",
+    "frequency": 1.111
+  },
+  {
+    "id": "JNa_ja",
+    "component_ids": [
+      "JNa",
+      "ja"
+    ],
+    "devanagari": "ञ्ज",
+    "roman": "ñja",
+    "frequency": 1.057
+  },
+  {
+    "id": "sa_pa",
+    "component_ids": [
+      "sa",
+      "pa"
+    ],
+    "devanagari": "स्प",
+    "roman": "spa",
+    "frequency": 1.003
+  }
+]

@@ -1,0 +1,95 @@
+#separator:Tab
+#html:true
+#deck:🕉️ Sanskrit Alphabet
+#notetype:Basic
+#columns:Key	Front	Back
+#guid column:1
+pa_ra	<center><big><big><big><big><big>प्र</big></big></big></big></big></center>	<center><big><big><b>pra</b></big></big><br><big>प् (p) + र (ra)</big><br><small>frequency: 21.172%</small></center>
+ta_ra	<center><big><big><big><big><big>त्र</big></big></big></big></big></center>	<center><big><big><b>tra</b></big></big><br><big>त् (t) + र (ra)</big><br><small>frequency: 14.06%</small></center>
+sa_ta	<center><big><big><big><big><big>स्त</big></big></big></big></big></center>	<center><big><big><b>sta</b></big></big><br><big>स् (s) + त (ta)</big><br><small>frequency: 13.762%</small></center>
+sa_ya	<center><big><big><big><big><big>स्य</big></big></big></big></big></center>	<center><big><big><b>sya</b></big></big><br><big>स् (s) + य (ya)</big><br><small>frequency: 13.483%</small></center>
+sha_ca	<center><big><big><big><big><big>श्च</big></big></big></big></big></center>	<center><big><big><b>śca</b></big></big><br><big>श् (ś) + च (ca)</big><br><small>frequency: 12.999%</small></center>
+na_ta	<center><big><big><big><big><big>न्त</big></big></big></big></big></center>	<center><big><big><b>nta</b></big></big><br><big>न् (n) + त (ta)</big><br><small>frequency: 12.919%</small></center>
+ra_va	<center><big><big><big><big><big>र्व</big></big></big></big></big></center>	<center><big><big><b>rva</b></big></big><br><big>र् (r) + व (va)</big><br><small>frequency: 11.898%</small></center>
+ta_ya	<center><big><big><big><big><big>त्य</big></big></big></big></big></center>	<center><big><big><b>tya</b></big></big><br><big>त् (t) + य (ya)</big><br><small>frequency: 9.763%</small></center>
+ra_ma	<center><big><big><big><big><big>र्म</big></big></big></big></big></center>	<center><big><big><b>rma</b></big></big><br><big>र् (r) + म (ma)</big><br><small>frequency: 9.114%</small></center>
+ta_va	<center><big><big><big><big><big>त्व</big></big></big></big></big></center>	<center><big><big><b>tva</b></big></big><br><big>त् (t) + व (va)</big><br><small>frequency: 8.125%</small></center>
+ta_ta	<center><big><big><big><big><big>त्त</big></big></big></big></big></center>	<center><big><big><b>tta</b></big></big><br><big>त् (t) + त (ta)</big><br><small>frequency: 7.464%</small></center>
+na_ya	<center><big><big><big><big><big>न्य</big></big></big></big></big></center>	<center><big><big><b>nya</b></big></big><br><big>न् (n) + य (ya)</big><br><small>frequency: 7.223%</small></center>
+ra_ya	<center><big><big><big><big><big>र्य</big></big></big></big></big></center>	<center><big><big><b>rya</b></big></big><br><big>र् (r) + य (ya)</big><br><small>frequency: 6.633%</small></center>
+da_dha	<center><big><big><big><big><big>द्ध</big></big></big></big></big></center>	<center><big><big><b>ddha</b></big></big><br><big>द् (d) + ध (dha)</big><br><small>frequency: 6.155%</small></center>
+va_ya	<center><big><big><big><big><big>व्य</big></big></big></big></big></center>	<center><big><big><b>vya</b></big></big><br><big>व् (v) + य (ya)</big><br><small>frequency: 6.095%</small></center>
+da_ra	<center><big><big><big><big><big>द्र</big></big></big></big></big></center>	<center><big><big><b>dra</b></big></big><br><big>द् (d) + र (ra)</big><br><small>frequency: 5.763%</small></center>
+sha_ra	<center><big><big><big><big><big>श्र</big></big></big></big></big></center>	<center><big><big><b>śra</b></big></big><br><big>श् (ś) + र (ra)</big><br><small>frequency: 5.604%</small></center>
+da_ya	<center><big><big><big><big><big>द्य</big></big></big></big></big></center>	<center><big><big><b>dya</b></big></big><br><big>द् (d) + य (ya)</big><br><small>frequency: 5.591%</small></center>
+ka_ra	<center><big><big><big><big><big>क्र</big></big></big></big></big></center>	<center><big><big><b>kra</b></big></big><br><big>क् (k) + र (ra)</big><br><small>frequency: 5.207%</small></center>
+da_va	<center><big><big><big><big><big>द्व</big></big></big></big></big></center>	<center><big><big><b>dva</b></big></big><br><big>द् (d) + व (va)</big><br><small>frequency: 5.162%</small></center>
+na_na	<center><big><big><big><big><big>न्न</big></big></big></big></big></center>	<center><big><big><b>nna</b></big></big><br><big>न् (n) + न (na)</big><br><small>frequency: 5.086%</small></center>
+sa_ma	<center><big><big><big><big><big>स्म</big></big></big></big></big></center>	<center><big><big><b>sma</b></big></big><br><big>स् (s) + म (ma)</big><br><small>frequency: 4.964%</small></center>
+ra_tha	<center><big><big><big><big><big>र्थ</big></big></big></big></big></center>	<center><big><big><b>rtha</b></big></big><br><big>र् (r) + थ (tha)</big><br><small>frequency: 4.883%</small></center>
+Sha_Ta	<center><big><big><big><big><big>ष्ट</big></big></big></big></big></center>	<center><big><big><b>ṣṭa</b></big></big><br><big>ष् (ṣ) + ट (ṭa)</big><br><small>frequency: 4.855%</small></center>
+ka_ta	<center><big><big><big><big><big>क्त</big></big></big></big></big></center>	<center><big><big><b>kta</b></big></big><br><big>क् (k) + त (ta)</big><br><small>frequency: 4.85%</small></center>
+sa_va	<center><big><big><big><big><big>स्व</big></big></big></big></big></center>	<center><big><big><b>sva</b></big></big><br><big>स् (s) + व (va)</big><br><small>frequency: 4.801%</small></center>
+ba_ra	<center><big><big><big><big><big>ब्र</big></big></big></big></big></center>	<center><big><big><b>bra</b></big></big><br><big>ब् (b) + र (ra)</big><br><small>frequency: 4.583%</small></center>
+Na_Da	<center><big><big><big><big><big>ण्ड</big></big></big></big></big></center>	<center><big><big><b>ṇḍa</b></big></big><br><big>ण् (ṇ) + ड (ḍa)</big><br><small>frequency: 4.57%</small></center>
+Sha_Tha	<center><big><big><big><big><big>ष्ठ</big></big></big></big></big></center>	<center><big><big><b>ṣṭha</b></big></big><br><big>ष् (ṣ) + ठ (ṭha)</big><br><small>frequency: 4.521%</small></center>
+ra_ta	<center><big><big><big><big><big>र्त</big></big></big></big></big></center>	<center><big><big><b>rta</b></big></big><br><big>र् (r) + त (ta)</big><br><small>frequency: 4.314%</small></center>
+ca_cha	<center><big><big><big><big><big>च्छ</big></big></big></big></big></center>	<center><big><big><b>ccha</b></big></big><br><big>च् (c) + छ (cha)</big><br><small>frequency: 4.297%</small></center>
+ta_ma	<center><big><big><big><big><big>त्म</big></big></big></big></big></center>	<center><big><big><b>tma</b></big></big><br><big>त् (t) + म (ma)</big><br><small>frequency: 4.163%</small></center>
+ra_Sha	<center><big><big><big><big><big>र्ष</big></big></big></big></big></center>	<center><big><big><b>rṣa</b></big></big><br><big>र् (r) + ष (ṣa)</big><br><small>frequency: 4.117%</small></center>
+sa_tha	<center><big><big><big><big><big>स्थ</big></big></big></big></big></center>	<center><big><big><b>stha</b></big></big><br><big>स् (s) + थ (tha)</big><br><small>frequency: 3.492%</small></center>
+sha_va	<center><big><big><big><big><big>श्व</big></big></big></big></big></center>	<center><big><big><b>śva</b></big></big><br><big>श् (ś) + व (va)</big><br><small>frequency: 3.454%</small></center>
+Sha_ya	<center><big><big><big><big><big>ष्य</big></big></big></big></big></center>	<center><big><big><b>ṣya</b></big></big><br><big>ष् (ṣ) + य (ya)</big><br><small>frequency: 3.44%</small></center>
+ra_Na	<center><big><big><big><big><big>र्ण</big></big></big></big></big></center>	<center><big><big><b>rṇa</b></big></big><br><big>र् (r) + ण (ṇa)</big><br><small>frequency: 3.357%</small></center>
+ta_sa	<center><big><big><big><big><big>त्स</big></big></big></big></big></center>	<center><big><big><b>tsa</b></big></big><br><big>त् (t) + स (sa)</big><br><small>frequency: 3.35%</small></center>
+sha_ya	<center><big><big><big><big><big>श्य</big></big></big></big></big></center>	<center><big><big><b>śya</b></big></big><br><big>श् (ś) + य (ya)</big><br><small>frequency: 3.276%</small></center>
+bha_ya	<center><big><big><big><big><big>भ्य</big></big></big></big></big></center>	<center><big><big><b>bhya</b></big></big><br><big>भ् (bh) + य (ya)</big><br><small>frequency: 3.24%</small></center>
+ha_ma	<center><big><big><big><big><big>ह्म</big></big></big></big></big></center>	<center><big><big><b>hma</b></big></big><br><big>ह् (h) + म (ma)</big><br><small>frequency: 2.98%</small></center>
+na_ma	<center><big><big><big><big><big>न्म</big></big></big></big></big></center>	<center><big><big><b>nma</b></big></big><br><big>न् (n) + म (ma)</big><br><small>frequency: 2.803%</small></center>
+sa_ta_ra	<center><big><big><big><big><big>स्त्र</big></big></big></big></big></center>	<center><big><big><b>stra</b></big></big><br><big>स् (s) + त् (t) + र (ra)</big><br><small>frequency: 2.764%</small></center>
+dha_ya	<center><big><big><big><big><big>ध्य</big></big></big></big></big></center>	<center><big><big><b>dhya</b></big></big><br><big>ध् (dh) + य (ya)</big><br><small>frequency: 2.68%</small></center>
+pa_ta	<center><big><big><big><big><big>प्त</big></big></big></big></big></center>	<center><big><big><b>pta</b></big></big><br><big>प् (p) + त (ta)</big><br><small>frequency: 2.664%</small></center>
+na_va	<center><big><big><big><big><big>न्व</big></big></big></big></big></center>	<center><big><big><b>nva</b></big></big><br><big>न् (n) + व (va)</big><br><small>frequency: 2.65%</small></center>
+na_da	<center><big><big><big><big><big>न्द</big></big></big></big></big></center>	<center><big><big><b>nda</b></big></big><br><big>न् (n) + द (da)</big><br><small>frequency: 2.632%</small></center>
+ga_ra	<center><big><big><big><big><big>ग्र</big></big></big></big></big></center>	<center><big><big><b>gra</b></big></big><br><big>ग् (g) + र (ra)</big><br><small>frequency: 2.453%</small></center>
+na_da_ra	<center><big><big><big><big><big>न्द्र</big></big></big></big></big></center>	<center><big><big><b>ndra</b></big></big><br><big>न् (n) + द् (d) + र (ra)</big><br><small>frequency: 2.427%</small></center>
+na_dha	<center><big><big><big><big><big>न्ध</big></big></big></big></big></center>	<center><big><big><b>ndha</b></big></big><br><big>न् (n) + ध (dha)</big><br><small>frequency: 2.396%</small></center>
+pa_ya	<center><big><big><big><big><big>प्य</big></big></big></big></big></center>	<center><big><big><b>pya</b></big></big><br><big>प् (p) + य (ya)</big><br><small>frequency: 2.285%</small></center>
+ra_ja	<center><big><big><big><big><big>र्ज</big></big></big></big></big></center>	<center><big><big><b>rja</b></big></big><br><big>र् (r) + ज (ja)</big><br><small>frequency: 2.24%</small></center>
+ma_ya	<center><big><big><big><big><big>म्य</big></big></big></big></big></center>	<center><big><big><b>mya</b></big></big><br><big>म् (m) + य (ya)</big><br><small>frequency: 2.118%</small></center>
+ha_ya	<center><big><big><big><big><big>ह्य</big></big></big></big></big></center>	<center><big><big><b>hya</b></big></big><br><big>ह् (h) + य (ya)</big><br><small>frequency: 2.118%</small></center>
+GNa_ga	<center><big><big><big><big><big>ङ्ग</big></big></big></big></big></center>	<center><big><big><b>ṅga</b></big></big><br><big>ङ् (ṅ) + ग (ga)</big><br><small>frequency: 2.091%</small></center>
+ja_ya	<center><big><big><big><big><big>ज्य</big></big></big></big></big></center>	<center><big><big><b>jya</b></big></big><br><big>ज् (j) + य (ya)</big><br><small>frequency: 1.937%</small></center>
+ta_pa	<center><big><big><big><big><big>त्प</big></big></big></big></big></center>	<center><big><big><b>tpa</b></big></big><br><big>त् (t) + प (pa)</big><br><small>frequency: 1.918%</small></center>
+ta_ka	<center><big><big><big><big><big>त्क</big></big></big></big></big></center>	<center><big><big><b>tka</b></big></big><br><big>त् (t) + क (ka)</big><br><small>frequency: 1.883%</small></center>
+ra_da	<center><big><big><big><big><big>र्द</big></big></big></big></big></center>	<center><big><big><b>rda</b></big></big><br><big>र् (r) + द (da)</big><br><small>frequency: 1.873%</small></center>
+Sha_Na	<center><big><big><big><big><big>ष्ण</big></big></big></big></big></center>	<center><big><big><b>ṣṇa</b></big></big><br><big>ष् (ṣ) + ण (ṇa)</big><br><small>frequency: 1.793%</small></center>
+JNa_ca	<center><big><big><big><big><big>ञ्च</big></big></big></big></big></center>	<center><big><big><b>ñca</b></big></big><br><big>ञ् (ñ) + च (ca)</big><br><small>frequency: 1.779%</small></center>
+na_sa	<center><big><big><big><big><big>न्स</big></big></big></big></big></center>	<center><big><big><b>nsa</b></big></big><br><big>न् (n) + स (sa)</big><br><small>frequency: 1.767%</small></center>
+ca_ca	<center><big><big><big><big><big>च्च</big></big></big></big></big></center>	<center><big><big><b>cca</b></big></big><br><big>च् (c) + च (ca)</big><br><small>frequency: 1.716%</small></center>
+ra_ga	<center><big><big><big><big><big>र्ग</big></big></big></big></big></center>	<center><big><big><b>rga</b></big></big><br><big>र् (r) + ग (ga)</big><br><small>frequency: 1.698%</small></center>
+ra_ha	<center><big><big><big><big><big>र्ह</big></big></big></big></big></center>	<center><big><big><b>rha</b></big></big><br><big>र् (r) + ह (ha)</big><br><small>frequency: 1.688%</small></center>
+da_bha	<center><big><big><big><big><big>द्भ</big></big></big></big></big></center>	<center><big><big><b>dbha</b></big></big><br><big>द् (d) + भ (bha)</big><br><small>frequency: 1.687%</small></center>
+Na_ya	<center><big><big><big><big><big>ण्य</big></big></big></big></big></center>	<center><big><big><b>ṇya</b></big></big><br><big>ण् (ṇ) + य (ya)</big><br><small>frequency: 1.523%</small></center>
+Sha_ma	<center><big><big><big><big><big>ष्म</big></big></big></big></big></center>	<center><big><big><b>ṣma</b></big></big><br><big>ष् (ṣ) + म (ma)</big><br><small>frequency: 1.504%</small></center>
+sa_ra	<center><big><big><big><big><big>स्र</big></big></big></big></big></center>	<center><big><big><b>sra</b></big></big><br><big>स् (s) + र (ra)</big><br><small>frequency: 1.481%</small></center>
+ka_Sha_ya	<center><big><big><big><big><big>क्ष्य</big></big></big></big></big></center>	<center><big><big><b>kṣya</b></big></big><br><big>क् (k) + ष् (ṣ) + य (ya)</big><br><small>frequency: 1.476%</small></center>
+ra_sha	<center><big><big><big><big><big>र्श</big></big></big></big></big></center>	<center><big><big><b>rśa</b></big></big><br><big>र् (r) + श (śa)</big><br><small>frequency: 1.443%</small></center>
+ra_dha	<center><big><big><big><big><big>र्ध</big></big></big></big></big></center>	<center><big><big><b>rdha</b></big></big><br><big>र् (r) + ध (dha)</big><br><small>frequency: 1.434%</small></center>
+Sha_Ta_va	<center><big><big><big><big><big>ष्ट्व</big></big></big></big></big></center>	<center><big><big><b>ṣṭva</b></big></big><br><big>ष् (ṣ) + ट् (ṭ) + व (va)</big><br><small>frequency: 1.405%</small></center>
+ta_ta_va	<center><big><big><big><big><big>त्त्व</big></big></big></big></big></center>	<center><big><big><b>ttva</b></big></big><br><big>त् (t) + त् (t) + व (va)</big><br><small>frequency: 1.339%</small></center>
+sa_ta_va	<center><big><big><big><big><big>स्त्व</big></big></big></big></big></center>	<center><big><big><b>stva</b></big></big><br><big>स् (s) + त् (t) + व (va)</big><br><small>frequency: 1.339%</small></center>
+ka_ya	<center><big><big><big><big><big>क्य</big></big></big></big></big></center>	<center><big><big><b>kya</b></big></big><br><big>क् (k) + य (ya)</big><br><small>frequency: 1.308%</small></center>
+kha_ya	<center><big><big><big><big><big>ख्य</big></big></big></big></big></center>	<center><big><big><b>khya</b></big></big><br><big>ख् (kh) + य (ya)</big><br><small>frequency: 1.307%</small></center>
+ga_na	<center><big><big><big><big><big>ग्न</big></big></big></big></big></center>	<center><big><big><b>gna</b></big></big><br><big>ग् (g) + न (na)</big><br><small>frequency: 1.29%</small></center>
+ra_bha	<center><big><big><big><big><big>र्भ</big></big></big></big></big></center>	<center><big><big><b>rbha</b></big></big><br><big>र् (r) + भ (bha)</big><br><small>frequency: 1.285%</small></center>
+Sha_Ta_ra	<center><big><big><big><big><big>ष्ट्र</big></big></big></big></big></center>	<center><big><big><b>ṣṭra</b></big></big><br><big>ष् (ṣ) + ट् (ṭ) + र (ra)</big><br><small>frequency: 1.252%</small></center>
+bha_ra	<center><big><big><big><big><big>भ्र</big></big></big></big></big></center>	<center><big><big><b>bhra</b></big></big><br><big>भ् (bh) + र (ra)</big><br><small>frequency: 1.242%</small></center>
+na_pa	<center><big><big><big><big><big>न्प</big></big></big></big></big></center>	<center><big><big><b>npa</b></big></big><br><big>न् (n) + प (pa)</big><br><small>frequency: 1.195%</small></center>
+la_ya	<center><big><big><big><big><big>ल्य</big></big></big></big></big></center>	<center><big><big><b>lya</b></big></big><br><big>ल् (l) + य (ya)</big><br><small>frequency: 1.178%</small></center>
+va_ra	<center><big><big><big><big><big>व्र</big></big></big></big></big></center>	<center><big><big><b>vra</b></big></big><br><big>व् (v) + र (ra)</big><br><small>frequency: 1.172%</small></center>
+Sha_va	<center><big><big><big><big><big>ष्व</big></big></big></big></big></center>	<center><big><big><b>ṣva</b></big></big><br><big>ष् (ṣ) + व (va)</big><br><small>frequency: 1.145%</small></center>
+ra_na	<center><big><big><big><big><big>र्न</big></big></big></big></big></center>	<center><big><big><b>rna</b></big></big><br><big>र् (r) + न (na)</big><br><small>frequency: 1.118%</small></center>
+ca_ya	<center><big><big><big><big><big>च्य</big></big></big></big></big></center>	<center><big><big><b>cya</b></big></big><br><big>च् (c) + य (ya)</big><br><small>frequency: 1.111%</small></center>
+JNa_ja	<center><big><big><big><big><big>ञ्ज</big></big></big></big></big></center>	<center><big><big><b>ñja</b></big></big><br><big>ञ् (ñ) + ज (ja)</big><br><small>frequency: 1.057%</small></center>
+sa_pa	<center><big><big><big><big><big>स्प</big></big></big></big></big></center>	<center><big><big><b>spa</b></big></big><br><big>स् (s) + प (pa)</big><br><small>frequency: 1.003%</small></center>
