@@ -10,6 +10,7 @@ bundle exec ruby scrape_sanskrit.rb             # step 1: fetch site + download 
 bundle exec ruby generate_anki.rb               # step 2: write sanskrit_anki.txt + copy audio to Anki
 bundle exec ruby generate_combinations_anki.rb  # optional: write sanskrit_combinations_anki.txt
 bundle exec ruby generate_conjuncts_anki.rb     # optional: write sanskrit_conjuncts_anki.txt
+bundle exec ruby generate_anusvara_anki.rb      # optional: write sanskrit_anusvara_anki.txt
 ```
 
 There are no tests, linter, or build step. `generate_anki.rb` prompts interactively before copying audio. Both generators depend on `data/letters.json` existing first, so `scrape_sanskrit.rb` must run before either.
@@ -20,8 +21,13 @@ Pipeline producing Anki import files for the Sanskrit alphabet. `scrape_sanskrit
 
 1. **`scrape_sanskrit.rb`** scrapes <https://enjoylearningsanskrit.com/sanskrit-alphabet-tutor/> and downloads mp3s from `sanskritserver.kautukam.com`, writing `data/letters.json` + `data/audio/*.mp3`.
 2. **`generate_anki.rb`** reads `data/letters.json`, emits `sanskrit_anki.txt` (tab-separated, with Anki import headers like `#separator:Tab`, `#deck:`, `#guid column:1`), and copies mp3s into `ANKI_MEDIA_DIR`.
-3. **`generate_combinations_anki.rb`** reads `data/letters.json` and writes `data/combinations.json`, `data/anusvara_visarga.json`, and `sanskrit_combinations_anki.txt`. Cards target the **same deck** (`🕉️ Sanskrit Alphabet`) as the basic alphabet, so importing both files merges them into one deck.
+3. **`generate_combinations_anki.rb`** reads `data/letters.json` and writes `data/combinations.json` + `sanskrit_combinations_anki.txt`. Cards target the **same deck** (`🕉️ Sanskrit Alphabet`) as the basic alphabet, so importing every file merges into one deck.
 4. **`generate_conjuncts_anki.rb`** reads `data/letters.json` and writes `data/conjuncts.json` + `sanskrit_conjuncts_anki.txt`. Covers the most common consonant-cluster ligatures (saṃyuktākṣara); cards target the same `🕉️ Sanskrit Alphabet` deck as the others.
+5. **`generate_anusvara_anki.rb`** reads `data/letters.json` and writes `data/anusvara.json` + `sanskrit_anusvara_anki.txt`. Teaches anusvāra *pronunciation*, one card per following consonant; same `🕉️ Sanskrit Alphabet` deck.
+
+### Anusvāra cards are keyed to the following consonant
+
+Anusvāra (ं) is realised as the nasal homorganic with the **following** sound, not the syllable it is written on, so `generate_anusvara_anki.rb` makes one card per following consonant rather than per syllable. The driving constant `ANUSVARA_RULES` groups the 33 consonants by articulation class: before a stop the mark becomes that varga's nasal (guttural→ṅ, palatal→ñ, retroflex→ṇ, dental→n, labial→m, via `:nasal_id`); before a semivowel/sibilant/`ह` there is no stop nasal so it stays a nasalised vowel (`:nasalized`). Each group carries a worked example (e.g. शंकर śaṃkara → śaṅkara). Rules were checked against Wikipedia "Anusvara" and ashtangayoga.info. The script also emits a few standalone vowel+mark recognition cards from `INDEPENDENT_MARKS` — only the three forms (ओं, आः, इं) the corpus count found attested; the rest of the independent vowel×{anusvāra,visarga} grid never occurs, so it was dropped from the combinations deck. Visarga (ः) sandhi is more complex (conditioned by the preceding vowel too) and is **not** yet carded.
 
 ### Conjuncts are computed via the virama
 
@@ -35,9 +41,11 @@ Pipeline producing Anki import files for the Sanskrit alphabet. `scrape_sanskrit
 
 ### Combinations are computed, not scraped
 
-`generate_combinations_anki.rb` synthesizes consonant×vowel syllables and vowel×{anusvara,visarga} forms purely from Unicode — no source page involved. A combined glyph is `consonant["devanagari"] + matra` (matras live in `VOWEL_MATRAS`, keyed by vowel ID), and its IAST is the consonant's `roman` with its trailing `a` replaced by the vowel's `roman`. The inherent `a` vowel is deliberately omitted because bare consonants already carry it and live in the basic deck. `aM`/`aH` are excluded from the anusvara/visarga set since `letters.json` already holds अं/अः.
+`generate_combinations_anki.rb` synthesizes consonant×vowel syllables purely from Unicode — no source page involved. A combined glyph is `consonant["devanagari"] + matra` (matras live in `VOWEL_MATRAS`, keyed by vowel ID), and its IAST is the consonant's `roman` with its trailing `a` replaced by the vowel's `roman`. The inherent `a` vowel is deliberately omitted because bare consonants already carry it and live in the basic deck. The `aM`/`aH` "vowels" are kept — they attach the anusvara/visarga sign to the inherent `a` (कं, कः); standalone vowel+mark forms instead live in `generate_anusvara_anki.rb`.
 
-Watch the back-of-card breakdown logic in `components_devanagari`: standalone anusvara/visarga marks are rendered on the dotted circle U+25CC (`◌ं`, `◌ः`) because the `letters.json` forms (अं/अः) carry a spurious leading `a` that would mislead.
+Watch the back-of-card breakdown logic in `components_devanagari`: the `aM`/`aH` marks are rendered on the dotted circle U+25CC (`◌ं`, `◌ः`) because the `letters.json` forms (अं/अः) carry a spurious leading `a` that would mislead.
+
+Consonant×vowel combinations are pruned by corpus frequency: `COMBINATION_FREQUENCY` holds the Mahābhārata count of every consonant→vowel akṣara (same corpus/method as the conjuncts), and `build_combinations` drops any syllable below `MIN_FREQUENCY` (default 1, i.e. never attested). This cuts 112 of the 490 grid cells — almost entirely the vocalic vowels ḷ (`LLi`) and ṝ (`RRI`) and the nasals ṅ (`GNa`)/ñ (`JNa`), which never independently carry a vowel — leaving 378. Each surviving combo records its `mahabharata_count` in `combinations.json`. Raise `MIN_FREQUENCY` to prune rare syllables too. The vowel×{anusvara,visarga} set is **not** frequency-filtered.
 
 ### Audio filename quirk
 

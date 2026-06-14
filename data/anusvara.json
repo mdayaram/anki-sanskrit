@@ -1,0 +1,527 @@
+[
+  {
+    "type": "independent",
+    "id": "indep_o_M",
+    "vowel_id": "o",
+    "vowel_devanagari": "ओ",
+    "vowel_roman": "o",
+    "mark_id": "M",
+    "devanagari": "ओं",
+    "roman": "oṁ"
+  },
+  {
+    "type": "independent",
+    "id": "indep_aa_H",
+    "vowel_id": "aa",
+    "vowel_devanagari": "आ",
+    "vowel_roman": "ā",
+    "mark_id": "H",
+    "devanagari": "आः",
+    "roman": "āḥ"
+  },
+  {
+    "type": "independent",
+    "id": "indep_i_M",
+    "vowel_id": "i",
+    "vowel_devanagari": "इ",
+    "vowel_roman": "i",
+    "mark_id": "M",
+    "devanagari": "इं",
+    "roman": "iṁ"
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ka",
+    "following_id": "ka",
+    "following": "क",
+    "following_iast": "k",
+    "class": "guttural (क-varga)",
+    "result_iast": "ṅ",
+    "result_devanagari": "ङ",
+    "example": {
+      "dev": "शंकर",
+      "iast": "śaṃkara",
+      "pron": "śaṅkara"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_kha",
+    "following_id": "kha",
+    "following": "ख",
+    "following_iast": "kh",
+    "class": "guttural (क-varga)",
+    "result_iast": "ṅ",
+    "result_devanagari": "ङ",
+    "example": {
+      "dev": "शंकर",
+      "iast": "śaṃkara",
+      "pron": "śaṅkara"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ga",
+    "following_id": "ga",
+    "following": "ग",
+    "following_iast": "g",
+    "class": "guttural (क-varga)",
+    "result_iast": "ṅ",
+    "result_devanagari": "ङ",
+    "example": {
+      "dev": "शंकर",
+      "iast": "śaṃkara",
+      "pron": "śaṅkara"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_gha",
+    "following_id": "gha",
+    "following": "घ",
+    "following_iast": "gh",
+    "class": "guttural (क-varga)",
+    "result_iast": "ṅ",
+    "result_devanagari": "ङ",
+    "example": {
+      "dev": "शंकर",
+      "iast": "śaṃkara",
+      "pron": "śaṅkara"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_GNa",
+    "following_id": "GNa",
+    "following": "ङ",
+    "following_iast": "ṅ",
+    "class": "guttural (क-varga)",
+    "result_iast": "ṅ",
+    "result_devanagari": "ङ",
+    "example": {
+      "dev": "शंकर",
+      "iast": "śaṃkara",
+      "pron": "śaṅkara"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ca",
+    "following_id": "ca",
+    "following": "च",
+    "following_iast": "c",
+    "class": "palatal (च-varga)",
+    "result_iast": "ñ",
+    "result_devanagari": "ञ",
+    "example": {
+      "dev": "संचय",
+      "iast": "saṃcaya",
+      "pron": "sañcaya"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_cha",
+    "following_id": "cha",
+    "following": "छ",
+    "following_iast": "ch",
+    "class": "palatal (च-varga)",
+    "result_iast": "ñ",
+    "result_devanagari": "ञ",
+    "example": {
+      "dev": "संचय",
+      "iast": "saṃcaya",
+      "pron": "sañcaya"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ja",
+    "following_id": "ja",
+    "following": "ज",
+    "following_iast": "j",
+    "class": "palatal (च-varga)",
+    "result_iast": "ñ",
+    "result_devanagari": "ञ",
+    "example": {
+      "dev": "संचय",
+      "iast": "saṃcaya",
+      "pron": "sañcaya"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_jha",
+    "following_id": "jha",
+    "following": "झ",
+    "following_iast": "jh",
+    "class": "palatal (च-varga)",
+    "result_iast": "ñ",
+    "result_devanagari": "ञ",
+    "example": {
+      "dev": "संचय",
+      "iast": "saṃcaya",
+      "pron": "sañcaya"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_JNa",
+    "following_id": "JNa",
+    "following": "ञ",
+    "following_iast": "ñ",
+    "class": "palatal (च-varga)",
+    "result_iast": "ñ",
+    "result_devanagari": "ञ",
+    "example": {
+      "dev": "संचय",
+      "iast": "saṃcaya",
+      "pron": "sañcaya"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_Ta",
+    "following_id": "Ta",
+    "following": "ट",
+    "following_iast": "ṭ",
+    "class": "retroflex (ट-varga)",
+    "result_iast": "ṇ",
+    "result_devanagari": "ण",
+    "example": {
+      "dev": "घंटा",
+      "iast": "ghaṃṭā",
+      "pron": "ghaṇṭā"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_Tha",
+    "following_id": "Tha",
+    "following": "ठ",
+    "following_iast": "ṭh",
+    "class": "retroflex (ट-varga)",
+    "result_iast": "ṇ",
+    "result_devanagari": "ण",
+    "example": {
+      "dev": "घंटा",
+      "iast": "ghaṃṭā",
+      "pron": "ghaṇṭā"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_Da",
+    "following_id": "Da",
+    "following": "ड",
+    "following_iast": "ḍ",
+    "class": "retroflex (ट-varga)",
+    "result_iast": "ṇ",
+    "result_devanagari": "ण",
+    "example": {
+      "dev": "घंटा",
+      "iast": "ghaṃṭā",
+      "pron": "ghaṇṭā"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_Dha",
+    "following_id": "Dha",
+    "following": "ढ",
+    "following_iast": "ḍh",
+    "class": "retroflex (ट-varga)",
+    "result_iast": "ṇ",
+    "result_devanagari": "ण",
+    "example": {
+      "dev": "घंटा",
+      "iast": "ghaṃṭā",
+      "pron": "ghaṇṭā"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_Na",
+    "following_id": "Na",
+    "following": "ण",
+    "following_iast": "ṇ",
+    "class": "retroflex (ट-varga)",
+    "result_iast": "ṇ",
+    "result_devanagari": "ण",
+    "example": {
+      "dev": "घंटा",
+      "iast": "ghaṃṭā",
+      "pron": "ghaṇṭā"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ta",
+    "following_id": "ta",
+    "following": "त",
+    "following_iast": "t",
+    "class": "dental (त-varga)",
+    "result_iast": "n",
+    "result_devanagari": "न",
+    "example": {
+      "dev": "संतोष",
+      "iast": "saṃtoṣa",
+      "pron": "santoṣa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_tha",
+    "following_id": "tha",
+    "following": "थ",
+    "following_iast": "th",
+    "class": "dental (त-varga)",
+    "result_iast": "n",
+    "result_devanagari": "न",
+    "example": {
+      "dev": "संतोष",
+      "iast": "saṃtoṣa",
+      "pron": "santoṣa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_da",
+    "following_id": "da",
+    "following": "द",
+    "following_iast": "d",
+    "class": "dental (त-varga)",
+    "result_iast": "n",
+    "result_devanagari": "न",
+    "example": {
+      "dev": "संतोष",
+      "iast": "saṃtoṣa",
+      "pron": "santoṣa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_dha",
+    "following_id": "dha",
+    "following": "ध",
+    "following_iast": "dh",
+    "class": "dental (त-varga)",
+    "result_iast": "n",
+    "result_devanagari": "न",
+    "example": {
+      "dev": "संतोष",
+      "iast": "saṃtoṣa",
+      "pron": "santoṣa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_na",
+    "following_id": "na",
+    "following": "न",
+    "following_iast": "n",
+    "class": "dental (त-varga)",
+    "result_iast": "n",
+    "result_devanagari": "न",
+    "example": {
+      "dev": "संतोष",
+      "iast": "saṃtoṣa",
+      "pron": "santoṣa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_pa",
+    "following_id": "pa",
+    "following": "प",
+    "following_iast": "p",
+    "class": "labial (प-varga)",
+    "result_iast": "m",
+    "result_devanagari": "म",
+    "example": {
+      "dev": "संपूर्ण",
+      "iast": "saṃpūrṇa",
+      "pron": "sampūrṇa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_pha",
+    "following_id": "pha",
+    "following": "फ",
+    "following_iast": "ph",
+    "class": "labial (प-varga)",
+    "result_iast": "m",
+    "result_devanagari": "म",
+    "example": {
+      "dev": "संपूर्ण",
+      "iast": "saṃpūrṇa",
+      "pron": "sampūrṇa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ba",
+    "following_id": "ba",
+    "following": "ब",
+    "following_iast": "b",
+    "class": "labial (प-varga)",
+    "result_iast": "m",
+    "result_devanagari": "म",
+    "example": {
+      "dev": "संपूर्ण",
+      "iast": "saṃpūrṇa",
+      "pron": "sampūrṇa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_bha",
+    "following_id": "bha",
+    "following": "भ",
+    "following_iast": "bh",
+    "class": "labial (प-varga)",
+    "result_iast": "m",
+    "result_devanagari": "म",
+    "example": {
+      "dev": "संपूर्ण",
+      "iast": "saṃpūrṇa",
+      "pron": "sampūrṇa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ma",
+    "following_id": "ma",
+    "following": "म",
+    "following_iast": "m",
+    "class": "labial (प-varga)",
+    "result_iast": "m",
+    "result_devanagari": "म",
+    "example": {
+      "dev": "संपूर्ण",
+      "iast": "saṃpūrṇa",
+      "pron": "sampūrṇa"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ya",
+    "following_id": "ya",
+    "following": "य",
+    "following_iast": "y",
+    "class": "semivowel",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संयोग",
+      "iast": "saṃyoga",
+      "pron": "saṃyoga (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ra",
+    "following_id": "ra",
+    "following": "र",
+    "following_iast": "r",
+    "class": "semivowel",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संयोग",
+      "iast": "saṃyoga",
+      "pron": "saṃyoga (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_la",
+    "following_id": "la",
+    "following": "ल",
+    "following_iast": "l",
+    "class": "semivowel",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संयोग",
+      "iast": "saṃyoga",
+      "pron": "saṃyoga (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_va",
+    "following_id": "va",
+    "following": "व",
+    "following_iast": "v",
+    "class": "semivowel",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संयोग",
+      "iast": "saṃyoga",
+      "pron": "saṃyoga (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_sha",
+    "following_id": "sha",
+    "following": "श",
+    "following_iast": "ś",
+    "class": "sibilant",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संस्कृत",
+      "iast": "saṃskṛta",
+      "pron": "saṃskṛta (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_Sha",
+    "following_id": "Sha",
+    "following": "ष",
+    "following_iast": "ṣ",
+    "class": "sibilant",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संस्कृत",
+      "iast": "saṃskṛta",
+      "pron": "saṃskṛta (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_sa",
+    "following_id": "sa",
+    "following": "स",
+    "following_iast": "s",
+    "class": "sibilant",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "संस्कृत",
+      "iast": "saṃskṛta",
+      "pron": "saṃskṛta (nasalised a)"
+    }
+  },
+  {
+    "type": "following",
+    "id": "anusvara_before_ha",
+    "following_id": "ha",
+    "following": "ह",
+    "following_iast": "h",
+    "class": "aspirate ह",
+    "result_iast": "ṃ",
+    "result_devanagari": null,
+    "example": {
+      "dev": "सिंह",
+      "iast": "siṃha",
+      "pron": "siṃha (nasalised i)"
+    }
+  }
+]

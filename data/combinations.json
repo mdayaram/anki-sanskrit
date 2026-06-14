@@ -4,3429 +4,3023 @@
     "consonant_id": "ka",
     "vowel_id": "aa",
     "devanagari": "का",
-    "roman": "kā"
+    "roman": "kā",
+    "mahabharata_count": 23868
   },
   {
     "id": "ka_i",
     "consonant_id": "ka",
     "vowel_id": "i",
     "devanagari": "कि",
-    "roman": "ki"
+    "roman": "ki",
+    "mahabharata_count": 6692
   },
   {
     "id": "ka_ii",
     "consonant_id": "ka",
     "vowel_id": "ii",
     "devanagari": "की",
-    "roman": "kī"
+    "roman": "kī",
+    "mahabharata_count": 2691
   },
   {
     "id": "ka_u",
     "consonant_id": "ka",
     "vowel_id": "u",
     "devanagari": "कु",
-    "roman": "ku"
+    "roman": "ku",
+    "mahabharata_count": 12276
   },
   {
     "id": "ka_uu",
     "consonant_id": "ka",
     "vowel_id": "uu",
     "devanagari": "कू",
-    "roman": "kū"
+    "roman": "kū",
+    "mahabharata_count": 628
   },
   {
     "id": "ka_RRi",
     "consonant_id": "ka",
     "vowel_id": "RRi",
     "devanagari": "कृ",
-    "roman": "kṛ"
-  },
-  {
-    "id": "ka_RRI",
-    "consonant_id": "ka",
-    "vowel_id": "RRI",
-    "devanagari": "कॄ",
-    "roman": "kṝ"
+    "roman": "kṛ",
+    "mahabharata_count": 15471
   },
   {
     "id": "ka_LLi",
     "consonant_id": "ka",
     "vowel_id": "LLi",
     "devanagari": "कॢ",
-    "roman": "kḷ"
+    "roman": "kḷ",
+    "mahabharata_count": 33
   },
   {
     "id": "ka_e",
     "consonant_id": "ka",
     "vowel_id": "e",
     "devanagari": "के",
-    "roman": "ke"
+    "roman": "ke",
+    "mahabharata_count": 7369
   },
   {
     "id": "ka_ai",
     "consonant_id": "ka",
     "vowel_id": "ai",
     "devanagari": "कै",
-    "roman": "kai"
+    "roman": "kai",
+    "mahabharata_count": 1315
   },
   {
     "id": "ka_o",
     "consonant_id": "ka",
     "vowel_id": "o",
     "devanagari": "को",
-    "roman": "ko"
+    "roman": "ko",
+    "mahabharata_count": 3727
   },
   {
     "id": "ka_au",
     "consonant_id": "ka",
     "vowel_id": "au",
     "devanagari": "कौ",
-    "roman": "kau"
+    "roman": "kau",
+    "mahabharata_count": 2566
   },
   {
     "id": "ka_aM",
     "consonant_id": "ka",
     "vowel_id": "aM",
     "devanagari": "कं",
-    "roman": "kaṁ"
+    "roman": "kaṁ",
+    "mahabharata_count": 3327
   },
   {
     "id": "ka_aH",
     "consonant_id": "ka",
     "vowel_id": "aH",
     "devanagari": "कः",
-    "roman": "kaḥ"
+    "roman": "kaḥ",
+    "mahabharata_count": 2001
   },
   {
     "id": "kha_aa",
     "consonant_id": "kha",
     "vowel_id": "aa",
     "devanagari": "खा",
-    "roman": "khā"
+    "roman": "khā",
+    "mahabharata_count": 2214
   },
   {
     "id": "kha_i",
     "consonant_id": "kha",
     "vowel_id": "i",
     "devanagari": "खि",
-    "roman": "khi"
+    "roman": "khi",
+    "mahabharata_count": 754
   },
   {
     "id": "kha_ii",
     "consonant_id": "kha",
     "vowel_id": "ii",
     "devanagari": "खी",
-    "roman": "khī"
+    "roman": "khī",
+    "mahabharata_count": 286
   },
   {
     "id": "kha_u",
     "consonant_id": "kha",
     "vowel_id": "u",
     "devanagari": "खु",
-    "roman": "khu"
-  },
-  {
-    "id": "kha_uu",
-    "consonant_id": "kha",
-    "vowel_id": "uu",
-    "devanagari": "खू",
-    "roman": "khū"
-  },
-  {
-    "id": "kha_RRi",
-    "consonant_id": "kha",
-    "vowel_id": "RRi",
-    "devanagari": "खृ",
-    "roman": "khṛ"
-  },
-  {
-    "id": "kha_RRI",
-    "consonant_id": "kha",
-    "vowel_id": "RRI",
-    "devanagari": "खॄ",
-    "roman": "khṝ"
-  },
-  {
-    "id": "kha_LLi",
-    "consonant_id": "kha",
-    "vowel_id": "LLi",
-    "devanagari": "खॢ",
-    "roman": "khḷ"
+    "roman": "khu",
+    "mahabharata_count": 59
   },
   {
     "id": "kha_e",
     "consonant_id": "kha",
     "vowel_id": "e",
     "devanagari": "खे",
-    "roman": "khe"
+    "roman": "khe",
+    "mahabharata_count": 745
   },
   {
     "id": "kha_ai",
     "consonant_id": "kha",
     "vowel_id": "ai",
     "devanagari": "खै",
-    "roman": "khai"
+    "roman": "khai",
+    "mahabharata_count": 379
   },
   {
     "id": "kha_o",
     "consonant_id": "kha",
     "vowel_id": "o",
     "devanagari": "खो",
-    "roman": "kho"
+    "roman": "kho",
+    "mahabharata_count": 331
   },
   {
     "id": "kha_au",
     "consonant_id": "kha",
     "vowel_id": "au",
     "devanagari": "खौ",
-    "roman": "khau"
+    "roman": "khau",
+    "mahabharata_count": 23
   },
   {
     "id": "kha_aM",
     "consonant_id": "kha",
     "vowel_id": "aM",
     "devanagari": "खं",
-    "roman": "khaṁ"
+    "roman": "khaṁ",
+    "mahabharata_count": 1112
   },
   {
     "id": "kha_aH",
     "consonant_id": "kha",
     "vowel_id": "aH",
     "devanagari": "खः",
-    "roman": "khaḥ"
+    "roman": "khaḥ",
+    "mahabharata_count": 257
   },
   {
     "id": "ga_aa",
     "consonant_id": "ga",
     "vowel_id": "aa",
     "devanagari": "गा",
-    "roman": "gā"
+    "roman": "gā",
+    "mahabharata_count": 8878
   },
   {
     "id": "ga_i",
     "consonant_id": "ga",
     "vowel_id": "i",
     "devanagari": "गि",
-    "roman": "gi"
+    "roman": "gi",
+    "mahabharata_count": 1662
   },
   {
     "id": "ga_ii",
     "consonant_id": "ga",
     "vowel_id": "ii",
     "devanagari": "गी",
-    "roman": "gī"
+    "roman": "gī",
+    "mahabharata_count": 1012
   },
   {
     "id": "ga_u",
     "consonant_id": "ga",
     "vowel_id": "u",
     "devanagari": "गु",
-    "roman": "gu"
+    "roman": "gu",
+    "mahabharata_count": 5272
   },
   {
     "id": "ga_uu",
     "consonant_id": "ga",
     "vowel_id": "uu",
     "devanagari": "गू",
-    "roman": "gū"
+    "roman": "gū",
+    "mahabharata_count": 253
   },
   {
     "id": "ga_RRi",
     "consonant_id": "ga",
     "vowel_id": "RRi",
     "devanagari": "गृ",
-    "roman": "gṛ"
-  },
-  {
-    "id": "ga_RRI",
-    "consonant_id": "ga",
-    "vowel_id": "RRI",
-    "devanagari": "गॄ",
-    "roman": "gṝ"
-  },
-  {
-    "id": "ga_LLi",
-    "consonant_id": "ga",
-    "vowel_id": "LLi",
-    "devanagari": "गॢ",
-    "roman": "gḷ"
+    "roman": "gṛ",
+    "mahabharata_count": 3152
   },
   {
     "id": "ga_e",
     "consonant_id": "ga",
     "vowel_id": "e",
     "devanagari": "गे",
-    "roman": "ge"
+    "roman": "ge",
+    "mahabharata_count": 2965
   },
   {
     "id": "ga_ai",
     "consonant_id": "ga",
     "vowel_id": "ai",
     "devanagari": "गै",
-    "roman": "gai"
+    "roman": "gai",
+    "mahabharata_count": 743
   },
   {
     "id": "ga_o",
     "consonant_id": "ga",
     "vowel_id": "o",
     "devanagari": "गो",
-    "roman": "go"
+    "roman": "go",
+    "mahabharata_count": 2806
   },
   {
     "id": "ga_au",
     "consonant_id": "ga",
     "vowel_id": "au",
     "devanagari": "गौ",
-    "roman": "gau"
+    "roman": "gau",
+    "mahabharata_count": 651
   },
   {
     "id": "ga_aM",
     "consonant_id": "ga",
     "vowel_id": "aM",
     "devanagari": "गं",
-    "roman": "gaṁ"
+    "roman": "gaṁ",
+    "mahabharata_count": 1456
   },
   {
     "id": "ga_aH",
     "consonant_id": "ga",
     "vowel_id": "aH",
     "devanagari": "गः",
-    "roman": "gaḥ"
+    "roman": "gaḥ",
+    "mahabharata_count": 725
   },
   {
     "id": "gha_aa",
     "consonant_id": "gha",
     "vowel_id": "aa",
     "devanagari": "घा",
-    "roman": "ghā"
+    "roman": "ghā",
+    "mahabharata_count": 2053
   },
   {
     "id": "gha_i",
     "consonant_id": "gha",
     "vowel_id": "i",
     "devanagari": "घि",
-    "roman": "ghi"
+    "roman": "ghi",
+    "mahabharata_count": 38
   },
   {
     "id": "gha_ii",
     "consonant_id": "gha",
     "vowel_id": "ii",
     "devanagari": "घी",
-    "roman": "ghī"
+    "roman": "ghī",
+    "mahabharata_count": 44
   },
   {
     "id": "gha_u",
     "consonant_id": "gha",
     "vowel_id": "u",
     "devanagari": "घु",
-    "roman": "ghu"
+    "roman": "ghu",
+    "mahabharata_count": 199
   },
   {
     "id": "gha_uu",
     "consonant_id": "gha",
     "vowel_id": "uu",
     "devanagari": "घू",
-    "roman": "ghū"
+    "roman": "ghū",
+    "mahabharata_count": 49
   },
   {
     "id": "gha_RRi",
     "consonant_id": "gha",
     "vowel_id": "RRi",
     "devanagari": "घृ",
-    "roman": "ghṛ"
-  },
-  {
-    "id": "gha_RRI",
-    "consonant_id": "gha",
-    "vowel_id": "RRI",
-    "devanagari": "घॄ",
-    "roman": "ghṝ"
-  },
-  {
-    "id": "gha_LLi",
-    "consonant_id": "gha",
-    "vowel_id": "LLi",
-    "devanagari": "घॢ",
-    "roman": "ghḷ"
+    "roman": "ghṛ",
+    "mahabharata_count": 258
   },
   {
     "id": "gha_e",
     "consonant_id": "gha",
     "vowel_id": "e",
     "devanagari": "घे",
-    "roman": "ghe"
+    "roman": "ghe",
+    "mahabharata_count": 137
   },
   {
     "id": "gha_ai",
     "consonant_id": "gha",
     "vowel_id": "ai",
     "devanagari": "घै",
-    "roman": "ghai"
+    "roman": "ghai",
+    "mahabharata_count": 249
   },
   {
     "id": "gha_o",
     "consonant_id": "gha",
     "vowel_id": "o",
     "devanagari": "घो",
-    "roman": "gho"
+    "roman": "gho",
+    "mahabharata_count": 1987
   },
   {
     "id": "gha_au",
     "consonant_id": "gha",
     "vowel_id": "au",
     "devanagari": "घौ",
-    "roman": "ghau"
+    "roman": "ghau",
+    "mahabharata_count": 21
   },
   {
     "id": "gha_aM",
     "consonant_id": "gha",
     "vowel_id": "aM",
     "devanagari": "घं",
-    "roman": "ghaṁ"
+    "roman": "ghaṁ",
+    "mahabharata_count": 137
   },
   {
     "id": "gha_aH",
     "consonant_id": "gha",
     "vowel_id": "aH",
     "devanagari": "घः",
-    "roman": "ghaḥ"
-  },
-  {
-    "id": "GNa_aa",
-    "consonant_id": "GNa",
-    "vowel_id": "aa",
-    "devanagari": "ङा",
-    "roman": "ṅā"
-  },
-  {
-    "id": "GNa_i",
-    "consonant_id": "GNa",
-    "vowel_id": "i",
-    "devanagari": "ङि",
-    "roman": "ṅi"
-  },
-  {
-    "id": "GNa_ii",
-    "consonant_id": "GNa",
-    "vowel_id": "ii",
-    "devanagari": "ङी",
-    "roman": "ṅī"
-  },
-  {
-    "id": "GNa_u",
-    "consonant_id": "GNa",
-    "vowel_id": "u",
-    "devanagari": "ङु",
-    "roman": "ṅu"
-  },
-  {
-    "id": "GNa_uu",
-    "consonant_id": "GNa",
-    "vowel_id": "uu",
-    "devanagari": "ङू",
-    "roman": "ṅū"
-  },
-  {
-    "id": "GNa_RRi",
-    "consonant_id": "GNa",
-    "vowel_id": "RRi",
-    "devanagari": "ङृ",
-    "roman": "ṅṛ"
-  },
-  {
-    "id": "GNa_RRI",
-    "consonant_id": "GNa",
-    "vowel_id": "RRI",
-    "devanagari": "ङॄ",
-    "roman": "ṅṝ"
-  },
-  {
-    "id": "GNa_LLi",
-    "consonant_id": "GNa",
-    "vowel_id": "LLi",
-    "devanagari": "ङॢ",
-    "roman": "ṅḷ"
-  },
-  {
-    "id": "GNa_e",
-    "consonant_id": "GNa",
-    "vowel_id": "e",
-    "devanagari": "ङे",
-    "roman": "ṅe"
-  },
-  {
-    "id": "GNa_ai",
-    "consonant_id": "GNa",
-    "vowel_id": "ai",
-    "devanagari": "ङै",
-    "roman": "ṅai"
-  },
-  {
-    "id": "GNa_o",
-    "consonant_id": "GNa",
-    "vowel_id": "o",
-    "devanagari": "ङो",
-    "roman": "ṅo"
-  },
-  {
-    "id": "GNa_au",
-    "consonant_id": "GNa",
-    "vowel_id": "au",
-    "devanagari": "ङौ",
-    "roman": "ṅau"
-  },
-  {
-    "id": "GNa_aM",
-    "consonant_id": "GNa",
-    "vowel_id": "aM",
-    "devanagari": "ङं",
-    "roman": "ṅaṁ"
-  },
-  {
-    "id": "GNa_aH",
-    "consonant_id": "GNa",
-    "vowel_id": "aH",
-    "devanagari": "ङः",
-    "roman": "ṅaḥ"
+    "roman": "ghaḥ",
+    "mahabharata_count": 56
   },
   {
     "id": "ca_aa",
     "consonant_id": "ca",
     "vowel_id": "aa",
     "devanagari": "चा",
-    "roman": "cā"
+    "roman": "cā",
+    "mahabharata_count": 15529
   },
   {
     "id": "ca_i",
     "consonant_id": "ca",
     "vowel_id": "i",
     "devanagari": "चि",
-    "roman": "ci"
+    "roman": "ci",
+    "mahabharata_count": 11370
   },
   {
     "id": "ca_ii",
     "consonant_id": "ca",
     "vowel_id": "ii",
     "devanagari": "ची",
-    "roman": "cī"
+    "roman": "cī",
+    "mahabharata_count": 635
   },
   {
     "id": "ca_u",
     "consonant_id": "ca",
     "vowel_id": "u",
     "devanagari": "चु",
-    "roman": "cu"
+    "roman": "cu",
+    "mahabharata_count": 671
   },
   {
     "id": "ca_uu",
     "consonant_id": "ca",
     "vowel_id": "uu",
     "devanagari": "चू",
-    "roman": "cū"
+    "roman": "cū",
+    "mahabharata_count": 144
   },
   {
     "id": "ca_RRi",
     "consonant_id": "ca",
     "vowel_id": "RRi",
     "devanagari": "चृ",
-    "roman": "cṛ"
-  },
-  {
-    "id": "ca_RRI",
-    "consonant_id": "ca",
-    "vowel_id": "RRI",
-    "devanagari": "चॄ",
-    "roman": "cṝ"
-  },
-  {
-    "id": "ca_LLi",
-    "consonant_id": "ca",
-    "vowel_id": "LLi",
-    "devanagari": "चॢ",
-    "roman": "cḷ"
+    "roman": "cṛ",
+    "mahabharata_count": 2
   },
   {
     "id": "ca_e",
     "consonant_id": "ca",
     "vowel_id": "e",
     "devanagari": "चे",
-    "roman": "ce"
+    "roman": "ce",
+    "mahabharata_count": 3297
   },
   {
     "id": "ca_ai",
     "consonant_id": "ca",
     "vowel_id": "ai",
     "devanagari": "चै",
-    "roman": "cai"
+    "roman": "cai",
+    "mahabharata_count": 7413
   },
   {
     "id": "ca_o",
     "consonant_id": "ca",
     "vowel_id": "o",
     "devanagari": "चो",
-    "roman": "co"
+    "roman": "co",
+    "mahabharata_count": 2144
   },
   {
     "id": "ca_au",
     "consonant_id": "ca",
     "vowel_id": "au",
     "devanagari": "चौ",
-    "roman": "cau"
+    "roman": "cau",
+    "mahabharata_count": 107
   },
   {
     "id": "ca_aM",
     "consonant_id": "ca",
     "vowel_id": "aM",
     "devanagari": "चं",
-    "roman": "caṁ"
+    "roman": "caṁ",
+    "mahabharata_count": 412
   },
   {
     "id": "ca_aH",
     "consonant_id": "ca",
     "vowel_id": "aH",
     "devanagari": "चः",
-    "roman": "caḥ"
+    "roman": "caḥ",
+    "mahabharata_count": 1014
   },
   {
     "id": "cha_aa",
     "consonant_id": "cha",
     "vowel_id": "aa",
     "devanagari": "छा",
-    "roman": "chā"
+    "roman": "chā",
+    "mahabharata_count": 1839
   },
   {
     "id": "cha_i",
     "consonant_id": "cha",
     "vowel_id": "i",
     "devanagari": "छि",
-    "roman": "chi"
+    "roman": "chi",
+    "mahabharata_count": 1321
   },
   {
     "id": "cha_ii",
     "consonant_id": "cha",
     "vowel_id": "ii",
     "devanagari": "छी",
-    "roman": "chī"
+    "roman": "chī",
+    "mahabharata_count": 63
   },
   {
     "id": "cha_u",
     "consonant_id": "cha",
     "vowel_id": "u",
     "devanagari": "छु",
-    "roman": "chu"
+    "roman": "chu",
+    "mahabharata_count": 165
   },
   {
     "id": "cha_uu",
     "consonant_id": "cha",
     "vowel_id": "uu",
     "devanagari": "छू",
-    "roman": "chū"
+    "roman": "chū",
+    "mahabharata_count": 71
   },
   {
     "id": "cha_RRi",
     "consonant_id": "cha",
     "vowel_id": "RRi",
     "devanagari": "छृ",
-    "roman": "chṛ"
-  },
-  {
-    "id": "cha_RRI",
-    "consonant_id": "cha",
-    "vowel_id": "RRI",
-    "devanagari": "छॄ",
-    "roman": "chṝ"
-  },
-  {
-    "id": "cha_LLi",
-    "consonant_id": "cha",
-    "vowel_id": "LLi",
-    "devanagari": "छॢ",
-    "roman": "chḷ"
+    "roman": "chṛ",
+    "mahabharata_count": 124
   },
   {
     "id": "cha_e",
     "consonant_id": "cha",
     "vowel_id": "e",
     "devanagari": "छे",
-    "roman": "che"
+    "roman": "che",
+    "mahabharata_count": 1422
   },
   {
     "id": "cha_ai",
     "consonant_id": "cha",
     "vowel_id": "ai",
     "devanagari": "छै",
-    "roman": "chai"
+    "roman": "chai",
+    "mahabharata_count": 40
   },
   {
     "id": "cha_o",
     "consonant_id": "cha",
     "vowel_id": "o",
     "devanagari": "छो",
-    "roman": "cho"
+    "roman": "cho",
+    "mahabharata_count": 93
   },
   {
     "id": "cha_au",
     "consonant_id": "cha",
     "vowel_id": "au",
     "devanagari": "छौ",
-    "roman": "chau"
+    "roman": "chau",
+    "mahabharata_count": 14
   },
   {
     "id": "cha_aM",
     "consonant_id": "cha",
     "vowel_id": "aM",
     "devanagari": "छं",
-    "roman": "chaṁ"
+    "roman": "chaṁ",
+    "mahabharata_count": 77
   },
   {
     "id": "cha_aH",
     "consonant_id": "cha",
     "vowel_id": "aH",
     "devanagari": "छः",
-    "roman": "chaḥ"
+    "roman": "chaḥ",
+    "mahabharata_count": 3
   },
   {
     "id": "ja_aa",
     "consonant_id": "ja",
     "vowel_id": "aa",
     "devanagari": "जा",
-    "roman": "jā"
+    "roman": "jā",
+    "mahabharata_count": 13878
   },
   {
     "id": "ja_i",
     "consonant_id": "ja",
     "vowel_id": "i",
     "devanagari": "जि",
-    "roman": "ji"
+    "roman": "ji",
+    "mahabharata_count": 5199
   },
   {
     "id": "ja_ii",
     "consonant_id": "ja",
     "vowel_id": "ii",
     "devanagari": "जी",
-    "roman": "jī"
+    "roman": "jī",
+    "mahabharata_count": 2473
   },
   {
     "id": "ja_u",
     "consonant_id": "ja",
     "vowel_id": "u",
     "devanagari": "जु",
-    "roman": "ju"
+    "roman": "ju",
+    "mahabharata_count": 2689
   },
   {
     "id": "ja_uu",
     "consonant_id": "ja",
     "vowel_id": "uu",
     "devanagari": "जू",
-    "roman": "jū"
+    "roman": "jū",
+    "mahabharata_count": 44
   },
   {
     "id": "ja_RRi",
     "consonant_id": "ja",
     "vowel_id": "RRi",
     "devanagari": "जृ",
-    "roman": "jṛ"
-  },
-  {
-    "id": "ja_RRI",
-    "consonant_id": "ja",
-    "vowel_id": "RRI",
-    "devanagari": "जॄ",
-    "roman": "jṝ"
-  },
-  {
-    "id": "ja_LLi",
-    "consonant_id": "ja",
-    "vowel_id": "LLi",
-    "devanagari": "जॢ",
-    "roman": "jḷ"
+    "roman": "jṛ",
+    "mahabharata_count": 38
   },
   {
     "id": "ja_e",
     "consonant_id": "ja",
     "vowel_id": "e",
     "devanagari": "जे",
-    "roman": "je"
+    "roman": "je",
+    "mahabharata_count": 2741
   },
   {
     "id": "ja_ai",
     "consonant_id": "ja",
     "vowel_id": "ai",
     "devanagari": "जै",
-    "roman": "jai"
+    "roman": "jai",
+    "mahabharata_count": 469
   },
   {
     "id": "ja_o",
     "consonant_id": "ja",
     "vowel_id": "o",
     "devanagari": "जो",
-    "roman": "jo"
+    "roman": "jo",
+    "mahabharata_count": 1738
   },
   {
     "id": "ja_au",
     "consonant_id": "ja",
     "vowel_id": "au",
     "devanagari": "जौ",
-    "roman": "jau"
+    "roman": "jau",
+    "mahabharata_count": 328
   },
   {
     "id": "ja_aM",
     "consonant_id": "ja",
     "vowel_id": "aM",
     "devanagari": "जं",
-    "roman": "jaṁ"
+    "roman": "jaṁ",
+    "mahabharata_count": 1581
   },
   {
     "id": "ja_aH",
     "consonant_id": "ja",
     "vowel_id": "aH",
     "devanagari": "जः",
-    "roman": "jaḥ"
-  },
-  {
-    "id": "jha_aa",
-    "consonant_id": "jha",
-    "vowel_id": "aa",
-    "devanagari": "झा",
-    "roman": "jhā"
+    "roman": "jaḥ",
+    "mahabharata_count": 1316
   },
   {
     "id": "jha_i",
     "consonant_id": "jha",
     "vowel_id": "i",
     "devanagari": "झि",
-    "roman": "jhi"
-  },
-  {
-    "id": "jha_ii",
-    "consonant_id": "jha",
-    "vowel_id": "ii",
-    "devanagari": "झी",
-    "roman": "jhī"
-  },
-  {
-    "id": "jha_u",
-    "consonant_id": "jha",
-    "vowel_id": "u",
-    "devanagari": "झु",
-    "roman": "jhu"
-  },
-  {
-    "id": "jha_uu",
-    "consonant_id": "jha",
-    "vowel_id": "uu",
-    "devanagari": "झू",
-    "roman": "jhū"
-  },
-  {
-    "id": "jha_RRi",
-    "consonant_id": "jha",
-    "vowel_id": "RRi",
-    "devanagari": "झृ",
-    "roman": "jhṛ"
-  },
-  {
-    "id": "jha_RRI",
-    "consonant_id": "jha",
-    "vowel_id": "RRI",
-    "devanagari": "झॄ",
-    "roman": "jhṝ"
-  },
-  {
-    "id": "jha_LLi",
-    "consonant_id": "jha",
-    "vowel_id": "LLi",
-    "devanagari": "झॢ",
-    "roman": "jhḷ"
-  },
-  {
-    "id": "jha_e",
-    "consonant_id": "jha",
-    "vowel_id": "e",
-    "devanagari": "झे",
-    "roman": "jhe"
-  },
-  {
-    "id": "jha_ai",
-    "consonant_id": "jha",
-    "vowel_id": "ai",
-    "devanagari": "झै",
-    "roman": "jhai"
+    "roman": "jhi",
+    "mahabharata_count": 12
   },
   {
     "id": "jha_o",
     "consonant_id": "jha",
     "vowel_id": "o",
     "devanagari": "झो",
-    "roman": "jho"
-  },
-  {
-    "id": "jha_au",
-    "consonant_id": "jha",
-    "vowel_id": "au",
-    "devanagari": "झौ",
-    "roman": "jhau"
-  },
-  {
-    "id": "jha_aM",
-    "consonant_id": "jha",
-    "vowel_id": "aM",
-    "devanagari": "झं",
-    "roman": "jhaṁ"
-  },
-  {
-    "id": "jha_aH",
-    "consonant_id": "jha",
-    "vowel_id": "aH",
-    "devanagari": "झः",
-    "roman": "jhaḥ"
+    "roman": "jho",
+    "mahabharata_count": 1
   },
   {
     "id": "JNa_aa",
     "consonant_id": "JNa",
     "vowel_id": "aa",
     "devanagari": "ञा",
-    "roman": "ñā"
-  },
-  {
-    "id": "JNa_i",
-    "consonant_id": "JNa",
-    "vowel_id": "i",
-    "devanagari": "ञि",
-    "roman": "ñi"
-  },
-  {
-    "id": "JNa_ii",
-    "consonant_id": "JNa",
-    "vowel_id": "ii",
-    "devanagari": "ञी",
-    "roman": "ñī"
-  },
-  {
-    "id": "JNa_u",
-    "consonant_id": "JNa",
-    "vowel_id": "u",
-    "devanagari": "ञु",
-    "roman": "ñu"
-  },
-  {
-    "id": "JNa_uu",
-    "consonant_id": "JNa",
-    "vowel_id": "uu",
-    "devanagari": "ञू",
-    "roman": "ñū"
-  },
-  {
-    "id": "JNa_RRi",
-    "consonant_id": "JNa",
-    "vowel_id": "RRi",
-    "devanagari": "ञृ",
-    "roman": "ñṛ"
-  },
-  {
-    "id": "JNa_RRI",
-    "consonant_id": "JNa",
-    "vowel_id": "RRI",
-    "devanagari": "ञॄ",
-    "roman": "ñṝ"
-  },
-  {
-    "id": "JNa_LLi",
-    "consonant_id": "JNa",
-    "vowel_id": "LLi",
-    "devanagari": "ञॢ",
-    "roman": "ñḷ"
-  },
-  {
-    "id": "JNa_e",
-    "consonant_id": "JNa",
-    "vowel_id": "e",
-    "devanagari": "ञे",
-    "roman": "ñe"
-  },
-  {
-    "id": "JNa_ai",
-    "consonant_id": "JNa",
-    "vowel_id": "ai",
-    "devanagari": "ञै",
-    "roman": "ñai"
-  },
-  {
-    "id": "JNa_o",
-    "consonant_id": "JNa",
-    "vowel_id": "o",
-    "devanagari": "ञो",
-    "roman": "ño"
-  },
-  {
-    "id": "JNa_au",
-    "consonant_id": "JNa",
-    "vowel_id": "au",
-    "devanagari": "ञौ",
-    "roman": "ñau"
-  },
-  {
-    "id": "JNa_aM",
-    "consonant_id": "JNa",
-    "vowel_id": "aM",
-    "devanagari": "ञं",
-    "roman": "ñaṁ"
-  },
-  {
-    "id": "JNa_aH",
-    "consonant_id": "JNa",
-    "vowel_id": "aH",
-    "devanagari": "ञः",
-    "roman": "ñaḥ"
+    "roman": "ñā",
+    "mahabharata_count": 4
   },
   {
     "id": "Ta_aa",
     "consonant_id": "Ta",
     "vowel_id": "aa",
     "devanagari": "टा",
-    "roman": "ṭā"
+    "roman": "ṭā",
+    "mahabharata_count": 3070
   },
   {
     "id": "Ta_i",
     "consonant_id": "Ta",
     "vowel_id": "i",
     "devanagari": "टि",
-    "roman": "ṭi"
+    "roman": "ṭi",
+    "mahabharata_count": 1616
   },
   {
     "id": "Ta_ii",
     "consonant_id": "Ta",
     "vowel_id": "ii",
     "devanagari": "टी",
-    "roman": "ṭī"
+    "roman": "ṭī",
+    "mahabharata_count": 245
   },
   {
     "id": "Ta_u",
     "consonant_id": "Ta",
     "vowel_id": "u",
     "devanagari": "टु",
-    "roman": "ṭu"
+    "roman": "ṭu",
+    "mahabharata_count": 683
   },
   {
     "id": "Ta_uu",
     "consonant_id": "Ta",
     "vowel_id": "uu",
     "devanagari": "टू",
-    "roman": "ṭū"
+    "roman": "ṭū",
+    "mahabharata_count": 3
   },
   {
     "id": "Ta_RRi",
     "consonant_id": "Ta",
     "vowel_id": "RRi",
     "devanagari": "टृ",
-    "roman": "ṭṛ"
+    "roman": "ṭṛ",
+    "mahabharata_count": 3
   },
   {
     "id": "Ta_RRI",
     "consonant_id": "Ta",
     "vowel_id": "RRI",
     "devanagari": "टॄ",
-    "roman": "ṭṝ"
-  },
-  {
-    "id": "Ta_LLi",
-    "consonant_id": "Ta",
-    "vowel_id": "LLi",
-    "devanagari": "टॢ",
-    "roman": "ṭḷ"
+    "roman": "ṭṝ",
+    "mahabharata_count": 1
   },
   {
     "id": "Ta_e",
     "consonant_id": "Ta",
     "vowel_id": "e",
     "devanagari": "टे",
-    "roman": "ṭe"
+    "roman": "ṭe",
+    "mahabharata_count": 672
   },
   {
     "id": "Ta_ai",
     "consonant_id": "Ta",
     "vowel_id": "ai",
     "devanagari": "टै",
-    "roman": "ṭai"
+    "roman": "ṭai",
+    "mahabharata_count": 195
   },
   {
     "id": "Ta_o",
     "consonant_id": "Ta",
     "vowel_id": "o",
     "devanagari": "टो",
-    "roman": "ṭo"
+    "roman": "ṭo",
+    "mahabharata_count": 1157
   },
   {
     "id": "Ta_au",
     "consonant_id": "Ta",
     "vowel_id": "au",
     "devanagari": "टौ",
-    "roman": "ṭau"
+    "roman": "ṭau",
+    "mahabharata_count": 264
   },
   {
     "id": "Ta_aM",
     "consonant_id": "Ta",
     "vowel_id": "aM",
     "devanagari": "टं",
-    "roman": "ṭaṁ"
+    "roman": "ṭaṁ",
+    "mahabharata_count": 1110
   },
   {
     "id": "Ta_aH",
     "consonant_id": "Ta",
     "vowel_id": "aH",
     "devanagari": "टः",
-    "roman": "ṭaḥ"
+    "roman": "ṭaḥ",
+    "mahabharata_count": 668
   },
   {
     "id": "Tha_aa",
     "consonant_id": "Tha",
     "vowel_id": "aa",
     "devanagari": "ठा",
-    "roman": "ṭhā"
+    "roman": "ṭhā",
+    "mahabharata_count": 1122
   },
   {
     "id": "Tha_i",
     "consonant_id": "Tha",
     "vowel_id": "i",
     "devanagari": "ठि",
-    "roman": "ṭhi"
+    "roman": "ṭhi",
+    "mahabharata_count": 3578
   },
   {
     "id": "Tha_ii",
     "consonant_id": "Tha",
     "vowel_id": "ii",
     "devanagari": "ठी",
-    "roman": "ṭhī"
+    "roman": "ṭhī",
+    "mahabharata_count": 75
   },
   {
     "id": "Tha_u",
     "consonant_id": "Tha",
     "vowel_id": "u",
     "devanagari": "ठु",
-    "roman": "ṭhu"
+    "roman": "ṭhu",
+    "mahabharata_count": 35
   },
   {
     "id": "Tha_uu",
     "consonant_id": "Tha",
     "vowel_id": "uu",
     "devanagari": "ठू",
-    "roman": "ṭhū"
-  },
-  {
-    "id": "Tha_RRi",
-    "consonant_id": "Tha",
-    "vowel_id": "RRi",
-    "devanagari": "ठृ",
-    "roman": "ṭhṛ"
-  },
-  {
-    "id": "Tha_RRI",
-    "consonant_id": "Tha",
-    "vowel_id": "RRI",
-    "devanagari": "ठॄ",
-    "roman": "ṭhṝ"
-  },
-  {
-    "id": "Tha_LLi",
-    "consonant_id": "Tha",
-    "vowel_id": "LLi",
-    "devanagari": "ठॢ",
-    "roman": "ṭhḷ"
+    "roman": "ṭhū",
+    "mahabharata_count": 3
   },
   {
     "id": "Tha_e",
     "consonant_id": "Tha",
     "vowel_id": "e",
     "devanagari": "ठे",
-    "roman": "ṭhe"
+    "roman": "ṭhe",
+    "mahabharata_count": 633
   },
   {
     "id": "Tha_ai",
     "consonant_id": "Tha",
     "vowel_id": "ai",
     "devanagari": "ठै",
-    "roman": "ṭhai"
+    "roman": "ṭhai",
+    "mahabharata_count": 60
   },
   {
     "id": "Tha_o",
     "consonant_id": "Tha",
     "vowel_id": "o",
     "devanagari": "ठो",
-    "roman": "ṭho"
+    "roman": "ṭho",
+    "mahabharata_count": 450
   },
   {
     "id": "Tha_au",
     "consonant_id": "Tha",
     "vowel_id": "au",
     "devanagari": "ठौ",
-    "roman": "ṭhau"
+    "roman": "ṭhau",
+    "mahabharata_count": 31
   },
   {
     "id": "Tha_aM",
     "consonant_id": "Tha",
     "vowel_id": "aM",
     "devanagari": "ठं",
-    "roman": "ṭhaṁ"
+    "roman": "ṭhaṁ",
+    "mahabharata_count": 636
   },
   {
     "id": "Tha_aH",
     "consonant_id": "Tha",
     "vowel_id": "aH",
     "devanagari": "ठः",
-    "roman": "ṭhaḥ"
+    "roman": "ṭhaḥ",
+    "mahabharata_count": 339
   },
   {
     "id": "Da_aa",
     "consonant_id": "Da",
     "vowel_id": "aa",
     "devanagari": "डा",
-    "roman": "ḍā"
+    "roman": "ḍā",
+    "mahabharata_count": 807
   },
   {
     "id": "Da_i",
     "consonant_id": "Da",
     "vowel_id": "i",
     "devanagari": "डि",
-    "roman": "ḍi"
+    "roman": "ḍi",
+    "mahabharata_count": 1464
   },
   {
     "id": "Da_ii",
     "consonant_id": "Da",
     "vowel_id": "ii",
     "devanagari": "डी",
-    "roman": "ḍī"
+    "roman": "ḍī",
+    "mahabharata_count": 650
   },
   {
     "id": "Da_u",
     "consonant_id": "Da",
     "vowel_id": "u",
     "devanagari": "डु",
-    "roman": "ḍu"
+    "roman": "ḍu",
+    "mahabharata_count": 1040
   },
   {
     "id": "Da_uu",
     "consonant_id": "Da",
     "vowel_id": "uu",
     "devanagari": "डू",
-    "roman": "ḍū"
+    "roman": "ḍū",
+    "mahabharata_count": 235
   },
   {
     "id": "Da_RRi",
     "consonant_id": "Da",
     "vowel_id": "RRi",
     "devanagari": "डृ",
-    "roman": "ḍṛ"
-  },
-  {
-    "id": "Da_RRI",
-    "consonant_id": "Da",
-    "vowel_id": "RRI",
-    "devanagari": "डॄ",
-    "roman": "ḍṝ"
-  },
-  {
-    "id": "Da_LLi",
-    "consonant_id": "Da",
-    "vowel_id": "LLi",
-    "devanagari": "डॢ",
-    "roman": "ḍḷ"
+    "roman": "ḍṛ",
+    "mahabharata_count": 1
   },
   {
     "id": "Da_e",
     "consonant_id": "Da",
     "vowel_id": "e",
     "devanagari": "डे",
-    "roman": "ḍe"
+    "roman": "ḍe",
+    "mahabharata_count": 467
   },
   {
     "id": "Da_ai",
     "consonant_id": "Da",
     "vowel_id": "ai",
     "devanagari": "डै",
-    "roman": "ḍai"
+    "roman": "ḍai",
+    "mahabharata_count": 60
   },
   {
     "id": "Da_o",
     "consonant_id": "Da",
     "vowel_id": "o",
     "devanagari": "डो",
-    "roman": "ḍo"
+    "roman": "ḍo",
+    "mahabharata_count": 309
   },
   {
     "id": "Da_au",
     "consonant_id": "Da",
     "vowel_id": "au",
     "devanagari": "डौ",
-    "roman": "ḍau"
+    "roman": "ḍau",
+    "mahabharata_count": 11
   },
   {
     "id": "Da_aM",
     "consonant_id": "Da",
     "vowel_id": "aM",
     "devanagari": "डं",
-    "roman": "ḍaṁ"
+    "roman": "ḍaṁ",
+    "mahabharata_count": 173
   },
   {
     "id": "Da_aH",
     "consonant_id": "Da",
     "vowel_id": "aH",
     "devanagari": "डः",
-    "roman": "ḍaḥ"
+    "roman": "ḍaḥ",
+    "mahabharata_count": 116
   },
   {
     "id": "Dha_aa",
     "consonant_id": "Dha",
     "vowel_id": "aa",
     "devanagari": "ढा",
-    "roman": "ḍhā"
-  },
-  {
-    "id": "Dha_i",
-    "consonant_id": "Dha",
-    "vowel_id": "i",
-    "devanagari": "ढि",
-    "roman": "ḍhi"
+    "roman": "ḍhā",
+    "mahabharata_count": 330
   },
   {
     "id": "Dha_ii",
     "consonant_id": "Dha",
     "vowel_id": "ii",
     "devanagari": "ढी",
-    "roman": "ḍhī"
+    "roman": "ḍhī",
+    "mahabharata_count": 7
   },
   {
     "id": "Dha_u",
     "consonant_id": "Dha",
     "vowel_id": "u",
     "devanagari": "ढु",
-    "roman": "ḍhu"
-  },
-  {
-    "id": "Dha_uu",
-    "consonant_id": "Dha",
-    "vowel_id": "uu",
-    "devanagari": "ढू",
-    "roman": "ḍhū"
-  },
-  {
-    "id": "Dha_RRi",
-    "consonant_id": "Dha",
-    "vowel_id": "RRi",
-    "devanagari": "ढृ",
-    "roman": "ḍhṛ"
-  },
-  {
-    "id": "Dha_RRI",
-    "consonant_id": "Dha",
-    "vowel_id": "RRI",
-    "devanagari": "ढॄ",
-    "roman": "ḍhṝ"
-  },
-  {
-    "id": "Dha_LLi",
-    "consonant_id": "Dha",
-    "vowel_id": "LLi",
-    "devanagari": "ढॢ",
-    "roman": "ḍhḷ"
+    "roman": "ḍhu",
+    "mahabharata_count": 94
   },
   {
     "id": "Dha_e",
     "consonant_id": "Dha",
     "vowel_id": "e",
     "devanagari": "ढे",
-    "roman": "ḍhe"
+    "roman": "ḍhe",
+    "mahabharata_count": 89
   },
   {
     "id": "Dha_ai",
     "consonant_id": "Dha",
     "vowel_id": "ai",
     "devanagari": "ढै",
-    "roman": "ḍhai"
+    "roman": "ḍhai",
+    "mahabharata_count": 28
   },
   {
     "id": "Dha_o",
     "consonant_id": "Dha",
     "vowel_id": "o",
     "devanagari": "ढो",
-    "roman": "ḍho"
+    "roman": "ḍho",
+    "mahabharata_count": 132
   },
   {
     "id": "Dha_au",
     "consonant_id": "Dha",
     "vowel_id": "au",
     "devanagari": "ढौ",
-    "roman": "ḍhau"
+    "roman": "ḍhau",
+    "mahabharata_count": 11
   },
   {
     "id": "Dha_aM",
     "consonant_id": "Dha",
     "vowel_id": "aM",
     "devanagari": "ढं",
-    "roman": "ḍhaṁ"
+    "roman": "ḍhaṁ",
+    "mahabharata_count": 173
   },
   {
     "id": "Dha_aH",
     "consonant_id": "Dha",
     "vowel_id": "aH",
     "devanagari": "ढः",
-    "roman": "ḍhaḥ"
+    "roman": "ḍhaḥ",
+    "mahabharata_count": 71
   },
   {
     "id": "Na_aa",
     "consonant_id": "Na",
     "vowel_id": "aa",
     "devanagari": "णा",
-    "roman": "ṇā"
+    "roman": "ṇā",
+    "mahabharata_count": 17088
   },
   {
     "id": "Na_i",
     "consonant_id": "Na",
     "vowel_id": "i",
     "devanagari": "णि",
-    "roman": "ṇi"
+    "roman": "ṇi",
+    "mahabharata_count": 7266
   },
   {
     "id": "Na_ii",
     "consonant_id": "Na",
     "vowel_id": "ii",
     "devanagari": "णी",
-    "roman": "ṇī"
+    "roman": "ṇī",
+    "mahabharata_count": 2228
   },
   {
     "id": "Na_u",
     "consonant_id": "Na",
     "vowel_id": "u",
     "devanagari": "णु",
-    "roman": "ṇu"
+    "roman": "ṇu",
+    "mahabharata_count": 2154
   },
   {
     "id": "Na_uu",
     "consonant_id": "Na",
     "vowel_id": "uu",
     "devanagari": "णू",
-    "roman": "ṇū"
-  },
-  {
-    "id": "Na_RRi",
-    "consonant_id": "Na",
-    "vowel_id": "RRi",
-    "devanagari": "णृ",
-    "roman": "ṇṛ"
-  },
-  {
-    "id": "Na_RRI",
-    "consonant_id": "Na",
-    "vowel_id": "RRI",
-    "devanagari": "णॄ",
-    "roman": "ṇṝ"
-  },
-  {
-    "id": "Na_LLi",
-    "consonant_id": "Na",
-    "vowel_id": "LLi",
-    "devanagari": "णॢ",
-    "roman": "ṇḷ"
+    "roman": "ṇū",
+    "mahabharata_count": 41
   },
   {
     "id": "Na_e",
     "consonant_id": "Na",
     "vowel_id": "e",
     "devanagari": "णे",
-    "roman": "ṇe"
+    "roman": "ṇe",
+    "mahabharata_count": 5738
   },
   {
     "id": "Na_ai",
     "consonant_id": "Na",
     "vowel_id": "ai",
     "devanagari": "णै",
-    "roman": "ṇai"
+    "roman": "ṇai",
+    "mahabharata_count": 2290
   },
   {
     "id": "Na_o",
     "consonant_id": "Na",
     "vowel_id": "o",
     "devanagari": "णो",
-    "roman": "ṇo"
+    "roman": "ṇo",
+    "mahabharata_count": 3432
   },
   {
     "id": "Na_au",
     "consonant_id": "Na",
     "vowel_id": "au",
     "devanagari": "णौ",
-    "roman": "ṇau"
+    "roman": "ṇau",
+    "mahabharata_count": 581
   },
   {
     "id": "Na_aM",
     "consonant_id": "Na",
     "vowel_id": "aM",
     "devanagari": "णं",
-    "roman": "ṇaṁ"
+    "roman": "ṇaṁ",
+    "mahabharata_count": 5250
   },
   {
     "id": "Na_aH",
     "consonant_id": "Na",
     "vowel_id": "aH",
     "devanagari": "णः",
-    "roman": "ṇaḥ"
+    "roman": "ṇaḥ",
+    "mahabharata_count": 3429
   },
   {
     "id": "ta_aa",
     "consonant_id": "ta",
     "vowel_id": "aa",
     "devanagari": "ता",
-    "roman": "tā"
+    "roman": "tā",
+    "mahabharata_count": 55813
   },
   {
     "id": "ta_i",
     "consonant_id": "ta",
     "vowel_id": "i",
     "devanagari": "ति",
-    "roman": "ti"
+    "roman": "ti",
+    "mahabharata_count": 48680
   },
   {
     "id": "ta_ii",
     "consonant_id": "ta",
     "vowel_id": "ii",
     "devanagari": "ती",
-    "roman": "tī"
+    "roman": "tī",
+    "mahabharata_count": 7939
   },
   {
     "id": "ta_u",
     "consonant_id": "ta",
     "vowel_id": "u",
     "devanagari": "तु",
-    "roman": "tu"
+    "roman": "tu",
+    "mahabharata_count": 23771
   },
   {
     "id": "ta_uu",
     "consonant_id": "ta",
     "vowel_id": "uu",
     "devanagari": "तू",
-    "roman": "tū"
+    "roman": "tū",
+    "mahabharata_count": 1301
   },
   {
     "id": "ta_RRi",
     "consonant_id": "ta",
     "vowel_id": "RRi",
     "devanagari": "तृ",
-    "roman": "tṛ"
+    "roman": "tṛ",
+    "mahabharata_count": 2228
   },
   {
     "id": "ta_RRI",
     "consonant_id": "ta",
     "vowel_id": "RRI",
     "devanagari": "तॄ",
-    "roman": "tṝ"
-  },
-  {
-    "id": "ta_LLi",
-    "consonant_id": "ta",
-    "vowel_id": "LLi",
-    "devanagari": "तॢ",
-    "roman": "tḷ"
+    "roman": "tṝ",
+    "mahabharata_count": 663
   },
   {
     "id": "ta_e",
     "consonant_id": "ta",
     "vowel_id": "e",
     "devanagari": "ते",
-    "roman": "te"
+    "roman": "te",
+    "mahabharata_count": 44038
   },
   {
     "id": "ta_ai",
     "consonant_id": "ta",
     "vowel_id": "ai",
     "devanagari": "तै",
-    "roman": "tai"
+    "roman": "tai",
+    "mahabharata_count": 4290
   },
   {
     "id": "ta_o",
     "consonant_id": "ta",
     "vowel_id": "o",
     "devanagari": "तो",
-    "roman": "to"
+    "roman": "to",
+    "mahabharata_count": 18505
   },
   {
     "id": "ta_au",
     "consonant_id": "ta",
     "vowel_id": "au",
     "devanagari": "तौ",
-    "roman": "tau"
+    "roman": "tau",
+    "mahabharata_count": 3084
   },
   {
     "id": "ta_aM",
     "consonant_id": "ta",
     "vowel_id": "aM",
     "devanagari": "तं",
-    "roman": "taṁ"
+    "roman": "taṁ",
+    "mahabharata_count": 20272
   },
   {
     "id": "ta_aH",
     "consonant_id": "ta",
     "vowel_id": "aH",
     "devanagari": "तः",
-    "roman": "taḥ"
+    "roman": "taḥ",
+    "mahabharata_count": 21854
   },
   {
     "id": "tha_aa",
     "consonant_id": "tha",
     "vowel_id": "aa",
     "devanagari": "था",
-    "roman": "thā"
+    "roman": "thā",
+    "mahabharata_count": 23729
   },
   {
     "id": "tha_i",
     "consonant_id": "tha",
     "vowel_id": "i",
     "devanagari": "थि",
-    "roman": "thi"
+    "roman": "thi",
+    "mahabharata_count": 8305
   },
   {
     "id": "tha_ii",
     "consonant_id": "tha",
     "vowel_id": "ii",
     "devanagari": "थी",
-    "roman": "thī"
+    "roman": "thī",
+    "mahabharata_count": 461
   },
   {
     "id": "tha_u",
     "consonant_id": "tha",
     "vowel_id": "u",
     "devanagari": "थु",
-    "roman": "thu"
+    "roman": "thu",
+    "mahabharata_count": 409
   },
   {
     "id": "tha_uu",
     "consonant_id": "tha",
     "vowel_id": "uu",
     "devanagari": "थू",
-    "roman": "thū"
-  },
-  {
-    "id": "tha_RRi",
-    "consonant_id": "tha",
-    "vowel_id": "RRi",
-    "devanagari": "थृ",
-    "roman": "thṛ"
-  },
-  {
-    "id": "tha_RRI",
-    "consonant_id": "tha",
-    "vowel_id": "RRI",
-    "devanagari": "थॄ",
-    "roman": "thṝ"
-  },
-  {
-    "id": "tha_LLi",
-    "consonant_id": "tha",
-    "vowel_id": "LLi",
-    "devanagari": "थॢ",
-    "roman": "thḷ"
+    "roman": "thū",
+    "mahabharata_count": 124
   },
   {
     "id": "tha_e",
     "consonant_id": "tha",
     "vowel_id": "e",
     "devanagari": "थे",
-    "roman": "the"
+    "roman": "the",
+    "mahabharata_count": 3108
   },
   {
     "id": "tha_ai",
     "consonant_id": "tha",
     "vowel_id": "ai",
     "devanagari": "थै",
-    "roman": "thai"
+    "roman": "thai",
+    "mahabharata_count": 2535
   },
   {
     "id": "tha_o",
     "consonant_id": "tha",
     "vowel_id": "o",
     "devanagari": "थो",
-    "roman": "tho"
+    "roman": "tho",
+    "mahabharata_count": 2159
   },
   {
     "id": "tha_au",
     "consonant_id": "tha",
     "vowel_id": "au",
     "devanagari": "थौ",
-    "roman": "thau"
+    "roman": "thau",
+    "mahabharata_count": 458
   },
   {
     "id": "tha_aM",
     "consonant_id": "tha",
     "vowel_id": "aM",
     "devanagari": "थं",
-    "roman": "thaṁ"
+    "roman": "thaṁ",
+    "mahabharata_count": 5290
   },
   {
     "id": "tha_aH",
     "consonant_id": "tha",
     "vowel_id": "aH",
     "devanagari": "थः",
-    "roman": "thaḥ"
+    "roman": "thaḥ",
+    "mahabharata_count": 1375
   },
   {
     "id": "da_aa",
     "consonant_id": "da",
     "vowel_id": "aa",
     "devanagari": "दा",
-    "roman": "dā"
+    "roman": "dā",
+    "mahabharata_count": 21781
   },
   {
     "id": "da_i",
     "consonant_id": "da",
     "vowel_id": "i",
     "devanagari": "दि",
-    "roman": "di"
+    "roman": "di",
+    "mahabharata_count": 13934
   },
   {
     "id": "da_ii",
     "consonant_id": "da",
     "vowel_id": "ii",
     "devanagari": "दी",
-    "roman": "dī"
+    "roman": "dī",
+    "mahabharata_count": 4200
   },
   {
     "id": "da_u",
     "consonant_id": "da",
     "vowel_id": "u",
     "devanagari": "दु",
-    "roman": "du"
+    "roman": "du",
+    "mahabharata_count": 11755
   },
   {
     "id": "da_uu",
     "consonant_id": "da",
     "vowel_id": "uu",
     "devanagari": "दू",
-    "roman": "dū"
+    "roman": "dū",
+    "mahabharata_count": 1155
   },
   {
     "id": "da_RRi",
     "consonant_id": "da",
     "vowel_id": "RRi",
     "devanagari": "दृ",
-    "roman": "dṛ"
-  },
-  {
-    "id": "da_RRI",
-    "consonant_id": "da",
-    "vowel_id": "RRI",
-    "devanagari": "दॄ",
-    "roman": "dṝ"
-  },
-  {
-    "id": "da_LLi",
-    "consonant_id": "da",
-    "vowel_id": "LLi",
-    "devanagari": "दॢ",
-    "roman": "dḷ"
+    "roman": "dṛ",
+    "mahabharata_count": 7964
   },
   {
     "id": "da_e",
     "consonant_id": "da",
     "vowel_id": "e",
     "devanagari": "दे",
-    "roman": "de"
+    "roman": "de",
+    "mahabharata_count": 15866
   },
   {
     "id": "da_ai",
     "consonant_id": "da",
     "vowel_id": "ai",
     "devanagari": "दै",
-    "roman": "dai"
+    "roman": "dai",
+    "mahabharata_count": 2050
   },
   {
     "id": "da_o",
     "consonant_id": "da",
     "vowel_id": "o",
     "devanagari": "दो",
-    "roman": "do"
+    "roman": "do",
+    "mahabharata_count": 2270
   },
   {
     "id": "da_au",
     "consonant_id": "da",
     "vowel_id": "au",
     "devanagari": "दौ",
-    "roman": "dau"
+    "roman": "dau",
+    "mahabharata_count": 901
   },
   {
     "id": "da_aM",
     "consonant_id": "da",
     "vowel_id": "aM",
     "devanagari": "दं",
-    "roman": "daṁ"
+    "roman": "daṁ",
+    "mahabharata_count": 4215
   },
   {
     "id": "da_aH",
     "consonant_id": "da",
     "vowel_id": "aH",
     "devanagari": "दः",
-    "roman": "daḥ"
+    "roman": "daḥ",
+    "mahabharata_count": 1309
   },
   {
     "id": "dha_aa",
     "consonant_id": "dha",
     "vowel_id": "aa",
     "devanagari": "धा",
-    "roman": "dhā"
+    "roman": "dhā",
+    "mahabharata_count": 11894
   },
   {
     "id": "dha_i",
     "consonant_id": "dha",
     "vowel_id": "i",
     "devanagari": "धि",
-    "roman": "dhi"
+    "roman": "dhi",
+    "mahabharata_count": 12849
   },
   {
     "id": "dha_ii",
     "consonant_id": "dha",
     "vowel_id": "ii",
     "devanagari": "धी",
-    "roman": "dhī"
+    "roman": "dhī",
+    "mahabharata_count": 2146
   },
   {
     "id": "dha_u",
     "consonant_id": "dha",
     "vowel_id": "u",
     "devanagari": "धु",
-    "roman": "dhu"
+    "roman": "dhu",
+    "mahabharata_count": 2310
   },
   {
     "id": "dha_uu",
     "consonant_id": "dha",
     "vowel_id": "uu",
     "devanagari": "धू",
-    "roman": "dhū"
+    "roman": "dhū",
+    "mahabharata_count": 751
   },
   {
     "id": "dha_RRi",
     "consonant_id": "dha",
     "vowel_id": "RRi",
     "devanagari": "धृ",
-    "roman": "dhṛ"
+    "roman": "dhṛ",
+    "mahabharata_count": 2632
   },
   {
     "id": "dha_RRI",
     "consonant_id": "dha",
     "vowel_id": "RRI",
     "devanagari": "धॄ",
-    "roman": "dhṝ"
-  },
-  {
-    "id": "dha_LLi",
-    "consonant_id": "dha",
-    "vowel_id": "LLi",
-    "devanagari": "धॢ",
-    "roman": "dhḷ"
+    "roman": "dhṝ",
+    "mahabharata_count": 1
   },
   {
     "id": "dha_e",
     "consonant_id": "dha",
     "vowel_id": "e",
     "devanagari": "धे",
-    "roman": "dhe"
+    "roman": "dhe",
+    "mahabharata_count": 3257
   },
   {
     "id": "dha_ai",
     "consonant_id": "dha",
     "vowel_id": "ai",
     "devanagari": "धै",
-    "roman": "dhai"
+    "roman": "dhai",
+    "mahabharata_count": 995
   },
   {
     "id": "dha_o",
     "consonant_id": "dha",
     "vowel_id": "o",
     "devanagari": "धो",
-    "roman": "dho"
+    "roman": "dho",
+    "mahabharata_count": 1831
   },
   {
     "id": "dha_au",
     "consonant_id": "dha",
     "vowel_id": "au",
     "devanagari": "धौ",
-    "roman": "dhau"
+    "roman": "dhau",
+    "mahabharata_count": 617
   },
   {
     "id": "dha_aM",
     "consonant_id": "dha",
     "vowel_id": "aM",
     "devanagari": "धं",
-    "roman": "dhaṁ"
+    "roman": "dhaṁ",
+    "mahabharata_count": 2493
   },
   {
     "id": "dha_aH",
     "consonant_id": "dha",
     "vowel_id": "aH",
     "devanagari": "धः",
-    "roman": "dhaḥ"
+    "roman": "dhaḥ",
+    "mahabharata_count": 1197
   },
   {
     "id": "na_aa",
     "consonant_id": "na",
     "vowel_id": "aa",
     "devanagari": "ना",
-    "roman": "nā"
+    "roman": "nā",
+    "mahabharata_count": 47709
   },
   {
     "id": "na_i",
     "consonant_id": "na",
     "vowel_id": "i",
     "devanagari": "नि",
-    "roman": "ni"
+    "roman": "ni",
+    "mahabharata_count": 37466
   },
   {
     "id": "na_ii",
     "consonant_id": "na",
     "vowel_id": "ii",
     "devanagari": "नी",
-    "roman": "nī"
+    "roman": "nī",
+    "mahabharata_count": 6472
   },
   {
     "id": "na_u",
     "consonant_id": "na",
     "vowel_id": "u",
     "devanagari": "नु",
-    "roman": "nu"
+    "roman": "nu",
+    "mahabharata_count": 12922
   },
   {
     "id": "na_uu",
     "consonant_id": "na",
     "vowel_id": "uu",
     "devanagari": "नू",
-    "roman": "nū"
+    "roman": "nū",
+    "mahabharata_count": 553
   },
   {
     "id": "na_RRi",
     "consonant_id": "na",
     "vowel_id": "RRi",
     "devanagari": "नृ",
-    "roman": "nṛ"
+    "roman": "nṛ",
+    "mahabharata_count": 3971
   },
   {
     "id": "na_RRI",
     "consonant_id": "na",
     "vowel_id": "RRI",
     "devanagari": "नॄ",
-    "roman": "nṝ"
-  },
-  {
-    "id": "na_LLi",
-    "consonant_id": "na",
-    "vowel_id": "LLi",
-    "devanagari": "नॢ",
-    "roman": "nḷ"
+    "roman": "nṝ",
+    "mahabharata_count": 29
   },
   {
     "id": "na_e",
     "consonant_id": "na",
     "vowel_id": "e",
     "devanagari": "ने",
-    "roman": "ne"
+    "roman": "ne",
+    "mahabharata_count": 11018
   },
   {
     "id": "na_ai",
     "consonant_id": "na",
     "vowel_id": "ai",
     "devanagari": "नै",
-    "roman": "nai"
+    "roman": "nai",
+    "mahabharata_count": 3613
   },
   {
     "id": "na_o",
     "consonant_id": "na",
     "vowel_id": "o",
     "devanagari": "नो",
-    "roman": "no"
+    "roman": "no",
+    "mahabharata_count": 7430
   },
   {
     "id": "na_au",
     "consonant_id": "na",
     "vowel_id": "au",
     "devanagari": "नौ",
-    "roman": "nau"
+    "roman": "nau",
+    "mahabharata_count": 1193
   },
   {
     "id": "na_aM",
     "consonant_id": "na",
     "vowel_id": "aM",
     "devanagari": "नं",
-    "roman": "naṁ"
+    "roman": "naṁ",
+    "mahabharata_count": 13018
   },
   {
     "id": "na_aH",
     "consonant_id": "na",
     "vowel_id": "aH",
     "devanagari": "नः",
-    "roman": "naḥ"
+    "roman": "naḥ",
+    "mahabharata_count": 11489
   },
   {
     "id": "pa_aa",
     "consonant_id": "pa",
     "vowel_id": "aa",
     "devanagari": "पा",
-    "roman": "pā"
+    "roman": "pā",
+    "mahabharata_count": 29743
   },
   {
     "id": "pa_i",
     "consonant_id": "pa",
     "vowel_id": "i",
     "devanagari": "पि",
-    "roman": "pi"
+    "roman": "pi",
+    "mahabharata_count": 14878
   },
   {
     "id": "pa_ii",
     "consonant_id": "pa",
     "vowel_id": "ii",
     "devanagari": "पी",
-    "roman": "pī"
+    "roman": "pī",
+    "mahabharata_count": 1481
   },
   {
     "id": "pa_u",
     "consonant_id": "pa",
     "vowel_id": "u",
     "devanagari": "पु",
-    "roman": "pu"
+    "roman": "pu",
+    "mahabharata_count": 22817
   },
   {
     "id": "pa_uu",
     "consonant_id": "pa",
     "vowel_id": "uu",
     "devanagari": "पू",
-    "roman": "pū"
+    "roman": "pū",
+    "mahabharata_count": 5460
   },
   {
     "id": "pa_RRi",
     "consonant_id": "pa",
     "vowel_id": "RRi",
     "devanagari": "पृ",
-    "roman": "pṛ"
-  },
-  {
-    "id": "pa_RRI",
-    "consonant_id": "pa",
-    "vowel_id": "RRI",
-    "devanagari": "पॄ",
-    "roman": "pṝ"
-  },
-  {
-    "id": "pa_LLi",
-    "consonant_id": "pa",
-    "vowel_id": "LLi",
-    "devanagari": "पॢ",
-    "roman": "pḷ"
+    "roman": "pṛ",
+    "mahabharata_count": 4514
   },
   {
     "id": "pa_e",
     "consonant_id": "pa",
     "vowel_id": "e",
     "devanagari": "पे",
-    "roman": "pe"
+    "roman": "pe",
+    "mahabharata_count": 2900
   },
   {
     "id": "pa_ai",
     "consonant_id": "pa",
     "vowel_id": "ai",
     "devanagari": "पै",
-    "roman": "pai"
+    "roman": "pai",
+    "mahabharata_count": 747
   },
   {
     "id": "pa_o",
     "consonant_id": "pa",
     "vowel_id": "o",
     "devanagari": "पो",
-    "roman": "po"
+    "roman": "po",
+    "mahabharata_count": 2188
   },
   {
     "id": "pa_au",
     "consonant_id": "pa",
     "vowel_id": "au",
     "devanagari": "पौ",
-    "roman": "pau"
+    "roman": "pau",
+    "mahabharata_count": 1086
   },
   {
     "id": "pa_aM",
     "consonant_id": "pa",
     "vowel_id": "aM",
     "devanagari": "पं",
-    "roman": "paṁ"
+    "roman": "paṁ",
+    "mahabharata_count": 1724
   },
   {
     "id": "pa_aH",
     "consonant_id": "pa",
     "vowel_id": "aH",
     "devanagari": "पः",
-    "roman": "paḥ"
+    "roman": "paḥ",
+    "mahabharata_count": 1676
   },
   {
     "id": "pha_aa",
     "consonant_id": "pha",
     "vowel_id": "aa",
     "devanagari": "फा",
-    "roman": "phā"
+    "roman": "phā",
+    "mahabharata_count": 185
   },
   {
     "id": "pha_i",
     "consonant_id": "pha",
     "vowel_id": "i",
     "devanagari": "फि",
-    "roman": "phi"
+    "roman": "phi",
+    "mahabharata_count": 9
   },
   {
     "id": "pha_ii",
     "consonant_id": "pha",
     "vowel_id": "ii",
     "devanagari": "फी",
-    "roman": "phī"
+    "roman": "phī",
+    "mahabharata_count": 67
   },
   {
     "id": "pha_u",
     "consonant_id": "pha",
     "vowel_id": "u",
     "devanagari": "फु",
-    "roman": "phu"
+    "roman": "phu",
+    "mahabharata_count": 195
   },
   {
     "id": "pha_uu",
     "consonant_id": "pha",
     "vowel_id": "uu",
     "devanagari": "फू",
-    "roman": "phū"
-  },
-  {
-    "id": "pha_RRi",
-    "consonant_id": "pha",
-    "vowel_id": "RRi",
-    "devanagari": "फृ",
-    "roman": "phṛ"
-  },
-  {
-    "id": "pha_RRI",
-    "consonant_id": "pha",
-    "vowel_id": "RRI",
-    "devanagari": "फॄ",
-    "roman": "phṝ"
-  },
-  {
-    "id": "pha_LLi",
-    "consonant_id": "pha",
-    "vowel_id": "LLi",
-    "devanagari": "फॢ",
-    "roman": "phḷ"
+    "roman": "phū",
+    "mahabharata_count": 26
   },
   {
     "id": "pha_e",
     "consonant_id": "pha",
     "vowel_id": "e",
     "devanagari": "फे",
-    "roman": "phe"
+    "roman": "phe",
+    "mahabharata_count": 76
   },
   {
     "id": "pha_ai",
     "consonant_id": "pha",
     "vowel_id": "ai",
     "devanagari": "फै",
-    "roman": "phai"
+    "roman": "phai",
+    "mahabharata_count": 1
   },
   {
     "id": "pha_o",
     "consonant_id": "pha",
     "vowel_id": "o",
     "devanagari": "फो",
-    "roman": "pho"
-  },
-  {
-    "id": "pha_au",
-    "consonant_id": "pha",
-    "vowel_id": "au",
-    "devanagari": "फौ",
-    "roman": "phau"
+    "roman": "pho",
+    "mahabharata_count": 43
   },
   {
     "id": "pha_aM",
     "consonant_id": "pha",
     "vowel_id": "aM",
     "devanagari": "फं",
-    "roman": "phaṁ"
-  },
-  {
-    "id": "pha_aH",
-    "consonant_id": "pha",
-    "vowel_id": "aH",
-    "devanagari": "फः",
-    "roman": "phaḥ"
+    "roman": "phaṁ",
+    "mahabharata_count": 2
   },
   {
     "id": "ba_aa",
     "consonant_id": "ba",
     "vowel_id": "aa",
     "devanagari": "बा",
-    "roman": "bā"
+    "roman": "bā",
+    "mahabharata_count": 5644
   },
   {
     "id": "ba_i",
     "consonant_id": "ba",
     "vowel_id": "i",
     "devanagari": "बि",
-    "roman": "bi"
+    "roman": "bi",
+    "mahabharata_count": 1157
   },
   {
     "id": "ba_ii",
     "consonant_id": "ba",
     "vowel_id": "ii",
     "devanagari": "बी",
-    "roman": "bī"
+    "roman": "bī",
+    "mahabharata_count": 501
   },
   {
     "id": "ba_u",
     "consonant_id": "ba",
     "vowel_id": "u",
     "devanagari": "बु",
-    "roman": "bu"
+    "roman": "bu",
+    "mahabharata_count": 3724
   },
   {
     "id": "ba_uu",
     "consonant_id": "ba",
     "vowel_id": "uu",
     "devanagari": "बू",
-    "roman": "bū"
+    "roman": "bū",
+    "mahabharata_count": 156
   },
   {
     "id": "ba_RRi",
     "consonant_id": "ba",
     "vowel_id": "RRi",
     "devanagari": "बृ",
-    "roman": "bṛ"
-  },
-  {
-    "id": "ba_RRI",
-    "consonant_id": "ba",
-    "vowel_id": "RRI",
-    "devanagari": "बॄ",
-    "roman": "bṝ"
-  },
-  {
-    "id": "ba_LLi",
-    "consonant_id": "ba",
-    "vowel_id": "LLi",
-    "devanagari": "बॢ",
-    "roman": "bḷ"
+    "roman": "bṛ",
+    "mahabharata_count": 822
   },
   {
     "id": "ba_e",
     "consonant_id": "ba",
     "vowel_id": "e",
     "devanagari": "बे",
-    "roman": "be"
+    "roman": "be",
+    "mahabharata_count": 220
   },
   {
     "id": "ba_ai",
     "consonant_id": "ba",
     "vowel_id": "ai",
     "devanagari": "बै",
-    "roman": "bai"
+    "roman": "bai",
+    "mahabharata_count": 15
   },
   {
     "id": "ba_o",
     "consonant_id": "ba",
     "vowel_id": "o",
     "devanagari": "बो",
-    "roman": "bo"
+    "roman": "bo",
+    "mahabharata_count": 759
   },
   {
     "id": "ba_au",
     "consonant_id": "ba",
     "vowel_id": "au",
     "devanagari": "बौ",
-    "roman": "bau"
+    "roman": "bau",
+    "mahabharata_count": 4
   },
   {
     "id": "ba_aM",
     "consonant_id": "ba",
     "vowel_id": "aM",
     "devanagari": "बं",
-    "roman": "baṁ"
+    "roman": "baṁ",
+    "mahabharata_count": 48
   },
   {
     "id": "ba_aH",
     "consonant_id": "ba",
     "vowel_id": "aH",
     "devanagari": "बः",
-    "roman": "baḥ"
+    "roman": "baḥ",
+    "mahabharata_count": 25
   },
   {
     "id": "bha_aa",
     "consonant_id": "bha",
     "vowel_id": "aa",
     "devanagari": "भा",
-    "roman": "bhā"
+    "roman": "bhā",
+    "mahabharata_count": 13218
   },
   {
     "id": "bha_i",
     "consonant_id": "bha",
     "vowel_id": "i",
     "devanagari": "भि",
-    "roman": "bhi"
+    "roman": "bhi",
+    "mahabharata_count": 15959
   },
   {
     "id": "bha_ii",
     "consonant_id": "bha",
     "vowel_id": "ii",
     "devanagari": "भी",
-    "roman": "bhī"
+    "roman": "bhī",
+    "mahabharata_count": 7453
   },
   {
     "id": "bha_u",
     "consonant_id": "bha",
     "vowel_id": "u",
     "devanagari": "भु",
-    "roman": "bhu"
+    "roman": "bhu",
+    "mahabharata_count": 3942
   },
   {
     "id": "bha_uu",
     "consonant_id": "bha",
     "vowel_id": "uu",
     "devanagari": "भू",
-    "roman": "bhū"
+    "roman": "bhū",
+    "mahabharata_count": 9542
   },
   {
     "id": "bha_RRi",
     "consonant_id": "bha",
     "vowel_id": "RRi",
     "devanagari": "भृ",
-    "roman": "bhṛ"
-  },
-  {
-    "id": "bha_RRI",
-    "consonant_id": "bha",
-    "vowel_id": "RRI",
-    "devanagari": "भॄ",
-    "roman": "bhṝ"
-  },
-  {
-    "id": "bha_LLi",
-    "consonant_id": "bha",
-    "vowel_id": "LLi",
-    "devanagari": "भॢ",
-    "roman": "bhḷ"
+    "roman": "bhṛ",
+    "mahabharata_count": 2582
   },
   {
     "id": "bha_e",
     "consonant_id": "bha",
     "vowel_id": "e",
     "devanagari": "भे",
-    "roman": "bhe"
+    "roman": "bhe",
+    "mahabharata_count": 2077
   },
   {
     "id": "bha_ai",
     "consonant_id": "bha",
     "vowel_id": "ai",
     "devanagari": "भै",
-    "roman": "bhai"
+    "roman": "bhai",
+    "mahabharata_count": 615
   },
   {
     "id": "bha_o",
     "consonant_id": "bha",
     "vowel_id": "o",
     "devanagari": "भो",
-    "roman": "bho"
+    "roman": "bho",
+    "mahabharata_count": 2825
   },
   {
     "id": "bha_au",
     "consonant_id": "bha",
     "vowel_id": "au",
     "devanagari": "भौ",
-    "roman": "bhau"
+    "roman": "bhau",
+    "mahabharata_count": 965
   },
   {
     "id": "bha_aM",
     "consonant_id": "bha",
     "vowel_id": "aM",
     "devanagari": "भं",
-    "roman": "bhaṁ"
+    "roman": "bhaṁ",
+    "mahabharata_count": 670
   },
   {
     "id": "bha_aH",
     "consonant_id": "bha",
     "vowel_id": "aH",
     "devanagari": "भः",
-    "roman": "bhaḥ"
+    "roman": "bhaḥ",
+    "mahabharata_count": 624
   },
   {
     "id": "ma_aa",
     "consonant_id": "ma",
     "vowel_id": "aa",
     "devanagari": "मा",
-    "roman": "mā"
+    "roman": "mā",
+    "mahabharata_count": 59927
   },
   {
     "id": "ma_i",
     "consonant_id": "ma",
     "vowel_id": "i",
     "devanagari": "मि",
-    "roman": "mi"
+    "roman": "mi",
+    "mahabharata_count": 22855
   },
   {
     "id": "ma_ii",
     "consonant_id": "ma",
     "vowel_id": "ii",
     "devanagari": "मी",
-    "roman": "mī"
+    "roman": "mī",
+    "mahabharata_count": 2363
   },
   {
     "id": "ma_u",
     "consonant_id": "ma",
     "vowel_id": "u",
     "devanagari": "मु",
-    "roman": "mu"
+    "roman": "mu",
+    "mahabharata_count": 18917
   },
   {
     "id": "ma_uu",
     "consonant_id": "ma",
     "vowel_id": "uu",
     "devanagari": "मू",
-    "roman": "mū"
+    "roman": "mū",
+    "mahabharata_count": 2733
   },
   {
     "id": "ma_RRi",
     "consonant_id": "ma",
     "vowel_id": "RRi",
     "devanagari": "मृ",
-    "roman": "mṛ"
-  },
-  {
-    "id": "ma_RRI",
-    "consonant_id": "ma",
-    "vowel_id": "RRI",
-    "devanagari": "मॄ",
-    "roman": "mṝ"
-  },
-  {
-    "id": "ma_LLi",
-    "consonant_id": "ma",
-    "vowel_id": "LLi",
-    "devanagari": "मॢ",
-    "roman": "mḷ"
+    "roman": "mṛ",
+    "mahabharata_count": 5614
   },
   {
     "id": "ma_e",
     "consonant_id": "ma",
     "vowel_id": "e",
     "devanagari": "मे",
-    "roman": "me"
+    "roman": "me",
+    "mahabharata_count": 19139
   },
   {
     "id": "ma_ai",
     "consonant_id": "ma",
     "vowel_id": "ai",
     "devanagari": "मै",
-    "roman": "mai"
+    "roman": "mai",
+    "mahabharata_count": 1907
   },
   {
     "id": "ma_o",
     "consonant_id": "ma",
     "vowel_id": "o",
     "devanagari": "मो",
-    "roman": "mo"
+    "roman": "mo",
+    "mahabharata_count": 6267
   },
   {
     "id": "ma_au",
     "consonant_id": "ma",
     "vowel_id": "au",
     "devanagari": "मौ",
-    "roman": "mau"
+    "roman": "mau",
+    "mahabharata_count": 1136
   },
   {
     "id": "ma_aM",
     "consonant_id": "ma",
     "vowel_id": "aM",
     "devanagari": "मं",
-    "roman": "maṁ"
+    "roman": "maṁ",
+    "mahabharata_count": 4902
   },
   {
     "id": "ma_aH",
     "consonant_id": "ma",
     "vowel_id": "aH",
     "devanagari": "मः",
-    "roman": "maḥ"
+    "roman": "maḥ",
+    "mahabharata_count": 4119
   },
   {
     "id": "ya_aa",
     "consonant_id": "ya",
     "vowel_id": "aa",
     "devanagari": "या",
-    "roman": "yā"
+    "roman": "yā",
+    "mahabharata_count": 65779
   },
   {
     "id": "ya_i",
     "consonant_id": "ya",
     "vowel_id": "i",
     "devanagari": "यि",
-    "roman": "yi"
+    "roman": "yi",
+    "mahabharata_count": 3892
   },
   {
     "id": "ya_ii",
     "consonant_id": "ya",
     "vowel_id": "ii",
     "devanagari": "यी",
-    "roman": "yī"
+    "roman": "yī",
+    "mahabharata_count": 364
   },
   {
     "id": "ya_u",
     "consonant_id": "ya",
     "vowel_id": "u",
     "devanagari": "यु",
-    "roman": "yu"
+    "roman": "yu",
+    "mahabharata_count": 22969
   },
   {
     "id": "ya_uu",
     "consonant_id": "ya",
     "vowel_id": "uu",
     "devanagari": "यू",
-    "roman": "yū"
+    "roman": "yū",
+    "mahabharata_count": 1397
   },
   {
     "id": "ya_RRi",
     "consonant_id": "ya",
     "vowel_id": "RRi",
     "devanagari": "यृ",
-    "roman": "yṛ"
-  },
-  {
-    "id": "ya_RRI",
-    "consonant_id": "ya",
-    "vowel_id": "RRI",
-    "devanagari": "यॄ",
-    "roman": "yṝ"
-  },
-  {
-    "id": "ya_LLi",
-    "consonant_id": "ya",
-    "vowel_id": "LLi",
-    "devanagari": "यॢ",
-    "roman": "yḷ"
+    "roman": "yṛ",
+    "mahabharata_count": 59
   },
   {
     "id": "ya_e",
     "consonant_id": "ya",
     "vowel_id": "e",
     "devanagari": "ये",
-    "roman": "ye"
+    "roman": "ye",
+    "mahabharata_count": 21363
   },
   {
     "id": "ya_ai",
     "consonant_id": "ya",
     "vowel_id": "ai",
     "devanagari": "यै",
-    "roman": "yai"
+    "roman": "yai",
+    "mahabharata_count": 3173
   },
   {
     "id": "ya_o",
     "consonant_id": "ya",
     "vowel_id": "o",
     "devanagari": "यो",
-    "roman": "yo"
+    "roman": "yo",
+    "mahabharata_count": 20070
   },
   {
     "id": "ya_au",
     "consonant_id": "ya",
     "vowel_id": "au",
     "devanagari": "यौ",
-    "roman": "yau"
+    "roman": "yau",
+    "mahabharata_count": 1815
   },
   {
     "id": "ya_aM",
     "consonant_id": "ya",
     "vowel_id": "aM",
     "devanagari": "यं",
-    "roman": "yaṁ"
+    "roman": "yaṁ",
+    "mahabharata_count": 19789
   },
   {
     "id": "ya_aH",
     "consonant_id": "ya",
     "vowel_id": "aH",
     "devanagari": "यः",
-    "roman": "yaḥ"
+    "roman": "yaḥ",
+    "mahabharata_count": 8881
   },
   {
     "id": "ra_aa",
     "consonant_id": "ra",
     "vowel_id": "aa",
     "devanagari": "रा",
-    "roman": "rā"
+    "roman": "rā",
+    "mahabharata_count": 75888
   },
   {
     "id": "ra_i",
     "consonant_id": "ra",
     "vowel_id": "i",
     "devanagari": "रि",
-    "roman": "ri"
+    "roman": "ri",
+    "mahabharata_count": 25214
   },
   {
     "id": "ra_ii",
     "consonant_id": "ra",
     "vowel_id": "ii",
     "devanagari": "री",
-    "roman": "rī"
+    "roman": "rī",
+    "mahabharata_count": 9011
   },
   {
     "id": "ra_u",
     "consonant_id": "ra",
     "vowel_id": "u",
     "devanagari": "रु",
-    "roman": "ru"
+    "roman": "ru",
+    "mahabharata_count": 23607
   },
   {
     "id": "ra_uu",
     "consonant_id": "ra",
     "vowel_id": "uu",
     "devanagari": "रू",
-    "roman": "rū"
+    "roman": "rū",
+    "mahabharata_count": 6371
   },
   {
     "id": "ra_RRi",
     "consonant_id": "ra",
     "vowel_id": "RRi",
     "devanagari": "रृ",
-    "roman": "rṛ"
-  },
-  {
-    "id": "ra_RRI",
-    "consonant_id": "ra",
-    "vowel_id": "RRI",
-    "devanagari": "रॄ",
-    "roman": "rṝ"
-  },
-  {
-    "id": "ra_LLi",
-    "consonant_id": "ra",
-    "vowel_id": "LLi",
-    "devanagari": "रॢ",
-    "roman": "rḷ"
+    "roman": "rṛ",
+    "mahabharata_count": 111
   },
   {
     "id": "ra_e",
     "consonant_id": "ra",
     "vowel_id": "e",
     "devanagari": "रे",
-    "roman": "re"
+    "roman": "re",
+    "mahabharata_count": 18873
   },
   {
     "id": "ra_ai",
     "consonant_id": "ra",
     "vowel_id": "ai",
     "devanagari": "रै",
-    "roman": "rai"
+    "roman": "rai",
+    "mahabharata_count": 5540
   },
   {
     "id": "ra_o",
     "consonant_id": "ra",
     "vowel_id": "o",
     "devanagari": "रो",
-    "roman": "ro"
+    "roman": "ro",
+    "mahabharata_count": 16341
   },
   {
     "id": "ra_au",
     "consonant_id": "ra",
     "vowel_id": "au",
     "devanagari": "रौ",
-    "roman": "rau"
+    "roman": "rau",
+    "mahabharata_count": 3032
   },
   {
     "id": "ra_aM",
     "consonant_id": "ra",
     "vowel_id": "aM",
     "devanagari": "रं",
-    "roman": "raṁ"
+    "roman": "raṁ",
+    "mahabharata_count": 13911
   },
   {
     "id": "ra_aH",
     "consonant_id": "ra",
     "vowel_id": "aH",
     "devanagari": "रः",
-    "roman": "raḥ"
+    "roman": "raḥ",
+    "mahabharata_count": 7172
   },
   {
     "id": "la_aa",
     "consonant_id": "la",
     "vowel_id": "aa",
     "devanagari": "ला",
-    "roman": "lā"
+    "roman": "lā",
+    "mahabharata_count": 8237
   },
   {
     "id": "la_i",
     "consonant_id": "la",
     "vowel_id": "i",
     "devanagari": "लि",
-    "roman": "li"
+    "roman": "li",
+    "mahabharata_count": 3787
   },
   {
     "id": "la_ii",
     "consonant_id": "la",
     "vowel_id": "ii",
     "devanagari": "ली",
-    "roman": "lī"
+    "roman": "lī",
+    "mahabharata_count": 1553
   },
   {
     "id": "la_u",
     "consonant_id": "la",
     "vowel_id": "u",
     "devanagari": "लु",
-    "roman": "lu"
+    "roman": "lu",
+    "mahabharata_count": 966
   },
   {
     "id": "la_uu",
     "consonant_id": "la",
     "vowel_id": "uu",
     "devanagari": "लू",
-    "roman": "lū"
+    "roman": "lū",
+    "mahabharata_count": 186
   },
   {
     "id": "la_RRi",
     "consonant_id": "la",
     "vowel_id": "RRi",
     "devanagari": "लृ",
-    "roman": "lṛ"
-  },
-  {
-    "id": "la_RRI",
-    "consonant_id": "la",
-    "vowel_id": "RRI",
-    "devanagari": "लॄ",
-    "roman": "lṝ"
-  },
-  {
-    "id": "la_LLi",
-    "consonant_id": "la",
-    "vowel_id": "LLi",
-    "devanagari": "लॢ",
-    "roman": "lḷ"
+    "roman": "lṛ",
+    "mahabharata_count": 2
   },
   {
     "id": "la_e",
     "consonant_id": "la",
     "vowel_id": "e",
     "devanagari": "ले",
-    "roman": "le"
+    "roman": "le",
+    "mahabharata_count": 4865
   },
   {
     "id": "la_ai",
     "consonant_id": "la",
     "vowel_id": "ai",
     "devanagari": "लै",
-    "roman": "lai"
+    "roman": "lai",
+    "mahabharata_count": 907
   },
   {
     "id": "la_o",
     "consonant_id": "la",
     "vowel_id": "o",
     "devanagari": "लो",
-    "roman": "lo"
+    "roman": "lo",
+    "mahabharata_count": 9536
   },
   {
     "id": "la_au",
     "consonant_id": "la",
     "vowel_id": "au",
     "devanagari": "लौ",
-    "roman": "lau"
+    "roman": "lau",
+    "mahabharata_count": 339
   },
   {
     "id": "la_aM",
     "consonant_id": "la",
     "vowel_id": "aM",
     "devanagari": "लं",
-    "roman": "laṁ"
+    "roman": "laṁ",
+    "mahabharata_count": 4598
   },
   {
     "id": "la_aH",
     "consonant_id": "la",
     "vowel_id": "aH",
     "devanagari": "लः",
-    "roman": "laḥ"
+    "roman": "laḥ",
+    "mahabharata_count": 1820
   },
   {
     "id": "va_aa",
     "consonant_id": "va",
     "vowel_id": "aa",
     "devanagari": "वा",
-    "roman": "vā"
+    "roman": "vā",
+    "mahabharata_count": 74363
   },
   {
     "id": "va_i",
     "consonant_id": "va",
     "vowel_id": "i",
     "devanagari": "वि",
-    "roman": "vi"
+    "roman": "vi",
+    "mahabharata_count": 56882
   },
   {
     "id": "va_ii",
     "consonant_id": "va",
     "vowel_id": "ii",
     "devanagari": "वी",
-    "roman": "vī"
+    "roman": "vī",
+    "mahabharata_count": 11152
   },
   {
     "id": "va_u",
     "consonant_id": "va",
     "vowel_id": "u",
     "devanagari": "वु",
-    "roman": "vu"
+    "roman": "vu",
+    "mahabharata_count": 824
   },
   {
     "id": "va_uu",
     "consonant_id": "va",
     "vowel_id": "uu",
     "devanagari": "वू",
-    "roman": "vū"
+    "roman": "vū",
+    "mahabharata_count": 26
   },
   {
     "id": "va_RRi",
     "consonant_id": "va",
     "vowel_id": "RRi",
     "devanagari": "वृ",
-    "roman": "vṛ"
-  },
-  {
-    "id": "va_RRI",
-    "consonant_id": "va",
-    "vowel_id": "RRI",
-    "devanagari": "वॄ",
-    "roman": "vṝ"
-  },
-  {
-    "id": "va_LLi",
-    "consonant_id": "va",
-    "vowel_id": "LLi",
-    "devanagari": "वॢ",
-    "roman": "vḷ"
+    "roman": "vṛ",
+    "mahabharata_count": 8538
   },
   {
     "id": "va_e",
     "consonant_id": "va",
     "vowel_id": "e",
     "devanagari": "वे",
-    "roman": "ve"
+    "roman": "ve",
+    "mahabharata_count": 19031
   },
   {
     "id": "va_ai",
     "consonant_id": "va",
     "vowel_id": "ai",
     "devanagari": "वै",
-    "roman": "vai"
+    "roman": "vai",
+    "mahabharata_count": 11344
   },
   {
     "id": "va_o",
     "consonant_id": "va",
     "vowel_id": "o",
     "devanagari": "वो",
-    "roman": "vo"
+    "roman": "vo",
+    "mahabharata_count": 4089
   },
   {
     "id": "va_au",
     "consonant_id": "va",
     "vowel_id": "au",
     "devanagari": "वौ",
-    "roman": "vau"
+    "roman": "vau",
+    "mahabharata_count": 594
   },
   {
     "id": "va_aM",
     "consonant_id": "va",
     "vowel_id": "aM",
     "devanagari": "वं",
-    "roman": "vaṁ"
+    "roman": "vaṁ",
+    "mahabharata_count": 13361
   },
   {
     "id": "va_aH",
     "consonant_id": "va",
     "vowel_id": "aH",
     "devanagari": "वः",
-    "roman": "vaḥ"
+    "roman": "vaḥ",
+    "mahabharata_count": 3951
   },
   {
     "id": "sha_aa",
     "consonant_id": "sha",
     "vowel_id": "aa",
     "devanagari": "शा",
-    "roman": "śā"
+    "roman": "śā",
+    "mahabharata_count": 9855
   },
   {
     "id": "sha_i",
     "consonant_id": "sha",
     "vowel_id": "i",
     "devanagari": "शि",
-    "roman": "śi"
+    "roman": "śi",
+    "mahabharata_count": 7212
   },
   {
     "id": "sha_ii",
     "consonant_id": "sha",
     "vowel_id": "ii",
     "devanagari": "शी",
-    "roman": "śī"
+    "roman": "śī",
+    "mahabharata_count": 2449
   },
   {
     "id": "sha_u",
     "consonant_id": "sha",
     "vowel_id": "u",
     "devanagari": "शु",
-    "roman": "śu"
+    "roman": "śu",
+    "mahabharata_count": 6282
   },
   {
     "id": "sha_uu",
     "consonant_id": "sha",
     "vowel_id": "uu",
     "devanagari": "शू",
-    "roman": "śū"
+    "roman": "śū",
+    "mahabharata_count": 2200
   },
   {
     "id": "sha_RRi",
     "consonant_id": "sha",
     "vowel_id": "RRi",
     "devanagari": "शृ",
-    "roman": "śṛ"
-  },
-  {
-    "id": "sha_RRI",
-    "consonant_id": "sha",
-    "vowel_id": "RRI",
-    "devanagari": "शॄ",
-    "roman": "śṝ"
-  },
-  {
-    "id": "sha_LLi",
-    "consonant_id": "sha",
-    "vowel_id": "LLi",
-    "devanagari": "शॢ",
-    "roman": "śḷ"
+    "roman": "śṛ",
+    "mahabharata_count": 1695
   },
   {
     "id": "sha_e",
     "consonant_id": "sha",
     "vowel_id": "e",
     "devanagari": "शे",
-    "roman": "śe"
+    "roman": "śe",
+    "mahabharata_count": 3262
   },
   {
     "id": "sha_ai",
     "consonant_id": "sha",
     "vowel_id": "ai",
     "devanagari": "शै",
-    "roman": "śai"
+    "roman": "śai",
+    "mahabharata_count": 1046
   },
   {
     "id": "sha_o",
     "consonant_id": "sha",
     "vowel_id": "o",
     "devanagari": "शो",
-    "roman": "śo"
+    "roman": "śo",
+    "mahabharata_count": 4154
   },
   {
     "id": "sha_au",
     "consonant_id": "sha",
     "vowel_id": "au",
     "devanagari": "शौ",
-    "roman": "śau"
+    "roman": "śau",
+    "mahabharata_count": 583
   },
   {
     "id": "sha_aM",
     "consonant_id": "sha",
     "vowel_id": "aM",
     "devanagari": "शं",
-    "roman": "śaṁ"
+    "roman": "śaṁ",
+    "mahabharata_count": 4966
   },
   {
     "id": "sha_aH",
     "consonant_id": "sha",
     "vowel_id": "aH",
     "devanagari": "शः",
-    "roman": "śaḥ"
+    "roman": "śaḥ",
+    "mahabharata_count": 2623
   },
   {
     "id": "Sha_aa",
     "consonant_id": "Sha",
     "vowel_id": "aa",
     "devanagari": "षा",
-    "roman": "ṣā"
+    "roman": "ṣā",
+    "mahabharata_count": 7766
   },
   {
     "id": "Sha_i",
     "consonant_id": "Sha",
     "vowel_id": "i",
     "devanagari": "षि",
-    "roman": "ṣi"
+    "roman": "ṣi",
+    "mahabharata_count": 4729
   },
   {
     "id": "Sha_ii",
     "consonant_id": "Sha",
     "vowel_id": "ii",
     "devanagari": "षी",
-    "roman": "ṣī"
+    "roman": "ṣī",
+    "mahabharata_count": 1214
   },
   {
     "id": "Sha_u",
     "consonant_id": "Sha",
     "vowel_id": "u",
     "devanagari": "षु",
-    "roman": "ṣu"
+    "roman": "ṣu",
+    "mahabharata_count": 7314
   },
   {
     "id": "Sha_uu",
     "consonant_id": "Sha",
     "vowel_id": "uu",
     "devanagari": "षू",
-    "roman": "ṣū"
-  },
-  {
-    "id": "Sha_RRi",
-    "consonant_id": "Sha",
-    "vowel_id": "RRi",
-    "devanagari": "षृ",
-    "roman": "ṣṛ"
-  },
-  {
-    "id": "Sha_RRI",
-    "consonant_id": "Sha",
-    "vowel_id": "RRI",
-    "devanagari": "षॄ",
-    "roman": "ṣṝ"
-  },
-  {
-    "id": "Sha_LLi",
-    "consonant_id": "Sha",
-    "vowel_id": "LLi",
-    "devanagari": "षॢ",
-    "roman": "ṣḷ"
+    "roman": "ṣū",
+    "mahabharata_count": 178
   },
   {
     "id": "Sha_e",
     "consonant_id": "Sha",
     "vowel_id": "e",
     "devanagari": "षे",
-    "roman": "ṣe"
+    "roman": "ṣe",
+    "mahabharata_count": 2543
   },
   {
     "id": "Sha_ai",
     "consonant_id": "Sha",
     "vowel_id": "ai",
     "devanagari": "षै",
-    "roman": "ṣai"
+    "roman": "ṣai",
+    "mahabharata_count": 429
   },
   {
     "id": "Sha_o",
     "consonant_id": "Sha",
     "vowel_id": "o",
     "devanagari": "षो",
-    "roman": "ṣo"
+    "roman": "ṣo",
+    "mahabharata_count": 1359
   },
   {
     "id": "Sha_au",
     "consonant_id": "Sha",
     "vowel_id": "au",
     "devanagari": "षौ",
-    "roman": "ṣau"
+    "roman": "ṣau",
+    "mahabharata_count": 80
   },
   {
     "id": "Sha_aM",
     "consonant_id": "Sha",
     "vowel_id": "aM",
     "devanagari": "षं",
-    "roman": "ṣaṁ"
+    "roman": "ṣaṁ",
+    "mahabharata_count": 1447
   },
   {
     "id": "Sha_aH",
     "consonant_id": "Sha",
     "vowel_id": "aH",
     "devanagari": "षः",
-    "roman": "ṣaḥ"
+    "roman": "ṣaḥ",
+    "mahabharata_count": 924
   },
   {
     "id": "sa_aa",
     "consonant_id": "sa",
     "vowel_id": "aa",
     "devanagari": "सा",
-    "roman": "sā"
+    "roman": "sā",
+    "mahabharata_count": 19329
   },
   {
     "id": "sa_i",
     "consonant_id": "sa",
     "vowel_id": "i",
     "devanagari": "सि",
-    "roman": "si"
+    "roman": "si",
+    "mahabharata_count": 9465
   },
   {
     "id": "sa_ii",
     "consonant_id": "sa",
     "vowel_id": "ii",
     "devanagari": "सी",
-    "roman": "sī"
+    "roman": "sī",
+    "mahabharata_count": 2644
   },
   {
     "id": "sa_u",
     "consonant_id": "sa",
     "vowel_id": "u",
     "devanagari": "सु",
-    "roman": "su"
+    "roman": "su",
+    "mahabharata_count": 18476
   },
   {
     "id": "sa_uu",
     "consonant_id": "sa",
     "vowel_id": "uu",
     "devanagari": "सू",
-    "roman": "sū"
+    "roman": "sū",
+    "mahabharata_count": 3955
   },
   {
     "id": "sa_RRi",
     "consonant_id": "sa",
     "vowel_id": "RRi",
     "devanagari": "सृ",
-    "roman": "sṛ"
+    "roman": "sṛ",
+    "mahabharata_count": 2479
   },
   {
     "id": "sa_RRI",
     "consonant_id": "sa",
     "vowel_id": "RRI",
     "devanagari": "सॄ",
-    "roman": "sṝ"
-  },
-  {
-    "id": "sa_LLi",
-    "consonant_id": "sa",
-    "vowel_id": "LLi",
-    "devanagari": "सॢ",
-    "roman": "sḷ"
+    "roman": "sṝ",
+    "mahabharata_count": 2
   },
   {
     "id": "sa_e",
     "consonant_id": "sa",
     "vowel_id": "e",
     "devanagari": "से",
-    "roman": "se"
+    "roman": "se",
+    "mahabharata_count": 6767
   },
   {
     "id": "sa_ai",
     "consonant_id": "sa",
     "vowel_id": "ai",
     "devanagari": "सै",
-    "roman": "sai"
+    "roman": "sai",
+    "mahabharata_count": 2315
   },
   {
     "id": "sa_o",
     "consonant_id": "sa",
     "vowel_id": "o",
     "devanagari": "सो",
-    "roman": "so"
+    "roman": "so",
+    "mahabharata_count": 3977
   },
   {
     "id": "sa_au",
     "consonant_id": "sa",
     "vowel_id": "au",
     "devanagari": "सौ",
-    "roman": "sau"
+    "roman": "sau",
+    "mahabharata_count": 2122
   },
   {
     "id": "sa_aM",
     "consonant_id": "sa",
     "vowel_id": "aM",
     "devanagari": "सं",
-    "roman": "saṁ"
+    "roman": "saṁ",
+    "mahabharata_count": 24111
   },
   {
     "id": "sa_aH",
     "consonant_id": "sa",
     "vowel_id": "aH",
     "devanagari": "सः",
-    "roman": "saḥ"
+    "roman": "saḥ",
+    "mahabharata_count": 2216
   },
   {
     "id": "ha_aa",
     "consonant_id": "ha",
     "vowel_id": "aa",
     "devanagari": "हा",
-    "roman": "hā"
+    "roman": "hā",
+    "mahabharata_count": 23565
   },
   {
     "id": "ha_i",
     "consonant_id": "ha",
     "vowel_id": "i",
     "devanagari": "हि",
-    "roman": "hi"
+    "roman": "hi",
+    "mahabharata_count": 14024
   },
   {
     "id": "ha_ii",
     "consonant_id": "ha",
     "vowel_id": "ii",
     "devanagari": "ही",
-    "roman": "hī"
+    "roman": "hī",
+    "mahabharata_count": 3042
   },
   {
     "id": "ha_u",
     "consonant_id": "ha",
     "vowel_id": "u",
     "devanagari": "हु",
-    "roman": "hu"
+    "roman": "hu",
+    "mahabharata_count": 5619
   },
   {
     "id": "ha_uu",
     "consonant_id": "ha",
     "vowel_id": "uu",
     "devanagari": "हू",
-    "roman": "hū"
+    "roman": "hū",
+    "mahabharata_count": 1351
   },
   {
     "id": "ha_RRi",
     "consonant_id": "ha",
     "vowel_id": "RRi",
     "devanagari": "हृ",
-    "roman": "hṛ"
-  },
-  {
-    "id": "ha_RRI",
-    "consonant_id": "ha",
-    "vowel_id": "RRI",
-    "devanagari": "हॄ",
-    "roman": "hṝ"
-  },
-  {
-    "id": "ha_LLi",
-    "consonant_id": "ha",
-    "vowel_id": "LLi",
-    "devanagari": "हॢ",
-    "roman": "hḷ"
+    "roman": "hṛ",
+    "mahabharata_count": 3379
   },
   {
     "id": "ha_e",
     "consonant_id": "ha",
     "vowel_id": "e",
     "devanagari": "हे",
-    "roman": "he"
+    "roman": "he",
+    "mahabharata_count": 4208
   },
   {
     "id": "ha_ai",
     "consonant_id": "ha",
     "vowel_id": "ai",
     "devanagari": "है",
-    "roman": "hai"
+    "roman": "hai",
+    "mahabharata_count": 554
   },
   {
     "id": "ha_o",
     "consonant_id": "ha",
     "vowel_id": "o",
     "devanagari": "हो",
-    "roman": "ho"
+    "roman": "ho",
+    "mahabharata_count": 2359
   },
   {
     "id": "ha_au",
     "consonant_id": "ha",
     "vowel_id": "au",
     "devanagari": "हौ",
-    "roman": "hau"
+    "roman": "hau",
+    "mahabharata_count": 211
   },
   {
     "id": "ha_aM",
     "consonant_id": "ha",
     "vowel_id": "aM",
     "devanagari": "हं",
-    "roman": "haṁ"
+    "roman": "haṁ",
+    "mahabharata_count": 5086
   },
   {
     "id": "ha_aH",
     "consonant_id": "ha",
     "vowel_id": "aH",
     "devanagari": "हः",
-    "roman": "haḥ"
+    "roman": "haḥ",
+    "mahabharata_count": 973
   },
   {
     "id": "kSha_aa",
     "consonant_id": "kSha",
     "vowel_id": "aa",
     "devanagari": "क्षा",
-    "roman": "kṣā"
+    "roman": "kṣā",
+    "mahabharata_count": 1809
   },
   {
     "id": "kSha_i",
     "consonant_id": "kSha",
     "vowel_id": "i",
     "devanagari": "क्षि",
-    "roman": "kṣi"
+    "roman": "kṣi",
+    "mahabharata_count": 4375
   },
   {
     "id": "kSha_ii",
     "consonant_id": "kSha",
     "vowel_id": "ii",
     "devanagari": "क्षी",
-    "roman": "kṣī"
+    "roman": "kṣī",
+    "mahabharata_count": 696
   },
   {
     "id": "kSha_u",
     "consonant_id": "kSha",
     "vowel_id": "u",
     "devanagari": "क्षु",
-    "roman": "kṣu"
+    "roman": "kṣu",
+    "mahabharata_count": 1519
   },
   {
     "id": "kSha_uu",
     "consonant_id": "kSha",
     "vowel_id": "uu",
     "devanagari": "क्षू",
-    "roman": "kṣū"
-  },
-  {
-    "id": "kSha_RRi",
-    "consonant_id": "kSha",
-    "vowel_id": "RRi",
-    "devanagari": "क्षृ",
-    "roman": "kṣṛ"
-  },
-  {
-    "id": "kSha_RRI",
-    "consonant_id": "kSha",
-    "vowel_id": "RRI",
-    "devanagari": "क्षॄ",
-    "roman": "kṣṝ"
-  },
-  {
-    "id": "kSha_LLi",
-    "consonant_id": "kSha",
-    "vowel_id": "LLi",
-    "devanagari": "क्षॢ",
-    "roman": "kṣḷ"
+    "roman": "kṣū",
+    "mahabharata_count": 43
   },
   {
     "id": "kSha_e",
     "consonant_id": "kSha",
     "vowel_id": "e",
     "devanagari": "क्षे",
-    "roman": "kṣe"
+    "roman": "kṣe",
+    "mahabharata_count": 1707
   },
   {
     "id": "kSha_ai",
     "consonant_id": "kSha",
     "vowel_id": "ai",
     "devanagari": "क्षै",
-    "roman": "kṣai"
+    "roman": "kṣai",
+    "mahabharata_count": 133
   },
   {
     "id": "kSha_o",
     "consonant_id": "kSha",
     "vowel_id": "o",
     "devanagari": "क्षो",
-    "roman": "kṣo"
+    "roman": "kṣo",
+    "mahabharata_count": 623
   },
   {
     "id": "kSha_au",
     "consonant_id": "kSha",
     "vowel_id": "au",
     "devanagari": "क्षौ",
-    "roman": "kṣau"
+    "roman": "kṣau",
+    "mahabharata_count": 227
   },
   {
     "id": "kSha_aM",
     "consonant_id": "kSha",
     "vowel_id": "aM",
     "devanagari": "क्षं",
-    "roman": "kṣaṁ"
+    "roman": "kṣaṁ",
+    "mahabharata_count": 625
   },
   {
     "id": "kSha_aH",
     "consonant_id": "kSha",
     "vowel_id": "aH",
     "devanagari": "क्षः",
-    "roman": "kṣaḥ"
+    "roman": "kṣaḥ",
+    "mahabharata_count": 299
   },
   {
     "id": "jJNa_aa",
     "consonant_id": "jJNa",
     "vowel_id": "aa",
     "devanagari": "ज्ञा",
-    "roman": "jñā"
+    "roman": "jñā",
+    "mahabharata_count": 5500
   },
   {
     "id": "jJNa_i",
     "consonant_id": "jJNa",
     "vowel_id": "i",
     "devanagari": "ज्ञि",
-    "roman": "jñi"
+    "roman": "jñi",
+    "mahabharata_count": 231
   },
   {
     "id": "jJNa_ii",
     "consonant_id": "jJNa",
     "vowel_id": "ii",
     "devanagari": "ज्ञी",
-    "roman": "jñī"
+    "roman": "jñī",
+    "mahabharata_count": 14
   },
   {
     "id": "jJNa_u",
     "consonant_id": "jJNa",
     "vowel_id": "u",
     "devanagari": "ज्ञु",
-    "roman": "jñu"
-  },
-  {
-    "id": "jJNa_uu",
-    "consonant_id": "jJNa",
-    "vowel_id": "uu",
-    "devanagari": "ज्ञू",
-    "roman": "jñū"
-  },
-  {
-    "id": "jJNa_RRi",
-    "consonant_id": "jJNa",
-    "vowel_id": "RRi",
-    "devanagari": "ज्ञृ",
-    "roman": "jñṛ"
-  },
-  {
-    "id": "jJNa_RRI",
-    "consonant_id": "jJNa",
-    "vowel_id": "RRI",
-    "devanagari": "ज्ञॄ",
-    "roman": "jñṝ"
-  },
-  {
-    "id": "jJNa_LLi",
-    "consonant_id": "jJNa",
-    "vowel_id": "LLi",
-    "devanagari": "ज्ञॢ",
-    "roman": "jñḷ"
+    "roman": "jñu",
+    "mahabharata_count": 18
   },
   {
     "id": "jJNa_e",
     "consonant_id": "jJNa",
     "vowel_id": "e",
     "devanagari": "ज्ञे",
-    "roman": "jñe"
+    "roman": "jñe",
+    "mahabharata_count": 1013
   },
   {
     "id": "jJNa_ai",
     "consonant_id": "jJNa",
     "vowel_id": "ai",
     "devanagari": "ज्ञै",
-    "roman": "jñai"
+    "roman": "jñai",
+    "mahabharata_count": 239
   },
   {
     "id": "jJNa_o",
     "consonant_id": "jJNa",
     "vowel_id": "o",
     "devanagari": "ज्ञो",
-    "roman": "jño"
+    "roman": "jño",
+    "mahabharata_count": 785
   },
   {
     "id": "jJNa_au",
     "consonant_id": "jJNa",
     "vowel_id": "au",
     "devanagari": "ज्ञौ",
-    "roman": "jñau"
+    "roman": "jñau",
+    "mahabharata_count": 22
   },
   {
     "id": "jJNa_aM",
     "consonant_id": "jJNa",
     "vowel_id": "aM",
     "devanagari": "ज्ञं",
-    "roman": "jñaṁ"
+    "roman": "jñaṁ",
+    "mahabharata_count": 306
   },
   {
     "id": "jJNa_aH",
     "consonant_id": "jJNa",
     "vowel_id": "aH",
     "devanagari": "ज्ञः",
-    "roman": "jñaḥ"
+    "roman": "jñaḥ",
+    "mahabharata_count": 721
   }
 ]
