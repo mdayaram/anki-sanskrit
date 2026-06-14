@@ -20,7 +20,6 @@ DATA_DIR       = File.join(__dir__, "data")
 AUDIO_DIR      = File.join(DATA_DIR, "audio")
 LETTERS_JSON   = File.join(DATA_DIR, "letters.json")
 OUTPUT_FILE    = File.join(__dir__, "sanskrit_anki.txt")
-ANKI_MEDIA_DIR = "/Users/noj/Library/Application Support/Anki2/User 1/collection.media"
 
 def clean_tips_html(html)
   return "" if html.nil? || html.strip.empty?
@@ -89,37 +88,69 @@ def generate_cards(letters)
   puts "  Created #{count} cards in #{OUTPUT_FILE}"
 end
 
+# Anki keeps media at <base>/<profile>/collection.media. The base differs by
+# platform (see https://docs.ankiweb.net/files.html); the default profile is
+# "User 1". Return every collection.media folder found across the standard
+# locations. Set ANKI_MEDIA_DIR to a full collection.media path to override.
+def find_media_dirs
+  return [ENV["ANKI_MEDIA_DIR"]] if ENV["ANKI_MEDIA_DIR"]
+
+  home = Dir.home
+  bases = [
+    File.join(home, "Library", "Application Support", "Anki2"),       # macOS
+    (ENV["APPDATA"] && File.join(ENV["APPDATA"], "Anki2")),           # Windows
+    (ENV["XDG_DATA_HOME"] && File.join(ENV["XDG_DATA_HOME"], "Anki2")), # Linux (custom)
+    File.join(home, ".local", "share", "Anki2"),                      # Linux
+    File.join(home, ".var", "app", "net.ankiweb.Anki", "data", "Anki2") # Linux (Flatpak)
+  ].compact
+
+  bases.flat_map { |base| Dir.glob(File.join(base, "*", "collection.media")) }
+       .select { |dir| File.directory?(dir) }
+end
+
+# Prefer Anki's default "User 1" profile when several profiles exist.
+def choose_media_dir(dirs)
+  dirs.find { |d| File.basename(File.dirname(d)) == "User 1" } || dirs.first
+end
+
 def copy_audio
+  media_dirs = find_media_dirs
+
+  if media_dirs.empty?
+    puts ""
+    puts "Could not find an Anki media folder in the standard locations."
+    puts "Copy #{AUDIO_DIR}/*.mp3 into your profile's collection.media folder yourself,"
+    puts "or set ANKI_MEDIA_DIR to its full path and re-run."
+    return false
+  end
+
+  target = choose_media_dir(media_dirs)
   puts ""
-  puts "Audio files need to be in your Anki media folder:"
-  puts "  #{ANKI_MEDIA_DIR}"
+  if media_dirs.size > 1
+    puts "Found multiple Anki media folders:"
+    media_dirs.each { |d| puts "  #{d}#{d == target ? "   <- will use" : ""}" }
+    puts "(set ANKI_MEDIA_DIR to pick a different one)"
+  else
+    puts "Found Anki media folder:"
+    puts "  #{target}"
+  end
   puts ""
   print "Copy audio files there now? [Y/n] "
-  answer = $stdin.gets.strip
+  answer = $stdin.gets.to_s.strip
 
-  if answer.empty? || answer.downcase.start_with?("y")
-    unless Dir.exist?(ANKI_MEDIA_DIR)
-      puts "  ERROR: Anki media directory not found at:"
-      puts "    #{ANKI_MEDIA_DIR}"
-      puts "  Make sure Anki is installed and the profile exists."
-      return false
-    end
-
-    copied = 0
-    Dir.glob(File.join(AUDIO_DIR, "*.mp3")).each do |src|
-      dest = File.join(ANKI_MEDIA_DIR, File.basename(src))
-      FileUtils.cp(src, dest)
-      copied += 1
-    end
-    puts "  Copied #{copied} audio files."
-    true
-  else
-    puts "  Skipped. Before importing, manually copy files from:"
-    puts "    #{AUDIO_DIR}/"
-    puts "  to:"
-    puts "    #{ANKI_MEDIA_DIR}/"
-    false
+  unless answer.empty? || answer.downcase.start_with?("y")
+    puts "  Skipped. Before importing, copy #{AUDIO_DIR}/*.mp3 to:"
+    puts "    #{target}/"
+    return false
   end
+
+  copied = 0
+  Dir.glob(File.join(AUDIO_DIR, "*.mp3")).each do |src|
+    FileUtils.cp(src, File.join(target, File.basename(src)))
+    copied += 1
+  end
+  puts "  Copied #{copied} audio files to #{target}"
+  true
 end
 
 # --- Main ---

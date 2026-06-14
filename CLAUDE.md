@@ -55,6 +55,6 @@ Local audio filenames mirror the **server's** filenames, not the internal IDs (e
 
 `generate_anki.rb` builds card HTML without inline `style="..."` attributes — semicolons inside styles collide with parsers reading the TSV as semicolon-separated. Use `<big>`, `<center>`, `<b>`, `<ul>` instead. `clean_tips_html` rewrites the source page's `coloredletter1`/`coloredletter2`/`tipsmallfont` spans to `<b>`/`<i>`/`<small>` and strips remaining spans.
 
-### Hardcoded paths
+### Anki media folder discovery
 
-`ANKI_MEDIA_DIR` in `generate_anki.rb:23` is hardcoded to `/Users/noj/Library/Application Support/Anki2/User 1/collection.media`. Change it if running on a different machine or Anki profile.
+`generate_anki.rb`'s `find_media_dirs` probes the standard Anki base folders per platform — macOS `~/Library/Application Support/Anki2`, Windows `%APPDATA%\Anki2`, Linux `$XDG_DATA_HOME`/`~/.local/share/Anki2`, and Flatpak `~/.var/app/net.ankiweb.Anki/data/Anki2` — and globs each for `*/collection.media`, so any profile is found. `choose_media_dir` prefers Anki's default `User 1` profile when several exist. The `ANKI_MEDIA_DIR` env var overrides everything with an explicit `collection.media` path. Locations are per the [Anki manual](https://docs.ankiweb.net/files.html); update `find_media_dirs` if Anki changes them.
