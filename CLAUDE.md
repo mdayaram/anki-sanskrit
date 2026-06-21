@@ -7,13 +7,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 bundle install                        # install nokogiri (only needed for the scrape step)
 bundle exec ruby scrape_sanskrit.rb   # step 1: fetch site + download mp3s -> data/
+ruby fetch_gita.rb                    # step 1b: fetch Bhagavad Gita verses + recitation mp3s -> data/
 ./main.rb --all                       # step 2: generate every category's import file
 ./main.rb --basic --combinations      # generate a subset (flags combine)
 ./main.rb --list                      # list categories
 ./main.rb --help
 ```
 
-There are no tests, linter, or build step. `main.rb` uses only the Ruby standard library; only `scrape_sanskrit.rb` needs `nokogiri`. Categories that emit `[sound:...]` tags (today only `--basic`) prompt interactively before copying audio. Every category depends on `data/letters.json` existing first, so `scrape_sanskrit.rb` must run before `main.rb`.
+Unit tests for the pure transforms and shared primitives live in `test/` (minitest, a Ruby default gem); run a file with `ruby test/<name>_test.rb`. There is no linter or build step. `main.rb` uses only the Ruby standard library; only `scrape_sanskrit.rb` needs `nokogiri` (`fetch_gita.rb` uses `open-uri`, also stdlib). Categories that emit `[sound:...]` tags (`--basic` and `--gita-verses`) prompt interactively before copying audio. The alphabet categories depend on `data/letters.json` (from `scrape_sanskrit.rb`); `--gita-verses` depends instead on `data/gita.json` (from `fetch_gita.rb`) and declares `requires_letters? == false`, so a Gita-only run needs no alphabet scrape.
 
 ## Architecture
 
@@ -58,6 +59,12 @@ Anusvāra (ं) is realised as the nasal homorganic with the **following** sound
 Watch the back-of-card breakdown logic in `components_devanagari`: the `aM`/`aH` marks are rendered on the dotted circle U+25CC (`◌ं`, `◌ः`) because the `letters.json` forms (अं/अः) carry a spurious leading `a` that would mislead.
 
 Consonant×vowel combinations are pruned by corpus frequency: `COMBINATION_FREQUENCY` holds the Mahābhārata count of every consonant→vowel akṣara (same corpus/method as the conjuncts), and `build_combinations` drops any syllable below `MIN_FREQUENCY` (default 1, i.e. never attested). This cuts 112 of the 490 grid cells — almost entirely the vocalic vowels ḷ (`LLi`) and ṝ (`RRI`) and the nasals ṅ (`GNa`)/ñ (`JNa`), which never independently carry a vowel — leaving 378. Each surviving combo records its `mahabharata_count` in `combinations.json`. Raise `MIN_FREQUENCY` to prune rare syllables too. The vowel×{anusvara,visarga} set is **not** frequency-filtered.
+
+### The Bhagavad Gita verse deck
+
+A second deck (`🕉️ Bhagavad Gita`, the constant `Anki::GITA_DECK`) separate from the alphabet. `fetch_gita.rb` is a standalone networked script (sibling of `scrape_sanskrit.rb`) that downloads the [`gita/gita`](https://github.com/gita/gita) open dataset — `verse.json` (Devanagari `text`, IAST `transliteration`, word-by-word `word_meanings`), `translation.json` (multi-author English/Hindi), `chapters.json` — plus the per-verse recitation MP3s at `verse_recitation/<ch>/<v>.mp3`. It writes one slim record per verse to `data/gita.json` and the audio to `data/gita_audio/gita_<ch>_<v>.mp3` (skipping files already present; `data/gita_audio/` is gitignored, `data/gita.json` is committed like the other `data/*.json`). `GitaDataset.build` (`lib/gita_dataset.rb`) is the pure join/filter that selects the two configured English translations (literal = Swami Gambirananda, devotional = Swami Sivananda — change the constants at the top of `fetch_gita.rb` to swap; the script aborts if a chosen author is missing for any verse). `word_meanings` is kept in `data/gita.json` though the verse deck doesn't use it, so a future word deck needs no re-fetch. The dataset has 701 verses (one more than the canonical 700 — an edition artifact).
+
+`lib/generators/gita_verses.rb` (`--gita-verses`) is a pure transform over `data/gita.json` (read via `Gita.load`, `lib/gita.rb`): front is the Devanagari shloka, back is IAST + literal + devotional + `[sound:...]`. It overrides `deck`, `audio_dir` (→ `data/gita_audio`), and `requires_letters?` (→ false). It writes no JSON intermediate — `data/gita.json` already is one. Multi-deck/multi-audio-folder support that this added to shared code: `Anki.write_deck` takes a `deck:` kwarg, `Generators::Base` exposes `deck`/`audio_dir`/`self.requires_letters?`, `Media.copy_audio` takes a `source_dir:` kwarg, and `main.rb` loads `letters.json` only when a selected generator needs it and copies audio grouped by each generator's `audio_dir`. The generator builds card HTML by converting source newlines to `<br>` (multi-line verses/prose) — `write_deck` also flattens stray tabs/newlines defensively.
 
 ### Audio filename quirk
 

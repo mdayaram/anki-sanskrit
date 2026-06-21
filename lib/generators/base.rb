@@ -17,6 +17,10 @@ module Generators
     # Subclasses with a JSON intermediate override this with a filename.
     OUTPUT_JSON = nil
 
+    # Whether main.rb must load data/letters.json before this generator runs.
+    # Generators that read a different data source override this with false.
+    def self.requires_letters? = true
+
     def initialize(letters, letters_by_id)
       @letters = letters
       @letters_by_id = letters_by_id
@@ -24,6 +28,12 @@ module Generators
 
     def key = self.class::KEY
     def description = self.class::DESCRIPTION
+
+    # The Anki deck these cards belong to. Override for a different deck.
+    def deck = Anki::DECK
+
+    # Directory holding this generator's audio sources. Override for a different folder.
+    def audio_dir = Paths::AUDIO_DIR
 
     def run
       data = build
@@ -36,14 +46,16 @@ module Generators
 
       rows = data.map { |entry| card(entry) }
       txt_path = Paths.output(self.class::OUTPUT_TXT)
-      Anki.write_deck(txt_path, rows)
+      Anki.write_deck(txt_path, rows, deck: deck)
 
       {
         key: key,
         cards: rows.size,
         txt: txt_path,
         json: json_path,
-        audio_files: audio_files(data)
+        deck: deck,
+        audio_files: audio_files(data),
+        audio_dir: audio_dir
       }
     end
 
