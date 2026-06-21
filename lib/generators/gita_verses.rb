@@ -25,8 +25,8 @@ module Generators
 
     def card(entry)
       chapter = entry["chapter"]
-      verse   = entry["verse"]
-      key     = "gita_verse:#{chapter}.#{verse}"
+      label   = entry["verse_label"]
+      key     = "gita_verse:#{chapter}.#{label}"
 
       front = "<center><big>#{br(entry['devanagari'])}</big></center>"
 
