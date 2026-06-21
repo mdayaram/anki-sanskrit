@@ -23,13 +23,15 @@ require_relative "lib/generators/basic"
 require_relative "lib/generators/combinations"
 require_relative "lib/generators/conjuncts"
 require_relative "lib/generators/anusvara"
+require_relative "lib/generators/gita_verses"
 
 # Registry of every category, in run order. Each maps to a --<key> flag.
 GENERATORS = [
   Generators::Basic,
   Generators::Combinations,
   Generators::Conjuncts,
-  Generators::Anusvara
+  Generators::Anusvara,
+  Generators::GitaVerses
 ].freeze
 
 selected = []
@@ -68,10 +70,13 @@ selected = selected.uniq
 puts "=== Sanskrit Anki Generator ==="
 puts
 
-letters = Letters.load
-letters_by_id = Letters.by_id(letters)
-puts "Loaded #{letters.size} letters from #{Paths::LETTERS_JSON}"
-puts
+needs_letters = selected.any?(&:requires_letters?)
+letters = needs_letters ? Letters.load : []
+letters_by_id = needs_letters ? Letters.by_id(letters) : {}
+if needs_letters
+  puts "Loaded #{letters.size} letters from #{Paths::LETTERS_JSON}"
+  puts
+end
 
 results = selected.map do |gen|
   generator = gen.new(letters, letters_by_id)
@@ -84,10 +89,13 @@ end
 
 puts
 
-# Any category that emitted [sound:...] tags contributes audio to copy. Today
-# only the basic alphabet does, but this stays data-driven for future categories.
-audio_files = results.flat_map { |r| r[:audio_files] }
-Media.copy_audio(audio_files) # dedups and skips when empty
+# Categories that emitted [sound:...] tags contribute audio to copy, grouped by
+# the source folder they live in (alphabet vs. Gita), so each is copied from the
+# right directory. Stays data-driven — no category is hardcoded here.
+results.group_by { |r| r[:audio_dir] }.each do |source_dir, group|
+  files = group.flat_map { |r| r[:audio_files] }
+  Media.copy_audio(files, source_dir: source_dir) # dedups and skips when empty
+end
 
 puts
 puts "=== Done! ==="
@@ -99,4 +107,4 @@ puts "To import into Anki:"
 puts "  1. Open Anki"
 puts "  2. File > Import"
 puts "  3. Select each file above"
-puts "  4. Cards land in deck: #{Anki::DECK}"
+puts "  4. Cards land in deck(s): #{results.map { |r| r[:deck] }.uniq.join(', ')}"
