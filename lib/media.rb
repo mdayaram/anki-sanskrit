@@ -35,7 +35,7 @@ module Media
 
   # Prompt to copy the given audio filenames (relative names under data/audio)
   # into the discovered Anki media folder. No-op when nothing references audio.
-  def self.copy_audio(filenames)
+  def self.copy_audio(filenames, source_dir: Paths::AUDIO_DIR)
     filenames = filenames.compact.uniq
     return false if filenames.empty?
 
@@ -44,7 +44,7 @@ module Media
     if media_dirs.empty?
       puts ""
       puts "Could not find an Anki media folder in the standard locations."
-      puts "Copy #{Paths::AUDIO_DIR}/*.mp3 into your profile's collection.media folder yourself,"
+      puts "Copy #{source_dir}/*.mp3 into your profile's collection.media folder yourself,"
       puts "or set ANKI_MEDIA_DIR to its full path and re-run."
       return false
     end
@@ -64,7 +64,7 @@ module Media
     answer = $stdin.gets.to_s.strip
 
     unless answer.empty? || answer.downcase.start_with?("y")
-      puts "  Skipped. Before importing, copy #{Paths::AUDIO_DIR}/*.mp3 to:"
+      puts "  Skipped. Before importing, copy #{source_dir}/*.mp3 to:"
       puts "    #{target}/"
       return false
     end
@@ -72,7 +72,7 @@ module Media
     copied = 0
     missing = []
     filenames.each do |name|
-      src = File.join(Paths::AUDIO_DIR, name)
+      src = File.join(source_dir, name)
       if File.exist?(src)
         FileUtils.cp(src, File.join(target, name))
         copied += 1
@@ -82,7 +82,7 @@ module Media
     end
 
     puts "  Copied #{copied} audio files to #{target}"
-    puts "  WARNING: #{missing.size} referenced files missing from #{Paths::AUDIO_DIR}: #{missing.join(', ')}" unless missing.empty?
+    puts "  WARNING: #{missing.size} referenced files missing from #{source_dir}: #{missing.join(', ')}" unless missing.empty?
     true
   end
 end
