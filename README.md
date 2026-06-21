@@ -39,7 +39,7 @@ generate, and they combine:
 | `--combinations` | `sanskrit_combinations_anki.txt` | 378 | Consonant + vowel syllables (का, कि, कं …), pruned to those that actually occur in the Mahābhārata corpus. |
 | `--conjuncts` | `sanskrit_conjuncts_anki.txt` | 89 | The most common conjunct ligatures / saṃyuktākṣara (प्र, क्त, स्त्र …). |
 | `--anusvara` | `sanskrit_anusvara_anki.txt` | 36 | Anusvāra (ं) pronunciation — one card per following consonant — plus the few attested standalone vowel+mark forms. |
-| `--gita-verses` | `sanskrit_gita_verses_anki.txt` | 701 | Bhagavad Gita verses (separate **🕉️ Bhagavad Gita** deck) with pronunciation **audio**. Requires running `fetch_gita.rb` first — see below. |
+| `--gita-verses` | `sanskrit_gita_verses_anki.txt` | 640 | Bhagavad Gita verses (separate **🕉️ Bhagavad Gita** deck), grouped to match bhagavadgita.com, with JKYog recitation **audio**. Requires running `fetch_gita.rb` first — see below. |
 
 ### Bhagavad Gita verse deck
 
@@ -49,13 +49,15 @@ ruby fetch_gita.rb            # download verses + recitation audio -> data/
 ```
 
 `fetch_gita.rb` is a standalone networked step (like `scrape_sanskrit.rb`) that
-downloads the open [gita/gita](https://github.com/gita/gita) dataset and the
-per-verse recitation mp3s into `data/gita.json` + `data/gita_audio/` (re-running
-skips files already downloaded). Then `./main.rb --gita-verses` builds the deck:
-front = the Devanāgarī verse; back = IAST transliteration, a literal translation
-(Swami Gambirananda), a devotional translation (Swami Sivananda), and a
-recitation audio clip. The two translation authors are configurable at the top of
-`fetch_gita.rb`.
+downloads the open [gita/gita](https://github.com/gita/gita) dataset, merges
+verses into bhagavadgita.com's canonical groups (e.g. 1.4–6 become one card), and
+downloads the JKYog (Swami Mukundananda) recitation mp3s into `data/gita.json` +
+`data/gita_audio/` (re-running skips files already downloaded; clear the folder to
+re-download). Then `./main.rb --gita-verses` builds the **🕉️ Bhagavad Gita** deck:
+front = the Devanāgarī verse(s); back = IAST transliteration, a literal
+translation (Swami Gambirananda), a devotional translation (Swami Sivananda), and
+a recitation audio clip. The two translation authors are configurable at the top
+of `fetch_gita.rb`.
 
 ### Audio
 
