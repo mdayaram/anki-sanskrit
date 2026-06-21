@@ -12,25 +12,29 @@ module Anki
   # All categories merge into one deck, so importing every file builds one deck.
   DECK = "🕉️ Sanskrit Alphabet"
 
+  # The Bhagavad Gita verse deck (a separate deck from the alphabet).
+  GITA_DECK = "🕉️ Bhagavad Gita"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
   end
 
   # Write an Anki import file: the standard 6-line header followed by one row per
-  # entry. `rows` is an array of [key, front, back]. Tabs inside a field would
-  # break the column split, so they are flattened to spaces. Returns the row count.
-  def self.write_deck(path, rows)
+  # entry. `rows` is an array of [key, front, back]; `deck:` sets the #deck header
+  # (defaults to DECK). Tabs and newlines inside a field would break the row/column
+  # split, so both are flattened to spaces. Returns the row count.
+  def self.write_deck(path, rows, deck: DECK)
     File.open(path, "w:UTF-8") do |f|
       f.puts "#separator:Tab"
       f.puts "#html:true"
-      f.puts "#deck:#{DECK}"
+      f.puts "#deck:#{deck}"
       f.puts "#notetype:Basic"
       f.puts "#columns:Key\tFront\tBack"
       f.puts "#guid column:1"
 
       rows.each do |key, front, back|
-        f.puts [key, front, back].map { |field| field.to_s.gsub("\t", " ") }.join("\t")
+        f.puts [key, front, back].map { |field| field.to_s.gsub(/\t/, " ").gsub(/\r?\n/, " ") }.join("\t")
       end
     end
     rows.size
