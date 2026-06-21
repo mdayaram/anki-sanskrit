@@ -65,7 +65,7 @@ module GitaGroups
         "devotional" => r.dig("translations", "devotional")
       },
       "word_meanings" => [r["word_meanings"]],
-      "audio_file" => "gita_#{r['chapter']}_#{r['verse']}.mp3"
+      "audio_file" => format("gita_%02d_%02d.mp3", r["chapter"], r["verse"])
     }
   end
 
@@ -81,7 +81,7 @@ module GitaGroups
         "devotional" => members.map { |m| m.dig("translations", "devotional").to_s }.join(" ")
       },
       "word_meanings" => members.map { |m| m["word_meanings"] },
-      "audio_file" => "gita_#{chapter}_#{start}-#{finish}.mp3"
+      "audio_file" => format("gita_%02d_%02d-%02d.mp3", chapter, start, finish)
     }
   end
 end

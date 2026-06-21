@@ -31,7 +31,7 @@ class GitaGroupsTest < Minitest::Test
     assert_equal "DEV1", c["devanagari"]
     assert_equal "lit1", c["translations"]["literal"]
     assert_equal ["wm1"], c["word_meanings"]
-    assert_equal "gita_1_1.mp3", c["audio_file"]
+    assert_equal "gita_01_01.mp3", c["audio_file"]
   end
 
   def test_group_merge
@@ -42,7 +42,7 @@ class GitaGroupsTest < Minitest::Test
     assert_equal "lit4 lit5 lit6", c["translations"]["literal"]
     assert_equal "dev4 dev5 dev6", c["translations"]["devotional"]
     assert_equal %w[wm4 wm5 wm6], c["word_meanings"]
-    assert_equal "gita_1_4-6.mp3", c["audio_file"]
+    assert_equal "gita_01_04-06.mp3", c["audio_file"]
   end
 
   def test_order_preserved

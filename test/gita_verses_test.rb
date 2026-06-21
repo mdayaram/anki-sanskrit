@@ -13,7 +13,7 @@ class GitaVersesTest < Minitest::Test
       "transliteration" => "atra śhūrā\ndhṛiṣhṭaketu\nyudhāmanyu",
       "translations"    => { "literal" => "Here are heroes...", "devotional" => "Behold the warriors..." },
       "word_meanings"   => ["wm4", "wm5", "wm6"],
-      "audio_file"      => "gita_1_4-6.mp3"
+      "audio_file"      => "gita_01_04-06.mp3"
     }
   end
 
@@ -45,12 +45,12 @@ class GitaVersesTest < Minitest::Test
     assert_includes back, "IAST"
     assert_includes back, "Here are heroes..."
     assert_includes back, "Behold the warriors..."
-    assert_includes back, "[sound:gita_1_4-6.mp3]"
+    assert_includes back, "[sound:gita_01_04-06.mp3]"
     refute_includes back, "\n"
     refute_includes back, "style="
   end
 
   def test_audio_files
-    assert_equal ["gita_1_4-6.mp3"], gen.audio_files([entry])
+    assert_equal ["gita_01_04-06.mp3"], gen.audio_files([entry])
   end
 end
