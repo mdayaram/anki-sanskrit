@@ -66,7 +66,9 @@ Mirrors the project's pattern: a one-time data-prep step produces a committed
    Devanagari transliteration — independent vowels, consonants with inherent-`a`
    and virama clustering, mātrās, anusvāra (`ṃ`→ ं), visarga (`ḥ`→ ः), vocalic
    `ṛ ṝ ḷ ḹ`, diphthongs `ai/au`, etc. Reusable (also unblocks a future
-   per-word verse deck).
+   per-word verse deck). Also provides the **reverse** (`to_iast(devanagari)`)
+   used by the round-trip QA check (QA method B); `to_iast(to_devanagari(x)) == x`
+   for valid IAST.
 3. **`fetch_vedanta.rb`** (Ruby, the standalone entry point): ensures the PDF is
    present, runs `tools/extract_vedanta.py`, transliterates each `iast` →
    Devanagari, and writes committed **`data/vedanta.json`** =
@@ -113,15 +115,47 @@ there.
 - `requires_letters?` → false; `audio_files` → `[]` (no media-copy prompt).
 - ~2,394 cards.
 
-## QA cross-reference (required deliverable)
+## QA of `data/vedanta.json` (gating — must pass before the deck is built)
 
-After generation, render the PDF pages (vision) and compare **both** the
-transliterated **Devanagari** and the decoded **IAST** of each entry against the
-PDF's printed forms. Produce a discrepancy report listing every term whose
-generated Devanagari or IAST looks different from the source. Fix the bugs those
-reveal (transliterator rules or font-decode map), regenerate, and re-check until
-the report is clean (or remaining diffs are explained, e.g. the 2 multi-word
-entries).
+This is the critical step: the Devanagari is machine-transliterated and the IAST
+/definitions are font-decoded, so `data/vedanta.json` must be proven correct
+**before** `lib/generators/vedanta.rb` is run. QA uses four independent methods,
+layered so cheap automated checks catch most errors and the expensive visual pass
+confirms the rest. The deck generator is implemented/run only after QA is clean.
+
+**A. Structural validation** (`tools/qa_vedanta.rb`, automated, must be 0 failures):
+- **Coverage:** entry count equals the PDF's (≈2,394), and per-page entry-row
+  counts match the extractor's per-page output (no rows silently dropped/merged).
+- **Non-empty:** every record has non-empty `iast`, `devanagari`, `definition`.
+- **IAST charset:** `iast` contains only valid IAST (`[a-zāīūṛṝḷḹṅñṭḍṇśṣṃḥ]`,
+  space, hyphen). **Any residual legacy-font character** (`ä é ï ö ü ñ ç ù à è ì
+  ò ó ê í …`) anywhere in `iast` **or** `definition` means an unmapped glyph →
+  fail (this is what catches an incomplete font-decode map).
+- **Devanagari charset:** `devanagari` contains only U+0900–U+097F (+ space);
+  no Latin/leftover glyph-soup.
+- **Definitions:** no Devanagari-glyph-soup leaked from the wrong column; no bare
+  unexpanded abbreviations (`comp.`/`ind.`/`lit.`/`nom. sing.`/`p.p.p.`).
+- **Keys:** report duplicate `vedanta:<iast>` keys.
+
+**B. Round-trip transliteration** (automated, deterministic — high power): reverse
+the transliterator (Devanagari → IAST) for every entry and assert it equals the
+source `iast` (normalized). This pinpoints transliterator bugs across all 2,394
+entries without any vision, and every mismatch is a concrete bug to fix.
+
+**C. Full visual cross-reference against the PDF** (the core deliverable): render
+all 59 PDF pages and, for **every** entry, compare both the transliterated
+**Devanagari** and the decoded **IAST** to the PDF's printed forms, plus
+spot-check the definition text. Because this is ~2,394 entries over 59 pages, it
+is parallelized (a batch of read-only subagents, each assigned a page range, each
+given the corresponding `vedanta.json` slice and returning a structured list of
+mismatches). Output: a single **discrepancy report** (entry, field, PDF form,
+json form, note).
+
+**D. Iterate to clean:** fix every issue A–C surface (font-decode map,
+transliterator rules, extraction/alignment), regenerate `data/vedanta.json`, and
+re-run A–C until there are zero failures and zero unexplained visual
+discrepancies (the only allowed residue being the 2 documented multi-word
+entries). **Only then** is the deck generated.
 
 ## Shared-code changes
 
@@ -139,9 +173,12 @@ entries).
   `jñānam`→ज्ञानम्).
 - `lib/generators/vedanta.rb`: card front/back from a fixture entry — key
   `vedanta:<iast>`, Devanagari on front, IAST + definition on back, no audio.
+- `lib/iast_devanagari.rb` reverse: round-trip unit tests
+  (`to_iast(to_devanagari(x)) == x`) on a sample of headwords.
 - `fetch_vedanta.rb`: integration — run it; assert ~2,394 records, all fields
   non-empty.
-- The QA cross-reference pass above.
+- **The gating QA of `data/vedanta.json` (methods A–D above)** — the deck
+  generator is not run until this is clean.
 
 ## Out of scope
 
