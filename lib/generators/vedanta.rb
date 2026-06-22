@@ -22,7 +22,7 @@ module Generators
     def card(entry)
       iast = entry["iast"]
       key  = "vedanta:#{iast}"
-      front = "<center><big>#{br(entry['devanagari'])}</big></center>"
+      front = "<center>#{'<big>' * 3}#{br(entry['devanagari'])}#{'</big>' * 3}</center>"
       back  = "<b>#{br(iast)}</b><br><br>#{br(entry['definition'].to_s)}"
       [key, front, back]
     end
