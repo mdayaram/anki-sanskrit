@@ -1,0 +1,1232 @@
+{
+  "pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "entries": [
+    {
+      "iast": "antarayaḥ",
+      "devanagari": "अन्तरयः",
+      "page": 7
+    },
+    {
+      "iast": "antargata",
+      "devanagari": "अन्तर्गत",
+      "page": 7
+    },
+    {
+      "iast": "antarikṣam",
+      "devanagari": "अन्तरिक्षम्",
+      "page": 7
+    },
+    {
+      "iast": "antaryāmī",
+      "devanagari": "अन्तर्यामी",
+      "page": 7
+    },
+    {
+      "iast": "antevāsi",
+      "devanagari": "अन्तेवासि",
+      "page": 7
+    },
+    {
+      "iast": "antika",
+      "devanagari": "अन्तिक",
+      "page": 7
+    },
+    {
+      "iast": "antima",
+      "devanagari": "अन्तिम",
+      "page": 7
+    },
+    {
+      "iast": "antya",
+      "devanagari": "अन्त्य",
+      "page": 7
+    },
+    {
+      "iast": "anu",
+      "devanagari": "अनु",
+      "page": 7
+    },
+    {
+      "iast": "aṇu",
+      "devanagari": "अणु",
+      "page": 7
+    },
+    {
+      "iast": "anubandhaḥ",
+      "devanagari": "अनुबन्धः",
+      "page": 7
+    },
+    {
+      "iast": "anubhāti",
+      "devanagari": "अनुभाति",
+      "page": 7
+    },
+    {
+      "iast": "anubhavaḥ",
+      "devanagari": "अनुभवः",
+      "page": 7
+    },
+    {
+      "iast": "anubhūtiḥ",
+      "devanagari": "अनुभूतिः",
+      "page": 7
+    },
+    {
+      "iast": "anubodhaḥ",
+      "devanagari": "अनुबोधः",
+      "page": 7
+    },
+    {
+      "iast": "anudātta",
+      "devanagari": "अनुदात्त",
+      "page": 7
+    },
+    {
+      "iast": "anugamaḥ",
+      "devanagari": "अनुगमः",
+      "page": 7
+    },
+    {
+      "iast": "anugata",
+      "devanagari": "अनुगत",
+      "page": 7
+    },
+    {
+      "iast": "anugrahaḥ",
+      "devanagari": "अनुग्रहः",
+      "page": 7
+    },
+    {
+      "iast": "anujñā",
+      "devanagari": "अनुज्ञा",
+      "page": 7
+    },
+    {
+      "iast": "anukṛtiḥ",
+      "devanagari": "अनुकृतिः",
+      "page": 7
+    },
+    {
+      "iast": "anukula",
+      "devanagari": "अनुकुल",
+      "page": 7
+    },
+    {
+      "iast": "ānulomya",
+      "devanagari": "आनुलोम्य",
+      "page": 7
+    },
+    {
+      "iast": "anumā",
+      "devanagari": "अनुमा",
+      "page": 7
+    },
+    {
+      "iast": "anumānam",
+      "devanagari": "अनुमानम्",
+      "page": 7
+    },
+    {
+      "iast": "anumātra",
+      "devanagari": "अनुमात्र",
+      "page": 7
+    },
+    {
+      "iast": "anumeya",
+      "devanagari": "अनुमेय",
+      "page": 7
+    },
+    {
+      "iast": "anupalabdhiḥ",
+      "devanagari": "अनुपलब्धिः",
+      "page": 7
+    },
+    {
+      "iast": "anupapanna",
+      "devanagari": "अनुपपन्न",
+      "page": 7
+    },
+    {
+      "iast": "anupapattiḥ",
+      "devanagari": "अनुपपत्तिः",
+      "page": 7
+    },
+    {
+      "iast": "anupraviś",
+      "devanagari": "अनुप्रविश्",
+      "page": 7
+    },
+    {
+      "iast": "anurāgaḥ",
+      "devanagari": "अनुरागः",
+      "page": 7
+    },
+    {
+      "iast": "anurūpa",
+      "devanagari": "अनुरूप",
+      "page": 7
+    },
+    {
+      "iast": "anusandhānam",
+      "devanagari": "अनुसन्धानम्",
+      "page": 7
+    },
+    {
+      "iast": "anusaraṇam",
+      "devanagari": "अनुसरणम्",
+      "page": 7
+    },
+    {
+      "iast": "anuśāsanam",
+      "devanagari": "अनुशासनम्",
+      "page": 7
+    },
+    {
+      "iast": "anuśāyaḥ",
+      "devanagari": "अनुशायः",
+      "page": 7
+    },
+    {
+      "iast": "anusmṛtiḥ",
+      "devanagari": "अनुस्मृतिः",
+      "page": 7
+    },
+    {
+      "iast": "anuṣṭhānam",
+      "devanagari": "अनुष्ठानम्",
+      "page": 7
+    },
+    {
+      "iast": "anuṣṭheya",
+      "devanagari": "अनुष्ठेय",
+      "page": 7
+    },
+    {
+      "iast": "anuṣṭubh",
+      "devanagari": "अनुष्टुभ्",
+      "page": 8
+    },
+    {
+      "iast": "anusyūta",
+      "devanagari": "अनुस्यूत",
+      "page": 8
+    },
+    {
+      "iast": "anutpatti",
+      "devanagari": "अनुत्पत्ति",
+      "page": 8
+    },
+    {
+      "iast": "anuvādaḥ",
+      "devanagari": "अनुवादः",
+      "page": 8
+    },
+    {
+      "iast": "anuvākaḥ",
+      "devanagari": "अनुवाकः",
+      "page": 8
+    },
+    {
+      "iast": "anuviddha",
+      "devanagari": "अनुविद्ध",
+      "page": 8
+    },
+    {
+      "iast": "anuvitta",
+      "devanagari": "अनुवित्त",
+      "page": 8
+    },
+    {
+      "iast": "anuvṛtta",
+      "devanagari": "अनुवृत्त",
+      "page": 8
+    },
+    {
+      "iast": "anuvṛttiḥ",
+      "devanagari": "अनुवृत्तिः",
+      "page": 8
+    },
+    {
+      "iast": "anvayaḥ",
+      "devanagari": "अन्वयः",
+      "page": 8
+    },
+    {
+      "iast": "anvayavat",
+      "devanagari": "अन्वयवत्",
+      "page": 8
+    },
+    {
+      "iast": "anvayavyatirekaḥ",
+      "devanagari": "अन्वयव्यतिरेकः",
+      "page": 8
+    },
+    {
+      "iast": "anveṣaṇam",
+      "devanagari": "अन्वेषणम्",
+      "page": 8
+    },
+    {
+      "iast": "anviṣṭaḥ",
+      "devanagari": "अन्विष्टः",
+      "page": 8
+    },
+    {
+      "iast": "anvita",
+      "devanagari": "अन्वित",
+      "page": 8
+    },
+    {
+      "iast": "anya",
+      "devanagari": "अन्य",
+      "page": 8
+    },
+    {
+      "iast": "anyāpekṣa",
+      "devanagari": "अन्यापेक्ष",
+      "page": 8
+    },
+    {
+      "iast": "anyataḥ",
+      "devanagari": "अन्यतः",
+      "page": 8
+    },
+    {
+      "iast": "anyatama",
+      "devanagari": "अन्यतम",
+      "page": 8
+    },
+    {
+      "iast": "anyatara",
+      "devanagari": "अन्यतर",
+      "page": 8
+    },
+    {
+      "iast": "anyathā",
+      "devanagari": "अन्यथा",
+      "page": 8
+    },
+    {
+      "iast": "anyatra",
+      "devanagari": "अन्यत्र",
+      "page": 8
+    },
+    {
+      "iast": "anyatragrahaṇam",
+      "devanagari": "अन्यत्रग्रहणम्",
+      "page": 8
+    },
+    {
+      "iast": "anyonya",
+      "devanagari": "अन्योन्य",
+      "page": 8
+    },
+    {
+      "iast": "anyonyādhyāsaḥ",
+      "devanagari": "अन्योन्याध्यासः",
+      "page": 8
+    },
+    {
+      "iast": "anyonyāśrayaḥ",
+      "devanagari": "अन्योन्याश्रयः",
+      "page": 8
+    },
+    {
+      "iast": "ap",
+      "devanagari": "अप्",
+      "page": 8
+    },
+    {
+      "iast": "apa",
+      "devanagari": "अप",
+      "page": 8
+    },
+    {
+      "iast": "apacayaḥ",
+      "devanagari": "अपचयः",
+      "page": 8
+    },
+    {
+      "iast": "apādānam",
+      "devanagari": "अपादानम्",
+      "page": 8
+    },
+    {
+      "iast": "āpādanam",
+      "devanagari": "आपादनम्",
+      "page": 8
+    },
+    {
+      "iast": "apahṇavam",
+      "devanagari": "अपह्णवम्",
+      "page": 8
+    },
+    {
+      "iast": "apakarṣaḥ",
+      "devanagari": "अपकर्षः",
+      "page": 8
+    },
+    {
+      "iast": "apakṣayaḥ",
+      "devanagari": "अपक्षयः",
+      "page": 8
+    },
+    {
+      "iast": "apakṣi",
+      "devanagari": "अपक्षि",
+      "page": 8
+    },
+    {
+      "iast": "apalap",
+      "devanagari": "अपलप्",
+      "page": 8
+    },
+    {
+      "iast": "apānaḥ",
+      "devanagari": "अपानः",
+      "page": 8
+    },
+    {
+      "iast": "apanayanam",
+      "devanagari": "अपनयनम्",
+      "page": 8
+    },
+    {
+      "iast": "āpanna",
+      "devanagari": "आपन्न",
+      "page": 8
+    },
+    {
+      "iast": "apara",
+      "devanagari": "अपर",
+      "page": 8
+    },
+    {
+      "iast": "apāra",
+      "devanagari": "अपार",
+      "page": 9
+    },
+    {
+      "iast": "aparāddha",
+      "devanagari": "अपराद्ध",
+      "page": 9
+    },
+    {
+      "iast": "aparavidyā",
+      "devanagari": "अपरविद्या",
+      "page": 9
+    },
+    {
+      "iast": "aparicchinna",
+      "devanagari": "अपरिच्छिन्न",
+      "page": 9
+    },
+    {
+      "iast": "aparigraha",
+      "devanagari": "अपरिग्रह",
+      "page": 9
+    },
+    {
+      "iast": "aparijñānam",
+      "devanagari": "अपरिज्ञानम्",
+      "page": 9
+    },
+    {
+      "iast": "aparikhedaḥ",
+      "devanagari": "अपरिखेदः",
+      "page": 9
+    },
+    {
+      "iast": "aparokṣa",
+      "devanagari": "अपरोक्ष",
+      "page": 9
+    },
+    {
+      "iast": "apaśabdaḥ",
+      "devanagari": "अपशब्दः",
+      "page": 9
+    },
+    {
+      "iast": "apasmāraḥ",
+      "devanagari": "अपस्मारः",
+      "page": 9
+    },
+    {
+      "iast": "āpāta",
+      "devanagari": "आपात",
+      "page": 9
+    },
+    {
+      "iast": "āpātajñānam",
+      "devanagari": "आपातज्ञानम्",
+      "page": 9
+    },
+    {
+      "iast": "āpātataḥ",
+      "devanagari": "आपाततः",
+      "page": 9
+    },
+    {
+      "iast": "apauruṣeya",
+      "devanagari": "अपौरुषेय",
+      "page": 9
+    },
+    {
+      "iast": "apavādaḥ",
+      "devanagari": "अपवादः",
+      "page": 9
+    },
+    {
+      "iast": "apavargaḥ",
+      "devanagari": "अपवर्गः",
+      "page": 9
+    },
+    {
+      "iast": "apekṣ",
+      "devanagari": "अपेक्ष्",
+      "page": 9
+    },
+    {
+      "iast": "apekṣā",
+      "devanagari": "अपेक्षा",
+      "page": 9
+    },
+    {
+      "iast": "āpekṣika",
+      "devanagari": "आपेक्षिक",
+      "page": 9
+    },
+    {
+      "iast": "apekṣita",
+      "devanagari": "अपेक्षित",
+      "page": 9
+    },
+    {
+      "iast": "apekṣya",
+      "devanagari": "अपेक्ष्य",
+      "page": 9
+    },
+    {
+      "iast": "apītaḥ",
+      "devanagari": "अपीतः",
+      "page": 9
+    },
+    {
+      "iast": "apohaḥ",
+      "devanagari": "अपोहः",
+      "page": 9
+    },
+    {
+      "iast": "apohya",
+      "devanagari": "अपोह्य",
+      "page": 9
+    },
+    {
+      "iast": "aprabodha",
+      "devanagari": "अप्रबोध",
+      "page": 9
+    },
+    {
+      "iast": "apracalita",
+      "devanagari": "अप्रचलित",
+      "page": 9
+    },
+    {
+      "iast": "aprāpta",
+      "devanagari": "अप्राप्त",
+      "page": 9
+    },
+    {
+      "iast": "aprāptasya prāptiḥ",
+      "devanagari": "अप्राप्तस्य प्राप्तिः",
+      "page": 9
+    },
+    {
+      "iast": "aprasiddha",
+      "devanagari": "अप्रसिद्ध",
+      "page": 9
+    },
+    {
+      "iast": "apratibodha",
+      "devanagari": "अप्रतिबोध",
+      "page": 9
+    },
+    {
+      "iast": "āptaḥ",
+      "devanagari": "आप्तः",
+      "page": 9
+    },
+    {
+      "iast": "āptakālasannyāsaḥ",
+      "devanagari": "आप्तकालसन्न्यासः",
+      "page": 9
+    },
+    {
+      "iast": "apūrva",
+      "devanagari": "अपूर्व",
+      "page": 9
+    },
+    {
+      "iast": "apūrvatā",
+      "devanagari": "अपूर्वता",
+      "page": 9
+    },
+    {
+      "iast": "āpyam",
+      "devanagari": "आप्यम्",
+      "page": 9
+    },
+    {
+      "iast": "apyayaḥ",
+      "devanagari": "अप्ययः",
+      "page": 9
+    },
+    {
+      "iast": "ārabdha",
+      "devanagari": "आरब्ध",
+      "page": 9
+    },
+    {
+      "iast": "ārabhya",
+      "devanagari": "आरभ्य",
+      "page": 9
+    },
+    {
+      "iast": "ārāmaḥ",
+      "devanagari": "आरामः",
+      "page": 9
+    },
+    {
+      "iast": "ārambhaḥ",
+      "devanagari": "आरम्भः",
+      "page": 9
+    },
+    {
+      "iast": "ārambhaṇam",
+      "devanagari": "आरम्भणम्",
+      "page": 9
+    },
+    {
+      "iast": "āraṇyam",
+      "devanagari": "आरण्यम्",
+      "page": 10
+    },
+    {
+      "iast": "ārātrikam",
+      "devanagari": "आरात्रिकम्",
+      "page": 10
+    },
+    {
+      "iast": "arcanam",
+      "devanagari": "अर्चनम्",
+      "page": 10
+    },
+    {
+      "iast": "arcimat",
+      "devanagari": "अर्चिमत्",
+      "page": 10
+    },
+    {
+      "iast": "ardha",
+      "devanagari": "अर्ध",
+      "page": 10
+    },
+    {
+      "iast": "arha",
+      "devanagari": "अर्ह",
+      "page": 10
+    },
+    {
+      "iast": "ārjavam",
+      "devanagari": "आर्जवम्",
+      "page": 10
+    },
+    {
+      "iast": "arjuna",
+      "devanagari": "अर्जुन",
+      "page": 10
+    },
+    {
+      "iast": "arkaḥ",
+      "devanagari": "अर्कः",
+      "page": 10
+    },
+    {
+      "iast": "arogyatā",
+      "devanagari": "अरोग्यता",
+      "page": 10
+    },
+    {
+      "iast": "āropaḥ",
+      "devanagari": "आरोपः",
+      "page": 10
+    },
+    {
+      "iast": "āropita",
+      "devanagari": "आरोपित",
+      "page": 10
+    },
+    {
+      "iast": "arpaṇam",
+      "devanagari": "अर्पणम्",
+      "page": 10
+    },
+    {
+      "iast": "ārṣa",
+      "devanagari": "आर्ष",
+      "page": 10
+    },
+    {
+      "iast": "ārta",
+      "devanagari": "आर्त",
+      "page": 10
+    },
+    {
+      "iast": "arthabodhakatvam",
+      "devanagari": "अर्थबोधकत्वम्",
+      "page": 10
+    },
+    {
+      "iast": "arthādhyāsaḥ",
+      "devanagari": "अर्थाध्यासः",
+      "page": 10
+    },
+    {
+      "iast": "arthaḥ",
+      "devanagari": "अर्थः",
+      "page": 10
+    },
+    {
+      "iast": "arthāpattiḥ",
+      "devanagari": "अर्थापत्तिः",
+      "page": 10
+    },
+    {
+      "iast": "arthāt",
+      "devanagari": "अर्थात्",
+      "page": 10
+    },
+    {
+      "iast": "arthavādaḥ",
+      "devanagari": "अर्थवादः",
+      "page": 10
+    },
+    {
+      "iast": "arthavat",
+      "devanagari": "अर्थवत्",
+      "page": 10
+    },
+    {
+      "iast": "arthī",
+      "devanagari": "अर्थी",
+      "page": 10
+    },
+    {
+      "iast": "ārthika",
+      "devanagari": "आर्थिक",
+      "page": 10
+    },
+    {
+      "iast": "aruciḥ",
+      "devanagari": "अरुचिः",
+      "page": 10
+    },
+    {
+      "iast": "ārūḍha",
+      "devanagari": "आरूढ",
+      "page": 10
+    },
+    {
+      "iast": "aruṇaḥ",
+      "devanagari": "अरुणः",
+      "page": 10
+    },
+    {
+      "iast": "arvāc",
+      "devanagari": "अर्वाच्",
+      "page": 10
+    },
+    {
+      "iast": "ās",
+      "devanagari": "आस्",
+      "page": 10
+    },
+    {
+      "iast": "aś",
+      "devanagari": "अश्",
+      "page": 10
+    },
+    {
+      "iast": "āśā",
+      "devanagari": "आशा",
+      "page": 10
+    },
+    {
+      "iast": "asādhāraṇa",
+      "devanagari": "असाधारण",
+      "page": 10
+    },
+    {
+      "iast": "asakṛt",
+      "devanagari": "असकृत्",
+      "page": 10
+    },
+    {
+      "iast": "asakta",
+      "devanagari": "असक्त",
+      "page": 10
+    },
+    {
+      "iast": "āsaktiḥ",
+      "devanagari": "आसक्तिः",
+      "page": 10
+    },
+    {
+      "iast": "asamañjasa",
+      "devanagari": "असमञ्जस",
+      "page": 10
+    },
+    {
+      "iast": "asambhava",
+      "devanagari": "असम्भव",
+      "page": 10
+    },
+    {
+      "iast": "asambhāvanā",
+      "devanagari": "असम्भावना",
+      "page": 10
+    },
+    {
+      "iast": "āsanam",
+      "devanagari": "आसनम्",
+      "page": 10
+    },
+    {
+      "iast": "asandigdha",
+      "devanagari": "असन्दिग्ध",
+      "page": 10
+    },
+    {
+      "iast": "asaṅgaḥ",
+      "devanagari": "असङ्गः",
+      "page": 10
+    },
+    {
+      "iast": "āśaṅkā",
+      "devanagari": "आशङ्का",
+      "page": 11
+    },
+    {
+      "iast": "asaṅkrānta",
+      "devanagari": "असङ्क्रान्त",
+      "page": 11
+    },
+    {
+      "iast": "asat",
+      "devanagari": "असत्",
+      "page": 11
+    },
+    {
+      "iast": "asatkāryavāda",
+      "devanagari": "असत्कार्यवाद",
+      "page": 11
+    },
+    {
+      "iast": "aśāśvata",
+      "devanagari": "अशाश्वत",
+      "page": 11
+    },
+    {
+      "iast": "asau",
+      "devanagari": "असौ",
+      "page": 11
+    },
+    {
+      "iast": "āścaryam",
+      "devanagari": "आश्चर्यम्",
+      "page": 11
+    },
+    {
+      "iast": "asiddhiḥ",
+      "devanagari": "असिद्धिः",
+      "page": 11
+    },
+    {
+      "iast": "āśīra",
+      "devanagari": "आशीर",
+      "page": 11
+    },
+    {
+      "iast": "āśis",
+      "devanagari": "आशिस्",
+      "page": 11
+    },
+    {
+      "iast": "aśiṣṭa",
+      "devanagari": "अशिष्ट",
+      "page": 11
+    },
+    {
+      "iast": "asmad",
+      "devanagari": "अस्मद्",
+      "page": 11
+    },
+    {
+      "iast": "asmitā",
+      "devanagari": "अस्मिता",
+      "page": 11
+    },
+    {
+      "iast": "āspadam",
+      "devanagari": "आस्पदम्",
+      "page": 11
+    },
+    {
+      "iast": "asparśa",
+      "devanagari": "अस्पर्श",
+      "page": 11
+    },
+    {
+      "iast": "aspaṣṭa",
+      "devanagari": "अस्पष्ट",
+      "page": 11
+    },
+    {
+      "iast": "asphuṭa",
+      "devanagari": "अस्फुट",
+      "page": 11
+    },
+    {
+      "iast": "aspṛṣṭa",
+      "devanagari": "अस्पृष्ट",
+      "page": 11
+    },
+    {
+      "iast": "āśramaḥ",
+      "devanagari": "आश्रमः",
+      "page": 11
+    },
+    {
+      "iast": "āśramavyavasthā",
+      "devanagari": "आश्रमव्यवस्था",
+      "page": 11
+    },
+    {
+      "iast": "āśrayaḥ",
+      "devanagari": "आश्रयः",
+      "page": 11
+    },
+    {
+      "iast": "āśrita",
+      "devanagari": "आश्रित",
+      "page": 11
+    },
+    {
+      "iast": "aṣṭādhyāyī",
+      "devanagari": "अष्टाध्यायी",
+      "page": 11
+    },
+    {
+      "iast": "aṣṭāṅga",
+      "devanagari": "अष्टाङ्ग",
+      "page": 11
+    },
+    {
+      "iast": "asthāne",
+      "devanagari": "अस्थाने",
+      "page": 11
+    },
+    {
+      "iast": "āstikaḥ",
+      "devanagari": "आस्तिकः",
+      "page": 11
+    },
+    {
+      "iast": "asuraḥ",
+      "devanagari": "असुरः",
+      "page": 11
+    },
+    {
+      "iast": "asūyā",
+      "devanagari": "असूया",
+      "page": 11
+    },
+    {
+      "iast": "āsvādanam",
+      "devanagari": "आस्वादनम्",
+      "page": 11
+    },
+    {
+      "iast": "aśvinau",
+      "devanagari": "अश्विनौ",
+      "page": 11
+    },
+    {
+      "iast": "atas",
+      "devanagari": "अतस्",
+      "page": 11
+    },
+    {
+      "iast": "atha",
+      "devanagari": "अथ",
+      "page": 11
+    },
+    {
+      "iast": "atharvan",
+      "devanagari": "अथर्वन्",
+      "page": 11
+    },
+    {
+      "iast": "ati",
+      "devanagari": "अति",
+      "page": 11
+    },
+    {
+      "iast": "atideśaḥ",
+      "devanagari": "अतिदेशः",
+      "page": 11
+    },
+    {
+      "iast": "atīndriya",
+      "devanagari": "अतीन्द्रिय",
+      "page": 11
+    },
+    {
+      "iast": "atirikta",
+      "devanagari": "अतिरिक्त",
+      "page": 11
+    },
+    {
+      "iast": "atiśaya",
+      "devanagari": "अतिशय",
+      "page": 11
+    },
+    {
+      "iast": "atisnehaḥ",
+      "devanagari": "अतिस्नेहः",
+      "page": 11
+    },
+    {
+      "iast": "atīta",
+      "devanagari": "अतीत",
+      "page": 11
+    },
+    {
+      "iast": "atithiḥ",
+      "devanagari": "अतिथिः",
+      "page": 11
+    },
+    {
+      "iast": "ātithya",
+      "devanagari": "आतिथ्य",
+      "page": 12
+    },
+    {
+      "iast": "ātmā",
+      "devanagari": "आत्मा",
+      "page": 12
+    },
+    {
+      "iast": "ātmaka",
+      "devanagari": "आत्मक",
+      "page": 12
+    },
+    {
+      "iast": "ātmānātmavivekaḥ",
+      "devanagari": "आत्मानात्मविवेकः",
+      "page": 12
+    },
+    {
+      "iast": "ātmastha",
+      "devanagari": "आत्मस्थ",
+      "page": 12
+    },
+    {
+      "iast": "ātmya",
+      "devanagari": "आत्म्य",
+      "page": 12
+    },
+    {
+      "iast": "atyanta",
+      "devanagari": "अत्यन्त",
+      "page": 12
+    },
+    {
+      "iast": "atyantāsat",
+      "devanagari": "अत्यन्तासत्",
+      "page": 12
+    },
+    {
+      "iast": "atyantika",
+      "devanagari": "अत्यन्तिक",
+      "page": 12
+    },
+    {
+      "iast": "ātyantika",
+      "devanagari": "आत्यन्तिक",
+      "page": 12
+    },
+    {
+      "iast": "ātyantikī",
+      "devanagari": "आत्यन्तिकी",
+      "page": 12
+    },
+    {
+      "iast": "audāsīnyam",
+      "devanagari": "औदासीन्यम्",
+      "page": 12
+    },
+    {
+      "iast": "aupacārika",
+      "devanagari": "औपचारिक",
+      "page": 12
+    },
+    {
+      "iast": "aupādhika",
+      "devanagari": "औपाधिक",
+      "page": 12
+    },
+    {
+      "iast": "aupaniṣada",
+      "devanagari": "औपनिषद",
+      "page": 12
+    },
+    {
+      "iast": "auṣṇyam",
+      "devanagari": "औष्ण्यम्",
+      "page": 12
+    },
+    {
+      "iast": "av",
+      "devanagari": "अव्",
+      "page": 12
+    },
+    {
+      "iast": "avabhās",
+      "devanagari": "अवभास्",
+      "page": 12
+    },
+    {
+      "iast": "avabhāsaḥ",
+      "devanagari": "अवभासः",
+      "page": 12
+    },
+    {
+      "iast": "avabodhaka",
+      "devanagari": "अवबोधक",
+      "page": 12
+    },
+    {
+      "iast": "avabodhanam",
+      "devanagari": "अवबोधनम्",
+      "page": 12
+    },
+    {
+      "iast": "avacchedaḥ",
+      "devanagari": "अवच्छेदः",
+      "page": 12
+    },
+    {
+      "iast": "avacchedakaḥ",
+      "devanagari": "अवच्छेदकः",
+      "page": 12
+    },
+    {
+      "iast": "avacchinna",
+      "devanagari": "अवच्छिन्न",
+      "page": 12
+    },
+    {
+      "iast": "avadhāraḥ",
+      "devanagari": "अवधारः",
+      "page": 12
+    },
+    {
+      "iast": "avadhāraṇam",
+      "devanagari": "अवधारणम्",
+      "page": 12
+    },
+    {
+      "iast": "avadhārita",
+      "devanagari": "अवधारित",
+      "page": 12
+    },
+    {
+      "iast": "avadhiḥ",
+      "devanagari": "अवधिः",
+      "page": 12
+    },
+    {
+      "iast": "avagam",
+      "devanagari": "अवगम्",
+      "page": 12
+    },
+    {
+      "iast": "avagamaḥ",
+      "devanagari": "अवगमः",
+      "page": 12
+    },
+    {
+      "iast": "avagata",
+      "devanagari": "अवगत",
+      "page": 12
+    },
+    {
+      "iast": "avagatiḥ",
+      "devanagari": "अवगतिः",
+      "page": 12
+    },
+    {
+      "iast": "avakāśaḥ",
+      "devanagari": "अवकाशः",
+      "page": 12
+    },
+    {
+      "iast": "avāntara",
+      "devanagari": "अवान्तर",
+      "page": 12
+    },
+    {
+      "iast": "avāptiḥ",
+      "devanagari": "अवाप्तिः",
+      "page": 12
+    },
+    {
+      "iast": "avara",
+      "devanagari": "अवर",
+      "page": 12
+    },
+    {
+      "iast": "āvaraḥ",
+      "devanagari": "आवरः",
+      "page": 12
+    },
+    {
+      "iast": "āvaraṇam",
+      "devanagari": "आवरणम्",
+      "page": 12
+    },
+    {
+      "iast": "avarṇa",
+      "devanagari": "अवर्ण",
+      "page": 12
+    },
+    {
+      "iast": "avasādanam",
+      "devanagari": "अवसादनम्",
+      "page": 12
+    },
+    {
+      "iast": "avaśaḥ",
+      "devanagari": "अवशः",
+      "page": 12
+    }
+  ]
+}
