@@ -267,3 +267,13 @@
 - vṛttijñānam (वृत्तिज्ञानम्) — What takes place in the mind as a result of any co
 - vṛttiviśeṣaḥ (वृत्तिविशेषः) — A particular frame of mindeclinable
 - yathātmyam (यथात्म्यम्) — The nature, svarūpam .
+
+## Resolution of flagged likely-errors (applied to data/vedanta.json)
+
+Corrected to dictionary-standard (source PDF had the typo):
+- anukula → anukūla (अनुकूल); kṛtarthaḥ → kṛtārthaḥ (कृतार्थः); nirṇita → nirṇīta (निर्णीत);
+  urṇanābhaḥ → ūrṇanābhaḥ (ऊर्णनाभः); iś → iṣ (इष्); bhi → bhī (भी);
+  udana → udan (उदन्, MW "water"); jaḍiḥ → jaṭiḥ (जटिः, MW jaṭi "twisted hair").
+Kept as-is: avitta (valid a+vitta "unknown"); sāṅkhya, saṅkocaḥ, anyataḥ, tattvataḥ,
+  paramārthataḥ (false positives — our form correct).
+Left faithful to source (inconclusive): āśīra, āvaraḥ, aniṣṭha.
