@@ -15,6 +15,9 @@ module Anki
   # The Bhagavad Gita verse deck (a separate deck from the alphabet).
   GITA_DECK = "🕉️ Bhagavad Gita"
 
+  # The Vedanta glossary word deck (a separate deck).
+  VEDANTA_DECK = "🕉️ Vedanta Glossary"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
