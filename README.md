@@ -40,6 +40,7 @@ generate, and they combine:
 | `--conjuncts` | `sanskrit_conjuncts_anki.txt` | 89 | The most common conjunct ligatures / saṃyuktākṣara (प्र, क्त, स्त्र …). |
 | `--anusvara` | `sanskrit_anusvara_anki.txt` | 36 | Anusvāra (ं) pronunciation — one card per following consonant — plus the few attested standalone vowel+mark forms. |
 | `--gita-verses` | `sanskrit_gita_verses_anki.txt` | 640 | Bhagavad Gita verses (separate **🕉️ Bhagavad Gita** deck), grouped to match bhagavadgita.com, with JKYog recitation **audio**. Requires running `fetch_gita.rb` first — see below. |
+| `--vedanta` | `sanskrit_vedanta_anki.txt` | 2393 | Vedanta glossary terms (separate **🕉️ Vedanta Glossary** deck): Devanagari front, IAST + English meaning back. No audio. Source data committed in `data/vedanta.json`. |
 
 ### Bhagavad Gita verse deck
 
@@ -58,6 +59,18 @@ front = the Devanāgarī verse(s); back = IAST transliteration, a literal
 translation (Swami Gambirananda), a devotional translation (Swami Sivananda), and
 a recitation audio clip. The two translation authors are configurable at the top
 of `fetch_gita.rb`.
+
+### Vedanta glossary word deck
+
+```bash
+./main.rb --vedanta            # generate sanskrit_vedanta_anki.txt
+```
+
+A deck of ~2,393 common Vedanta Sanskrit terms (front: Devanāgarī; back: IAST +
+English meaning, no audio), built from Swami Dayananda Saraswati's
+Vedanta-Sanskrit glossary. The term data lives in `data/vedanta.json` (already
+committed and dictionary-verified), so **no fetch step is needed** — just
+generate and import.
 
 ### Audio
 
