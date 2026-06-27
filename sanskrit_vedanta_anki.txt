@@ -4,7 +4,7 @@
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1
-vedanta:a	<center><big><big><big>अ</big></big></big></center>	<b>a</b><br><br>an before vowels; The negative particle nañ; sense of: absence, inadequacy, difference, diminution, impropriety, opposition, likeness.
+vedanta:a an	<center><big><big><big>अ अन्</big></big></big></center>	<b>a an</b><br><br>The negative particle nañ; sense of: absence, inadequacy, difference, diminution, impropriety, opposition, likeness.
 vedanta:ā	<center><big><big><big>आ</big></big></big></center>	<b>ā</b><br><br>The limit exclusive or conclusive, till, until, up to; āṅ maryādā limit, boundary.
 vedanta:abādhita	<center><big><big><big>अबाधित</big></big></big></center>	<b>abādhita</b><br><br>Not subject to negation; unimpeded.
 vedanta:ābhāsaḥ	<center><big><big><big>आभासः</big></big></big></center>	<b>ābhāsaḥ</b><br><br>Resemblance, likeness; light; false appearance, fallacy, erroneous argument.
