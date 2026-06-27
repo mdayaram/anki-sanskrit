@@ -1,7 +1,7 @@
 [
   {
     "iast": "a",
-    "definition": "before vowels ; The negative particle nañ ; sense of: absence, inadequacy, difference, dimin ution, impropriety, opposition, likeness."
+    "definition": "an before vowels ; The negative particle nañ ; sense of: absence, inadequacy, difference, dimin ution, impropriety, opposition, likeness."
   },
   {
     "iast": "ā",
@@ -41,7 +41,7 @@
   },
   {
     "iast": "abhidhā",
-    "definition": "To say, speak, tell; mention; passive is called , is said to be."
+    "definition": "To say, speak, tell; mention; passive abhidhīyate is called , is said to be."
   },
   {
     "iast": "abhidhānam",
@@ -141,7 +141,7 @@
   },
   {
     "iast": "ācakṣ",
-    "definition": "To speak, announce, declare, relate;"
+    "definition": "To speak, announce, declare, relate; ācakṣate"
   },
   {
     "iast": "acala",
@@ -181,7 +181,7 @@
   },
   {
     "iast": "ad",
-    "definition": "To eat."
+    "definition": "To eat. atti"
   },
   {
     "iast": "adambhitvam",
@@ -213,7 +213,7 @@
   },
   {
     "iast": "adhara",
-    "definition": "Lower ( lit . not held up), low."
+    "definition": "Lower ( literally not held up), low."
   },
   {
     "iast": "ādhāra",
@@ -289,7 +289,7 @@
   },
   {
     "iast": "adhunā",
-    "definition": "ind . Now, at this time."
+    "definition": "indeclinable Now, at this time."
   },
   {
     "iast": "adhvaryuḥ",
@@ -329,7 +329,7 @@
   },
   {
     "iast": "adhyātma",
-    "definition": "Belonging to self. indeclinable Concerning self."
+    "definition": "Belonging to self. adhyātmatvam indeclinable Concerning self."
   },
   {
     "iast": "ādhyātmika",
@@ -349,11 +349,11 @@
   },
   {
     "iast": "adhyayanam",
-    "definition": "Study of the Veda ; learning; from to study"
+    "definition": "Study of the Veda ; learning; from adī to study adhyetavyaḥ adhyāpayati."
   },
   {
     "iast": "ādi",
-    "definition": "First. primary, principal in compound - beginning with. Beginning; cause, at the end of compound – 'beginning with', 'et cetera', 'and so on'."
+    "definition": "First. primary, principal in compound - beginning with. ādiḥ Beginning; cause, at the end of compound – 'beginning with', 'et cetera', 'and so on'."
   },
   {
     "iast": "ādimat",
@@ -432,7 +432,7 @@
     "definition": "Foremost, best, excellent."
   },
   {
-    "iast": "ahaṅkāraḥ",
+    "iast": "ahaṃkāraḥ",
     "definition": "Sense of self; self-image; ego."
   },
   {
@@ -457,7 +457,7 @@
   },
   {
     "iast": "aikṣata",
-    "definition": "It saw – from from root ."
+    "definition": "It saw – from from root īkṣ ."
   },
   {
     "iast": "aikyam",
@@ -537,7 +537,7 @@
   },
   {
     "iast": "akasmād",
-    "definition": "ind . Suddenly; without cause."
+    "definition": "indeclinable Suddenly; without cause."
   },
   {
     "iast": "akathya",
@@ -608,7 +608,7 @@
     "definition": "False notion; sense of satisfaction."
   },
   {
-    "iast": "alaṅkāraḥ",
+    "iast": "alaṃkāraḥ",
     "definition": "Decoration, ornament; act of decorating."
   },
   {
@@ -737,7 +737,7 @@
   },
   {
     "iast": "ananta",
-    "definition": "Limitless, eternal, endless, boundless, infinite. Limitless wholeness."
+    "definition": "Limitless, eternal, endless, boundless, infinite. anantam Limitless wholeness."
   },
   {
     "iast": "anantara",
@@ -805,7 +805,7 @@
   },
   {
     "iast": "andha",
-    "definition": "Blindeclinable"
+    "definition": "Blind."
   },
   {
     "iast": "andhakāraḥ",
@@ -901,7 +901,7 @@
   },
   {
     "iast": "āntara",
-    "definition": "Internal; hidden. Innermost."
+    "definition": "Internal; hidden. āntaram Innermost."
   },
   {
     "iast": "antaraṅga",
@@ -909,7 +909,7 @@
   },
   {
     "iast": "antarayaḥ",
-    "definition": "also Obstacle, hindrance, interference."
+    "definition": "also antarāyaḥ Obstacle, hindrance, interference."
   },
   {
     "iast": "antargata",
@@ -925,7 +925,7 @@
   },
   {
     "iast": "antevāsi",
-    "definition": "ind . A Vedic pupil in residence with his guru ."
+    "definition": "indeclinable A Vedic pupil in residence with his guru ."
   },
   {
     "iast": "antika",
@@ -977,7 +977,7 @@
   },
   {
     "iast": "anugata",
-    "definition": "Following; corresponding with; present. Presence."
+    "definition": "Following; corresponding with; present. anugataḥ Presence."
   },
   {
     "iast": "anugrahaḥ",
@@ -992,7 +992,7 @@
     "definition": "Compliance; similarity."
   },
   {
-    "iast": "anukula",
+    "iast": "anukūla",
     "definition": "Favorable; agreeable; friendly; pleasing."
   },
   {
@@ -1001,7 +1001,7 @@
   },
   {
     "iast": "anumā",
-    "definition": "3A. 2P. To infer. It is inferred."
+    "definition": "3A. 2P. To infer. anumīyate It is inferred."
   },
   {
     "iast": "anumānam",
@@ -1149,7 +1149,7 @@
   },
   {
     "iast": "anyathā",
-    "definition": "ind . Otherwise, in another way or manner; falsely; wro ngly."
+    "definition": "indeclinable Otherwise, in another way or manner; falsely; wro ngly."
   },
   {
     "iast": "anyatra",
@@ -1173,7 +1173,7 @@
   },
   {
     "iast": "ap",
-    "definition": "plural Water."
+    "definition": "plural āpaḥ Water."
   },
   {
     "iast": "apa",
@@ -1205,7 +1205,7 @@
   },
   {
     "iast": "apakṣi",
-    "definition": "1. 5. 9P. To bring to an end, destroy. passive It declines, decays."
+    "definition": "1. 5. 9P. To bring to an end, destroy. passive apakṣiyate It declines, decays."
   },
   {
     "iast": "apalap",
@@ -1225,7 +1225,7 @@
   },
   {
     "iast": "apara",
-    "definition": "Without rival or second; other, another. Learning the four Vedas and six Angas ."
+    "definition": "Without rival or second; other, another. aparaḥ Learning the four Vedas and six Angas ."
   },
   {
     "iast": "apāra",
@@ -1357,7 +1357,7 @@
   },
   {
     "iast": "apūrva",
-    "definition": "Not having existed before; extraordinary. The adṛṣṭa results of an act."
+    "definition": "Not having existed before; extraordinary. apūrvam The adṛṣṭa results of an act."
   },
   {
     "iast": "apūrvatā",
@@ -1377,7 +1377,7 @@
   },
   {
     "iast": "ārabhya",
-    "definition": "ind . Beginning with; since."
+    "definition": "indeclinable Beginning with; since."
   },
   {
     "iast": "ārāmaḥ",
@@ -1397,7 +1397,7 @@
   },
   {
     "iast": "ārātrikam",
-    "definition": "Waving a light or the vessel containing it before an idol."
+    "definition": "Waving a light or the vessel containing it before an idol. ārāti."
   },
   {
     "iast": "arcanam",
@@ -1421,7 +1421,7 @@
   },
   {
     "iast": "arjuna",
-    "definition": "White; bright. Hero of the Pāṇḍava family, student of Kṛṣṇa in the Bhagavad Gītā."
+    "definition": "White; bright. arjunaḥ Hero of the Pāṇḍava family, student of Kṛṣṇa in the Bhagavad Gītā."
   },
   {
     "iast": "arkaḥ",
@@ -1469,7 +1469,7 @@
   },
   {
     "iast": "arthāt",
-    "definition": "( ablative of ind . As a matter of course, of course, in fact."
+    "definition": "( ablative of arthaḥ) indeclinable As a matter of course, of course, in fact."
   },
   {
     "iast": "arthavādaḥ",
@@ -1509,7 +1509,7 @@
   },
   {
     "iast": "aś",
-    "definition": "5A. To pervade, fill completely; to reach. It pervades."
+    "definition": "5A. To pervade, fill completely; to reach. aśnute It pervades."
   },
   {
     "iast": "āśā",
@@ -1537,7 +1537,7 @@
   },
   {
     "iast": "asambhava",
-    "definition": "Inconsistent; improbable. Non-existence; impossibility."
+    "definition": "Inconsistent; improbable. asambhavaḥ Non-existence; impossibility."
   },
   {
     "iast": "asambhāvanā",
@@ -1560,7 +1560,7 @@
     "definition": "Doubt, uncertainty ; fear, apprehension."
   },
   {
-    "iast": "asaṅkrānta",
+    "iast": "asaṃkrānta",
     "definition": "Not transmitted; unassociated."
   },
   {
@@ -1649,11 +1649,11 @@
   },
   {
     "iast": "aṣṭāṅga",
-    "definition": "Consisting of eight parts or letters; The eight parts of the body used in prostration."
+    "definition": "Consisting of eight parts or letters; aṣṭāṅgam The eight parts of the body used in prostration."
   },
   {
     "iast": "asthāne",
-    "definition": "ind . Out of place; inopportunely."
+    "definition": "indeclinable Out of place; inopportunely."
   },
   {
     "iast": "āstikaḥ",
@@ -1689,7 +1689,7 @@
   },
   {
     "iast": "ati",
-    "definition": "ind . Prefix used with adjectives and adverbs indicating excess, very, too; with verbs indicating over, beyond; with nouns indicating beyond, surpassing, superior to."
+    "definition": "indeclinable Prefix used with adjectives and adverbs indicating excess, very, too; with verbs indicating over, beyond; with nouns indicating beyond, surpassing, superior to."
   },
   {
     "iast": "atideśaḥ",
@@ -1741,7 +1741,7 @@
   },
   {
     "iast": "ātmya",
-    "definition": "Belonging to oneself; At the end of comp . Having the nature of."
+    "definition": "Belonging to oneself; At the end of compound Having the nature of."
   },
   {
     "iast": "atyanta",
@@ -1785,7 +1785,7 @@
   },
   {
     "iast": "av",
-    "definition": "1P. Protect. It protects."
+    "definition": "1P. Protect. avati It protects."
   },
   {
     "iast": "avabhās",
@@ -1833,7 +1833,7 @@
   },
   {
     "iast": "avagam",
-    "definition": "1P. To know; to go down; to come to. It is understood."
+    "definition": "1P. To know; to go down; to come to. avagamyate It is understood."
   },
   {
     "iast": "avagamaḥ",
@@ -1841,7 +1841,7 @@
   },
   {
     "iast": "avagata",
-    "definition": "Known, understood, learned. Knowledge."
+    "definition": "Known, understood, learned. avagataḥ Knowledge."
   },
   {
     "iast": "avagatiḥ",
@@ -1973,7 +1973,7 @@
   },
   {
     "iast": "āvṛ",
-    "definition": "5, 9, 10U. To cover, hide, conceal. It is covered."
+    "definition": "5, 9, 10U. To cover, hide, conceal. āvriyate It is covered."
   },
   {
     "iast": "avṛjina",
@@ -2057,7 +2057,7 @@
   },
   {
     "iast": "āyus",
-    "definition": "Life; duration of life. May you be long lived."
+    "definition": "Life; duration of life. āyuṣmān bhava May you be long lived."
   },
   {
     "iast": "ayutasiddha",
@@ -2073,7 +2073,7 @@
   },
   {
     "iast": "bādh",
-    "definition": "1A. To obstruct, interfere; to wrong, harass, disturb. It is negated."
+    "definition": "1A. To obstruct, interfere; to wrong, harass, disturb. bādhyate It is negated."
   },
   {
     "iast": "bādhaḥ",
@@ -2105,7 +2105,7 @@
   },
   {
     "iast": "bahudhā",
-    "definition": "ind . In many ways, variously; in different forms; fre quently."
+    "definition": "indeclinable In many ways, variously; in different forms; fre quently."
   },
   {
     "iast": "bahūdhakaḥ",
@@ -2169,7 +2169,7 @@
   },
   {
     "iast": "bhā",
-    "definition": "2P. To shine, be bright. It shines, is self-effulgent ( e.g. the sun or ātmā )."
+    "definition": "2P. To shine, be bright. bhāti It shines, is self-effulgent ( e.g. the sun or ātmā )."
   },
   {
     "iast": "bhā",
@@ -2276,12 +2276,12 @@
     "definition": "Difference; separation; duality; disturbance."
   },
   {
-    "iast": "bhi",
-    "definition": "3P. To fear, be afraid of. He fears."
+    "iast": "bhī",
+    "definition": "3P. To fear, be afraid of. bhibeti He fears."
   },
   {
     "iast": "bhid",
-    "definition": "1P. To divide or cut into parts; split, pierce. It is divided, split, separate from."
+    "definition": "1P. To divide or cut into parts; split, pierce. bhidyate It is divided, split, separate from."
   },
   {
     "iast": "bhikṣā",
@@ -2341,7 +2341,7 @@
   },
   {
     "iast": "bhujaṅgaḥ",
-    "definition": "A snake, serpent. Also and ."
+    "definition": "A snake, serpent. Also bhujaṅgam and bhujagaḥ ."
   },
   {
     "iast": "bhuk",
@@ -2377,7 +2377,7 @@
   },
   {
     "iast": "bhūyas",
-    "definition": "Comparative of More, larger."
+    "definition": "Comparative of bahu More, larger."
   },
   {
     "iast": "bījam",
@@ -2449,7 +2449,7 @@
   },
   {
     "iast": "budh",
-    "definition": "1U, 4A. To know, understand; to perceive; to wake, wake up ."
+    "definition": "1U, 4A. To know, understand; to perceive; to wake, wake up . bodhati budhyate ."
   },
   {
     "iast": "bṛhat",
@@ -2589,7 +2589,7 @@
   },
   {
     "iast": "chid",
-    "definition": "7U. To cut, break, split, divide."
+    "definition": "7U. To cut, break, split, divide. chinatti ciccheda."
   },
   {
     "iast": "chidram",
@@ -2621,7 +2621,7 @@
   },
   {
     "iast": "cira",
-    "definition": "Long, lasting a long time. A long time."
+    "definition": "Long, lasting a long time. ciram A long time."
   },
   {
     "iast": "cit",
@@ -2721,7 +2721,7 @@
   },
   {
     "iast": "dātṛ",
-    "definition": "Giving; Nom. sing Giver; donor."
+    "definition": "Giving; Nom. sing dātā Giver; donor."
   },
   {
     "iast": "dayā",
@@ -2765,7 +2765,7 @@
   },
   {
     "iast": "dhā",
-    "definition": "3U. To put, place; to fix or direct the mind on; to bestow, cause, create."
+    "definition": "3U. To put, place; to fix or direct the mind on; to bestow, cause, create. dadhāti hita."
   },
   {
     "iast": "dhairyam",
@@ -2933,7 +2933,7 @@
   },
   {
     "iast": "dṛś",
-    "definition": "1P. To see, look at, observe; to perceive with the mind, know."
+    "definition": "1P. To see, look at, observe; to perceive with the mind, know. paśyati dadarśa."
   },
   {
     "iast": "dṛṣṭa",
@@ -3001,7 +3001,7 @@
   },
   {
     "iast": "dvandvam",
-    "definition": "Pair; compound of two or more things which are tran slated with 'and.'; a type of"
+    "definition": "Pair; compound of two or more things which are tran slated with 'and.'; a type of samāsaḥ."
   },
   {
     "iast": "dvāram",
@@ -3017,7 +3017,7 @@
   },
   {
     "iast": "dvidhā",
-    "definition": "ind . In two parts; in two ways."
+    "definition": "indeclinable In two parts; in two ways."
   },
   {
     "iast": "dvijaḥ",
@@ -3061,7 +3061,7 @@
   },
   {
     "iast": "ekāntena",
-    "definition": "ind . Totally, wholly; solely, exclusively."
+    "definition": "indeclinable Totally, wholly; solely, exclusively."
   },
   {
     "iast": "ekāntika",
@@ -3129,7 +3129,7 @@
   },
   {
     "iast": "gandhaḥ",
-    "definition": "Smell; arrogance, pride; connection, relationship. Also"
+    "definition": "Smell; arrogance, pride; connection, relationship. Also gandham."
   },
   {
     "iast": "gandharvaḥ",
@@ -3285,7 +3285,7 @@
   },
   {
     "iast": "hā",
-    "definition": "3P. To leave, abandon, give up. To be given up."
+    "definition": "3P. To leave, abandon, give up. hātavya To be given up."
   },
   {
     "iast": "hānam",
@@ -3345,7 +3345,7 @@
   },
   {
     "iast": "hi",
-    "definition": "ind . Never at the start of a sentence ; Indeed; for; because; for instance."
+    "definition": "indeclinable Never at the start of a sentence ; Indeed; for; because; for instance."
   },
   {
     "iast": "hiṃsā",
@@ -3377,7 +3377,7 @@
   },
   {
     "iast": "hṛ",
-    "definition": "1U. To take, carry; to carry off or away; to captiv ate. ."
+    "definition": "1U. To take, carry; to carry off or away; to captiv ate. harati jahāra hriyate ."
   },
   {
     "iast": "hrasva",
@@ -3421,7 +3421,7 @@
   },
   {
     "iast": "idam",
-    "definition": "This, here, referring to something near the speaker ."
+    "definition": "This, here, referring to something near the speaker . ayam iyam."
   },
   {
     "iast": "idānīm",
@@ -3433,7 +3433,7 @@
   },
   {
     "iast": "iha",
-    "definition": "ind . Here; in this place or case; in this world."
+    "definition": "indeclinable Here; in this place or case; in this world."
   },
   {
     "iast": "īkṣaṇam",
@@ -3460,8 +3460,8 @@
     "definition": "Desired, wished for."
   },
   {
-    "iast": "iś",
-    "definition": "6P. To wish, desire; to choose. ."
+    "iast": "iṣ",
+    "definition": "6P. To wish, desire; to choose. icchati iṣṭa ."
   },
   {
     "iast": "īśaḥ",
@@ -3477,11 +3477,11 @@
   },
   {
     "iast": "īśat",
-    "definition": "ind . Slightly, to some extent, a little."
+    "definition": "indeclinable Slightly, to some extent, a little."
   },
   {
     "iast": "iṣṭam",
-    "definition": "Desired; beloved; worshipped; Vedic ritual or sacrifice ( p.p.p . of yaj )."
+    "definition": "Desired; beloved; worshipped; Vedic ritual or sacrifice ( past passive participle of yaj )."
   },
   {
     "iast": "iṣṭāpūrtam",
@@ -3516,7 +3516,7 @@
     "definition": "Inert object."
   },
   {
-    "iast": "jaḍiḥ",
+    "iast": "jaṭiḥ",
     "definition": "An assemblage, multitude; clotted hair."
   },
   {
@@ -3557,7 +3557,7 @@
   },
   {
     "iast": "jan",
-    "definition": "To be born, produced. is born."
+    "definition": "To be born, produced. jāyate is born."
   },
   {
     "iast": "janakaḥ",
@@ -3581,7 +3581,7 @@
   },
   {
     "iast": "japaḥ",
-    "definition": "Mental repetition. Also"
+    "definition": "Mental repetition. Also jāpaḥ."
   },
   {
     "iast": "jarā",
@@ -3601,7 +3601,7 @@
   },
   {
     "iast": "ji",
-    "definition": "1P. To conquer, defeat; to be victorious; surpass, excede; to win; to restrain, control."
+    "definition": "1P. To conquer, defeat; to be victorious; surpass, excede; to win; to restrain, control. jayati jita."
   },
   {
     "iast": "jihvā",
@@ -3629,7 +3629,7 @@
   },
   {
     "iast": "jñā",
-    "definition": "To know (in all senses), to learn, become acquaint ed with."
+    "definition": "To know (in all senses), to learn, become acquaint ed with. jānāti."
   },
   {
     "iast": "jñānādhyāsaḥ",
@@ -3669,7 +3669,7 @@
   },
   {
     "iast": "jñāpaka",
-    "definition": "Making known; teaching. A teacher. Precept; suggestive rule."
+    "definition": "Making known; teaching. jñāpakaḥ A teacher. jñāpakam Precept; suggestive rule."
   },
   {
     "iast": "jñaptiḥ",
@@ -3765,7 +3765,7 @@
   },
   {
     "iast": "kam",
-    "definition": "To love; to desire. it desired."
+    "definition": "To love; to desire. akāmayata it desired."
   },
   {
     "iast": "kāmaḥ",
@@ -3829,7 +3829,7 @@
   },
   {
     "iast": "karman",
-    "definition": "Nom. sing Action from free will; certain consequences of acti on; duty."
+    "definition": "Nom. sing karma. Action from free will; certain consequences of acti on; duty."
   },
   {
     "iast": "karmakāṇḍaḥ",
@@ -3877,7 +3877,7 @@
   },
   {
     "iast": "kaṣāyaḥ",
-    "definition": "Stain; coloration of the mindeclinable"
+    "definition": "Stain; coloration of the mind."
   },
   {
     "iast": "kaśmalam",
@@ -3921,7 +3921,7 @@
   },
   {
     "iast": "keśava",
-    "definition": "Having much or luxurious hair. An epithet of Viṣṇu ."
+    "definition": "Having much or luxurious hair. keśavaḥ An epithet of Viṣṇu ."
   },
   {
     "iast": "kevala",
@@ -3929,7 +3929,7 @@
   },
   {
     "iast": "khalu",
-    "definition": "ind . Indeed, certainly."
+    "definition": "indeclinable Indeed, certainly."
   },
   {
     "iast": "khilaḥ",
@@ -3941,7 +3941,7 @@
   },
   {
     "iast": "kila",
-    "definition": "ind . Verily, indeed, certainly; as they say."
+    "definition": "indeclinable Verily, indeed, certainly; as they say."
   },
   {
     "iast": "kiraṇaḥ",
@@ -3961,7 +3961,7 @@
   },
   {
     "iast": "klṛp",
-    "definition": "To be fit or adequate; to bring about, accomplish, produce. ; Causative –"
+    "definition": "To be fit or adequate; to bring about, accomplish, produce. kalpate ; Causative – kalpayati."
   },
   {
     "iast": "klṛpta",
@@ -3981,7 +3981,7 @@
   },
   {
     "iast": "kṛ",
-    "definition": "To do; to make, prepare, manufacture; to form, bui ld; to perform."
+    "definition": "To do; to make, prepare, manufacture; to form, bui ld; to perform. karoti kurute cakāra akṛta."
   },
   {
     "iast": "kramaḥ",
@@ -4029,7 +4029,7 @@
   },
   {
     "iast": "kṛṣ",
-    "definition": "1P. To draw, drag; draw towards oneself;"
+    "definition": "1P. To draw, drag; draw towards oneself; karṣati"
   },
   {
     "iast": "kṛṣṇa",
@@ -4044,7 +4044,7 @@
     "definition": "Done, made, accomplished."
   },
   {
-    "iast": "kṛtarthaḥ",
+    "iast": "kṛtārthaḥ",
     "definition": "One who has achieved his purpose."
   },
   {
@@ -4085,7 +4085,7 @@
   },
   {
     "iast": "kṣi",
-    "definition": "1P. To decay or waste; be diminished; passive"
+    "definition": "1P. To decay or waste; be diminished; passive kṣiyate."
   },
   {
     "iast": "kṣīṇa",
@@ -4201,7 +4201,7 @@
   },
   {
     "iast": "lī",
-    "definition": "To stick or adhere to; to be dissolved, melt away. Does not dissolve."
+    "definition": "To stick or adhere to; to be dissolved, melt away. na līyate Does not dissolve."
   },
   {
     "iast": "līlā",
@@ -4293,7 +4293,7 @@
   },
   {
     "iast": "mahat",
-    "definition": "Great; large; chief. Substitute for mahat at beginning of compounds."
+    "definition": "Great; large; chief. mahā Substitute for mahat at beginning of compounds."
   },
   {
     "iast": "mahāvākyam",
@@ -4309,7 +4309,7 @@
   },
   {
     "iast": "malaḥ",
-    "definition": "also Impurity; dirt."
+    "definition": "also malam Impurity; dirt."
   },
   {
     "iast": "malina",
@@ -4345,7 +4345,7 @@
   },
   {
     "iast": "maṇḍala",
-    "definition": "Round; circular. Circle; wheel; ring; globe; disc."
+    "definition": "Round; circular. maṇḍalam Circle; wheel; ring; globe; disc."
   },
   {
     "iast": "maṅgalam",
@@ -4373,7 +4373,7 @@
   },
   {
     "iast": "mānuṣya",
-    "definition": "Of or pertaining to humans. Humanity; human nature."
+    "definition": "Of or pertaining to humans. mānuṣyam Humanity; human nature."
   },
   {
     "iast": "maraṇam",
@@ -4409,7 +4409,7 @@
   },
   {
     "iast": "matiḥ",
-    "definition": "Intellect; understanding; mindeclinable"
+    "definition": "Intellect; understanding; mind."
   },
   {
     "iast": "mātṛ",
@@ -4417,7 +4417,7 @@
   },
   {
     "iast": "mātra",
-    "definition": "An affix to nouns in the sense of 'measuring as muc h as'; a measure of any kindeclinable"
+    "definition": "An affix to nouns in the sense of 'measuring as muc h as'; a measure of any kind."
   },
   {
     "iast": "mātram",
@@ -4425,7 +4425,7 @@
   },
   {
     "iast": "mātsaryam",
-    "definition": "Seeing excellence in another's possession, position , or disposition creates a discomfort in the mindeclinable"
+    "definition": "Seeing excellence in another's possession, position , or disposition creates a discomfort in the mind."
   },
   {
     "iast": "matsya",
@@ -4505,7 +4505,7 @@
   },
   {
     "iast": "mṛ",
-    "definition": "To die, perish It dies."
+    "definition": "To die, perish . mriyate It dies."
   },
   {
     "iast": "mṛd",
@@ -4513,7 +4513,7 @@
   },
   {
     "iast": "mṛṣā",
-    "definition": "ind . Falsely, wrongly. Mithyā ."
+    "definition": "indeclinable Falsely, wrongly. Mithyā ."
   },
   {
     "iast": "mṛttikā",
@@ -4529,7 +4529,7 @@
   },
   {
     "iast": "mudhā",
-    "definition": "ind . Wrongly, falsely; in vain, uselessly."
+    "definition": "indeclinable Wrongly, falsely; in vain, uselessly."
   },
   {
     "iast": "mudrā",
@@ -4717,7 +4717,7 @@
   },
   {
     "iast": "nī",
-    "definition": "To lead, carry, bring, take; to guide, direct, govern; to lead away, carry off. ."
+    "definition": "To lead, carry, bring, take; to guide, direct, govern; to lead away, carry off. nayati nayate ."
   },
   {
     "iast": "nibandhanam",
@@ -4725,7 +4725,7 @@
   },
   {
     "iast": "nidhā",
-    "definition": "To place, put, set down; to resolve, determine; to confide or entrust. Is resolved."
+    "definition": "To place, put, set down; to resolve, determine; to confide or entrust. nidhīyate Is resolved."
   },
   {
     "iast": "nidhānam",
@@ -4805,7 +4805,7 @@
   },
   {
     "iast": "nindā",
-    "definition": "also Criticism; blame; abuse; censure."
+    "definition": "also nindanam Criticism; blame; abuse; censure."
   },
   {
     "iast": "nindita",
@@ -4912,12 +4912,12 @@
     "definition": "Causeless, free of being a product."
   },
   {
-    "iast": "nirṇita",
+    "iast": "nirṇīta",
     "definition": "Determined, resolved, settled."
   },
   {
     "iast": "nirodhaḥ",
-    "definition": "also Control; restraint; obstruction; annihilation, dest ruction."
+    "definition": "also nirodhanam Control; restraint; obstruction; annihilation, dest ruction."
   },
   {
     "iast": "niruddha",
@@ -5037,7 +5037,7 @@
   },
   {
     "iast": "niḥśvāsaḥ",
-    "definition": "Inhaling; inspiration; breathing;"
+    "definition": "Inhaling; inspiration; breathing; niśvāsaḥ."
   },
   {
     "iast": "nitarām",
@@ -5061,7 +5061,7 @@
   },
   {
     "iast": "nivṛt",
-    "definition": "To come back, return; to turn away from; to cease; to be freed. ."
+    "definition": "To come back, return; to turn away from; to cease; to be freed. nivartate ."
   },
   {
     "iast": "nivṛtta",
@@ -5113,7 +5113,7 @@
   },
   {
     "iast": "pā",
-    "definition": "To drink;"
+    "definition": "To drink; pibati."
   },
   {
     "iast": "pādaḥ",
@@ -5181,7 +5181,7 @@
   },
   {
     "iast": "paṇḍita",
-    "definition": "Learned; wise; Scholar; sage."
+    "definition": "Learned; wise; paṇḍitaḥ Scholar; sage."
   },
   {
     "iast": "pāṇiḥ",
@@ -5209,7 +5209,7 @@
   },
   {
     "iast": "pāraḥ",
-    "definition": "also The fullest extent; the totality of anything; th e opposite bank of a river."
+    "definition": "also pāram The fullest extent; the totality of anything; th e opposite bank of a river."
   },
   {
     "iast": "parāk",
@@ -5225,7 +5225,7 @@
   },
   {
     "iast": "paramahaṃsaḥ",
-    "definition": "An ascetic of the highest order, one who has master ed his senses and accommodated his mindeclinable"
+    "definition": "An ascetic of the highest order, one who has master ed his senses and accommodated his mind."
   },
   {
     "iast": "paramāṇuḥ",
@@ -5257,7 +5257,7 @@
   },
   {
     "iast": "parampara",
-    "definition": "One following the other; succession; Teaching lineage."
+    "definition": "One following the other; succession; paramparā Teaching lineage."
   },
   {
     "iast": "pāramparyam",
@@ -5281,7 +5281,7 @@
   },
   {
     "iast": "paratas",
-    "definition": "ind . From another."
+    "definition": "indeclinable From another."
   },
   {
     "iast": "paravaśa",
@@ -5345,7 +5345,7 @@
   },
   {
     "iast": "pariṇāmaḥ",
-    "definition": "also Transformation; change."
+    "definition": "also parīṇāmaḥ Transformation; change."
   },
   {
     "iast": "pariniṣṭhita",
@@ -5409,7 +5409,7 @@
   },
   {
     "iast": "paścāt",
-    "definition": "ind . From behind; from the back; backwards; after."
+    "definition": "indeclinable From behind; from the back; backwards; after."
   },
   {
     "iast": "paścātāpaḥ",
@@ -5573,7 +5573,7 @@
   },
   {
     "iast": "prajā",
-    "definition": "Offspring, progeny; propagation; mankindeclinable"
+    "definition": "Offspring, progeny; propagation; mankind."
   },
   {
     "iast": "prajāpatiḥ",
@@ -5609,7 +5609,7 @@
   },
   {
     "iast": "prakāraḥ",
-    "definition": "also Manner; mode; sort; kind; variety; special quality."
+    "definition": "also prakāram Manner; mode; sort; kind; variety; special quality."
   },
   {
     "iast": "prakaraṇam",
@@ -5697,7 +5697,7 @@
   },
   {
     "iast": "pramātṛ",
-    "definition": "The knower, the conscious one; ."
+    "definition": "The knower, the conscious one; pramātā ."
   },
   {
     "iast": "pramodaḥ",
@@ -5737,15 +5737,15 @@
   },
   {
     "iast": "praṇidhānam",
-    "definition": "Respectful behavior with Éśvara in mindeclinable"
+    "definition": "Respectful behavior with Éśvara in mind."
   },
   {
     "iast": "prāṇin",
-    "definition": "Nom. sing. Man; a living creature; having prāṇaḥ ."
+    "definition": "Nom. sing. prāṇī Man; a living creature; having prāṇaḥ ."
   },
   {
     "iast": "prapad",
-    "definition": "To approach, go towards, take shelter, enter. They approach."
+    "definition": "To approach, go towards, take shelter, enter. prapadyante They approach."
   },
   {
     "iast": "prāpaka",
@@ -5781,7 +5781,7 @@
   },
   {
     "iast": "prasabham",
-    "definition": "ind . Forcefully; exceedingly."
+    "definition": "indeclinable Forcefully; exceedingly."
   },
   {
     "iast": "prasādaḥ",
@@ -5849,7 +5849,7 @@
   },
   {
     "iast": "prathama",
-    "definition": "First, foremost; The nominative case."
+    "definition": "First, foremost; prathamā The nominative case."
   },
   {
     "iast": "prati",
@@ -5857,11 +5857,11 @@
   },
   {
     "iast": "pratī",
-    "definition": "2P. To go back to; to approach; to reach, attain; to learn."
+    "definition": "2P. To go back to; to approach; to reach, attain; to learn. pratīyante."
   },
   {
     "iast": "pratibandhakaḥ",
-    "definition": "also Obstruction, obstacle; intervening factor."
+    "definition": "also pratibandhaḥ Obstruction, obstacle; intervening factor."
   },
   {
     "iast": "pratibhāsanam",
@@ -5893,7 +5893,7 @@
   },
   {
     "iast": "pratikūla",
-    "definition": "ind . Conversely; adversely."
+    "definition": "indeclinable Conversely; adversely."
   },
   {
     "iast": "pratikṣaṇam",
@@ -5937,7 +5937,7 @@
   },
   {
     "iast": "pratipattiḥ",
-    "definition": "Understanding; knowledge; meditation, upāsanam"
+    "definition": "Understanding; knowledge; meditation, upāsanam ."
   },
   {
     "iast": "pratiṣedhaḥ",
@@ -5949,7 +5949,7 @@
   },
   {
     "iast": "pratiṣidh",
-    "definition": "To prevent; prohibit, disallow, contradict. Is dismissed, negated."
+    "definition": "To prevent; prohibit, disallow, contradict. pratiṣidhyate Is dismissed, negated."
   },
   {
     "iast": "pratiṣṭhā",
@@ -6009,7 +6009,7 @@
   },
   {
     "iast": "pravartaka",
-    "definition": "Producing, causing; promoting, furthering; cause, originator."
+    "definition": "Producing, causing; promoting, furthering; pravartikā cause, originator."
   },
   {
     "iast": "praveśaḥ",
@@ -6125,7 +6125,7 @@
   },
   {
     "iast": "pṛthak",
-    "definition": "ind . Apart from; separate; distinct; without; with t he exception of; individual."
+    "definition": "indeclinable Apart from; separate; distinct; without; with t he exception of; individual."
   },
   {
     "iast": "pṛthivī",
@@ -6157,11 +6157,11 @@
   },
   {
     "iast": "puṃsa",
-    "definition": "A man, male being, mankindeclinable"
+    "definition": "A man, male being, mankind."
   },
   {
     "iast": "punar",
-    "definition": "indeclinable Again; once more; however; repeatedly; again and again."
+    "definition": "indeclinable Again; once more; however; punaḥ punaḥ repeatedly; again and again."
   },
   {
     "iast": "punaruktam",
@@ -6293,11 +6293,11 @@
   },
   {
     "iast": "rakṣ",
-    "definition": "To protect; to guard; to take care of; to tend. It protects."
+    "definition": "To protect; to guard; to take care of; to tend. rakṣati It protects."
   },
   {
     "iast": "rākṣasaḥ",
-    "definition": "fem. Demon; evil spirit."
+    "definition": "fem. rākṣasī Demon; evil spirit."
   },
   {
     "iast": "raktiḥ",
@@ -6385,7 +6385,7 @@
   },
   {
     "iast": "rudra",
-    "definition": "Terrible; formidable. Name of Çiva ; hymn addressed to Rudra ; deity of ahaṅkāraḥ ."
+    "definition": "Terrible; formidable. rudraḥ Name of Çiva ; hymn addressed to Rudra ; deity of ahaṅkāraḥ ."
   },
   {
     "iast": "rūpam",
@@ -6445,7 +6445,7 @@
   },
   {
     "iast": "sādhu",
-    "definition": "Good; virtuous; excellent; right A virtuous man."
+    "definition": "Good; virtuous; excellent; right ; sādhuḥ A virtuous man."
   },
   {
     "iast": "sādhya",
@@ -6525,11 +6525,11 @@
   },
   {
     "iast": "sakṛt",
-    "definition": "ind . Once; at one time; always."
+    "definition": "indeclinable Once; at one time; always."
   },
   {
     "iast": "sākṣāt",
-    "definition": "ind . Evidently; visibly; in comp . direct ( e.g. direct perception - to see with one's own eyes)."
+    "definition": "indeclinable Evidently; visibly; in compound direct ( e.g. direct perception - to see with one's own eyes)."
   },
   {
     "iast": "sākṣī",
@@ -6573,7 +6573,7 @@
   },
   {
     "iast": "śam",
-    "definition": "ind . An auspicious particle meaning happiness; prosperit y; success as part of a blessing."
+    "definition": "indeclinable An auspicious particle meaning happiness; prosperit y; success as part of a blessing."
   },
   {
     "iast": "sama",
@@ -6605,7 +6605,7 @@
   },
   {
     "iast": "śamaḥ",
-    "definition": "Management of the mindeclinable"
+    "definition": "Management of the mind."
   },
   {
     "iast": "samāhāraḥ",
@@ -6645,7 +6645,7 @@
   },
   {
     "iast": "samanta",
-    "definition": "Complete, entire; universal. Limit, boundary."
+    "definition": "Complete, entire; universal. samantaḥ Limit, boundary."
   },
   {
     "iast": "samantataḥ",
@@ -6701,7 +6701,7 @@
   },
   {
     "iast": "samatvam",
-    "definition": "Sameness; identity; similarity; equality. Also"
+    "definition": "Sameness; identity; similarity; equality. Also samatā."
   },
   {
     "iast": "samavasthā",
@@ -6832,7 +6832,7 @@
     "definition": "Introduction; entrance."
   },
   {
-    "iast": "samprkta",
+    "iast": "saṃpṛkta",
     "definition": "Blended, mixed, connected."
   },
   {
@@ -6929,7 +6929,7 @@
   },
   {
     "iast": "saṃvṛtiḥ",
-    "definition": "False; covering, covering up; hiding; covert design"
+    "definition": ". False; covering, covering up; hiding; covert design"
   },
   {
     "iast": "saṃvṛttiḥ",
@@ -6964,7 +6964,7 @@
     "definition": "Doubt, uncertainty."
   },
   {
-    "iast": "saṅdhānam",
+    "iast": "sandhānam",
     "definition": "Joining; uniting; compounding."
   },
   {
@@ -6981,7 +6981,7 @@
   },
   {
     "iast": "sandigdha",
-    "definition": "Doubtful; uncertain; mistaken for; confused. Doubt, uncertainty."
+    "definition": "Doubtful; uncertain; mistaken for; confused. sandigdham Doubt, uncertainty."
   },
   {
     "iast": "saṅgaḥ",
@@ -7048,7 +7048,7 @@
     "definition": "Contraction; closing; abridgement."
   },
   {
-    "iast": "saṇkocakaḥ",
+    "iast": "saṅkocakaḥ",
     "definition": "A restrictor; limiter; limitation."
   },
   {
@@ -7064,7 +7064,7 @@
     "definition": "Mixed up; filled; inconsistent."
   },
   {
-    "iast": "saṅmārgaḥ",
+    "iast": "sanmārgaḥ",
     "definition": "The true path; the path of truth."
   },
   {
@@ -7072,15 +7072,15 @@
     "definition": "Consisting of sat alone."
   },
   {
-    "iast": "saṅnidhiḥ",
+    "iast": "sannidhiḥ",
     "definition": "Proximity; vicinity; putting down together."
   },
   {
-    "iast": "saṅnikarṣaḥ",
+    "iast": "sannikarṣaḥ",
     "definition": "Vicinity; proximity; connection."
   },
   {
-    "iast": "saṅnikṛṣṭa",
+    "iast": "sannikṛṣṭa",
     "definition": "Near; adjacent."
   },
   {
@@ -7149,7 +7149,7 @@
   },
   {
     "iast": "sāram",
-    "definition": "also Essence."
+    "definition": "also sāraḥ Essence."
   },
   {
     "iast": "śaraṇam",
@@ -7213,7 +7213,7 @@
   },
   {
     "iast": "śāstṛ",
-    "definition": "A teacher."
+    "definition": "A teacher. śāstā."
   },
   {
     "iast": "śāstram",
@@ -7221,7 +7221,7 @@
   },
   {
     "iast": "śāśvata",
-    "definition": "Eternal; everlasting. ind Eternally, perpetually."
+    "definition": "Eternal; everlasting. śāśvatam indeclinable Eternally, perpetually."
   },
   {
     "iast": "sat",
@@ -7349,11 +7349,11 @@
   },
   {
     "iast": "śithilīkṛ",
-    "definition": "To loosen, unfasten; to relax, slacken; to weaken; to abandon; ."
+    "definition": "To loosen, unfasten; to relax, slacken; to weaken; to abandon; śithilīkaroti ."
   },
   {
     "iast": "śiva",
-    "definition": "Auspicious; pure; propitious; Lord Shiva."
+    "definition": "Auspicious; pure; propitious; śivaḥ Lord Shiva."
   },
   {
     "iast": "skandhaḥ",
@@ -7413,7 +7413,7 @@
   },
   {
     "iast": "spandita",
-    "definition": "Throbbing, pulsating; activity of the mindeclinable"
+    "definition": "Throbbing, pulsating; activity of the mind."
   },
   {
     "iast": "sparśaḥ",
@@ -7441,7 +7441,7 @@
   },
   {
     "iast": "sphuṭam",
-    "definition": "ind . Clearly; evidently."
+    "definition": "indeclinable Clearly; evidently."
   },
   {
     "iast": "spṛhā",
@@ -7481,7 +7481,7 @@
   },
   {
     "iast": "sṛj",
-    "definition": "To create, produce; to pour forth ."
+    "definition": "To create, produce; to pour forth ; sṛṣṭa asṛjata ."
   },
   {
     "iast": "śrotram",
@@ -7513,11 +7513,11 @@
   },
   {
     "iast": "stha",
-    "definition": "At the end of comp . Staying; existing; abiding."
+    "definition": "At the end of compound Staying; existing; abiding."
   },
   {
     "iast": "sthā",
-    "definition": "1P. To stand; to stay, abide; to remain; ."
+    "definition": "1P. To stand; to stay, abide; to remain; tiṣṭhati sthita ."
   },
   {
     "iast": "sthairyam",
@@ -7577,7 +7577,7 @@
   },
   {
     "iast": "su",
-    "definition": "ind . A particle often used with nouns, adjectives and ad verbs to give the sense of well, good, excellent."
+    "definition": "indeclinable A particle often used with nouns, adjectives and ad verbs to give the sense of well, good, excellent."
   },
   {
     "iast": "śubha",
@@ -7637,11 +7637,11 @@
   },
   {
     "iast": "sūkta",
-    "definition": "Well spoken; well said; Vedic hymn."
+    "definition": "Well spoken; well said; sūktam Vedic hymn."
   },
   {
     "iast": "śuktiḥ",
-    "definition": "Oyster shell, pearl-oyster also"
+    "definition": "Oyster shell, pearl-oyster ; also śuktikā."
   },
   {
     "iast": "sulabha",
@@ -7721,11 +7721,11 @@
   },
   {
     "iast": "svagata",
-    "definition": "ind . To oneself; of itself."
+    "definition": "indeclinable To oneself; of itself."
   },
   {
     "iast": "svāhā",
-    "definition": "ind . An exclamation used in offering oblations to the gods; salutation."
+    "definition": "indeclinable An exclamation used in offering oblations to the gods; salutation."
   },
   {
     "iast": "svakarman",
@@ -7749,7 +7749,7 @@
   },
   {
     "iast": "svar",
-    "definition": "ind . Heaven; Indra's heaven. Often : suaḥ"
+    "definition": "indeclinable Heaven; Indra's heaven. Often : suaḥ"
   },
   {
     "iast": "svaraḥ",
@@ -7837,7 +7837,7 @@
   },
   {
     "iast": "taddhita",
-    "definition": "A suffix added to create a secondary derivational form ( e.g. budh > buddha >"
+    "definition": "A suffix added to create a secondary derivational form ( e.g. budh > buddha > ) ."
   },
   {
     "iast": "taijasaḥ",
@@ -7929,7 +7929,7 @@
   },
   {
     "iast": "tathāpi",
-    "definition": "Even then, yet, still, nevertheless; often correlative of"
+    "definition": "Even then, yet, still, nevertheless; often correlative of yadyapi."
   },
   {
     "iast": "tātparyam",
@@ -7949,11 +7949,11 @@
   },
   {
     "iast": "tattvamasi",
-    "definition": "lit . 'You are that.' ; equation of self and brahman - a mahāvākya ."
+    "definition": "literally 'You are that.' ; equation of self and brahman - a mahāvākya ."
   },
   {
     "iast": "tattvataḥ",
-    "definition": "ind . Truely; accurately."
+    "definition": "indeclinable Truely; accurately."
   },
   {
     "iast": "tattvavit",
@@ -8001,7 +8001,7 @@
   },
   {
     "iast": "tiryak",
-    "definition": "ind . Obliquely; in a slanting direction; horizontal (said of animals as opposed to upright man)."
+    "definition": "indeclinable Obliquely; in a slanting direction; horizontal (said of animals as opposed to upright man)."
   },
   {
     "iast": "tithiḥ",
@@ -8112,7 +8112,7 @@
     "definition": "Declaration; narration; example; illustration; commencement."
   },
   {
-    "iast": "udana",
+    "iast": "udan",
     "definition": "Water."
   },
   {
@@ -8277,7 +8277,7 @@
   },
   {
     "iast": "upapad",
-    "definition": "To reach, approach, come near; to obtain; to happen ; it is tenable or possible."
+    "definition": "To reach, approach, come near; to obtain; to happen ; upapadyate it is tenable or possible."
   },
   {
     "iast": "upapadam",
@@ -8309,7 +8309,7 @@
   },
   {
     "iast": "upāsanam",
-    "definition": "also Meditation; worship; reflection."
+    "definition": "also upāsanā Meditation; worship; reflection."
   },
   {
     "iast": "upaśāntam",
@@ -8325,7 +8325,7 @@
   },
   {
     "iast": "upāsitṛ",
-    "definition": "Meditator; nominative singular ."
+    "definition": "Meditator; nominative singular upāsitā ."
   },
   {
     "iast": "upasthā",
@@ -8357,23 +8357,23 @@
   },
   {
     "iast": "upe",
-    "definition": "To arrive at, reach, approach. It approaches."
+    "definition": "To arrive at, reach, approach. upaiti It approaches."
   },
   {
     "iast": "ūrdhva",
-    "definition": "Heading upwards; elevated; ind . afterwards; above."
+    "definition": "Heading upwards; elevated; ūrdhvam indeclinable afterwards; above."
   },
   {
-    "iast": "urṇanābhaḥ",
+    "iast": "ūrṇanābhaḥ",
     "definition": "A spider."
   },
   {
     "iast": "uṣ",
-    "definition": "To burn; consume. having burned."
+    "definition": "To burn; consume. uṣitvā having burned."
   },
   {
     "iast": "uta",
-    "definition": "indeclinable A particle expressing doubt or alternative usually correlative: whether this or that."
+    "definition": "indeclinable A particle expressing doubt or alternative , usually correlative: whether this or that."
   },
   {
     "iast": "utkarṣaḥ",
@@ -8385,7 +8385,7 @@
   },
   {
     "iast": "utpādaka",
-    "definition": "Bringing about; producer, father; origin, cause."
+    "definition": "Bringing about; utpādakaḥ producer, father; utpādakam origin, cause."
   },
   {
     "iast": "utpādyam",
@@ -8437,7 +8437,7 @@
   },
   {
     "iast": "vā",
-    "definition": "ind . Or; indeed, truly."
+    "definition": "indeclinable Or; indeed, truly."
   },
   {
     "iast": "vacanam",
@@ -8649,7 +8649,7 @@
   },
   {
     "iast": "vaśaḥ",
-    "definition": "also Will; desire; contol; authority; influence; power."
+    "definition": "also vaśam Will; desire; contol; authority; influence; power."
   },
   {
     "iast": "vāsaḥ",
@@ -8665,7 +8665,7 @@
   },
   {
     "iast": "vasiṣṭhaḥ",
-    "definition": "or Name of a sage; name of the author of a smṛti ."
+    "definition": "or vaśiṣṭha Name of a sage; name of the author of a smṛti ."
   },
   {
     "iast": "vāstava",
@@ -8709,7 +8709,7 @@
   },
   {
     "iast": "veśaḥ",
-    "definition": "also Appearance; costume."
+    "definition": "also veṣaḥ Appearance; costume."
   },
   {
     "iast": "vetṛ",
@@ -8741,7 +8741,7 @@
   },
   {
     "iast": "vibhuḥ",
-    "definition": "All-pervasive; not spatially limited; powerful; cap able of. Lord, master."
+    "definition": "All-pervasive; not spatially limited; powerful; cap able of. vibhuḥ Lord, master."
   },
   {
     "iast": "vibhūta",
@@ -8773,7 +8773,7 @@
   },
   {
     "iast": "vid",
-    "definition": "2P. To know, understand, learn, ascertain; ."
+    "definition": "2P. To know, understand, learn, ascertain; vetti veda vidita ."
   },
   {
     "iast": "vidagdha",
@@ -8869,7 +8869,7 @@
   },
   {
     "iast": "viji",
-    "definition": "To conquer, defeat, overcome; surpass, excel, win."
+    "definition": "To conquer, defeat, overcome; surpass, excel, win. vijayate"
   },
   {
     "iast": "vijñaḥ",
@@ -8977,7 +8977,7 @@
   },
   {
     "iast": "vinā",
-    "definition": "ind . Without; except; in the absence of."
+    "definition": "indeclinable Without; except; in the absence of."
   },
   {
     "iast": "vināśaḥ",
@@ -9029,7 +9029,7 @@
   },
   {
     "iast": "vipaścita",
-    "definition": "Learned; wise. One who sees very clearly."
+    "definition": "Learned; wise. vipaścitaḥ One who sees very clearly."
   },
   {
     "iast": "vipraḥ",
@@ -9037,7 +9037,7 @@
   },
   {
     "iast": "vipratipad",
-    "definition": "To differ, be mutually opposed. It is contradicted."
+    "definition": "To differ, be mutually opposed. vipratipadyate It is contradicted."
   },
   {
     "iast": "vipratipattiḥ",
@@ -9269,7 +9269,7 @@
   },
   {
     "iast": "vraj",
-    "definition": "1P. To go to, to attain, to gain. He would gain."
+    "definition": "1P. To go to, to attain, to gain. vrajet He would gain."
   },
   {
     "iast": "vṛddhaḥ",
@@ -9281,7 +9281,7 @@
   },
   {
     "iast": "vṛdh",
-    "definition": "To grow; to increase; to continue; to rise; causative to cause to grow."
+    "definition": "To grow; to increase; to continue; to rise; causative vardhayati to cause to grow."
   },
   {
     "iast": "vṛjina",
@@ -9313,7 +9313,7 @@
   },
   {
     "iast": "vṛttiviśeṣaḥ",
-    "definition": "A particular frame of mindeclinable"
+    "definition": "A particular frame of mind."
   },
   {
     "iast": "vyabhicāraḥ",
@@ -9389,7 +9389,7 @@
   },
   {
     "iast": "viyāpya",
-    "definition": "To be pervaded. The sign or middle term of a logical syllogism."
+    "definition": "To be pervaded. viyāpyam The sign or middle term of a logical syllogism."
   },
   {
     "iast": "vyartha",
@@ -9453,7 +9453,7 @@
   },
   {
     "iast": "yadi",
-    "definition": "ind . If; whether."
+    "definition": "indeclinable If; whether."
   },
   {
     "iast": "yadṛcchā",
@@ -9501,7 +9501,7 @@
   },
   {
     "iast": "yathārthaḥ",
-    "definition": "ind . Truly; factually."
+    "definition": "indeclinable Truly; factually."
   },
   {
     "iast": "yathātmyam",
@@ -9509,7 +9509,7 @@
   },
   {
     "iast": "yathāvat",
-    "definition": "ind . According to rule; properly; duly."
+    "definition": "indeclinable According to rule; properly; duly."
   },
   {
     "iast": "yatiḥ",

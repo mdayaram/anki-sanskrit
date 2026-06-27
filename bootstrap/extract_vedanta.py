@@ -23,10 +23,15 @@ DECODE = {
     "ç": "ś", "ë": "ṇ", "å": "ṛ", "ö": "ṭ", "à": "ṃ", "ì": "ṅ", "ò": "ḍ",
 }
 
-ABBREV = {
-    "comp.": "compound", "ind.": "indeclinable", "lit.": "literally",
-    "nom. sing.": "nominative singular", "p.p.p.": "past passive participle",
-}
+# Word-boundary-anchored so "ind." inside "mind."/"kind."/"Blind." is NOT expanded.
+# Allows an optional space before the dot (a pypdf artifact: "ind .").
+ABBREV = [
+    (r"\bnom\s*\.\s*sing\s*\.", "nominative singular"),
+    (r"\bp\s*\.\s*p\s*\.\s*p\s*\.", "past passive participle"),
+    (r"\bcomp\s*\.", "compound"),
+    (r"\bind\s*\.", "indeclinable"),
+    (r"\blit\s*\.", "literally"),
+]
 
 IAST_OK = re.compile(r"[a-zāīūṛṝḷḹṅñṭḍṇśṣṃḥ'\- ]")
 
@@ -36,8 +41,8 @@ def decode_iast(s):
 
 
 def expand_abbrev(text):
-    for k, v in ABBREV.items():
-        text = text.replace(k, v)
+    for pat, v in ABBREV:
+        text = re.sub(pat, v, text)
     return text
 
 
@@ -67,15 +72,19 @@ def main():
     for (page, y), chunks in ordered:
         chunks.sort()  # by x
         is_entry = chunks and chunks[0][1] == HEAD and 86 <= chunks[0][0] <= 94
+        # Definition includes regular text (DEF), italics (ITAL), and inline bold
+        # Sanskrit forms (HEAD) that appear *after* the headword (verb conjugations,
+        # alternate forms). Only the Devanagari column (DEV) is dropped. HEAD/ITAL
+        # text is IAST and decoded.
         if is_entry:
             if current:
                 entries.append(current)
             iast = decode_iast(chunks[0][2].strip())
-            def_parts = [decode_iast(t) for x, f, t in chunks[1:] if f in (DEF, ITAL)]
+            def_parts = [decode_iast(t) for x, f, t in chunks[1:] if f in (HEAD, DEF, ITAL)]
             current = {"iast": iast, "def_parts": def_parts}
         elif current is not None:
             for x, f, t in chunks:
-                if f in (DEF, ITAL):
+                if f in (HEAD, DEF, ITAL):
                     current["def_parts"].append(decode_iast(t))
     if current:
         entries.append(current)
