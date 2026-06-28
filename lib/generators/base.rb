@@ -35,6 +35,12 @@ module Generators
     # Directory holding this generator's audio sources. Override for a different folder.
     def audio_dir = Paths::AUDIO_DIR
 
+    # Hook to make this generator's audio sources present on disk before they are
+    # copied into Anki (e.g. download a release archive). Default: nothing to do,
+    # since most decks' audio is committed. Called only when files are missing and
+    # the user has confirmed the copy. Override to populate audio_dir.
+    def ensure_audio!; end
+
     def run
       data = build
 
@@ -55,7 +61,8 @@ module Generators
         json: json_path,
         deck: deck,
         audio_files: audio_files(data),
-        audio_dir: audio_dir
+        audio_dir: audio_dir,
+        ensure_audio: method(:ensure_audio!)
       }
     end
 

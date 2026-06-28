@@ -2,6 +2,7 @@
 
 require_relative "base"
 require_relative "../gita"
+require_relative "../gita_audio_archive"
 
 module Generators
   # Bhagavad Gita verses. Pure transform over data/gita.json (produced by
@@ -20,6 +21,10 @@ module Generators
     def self.requires_letters? = false
     def deck = Anki::GITA_DECK
     def audio_dir = Paths::GITA_AUDIO_DIR
+
+    # The Gita mp3s are not committed (~289 MB); pull them from the GitHub release
+    # on demand so `--gita-verses` works without running fetch_gita.rb first.
+    def ensure_audio! = GitaAudioArchive.ensure_present!
 
     def build = Gita.load
 

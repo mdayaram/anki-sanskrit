@@ -96,7 +96,12 @@ puts
 # right directory. Stays data-driven — no category is hardcoded here.
 results.group_by { |r| r[:audio_dir] }.each do |source_dir, group|
   files = group.flat_map { |r| r[:audio_files] }
-  Media.copy_audio(files, source_dir: source_dir) # dedups and skips when empty
+  ensures = group.map { |r| r[:ensure_audio] }.compact
+  Media.copy_audio(
+    files,
+    source_dir: source_dir,                          # dedups and skips when empty
+    ensure_present: -> { ensures.each(&:call) }       # populate missing sources first
+  )
 end
 
 puts

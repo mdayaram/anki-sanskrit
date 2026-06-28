@@ -35,7 +35,11 @@ module Media
 
   # Prompt to copy the given audio filenames (relative names under data/audio)
   # into the discovered Anki media folder. No-op when nothing references audio.
-  def self.copy_audio(filenames, source_dir: Paths::AUDIO_DIR)
+  #
+  # `ensure_present` is an optional callable invoked once the user has confirmed
+  # the copy but only if some source files are missing — it gives a generator a
+  # chance to populate source_dir first (e.g. download a release archive).
+  def self.copy_audio(filenames, source_dir: Paths::AUDIO_DIR, ensure_present: nil)
     filenames = filenames.compact.uniq
     return false if filenames.empty?
 
@@ -67,6 +71,11 @@ module Media
       puts "  Skipped. Before importing, copy #{source_dir}/*.mp3 to:"
       puts "    #{target}/"
       return false
+    end
+
+    # Populate missing sources (e.g. download a release archive) before copying.
+    if ensure_present && filenames.any? { |name| !File.exist?(File.join(source_dir, name)) }
+      ensure_present.call
     end
 
     copied = 0
