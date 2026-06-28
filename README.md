@@ -1,116 +1,146 @@
-# Sanskrit Alphabet Anki Deck
+# Sanskrit Anki Decks
 
-A generator for [Anki](https://apps.ankiweb.net/) flashcards to learn the
-Sanskrit alphabet (Devanāgarī) — the basic letters, consonant+vowel syllables,
-conjunct ligatures, and anusvāra pronunciation. A single `main.rb` writes one
-tab-separated `.txt` file per category for you to import into Anki. All cards
-land in a single deck, **🕉️ Sanskrit Alphabet**, so you can import as many of the
-files as you like and they merge together.
+A set of [Anki](https://apps.ankiweb.net/) flashcard decks for learning Sanskrit —
+first the Devanāgarī alphabet, then a Vedānta vocabulary glossary, and finally the
+Bhagavad Gītā. The cards are generated from a few well-chosen, openly available
+sources (see **[Sources & Acknowledgements](#sources--acknowledgements)** below —
+these decks exist only thanks to the people and projects who made that material
+freely available).
 
-There is also a separate **🕉️ Bhagavad Gita** deck for reading practice on whole
-verses (Devanāgarī front; transliteration, two English translations, and a
-recitation clip on the back) — see [Bhagavad Gita verse deck](#bhagavad-gita-verse-deck).
+You don't have to generate anything to get started: all the source data is
+already committed to this repo, so you can build the import files and load them
+into Anki right away.
 
-The source data the alphabet scripts read (`data/letters.json` and the
-pronunciation mp3s in `data/audio/`) is already committed to the repo, so you can
-generate those import files right away. The Bhagavad Gita data is fetched
-separately with `fetch_gita.rb` (see below).
+## The decks
 
-## Prerequisites
+There are three decks, designed to be learned in order — each one builds on the
+last. They're independent, though, so you can generate and import any of them on
+their own.
 
-- Ruby (any reasonably recent version) — the generators use only the standard
-  library.
+### 1. 🕉️ Sanskrit Alphabet — learn to read the script
 
-## Generating the import files
+Start here. These are the building blocks of written Sanskrit:
 
-Run `main.rb` from the repository root. Flags pick which categories to
-generate, and they combine:
+| File | Cards | What it covers |
+| --- | --- | --- |
+| Basic letters | 50 | Every vowel and consonant, with **pronunciation audio**, romanization, grammatical notes, and learning tips. |
+| Combinations | 378 | Consonant + vowel syllables (का, कि, कं …), limited to the ones that actually occur in the Mahābhārata. |
+| Conjuncts | 89 | The most common conjunct ligatures (प्र, क्त, स्त्र …). |
+| Anusvāra | 36 | How the anusvāra (ं) is pronounced — one card per following consonant. |
+
+### 2. 🕉️ Vedanta Glossary — build vocabulary
+
+Once you can read the script, start recognizing words: 2,393 common Vedānta terms.
+Front: Devanāgarī. Back: IAST transliteration and an English meaning. (No audio.)
+
+### 3. 🕉️ Bhagavad Gita — read whole verses
+
+With the script and a base vocabulary in hand, move on to real text: 640 cards of
+whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
+a literal and a devotional English translation, and a recitation audio clip.
+
+## Getting started
+
+You'll need [Anki](https://apps.ankiweb.net/) and Ruby (any reasonably recent
+version — the generator uses only Ruby's standard library, no gems to install).
+
+Run `main.rb` from the repository root to build the import files. Flags pick which
+decks to generate, and they combine:
 
 ```bash
-./main.rb --all                    # generate every category
-./main.rb --basic --combinations   # generate a subset
-./main.rb --list                   # list categories
+./main.rb --all                    # generate everything
+./main.rb --basic --combinations   # just a couple of categories
+./main.rb --list                   # see all available categories
 ./main.rb --help
 ```
 
-| Flag | File | Cards | Contents |
-| --- | --- | --- | --- |
-| `--basic` | `sanskrit_anki.txt` | 50 | Each vowel and consonant, with pronunciation **audio**, romanization, grammatical properties, and tips. |
-| `--combinations` | `sanskrit_combinations_anki.txt` | 378 | Consonant + vowel syllables (का, कि, कं …), pruned to those that actually occur in the Mahābhārata corpus. |
-| `--conjuncts` | `sanskrit_conjuncts_anki.txt` | 89 | The most common conjunct ligatures / saṃyuktākṣara (प्र, क्त, स्त्र …). |
-| `--anusvara` | `sanskrit_anusvara_anki.txt` | 36 | Anusvāra (ं) pronunciation — one card per following consonant — plus the few attested standalone vowel+mark forms. |
-| `--gita-verses` | `sanskrit_gita_verses_anki.txt` | 640 | Bhagavad Gita verses (separate **🕉️ Bhagavad Gita** deck), grouped to match bhagavadgita.com, with JKYog recitation **audio**. Requires running `fetch_gita.rb` first — see below. |
-| `--vedanta` | `sanskrit_vedanta_anki.txt` | 2393 | Vedanta glossary terms (separate **🕉️ Vedanta Glossary** deck): Devanagari front, IAST + English meaning back. No audio. Source data committed in `data/vedanta.json`. |
+| Flag | Generates |
+| --- | --- |
+| `--basic` | Basic alphabet letters (with audio) |
+| `--combinations` | Consonant + vowel syllables |
+| `--conjuncts` | Conjunct ligatures |
+| `--anusvara` | Anusvāra pronunciation |
+| `--vedanta` | Vedānta glossary |
+| `--gita-verses` | Bhagavad Gītā verses |
 
-### Bhagavad Gita verse deck
+All the data these flags read is already in the repo, so they all work right away.
 
-```bash
-ruby fetch_gita.rb            # download verses + recitation audio -> data/
-./main.rb --gita-verses       # generate sanskrit_gita_verses_anki.txt
-```
+### A note on audio
 
-`fetch_gita.rb` is a standalone networked step (like `scrape_sanskrit.rb`) that
-downloads the open [gita/gita](https://github.com/gita/gita) dataset, merges
-verses into bhagavadgita.com's canonical groups (e.g. 1.4–6 become one card), and
-downloads the JKYog (Swami Mukundananda) recitation mp3s into `data/gita.json` +
-`data/gita_audio/` (re-running skips files already downloaded; clear the folder to
-re-download). Then `./main.rb --gita-verses` builds the **🕉️ Bhagavad Gita** deck:
-front = the Devanāgarī verse(s); back = IAST transliteration, a literal
-translation (Swami Gambirananda), a devotional translation (Swami Sivananda), and
-a recitation audio clip. The two translation authors are configurable at the top
-of `fetch_gita.rb`.
+Two decks include audio: the basic alphabet (letter pronunciations) and the
+Bhagavad Gītā (verse recitations). After generating one of these, `main.rb` will
+**ask you** before copying the mp3s into your Anki media folder — answer `y` so the
+audio plays after import.
 
-### Vedanta glossary word deck
-
-```bash
-./main.rb --vedanta            # generate sanskrit_vedanta_anki.txt
-```
-
-A deck of ~2,393 common Vedanta Sanskrit terms (front: Devanāgarī; back: IAST +
-English meaning, no audio), built from Swami Dayananda Saraswati's
-Vedanta-Sanskrit glossary. The term data lives in `data/vedanta.json` (already
-committed and dictionary-verified), so **no fetch step is needed** — just
-generate and import.
-
-### Audio
-
-Categories with `[sound:…]` tags (`--basic` and `--gita-verses`) **prompt you** to
-copy the mp3s into your Anki media folder after generating — answer `y` so the
-audio works after import. Each category copies from its own folder (`data/audio/`
-for the alphabet, `data/gita_audio/` for the Gita).
-
-> `main.rb` finds your Anki media folder automatically — it checks the standard
-> locations for macOS, Windows, and Linux (including Flatpak) and prefers Anki's
-> default "User 1" profile. If it can't find it, or you want a specific profile,
-> set the `ANKI_MEDIA_DIR` environment variable to the full path of your
-> `collection.media` folder (e.g. `ANKI_MEDIA_DIR="…/collection.media" ./main.rb
-> --basic`), or answer `n` and copy `data/audio/*.mp3` in yourself.
+It finds your Anki media folder automatically on macOS, Windows, and Linux (it
+prefers Anki's default "User 1" profile). If it can't find it, or you use a
+different profile, point it at the right place with the `ANKI_MEDIA_DIR`
+environment variable (the full path to your `collection.media` folder), or answer
+`n` and copy the mp3s in yourself.
 
 ## Importing into Anki
 
-For each `.txt` file you generated:
+For each file you generated:
 
 1. Open Anki.
 2. **File → Import** and select the file.
-3. The file's header sets the deck (**🕉️ Sanskrit Alphabet**, or **🕉️ Bhagavad
-   Gita** for the verse file), note type (**Basic**), and field mapping
-   automatically, so just click **Import**.
+3. Each file already knows its deck, note type, and field mapping, so just click
+   **Import**.
 
-The files set a stable GUID column, so re-importing an updated file **updates**
-the existing cards rather than creating duplicates.
+The files include a stable ID for every card, so if you regenerate a file and
+re-import it, Anki **updates** your existing cards instead of creating duplicates.
 
-## Notes
+## Sources & Acknowledgements
 
-- `sanskrit_anki.txt` (the basic alphabet) and `sanskrit_gita_verses_anki.txt`
-  (the Gita verses) have audio; the other alphabet decks are text-only.
-- `main.rb` requires only the Ruby standard library. The alphabet source data is
-  already committed; to re-fetch it, run `bundle exec ruby scrape_sanskrit.rb`
-  (needs the `nokogiri` gem from the `Gemfile`). The Bhagavad Gita data is fetched
-  with `ruby fetch_gita.rb` (standard library only). Both are the only steps that
-  touch the network.
-- Unit tests for the shared primitives and pure transforms live in `test/`
-  (minitest, a Ruby default gem); run a file with `ruby test/<name>_test.rb`.
-  There is no linter or build step. The categories live in `lib/generators/`;
-  shared card/IO helpers live in `lib/`.
-- See [`CLAUDE.md`](CLAUDE.md) for how the data and card generation work
-  internally.
+These decks are built almost entirely on the generous work of others. Enormous
+thanks to everyone below — please visit and support the original sources.
+
+### The alphabet
+
+- **[Enjoy Learning Sanskrit — Sanskrit Alphabet Tutor](https://enjoylearningsanskrit.com/sanskrit-alphabet-tutor/)**
+  — the letters, romanization, grammatical properties, and pronunciation tips for
+  the basic alphabet deck.
+- **[Kautukam Sanskrit Server](https://sanskritserver.kautukam.com/)** — the
+  per-letter pronunciation audio.
+- **[Wikipedia: Devanagari conjuncts](https://en.wikipedia.org/wiki/Devanagari_conjuncts)**
+  — used to validate every conjunct ligature, and the home of Ulrich Stiehl's
+  Mahābhārata corpus frequency counts (originally from
+  [sanskritweb.net](https://www.sanskritweb.net/)) that decide which syllables and
+  conjuncts are common enough to be worth learning.
+- **[Wikipedia: Anusvara](https://en.wikipedia.org/wiki/Anusvara)** and
+  **[ashtangayoga.info](https://www.ashtangayoga.info/)** — the anusvāra
+  pronunciation rules.
+
+### The Vedānta glossary
+
+- **[Vedanta-Sanskrit Glossary](https://arshabodha.org/wp-content/uploads/abc/teachings/Vedanta-Sanskrit-Glossary.pdf)**
+  (compiled by John Warne from the vocabulary used by **Pujya Swami Dayananda
+  Saraswati**), published by the
+  **[Arsha Bodha Center](https://arshabodha.org/)** — the source of every glossary
+  term and its meaning.
+- **[Monier-Williams Sanskrit Dictionary](https://www.sanskrit-lexicon.uni-koeln.de/)**
+  (Cologne Digital Sanskrit Dictionaries) — used to verify the glossary headwords.
+
+### The Bhagavad Gītā
+
+- **[gita/gita open dataset](https://github.com/gita/gita)** — the verse text,
+  transliteration, word-by-word meanings, and English translations. The literal
+  translation is by **Swami Gambirananda** and the devotional one by **Swami
+  Sivananda**.
+- **[BhagavadGita.com](https://www.bhagavadgita.com/)** (Swami Mukundananda's
+  edition) — the canonical verse grouping used to combine related verses onto a
+  single card.
+- **[JKYog Gita audio](https://gita-audio.jkyog.org/)** — the verse recitation
+  (Swami Mukundananda).
+
+### Tools
+
+- **[Anki](https://apps.ankiweb.net/)** — the wonderful open-source
+  spaced-repetition software these decks are made for.
+
+## Under the hood
+
+Curious how the cards are generated, or want to re-fetch the source data yourself?
+See **[`CLAUDE.md`](CLAUDE.md)** for a full tour of the pipeline (including the
+Bhagavad Gītā recitation audio, which is downloaded separately), and the `test/`
+directory for the unit tests.
