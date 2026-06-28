@@ -1,8 +1,9 @@
 # Sanskrit Anki Decks
 
 A set of [Anki](https://apps.ankiweb.net/) flashcard decks for learning Sanskrit —
-first the Devanāgarī alphabet, then a Vedānta vocabulary glossary, and finally the
-Bhagavad Gītā. The cards are generated from a few well-chosen, openly available
+first the Devanāgarī alphabet, then a Vedānta vocabulary glossary, then the vowel
+sandhi rules, and finally the Bhagavad Gītā. The cards are generated from a few
+well-chosen, openly available
 sources (see **[Sources & Acknowledgements](#sources--acknowledgements)** below —
 these decks exist only thanks to the people and projects who made that material
 freely available).
@@ -13,7 +14,7 @@ into Anki right away.
 
 ## The decks
 
-There are three decks, designed to be learned in order — each one builds on the
+There are four decks, designed to be learned in order — each one builds on the
 last. They're independent, though, so you can generate and import any of them on
 their own.
 
@@ -33,7 +34,18 @@ Start here. These are the building blocks of written Sanskrit:
 Once you can read the script, start recognizing words: 2,393 common Vedānta terms.
 Front: Devanāgarī. Back: IAST transliteration and an English meaning. (No audio.)
 
-### 3. 🕉️ Bhagavad Gita — read whole verses
+### 3. 🕉️ Sanskrit Sandhi — learn how words fuse
+
+Running Sanskrit fuses adjacent sounds at their boundaries, so a verse rarely
+shows its words in isolation. This deck teaches the five vowel (svara) sandhis
+plus the avagraha rule — 38 cards. Front: the two parts in Devanāgarī (देव इन्द्र).
+Back: the combined form (देवेन्द्र), the IAST for the parts and the whole, which
+sandhi applied, a brief statement of its rule, and the context — whether the
+sandhi happens between two words, inside a compound, or within a single word
+(which matters: the same vowels can combine differently across a word boundary
+than inside a word). No audio.
+
+### 4. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
@@ -61,6 +73,7 @@ decks to generate, and they combine:
 | `--conjuncts` | Conjunct ligatures |
 | `--anusvara` | Anusvāra pronunciation |
 | `--vedanta` | Vedānta glossary |
+| `--sandhi` | Vowel sandhi word pairs |
 | `--gita-verses` | Bhagavad Gītā verses |
 
 All the data these flags read is already in the repo, so they all work right away.
