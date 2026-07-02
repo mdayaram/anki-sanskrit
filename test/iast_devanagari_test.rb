@@ -40,6 +40,29 @@ class IastDevanagariTest < Minitest::Test
     assert_equal "अभावः", fwd("abhāvaḥ")
   end
 
+  def test_to_iast_anusvara_before_stop_is_homorganic
+    # Anusvara realises as the nasal homorganic with the following stop.
+    assert_equal "ahaṅkāraḥ", rev("अहंकारः")  # before क (guttural) -> ṅ
+    assert_equal "sambandhaḥ", rev("संबन्धः")  # before ब (labial)   -> m
+    assert_equal "sañjñā", rev("संज्ञा")       # before ज (palatal)  -> ñ
+  end
+
+  def test_to_iast_anusvara_before_nonstop_stays_m
+    # Before a sibilant/semivowel/ha (or word boundary) it stays ṃ.
+    assert_equal "saṃsāraḥ", rev("संसारः")     # before स (sibilant)
+    assert_equal "saṃyogaḥ", rev("संयोगः")     # before य (semivowel)
+  end
+
+  def test_valid_pair_accepts_anusvara_and_explicit_spellings
+    # Both spellings of a homorganic cluster are valid for the same IAST.
+    assert IastDevanagari.valid_pair?("ahaṅkāraḥ", "अहंकारः")   # anusvara
+    assert IastDevanagari.valid_pair?("ahaṅkāraḥ", "अहङ्कारः")  # explicit ṅ+क
+  end
+
+  def test_valid_pair_rejects_mismatched_devanagari
+    refute IastDevanagari.valid_pair?("ahaṅkāraḥ", "अभावः")
+  end
+
   def test_real_headwords
     assert_equal "ज्ञानम्", fwd("jñānam")
     assert_equal "ब्रह्मन्", fwd("brahman")
@@ -47,7 +70,7 @@ class IastDevanagariTest < Minitest::Test
   end
 
   def test_round_trip
-    %w[abhāvaḥ mokṣaḥ jñānam ātmā ahaṃkāraḥ jagat brahman vivekaḥ saṃsāraḥ].each do |w|
+    %w[abhāvaḥ mokṣaḥ jñānam ātmā ahaṅkāraḥ jagat brahman vivekaḥ saṃsāraḥ].each do |w|
       assert_equal w, rev(fwd(w)), "round-trip failed for #{w}"
     end
   end

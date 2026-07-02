@@ -112,7 +112,7 @@ vedanta:agra	<center><big><big><big>अग्र</big></big></big></center>	<b>a
 vedanta:āgrahaḥ	<center><big><big><big>आग्रहः</big></big></big></center>	<b>āgrahaḥ</b><br><br>Seizing, taking; strong attachment.
 vedanta:agrahaṇam	<center><big><big><big>अग्रहणम्</big></big></big></center>	<b>agrahaṇam</b><br><br>Not grasping, non-comprehension.
 vedanta:agrīya	<center><big><big><big>अग्रीय</big></big></big></center>	<b>agrīya</b><br><br>Foremost, best, excellent.
-vedanta:ahaṃkāraḥ	<center><big><big><big>अहंकारः</big></big></big></center>	<b>ahaṃkāraḥ</b><br><br>Sense of self; self-image; ego.
+vedanta:ahaṅkāraḥ	<center><big><big><big>अहंकारः</big></big></big></center>	<b>ahaṅkāraḥ</b><br><br>Sense of self; self-image; ego.
 vedanta:āhavanīyaḥ	<center><big><big><big>आहवनीयः</big></big></big></center>	<b>āhavanīyaḥ</b><br><br>One of the three fires burning at a sacrifice; a consecrated fire.
 vedanta:ahiṃsā	<center><big><big><big>अहिंसा</big></big></big></center>	<b>ahiṃsā</b><br><br>Abstaining from killing or harming others in thought, word, or deed.
 vedanta:āhutiḥ	<center><big><big><big>आहुतिः</big></big></big></center>	<b>āhutiḥ</b><br><br>Offering; oblation.
@@ -156,7 +156,7 @@ vedanta:akṣita	<center><big><big><big>अक्षित</big></big></big></ce
 vedanta:alam	<center><big><big><big>अलम्</big></big></big></center>	<b>alam</b><br><br>indeclinable Enough.
 vedanta:ālambanam	<center><big><big><big>आलम्बनम्</big></big></big></center>	<b>ālambanam</b><br><br>Symbol; support; something loaded with something else.
 vedanta:alambuddhiḥ	<center><big><big><big>अलम्बुद्धिः</big></big></big></center>	<b>alambuddhiḥ</b><br><br>False notion; sense of satisfaction.
-vedanta:alaṃkāraḥ	<center><big><big><big>अलंकारः</big></big></big></center>	<b>alaṃkāraḥ</b><br><br>Decoration, ornament; act of decorating.
+vedanta:alaṅkāraḥ	<center><big><big><big>अलंकारः</big></big></big></center>	<b>alaṅkāraḥ</b><br><br>Decoration, ornament; act of decorating.
 vedanta:alāta	<center><big><big><big>अलात</big></big></big></center>	<b>alāta</b><br><br>Fire-brand, torch.
 vedanta:ālocanam	<center><big><big><big>आलोचनम्</big></big></big></center>	<b>ālocanam</b><br><br>Inquiry; analysis; perceiving.
 vedanta:ālokaḥ	<center><big><big><big>आलोकः</big></big></big></center>	<b>ālokaḥ</b><br><br>Light; seeing; appearance.
@@ -394,7 +394,7 @@ vedanta:āsanam	<center><big><big><big>आसनम्</big></big></big></center
 vedanta:asandigdha	<center><big><big><big>असन्दिग्ध</big></big></big></center>	<b>asandigdha</b><br><br>Not leaving any doubt, certain; distinct.
 vedanta:asaṅgaḥ	<center><big><big><big>असङ्गः</big></big></big></center>	<b>asaṅgaḥ</b><br><br>Unattached.
 vedanta:āśaṅkā	<center><big><big><big>आशङ्का</big></big></big></center>	<b>āśaṅkā</b><br><br>Doubt, uncertainty; fear, apprehension.
-vedanta:asaṃkrānta	<center><big><big><big>असंक्रान्त</big></big></big></center>	<b>asaṃkrānta</b><br><br>Not transmitted; unassociated.
+vedanta:asaṅkrānta	<center><big><big><big>असंक्रान्त</big></big></big></center>	<b>asaṅkrānta</b><br><br>Not transmitted; unassociated.
 vedanta:asat	<center><big><big><big>असत्</big></big></big></center>	<b>asat</b><br><br>Neither self-existent nor non-existent.
 vedanta:asatkāryavāda	<center><big><big><big>असत्कार्यवाद</big></big></big></center>	<b>asatkāryavāda</b><br><br>The Vaisheshika philosophy.
 vedanta:aśāśvata	<center><big><big><big>अशाश्वत</big></big></big></center>	<b>aśāśvata</b><br><br>Perishable, transient.
@@ -1681,15 +1681,15 @@ vedanta:samaṣṭiḥ	<center><big><big><big>समष्टिः</big></big><
 vedanta:samatvam	<center><big><big><big>समत्वम्</big></big></big></center>	<b>samatvam</b><br><br>Sameness; identity; similarity; equality. Also samatā.
 vedanta:samavasthā	<center><big><big><big>समवस्था</big></big></big></center>	<b>samavasthā</b><br><br>Equilibrium, fixed state, similar condition.
 vedanta:samavāyaḥ	<center><big><big><big>समवायः</big></big></big></center>	<b>samavāyaḥ</b><br><br>Combination; union; aggregate; multitude; close connection.
-vedanta:saṃbaddha	<center><big><big><big>संबद्ध</big></big></big></center>	<b>saṃbaddha</b><br><br>Bound or fastened together; connected with, related to; endowed with.
-vedanta:saṃbandhaḥ	<center><big><big><big>संबन्धः</big></big></big></center>	<b>saṃbandhaḥ</b><br><br>Connection; association; relationship.
-vedanta:saṃbhavaḥ	<center><big><big><big>संभवः</big></big></big></center>	<b>saṃbhavaḥ</b><br><br>Birth, production, arising; cause, origin; compatability, agreement.
-vedanta:saṃbhāvanā	<center><big><big><big>संभावना</big></big></big></center>	<b>saṃbhāvanā</b><br><br>Supposition; considering; adequacy.
-vedanta:saṃbhinna	<center><big><big><big>संभिन्न</big></big></big></center>	<b>saṃbhinna</b><br><br>United or combined with; completely broken
-vedanta:saṃbhūtiḥ	<center><big><big><big>संभूतिः</big></big></big></center>	<b>saṃbhūtiḥ</b><br><br>Power; birth; union; suitability; knowledge.
-vedanta:saṃbodhaḥ	<center><big><big><big>संबोधः</big></big></big></center>	<b>saṃbodhaḥ</b><br><br>Instruction, explaining.
-vedanta:saṃbuddhaḥ	<center><big><big><big>संबुद्धः</big></big></big></center>	<b>saṃbuddhaḥ</b><br><br>Wisdom, knowledge.
-vedanta:saṃbuddhiḥ	<center><big><big><big>संबुद्धिः</big></big></big></center>	<b>saṃbuddhiḥ</b><br><br>Perfect knowledge or perception; consciousness; addressing.
+vedanta:sambaddha	<center><big><big><big>संबद्ध</big></big></big></center>	<b>sambaddha</b><br><br>Bound or fastened together; connected with, related to; endowed with.
+vedanta:sambandhaḥ	<center><big><big><big>संबन्धः</big></big></big></center>	<b>sambandhaḥ</b><br><br>Connection; association; relationship.
+vedanta:sambhavaḥ	<center><big><big><big>संभवः</big></big></big></center>	<b>sambhavaḥ</b><br><br>Birth, production, arising; cause, origin; compatability, agreement.
+vedanta:sambhāvanā	<center><big><big><big>संभावना</big></big></big></center>	<b>sambhāvanā</b><br><br>Supposition; considering; adequacy.
+vedanta:sambhinna	<center><big><big><big>संभिन्न</big></big></big></center>	<b>sambhinna</b><br><br>United or combined with; completely broken
+vedanta:sambhūtiḥ	<center><big><big><big>संभूतिः</big></big></big></center>	<b>sambhūtiḥ</b><br><br>Power; birth; union; suitability; knowledge.
+vedanta:sambodhaḥ	<center><big><big><big>संबोधः</big></big></big></center>	<b>sambodhaḥ</b><br><br>Instruction, explaining.
+vedanta:sambuddhaḥ	<center><big><big><big>संबुद्धः</big></big></big></center>	<b>sambuddhaḥ</b><br><br>Wisdom, knowledge.
+vedanta:sambuddhiḥ	<center><big><big><big>संबुद्धिः</big></big></big></center>	<b>sambuddhiḥ</b><br><br>Perfect knowledge or perception; consciousness; addressing.
 vedanta:saṃhāraḥ	<center><big><big><big>संहारः</big></big></big></center>	<b>saṃhāraḥ</b><br><br>Dissolution; drawing together; contraction; destruction.
 vedanta:saṃhata	<center><big><big><big>संहत</big></big></big></center>	<b>saṃhata</b><br><br>Firmly united; closed; compact; firm; combined; joined.
 vedanta:saṃhatiḥ	<center><big><big><big>संहतिः</big></big></big></center>	<b>saṃhatiḥ</b><br><br>Combination; union; close contact.
@@ -1698,20 +1698,20 @@ vedanta:samidh	<center><big><big><big>समिध्</big></big></big></center>
 vedanta:samīpa	<center><big><big><big>समीप</big></big></big></center>	<b>samīpa</b><br><br>Near, close by, adjacent.
 vedanta:sāmīpyam	<center><big><big><big>सामीप्यम्</big></big></big></center>	<b>sāmīpyam</b><br><br>Nearness; proximity; vicinity.
 vedanta:samithaḥ	<center><big><big><big>समिथः</big></big></big></center>	<b>samithaḥ</b><br><br>Oblation, an offering.
-vedanta:saṃjñā	<center><big><big><big>संज्ञा</big></big></big></center>	<b>saṃjñā</b><br><br>A name or noun having a special meaning; consciousness; knowledge; a technical term.
+vedanta:sañjñā	<center><big><big><big>संज्ञा</big></big></big></center>	<b>sañjñā</b><br><br>A name or noun having a special meaning; consciousness; knowledge; a technical term.
 vedanta:sammatiḥ	<center><big><big><big>सम्मतिः</big></big></big></center>	<b>sammatiḥ</b><br><br>Knowledge of self; agreement; consent; approval; respect; esteem.
 vedanta:sammohaḥ	<center><big><big><big>सम्मोहः</big></big></big></center>	<b>sammohaḥ</b><br><br>Torpor; blackout; bewilderment.
 vedanta:saṃnihita	<center><big><big><big>संनिहित</big></big></big></center>	<b>saṃnihita</b><br><br>Closest; abiding; not separate from the jīvaḥ; meaning of 'I.'
-vedanta:saṃpad	<center><big><big><big>संपद्</big></big></big></center>	<b>saṃpad</b><br><br>Success; affluence; wealth; benefit; blessing.
-vedanta:saṃpādanam	<center><big><big><big>संपादनम्</big></big></big></center>	<b>saṃpādanam</b><br><br>Accomplishment; fulfilment; gaining.
-vedanta:saṃpanna	<center><big><big><big>संपन्न</big></big></big></center>	<b>saṃpanna</b><br><br>Endowed with; successful; completed.
-vedanta:saṃpattiḥ	<center><big><big><big>संपत्तिः</big></big></big></center>	<b>saṃpattiḥ</b><br><br>Spiritual wealth; values; fulfillment; excellence; success.
-vedanta:saṃpradānam	<center><big><big><big>संप्रदानम्</big></big></big></center>	<b>saṃpradānam</b><br><br>Gift; donation; handing over completely; the sense of the dative case.
-vedanta:saṃpradāyaḥ	<center><big><big><big>संप्रदायः</big></big></big></center>	<b>saṃpradāyaḥ</b><br><br>Indian tradition of teaching; tradition.
-vedanta:saṃpradhānam	<center><big><big><big>संप्रधानम्</big></big></big></center>	<b>saṃpradhānam</b><br><br>Ascertainment; consideration.
-vedanta:saṃpratipattiḥ	<center><big><big><big>संप्रतिपत्तिः</big></big></big></center>	<b>saṃpratipattiḥ</b><br><br>Understanding; gain; approach, arrival; presence.
-vedanta:saṃpraveśaḥ	<center><big><big><big>संप्रवेशः</big></big></big></center>	<b>saṃpraveśaḥ</b><br><br>Introduction; entrance.
-vedanta:saṃpṛkta	<center><big><big><big>संपृक्त</big></big></big></center>	<b>saṃpṛkta</b><br><br>Blended, mixed, connected.
+vedanta:sampad	<center><big><big><big>संपद्</big></big></big></center>	<b>sampad</b><br><br>Success; affluence; wealth; benefit; blessing.
+vedanta:sampādanam	<center><big><big><big>संपादनम्</big></big></big></center>	<b>sampādanam</b><br><br>Accomplishment; fulfilment; gaining.
+vedanta:sampanna	<center><big><big><big>संपन्न</big></big></big></center>	<b>sampanna</b><br><br>Endowed with; successful; completed.
+vedanta:sampattiḥ	<center><big><big><big>संपत्तिः</big></big></big></center>	<b>sampattiḥ</b><br><br>Spiritual wealth; values; fulfillment; excellence; success.
+vedanta:sampradānam	<center><big><big><big>संप्रदानम्</big></big></big></center>	<b>sampradānam</b><br><br>Gift; donation; handing over completely; the sense of the dative case.
+vedanta:sampradāyaḥ	<center><big><big><big>संप्रदायः</big></big></big></center>	<b>sampradāyaḥ</b><br><br>Indian tradition of teaching; tradition.
+vedanta:sampradhānam	<center><big><big><big>संप्रधानम्</big></big></big></center>	<b>sampradhānam</b><br><br>Ascertainment; consideration.
+vedanta:sampratipattiḥ	<center><big><big><big>संप्रतिपत्तिः</big></big></big></center>	<b>sampratipattiḥ</b><br><br>Understanding; gain; approach, arrival; presence.
+vedanta:sampraveśaḥ	<center><big><big><big>संप्रवेशः</big></big></big></center>	<b>sampraveśaḥ</b><br><br>Introduction; entrance.
+vedanta:sampṛkta	<center><big><big><big>संपृक्त</big></big></big></center>	<b>sampṛkta</b><br><br>Blended, mixed, connected.
 vedanta:samṛddha	<center><big><big><big>समृद्ध</big></big></big></center>	<b>samṛddha</b><br><br>Full; complete; prosperous; fortunate; fruitful.
 vedanta:saṃsāraḥ	<center><big><big><big>संसारः</big></big></big></center>	<b>saṃsāraḥ</b><br><br>The cycle of becoming; the course of worldly life; the jīva's reality.
 vedanta:saṃsargaḥ	<center><big><big><big>संसर्गः</big></big></big></center>	<b>saṃsargaḥ</b><br><br>Association; union; mixture.
