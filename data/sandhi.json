@@ -453,57 +453,5 @@
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
-  },
-  {
-    "type": "avagraha",
-    "context": "external",
-    "word1_iast": "te",
-    "word2_iast": "api",
-    "combined_iast": "te'pi",
-    "word1_devanagari": "ते",
-    "word2_devanagari": "अपि",
-    "combined_devanagari": "तेऽपि",
-    "sandhi_name": "Avagraha (lopa)",
-    "sandhi_devanagari": "अवग्रह",
-    "explanation": "A word-final e/o before an initial a: the a is elided and marked with an avagraha (ऽ); the e/o is unchanged."
-  },
-  {
-    "type": "avagraha",
-    "context": "external",
-    "word1_iast": "vane",
-    "word2_iast": "asti",
-    "combined_iast": "vane'sti",
-    "word1_devanagari": "वने",
-    "word2_devanagari": "अस्ति",
-    "combined_devanagari": "वनेऽस्ति",
-    "sandhi_name": "Avagraha (lopa)",
-    "sandhi_devanagari": "अवग्रह",
-    "explanation": "A word-final e/o before an initial a: the a is elided and marked with an avagraha (ऽ); the e/o is unchanged."
-  },
-  {
-    "type": "avagraha",
-    "context": "external",
-    "word1_iast": "so",
-    "word2_iast": "api",
-    "combined_iast": "so'pi",
-    "word1_devanagari": "सो",
-    "word2_devanagari": "अपि",
-    "combined_devanagari": "सोऽपि",
-    "sandhi_name": "Avagraha (lopa)",
-    "sandhi_devanagari": "अवग्रह",
-    "explanation": "A word-final e/o before an initial a: the a is elided and marked with an avagraha (ऽ); the e/o is unchanged."
-  },
-  {
-    "type": "avagraha",
-    "context": "external",
-    "word1_iast": "rāmo",
-    "word2_iast": "api",
-    "combined_iast": "rāmo'pi",
-    "word1_devanagari": "रामो",
-    "word2_devanagari": "अपि",
-    "combined_devanagari": "रामोऽपि",
-    "sandhi_name": "Avagraha (lopa)",
-    "sandhi_devanagari": "अवग्रह",
-    "explanation": "A word-final e/o before an initial a: the a is elided and marked with an avagraha (ऽ); the e/o is unchanged."
   }
 ]
