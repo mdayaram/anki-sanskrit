@@ -378,6 +378,19 @@
   },
   {
     "type": "yan",
+    "context": "external",
+    "word1_iast": "madhu",
+    "word2_iast": "iva",
+    "combined_iast": "madhviva",
+    "word1_devanagari": "मधु",
+    "word2_devanagari": "इव",
+    "combined_devanagari": "मध्विव",
+    "sandhi_name": "Yaṇ",
+    "sandhi_devanagari": "यण्",
+    "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
+  },
+  {
+    "type": "yan",
     "context": "compound",
     "word1_iast": "pitṛ",
     "word2_iast": "artha",
