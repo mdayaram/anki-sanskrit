@@ -18,7 +18,7 @@ class SandhiGeneratorTest < Minitest::Test
     assert_empty gen.audio_files(gen.build)
   end
 
-  def test_build_computes_every_pair
+  def test_build_loads_every_pair
     data = gen.build
     refute_empty data
     entry = data.find { |e| e["word1_iast"] == "deva" && e["word2_iast"] == "indra" }
@@ -31,13 +31,8 @@ class SandhiGeneratorTest < Minitest::Test
     assert_equal "compound", entry["context"] # devendra is a samāsa, not two free words
   end
 
-  def test_context_matches_the_sandhi_kind
-    # The deck spans three contexts; the two context-bound rules must line up:
-    # ayādi's ay/av forms are internal/derivational, avagraha is between words.
-    data = gen.build
-    data.select { |e| e["type"] == "ayadi" }.each { |e| assert_equal "internal", e["context"] }
-    data.select { |e| e["type"] == "avagraha" }.each { |e| assert_equal "external", e["context"] }
-  end
+  # Engine re-derivation, valid_pair? Devanagari checks, and the context-bound
+  # invariants now live in test/sandhi_deck_test.rb (the data validator).
 
   def test_card_front_is_two_devanagari_words
     entry = gen.build.find { |e| e["combined_iast"] == "devendra" }
@@ -54,10 +49,5 @@ class SandhiGeneratorTest < Minitest::Test
     assert_includes back, "guṇa vowel"            # rule explanation
     assert_includes back, "compound"              # context label
     refute_includes back, "style="
-  end
-
-  def test_all_pairs_have_valid_sandhi
-    # build must not raise — every curated pair's label matches its junction.
-    assert(gen.build.all? { |e| e["combined_iast"].is_a?(String) })
   end
 end
