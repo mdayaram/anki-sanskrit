@@ -118,7 +118,7 @@ vedanta:ahiṃsā	<center><big><big><big>अहिंसा</big></big></big></c
 vedanta:āhutiḥ	<center><big><big><big>आहुतिः</big></big></big></center>	<b>āhutiḥ</b><br><br>Offering; oblation.
 vedanta:aicchika	<center><big><big><big>ऐच्छिक</big></big></big></center>	<b>aicchika</b><br><br>Optional, voluntary.
 vedanta:aihika	<center><big><big><big>ऐहिक</big></big></big></center>	<b>aihika</b><br><br>Of this world or place, secular, worldly.
-vedanta:aikṣata	<center><big><big><big>ऐक्षत</big></big></big></center>	<b>aikṣata</b><br><br>It saw – from from root īkṣ.
+vedanta:aikṣata	<center><big><big><big>ऐक्षत</big></big></big></center>	<b>aikṣata</b><br><br>It saw – from root īkṣ.
 vedanta:aikyam	<center><big><big><big>ऐक्यम्</big></big></big></center>	<b>aikyam</b><br><br>Oneness; unity; identity.
 vedanta:aiśvaryam	<center><big><big><big>ऐश्वर्यम्</big></big></big></center>	<b>aiśvaryam</b><br><br>Overlordship; power; wealth; one of six bhāgas.
 vedanta:aitadātmyam	<center><big><big><big>ऐतदात्म्यम्</big></big></big></center>	<b>aitadātmyam</b><br><br>The state of having this property or peculiarity.
