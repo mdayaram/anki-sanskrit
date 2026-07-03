@@ -14,6 +14,8 @@ ruby fetch_gita.rb                    # step 1b: fetch Bhagavad Gita verses + re
 ./main.rb --help
 ```
 
+**The generated `sanskrit_*_anki.txt` deck files are committed to the repo.** They are build artifacts of `data/*.json`, so whenever you change a data file (or a generator), you MUST regenerate the affected deck(s) and commit the updated `.txt` alongside the data change — a data edit without its regenerated deck is an incomplete commit. Run the matching generator (e.g. `./main.rb --vowel-sandhi` after editing `data/vowel_sandhi.json`, or `./main.rb --all` to be safe) and include the resulting `sanskrit_*_anki.txt` diff in the same commit.
+
 Unit tests for the pure transforms and shared primitives live in `test/` (minitest, a Ruby default gem); run a file with `ruby test/<name>_test.rb`. There is no linter or build step. `main.rb` uses only the Ruby standard library; only `scrape_sanskrit.rb` needs `nokogiri` (`fetch_gita.rb` uses `open-uri`, also stdlib). Categories that emit `[sound:...]` tags (`--basic` and `--gita-verses`) prompt interactively before copying audio. The alphabet categories depend on `data/letters.json` (from `scrape_sanskrit.rb`); `--gita-verses` depends instead on `data/gita.json` (from `fetch_gita.rb`, but committed) and declares `requires_letters? == false`, so a Gita-only run needs no alphabet scrape. `--gita-verses` also needs no `fetch_gita.rb` run at all: `data/gita.json` is committed and the (uncommitted) recitation mp3s are pulled transparently from a GitHub release the first time you copy them (see "Bhagavad Gita recitation audio is downloaded transparently" below). `fetch_gita.rb` is now only for *rebuilding* that data from the original sources.
 
 ## Architecture
