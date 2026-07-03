@@ -34,11 +34,13 @@ Start here. These are the building blocks of written Sanskrit:
 Once you can read the script, start recognizing words: 2,393 common Vedānta terms.
 Front: Devanāgarī. Back: IAST transliteration and an English meaning. (No audio.)
 
-### 3. 🕉️ Sanskrit Sandhi — learn how words fuse
+### 3. 🕉️ Sanskrit Vowel Sandhi — learn how words fuse
 
 Running Sanskrit fuses adjacent sounds at their boundaries, so a verse rarely
-shows its words in isolation. This deck teaches the five vowel (svara) sandhis
-plus the avagraha rule — 38 cards. Front: the two parts in Devanāgarī (देव इन्द्र).
+shows its words in isolation. Sandhi splits into three families by what meets at
+the junction — vowel (*svara*), consonant (*vyañjana*), and visarga sandhi; this
+deck covers the first. It teaches the five vowel (svara) sandhis — 35 cards.
+Front: the two parts in Devanāgarī (देव इन्द्र).
 Back: the combined form (देवेन्द्र), the IAST for the parts and the whole, which
 sandhi applied, a brief statement of its rule, and the context — whether the
 sandhi happens between two words, inside a compound, or within a single word
@@ -73,7 +75,7 @@ decks to generate, and they combine:
 | `--conjuncts` | Conjunct ligatures |
 | `--anusvara` | Anusvāra pronunciation |
 | `--vedanta` | Vedānta glossary |
-| `--sandhi` | Vowel sandhi word pairs |
+| `--vowel-sandhi` | Vowel (svara) sandhi word pairs |
 | `--gita-verses` | Bhagavad Gītā verses |
 
 All the data these flags read is already in the repo, so they all work right away.

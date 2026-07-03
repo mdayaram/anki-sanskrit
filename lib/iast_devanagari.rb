@@ -2,7 +2,7 @@
 
 # Deterministic Devanagari -> IAST reader for Sanskrit words, plus a pair
 # validator. A committed, reusable tool: it powers the pair-validity checks for
-# data/vedanta.json and data/sandhi.json, and is available for a future per-word
+# data/vedanta.json and data/vowel_sandhi.json, and is available for a future per-word
 # verse deck.
 #
 # to_iast canonicalises: it is many-to-one. A homorganic nasal cluster can be

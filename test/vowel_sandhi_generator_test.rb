@@ -1,17 +1,17 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
-require_relative "../lib/generators/sandhi"
+require_relative "../lib/generators/vowel_sandhi"
 
-class SandhiGeneratorTest < Minitest::Test
-  def gen = Generators::Sandhi.new([], {})
+class VowelSandhiGeneratorTest < Minitest::Test
+  def gen = Generators::VowelSandhi.new([], {})
 
-  def test_deck_is_sandhi
-    assert_equal Anki::SANDHI_DECK, gen.deck
+  def test_deck_is_vowel_sandhi
+    assert_equal Anki::VOWEL_SANDHI_DECK, gen.deck
   end
 
   def test_does_not_require_letters
-    refute Generators::Sandhi.requires_letters?
+    refute Generators::VowelSandhi.requires_letters?
   end
 
   def test_no_audio
@@ -32,13 +32,13 @@ class SandhiGeneratorTest < Minitest::Test
   end
 
   # Engine re-derivation, valid_pair? Devanagari checks, and the context-bound
-  # invariants now live in test/sandhi_deck_test.rb (the data validator).
+  # invariants now live in test/vowel_sandhi_deck_test.rb (the data validator).
 
   def test_card_front_is_two_devanagari_words
     entry = gen.build.find { |e| e["combined_iast"] == "devendra" }
     key, front, back = gen.card(entry)
 
-    assert_equal "sandhi:guna:deva+indra", key
+    assert_equal "vowel_sandhi:guna:deva+indra", key
     assert_includes front, "देव इन्द्र"
     refute_includes front, "style="
 
