@@ -1,14 +1,16 @@
 # frozen_string_literal: true
 
 require_relative "base"
-require_relative "../sandhi_deck"
+require_relative "../vowel_sandhi_deck"
 
 module Generators
-  # Vowel (svara) sandhi deck. Pure transform over data/sandhi.json (the committed
-  # source of truth), read via SandhiDeck.load. Each record already holds the two
-  # words and the combined form in both IAST and Devanagari, the rule name, and a
-  # short explanation; the sandhi engine (lib/sandhi.rb) and IastDevanagari.valid_pair?
-  # validate every record in test/sandhi_deck_test.rb rather than at generation time.
+  # Vowel (svara) sandhi deck. Pure transform over data/vowel_sandhi.json (the
+  # committed source of truth), read via VowelSandhiDeck.load. Each record already
+  # holds the two words and the combined form in both IAST and Devanagari, the rule
+  # name, and a short explanation; the vowel-sandhi engine (lib/vowel_sandhi.rb) and
+  # IastDevanagari.valid_pair? validate every record in test/vowel_sandhi_deck_test.rb
+  # rather than at generation time. Consonant (vyañjana) and visarga sandhi are
+  # separate families and would each get their own deck/generator.
   #
   #   Front: the two parts in Devanagari, space-separated (देव इन्द्र)
   #   Back:  the combined Devanagari, the IAST (deva + indra → devendra),
@@ -23,11 +25,11 @@ module Generators
   # across a word boundary). So each record carries its context, and the two
   # context-bound rules are kept consistent (ayādi is internal, avagraha is between
   # words) — asserted in the deck test. Add a card by adding a record to
-  # data/sandhi.json; the validating test checks the derivation and the Devanagari.
-  class Sandhi < Base
-    KEY         = "sandhi"
-    DESCRIPTION = "Vowel sandhi (Devanagari word pair -> combined form + rule)"
-    OUTPUT_TXT  = "sanskrit_sandhi_anki.txt"
+  # data/vowel_sandhi.json; the validating test checks the derivation and the Devanagari.
+  class VowelSandhi < Base
+    KEY         = "vowel-sandhi"
+    DESCRIPTION = "Vowel (svara) sandhi (Devanagari word pair -> combined form + rule)"
+    OUTPUT_TXT  = "sanskrit_vowel_sandhi_anki.txt"
 
     # How the two pieces relate, shown on the card so the junction isn't misread.
     CONTEXTS = {
@@ -37,12 +39,12 @@ module Generators
     }.freeze
 
     def self.requires_letters? = false
-    def deck = Anki::SANDHI_DECK
+    def deck = Anki::VOWEL_SANDHI_DECK
 
-    def build = SandhiDeck.load
+    def build = VowelSandhiDeck.load
 
     def card(entry)
-      key     = "sandhi:#{entry['type']}:#{entry['word1_iast']}+#{entry['word2_iast']}"
+      key     = "vowel_sandhi:#{entry['type']}:#{entry['word1_iast']}+#{entry['word2_iast']}"
       context = CONTEXTS.fetch(entry["context"].to_sym)
       front   = "<center>#{'<big>' * 3}#{entry['word1_devanagari']} #{entry['word2_devanagari']}#{'</big>' * 3}</center>"
       back    = "<center>#{'<big>' * 2}<b>#{entry['combined_devanagari']}</b>#{'</big>' * 2}" \

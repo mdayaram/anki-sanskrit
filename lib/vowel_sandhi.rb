@@ -2,7 +2,7 @@
 
 # Sanskrit vowel (svara) sandhi engine.
 #
-# Given two IAST words, `Sandhi.join` finds the junction — the final vowel of
+# Given two IAST words, `VowelSandhi.join` finds the junction — the final vowel of
 # word 1 and the initial vowel of word 2 — and applies the named sandhi rule to
 # produce the combined IAST form. The transform is fully deterministic: the same
 # "computed, not scraped" approach as the combinations/conjuncts generators.
@@ -17,7 +17,7 @@
 #
 # Rules and mappings verified across Whitney, Emeneau & van Nooten, Pāṇini's
 # sūtras (6.1.101/87/88/77/78), learnsanskrit.org and the Arsha Vidya handouts.
-module Sandhi
+module VowelSandhi
   # Vowel classes (IAST). "ik" = simple vowels other than a/ā.
   A_CLASS  = %w[a ā].freeze
   IK_CLASS = %w[i ī u ū ṛ ṝ ḷ ḹ].freeze

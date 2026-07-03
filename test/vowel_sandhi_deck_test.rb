@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
-require_relative "../lib/sandhi_deck"
-require_relative "../lib/sandhi"
+require_relative "../lib/vowel_sandhi_deck"
+require_relative "../lib/vowel_sandhi"
 require_relative "../lib/iast_devanagari"
 
-# Data-integrity check on data/sandhi.json (the committed source of truth). The
-# sandhi engine and valid_pair? that used to run at generation time now validate
-# every stored entry here: the curated combined form matches the rule, the type
-# label matches the junction (Sandhi.join raises otherwise), and each Devanagari
-# field is a valid spelling of its IAST.
-class SandhiDeckTest < Minitest::Test
+# Data-integrity check on data/vowel_sandhi.json (the committed source of truth).
+# The vowel-sandhi engine and valid_pair? that used to run at generation time now
+# validate every stored entry here: the curated combined form matches the rule, the
+# type label matches the junction (VowelSandhi.join raises otherwise), and each
+# Devanagari field is a valid spelling of its IAST.
+class VowelSandhiDeckTest < Minitest::Test
   def entries
-    @entries ||= SandhiDeck.load
+    @entries ||= VowelSandhiDeck.load
   end
 
   def test_engine_reproduces_every_stored_derivation
     entries.each do |e|
-      r = Sandhi.join(e["word1_iast"], e["word2_iast"], e["type"].to_sym)
+      r = VowelSandhi.join(e["word1_iast"], e["word2_iast"], e["type"].to_sym)
       label = "#{e['word1_iast']} + #{e['word2_iast']} (#{e['type']})"
       assert_equal e["combined_iast"],     r[:combined],        "combined_iast for #{label}"
       assert_equal e["sandhi_name"],       r[:name],            "sandhi_name for #{label}"

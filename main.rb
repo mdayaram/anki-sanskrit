@@ -25,7 +25,7 @@ require_relative "lib/generators/conjuncts"
 require_relative "lib/generators/anusvara"
 require_relative "lib/generators/gita_verses"
 require_relative "lib/generators/vedanta"
-require_relative "lib/generators/sandhi"
+require_relative "lib/generators/vowel_sandhi"
 
 # Registry of every category, in run order. Each maps to a --<key> flag.
 GENERATORS = [
@@ -35,7 +35,7 @@ GENERATORS = [
   Generators::Anusvara,
   Generators::GitaVerses,
   Generators::Vedanta,
-  Generators::Sandhi
+  Generators::VowelSandhi
 ].freeze
 
 selected = []

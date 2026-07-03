@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
-require_relative "../lib/sandhi"
+require_relative "../lib/vowel_sandhi"
 
-class SandhiTest < Minitest::Test
-  def combined(w1, w2, type) = Sandhi.join(w1, w2, type).fetch(:combined)
+class VowelSandhiTest < Minitest::Test
+  def combined(w1, w2, type) = VowelSandhi.join(w1, w2, type).fetch(:combined)
 
   def test_savarna_dirgha
     assert_equal "devālaya",   combined("deva", "ālaya", :dirgha)   # a + ā
@@ -62,7 +62,7 @@ class SandhiTest < Minitest::Test
   end
 
   def test_result_carries_metadata
-    r = Sandhi.join("deva", "indra", :guna)
+    r = VowelSandhi.join("deva", "indra", :guna)
     assert_equal :guna, r.fetch(:type)
     assert_equal "deva", r.fetch(:word1)
     assert_equal "indra", r.fetch(:word2)
@@ -74,12 +74,12 @@ class SandhiTest < Minitest::Test
 
   def test_mislabeled_type_is_rejected
     # deva + indra is guṇa, not vṛddhi — the engine should reject a wrong label
-    assert_raises(ArgumentError) { Sandhi.join("deva", "indra", :vrddhi) }
+    assert_raises(ArgumentError) { VowelSandhi.join("deva", "indra", :vrddhi) }
     # ravi + indra is i+i (dīrgha), so yaṇ is wrong
-    assert_raises(ArgumentError) { Sandhi.join("ravi", "indra", :yan) }
+    assert_raises(ArgumentError) { VowelSandhi.join("ravi", "indra", :yan) }
   end
 
   def test_word1_must_end_in_a_vowel
-    assert_raises(ArgumentError) { Sandhi.join("rājan", "indra", :guna) }
+    assert_raises(ArgumentError) { VowelSandhi.join("rājan", "indra", :guna) }
   end
 end

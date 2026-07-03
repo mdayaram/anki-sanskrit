@@ -18,8 +18,9 @@ module Anki
   # The Vedanta glossary word deck (a separate deck).
   VEDANTA_DECK = "🕉️ Vedanta Glossary"
 
-  # The vowel-sandhi deck (a separate deck).
-  SANDHI_DECK = "🕉️ Sanskrit Sandhi"
+  # The vowel (svara) sandhi deck. One of the three sandhi families — consonant
+  # (vyañjana) and visarga sandhi would each get their own deck.
+  VOWEL_SANDHI_DECK = "🕉️ Sanskrit Vowel Sandhi"
 
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
