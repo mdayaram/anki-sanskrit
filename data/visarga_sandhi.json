@@ -1,0 +1,593 @@
+[
+  {
+    "type": "as_o_consonant",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "gacchati",
+    "word2_devanagari": "गच्छति",
+    "combined": [
+      { "iast": "naro gacchati", "devanagari": "नरो गच्छति" }
+    ],
+    "rule": "-aḥ → -o before a voiced consonant",
+    "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
+  },
+  {
+    "type": "as_o_consonant",
+    "word1_iast": "rāmaḥ",
+    "word1_devanagari": "रामः",
+    "word2_iast": "jayati",
+    "word2_devanagari": "जयति",
+    "combined": [
+      { "iast": "rāmo jayati", "devanagari": "रामो जयति" }
+    ],
+    "rule": "-aḥ → -o before a voiced consonant",
+    "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
+  },
+  {
+    "type": "as_o_consonant",
+    "word1_iast": "devaḥ",
+    "word1_devanagari": "देवः",
+    "word2_iast": "vadati",
+    "word2_devanagari": "वदति",
+    "combined": [
+      { "iast": "devo vadati", "devanagari": "देवो वदति" }
+    ],
+    "rule": "-aḥ → -o before a voiced consonant",
+    "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
+  },
+  {
+    "type": "as_o_consonant",
+    "word1_iast": "bālaḥ",
+    "word1_devanagari": "बालः",
+    "word2_iast": "dhāvati",
+    "word2_devanagari": "धावति",
+    "combined": [
+      { "iast": "bālo dhāvati", "devanagari": "बालो धावति" }
+    ],
+    "rule": "-aḥ → -o before a voiced consonant",
+    "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
+  },
+  {
+    "type": "as_o_consonant",
+    "word1_iast": "śivaḥ",
+    "word1_devanagari": "शिवः",
+    "word2_iast": "namati",
+    "word2_devanagari": "नमति",
+    "combined": [
+      { "iast": "śivo namati", "devanagari": "शिवो नमति" }
+    ],
+    "rule": "-aḥ → -o before a voiced consonant",
+    "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
+  },
+  {
+    "type": "as_o_consonant",
+    "word1_iast": "sūryaḥ",
+    "word1_devanagari": "सूर्यः",
+    "word2_iast": "bhāti",
+    "word2_devanagari": "भाति",
+    "combined": [
+      { "iast": "sūryo bhāti", "devanagari": "सूर्यो भाति" }
+    ],
+    "rule": "-aḥ → -o before a voiced consonant",
+    "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
+  },
+
+  {
+    "type": "as_o_avagraha",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "api",
+    "word2_devanagari": "अपि",
+    "combined": [
+      { "iast": "naro 'pi", "devanagari": "नरोऽपि" }
+    ],
+    "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
+    "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
+  },
+  {
+    "type": "as_o_avagraha",
+    "word1_iast": "rāmaḥ",
+    "word1_devanagari": "रामः",
+    "word2_iast": "asti",
+    "word2_devanagari": "अस्ति",
+    "combined": [
+      { "iast": "rāmo 'sti", "devanagari": "रामोऽस्ति" }
+    ],
+    "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
+    "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
+  },
+  {
+    "type": "as_o_avagraha",
+    "word1_iast": "śivaḥ",
+    "word1_devanagari": "शिवः",
+    "word2_iast": "aham",
+    "word2_devanagari": "अहम्",
+    "combined": [
+      { "iast": "śivo 'ham", "devanagari": "शिवोऽहम्" }
+    ],
+    "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
+    "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
+  },
+  {
+    "type": "as_o_avagraha",
+    "word1_iast": "devaḥ",
+    "word1_devanagari": "देवः",
+    "word2_iast": "atra",
+    "word2_devanagari": "अत्र",
+    "combined": [
+      { "iast": "devo 'tra", "devanagari": "देवोऽत्र" }
+    ],
+    "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
+    "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
+  },
+  {
+    "type": "as_o_avagraha",
+    "word1_iast": "bālaḥ",
+    "word1_devanagari": "बालः",
+    "word2_iast": "agacchat",
+    "word2_devanagari": "अगच्छत्",
+    "combined": [
+      { "iast": "bālo 'gacchat", "devanagari": "बालोऽगच्छत्" }
+    ],
+    "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
+    "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
+  },
+
+  {
+    "type": "as_a_vowel",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "icchati",
+    "word2_devanagari": "इच्छति",
+    "combined": [
+      { "iast": "nara icchati", "devanagari": "नर इच्छति" }
+    ],
+    "rule": "-aḥ → -a before another vowel (hiatus remains)",
+    "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
+  },
+  {
+    "type": "as_a_vowel",
+    "word1_iast": "devaḥ",
+    "word1_devanagari": "देवः",
+    "word2_iast": "iha",
+    "word2_devanagari": "इह",
+    "combined": [
+      { "iast": "deva iha", "devanagari": "देव इह" }
+    ],
+    "rule": "-aḥ → -a before another vowel (hiatus remains)",
+    "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
+  },
+  {
+    "type": "as_a_vowel",
+    "word1_iast": "bālaḥ",
+    "word1_devanagari": "बालः",
+    "word2_iast": "āgacchati",
+    "word2_devanagari": "आगच्छति",
+    "combined": [
+      { "iast": "bāla āgacchati", "devanagari": "बाल आगच्छति" }
+    ],
+    "rule": "-aḥ → -a before another vowel (hiatus remains)",
+    "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
+  },
+  {
+    "type": "as_a_vowel",
+    "word1_iast": "rāmaḥ",
+    "word1_devanagari": "रामः",
+    "word2_iast": "uvāca",
+    "word2_devanagari": "उवाच",
+    "combined": [
+      { "iast": "rāma uvāca", "devanagari": "राम उवाच" }
+    ],
+    "rule": "-aḥ → -a before another vowel (hiatus remains)",
+    "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
+  },
+  {
+    "type": "as_a_vowel",
+    "word1_iast": "śivaḥ",
+    "word1_devanagari": "शिवः",
+    "word2_iast": "eva",
+    "word2_devanagari": "एव",
+    "combined": [
+      { "iast": "śiva eva", "devanagari": "शिव एव" }
+    ],
+    "rule": "-aḥ → -a before another vowel (hiatus remains)",
+    "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
+  },
+
+  {
+    "type": "aas_aa",
+    "word1_iast": "narāḥ",
+    "word1_devanagari": "नराः",
+    "word2_iast": "gacchanti",
+    "word2_devanagari": "गच्छन्ति",
+    "combined": [
+      { "iast": "narā gacchanti", "devanagari": "नरा गच्छन्ति" }
+    ],
+    "rule": "-āḥ → -ā before any voiced sound",
+    "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
+  },
+  {
+    "type": "aas_aa",
+    "word1_iast": "narāḥ",
+    "word1_devanagari": "नराः",
+    "word2_iast": "icchanti",
+    "word2_devanagari": "इच्छन्ति",
+    "combined": [
+      { "iast": "narā icchanti", "devanagari": "नरा इच्छन्ति" }
+    ],
+    "rule": "-āḥ → -ā before any voiced sound",
+    "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
+  },
+  {
+    "type": "aas_aa",
+    "word1_iast": "devāḥ",
+    "word1_devanagari": "देवाः",
+    "word2_iast": "vadanti",
+    "word2_devanagari": "वदन्ति",
+    "combined": [
+      { "iast": "devā vadanti", "devanagari": "देवा वदन्ति" }
+    ],
+    "rule": "-āḥ → -ā before any voiced sound",
+    "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
+  },
+  {
+    "type": "aas_aa",
+    "word1_iast": "bālāḥ",
+    "word1_devanagari": "बालाः",
+    "word2_iast": "āgacchanti",
+    "word2_devanagari": "आगच्छन्ति",
+    "combined": [
+      { "iast": "bālā āgacchanti", "devanagari": "बाला आगच्छन्ति" }
+    ],
+    "rule": "-āḥ → -ā before any voiced sound",
+    "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
+  },
+  {
+    "type": "aas_aa",
+    "word1_iast": "aśvāḥ",
+    "word1_devanagari": "अश्वाः",
+    "word2_iast": "dhāvanti",
+    "word2_devanagari": "धावन्ति",
+    "combined": [
+      { "iast": "aśvā dhāvanti", "devanagari": "अश्वा धावन्ति" }
+    ],
+    "rule": "-āḥ → -ā before any voiced sound",
+    "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
+  },
+
+  {
+    "type": "visarga_r",
+    "word1_iast": "agniḥ",
+    "word1_devanagari": "अग्निः",
+    "word2_iast": "asti",
+    "word2_devanagari": "अस्ति",
+    "combined": [
+      { "iast": "agnir asti", "devanagari": "अग्निर् अस्ति" }
+    ],
+    "rule": "ḥ → r before a voiced sound",
+    "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
+  },
+  {
+    "type": "visarga_r",
+    "word1_iast": "guruḥ",
+    "word1_devanagari": "गुरुः",
+    "word2_iast": "gacchati",
+    "word2_devanagari": "गच्छति",
+    "combined": [
+      { "iast": "gurur gacchati", "devanagari": "गुरुर् गच्छति" }
+    ],
+    "rule": "ḥ → r before a voiced sound",
+    "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
+  },
+  {
+    "type": "visarga_r",
+    "word1_iast": "kaviḥ",
+    "word1_devanagari": "कविः",
+    "word2_iast": "vadati",
+    "word2_devanagari": "वदति",
+    "combined": [
+      { "iast": "kavir vadati", "devanagari": "कविर् वदति" }
+    ],
+    "rule": "ḥ → r before a voiced sound",
+    "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
+  },
+  {
+    "type": "visarga_r",
+    "word1_iast": "hariḥ",
+    "word1_devanagari": "हरिः",
+    "word2_iast": "eva",
+    "word2_devanagari": "एव",
+    "combined": [
+      { "iast": "harir eva", "devanagari": "हरिर् एव" }
+    ],
+    "rule": "ḥ → r before a voiced sound",
+    "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
+  },
+  {
+    "type": "visarga_r",
+    "word1_iast": "muniḥ",
+    "word1_devanagari": "मुनिः",
+    "word2_iast": "āgacchati",
+    "word2_devanagari": "आगच्छति",
+    "combined": [
+      { "iast": "munir āgacchati", "devanagari": "मुनिर् आगच्छति" }
+    ],
+    "rule": "ḥ → r before a voiced sound",
+    "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
+  },
+  {
+    "type": "visarga_r",
+    "word1_iast": "dhenuḥ",
+    "word1_devanagari": "धेनुः",
+    "word2_iast": "dugdham",
+    "word2_devanagari": "दुग्धम्",
+    "combined": [
+      { "iast": "dhenur dugdham", "devanagari": "धेनुर् दुग्धम्" }
+    ],
+    "rule": "ḥ → r before a voiced sound",
+    "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
+  },
+
+  {
+    "type": "visarga_r_dropped",
+    "word1_iast": "punaḥ",
+    "word1_devanagari": "पुनः",
+    "word2_iast": "ramate",
+    "word2_devanagari": "रमते",
+    "combined": [
+      { "iast": "punā ramate", "devanagari": "पुना रमते" }
+    ],
+    "rule": "ḥ before r-: the r is elided and the preceding short vowel lengthens",
+    "explanation": "When the visarga would become r before an initial r-, the r is dropped and the preceding short vowel is lengthened, avoiding a double r."
+  },
+  {
+    "type": "visarga_r_dropped",
+    "word1_iast": "hariḥ",
+    "word1_devanagari": "हरिः",
+    "word2_iast": "rājate",
+    "word2_devanagari": "राजते",
+    "combined": [
+      { "iast": "harī rājate", "devanagari": "हरी राजते" }
+    ],
+    "rule": "ḥ before r-: the r is elided and the preceding short vowel lengthens",
+    "explanation": "When the visarga would become r before an initial r-, the r is dropped and the preceding short vowel is lengthened, avoiding a double r."
+  },
+  {
+    "type": "visarga_r_dropped",
+    "word1_iast": "guruḥ",
+    "word1_devanagari": "गुरुः",
+    "word2_iast": "rohati",
+    "word2_devanagari": "रोहति",
+    "combined": [
+      { "iast": "gurū rohati", "devanagari": "गुरू रोहति" }
+    ],
+    "rule": "ḥ before r-: the r is elided and the preceding short vowel lengthens",
+    "explanation": "When the visarga would become r before an initial r-, the r is dropped and the preceding short vowel is lengthened, avoiding a double r."
+  },
+
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "carati",
+    "word2_devanagari": "चरति",
+    "combined": [
+      { "iast": "naraś carati", "devanagari": "नरश् चरति" },
+      { "iast": "naraḥ carati", "devanagari": "नरः चरति" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
+  },
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "rāmaḥ",
+    "word1_devanagari": "रामः",
+    "word2_iast": "ca",
+    "word2_devanagari": "च",
+    "combined": [
+      { "iast": "rāmaś ca", "devanagari": "रामश् च" },
+      { "iast": "rāmaḥ ca", "devanagari": "रामः च" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
+  },
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "chādayati",
+    "word2_devanagari": "छादयति",
+    "combined": [
+      { "iast": "naraś chādayati", "devanagari": "नरश् छादयति" },
+      { "iast": "naraḥ chādayati", "devanagari": "नरः छादयति" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
+  },
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "bālaḥ",
+    "word1_devanagari": "बालः",
+    "word2_iast": "tiṣṭhati",
+    "word2_devanagari": "तिष्ठति",
+    "combined": [
+      { "iast": "bālas tiṣṭhati", "devanagari": "बालस् तिष्ठति" },
+      { "iast": "bālaḥ tiṣṭhati", "devanagari": "बालः तिष्ठति" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
+  },
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "devaḥ",
+    "word1_devanagari": "देवः",
+    "word2_iast": "tarati",
+    "word2_devanagari": "तरति",
+    "combined": [
+      { "iast": "devas tarati", "devanagari": "देवस् तरति" },
+      { "iast": "devaḥ tarati", "devanagari": "देवः तरति" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
+  },
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "granthaḥ",
+    "word1_devanagari": "ग्रन्थः",
+    "word2_iast": "ṭīkayā",
+    "word2_devanagari": "टीकया",
+    "combined": [
+      { "iast": "granthaṣ ṭīkayā", "devanagari": "ग्रन्थष् टीकया" },
+      { "iast": "granthaḥ ṭīkayā", "devanagari": "ग्रन्थः टीकया" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown. (Retroflex ṭ/ṭh rarely begin a word, so ṣ examples are few — ṭīkā 'commentary' is one of the commonest.)"
+  },
+  {
+    "type": "visarga_sibilant",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "ṭīkate",
+    "word2_devanagari": "टीकते",
+    "combined": [
+      { "iast": "naraṣ ṭīkate", "devanagari": "नरष् टीकते" },
+      { "iast": "naraḥ ṭīkate", "devanagari": "नरः टीकते" }
+    ],
+    "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
+    "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown. (Retroflex ṭ/ṭh rarely begin a word, so ṣ examples are few — here the root √ṭīk 'to move'.)"
+  },
+
+  {
+    "type": "visarga_retained",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "karoti",
+    "word2_devanagari": "करोति",
+    "combined": [
+      { "iast": "naraḥ karoti", "devanagari": "नरः करोति" }
+    ],
+    "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+  },
+  {
+    "type": "visarga_retained",
+    "word1_iast": "rāmaḥ",
+    "word1_devanagari": "रामः",
+    "word2_iast": "paṭhati",
+    "word2_devanagari": "पठति",
+    "combined": [
+      { "iast": "rāmaḥ paṭhati", "devanagari": "रामः पठति" }
+    ],
+    "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+  },
+  {
+    "type": "visarga_retained",
+    "word1_iast": "devaḥ",
+    "word1_devanagari": "देवः",
+    "word2_iast": "khādati",
+    "word2_devanagari": "खादति",
+    "combined": [
+      { "iast": "devaḥ khādati", "devanagari": "देवः खादति" }
+    ],
+    "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+  },
+  {
+    "type": "visarga_retained",
+    "word1_iast": "bālaḥ",
+    "word1_devanagari": "बालः",
+    "word2_iast": "phalam",
+    "word2_devanagari": "फलम्",
+    "combined": [
+      { "iast": "bālaḥ phalam", "devanagari": "बालः फलम्" }
+    ],
+    "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+  },
+  {
+    "type": "visarga_retained",
+    "word1_iast": "naraḥ",
+    "word1_devanagari": "नरः",
+    "word2_iast": "smarati",
+    "word2_devanagari": "स्मरति",
+    "combined": [
+      { "iast": "naraḥ smarati", "devanagari": "नरः स्मरति" }
+    ],
+    "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+  },
+  {
+    "type": "visarga_retained",
+    "word1_iast": "hariḥ",
+    "word1_devanagari": "हरिः",
+    "word2_iast": "śete",
+    "word2_devanagari": "शेते",
+    "combined": [
+      { "iast": "hariḥ śete", "devanagari": "हरिः शेते" }
+    ],
+    "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+  },
+
+  {
+    "type": "sa_esa",
+    "word1_iast": "saḥ",
+    "word1_devanagari": "सः",
+    "word2_iast": "gacchati",
+    "word2_devanagari": "गच्छति",
+    "combined": [
+      { "iast": "sa gacchati", "devanagari": "स गच्छति" }
+    ],
+    "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
+    "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
+  },
+  {
+    "type": "sa_esa",
+    "word1_iast": "saḥ",
+    "word1_devanagari": "सः",
+    "word2_iast": "vadati",
+    "word2_devanagari": "वदति",
+    "combined": [
+      { "iast": "sa vadati", "devanagari": "स वदति" }
+    ],
+    "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
+    "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
+  },
+  {
+    "type": "sa_esa",
+    "word1_iast": "eṣaḥ",
+    "word1_devanagari": "एषः",
+    "word2_iast": "bālaḥ",
+    "word2_devanagari": "बालः",
+    "combined": [
+      { "iast": "eṣa bālaḥ", "devanagari": "एष बालः" }
+    ],
+    "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
+    "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
+  },
+  {
+    "type": "sa_esa",
+    "word1_iast": "saḥ",
+    "word1_devanagari": "सः",
+    "word2_iast": "rāmaḥ",
+    "word2_devanagari": "रामः",
+    "combined": [
+      { "iast": "sa rāmaḥ", "devanagari": "स रामः" }
+    ],
+    "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
+    "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
+  },
+  {
+    "type": "sa_esa",
+    "word1_iast": "eṣaḥ",
+    "word1_devanagari": "एषः",
+    "word2_iast": "naraḥ",
+    "word2_devanagari": "नरः",
+    "combined": [
+      { "iast": "eṣa naraḥ", "devanagari": "एष नरः" }
+    ],
+    "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
+    "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
+  }
+]

@@ -22,6 +22,10 @@ module Anki
   # (vyañjana) and visarga sandhi would each get their own deck.
   VOWEL_SANDHI_DECK = "🕉️ Sanskrit Vowel Sandhi"
 
+  # The visarga sandhi deck — the second sandhi family carded (final ḥ + next
+  # sound). Consonant (vyañjana) sandhi would follow this same naming.
+  VISARGA_SANDHI_DECK = "🕉️ Sanskrit Visarga Sandhi"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
