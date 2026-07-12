@@ -47,7 +47,17 @@ sandhi happens between two words, inside a compound, or within a single word
 (which matters: the same vowels can combine differently across a word boundary
 than inside a word). No audio.
 
-### 4. 🕉️ Bhagavad Gita — read whole verses
+### 4. 🕉️ Sanskrit Visarga Sandhi — the final-ḥ rules
+
+The second sandhi family: what a word-final visarga (ḥ) becomes depending on the
+vowel before it and the sound after it — 48 cards. Front: the two parts in
+Devanāgarī (नरः गच्छति). Back: the combined form(s) (नरो गच्छति), the IAST for the
+parts and the whole, which rule applied, and a brief statement of that rule. Some
+junctions have more than one accepted outcome (e.g. before a voiceless stop the
+visarga may become a sibilant or stay a visarga); those cards show every form. No
+audio.
+
+### 5. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
@@ -76,6 +86,7 @@ decks to generate, and they combine:
 | `--anusvara` | Anusvāra pronunciation |
 | `--vedanta` | Vedānta glossary |
 | `--vowel-sandhi` | Vowel (svara) sandhi word pairs |
+| `--visarga-sandhi` | Visarga sandhi word pairs |
 | `--gita-verses` | Bhagavad Gītā verses |
 
 All the data these flags read is already in the repo, so they all work right away.

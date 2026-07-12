@@ -73,4 +73,18 @@ class IastDevanagariTest < Minitest::Test
   def test_valid_pair_rejects_mismatched_devanagari
     refute IastDevanagari.valid_pair?("ahaṅkāraḥ", "अभावः")
   end
+
+  def test_to_iast_reads_avagraha_faithfully_without_a_space
+    # to_iast stays a faithful character reader: the avagraha ऽ attaches with no
+    # space in Devanagari, so it produces no space in IAST.
+    assert_equal "naro'pi", rev("नरोऽपि")
+  end
+
+  def test_valid_pair_accepts_avagraha_whitespace_variants
+    # The scholarly IAST convention writes a space before the apostrophe
+    # (naro 'pi); the joined spelling (naro'pi) is the same form. Both validate
+    # against the (space-less) Devanagari.
+    assert IastDevanagari.valid_pair?("naro 'pi", "नरोऽपि")
+    assert IastDevanagari.valid_pair?("naro'pi", "नरोऽपि")
+  end
 end

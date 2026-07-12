@@ -101,7 +101,18 @@ module IastDevanagari
   # rules (to_iast), yields exactly the IAST. Because to_iast canonicalises
   # (anusvara -> homorganic nasal), both the anusvara and explicit spellings of a
   # homorganic cluster validate against the same IAST.
+  #
+  # Avagraha whitespace is likewise treated as a spelling variant: the elided
+  # vowel is written ऽ with no space in Devanagari (नरोऽपि), but the scholarly
+  # IAST convention puts a space before the apostrophe (naro 'pi, as Whitney
+  # writes it). Both IAST spellings denote the same form, so we compare modulo
+  # whitespace immediately around the apostrophe. to_iast itself stays a faithful
+  # character reader (it never invents a space); only pair-validity is lenient.
   def valid_pair?(iast, dev)
-    to_iast(dev) == iast
+    normalize_avagraha(to_iast(dev)) == normalize_avagraha(iast)
+  end
+
+  def normalize_avagraha(str)
+    str.gsub(/ *' */, "'")
   end
 end
