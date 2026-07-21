@@ -11,8 +11,9 @@ require_relative "../lib/iast_devanagari"
 # reads (IastDevanagari.to_iast) to exactly its stored IAST, and the structure must
 # be well formed.
 class VisargaSandhiDeckTest < Minitest::Test
-  RULE_KEYS = %w[type word1_iast word1_devanagari word2_iast word2_devanagari
-                 combined rule explanation].freeze
+  RULE_KEYS = %w[type word1_iast word1_devanagari
+                 word1_underlying_iast word1_underlying_devanagari
+                 word2_iast word2_devanagari combined rule explanation].freeze
 
   def entries
     @entries ||= VisargaSandhiDeck.load
@@ -36,6 +37,7 @@ class VisargaSandhiDeckTest < Minitest::Test
   def test_every_devanagari_field_is_a_valid_spelling
     entries.each do |e|
       pairs = [["word1", e["word1_iast"], e["word1_devanagari"]],
+               ["word1_underlying", e["word1_underlying_iast"], e["word1_underlying_devanagari"]],
                ["word2", e["word2_iast"], e["word2_devanagari"]]]
       e["combined"].each_with_index { |c, i| pairs << ["combined[#{i}]", c["iast"], c["devanagari"]] }
 
@@ -44,6 +46,15 @@ class VisargaSandhiDeckTest < Minitest::Test
                "#{part} of #{e['word1_iast']}+#{e['word2_iast']}: #{iast.inspect} vs " \
                "#{dev} which reads as #{IastDevanagari.to_iast(dev).inspect}"
       end
+    end
+  end
+
+  def test_underlying_form_ends_in_s_or_r
+    # Every word-final visarga is the pause-form of an underlying -s or -r
+    # (Whitney §152), so the recovered underlying spelling must end in one of them.
+    entries.each do |e|
+      assert_match(/[sr]\z/, e["word1_underlying_iast"],
+                   "underlying #{e['word1_underlying_iast']} should end in s or r")
     end
   end
 
