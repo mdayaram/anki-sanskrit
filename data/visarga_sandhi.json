@@ -3,6 +3,8 @@
     "type": "as_o_consonant",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "gacchati",
     "word2_devanagari": "गच्छति",
     "combined": [
@@ -15,6 +17,8 @@
     "type": "as_o_consonant",
     "word1_iast": "rāmaḥ",
     "word1_devanagari": "रामः",
+    "word1_underlying_iast": "rāmas",
+    "word1_underlying_devanagari": "रामस्",
     "word2_iast": "jayati",
     "word2_devanagari": "जयति",
     "combined": [
@@ -27,6 +31,8 @@
     "type": "as_o_consonant",
     "word1_iast": "devaḥ",
     "word1_devanagari": "देवः",
+    "word1_underlying_iast": "devas",
+    "word1_underlying_devanagari": "देवस्",
     "word2_iast": "vadati",
     "word2_devanagari": "वदति",
     "combined": [
@@ -39,6 +45,8 @@
     "type": "as_o_consonant",
     "word1_iast": "bālaḥ",
     "word1_devanagari": "बालः",
+    "word1_underlying_iast": "bālas",
+    "word1_underlying_devanagari": "बालस्",
     "word2_iast": "dhāvati",
     "word2_devanagari": "धावति",
     "combined": [
@@ -51,6 +59,8 @@
     "type": "as_o_consonant",
     "word1_iast": "śivaḥ",
     "word1_devanagari": "शिवः",
+    "word1_underlying_iast": "śivas",
+    "word1_underlying_devanagari": "शिवस्",
     "word2_iast": "namati",
     "word2_devanagari": "नमति",
     "combined": [
@@ -63,6 +73,8 @@
     "type": "as_o_consonant",
     "word1_iast": "sūryaḥ",
     "word1_devanagari": "सूर्यः",
+    "word1_underlying_iast": "sūryas",
+    "word1_underlying_devanagari": "सूर्यस्",
     "word2_iast": "bhāti",
     "word2_devanagari": "भाति",
     "combined": [
@@ -76,6 +88,8 @@
     "type": "as_o_avagraha",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "api",
     "word2_devanagari": "अपि",
     "combined": [
@@ -88,6 +102,8 @@
     "type": "as_o_avagraha",
     "word1_iast": "rāmaḥ",
     "word1_devanagari": "रामः",
+    "word1_underlying_iast": "rāmas",
+    "word1_underlying_devanagari": "रामस्",
     "word2_iast": "asti",
     "word2_devanagari": "अस्ति",
     "combined": [
@@ -100,6 +116,8 @@
     "type": "as_o_avagraha",
     "word1_iast": "śivaḥ",
     "word1_devanagari": "शिवः",
+    "word1_underlying_iast": "śivas",
+    "word1_underlying_devanagari": "शिवस्",
     "word2_iast": "aham",
     "word2_devanagari": "अहम्",
     "combined": [
@@ -112,6 +130,8 @@
     "type": "as_o_avagraha",
     "word1_iast": "devaḥ",
     "word1_devanagari": "देवः",
+    "word1_underlying_iast": "devas",
+    "word1_underlying_devanagari": "देवस्",
     "word2_iast": "atra",
     "word2_devanagari": "अत्र",
     "combined": [
@@ -124,6 +144,8 @@
     "type": "as_o_avagraha",
     "word1_iast": "bālaḥ",
     "word1_devanagari": "बालः",
+    "word1_underlying_iast": "bālas",
+    "word1_underlying_devanagari": "बालस्",
     "word2_iast": "agacchat",
     "word2_devanagari": "अगच्छत्",
     "combined": [
@@ -137,6 +159,8 @@
     "type": "as_a_vowel",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "icchati",
     "word2_devanagari": "इच्छति",
     "combined": [
@@ -149,6 +173,8 @@
     "type": "as_a_vowel",
     "word1_iast": "devaḥ",
     "word1_devanagari": "देवः",
+    "word1_underlying_iast": "devas",
+    "word1_underlying_devanagari": "देवस्",
     "word2_iast": "iha",
     "word2_devanagari": "इह",
     "combined": [
@@ -161,6 +187,8 @@
     "type": "as_a_vowel",
     "word1_iast": "bālaḥ",
     "word1_devanagari": "बालः",
+    "word1_underlying_iast": "bālas",
+    "word1_underlying_devanagari": "बालस्",
     "word2_iast": "āgacchati",
     "word2_devanagari": "आगच्छति",
     "combined": [
@@ -173,6 +201,8 @@
     "type": "as_a_vowel",
     "word1_iast": "rāmaḥ",
     "word1_devanagari": "रामः",
+    "word1_underlying_iast": "rāmas",
+    "word1_underlying_devanagari": "रामस्",
     "word2_iast": "uvāca",
     "word2_devanagari": "उवाच",
     "combined": [
@@ -185,6 +215,8 @@
     "type": "as_a_vowel",
     "word1_iast": "śivaḥ",
     "word1_devanagari": "शिवः",
+    "word1_underlying_iast": "śivas",
+    "word1_underlying_devanagari": "शिवस्",
     "word2_iast": "eva",
     "word2_devanagari": "एव",
     "combined": [
@@ -198,6 +230,8 @@
     "type": "aas_aa",
     "word1_iast": "narāḥ",
     "word1_devanagari": "नराः",
+    "word1_underlying_iast": "narās",
+    "word1_underlying_devanagari": "नरास्",
     "word2_iast": "gacchanti",
     "word2_devanagari": "गच्छन्ति",
     "combined": [
@@ -210,6 +244,8 @@
     "type": "aas_aa",
     "word1_iast": "narāḥ",
     "word1_devanagari": "नराः",
+    "word1_underlying_iast": "narās",
+    "word1_underlying_devanagari": "नरास्",
     "word2_iast": "icchanti",
     "word2_devanagari": "इच्छन्ति",
     "combined": [
@@ -222,6 +258,8 @@
     "type": "aas_aa",
     "word1_iast": "devāḥ",
     "word1_devanagari": "देवाः",
+    "word1_underlying_iast": "devās",
+    "word1_underlying_devanagari": "देवास्",
     "word2_iast": "vadanti",
     "word2_devanagari": "वदन्ति",
     "combined": [
@@ -234,6 +272,8 @@
     "type": "aas_aa",
     "word1_iast": "bālāḥ",
     "word1_devanagari": "बालाः",
+    "word1_underlying_iast": "bālās",
+    "word1_underlying_devanagari": "बालास्",
     "word2_iast": "āgacchanti",
     "word2_devanagari": "आगच्छन्ति",
     "combined": [
@@ -246,6 +286,8 @@
     "type": "aas_aa",
     "word1_iast": "aśvāḥ",
     "word1_devanagari": "अश्वाः",
+    "word1_underlying_iast": "aśvās",
+    "word1_underlying_devanagari": "अश्वास्",
     "word2_iast": "dhāvanti",
     "word2_devanagari": "धावन्ति",
     "combined": [
@@ -259,6 +301,8 @@
     "type": "visarga_r",
     "word1_iast": "agniḥ",
     "word1_devanagari": "अग्निः",
+    "word1_underlying_iast": "agnis",
+    "word1_underlying_devanagari": "अग्निस्",
     "word2_iast": "asti",
     "word2_devanagari": "अस्ति",
     "combined": [
@@ -271,6 +315,8 @@
     "type": "visarga_r",
     "word1_iast": "guruḥ",
     "word1_devanagari": "गुरुः",
+    "word1_underlying_iast": "gurus",
+    "word1_underlying_devanagari": "गुरुस्",
     "word2_iast": "gacchati",
     "word2_devanagari": "गच्छति",
     "combined": [
@@ -283,6 +329,8 @@
     "type": "visarga_r",
     "word1_iast": "kaviḥ",
     "word1_devanagari": "कविः",
+    "word1_underlying_iast": "kavis",
+    "word1_underlying_devanagari": "कविस्",
     "word2_iast": "vadati",
     "word2_devanagari": "वदति",
     "combined": [
@@ -295,6 +343,8 @@
     "type": "visarga_r",
     "word1_iast": "hariḥ",
     "word1_devanagari": "हरिः",
+    "word1_underlying_iast": "haris",
+    "word1_underlying_devanagari": "हरिस्",
     "word2_iast": "eva",
     "word2_devanagari": "एव",
     "combined": [
@@ -307,6 +357,8 @@
     "type": "visarga_r",
     "word1_iast": "muniḥ",
     "word1_devanagari": "मुनिः",
+    "word1_underlying_iast": "munis",
+    "word1_underlying_devanagari": "मुनिस्",
     "word2_iast": "āgacchati",
     "word2_devanagari": "आगच्छति",
     "combined": [
@@ -319,6 +371,8 @@
     "type": "visarga_r",
     "word1_iast": "dhenuḥ",
     "word1_devanagari": "धेनुः",
+    "word1_underlying_iast": "dhenus",
+    "word1_underlying_devanagari": "धेनुस्",
     "word2_iast": "dugdham",
     "word2_devanagari": "दुग्धम्",
     "combined": [
@@ -332,6 +386,8 @@
     "type": "visarga_r_dropped",
     "word1_iast": "punaḥ",
     "word1_devanagari": "पुनः",
+    "word1_underlying_iast": "punar",
+    "word1_underlying_devanagari": "पुनर्",
     "word2_iast": "ramate",
     "word2_devanagari": "रमते",
     "combined": [
@@ -344,6 +400,8 @@
     "type": "visarga_r_dropped",
     "word1_iast": "hariḥ",
     "word1_devanagari": "हरिः",
+    "word1_underlying_iast": "haris",
+    "word1_underlying_devanagari": "हरिस्",
     "word2_iast": "rājate",
     "word2_devanagari": "राजते",
     "combined": [
@@ -356,6 +414,8 @@
     "type": "visarga_r_dropped",
     "word1_iast": "guruḥ",
     "word1_devanagari": "गुरुः",
+    "word1_underlying_iast": "gurus",
+    "word1_underlying_devanagari": "गुरुस्",
     "word2_iast": "rohati",
     "word2_devanagari": "रोहति",
     "combined": [
@@ -369,6 +429,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "carati",
     "word2_devanagari": "चरति",
     "combined": [
@@ -382,6 +444,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "rāmaḥ",
     "word1_devanagari": "रामः",
+    "word1_underlying_iast": "rāmas",
+    "word1_underlying_devanagari": "रामस्",
     "word2_iast": "ca",
     "word2_devanagari": "च",
     "combined": [
@@ -395,6 +459,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "chādayati",
     "word2_devanagari": "छादयति",
     "combined": [
@@ -408,6 +474,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "bālaḥ",
     "word1_devanagari": "बालः",
+    "word1_underlying_iast": "bālas",
+    "word1_underlying_devanagari": "बालस्",
     "word2_iast": "tiṣṭhati",
     "word2_devanagari": "तिष्ठति",
     "combined": [
@@ -421,6 +489,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "devaḥ",
     "word1_devanagari": "देवः",
+    "word1_underlying_iast": "devas",
+    "word1_underlying_devanagari": "देवस्",
     "word2_iast": "tarati",
     "word2_devanagari": "तरति",
     "combined": [
@@ -434,6 +504,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "granthaḥ",
     "word1_devanagari": "ग्रन्थः",
+    "word1_underlying_iast": "granthas",
+    "word1_underlying_devanagari": "ग्रन्थस्",
     "word2_iast": "ṭīkayā",
     "word2_devanagari": "टीकया",
     "combined": [
@@ -447,6 +519,8 @@
     "type": "visarga_sibilant",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "ṭīkate",
     "word2_devanagari": "टीकते",
     "combined": [
@@ -461,6 +535,8 @@
     "type": "visarga_retained",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "karoti",
     "word2_devanagari": "करोति",
     "combined": [
@@ -473,6 +549,8 @@
     "type": "visarga_retained",
     "word1_iast": "rāmaḥ",
     "word1_devanagari": "रामः",
+    "word1_underlying_iast": "rāmas",
+    "word1_underlying_devanagari": "रामस्",
     "word2_iast": "paṭhati",
     "word2_devanagari": "पठति",
     "combined": [
@@ -485,6 +563,8 @@
     "type": "visarga_retained",
     "word1_iast": "devaḥ",
     "word1_devanagari": "देवः",
+    "word1_underlying_iast": "devas",
+    "word1_underlying_devanagari": "देवस्",
     "word2_iast": "khādati",
     "word2_devanagari": "खादति",
     "combined": [
@@ -497,6 +577,8 @@
     "type": "visarga_retained",
     "word1_iast": "bālaḥ",
     "word1_devanagari": "बालः",
+    "word1_underlying_iast": "bālas",
+    "word1_underlying_devanagari": "बालस्",
     "word2_iast": "phalam",
     "word2_devanagari": "फलम्",
     "combined": [
@@ -509,6 +591,8 @@
     "type": "visarga_retained",
     "word1_iast": "naraḥ",
     "word1_devanagari": "नरः",
+    "word1_underlying_iast": "naras",
+    "word1_underlying_devanagari": "नरस्",
     "word2_iast": "smarati",
     "word2_devanagari": "स्मरति",
     "combined": [
@@ -521,6 +605,8 @@
     "type": "visarga_retained",
     "word1_iast": "hariḥ",
     "word1_devanagari": "हरिः",
+    "word1_underlying_iast": "haris",
+    "word1_underlying_devanagari": "हरिस्",
     "word2_iast": "śete",
     "word2_devanagari": "शेते",
     "combined": [
@@ -534,6 +620,8 @@
     "type": "sa_esa",
     "word1_iast": "saḥ",
     "word1_devanagari": "सः",
+    "word1_underlying_iast": "sas",
+    "word1_underlying_devanagari": "सस्",
     "word2_iast": "gacchati",
     "word2_devanagari": "गच्छति",
     "combined": [
@@ -546,6 +634,8 @@
     "type": "sa_esa",
     "word1_iast": "saḥ",
     "word1_devanagari": "सः",
+    "word1_underlying_iast": "sas",
+    "word1_underlying_devanagari": "सस्",
     "word2_iast": "vadati",
     "word2_devanagari": "वदति",
     "combined": [
@@ -558,6 +648,8 @@
     "type": "sa_esa",
     "word1_iast": "eṣaḥ",
     "word1_devanagari": "एषः",
+    "word1_underlying_iast": "eṣas",
+    "word1_underlying_devanagari": "एषस्",
     "word2_iast": "bālaḥ",
     "word2_devanagari": "बालः",
     "combined": [
@@ -570,6 +662,8 @@
     "type": "sa_esa",
     "word1_iast": "saḥ",
     "word1_devanagari": "सः",
+    "word1_underlying_iast": "sas",
+    "word1_underlying_devanagari": "सस्",
     "word2_iast": "rāmaḥ",
     "word2_devanagari": "रामः",
     "combined": [
@@ -582,6 +676,8 @@
     "type": "sa_esa",
     "word1_iast": "eṣaḥ",
     "word1_devanagari": "एषः",
+    "word1_underlying_iast": "eṣas",
+    "word1_underlying_devanagari": "एषस्",
     "word2_iast": "naraḥ",
     "word2_devanagari": "नरः",
     "combined": [

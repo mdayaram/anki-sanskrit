@@ -33,7 +33,12 @@ module Generators
       combined = entry["combined"]
       key = "visarga_sandhi:#{entry['type']}:#{entry['word1_iast']}+#{entry['word2_iast']}"
 
-      front = "<center>#{'<big>' * 3}#{entry['word1_devanagari']} #{entry['word2_devanagari']}#{'</big>' * 3}</center>"
+      # word1's underlying (pre-visarga) form is shown under the pair: a final
+      # visarga is the pause-form of an original -s or -r, and which one it is
+      # decides the sandhi (e.g. punaḥ ← punar takes r, not -o), so making it
+      # visible is what lets the learner apply the rule.
+      front = "<center>#{'<big>' * 3}#{entry['word1_devanagari']} #{entry['word2_devanagari']}#{'</big>' * 3}" \
+              "<br><small>(#{entry['word1_underlying_devanagari']})</small></center>"
 
       combined_dev  = combined.map { |c| "<b>#{c['devanagari']}</b>" }.join(" &nbsp;/&nbsp; ")
       combined_iast = combined.map { |c| c["iast"] }.join(" / ")
