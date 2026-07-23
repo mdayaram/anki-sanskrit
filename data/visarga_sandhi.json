@@ -685,5 +685,33 @@
     ],
     "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
     "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
+  },
+  {
+    "type": "sa_esa_vowel",
+    "word1_iast": "saḥ",
+    "word1_devanagari": "सः",
+    "word1_underlying_iast": "sas",
+    "word1_underlying_devanagari": "सस्",
+    "word2_iast": "aham",
+    "word2_devanagari": "अहम्",
+    "combined": [
+      { "iast": "so 'ham", "devanagari": "सोऽहम्" }
+    ],
+    "rule": "saḥ / eṣaḥ before a vowel: ordinary -aḥ sandhi (not the pre-consonant drop)",
+    "explanation": "Contrast: the visarga-dropping rule fires only before a consonant. Before a vowel saḥ/eṣaḥ behave like any -aḥ word — here before short a it becomes -o with the a elided (avagraha), giving the -o that the pre-consonant rule never produces."
+  },
+  {
+    "type": "sa_esa_vowel",
+    "word1_iast": "saḥ",
+    "word1_devanagari": "सः",
+    "word1_underlying_iast": "sas",
+    "word1_underlying_devanagari": "सस्",
+    "word2_iast": "icchati",
+    "word2_devanagari": "इच्छति",
+    "combined": [
+      { "iast": "sa icchati", "devanagari": "स इच्छति" }
+    ],
+    "rule": "saḥ / eṣaḥ before a vowel: ordinary -aḥ sandhi (not the pre-consonant drop)",
+    "explanation": "Contrast: before a vowel other than short a, the visarga simply drops leaving -a with a hiatus (ordinary -aḥ behaviour). The result 'sa' here coincides with the pre-consonant form but arrives by the normal rule, not the special pronoun drop."
   }
 ]

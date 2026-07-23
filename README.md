@@ -50,7 +50,7 @@ than inside a word). No audio.
 ### 4. 🕉️ Sanskrit Visarga Sandhi — the final-ḥ rules
 
 The second sandhi family: what a word-final visarga (ḥ) becomes depending on the
-vowel before it and the sound after it — 48 cards. Front: the two parts in
+vowel before it and the sound after it — 50 cards. Front: the two parts in
 Devanāgarī (नरः गच्छति). Back: the combined form(s) (नरो गच्छति), the IAST for the
 parts and the whole, which rule applied, and a brief statement of that rule. Some
 junctions have more than one accepted outcome (e.g. before a voiceless stop the
