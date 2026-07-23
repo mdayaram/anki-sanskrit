@@ -26,6 +26,11 @@ module Anki
   # sound). Consonant (vyañjana) sandhi would follow this same naming.
   VISARGA_SANDHI_DECK = "🕉️ Sanskrit Visarga Sandhi"
 
+  # The inverse of the vowel-sandhi deck: practice splitting a combined form
+  # back into its two words (vigraha). Separate deck so joining and splitting
+  # are studied independently.
+  VOWEL_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Vowel Sandhi (Splitting)"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
