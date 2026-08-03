@@ -31,6 +31,10 @@ module Anki
   # are studied independently.
   VOWEL_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Vowel Sandhi (Splitting)"
 
+  # The inverse of the visarga-sandhi deck: practice splitting a combined form
+  # back into its two words (vigraha). Separate deck, like the vowel splitting deck.
+  VISARGA_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Visarga Sandhi (Splitting)"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
