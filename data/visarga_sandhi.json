@@ -543,7 +543,7 @@
       { "iast": "naraḥ karoti", "devanagari": "नरः करोति" }
     ],
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
-    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before k or kh is optionally the jihvāmūlīya, a rasping breath at the root of the tongue like the ch of German Bach (Pāṇini 8.3.37)."
   },
   {
     "type": "visarga_retained",
@@ -557,7 +557,7 @@
       { "iast": "rāmaḥ paṭhati", "devanagari": "रामः पठति" }
     ],
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
-    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
   {
     "type": "visarga_retained",
@@ -571,7 +571,7 @@
       { "iast": "devaḥ khādati", "devanagari": "देवः खादति" }
     ],
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
-    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before k or kh is optionally the jihvāmūlīya, a rasping breath at the root of the tongue like the ch of German Bach (Pāṇini 8.3.37)."
   },
   {
     "type": "visarga_retained",
@@ -585,7 +585,7 @@
       { "iast": "bālaḥ phalam", "devanagari": "बालः फलम्" }
     ],
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
-    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
   {
     "type": "visarga_retained",
@@ -599,7 +599,7 @@
       { "iast": "naraḥ smarati", "devanagari": "नरः स्मरति" }
     ],
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
-    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. Before a sibilant assimilation is the default (Pāṇini 8.3.34) and the written visarga is the licensed alternative (8.3.36) — and even when written, it is pronounced at the sibilant's place: naraḥ smarati is heard as naras smarati, never with a plain h."
   },
   {
     "type": "visarga_retained",
@@ -613,7 +613,7 @@
       { "iast": "hariḥ śete", "devanagari": "हरिः शेते" }
     ],
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
-    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause."
+    "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. Before a sibilant assimilation is the default (Pāṇini 8.3.34) and the written visarga is the licensed alternative (8.3.36) — and even when written, it is pronounced at the sibilant's place: hariḥ śete is heard as hariś śete, never with a plain h."
   },
 
   {

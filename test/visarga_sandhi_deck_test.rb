@@ -19,6 +19,17 @@ class VisargaSandhiDeckTest < Minitest::Test
     @entries ||= VisargaSandhiDeck.load
   end
 
+  # Every string in a record, including the ones nested in `combined`.
+  def strings(entry)
+    entry.flat_map do |_, v|
+      case v
+      when String then [v]
+      when Array  then v.flat_map { |c| c.is_a?(Hash) ? c.values.grep(String) : [] }
+      else []
+      end
+    end
+  end
+
   def test_not_empty
     refute_empty entries
   end
@@ -55,6 +66,47 @@ class VisargaSandhiDeckTest < Minitest::Test
     entries.each do |e|
       assert_match(/[sr]\z/, e["word1_underlying_iast"],
                    "underlying #{e['word1_underlying_iast']} should end in s or r")
+    end
+  end
+
+  # Before k/kh and p/ph the visarga is retained in WRITING only: in careful
+  # pronunciation it is optionally the jihvāmūlīya (velar) or upadhmānīya
+  # (bilabial) respectively (Pāṇini 8.3.37), and before a sibilant retention is
+  # likewise only one of two accepted outcomes (8.3.36). That is the whole point
+  # of these six cards, so the explanation must keep saying it.
+  RETAINED_NOTES = {
+    /\Ak/  => "jihvāmūlīya",
+    /\Akh/ => "jihvāmūlīya",
+    /\Ap/  => "upadhmānīya",
+    /\Aph/ => "upadhmānīya",
+    /\A[śṣs]/ => "assimilation is the default"
+  }.freeze
+
+  def test_retained_cards_explain_the_pronunciation
+    retained = entries.select { |e| e["type"] == "visarga_retained" }
+    refute_empty retained
+
+    retained.each do |e|
+      word2 = e["word2_iast"]
+      expected = RETAINED_NOTES.find { |pattern, _| word2.match?(pattern) }&.last
+      refute_nil expected, "no pronunciation note expected for word2 #{word2.inspect} — is it really `visarga_retained`?"
+      assert_includes e["explanation"], expected,
+                      "explanation for #{e['word1_iast']}+#{word2} should mention #{expected.inspect}"
+    end
+  end
+
+  # The Vedic Extensions block (U+1CF0-U+1CFF) holds the jihvāmūlīya (U+1CF5) and
+  # upadhmānīya (U+1CF6) signs. They are the "correct" way to write these sounds
+  # and they are unusable here: essentially no default font on macOS, iOS, Android
+  # or Windows covers the block, so they render as tofu in Anki. Describe the
+  # sounds in words instead.
+  def test_no_vedic_extension_characters
+    entries.each do |e|
+      strings(e).each do |s|
+        refute_match(/[\u{1CF0}-\u{1CFF}]/, s,
+                     "#{e['word1_iast']}+#{e['word2_iast']} contains a Vedic Extensions " \
+                     "character (unrenderable in most fonts): #{s.inspect}")
+      end
     end
   end
 
