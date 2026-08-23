@@ -87,4 +87,34 @@ class IastDevanagariTest < Minitest::Test
     assert IastDevanagari.valid_pair?("naro 'pi", "नरोऽपि")
     assert IastDevanagari.valid_pair?("naro'pi", "नरोऽपि")
   end
+  def test_om_sign
+    # ॐ (U+0950) is a single sign for the syllable oṃ, not a spellable sequence.
+    assert_equal "oṃ", rev("ॐ")
+    assert_equal "oṃ namaḥ", rev("ॐ नमः")
+  end
+
+  def test_valid_pair_rejects_word_spacing_differences_by_default
+    # Devanagari joins words under sandhi where readable IAST separates them.
+    # By default that is a mismatch, so a real typo cannot hide behind spacing.
+    refute IastDevanagari.valid_pair?("tat savitur", "तत्सवितुर्")
+  end
+
+  def test_valid_pair_ignore_spacing_accepts_word_separated_iast
+    # Opt in for running text (mantras, verses), where the Devanagari is written
+    # sandhi-joined but the IAST is spaced out word by word for the reader.
+    assert IastDevanagari.valid_pair?("tat savitur", "तत्सवितुर्", ignore_spacing: true)
+    assert IastDevanagari.valid_pair?("tatsavitur", "तत्सवितुर्", ignore_spacing: true)
+  end
+
+  def test_valid_pair_ignore_spacing_still_rejects_a_real_mismatch
+    refute IastDevanagari.valid_pair?("tat savitar", "तत्सवितुर्", ignore_spacing: true)
+  end
+
+  def test_valid_pair_ignore_spacing_keeps_anusvara_read_at_the_written_boundary
+    # वरेण्यं ends the line, so its anusvara is ṃ — not the homorganic m it would
+    # become if the following भ were adjacent. Stripping spaces must happen AFTER
+    # the Devanagari is read, never before.
+    assert IastDevanagari.valid_pair?("vareṇyaṃ bhargo", "वरेण्यं भर्गो", ignore_spacing: true)
+    refute IastDevanagari.valid_pair?("vareṇyam bhargo", "वरेण्यं भर्गो", ignore_spacing: true)
+  end
 end
