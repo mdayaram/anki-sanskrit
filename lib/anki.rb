@@ -35,6 +35,10 @@ module Anki
   # back into its two words (vigraha). Separate deck, like the vowel splitting deck.
   VISARGA_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Visarga Sandhi (Splitting)"
 
+  # The mantra deck: whole mantras (Devanagari -> translation + recitation), the
+  # only deck besides the alphabet and the Gita that carries audio.
+  MANTRAS_DECK = "🕉️ Sanskrit Mantras"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
