@@ -29,6 +29,7 @@ require_relative "lib/generators/vowel_sandhi"
 require_relative "lib/generators/vowel_sandhi_split"
 require_relative "lib/generators/visarga_sandhi"
 require_relative "lib/generators/visarga_sandhi_split"
+require_relative "lib/generators/mantras"
 
 # Registry of every category, in run order. Each maps to a --<key> flag.
 GENERATORS = [
@@ -41,7 +42,8 @@ GENERATORS = [
   Generators::VowelSandhi,
   Generators::VowelSandhiSplit,
   Generators::VisargaSandhi,
-  Generators::VisargaSandhiSplit
+  Generators::VisargaSandhiSplit,
+  Generators::Mantras
 ].freeze
 
 selected = []
