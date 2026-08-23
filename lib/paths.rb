@@ -9,6 +9,7 @@ module Paths
   LETTERS_JSON = File.join(DATA_DIR, "letters.json")
   GITA_JSON      = File.join(DATA_DIR, "gita.json")
   GITA_AUDIO_DIR = File.join(DATA_DIR, "gita_audio")
+  MANTRA_AUDIO_DIR = File.join(DATA_DIR, "mantra_audio")
 
   # Resolve an output .txt file in the project root.
   def self.output(name)

@@ -33,6 +33,9 @@ module IastDevanagari
     "ś" => "श", "ṣ" => "ष", "s" => "स", "h" => "ह"
   }.freeze
 
+  # ॐ is a single sign for the whole syllable oṃ, not a spellable
+  # consonant+vowel sequence, so it is read straight off this constant.
+  OM       = "ॐ"
   VIRAMA   = "्"
   ANUSVARA = "ं"
   VISARGA  = "ः"
@@ -44,6 +47,7 @@ module IastDevanagari
   DEV_VOWEL_INDEP = VOWELS.to_h { |k, (ind, _m)| [ind, k] }.freeze
   DEV_VOWEL_MATRA = VOWELS.reject { |k, _| k == "a" }.to_h { |k, (_i, m)| [m, k] }.freeze
   DEV_CONSONANT   = CONSONANTS.to_h { |k, v| [v, k] }.freeze
+  DEV_SIGN        = { OM => "oṃ" }.freeze
 
   # Anusvara before a varga stop is realised as that varga's nasal (ṅ/ñ/ṇ/n/m).
   # Before a sibilant/semivowel/ha (or a boundary) it stays a nasalised vowel (ṃ).
@@ -78,6 +82,10 @@ module IastDevanagari
         out << "a" if pending_a
         pending_a = false
         out << (ANUSVARA_STOP_NASAL[dev[i + 1]] || "ṃ")
+      elsif DEV_SIGN.key?(ch)
+        out << "a" if pending_a
+        pending_a = false
+        out << DEV_SIGN[ch]
       elsif ch == VISARGA
         out << "a" if pending_a
         pending_a = false
@@ -108,11 +116,25 @@ module IastDevanagari
   # writes it). Both IAST spellings denote the same form, so we compare modulo
   # whitespace immediately around the apostrophe. to_iast itself stays a faithful
   # character reader (it never invents a space); only pair-validity is lenient.
-  def valid_pair?(iast, dev)
-    normalize_avagraha(to_iast(dev)) == normalize_avagraha(iast)
+  # `ignore_spacing:` additionally compares modulo ALL whitespace, for running
+  # text: a mantra or verse is written sandhi-joined in Devanagari (तत्सवितुर्वरेण्यं)
+  # while its IAST is spaced out word by word for the reader (tat savitur
+  # vareṇyaṃ). The Devanagari is read FIRST and the spaces dropped afterwards, so
+  # the anusvara is still resolved at the boundary as actually written (वरेण्यं
+  # before a space stays ṃ, and does not become the homorganic m of a cluster).
+  # Off by default: for a single word, differing spacing is a real mismatch.
+  def valid_pair?(iast, dev, ignore_spacing: false)
+    read = normalize_avagraha(to_iast(dev))
+    want = normalize_avagraha(iast)
+    read, want = strip_spacing(read), strip_spacing(want) if ignore_spacing
+    read == want
   end
 
   def normalize_avagraha(str)
     str.gsub(/ *' */, "'")
+  end
+
+  def strip_spacing(str)
+    str.gsub(/\s+/, "")
   end
 end

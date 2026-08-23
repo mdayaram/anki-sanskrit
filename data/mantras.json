@@ -1,0 +1,94 @@
+[
+  {
+    "id": "gayatri",
+    "name": "Gāyatrī Mantra",
+    "source": "Ṛgveda 3.62.10, prefixed with ॐ and the three vyāhṛtis",
+    "devanagari": "ॐ भूर्भुवः स्वः\nतत्सवितुर्वरेण्यं\nभर्गो देवस्य धीमहि\nधियो यो नः प्रचोदयात्",
+    "transliteration": "oṃ bhūr bhuvaḥ svaḥ\ntat savitur vareṇyaṃ\nbhargo devasya dhīmahi\ndhiyo yo naḥ pracodayāt",
+    "translations": [
+      {
+        "label": "Translation — after S. Radhakrishnan (1953)",
+        "text": "We meditate on the adorable glory of the radiant sun; may She inspire our intelligence."
+      }
+    ],
+    "word_meanings": [
+      {
+        "devanagari": "ॐ",
+        "iast": "oṃ",
+        "meaning": "the praṇava, the sacred syllable"
+      },
+      {
+        "devanagari": "भूः",
+        "iast": "bhūḥ",
+        "meaning": "earth"
+      },
+      {
+        "devanagari": "भुवः",
+        "iast": "bhuvaḥ",
+        "meaning": "the mid-region, the atmosphere"
+      },
+      {
+        "devanagari": "स्वः",
+        "iast": "svaḥ",
+        "meaning": "heaven"
+      },
+      {
+        "devanagari": "तत्",
+        "iast": "tat",
+        "meaning": "that"
+      },
+      {
+        "devanagari": "सवितुः",
+        "iast": "savituḥ",
+        "meaning": "of Savitṛ, the impelling sun (genitive of savitṛ)"
+      },
+      {
+        "devanagari": "वरेण्यम्",
+        "iast": "vareṇyam",
+        "meaning": "most excellent, to be chosen, desirable"
+      },
+      {
+        "devanagari": "भर्गः",
+        "iast": "bhargaḥ",
+        "meaning": "radiance, splendour"
+      },
+      {
+        "devanagari": "देवस्य",
+        "iast": "devasya",
+        "meaning": "of the god"
+      },
+      {
+        "devanagari": "धीमहि",
+        "iast": "dhīmahi",
+        "meaning": "may we meditate on, may we hold (1st person plural middle)"
+      },
+      {
+        "devanagari": "धियः",
+        "iast": "dhiyaḥ",
+        "meaning": "thoughts, insights (accusative plural)"
+      },
+      {
+        "devanagari": "यः",
+        "iast": "yaḥ",
+        "meaning": "who"
+      },
+      {
+        "devanagari": "नः",
+        "iast": "naḥ",
+        "meaning": "our, of us"
+      },
+      {
+        "devanagari": "प्रचोदयात्",
+        "iast": "pracodayāt",
+        "meaning": "may he impel, urge forward"
+      }
+    ],
+    "notes": "ॐ and भूर्भुवः स्वः are the mahāvyāhṛti prefix — the three worlds — added in later ritual use; the three lines after it are the Ṛgvedic verse proper, addressed to Savitṛ in the gāyatrī metre the mantra is named for (three octosyllabic lines). Also called the Sāvitrī mantra. In the last line धियः + यः shows visarga sandhi: -aḥ → -o before a voiced sound, giving धियो यो. The verse's own grammar is masculine — यः and प्रचोदयात् refer back to सवितुः देवस्य — so translations render it \"he\"; the feminine \"She\" above follows the later devotional identification of the mantra with the goddess Gāyatrī, Veda-mātā, the Mother of the Vedas.",
+    "audio_file": "gayatri.mp3",
+    "audio_source": {
+      "url": "https://archive.org/download/shri-rattan-mohan-sharma-gayatri-mantra/Shri%20Rattan%20Mohan%20Sharma%20%E2%80%94%20Gayatri%20Mantra.mp3",
+      "credit": "Shri Rattan Mohan Sharma, via the Internet Archive",
+      "trim": "3.10-27.73 s of the original, which is three passes of the mantra over a continuous drone; 0.15 s fade-in, 0.5 s fade-out, re-encoded at 192 kbps CBR to match the source. See bootstrap/trim_mantra_audio.sh."
+    }
+  }
+]
