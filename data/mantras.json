@@ -90,5 +90,26 @@
       "credit": "Shri Rattan Mohan Sharma, via the Internet Archive",
       "trim": "3.10-27.73 s of the original, which is three passes of the mantra over a continuous drone; 0.15 s fade-in, 0.5 s fade-out, re-encoded at 192 kbps CBR to match the source. See bootstrap/trim_mantra_audio.sh."
     }
+  },
+  {
+    "id": "pratah_smarana",
+    "name": "Prātaḥ Smaraṇa Stotram",
+    "source": "Attributed to Ādi Śaṅkara; three verses (the closing phala-śruti verse is omitted)",
+    "devanagari": "प्रातः स्मरामि हृदि संस्फुरदात्मतत्त्वं\nसच्चित्सुखं परमहंसगतिं तुरीयम्\nयत्स्वप्नजागरसुषुप्तिमवैति नित्यं\nतद्ब्रह्म निष्कलमहं न च भूतसङ्घः\n\nप्रातर्भजामि मनसा वचसामगम्यं\nवाचो विभान्ति निखिला यदनुग्रहेण\nयन्नेतिनेतिवचनैर्निगमा अवोचं\nस्तं देवदेवमजमच्युतमाहुरग्र्यम्\n\nप्रातर्नमामि तमसः परमर्कवर्णं\nपूर्णं सनातनपदं पुरुषोत्तमाख्यम्\nयस्मिन्निदं जगदशेषमशेषमूर्तौ\nरज्ज्वां भुजङ्गम इव प्रतिभासितं वै",
+    "transliteration": "prātaḥ smarāmi hṛdi saṃsphurad ātma tattvaṃ\nsac cit sukhaṃ parama haṃsa gatiṃ turīyam\nyat svapna jāgara suṣuptim avaiti nityaṃ\ntad brahma niṣkalam ahaṃ na ca bhūta saṅghaḥ\n\nprātar bhajāmi manasā vacasām agamyaṃ\nvāco vibhānti nikhilā yad anugraheṇa\nyan neti neti vacanair nigamā avocaṃ\ns taṃ deva devam ajam acyutam āhur agryam\n\nprātar namāmi tamasaḥ param arka varṇaṃ\npūrṇaṃ sanātana padaṃ puruṣottamākhyam\nyasminn idaṃ jagad aśeṣam aśeṣa mūrtau\nrajjvāṃ bhujaṅgama iva pratibhāsitaṃ vai",
+    "translations": [
+      {
+        "label": "Translation — Swami Tadatmananda (Arsha Bodha)",
+        "text": "At dawn, I meditate on the reality shining in my heart,\nsat chit ananda, sought by saints, transcendent,\nwhich forever abides in waking, dreams, and sleep.\nI am that indivisible brahman, not this material body.\n\nAt dawn, I worship him beyond words and thoughts,\nwho causes all words and thoughts to arise,\ndeclared as \"not this, not this\" in the scriptures,\nthe unborn, immutable, primal, god of gods.\n\nAt dawn, I bow to him shining through the darkness,\nthe limitless, eternal abode, the supreme person,\nin whom the entire world appears\nlike a snake appears on a rope."
+      }
+    ],
+    "word_meanings": [],
+    "notes": "The pada break in verse 2 falls mid-sandhi: ...निगमा अवोचं / स्तं देवदेवम्... reads continuously as nigamā avocaṃs taṃ devadevam (\"the scriptures declared him... the god of gods\") — स्/स is the start of तम् carried onto the next printed line, a common effect of the meter not aligning with word boundaries. A fourth, phala-śruti verse (‘whoever recites this at dawn attains the supreme state’) traditionally follows but is not carded here, the deck being about the meditation itself rather than the fruit of reciting it.",
+    "audio_file": "pratah_smarana.mp3",
+    "audio_source": {
+      "url": "https://www.youtube.com/watch?v=cqPlGaHQUNQ",
+      "credit": "Swami Tadatmananda, Arsha Bodha Center — chanted in Rāga Bhairav",
+      "trim": "0.0-233.60 s of the ~233.65 s source (essentially the whole recitation; the source already fades in/out naturally at both ends), 0.05 s fade-in / 0.5 s fade-out applied on top, re-encoded at 160 kbps CBR to match the source's ~153 kbps Opus. Downloaded with yt-dlp (which needs ffmpeg for the audio extraction) rather than curl, since the source is a YouTube video and not a direct file; cut/fade/encode otherwise follow the usual afconvert-free toolchain (python3 + lame). See bootstrap/trim_pratah_smarana_audio.sh."
+    }
   }
 ]

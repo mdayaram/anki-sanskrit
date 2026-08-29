@@ -63,35 +63,32 @@ class MantrasTest < Minitest::Test
   end
 
   def test_back_omits_the_full_line_transliteration
-    # The word-by-word gloss already gives every word's IAST, so a full IAST of
-    # the whole mantra only repeats it and crowds the card. The transliteration
-    # stays in data/mantras.json regardless: it is what validates the Devanagari
-    # spelling (see test/mantras_data_test.rb).
+    # There is no word-by-word gloss to repeat it either (see
+    # test_back_is_lean_translations_and_audio_only) — a full IAST of the whole
+    # mantra would just crowd the card. The transliteration stays in
+    # data/mantras.json regardless: it is what validates the Devanagari spelling
+    # (see test/mantras_data_test.rb).
     _key, _front, back = gen.card(entry)
     refute_includes back, "oṃ namaḥ<br>śivāya"
     refute_includes back, "IAST"
   end
 
-  def test_back_has_the_name_translations_gloss_and_audio
+  def test_back_is_lean_translations_and_audio_only
+    # Deliberately lean: no name/source header, no word-by-word gloss, no notes.
+    # A translation's own label already carries its attribution/source.
     key, _front, back = gen.card(entry)
 
     assert_equal "mantra:example", key
-    assert_includes back, "Example Mantra"
-    assert_includes back, "Somewhere 1.2.3"
     assert_includes back, "Literal"
     assert_includes back, "Oṃ, homage to Śiva."
     assert_includes back, "Someone (1896)"          # every translation is rendered, whatever it is called
     assert_includes back, "Salutation unto Siva."
-    assert_includes back, "नमः"                      # word-by-word gloss
-    assert_includes back, "homage"
-    assert_includes back, "A five-syllable mantra." # notes
     assert_includes back, "[sound:example.mp3]"
+    refute_includes back, "Example Mantra"          # name
+    refute_includes back, "Somewhere 1.2.3"         # source
+    refute_includes back, "<ul>"                    # word-by-word gloss
+    refute_includes back, "five-syllable"           # notes
     refute_includes back, "\n"
     refute_includes back, "style="
-  end
-
-  def test_notes_are_optional
-    _key, _front, back = gen.card(entry.merge("notes" => ""))
-    refute_includes back, "<small></small>"
   end
 end

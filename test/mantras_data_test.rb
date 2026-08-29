@@ -35,7 +35,9 @@ class MantrasDataTest < Minitest::Test
         %w[label text].each { |k| assert t.key?(k), "#{m['id']}: translation missing #{k}: #{t.inspect}" }
       end
 
-      refute_empty m["word_meanings"], "#{m['id']}: needs a word-by-word gloss"
+      # word_meanings/notes are curatorial metadata only (not rendered on the
+      # card — see lib/generators/mantras.rb), so an entry may leave them empty.
+      assert_kind_of Array, m["word_meanings"]
       m["word_meanings"].each do |w|
         %w[devanagari iast meaning].each { |k| assert w.key?(k), "#{m['id']}: gloss entry missing #{k}: #{w.inspect}" }
       end
