@@ -14,7 +14,7 @@ into Anki right away.
 
 ## The decks
 
-There are four decks, designed to be learned in order — each one builds on the
+There are six decks, designed to be learned in order — each one builds on the
 last. They're independent, though, so you can generate and import any of them on
 their own.
 
@@ -57,7 +57,25 @@ junctions have more than one accepted outcome (e.g. before a voiceless stop the
 visarga may become a sibilant or stay a visarga); those cards show every form. No
 audio.
 
-### 5. 🕉️ Bhagavad Gita — read whole verses
+### 5. 🕉️ Sanskrit External / Internal Consonant Sandhi — the consonant rules
+
+The third and last sandhi family, split the way its source handout splits it.
+**External** (53 cards) covers the twelve rules for what happens where one word's
+final consonant meets the next word's first sound — voicing (वाक् देवी → वाग्देवी),
+nasal assimilation (वाक् मय → वाङ्मय), the several changes specific to final त् and
+न्, म् becoming anusvāra, and the doubling rules. **Internal** (10 cards) covers the
+two rules that operate inside a single word: स् → ष् (वि + सीदति → विषीदति) and
+न् → ण् (ब्रह्मन् + आ → ब्रह्मणा).
+
+Front: the two parts in Devanāgarī. Back: the combined form written joined, the
+way it appears in a printed text (तत् + च → तच्च), the IAST for the parts and the
+whole, which rule applied, and a brief statement of it. Where a word's final
+consonant is not its dictionary form, the front also shows where it came from
+(वाक् ← वाच्) — a word can only end in a few consonants, and that reduction happens
+before any of these rules apply. A few cards are deliberate contrasts, showing a
+junction where the rule does *not* fire. No audio.
+
+### 6. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
@@ -87,6 +105,8 @@ decks to generate, and they combine:
 | `--vedanta` | Vedānta glossary |
 | `--vowel-sandhi` | Vowel (svara) sandhi word pairs |
 | `--visarga-sandhi` | Visarga sandhi word pairs |
+| `--external-consonant-sandhi` | External consonant sandhi word pairs |
+| `--internal-consonant-sandhi` | Internal consonant sandhi (ṣatva/ṇatva) |
 | `--gita-verses` | Bhagavad Gītā verses |
 
 All the data these flags read is already in the repo, so they all work right away.
@@ -146,6 +166,21 @@ thanks to everyone below — please visit and support the original sources.
   term and its meaning.
 - **[Monier-Williams Sanskrit Dictionary](https://www.sanskrit-lexicon.uni-koeln.de/)**
   (Cologne Digital Sanskrit Dictionaries) — used to verify the glossary headwords.
+
+### The consonant sandhi decks
+
+- **[Consonant Sandhi handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Sandhi/ConsonantSandhiRules.pdf)**
+  by **Swami Tadatmananda**, published by the
+  **[Arsha Bodha Center](https://arshabodha.org/teachings/sanskrit-grammar/)** —
+  the source of the rules, of how they're divided into external and internal, and
+  of one worked example per rule.
+- **[Whitney's *Sanskrit Grammar*](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))**,
+  **[learnsanskrit.org](https://www.learnsanskrit.org/references/sandhi/)**,
+  **[Antonia Ruppel's *Cambridge Introduction to Sanskrit* sandhi overview](https://www.cambridge-sanskrit.org/wp-content/uploads/2016/11/Sandhi-Overview-A4.pdf)**,
+  and **Guy Leavitt's *Saṁskṛtasubodhinī*
+  [consonant sandhi handout](http://www.introductory-sanskrit.com/uploads/4/2/9/4/42948489/lesson_13_sandhi_handouts.pdf)**
+  — used to verify every rule against an independent statement of it, and the
+  source of the additional worked examples on the cards.
 
 ### The Bhagavad Gītā
 
