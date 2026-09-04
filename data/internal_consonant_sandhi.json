@@ -1,0 +1,143 @@
+[
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "vi",
+    "word1_devanagari": "वि",
+    "word2_iast": "sīdati",
+    "word2_devanagari": "सीदति",
+    "combined": [
+      { "iast": "viṣīdati", "devanagari": "विषीदति" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ",
+    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "source": "handout"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "agni",
+    "word1_devanagari": "अग्नि",
+    "word2_iast": "su",
+    "word2_devanagari": "सु",
+    "combined": [
+      { "iast": "agniṣu", "devanagari": "अग्निषु" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ",
+    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "source": "learnsanskrit.org"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "abhi",
+    "word1_devanagari": "अभि",
+    "word2_iast": "siñcati",
+    "word2_devanagari": "सिञ्चति",
+    "combined": [
+      { "iast": "abhiṣiñcati", "devanagari": "अभिषिञ्चति" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ",
+    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "source": "common form"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "dhanus",
+    "word1_devanagari": "धनुस्",
+    "word2_iast": "ā",
+    "word2_devanagari": "आ",
+    "combined": [
+      { "iast": "dhanuṣā", "devanagari": "धनुषा" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ",
+    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "source": "learnsanskrit.org"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "su",
+    "word1_devanagari": "सु",
+    "word2_iast": "suptaḥ",
+    "word2_devanagari": "सुप्तः",
+    "combined": [
+      { "iast": "suṣuptaḥ", "devanagari": "सुषुप्तः" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ",
+    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "source": "common form"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "brahman",
+    "word1_devanagari": "ब्रह्मन्",
+    "word2_iast": "ā",
+    "word2_devanagari": "आ",
+    "combined": [
+      { "iast": "brahmaṇā", "devanagari": "ब्रह्मणा" }
+    ],
+    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
+    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "source": "handout"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "rāma",
+    "word1_devanagari": "राम",
+    "word2_iast": "ena",
+    "word2_devanagari": "एन",
+    "combined": [
+      { "iast": "rāmeṇa", "devanagari": "रामेण" }
+    ],
+    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
+    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "source": "learnsanskrit.org"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "viṣa",
+    "word1_devanagari": "विष",
+    "word2_iast": "ena",
+    "word2_devanagari": "एन",
+    "combined": [
+      { "iast": "viṣeṇa", "devanagari": "विषेण" }
+    ],
+    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
+    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "source": "learnsanskrit.org"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "guru",
+    "word1_devanagari": "गुरु",
+    "word2_iast": "nā",
+    "word2_devanagari": "ना",
+    "combined": [
+      { "iast": "guruṇā", "devanagari": "गुरुणा" }
+    ],
+    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
+    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "source": "learnsanskrit.org"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "arjuna",
+    "word1_devanagari": "अर्जुन",
+    "word2_iast": "ena",
+    "word2_devanagari": "एन",
+    "combined": [
+      { "iast": "arjunena", "devanagari": "अर्जुनेन" }
+    ],
+    "rule": "Blocked: an intervening palatal, cerebral or dental stops ṇatva",
+    "explanation": "The र् of अर्- would retroflex the न् of the ending, but the palatal ज् stands between them and blocks it — hence अर्जुनेन, never अर्जुणेन. Contrast राम + एन → रामेण, where only the labial म् intervenes and does not block.",
+    "contrast": true,
+    "source": "contrast card"
+  }
+]

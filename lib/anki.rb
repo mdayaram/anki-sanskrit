@@ -18,12 +18,12 @@ module Anki
   # The Vedanta glossary word deck (a separate deck).
   VEDANTA_DECK = "🕉️ Vedanta Glossary"
 
-  # The vowel (svara) sandhi deck. One of the three sandhi families — consonant
-  # (vyañjana) and visarga sandhi would each get their own deck.
+  # The vowel (svara) sandhi deck. One of the three sandhi families; visarga and
+  # consonant (vyañjana) sandhi each have their own decks below.
   VOWEL_SANDHI_DECK = "🕉️ Sanskrit Vowel Sandhi"
 
   # The visarga sandhi deck — the second sandhi family carded (final ḥ + next
-  # sound). Consonant (vyañjana) sandhi would follow this same naming.
+  # sound). Consonant (vyañjana) sandhi follows this same naming.
   VISARGA_SANDHI_DECK = "🕉️ Sanskrit Visarga Sandhi"
 
   # The inverse of the vowel-sandhi deck: practice splitting a combined form
@@ -38,6 +38,14 @@ module Anki
   # The mantra deck: whole mantras (Devanagari -> translation + recitation), the
   # only deck besides the alphabet and the Gita that carries audio.
   MANTRAS_DECK = "🕉️ Sanskrit Mantras"
+
+  # Consonant (vyañjana) sandhi, the third and last sandhi family — split into the
+  # two halves the Arsha Bodha handout that sources these decks uses. External is
+  # the junction between two words; internal is within a single word (ṣatva/ṇatva).
+  # Named in parallel, and WITHOUT a parenthesis: "(...)" is reserved for the
+  # splitting variant of a deck, so a future splitter is "... Sandhi (Splitting)".
+  EXTERNAL_CONSONANT_SANDHI_DECK = "🕉️ Sanskrit External Consonant Sandhi"
+  INTERNAL_CONSONANT_SANDHI_DECK = "🕉️ Sanskrit Internal Consonant Sandhi"
 
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
