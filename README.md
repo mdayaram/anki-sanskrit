@@ -63,11 +63,12 @@ The third and last sandhi family, split the way its source handout splits it.
 **External** (53 cards) covers the twelve rules for what happens where one word's
 final consonant meets the next word's first sound — voicing (वाक् देवी → वाग्देवी),
 nasal assimilation (वाक् मय → वाङ्मय), the several changes specific to final त् and
-न्, म् becoming anusvāra, and the doubling rules. **Internal** (16 cards) covers the
+न्, म् becoming anusvāra, and the doubling rules. **Internal** (23 cards) covers the
 two rules that operate inside a single word: स् → ष् (वि + सीदति → विषीदति) and
-न् → ण् (ब्रह्मन् + आ → ब्रह्मणा). The ण् rule turns on three separate conditions —
-what triggers it, what the न् is followed by, and what may stand in between — so
-each of those cards also spells out how its own example satisfies (or fails) them.
+न् → ण् (ब्रह्मन् + आ → ब्रह्मणा). Each rule turns on three separate conditions —
+what triggers it, what the target sound may be followed by, and what may stand in
+between — so every card also spells out how its own example satisfies (or fails)
+them. A few cards are deliberate contrasts where the rule does *not* fire.
 
 Front: the two parts in Devanāgarī. Back: the combined form written joined, the
 way it appears in a printed text (तत् + च → तच्च), the IAST for the parts and the

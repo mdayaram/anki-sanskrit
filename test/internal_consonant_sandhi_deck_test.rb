@@ -92,24 +92,39 @@ class InternalConsonantSandhiDeckTest < Minitest::Test
     end
   end
 
-  # The ṇatva rule turns on three conditions (a trigger र्/ऋ/ॠ/ष्; the न् followed
-  # by a vowel or न् म् य् व्; only vowels, क-varga, प-varga, य् व् ह् or anusvāra
-  # intervening — Pāṇini 8.4.1-8.4.2, Whitney §189, learnsanskrit.org). The card
-  # set is meant to exercise every trigger and every permitted intervening class,
-  # plus both ways the rule can fail. Each ṇatva record tags what it demonstrates
-  # in `covers`, and this test is what keeps that coverage from silently eroding
-  # if an example is ever swapped out.
-  REQUIRED_COVERAGE = %w[
-    trigger_ra trigger_ri trigger_sha
-    via_vowel via_kavarga via_pavarga via_ya via_va via_ha via_anusvara
-    before_vowel
-    blocked_intervener blocked_follower
-  ].freeze
+  # Both rules turn on three conditions — a trigger, a restriction on the target
+  # sound, and a limited set of sounds that may intervene:
+  #
+  #   ṇatva  (Pāṇini 8.4.1-8.4.2, Whitney §189): trigger र्/ऋ/ॠ/ष्; the न् followed
+  #          by a vowel or न् म् य् व्; vowels, क-varga, प-varga, य् व् ह् or
+  #          anusvāra may intervene.
+  #   ṣatva  (Pāṇini 8.3.57-8.3.59, Whitney §§180-181): trigger a vowel other than
+  #          अ/आ, or क-varga, र्, ल्; the स् neither word-final nor before र्; only
+  #          anusvāra, visarga or a sibilant may intervene.
+  #
+  # The card set is meant to exercise every trigger and every permitted intervening
+  # class of BOTH rules, plus each way a rule can fail. Every record tags what it
+  # demonstrates in `covers`, and this test is what keeps that coverage from
+  # silently eroding if an example is ever swapped out.
+  REQUIRED_COVERAGE = {
+    "natva" => %w[
+      trigger_ra trigger_ri trigger_sha
+      via_vowel via_kavarga via_pavarga via_ya via_va via_ha via_anusvara
+      before_vowel
+      blocked_intervener blocked_follower
+    ],
+    "satva" => %w[
+      s_trigger_i s_trigger_u s_trigger_ri s_trigger_o s_trigger_ka s_trigger_ra
+      s_via_none s_via_visarga s_via_anusvara
+      s_blocked_trigger
+    ]
+  }.freeze
 
-  def natva = entries.select { |e| e["type"] == "natva" }
+  # Which tags mark a card where the rule deliberately does NOT fire.
+  FAILURE_TAGS = %w[blocked_intervener blocked_follower s_blocked_trigger].freeze
 
-  def test_every_natva_card_states_its_analysis
-    natva.each do |e|
+  def test_every_card_states_its_analysis
+    entries.each do |e|
       refute_nil e["analysis"], "#{label(e)} has no analysis line"
       refute_empty e["analysis"]
       assert_kind_of Array, e["covers"]
@@ -117,23 +132,25 @@ class InternalConsonantSandhiDeckTest < Minitest::Test
     end
   end
 
-  def test_natva_examples_cover_every_condition
-    covered = natva.flat_map { |e| e["covers"] }.uniq
-    missing = REQUIRED_COVERAGE - covered
-    assert_empty missing, "no ṇatva example demonstrates: #{missing.join(', ')}"
+  def test_examples_cover_every_condition_of_both_rules
+    REQUIRED_COVERAGE.each do |type, required|
+      covered = entries.select { |e| e["type"] == type }.flat_map { |e| e["covers"] }.uniq
+      missing = required - covered
+      assert_empty missing, "no #{type} example demonstrates: #{missing.join(', ')}"
 
-    unknown = covered - REQUIRED_COVERAGE
-    assert_empty unknown, "unknown coverage tags: #{unknown.join(', ')}"
+      unknown = covered - required
+      assert_empty unknown, "unknown #{type} coverage tags: #{unknown.join(', ')}"
+    end
   end
 
-  # Both failure modes are contrast cards, and every contrast card is one of them.
-  def test_the_two_failure_modes_are_contrast_cards
+  # Each failure mode is a contrast card, and every contrast card is one of them.
+  def test_every_failure_mode_is_a_contrast_card
     entries.select { |e| e["contrast"] }.each do |e|
-      assert (e["covers"] & %w[blocked_intervener blocked_follower]).any?,
+      assert (e["covers"] & FAILURE_TAGS).any?,
              "contrast card #{label(e)} does not say which condition fails"
     end
-    %w[blocked_intervener blocked_follower].each do |tag|
-      card = natva.find { |e| e["covers"].include?(tag) }
+    FAILURE_TAGS.each do |tag|
+      card = entries.find { |e| e["covers"].include?(tag) }
       refute_nil card, "no card for #{tag}"
       assert card["contrast"], "#{label(card)} demonstrates #{tag} but is not flagged contrast"
     end
