@@ -92,6 +92,53 @@ class InternalConsonantSandhiDeckTest < Minitest::Test
     end
   end
 
+  # The ṇatva rule turns on three conditions (a trigger र्/ऋ/ॠ/ष्; the न् followed
+  # by a vowel or न् म् य् व्; only vowels, क-varga, प-varga, य् व् ह् or anusvāra
+  # intervening — Pāṇini 8.4.1-8.4.2, Whitney §189, learnsanskrit.org). The card
+  # set is meant to exercise every trigger and every permitted intervening class,
+  # plus both ways the rule can fail. Each ṇatva record tags what it demonstrates
+  # in `covers`, and this test is what keeps that coverage from silently eroding
+  # if an example is ever swapped out.
+  REQUIRED_COVERAGE = %w[
+    trigger_ra trigger_ri trigger_sha
+    via_vowel via_kavarga via_pavarga via_ya via_va via_ha via_anusvara
+    before_vowel
+    blocked_intervener blocked_follower
+  ].freeze
+
+  def natva = entries.select { |e| e["type"] == "natva" }
+
+  def test_every_natva_card_states_its_analysis
+    natva.each do |e|
+      refute_nil e["analysis"], "#{label(e)} has no analysis line"
+      refute_empty e["analysis"]
+      assert_kind_of Array, e["covers"]
+      refute_empty e["covers"], "#{label(e)} tags no coverage"
+    end
+  end
+
+  def test_natva_examples_cover_every_condition
+    covered = natva.flat_map { |e| e["covers"] }.uniq
+    missing = REQUIRED_COVERAGE - covered
+    assert_empty missing, "no ṇatva example demonstrates: #{missing.join(', ')}"
+
+    unknown = covered - REQUIRED_COVERAGE
+    assert_empty unknown, "unknown coverage tags: #{unknown.join(', ')}"
+  end
+
+  # Both failure modes are contrast cards, and every contrast card is one of them.
+  def test_the_two_failure_modes_are_contrast_cards
+    entries.select { |e| e["contrast"] }.each do |e|
+      assert (e["covers"] & %w[blocked_intervener blocked_follower]).any?,
+             "contrast card #{label(e)} does not say which condition fails"
+    end
+    %w[blocked_intervener blocked_follower].each do |tag|
+      card = natva.find { |e| e["covers"].include?(tag) }
+      refute_nil card, "no card for #{tag}"
+      assert card["contrast"], "#{label(card)} demonstrates #{tag} but is not flagged contrast"
+    end
+  end
+
   def test_keys_are_unique
     keys = entries.map { |e| "#{e['type']}:#{label(e)}" }
     assert_equal keys.size, keys.uniq.size, "duplicate card keys: #{keys.tally.select { |_, n| n > 1 }.keys}"

@@ -15,7 +15,10 @@ module Generators
   # which already uses those names for morphemes in its internal-context records.
   #
   #   Front: the two parts in Devanagari, joined by + (वि + सीदति)
-  #   Back:  the combined word (विषीदति), the IAST, the rule, the explanation.
+  #   Back:  the combined word (विषीदति), the IAST, the rule, the explanation, and
+  #          for ṇatva an `analysis` line naming the trigger, what the न् is
+  #          followed by, and what intervened — the three conditions the rule
+  #          turns on, made visible per card.
   # No audio.
   class InternalConsonantSandhi < Base
     KEY         = "internal-consonant-sandhi"
@@ -42,7 +45,11 @@ module Generators
       back = "<center>#{'<big>' * 2}#{combined_dev}#{'</big>' * 2}" \
              "<br><big>#{inputs} → #{combined_iast}</big>" \
              "<br><br><b>#{entry['rule']}</b>" \
-             "<br>#{entry['explanation']}</center>"
+             "<br>#{entry['explanation']}"
+      # The ṇatva rule turns on three separate conditions, so each card spells out
+      # how this particular example satisfies (or fails) them.
+      back += "<br><br><small>#{entry['analysis']}</small>" if entry["analysis"]
+      back += "</center>"
 
       [key, front, back]
     end

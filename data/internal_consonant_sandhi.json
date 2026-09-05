@@ -79,8 +79,10 @@
     "combined": [
       { "iast": "brahmaṇā", "devanagari": "ब्रह्मणा" }
     ],
-    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
-    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger र् · through अ ह् म् (ह् + प-varga) · न् before आ",
+    "covers": ["trigger_ra", "via_vowel", "via_ha", "via_pavarga", "before_vowel"],
     "source": "handout"
   },
   {
@@ -93,8 +95,10 @@
     "combined": [
       { "iast": "rāmeṇa", "devanagari": "रामेण" }
     ],
-    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
-    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger र् · through आ म् ए (प-varga + vowels) · न् before अ",
+    "covers": ["trigger_ra", "via_vowel", "via_pavarga", "before_vowel"],
     "source": "learnsanskrit.org"
   },
   {
@@ -107,8 +111,10 @@
     "combined": [
       { "iast": "viṣeṇa", "devanagari": "विषेण" }
     ],
-    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
-    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger ष् · through ए (vowel) · न् before अ",
+    "covers": ["trigger_sha", "via_vowel", "before_vowel"],
     "source": "learnsanskrit.org"
   },
   {
@@ -121,9 +127,108 @@
     "combined": [
       { "iast": "guruṇā", "devanagari": "गुरुणा" }
     ],
-    "rule": "न् becomes ण् after ष् र् or ऋ in the same word",
-    "explanation": "A preceding ष् र् ऋ retroflexes a later न् to ण्, even across intervening vowels and gutturals/labials. An intervening palatal, cerebral or dental blocks it.",
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger र् · through उ (vowel) · न् before आ",
+    "covers": ["trigger_ra", "via_vowel", "before_vowel"],
     "source": "learnsanskrit.org"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "mṛga",
+    "word1_devanagari": "मृग",
+    "word2_iast": "ānām",
+    "word2_devanagari": "आनाम्",
+    "combined": [
+      { "iast": "mṛgāṇām", "devanagari": "मृगाणाम्" }
+    ],
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger ऋ · through ग् आ (क-varga + vowel) · न् before आ",
+    "covers": ["trigger_ri", "via_vowel", "via_kavarga", "before_vowel"],
+    "source": "paradigm form (cf. Whitney §189 rudrāṇām)"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "kārya",
+    "word1_devanagari": "कार्य",
+    "word2_iast": "āni",
+    "word2_devanagari": "आनि",
+    "combined": [
+      { "iast": "kāryāṇi", "devanagari": "कार्याणि" }
+    ],
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger र् · through य् आ (य् + vowel) · न् before इ",
+    "covers": ["trigger_ra", "via_vowel", "via_ya", "before_vowel"],
+    "source": "Open Pathshala"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "sarva",
+    "word1_devanagari": "सर्व",
+    "word2_iast": "āni",
+    "word2_devanagari": "आनि",
+    "combined": [
+      { "iast": "sarvāṇi", "devanagari": "सर्वाणि" }
+    ],
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger र् · through व् आ (व् + vowel) · न् before इ",
+    "covers": ["trigger_ra", "via_vowel", "via_va", "before_vowel"],
+    "source": "paradigm form"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "bṛṃh",
+    "word1_devanagari": "बृंह्",
+    "word2_iast": "ana",
+    "word2_devanagari": "अन",
+    "combined": [
+      { "iast": "bṛṃhaṇa", "devanagari": "बृंहण" }
+    ],
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger ऋ · through ं ह् अ (anusvāra + ह्) · न् before अ",
+    "covers": ["trigger_ri", "via_vowel", "via_anusvara", "via_ha", "before_vowel"],
+    "source": "Monier-Williams headword"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "car",
+    "word1_devanagari": "चर्",
+    "word2_iast": "ana",
+    "word2_devanagari": "अन",
+    "combined": [
+      { "iast": "caraṇa", "devanagari": "चरण" }
+    ],
+    "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
+    "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
+    "analysis": "trigger र् · through अ (vowel) · न् before अ — condition 2 is met",
+    "covers": ["trigger_ra", "via_vowel", "before_vowel"],
+    "source": "cf. Sanskrit Studio karana → karaṇa"
+  },
+  {
+    "type": "natva",
+    "rule_number": 2,
+    "word1_iast": "car",
+    "word1_devanagari": "चर्",
+    "word2_iast": "anti",
+    "word2_devanagari": "अन्ति",
+    "combined": [
+      { "iast": "caranti", "devanagari": "चरन्ति" }
+    ],
+    "rule": "Blocked: the न् must be followed by a vowel or by न् म् य् व्",
+    "explanation": "Compare चर् + अन → चरण. The trigger र् and the intervening अ are the same in both; here the न् is followed by त्, which is not one of the permitted following sounds, so it stays dental. This is also why a word-final न् never retroflexes — nothing follows it.",
+    "analysis": "trigger र् · through अ (vowel) · न् before त् — condition 2 FAILS",
+    "covers": ["blocked_follower"],
+    "contrast": true,
+    "source": "contrast card"
   },
   {
     "type": "natva",
@@ -136,7 +241,9 @@
       { "iast": "arjunena", "devanagari": "अर्जुनेन" }
     ],
     "rule": "Blocked: an intervening palatal, cerebral or dental stops ṇatva",
-    "explanation": "The र् of अर्- would retroflex the न् of the ending, but the palatal ज् stands between them and blocks it — hence अर्जुनेन, never अर्जुणेन. Contrast राम + एन → रामेण, where only the labial म् intervenes and does not block.",
+    "explanation": "The र् of अर्- would retroflex the न् of the ending, but the palatal ज् stands between them and is not one of the permitted intervening sounds — hence अर्जुनेन, never अर्जुणेन. Compare राम + एन → रामेण, where only the labial म् intervenes and does not block.",
+    "analysis": "trigger र् · through ज् (palatal) — condition 3 FAILS",
+    "covers": ["blocked_intervener"],
     "contrast": true,
     "source": "contrast card"
   }
