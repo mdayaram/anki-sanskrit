@@ -9,8 +9,10 @@
     "combined": [
       { "iast": "viṣīdati", "devanagari": "विषीदति" }
     ],
-    "rule": "स् becomes ष् after any vowel except अ/आ",
-    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger इ (a vowel other than अ/आ) · nothing intervening",
+    "covers": ["s_trigger_i", "s_via_none"],
     "source": "handout"
   },
   {
@@ -23,9 +25,11 @@
     "combined": [
       { "iast": "agniṣu", "devanagari": "अग्निषु" }
     ],
-    "rule": "स् becomes ष् after any vowel except अ/आ",
-    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
-    "source": "learnsanskrit.org"
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger इ · nothing intervening · locative plural ending -सु",
+    "covers": ["s_trigger_i", "s_via_none"],
+    "source": "learnsanskrit.org (Pāṇini 8.3.59)"
   },
   {
     "type": "satva",
@@ -37,8 +41,10 @@
     "combined": [
       { "iast": "abhiṣiñcati", "devanagari": "अभिषिञ्चति" }
     ],
-    "rule": "स् becomes ष् after any vowel except अ/आ",
-    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger इ · nothing intervening",
+    "covers": ["s_trigger_i", "s_via_none"],
     "source": "common form"
   },
   {
@@ -51,8 +57,10 @@
     "combined": [
       { "iast": "dhanuṣā", "devanagari": "धनुषा" }
     ],
-    "rule": "स् becomes ष् after any vowel except अ/आ",
-    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger उ · nothing intervening · the स् is not word-final here, so it may retroflex",
+    "covers": ["s_trigger_u", "s_via_none"],
     "source": "learnsanskrit.org"
   },
   {
@@ -65,9 +73,124 @@
     "combined": [
       { "iast": "suṣuptaḥ", "devanagari": "सुषुप्तः" }
     ],
-    "rule": "स् becomes ष् after any vowel except अ/आ",
-    "explanation": "After i, u, ṛ, e, o (and after क् or र्), a following स् retroflexes to ष्. अ and आ do not trigger it, and there are exceptions.",
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger उ · nothing intervening",
+    "covers": ["s_trigger_u", "s_via_none"],
     "source": "common form"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "vāk",
+    "word1_devanagari": "वाक्",
+    "word2_iast": "su",
+    "word2_devanagari": "सु",
+    "combined": [
+      { "iast": "vākṣu", "devanagari": "वाक्षु" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger क् (क-varga) · nothing intervening",
+    "covers": ["s_trigger_ka", "s_via_none"],
+    "source": "learnsanskrit.org (Pāṇini 8.3.59)"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "catur",
+    "word1_devanagari": "चतुर्",
+    "word2_iast": "su",
+    "word2_devanagari": "सु",
+    "combined": [
+      { "iast": "caturṣu", "devanagari": "चतुर्षु" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger र् · nothing intervening",
+    "covers": ["s_trigger_ra", "s_via_none"],
+    "source": "paradigm form"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "pitṛ",
+    "word1_devanagari": "पितृ",
+    "word2_iast": "su",
+    "word2_devanagari": "सु",
+    "combined": [
+      { "iast": "pitṛṣu", "devanagari": "पितृषु" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger ऋ · nothing intervening",
+    "covers": ["s_trigger_ri", "s_via_none"],
+    "source": "paradigm form"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "juho",
+    "word1_devanagari": "जुहो",
+    "word2_iast": "si",
+    "word2_devanagari": "सि",
+    "combined": [
+      { "iast": "juhoṣi", "devanagari": "जुहोषि" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger ओ · nothing intervening",
+    "covers": ["s_trigger_o", "s_via_none"],
+    "source": "Whitney §184"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "haviḥ",
+    "word1_devanagari": "हविः",
+    "word2_iast": "su",
+    "word2_devanagari": "सु",
+    "combined": [
+      { "iast": "haviḥṣu", "devanagari": "हविःषु" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger इ · through the visarga of हविः",
+    "covers": ["s_trigger_i", "s_via_visarga"],
+    "source": "learnsanskrit.org (Pāṇini 8.3.58)"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "havis",
+    "word1_devanagari": "हविस्",
+    "word2_iast": "i",
+    "word2_devanagari": "इ",
+    "combined": [
+      { "iast": "havīṃṣi", "devanagari": "हवींषि" }
+    ],
+    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
+    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
+    "analysis": "trigger ई · through the anusvāra",
+    "covers": ["s_trigger_i", "s_via_anusvara"],
+    "source": "Sanskrit Studio"
+  },
+  {
+    "type": "satva",
+    "rule_number": 1,
+    "word1_iast": "marut",
+    "word1_devanagari": "मरुत्",
+    "word2_iast": "su",
+    "word2_devanagari": "सु",
+    "combined": [
+      { "iast": "marutsu", "devanagari": "मरुत्सु" }
+    ],
+    "rule": "Blocked: त् is not one of the sounds that trigger ṣatva",
+    "explanation": "The ending -सु retroflexes only when the sound just before it is a trigger. Compare अग्नि + सु → अग्निषु (the vowel इ triggers) and वाक् + सु → वाक्षु (क् triggers); after त् nothing happens, so मरुत्सु keeps its dental स्.",
+    "analysis": "trigger would have to be त् — not in the set · स् stays dental",
+    "covers": ["s_blocked_trigger"],
+    "contrast": true,
+    "source": "contrast card"
   },
   {
     "type": "natva",
