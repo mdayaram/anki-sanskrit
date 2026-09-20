@@ -1139,22 +1139,6 @@
     "source": "exercise sheet"
   },
   {
-    "type": "n_anusvara_sibilant",
-    "rule_number": 8,
-    "word1_iast": "san",
-    "word1_devanagari": "सन्",
-    "word1_underlying_iast": null,
-    "word1_underlying_devanagari": null,
-    "word2_iast": "ṭipaṇṇī",
-    "word2_devanagari": "टिपण्णी",
-    "combined": [
-      { "iast": "saṃṣṭipaṇṇī", "devanagari": "संष्टिपण्णी" }
-    ],
-    "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
-    "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
-    "source": "exercise sheet"
-  },
-  {
     "type": "hc_voicing",
     "rule_number": 1,
     "word1_iast": "marut",
