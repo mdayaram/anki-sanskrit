@@ -113,9 +113,16 @@ class InternalConsonantSandhiDeckTest < Minitest::Test
       before_vowel
       blocked_intervener blocked_follower
     ],
+    # ṣatva's "anusvāra may intervene" case is deliberately UNCARDED. Its only
+    # examples are the neuter nom./acc. plural of an s-stem (हवींषि, चक्षूंषि,
+    # ज्योतींषि), where the anusvāra is the नुम् augment that those cases insert and
+    # the stem vowel lengthens with it (Whitney §§379b, 413) — two steps from
+    # outside this rule that the card would have to explain before the ṣatva is
+    # even visible. The rule text states the case instead, as it does for
+    # condition 2's "not followed by र्".
     "satva" => %w[
       s_trigger_i s_trigger_u s_trigger_ri s_trigger_o s_trigger_ka s_trigger_ra
-      s_via_none s_via_visarga s_via_anusvara
+      s_via_none s_via_visarga
       s_blocked_trigger
     ]
   }.freeze

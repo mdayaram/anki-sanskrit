@@ -162,22 +162,6 @@
   {
     "type": "satva",
     "rule_number": 1,
-    "word1_iast": "havis",
-    "word1_devanagari": "हविस्",
-    "word2_iast": "i",
-    "word2_devanagari": "इ",
-    "combined": [
-      { "iast": "havīṃṣi", "devanagari": "हवींषि" }
-    ],
-    "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
-    "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
-    "analysis": "trigger ई · through the anusvāra",
-    "covers": ["s_trigger_i", "s_via_anusvara"],
-    "source": "Sanskrit Studio"
-  },
-  {
-    "type": "satva",
-    "rule_number": 1,
     "word1_iast": "marut",
     "word1_devanagari": "मरुत्",
     "word2_iast": "su",
