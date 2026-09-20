@@ -43,9 +43,15 @@ module Anki
   # two halves the Arsha Bodha handout that sources these decks uses. External is
   # the junction between two words; internal is within a single word (ṣatva/ṇatva).
   # Named in parallel, and WITHOUT a parenthesis: "(...)" is reserved for the
-  # splitting variant of a deck, so a future splitter is "... Sandhi (Splitting)".
+  # splitting variant of a deck, which is what the two below are.
   EXTERNAL_CONSONANT_SANDHI_DECK = "🕉️ Sanskrit External Consonant Sandhi"
   INTERNAL_CONSONANT_SANDHI_DECK = "🕉️ Sanskrit Internal Consonant Sandhi"
+
+  # The inverses of the two consonant-sandhi decks: practice splitting a combined
+  # form back into its parts (vigraha). Separate decks, like the vowel and visarga
+  # splitting decks.
+  EXTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "🕉️ Sanskrit External Consonant Sandhi (Splitting)"
+  INTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Internal Consonant Sandhi (Splitting)"
 
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
