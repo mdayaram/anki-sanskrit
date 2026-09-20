@@ -834,19 +834,6 @@
   {
     "type": "dirgha",
     "context": "compound",
-    "word1_iast": "tanū",
-    "word2_iast": "urdhvam",
-    "combined_iast": "tanūrdhvam",
-    "word1_devanagari": "तनू",
-    "word2_devanagari": "उर्ध्वम्",
-    "combined_devanagari": "तनूर्ध्वम्",
-    "sandhi_name": "Savarṇa-dīrgha",
-    "sandhi_devanagari": "सवर्णदीर्घ",
-    "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
-  },
-  {
-    "type": "dirgha",
-    "context": "compound",
     "word1_iast": "pitṛ",
     "word2_iast": "ṛṇam",
     "combined_iast": "pitṝṇam",
