@@ -849,5 +849,485 @@
     "rule": "Initial छ् becomes च्छ् after a vowel",
     "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
     "source": "Leavitt"
+  },
+  {
+    "type": "hc_voicing",
+    "rule_number": 1,
+    "word1_iast": "ṣaṭ",
+    "word1_devanagari": "षट्",
+    "word1_underlying_iast": "ṣaṣ",
+    "word1_underlying_devanagari": "षष्",
+    "word2_iast": "aiśvarya",
+    "word2_devanagari": "ऐश्वर्य",
+    "combined": [
+      { "iast": "ṣaḍaiśvarya", "devanagari": "षडैश्वर्य" }
+    ],
+    "rule": "A voiceless final becomes the voiced consonant of its own class",
+    "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_nasal",
+    "rule_number": 2,
+    "word1_iast": "prāk",
+    "word1_devanagari": "प्राक्",
+    "word1_underlying_iast": "prāñc",
+    "word1_underlying_devanagari": "प्राञ्च्",
+    "word2_iast": "mardana",
+    "word2_devanagari": "मर्दन",
+    "combined": [
+      { "iast": "prāṅmardana", "devanagari": "प्राङ्मर्दन" }
+    ],
+    "rule": "A voiceless final becomes the nasal of its own class before a nasal",
+    "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_cerebral",
+    "rule_number": 3,
+    "word1_iast": "etat",
+    "word1_devanagari": "एतत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "ḍamaru",
+    "word2_devanagari": "डमरु",
+    "combined": [
+      { "iast": "etaḍḍamaru", "devanagari": "एतड्डमरु" }
+    ],
+    "rule": "त् becomes the corresponding cerebral before a cerebral",
+    "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_anusvara_sibilant",
+    "rule_number": 8,
+    "word1_iast": "gurūn",
+    "word1_devanagari": "गुरून्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "chandān",
+    "word2_devanagari": "छन्दान्",
+    "combined": [
+      { "iast": "gurūṃśchandān", "devanagari": "गुरूंश्छन्दान्" }
+    ],
+    "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
+    "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "nasal_doubling",
+    "rule_number": 10,
+    "word1_iast": "vadan",
+    "word1_devanagari": "वदन्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "api",
+    "word2_devanagari": "अपि",
+    "combined": [
+      { "iast": "vadannapi", "devanagari": "वदन्नपि" }
+    ],
+    "rule": "ङ् ण् न् double after a short vowel before a vowel",
+    "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_voicing",
+    "rule_number": 1,
+    "word1_iast": "jagat",
+    "word1_devanagari": "जगत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "dātā",
+    "word2_devanagari": "दाता",
+    "combined": [
+      { "iast": "jagaddātā", "devanagari": "जगद्दाता" }
+    ],
+    "rule": "A voiceless final becomes the voiced consonant of its own class",
+    "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_nasal",
+    "rule_number": 2,
+    "word1_iast": "tat",
+    "word1_devanagari": "तत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "nayati",
+    "word2_devanagari": "नयति",
+    "combined": [
+      { "iast": "tannayati", "devanagari": "तन्नयति" }
+    ],
+    "rule": "A voiceless final becomes the nasal of its own class before a nasal",
+    "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_palatal",
+    "rule_number": 3,
+    "word1_iast": "bhavat",
+    "word1_devanagari": "भवत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "jaṭa",
+    "word2_devanagari": "जट",
+    "combined": [
+      { "iast": "bhavajjaṭa", "devanagari": "भवज्जट" }
+    ],
+    "rule": "त् becomes the corresponding palatal before a palatal",
+    "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_nasal",
+    "rule_number": 7,
+    "word1_iast": "sarvān",
+    "word1_devanagari": "सर्वान्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "janān",
+    "word2_devanagari": "जनान्",
+    "combined": [
+      { "iast": "sarvāñjanān", "devanagari": "सर्वाञ्जनान्" }
+    ],
+    "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
+    "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_voicing",
+    "rule_number": 1,
+    "word1_iast": "vāk",
+    "word1_devanagari": "वाक्",
+    "word1_underlying_iast": "vāc",
+    "word1_underlying_devanagari": "वाच्",
+    "word2_iast": "īśvarī",
+    "word2_devanagari": "ईश्वरी",
+    "combined": [
+      { "iast": "vāgīśvarī", "devanagari": "वागीश्वरी" }
+    ],
+    "rule": "A voiceless final becomes the voiced consonant of its own class",
+    "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_nasal",
+    "rule_number": 2,
+    "word1_iast": "ṣaṭ",
+    "word1_devanagari": "षट्",
+    "word1_underlying_iast": "ṣaṣ",
+    "word1_underlying_devanagari": "षष्",
+    "word2_iast": "mukha",
+    "word2_devanagari": "मुख",
+    "combined": [
+      { "iast": "ṣaṇmukha", "devanagari": "षण्मुख" }
+    ],
+    "rule": "A voiceless final becomes the nasal of its own class before a nasal",
+    "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "stop_ha",
+    "rule_number": 11,
+    "word1_iast": "tat",
+    "word1_devanagari": "तत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "hita",
+    "word2_devanagari": "हित",
+    "combined": [
+      { "iast": "taddhita", "devanagari": "तद्धित" }
+    ],
+    "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
+    "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_cerebral",
+    "rule_number": 3,
+    "word1_iast": "sat",
+    "word1_devanagari": "सत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "ṭīkā",
+    "word2_devanagari": "टीका",
+    "combined": [
+      { "iast": "saṭṭīkā", "devanagari": "सट्टीका" }
+    ],
+    "rule": "त् becomes the corresponding cerebral before a cerebral",
+    "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_l",
+    "rule_number": 4,
+    "word1_iast": "tat",
+    "word1_devanagari": "तत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "lopa",
+    "word2_devanagari": "लोप",
+    "combined": [
+      { "iast": "tallopa", "devanagari": "तल्लोप" }
+    ],
+    "rule": "त् + ल् → ल्",
+    "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_voicing",
+    "rule_number": 1,
+    "word1_iast": "ap",
+    "word1_devanagari": "अप्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "devatā",
+    "word2_devanagari": "देवता",
+    "combined": [
+      { "iast": "abdevatā", "devanagari": "अब्देवता" }
+    ],
+    "rule": "A voiceless final becomes the voiced consonant of its own class",
+    "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_nasal",
+    "rule_number": 2,
+    "word1_iast": "kaścit",
+    "word1_devanagari": "कश्चित्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "manuṣyaḥ",
+    "word2_devanagari": "मनुष्यः",
+    "combined": [
+      { "iast": "kaścinmanuṣyaḥ", "devanagari": "कश्चिन्मनुष्यः" }
+    ],
+    "rule": "A voiceless final becomes the nasal of its own class before a nasal",
+    "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_palatal",
+    "rule_number": 3,
+    "word1_iast": "tasmāt",
+    "word1_devanagari": "तस्मात्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "calati",
+    "word2_devanagari": "चलति",
+    "combined": [
+      { "iast": "tasmāccalati", "devanagari": "तस्माच्चलति" }
+    ],
+    "rule": "त् becomes the corresponding palatal before a palatal",
+    "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "m_anusvara",
+    "rule_number": 6,
+    "word1_iast": "pustakam",
+    "word1_devanagari": "पुस्तकम्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "harati",
+    "word2_devanagari": "हरति",
+    "combined": [
+      { "iast": "pustakaṃ harati", "devanagari": "पुस्तकं हरति" }
+    ],
+    "rule": "Final म् becomes anusvāra before a consonant",
+    "explanation": "Before any consonant, voiced or voiceless, final म् is written as anusvāra. Before a vowel it stays म्. In careful recitation it may instead be pronounced as the nasal of the following consonant's class.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_anusvara_sibilant",
+    "rule_number": 8,
+    "word1_iast": "san",
+    "word1_devanagari": "सन्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "ṭipaṇṇī",
+    "word2_devanagari": "टिपण्णी",
+    "combined": [
+      { "iast": "saṃṣṭipaṇṇī", "devanagari": "संष्टिपण्णी" }
+    ],
+    "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
+    "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_voicing",
+    "rule_number": 1,
+    "word1_iast": "marut",
+    "word1_devanagari": "मरुत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "āgacchati",
+    "word2_devanagari": "आगच्छति",
+    "combined": [
+      { "iast": "marudāgacchati", "devanagari": "मरुदागच्छति" }
+    ],
+    "rule": "A voiceless final becomes the voiced consonant of its own class",
+    "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_l",
+    "rule_number": 4,
+    "word1_iast": "bhagavat",
+    "word1_devanagari": "भगवत्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "laya",
+    "word2_devanagari": "लय",
+    "combined": [
+      { "iast": "bhagavallaya", "devanagari": "भगवल्लय" }
+    ],
+    "rule": "त् + ल् → ल्",
+    "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_nasal",
+    "rule_number": 7,
+    "word1_iast": "mahān",
+    "word1_devanagari": "महान्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "ḍambaraḥ",
+    "word2_devanagari": "डम्बरः",
+    "combined": [
+      { "iast": "mahāṇḍambaraḥ", "devanagari": "महाण्डम्बरः" }
+    ],
+    "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
+    "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "stop_ha",
+    "rule_number": 11,
+    "word1_iast": "prāk",
+    "word1_devanagari": "प्राक्",
+    "word1_underlying_iast": "prāñc",
+    "word1_underlying_devanagari": "प्राञ्च्",
+    "word2_iast": "harati",
+    "word2_devanagari": "हरति",
+    "combined": [
+      { "iast": "prāggharati", "devanagari": "प्राग्घरति" }
+    ],
+    "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
+    "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_anusvara_sibilant",
+    "rule_number": 8,
+    "word1_iast": "etān",
+    "word1_devanagari": "एतान्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "ca",
+    "word2_devanagari": "च",
+    "combined": [
+      { "iast": "etāṃśca", "devanagari": "एतांश्च" }
+    ],
+    "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
+    "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "nasal_doubling",
+    "rule_number": 10,
+    "word1_iast": "gāyan",
+    "word1_devanagari": "गायन्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "eva",
+    "word2_devanagari": "एव",
+    "combined": [
+      { "iast": "gāyanneva", "devanagari": "गायन्नेव" }
+    ],
+    "rule": "ङ् ण् न् double after a short vowel before a vowel",
+    "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "cha_doubling",
+    "rule_number": 12,
+    "word1_iast": "nānā",
+    "word1_devanagari": "नाना",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "chidra",
+    "word2_devanagari": "छिद्र",
+    "combined": [
+      { "iast": "nānācchidra", "devanagari": "नानाच्छिद्र" }
+    ],
+    "rule": "Initial छ् becomes च्छ् after a vowel",
+    "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_l",
+    "rule_number": 9,
+    "word1_iast": "gacchan",
+    "word1_devanagari": "गच्छन्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "lokam",
+    "word2_devanagari": "लोकम्",
+    "combined": [
+      { "iast": "gacchaṃllokam", "devanagari": "गच्छंल्लोकम्" }
+    ],
+    "rule": "न् + ल् → anusvāra + ल्",
+    "explanation": "The न् assimilates to the ल् but its nasality survives as the anusvāra written before it.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "hc_voicing",
+    "rule_number": 1,
+    "word1_iast": "ṣaṭ",
+    "word1_devanagari": "षट्",
+    "word1_underlying_iast": "ṣaṣ",
+    "word1_underlying_devanagari": "षष्",
+    "word2_iast": "vastu",
+    "word2_devanagari": "वस्तु",
+    "combined": [
+      { "iast": "ṣaḍvastu", "devanagari": "षड्वस्तु" }
+    ],
+    "rule": "A voiceless final becomes the voiced consonant of its own class",
+    "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "t_sha",
+    "rule_number": 5,
+    "word1_iast": "cit",
+    "word1_devanagari": "चित्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "śakti",
+    "word2_devanagari": "शक्ति",
+    "combined": [
+      { "iast": "cicchakti", "devanagari": "चिच्छक्ति" }
+    ],
+    "rule": "त् + श् → च्छ्",
+    "explanation": "Two changes at once: the त् becomes the palatal च्, and the following श् hardens to छ्.",
+    "source": "exercise sheet"
+  },
+  {
+    "type": "n_anusvara_sibilant",
+    "rule_number": 8,
+    "word1_iast": "sarvān",
+    "word1_devanagari": "सर्वान्",
+    "word1_underlying_iast": null,
+    "word1_underlying_devanagari": null,
+    "word2_iast": "tyaktvā",
+    "word2_devanagari": "त्यक्त्वा",
+    "combined": [
+      { "iast": "sarvāṃstyaktvā", "devanagari": "सर्वांस्त्यक्त्वा" }
+    ],
+    "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
+    "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
+    "source": "exercise sheet"
   }
 ]
