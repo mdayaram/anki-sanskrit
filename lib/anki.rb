@@ -53,6 +53,10 @@ module Anki
   EXTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "🕉️ Sanskrit External Consonant Sandhi (Splitting)"
   INTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Internal Consonant Sandhi (Splitting)"
 
+  # The numbers deck: Devanagari digits, number words (both directions), the
+  # ordinals as they appear in Gita colophons, and the compounding rules.
+  NUMBERS_DECK = "🕉️ Sanskrit Numbers"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
