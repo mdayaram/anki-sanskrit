@@ -208,6 +208,21 @@ The 11 ṇatva cards are likewise chosen for coverage: ब्रह्मणा 
 
 **Contrast records are deliberately not carded in this direction** (the user's call): splitting मरुत्सु or एतानिह at its obvious seam teaches nothing the forward card didn't, since the whole point of those records is a rule that never fired. So `build` is the loader minus `contrast` records — 82 → 81 and 22 → 19 — and each split deck test asserts both that no contrast record was carded and that the fixture still contains some, so the filter cannot quietly become a no-op. Validated by `test/{external,internal}_consonant_sandhi_split_deck_test.rb` (the card data itself is already validated by the forward decks' tests).
 
+### The numbers deck
+
+A deck (`🕉️ Sanskrit Numbers`, `Anki::NUMBERS_DECK`, `--numbers`) of 126 cards on the number system. `data/numbers.json` is the **committed source of truth** and `lib/generators/numbers.rb` (class `Generators::Numbers` — note the top-level loader module is also `Numbers`, `lib/numbers.rb`, so the generator refers to it as `::Numbers`) is a pure reader over it. No audio, no JSON intermediate, `requires_letters? == false`. Keys are `numbers:<kind>:<id>`.
+
+**Design principle: core + rules + exceptions, not the full grid.** A research pass (Whitney §§475–489, learnsanskrit.org, Monier-Williams, the Arsha Bodha ["Numerals" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Basics/5-6-25-Numerals.pdf), Ruppel's and Samskrita Bharati's sequencing) found the system is ~20 building blocks plus "unit + ten, by ordinary sandhi", with a small set of irregular stems (ekā- in 11 only; dvā- 12/22/32; trayas- 13/23/33; aṣṭā- 18/28/38; ṣoḍaśa; dvi-/tri- only in 82/83; ṣaṇṇavati). So the deck cards the building blocks (1–10, the tens, 100, 1000), **all of 11–19** (18 is the Gita's number), the irregular/sandhi-affected compounds plus a few regular contrasts (21, 25), the ūna-/ekona- "less one" forms for the nines, and 108 (aṣṭottaraśatam) — and deliberately **not** the regular 21–99 grid, which is predictable once the rule is known. The sections of the data file:
+
+- `digits` — ०–९ → value + word. `numerals` — multi-digit numbers and Gita verse references (२.४७, ॥१८.६६॥) → their reading.
+- `cardinals` — **two cards each** (word → number, number → word) with distinct `numbers:word:`/`numbers:number:` keys. Optional `parts`, `stem` (ṣaṣ for ṣaṭ), `alternates`, `explanation`, and `gender_forms` (m/f/n nominatives, **only for 1–4**, the only numbers that inflect for gender — per the Arsha Bodha handout tables).
+- `ordinals` — 1st–18th carded in their **Gita colophon form** (प्रथमोऽध्यायः → "chapter 1"), the number form a Gita reader meets most; the test asserts each colophon is built from its own ordinal stem (-a → -o 'dhyāyaḥ).
+- `rules` — three question → rule cards (how 11–99 are built, ūna-/ekona-, uttara/adhika above 100).
+
+**Deferred, not forgotten:** full declension tables of 1–4, feminine ordinals (prathamā, caturthī…), number adverbs (sakṛt, dviḥ, triḥ, -kṛtvas, -dhā, -śas), ayuta/lakṣa/koṭi.
+
+**Do not copy number lists from the web without validation.** sanskritdocuments.org's 1–100 list has at least six sandhi errors (षड्नवति for षण्णवति, त्र्यस्त्रिंशत् for त्रयस्त्रिंशत्, …); `test/numbers_data_test.rb` runs every stored form through `IastDevanagari.valid_pair?` and catches exactly that class of mistake. It also checks that digits agree with their values, that the core/teens sections are complete, and that rule examples agree with the carded forms. `test/numbers_test.rb` covers rendering (neither direction's front spoils its answer).
+
 ### Mantra audio is committed and trimmed by hand
 
 Unlike the Gita recitations, mantra audio **is committed** (`data/mantra_audio/`, one short clip per mantra, not gitignored) — so `Generators::Mantras` needs no `ensure_audio!` download hook, and the deck works straight from a clone. The Gita's GitHub-release tarball only exists because 640 clips / ~289 MB cannot be committed; two clips (~600 KB and ~4.5 MB) can.
