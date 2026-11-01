@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../visarga_sandhi_deck"
 
 module Generators
@@ -14,6 +15,7 @@ module Generators
   #   Front: the two parts in Devanagari, space-separated (नरः गच्छति)
   #   Back:  the combined form(s), the IAST (naraḥ + gacchati → naro gacchati),
   #          which rule fired, and a brief rule explanation.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # A junction can have more than one accepted outcome (e.g. before a voiceless
@@ -46,6 +48,7 @@ module Generators
 
       back = "<center>#{'<big>' * 2}#{combined_dev}#{'</big>' * 2}" \
              "<br><big>#{inputs} → #{combined_iast}</big>" \
+             "#{SandhiMeanings.html(entry, combined.first['iast'])}" \
              "<br><br><b>#{entry['rule']}</b>" \
              "<br>#{entry['explanation']}</center>"
 

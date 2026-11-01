@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "vowel_sandhi"
 require_relative "../vowel_sandhi_deck"
 
@@ -14,6 +15,7 @@ module Generators
   #   Front: the combined form in Devanagari (देवेन्द्र)
   #   Back:  the two words (देव + इन्द्र), the IAST (devendra → deva + indra),
   #          which sandhi fired, the rule explanation, and the CONTEXT.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # Keyed with the distinct `vowel_sandhi_split:` prefix so Anki treats these as
@@ -35,6 +37,7 @@ module Generators
       front   = "<center>#{'<big>' * 3}#{entry['combined_devanagari']}#{'</big>' * 3}</center>"
       back    = "<center>#{'<big>' * 2}<b>#{entry['word1_devanagari']} + #{entry['word2_devanagari']}</b>#{'</big>' * 2}" \
                 "<br><big>#{entry['combined_iast']} → #{entry['word1_iast']} + #{entry['word2_iast']}</big>" \
+                "#{SandhiMeanings.html(entry, entry['combined_iast'], split: true)}" \
                 "<br><br><b>#{entry['sandhi_name']} sandhi (#{entry['sandhi_devanagari']})</b>" \
                 "<br>#{entry['explanation']}" \
                 "<br><small>(sandhi #{context})</small></center>"

@@ -10,6 +10,9 @@
     "combined": [
       { "iast": "naro gacchati", "devanagari": "नरो गच्छति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "goes",
+    "combined_meaning": "the man goes",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -24,6 +27,9 @@
     "combined": [
       { "iast": "rāmo jayati", "devanagari": "रामो जयति" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "conquers, is victorious",
+    "combined_meaning": "Rāma is victorious",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -38,6 +44,9 @@
     "combined": [
       { "iast": "devo vadati", "devanagari": "देवो वदति" }
     ],
+    "word1_meaning": "god",
+    "word2_meaning": "speaks",
+    "combined_meaning": "the god speaks",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -52,6 +61,9 @@
     "combined": [
       { "iast": "bālo dhāvati", "devanagari": "बालो धावति" }
     ],
+    "word1_meaning": "boy, child",
+    "word2_meaning": "runs",
+    "combined_meaning": "the boy runs",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -66,6 +78,9 @@
     "combined": [
       { "iast": "śivo namati", "devanagari": "शिवो नमति" }
     ],
+    "word1_meaning": "Śiva",
+    "word2_meaning": "bows",
+    "combined_meaning": "Śiva bows",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -80,6 +95,9 @@
     "combined": [
       { "iast": "sūryo bhāti", "devanagari": "सूर्यो भाति" }
     ],
+    "word1_meaning": "the sun",
+    "word2_meaning": "shines",
+    "combined_meaning": "the sun shines",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -95,6 +113,9 @@
     "combined": [
       { "iast": "naro 'pi", "devanagari": "नरोऽपि" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "also, even",
+    "combined_meaning": "the man too",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -109,6 +130,9 @@
     "combined": [
       { "iast": "rāmo 'sti", "devanagari": "रामोऽस्ति" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "is",
+    "combined_meaning": "Rāma is (there)",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -123,6 +147,9 @@
     "combined": [
       { "iast": "śivo 'ham", "devanagari": "शिवोऽहम्" }
     ],
+    "word1_meaning": "Śiva",
+    "word2_meaning": "I",
+    "combined_meaning": "I am Śiva",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -137,6 +164,9 @@
     "combined": [
       { "iast": "devo 'tra", "devanagari": "देवोऽत्र" }
     ],
+    "word1_meaning": "god",
+    "word2_meaning": "here",
+    "combined_meaning": "the god is here",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -151,6 +181,9 @@
     "combined": [
       { "iast": "bālo 'gacchat", "devanagari": "बालोऽगच्छत्" }
     ],
+    "word1_meaning": "boy, child",
+    "word2_meaning": "went",
+    "combined_meaning": "the boy went",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -166,6 +199,9 @@
     "combined": [
       { "iast": "nara icchati", "devanagari": "नर इच्छति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "wishes, desires",
+    "combined_meaning": "the man wishes",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -180,6 +216,9 @@
     "combined": [
       { "iast": "deva iha", "devanagari": "देव इह" }
     ],
+    "word1_meaning": "god",
+    "word2_meaning": "here, in this world",
+    "combined_meaning": "the god is here",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -194,6 +233,9 @@
     "combined": [
       { "iast": "bāla āgacchati", "devanagari": "बाल आगच्छति" }
     ],
+    "word1_meaning": "boy, child",
+    "word2_meaning": "comes",
+    "combined_meaning": "the boy comes",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -208,6 +250,9 @@
     "combined": [
       { "iast": "rāma uvāca", "devanagari": "राम उवाच" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "said",
+    "combined_meaning": "Rāma said",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -222,6 +267,9 @@
     "combined": [
       { "iast": "śiva eva", "devanagari": "शिव एव" }
     ],
+    "word1_meaning": "Śiva",
+    "word2_meaning": "only, indeed",
+    "combined_meaning": "Śiva alone; Śiva indeed",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -237,6 +285,9 @@
     "combined": [
       { "iast": "narā gacchanti", "devanagari": "नरा गच्छन्ति" }
     ],
+    "word1_meaning": "men",
+    "word2_meaning": "go",
+    "combined_meaning": "the men go",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -251,6 +302,9 @@
     "combined": [
       { "iast": "narā icchanti", "devanagari": "नरा इच्छन्ति" }
     ],
+    "word1_meaning": "men",
+    "word2_meaning": "wish, desire",
+    "combined_meaning": "the men wish",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -265,6 +319,9 @@
     "combined": [
       { "iast": "devā vadanti", "devanagari": "देवा वदन्ति" }
     ],
+    "word1_meaning": "gods",
+    "word2_meaning": "speak",
+    "combined_meaning": "the gods speak",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -279,6 +336,9 @@
     "combined": [
       { "iast": "bālā āgacchanti", "devanagari": "बाला आगच्छन्ति" }
     ],
+    "word1_meaning": "boys, children",
+    "word2_meaning": "come",
+    "combined_meaning": "the boys come",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -293,6 +353,9 @@
     "combined": [
       { "iast": "aśvā dhāvanti", "devanagari": "अश्वा धावन्ति" }
     ],
+    "word1_meaning": "horses",
+    "word2_meaning": "run",
+    "combined_meaning": "the horses run",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -308,6 +371,9 @@
     "combined": [
       { "iast": "agnir asti", "devanagari": "अग्निर् अस्ति" }
     ],
+    "word1_meaning": "fire",
+    "word2_meaning": "is",
+    "combined_meaning": "there is fire",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -322,6 +388,9 @@
     "combined": [
       { "iast": "gurur gacchati", "devanagari": "गुरुर् गच्छति" }
     ],
+    "word1_meaning": "teacher",
+    "word2_meaning": "goes",
+    "combined_meaning": "the teacher goes",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -336,6 +405,9 @@
     "combined": [
       { "iast": "kavir vadati", "devanagari": "कविर् वदति" }
     ],
+    "word1_meaning": "poet",
+    "word2_meaning": "speaks",
+    "combined_meaning": "the poet speaks",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -350,6 +422,9 @@
     "combined": [
       { "iast": "harir eva", "devanagari": "हरिर् एव" }
     ],
+    "word1_meaning": "Hari (Viṣṇu)",
+    "word2_meaning": "only, indeed",
+    "combined_meaning": "Hari alone; Hari indeed",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -364,6 +439,9 @@
     "combined": [
       { "iast": "munir āgacchati", "devanagari": "मुनिर् आगच्छति" }
     ],
+    "word1_meaning": "sage",
+    "word2_meaning": "comes",
+    "combined_meaning": "the sage comes",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -378,6 +456,9 @@
     "combined": [
       { "iast": "dhenur dugdham", "devanagari": "धेनुर् दुग्धम्" }
     ],
+    "word1_meaning": "cow",
+    "word2_meaning": "milk",
+    "combined_meaning": "the cow … milk",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -393,6 +474,9 @@
     "combined": [
       { "iast": "punā ramate", "devanagari": "पुना रमते" }
     ],
+    "word1_meaning": "again",
+    "word2_meaning": "delights, enjoys",
+    "combined_meaning": "again (he) delights",
     "rule": "ḥ before r-: the r is elided and the preceding short vowel lengthens",
     "explanation": "When the visarga would become r before an initial r-, the r is dropped and the preceding short vowel is lengthened, avoiding a double r."
   },
@@ -407,6 +491,9 @@
     "combined": [
       { "iast": "harī rājate", "devanagari": "हरी राजते" }
     ],
+    "word1_meaning": "Hari (Viṣṇu)",
+    "word2_meaning": "shines, reigns",
+    "combined_meaning": "Hari shines",
     "rule": "ḥ before r-: the r is elided and the preceding short vowel lengthens",
     "explanation": "When the visarga would become r before an initial r-, the r is dropped and the preceding short vowel is lengthened, avoiding a double r."
   },
@@ -421,6 +508,9 @@
     "combined": [
       { "iast": "gurū rohati", "devanagari": "गुरू रोहति" }
     ],
+    "word1_meaning": "teacher",
+    "word2_meaning": "climbs, rises",
+    "combined_meaning": "the teacher climbs",
     "rule": "ḥ before r-: the r is elided and the preceding short vowel lengthens",
     "explanation": "When the visarga would become r before an initial r-, the r is dropped and the preceding short vowel is lengthened, avoiding a double r."
   },
@@ -437,6 +527,9 @@
       { "iast": "naraś carati", "devanagari": "नरश् चरति" },
       { "iast": "naraḥ carati", "devanagari": "नरः चरति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "moves, walks",
+    "combined_meaning": "the man walks",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -452,6 +545,9 @@
       { "iast": "rāmaś ca", "devanagari": "रामश् च" },
       { "iast": "rāmaḥ ca", "devanagari": "रामः च" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "and",
+    "combined_meaning": "and Rāma",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -467,6 +563,9 @@
       { "iast": "naraś chādayati", "devanagari": "नरश् छादयति" },
       { "iast": "naraḥ chādayati", "devanagari": "नरः छादयति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "covers",
+    "combined_meaning": "the man covers",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -482,6 +581,9 @@
       { "iast": "bālas tiṣṭhati", "devanagari": "बालस् तिष्ठति" },
       { "iast": "bālaḥ tiṣṭhati", "devanagari": "बालः तिष्ठति" }
     ],
+    "word1_meaning": "boy, child",
+    "word2_meaning": "stands",
+    "combined_meaning": "the boy stands",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -497,6 +599,9 @@
       { "iast": "devas tarati", "devanagari": "देवस् तरति" },
       { "iast": "devaḥ tarati", "devanagari": "देवः तरति" }
     ],
+    "word1_meaning": "god",
+    "word2_meaning": "crosses",
+    "combined_meaning": "the god crosses",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -512,6 +617,9 @@
       { "iast": "granthaṣ ṭīkayā", "devanagari": "ग्रन्थष् टीकया" },
       { "iast": "granthaḥ ṭīkayā", "devanagari": "ग्रन्थः टीकया" }
     ],
+    "word1_meaning": "book, text",
+    "word2_meaning": "with a commentary",
+    "combined_meaning": "the text, with a commentary",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown. (Retroflex ṭ/ṭh rarely begin a word, so ṣ examples are few — ṭīkā 'commentary' is one of the commonest.)"
   },
@@ -527,6 +635,9 @@
       { "iast": "naraṣ ṭīkate", "devanagari": "नरष् टीकते" },
       { "iast": "naraḥ ṭīkate", "devanagari": "नरः टीकते" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "goes, moves",
+    "combined_meaning": "the man goes",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown. (Retroflex ṭ/ṭh rarely begin a word, so ṣ examples are few — here the root √ṭīk 'to move'.)"
   },
@@ -542,6 +653,9 @@
     "combined": [
       { "iast": "naraḥ karoti", "devanagari": "नरः करोति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "does, makes",
+    "combined_meaning": "the man does",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before k or kh is optionally the jihvāmūlīya, a rasping breath at the root of the tongue like the ch of German Bach (Pāṇini 8.3.37)."
   },
@@ -556,6 +670,9 @@
     "combined": [
       { "iast": "rāmaḥ paṭhati", "devanagari": "रामः पठति" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "reads, recites",
+    "combined_meaning": "Rāma reads",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
@@ -570,6 +687,9 @@
     "combined": [
       { "iast": "devaḥ khādati", "devanagari": "देवः खादति" }
     ],
+    "word1_meaning": "god",
+    "word2_meaning": "eats",
+    "combined_meaning": "the god eats",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before k or kh is optionally the jihvāmūlīya, a rasping breath at the root of the tongue like the ch of German Bach (Pāṇini 8.3.37)."
   },
@@ -584,6 +704,9 @@
     "combined": [
       { "iast": "bālaḥ phalam", "devanagari": "बालः फलम्" }
     ],
+    "word1_meaning": "boy, child",
+    "word2_meaning": "fruit",
+    "combined_meaning": "the boy … a fruit",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
@@ -598,6 +721,9 @@
     "combined": [
       { "iast": "naraḥ smarati", "devanagari": "नरः स्मरति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "remembers",
+    "combined_meaning": "the man remembers",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. Before a sibilant assimilation is the default (Pāṇini 8.3.34) and the written visarga is the licensed alternative (8.3.36) — and even when written, it is pronounced at the sibilant's place: naraḥ smarati is heard as naras smarati, never with a plain h."
   },
@@ -612,6 +738,9 @@
     "combined": [
       { "iast": "hariḥ śete", "devanagari": "हरिः शेते" }
     ],
+    "word1_meaning": "Hari (Viṣṇu)",
+    "word2_meaning": "lies, sleeps",
+    "combined_meaning": "Hari reclines",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. Before a sibilant assimilation is the default (Pāṇini 8.3.34) and the written visarga is the licensed alternative (8.3.36) — and even when written, it is pronounced at the sibilant's place: hariḥ śete is heard as hariś śete, never with a plain h."
   },
@@ -627,6 +756,9 @@
     "combined": [
       { "iast": "sa gacchati", "devanagari": "स गच्छति" }
     ],
+    "word1_meaning": "he, that one",
+    "word2_meaning": "goes",
+    "combined_meaning": "he goes",
     "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
     "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
   },
@@ -641,6 +773,9 @@
     "combined": [
       { "iast": "sa vadati", "devanagari": "स वदति" }
     ],
+    "word1_meaning": "he, that one",
+    "word2_meaning": "speaks",
+    "combined_meaning": "he speaks",
     "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
     "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
   },
@@ -655,6 +790,9 @@
     "combined": [
       { "iast": "eṣa bālaḥ", "devanagari": "एष बालः" }
     ],
+    "word1_meaning": "this one",
+    "word2_meaning": "boy, child",
+    "combined_meaning": "this boy",
     "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
     "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
   },
@@ -669,6 +807,9 @@
     "combined": [
       { "iast": "sa rāmaḥ", "devanagari": "स रामः" }
     ],
+    "word1_meaning": "he, that one",
+    "word2_meaning": "Rāma",
+    "combined_meaning": "that Rāma; he, Rāma",
     "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
     "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
   },
@@ -683,6 +824,9 @@
     "combined": [
       { "iast": "eṣa naraḥ", "devanagari": "एष नरः" }
     ],
+    "word1_meaning": "this one",
+    "word2_meaning": "man",
+    "combined_meaning": "this man",
     "rule": "saḥ / eṣaḥ → sa / eṣa before a consonant",
     "explanation": "The pronouns saḥ and eṣaḥ drop the visarga before any consonant, becoming sa and eṣa. Before a vowel or a pause they behave like a normal -aḥ."
   },
@@ -697,6 +841,9 @@
     "combined": [
       { "iast": "so 'ham", "devanagari": "सोऽहम्" }
     ],
+    "word1_meaning": "he, that one",
+    "word2_meaning": "I",
+    "combined_meaning": "I am he",
     "rule": "saḥ / eṣaḥ before a vowel: ordinary -aḥ sandhi (not the pre-consonant drop)",
     "explanation": "Contrast: the visarga-dropping rule fires only before a consonant. Before a vowel saḥ/eṣaḥ behave like any -aḥ word — here before short a it becomes -o with the a elided (avagraha), giving the -o that the pre-consonant rule never produces."
   },
@@ -711,6 +858,9 @@
     "combined": [
       { "iast": "sa icchati", "devanagari": "स इच्छति" }
     ],
+    "word1_meaning": "he, that one",
+    "word2_meaning": "wishes, desires",
+    "combined_meaning": "he wishes",
     "rule": "saḥ / eṣaḥ before a vowel: ordinary -aḥ sandhi (not the pre-consonant drop)",
     "explanation": "Contrast: before a vowel other than short a, the visarga simply drops leaving -a with a hiatus (ordinary -aḥ behaviour). The result 'sa' here coincides with the pre-consonant form but arrives by the normal rule, not the special pronoun drop."
   },
@@ -725,6 +875,9 @@
     "combined": [
       { "iast": "harir avatu", "devanagari": "हरिर् अवतु" }
     ],
+    "word1_meaning": "Hari (Viṣṇu)",
+    "word2_meaning": "may (he) protect",
+    "combined_meaning": "may Hari protect",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -739,6 +892,9 @@
     "combined": [
       { "iast": "nṛpo jayati", "devanagari": "नृपो जयति" }
     ],
+    "word1_meaning": "king",
+    "word2_meaning": "conquers, is victorious",
+    "combined_meaning": "the king is victorious",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -754,6 +910,9 @@
       { "iast": "tais saha", "devanagari": "तैस् सह" },
       { "iast": "taiḥ saha", "devanagari": "तैः सह" }
     ],
+    "word1_meaning": "by or with them",
+    "word2_meaning": "with, together",
+    "combined_meaning": "together with them",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -768,6 +927,9 @@
     "combined": [
       { "iast": "bālā dhāvanti", "devanagari": "बाला धावन्ति" }
     ],
+    "word1_meaning": "boys, children",
+    "word2_meaning": "run",
+    "combined_meaning": "the boys run",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -782,6 +944,9 @@
     "combined": [
       { "iast": "naras tyajati", "devanagari": "नरस् त्यजति" }
     ],
+    "word1_meaning": "man",
+    "word2_meaning": "abandons",
+    "combined_meaning": "the man abandons",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -796,6 +961,9 @@
     "combined": [
       { "iast": "kūpaḥ kṛtaḥ", "devanagari": "कूपः कृतः" }
     ],
+    "word1_meaning": "well (for water)",
+    "word2_meaning": "made, dug",
+    "combined_meaning": "a well was dug",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before k or kh is optionally the jihvāmūlīya, a rasping breath at the root of the tongue like the ch of German Bach (Pāṇini 8.3.37)."
   },
@@ -810,6 +978,9 @@
     "combined": [
       { "iast": "gurubhir dṛṣṭaḥ", "devanagari": "गुरुभिर् दृष्टः" }
     ],
+    "word1_meaning": "by the teachers",
+    "word2_meaning": "seen",
+    "combined_meaning": "seen by the teachers",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -824,6 +995,9 @@
     "combined": [
       { "iast": "śāstraṣ ṭippaṇī", "devanagari": "शास्त्रष् टिप्पणी" }
     ],
+    "word1_meaning": "treatise, scripture",
+    "word2_meaning": "note, gloss",
+    "combined_meaning": "the treatise … a note",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -838,6 +1012,9 @@
     "combined": [
       { "iast": "janāś calanti", "devanagari": "जनाश् चलन्ति" }
     ],
+    "word1_meaning": "people",
+    "word2_meaning": "move",
+    "combined_meaning": "the people move",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -852,6 +1029,9 @@
     "combined": [
       { "iast": "bālas smarati", "devanagari": "बालस् स्मरति" }
     ],
+    "word1_meaning": "boy, child",
+    "word2_meaning": "remembers",
+    "combined_meaning": "the boy remembers",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -866,6 +1046,9 @@
     "combined": [
       { "iast": "aśvo 'nnaṃ khādati", "devanagari": "अश्वोऽन्नं खादति" }
     ],
+    "word1_meaning": "horse",
+    "word2_meaning": "eats food",
+    "combined_meaning": "the horse eats food",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -880,6 +1063,9 @@
     "combined": [
       { "iast": "sakhibhiḥ kṛtam", "devanagari": "सखिभिः कृतम्" }
     ],
+    "word1_meaning": "by friends",
+    "word2_meaning": "done, made",
+    "combined_meaning": "done by friends",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before k or kh is optionally the jihvāmūlīya, a rasping breath at the root of the tongue like the ch of German Bach (Pāṇini 8.3.37)."
   },
@@ -894,6 +1080,9 @@
     "combined": [
       { "iast": "ata eva", "devanagari": "अत एव" }
     ],
+    "word1_meaning": "hence, from this",
+    "word2_meaning": "only, indeed",
+    "combined_meaning": "for this very reason, therefore",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -908,6 +1097,9 @@
     "combined": [
       { "iast": "śivo rakṣati", "devanagari": "शिवो रक्षति" }
     ],
+    "word1_meaning": "Śiva",
+    "word2_meaning": "protects",
+    "combined_meaning": "Śiva protects",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -922,6 +1114,9 @@
     "combined": [
       { "iast": "rāma eti", "devanagari": "राम एति" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "goes",
+    "combined_meaning": "Rāma goes",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -936,6 +1131,9 @@
     "combined": [
       { "iast": "gurūr vadanti", "devanagari": "गुरूर् वदन्ति" }
     ],
+    "word1_meaning": "teachers",
+    "word2_meaning": "speak",
+    "combined_meaning": "the teachers speak",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -951,6 +1149,9 @@
       { "iast": "svatas siddhaḥ", "devanagari": "स्वतस् सिद्धः" },
       { "iast": "svataḥ siddhaḥ", "devanagari": "स्वतः सिद्धः" }
     ],
+    "word1_meaning": "by itself, of itself",
+    "word2_meaning": "established, proven",
+    "combined_meaning": "self-evident, self-established",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -965,6 +1166,9 @@
     "combined": [
       { "iast": "putrair āgacchanti", "devanagari": "पुत्रैर् आगच्छन्ति" }
     ],
+    "word1_meaning": "with the sons",
+    "word2_meaning": "come",
+    "combined_meaning": "(they) come with the sons",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -979,6 +1183,9 @@
     "combined": [
       { "iast": "rāmo 'vadat", "devanagari": "रामोऽवदत्" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "said",
+    "combined_meaning": "Rāma said",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -993,6 +1200,9 @@
     "combined": [
       { "iast": "tair vinā", "devanagari": "तैर् विना" }
     ],
+    "word1_meaning": "them (instrumental)",
+    "word2_meaning": "without",
+    "combined_meaning": "without them",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -1007,6 +1217,9 @@
     "combined": [
       { "iast": "nārāyaṇa uvāca", "devanagari": "नारायण उवाच" }
     ],
+    "word1_meaning": "Nārāyaṇa (Viṣṇu)",
+    "word2_meaning": "said",
+    "combined_meaning": "Nārāyaṇa said",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -1021,6 +1234,9 @@
     "combined": [
       { "iast": "sūryo 'dhikāri", "devanagari": "सूर्योऽधिकारि" }
     ],
+    "word1_meaning": "the sun",
+    "word2_meaning": "the one entitled, in charge",
+    "combined_meaning": "the sun is the one in charge",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -1035,6 +1251,9 @@
     "combined": [
       { "iast": "lakṣmaṇo nayati", "devanagari": "लक्ष्मणो नयति" }
     ],
+    "word1_meaning": "Lakṣmaṇa",
+    "word2_meaning": "leads",
+    "combined_meaning": "Lakṣmaṇa leads",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -1049,6 +1268,9 @@
     "combined": [
       { "iast": "sarvas tathā", "devanagari": "सर्वस् तथा" }
     ],
+    "word1_meaning": "all, everyone",
+    "word2_meaning": "so, likewise",
+    "combined_meaning": "everyone likewise",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -1063,6 +1285,9 @@
     "combined": [
       { "iast": "nadīḥ paśyati", "devanagari": "नदीः पश्यति" }
     ],
+    "word1_meaning": "rivers (object)",
+    "word2_meaning": "sees",
+    "combined_meaning": "(he) sees the rivers",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
@@ -1077,6 +1302,9 @@
     "combined": [
       { "iast": "mater gatam", "devanagari": "मतेर् गतम्" }
     ],
+    "word1_meaning": "of or from the mind",
+    "word2_meaning": "gone",
+    "combined_meaning": "gone from the mind",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -1091,6 +1319,9 @@
     "combined": [
       { "iast": "dhenubhyo dattam", "devanagari": "धेनुभ्यो दत्तम्" }
     ],
+    "word1_meaning": "to or for the cows",
+    "word2_meaning": "given",
+    "combined_meaning": "given to the cows",
     "rule": "-aḥ → -o before a voiced consonant",
     "explanation": "A word-final -aḥ (from an original -as) becomes -o before any voiced consonant."
   },
@@ -1105,6 +1336,9 @@
     "combined": [
       { "iast": "guror upadeśāḥ", "devanagari": "गुरोर् उपदेशाः" }
     ],
+    "word1_meaning": "of the teacher",
+    "word2_meaning": "teachings",
+    "combined_meaning": "the teacher's teachings",
     "rule": "ḥ → r before a voiced sound",
     "explanation": "After any vowel except a/ā, the visarga becomes r before a voiced sound (vowel or consonant)."
   },
@@ -1119,6 +1353,9 @@
     "combined": [
       { "iast": "indraḥ pṛcchati", "devanagari": "इन्द्रः पृच्छति" }
     ],
+    "word1_meaning": "Indra",
+    "word2_meaning": "asks",
+    "combined_meaning": "Indra asks",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
@@ -1134,6 +1371,9 @@
       { "iast": "skandaṣ ṣaṣṭiḥ", "devanagari": "स्कन्दष् षष्टिः" },
       { "iast": "skandaḥ ṣaṣṭiḥ", "devanagari": "स्कन्दः षष्टिः" }
     ],
+    "word1_meaning": "Skanda (Kārttikeya)",
+    "word2_meaning": "sixty",
+    "combined_meaning": "Skanda … sixty",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -1148,6 +1388,9 @@
     "combined": [
       { "iast": "nama oṃ", "devanagari": "नम ॐ" }
     ],
+    "word1_meaning": "salutation, bow",
+    "word2_meaning": "oṃ, the sacred syllable",
+    "combined_meaning": "salutation, oṃ",
     "rule": "-aḥ → -a before another vowel (hiatus remains)",
     "explanation": "Before any vowel other than short a, -aḥ loses its visarga, leaving -a; the resulting hiatus is kept and not further combined."
   },
@@ -1162,6 +1405,9 @@
     "combined": [
       { "iast": "sundarā mālāḥ", "devanagari": "सुन्दरा मालाः" }
     ],
+    "word1_meaning": "beautiful",
+    "word2_meaning": "garlands",
+    "combined_meaning": "beautiful garlands",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   },
@@ -1177,6 +1423,9 @@
       { "iast": "anyas satyaḥ", "devanagari": "अन्यस् सत्यः" },
       { "iast": "anyaḥ satyaḥ", "devanagari": "अन्यः सत्यः" }
     ],
+    "word1_meaning": "another, other",
+    "word2_meaning": "true",
+    "combined_meaning": "the other is true",
     "rule": "ḥ → ś / ṣ / s before a voiceless stop (visarga also retained)",
     "explanation": "Before a voiceless stop the visarga assimilates to the homorganic sibilant — ś before c/ch, ṣ before ṭ/ṭh, s before t/th. Retaining the plain visarga is also accepted; both forms are shown."
   },
@@ -1191,6 +1440,9 @@
     "combined": [
       { "iast": "ko 'ham", "devanagari": "कोऽहम्" }
     ],
+    "word1_meaning": "who?",
+    "word2_meaning": "I",
+    "combined_meaning": "who am I?",
     "rule": "-aḥ + a- → -o (the a is elided, marked by an avagraha ऽ)",
     "explanation": "Before a short initial a, -aḥ becomes -o and that a is dropped; the elision is marked with an avagraha (ऽ)."
   },
@@ -1205,6 +1457,9 @@
     "combined": [
       { "iast": "nṛpaḥ pālayati", "devanagari": "नृपः पालयति" }
     ],
+    "word1_meaning": "king",
+    "word2_meaning": "protects, rules",
+    "combined_meaning": "the king protects",
     "rule": "ḥ retained before k/kh, p/ph, a sibilant, or a pause",
     "explanation": "The visarga stays unchanged before the voiceless gutturals and labials k, kh, p, ph, before a sibilant ś/ṣ/s, and before a pause. In writing only — in careful pronunciation the visarga before p or ph is optionally the upadhmānīya, a breathy f blown with both lips and no teeth (Pāṇini 8.3.37)."
   },
@@ -1219,6 +1474,9 @@
     "combined": [
       { "iast": "bālā rudanti", "devanagari": "बाला रुदन्ति" }
     ],
+    "word1_meaning": "boys, children",
+    "word2_meaning": "cry",
+    "combined_meaning": "the children cry",
     "rule": "-āḥ → -ā before any voiced sound",
     "explanation": "A word-final -āḥ (from -ās) drops the visarga to -ā before any voiced sound, vowel or consonant. It never becomes -o; a hiatus before a vowel is kept."
   }

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../internal_consonant_sandhi_deck"
 
 module Generators
@@ -15,6 +16,7 @@ module Generators
   #          the explanation, and the `analysis` line — which names the trigger,
   #          and so is what tells the reader the ष् in front of them is an
   #          underlying स्.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # Contrast records — where the rule deliberately does NOT fire (मरुत् + सु →
@@ -42,6 +44,7 @@ module Generators
 
       back = +"<center>#{'<big>' * 2}<b>#{entry['word1_devanagari']} + #{entry['word2_devanagari']}</b>#{'</big>' * 2}" \
               "<br><big>#{primary['iast']} → #{entry['word1_iast']} + #{entry['word2_iast']}</big>" \
+              "#{SandhiMeanings.html(entry, primary['iast'], split: true)}" \
               "<br><br><b>#{entry['rule']}</b>" \
               "<br>#{entry['explanation']}"
       back << "<br><br><small>#{entry['analysis']}</small>" if entry["analysis"]

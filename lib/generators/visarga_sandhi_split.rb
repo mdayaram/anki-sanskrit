@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../visarga_sandhi_deck"
 
 module Generators
@@ -14,6 +15,7 @@ module Generators
   #   Back:  the two words (नरः + चरति), the IAST (naraś carati → naraḥ + carati),
   #          word1's underlying pre-visarga form (नरः ← नरस्), any alternate
   #          accepted forms, which rule fired, and the rule explanation.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # A record can list more than one accepted combined form; this deck emits ONE
@@ -44,6 +46,8 @@ module Generators
       unless alternates.empty?
         back << "<br><small>(also accepted: #{alternates.map { |a| a['devanagari'] }.join(' / ')})</small>"
       end
+
+      back << SandhiMeanings.html(entry, primary["iast"], split: true)
 
       back << "<br><br><b>#{entry['rule']}</b>" \
               "<br>#{entry['explanation']}</center>"

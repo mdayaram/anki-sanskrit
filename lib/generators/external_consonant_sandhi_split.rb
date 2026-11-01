@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../external_consonant_sandhi_deck"
 
 module Generators
@@ -15,6 +16,7 @@ module Generators
   #   Back:  the two words (वाक् + देवी), the IAST (vāgdevī → vāk + devī), word1's
   #          citation form where the padānta reduction changed it (वाक् ← वाच्),
   #          any alternate accepted forms, which rule fired, and the explanation.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # Contrast records — the junctions where the rule deliberately does NOT fire
@@ -56,6 +58,8 @@ module Generators
       unless alternates.empty?
         back << "<br><small>(also accepted: #{alternates.map { |a| a['devanagari'] }.join(' / ')})</small>"
       end
+
+      back << SandhiMeanings.html(entry, primary["iast"], split: true)
 
       back << "<br><br><b>#{entry['rule']}</b>" \
               "<br>#{entry['explanation']}</center>"
