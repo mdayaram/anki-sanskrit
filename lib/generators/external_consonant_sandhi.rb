@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../external_consonant_sandhi_deck"
 
 module Generators
@@ -18,6 +19,7 @@ module Generators
   #   Back:  the combined form(s) written JOINED the way the handout writes them
   #          (वाग्देवी), the IAST (vāk + devī → vāgdevī), which rule fired, and a
   #          brief explanation.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # A junction can have more than one accepted outcome (तत् + हि → तद्धि or तद् हि;
@@ -53,6 +55,7 @@ module Generators
 
       back = "<center>#{'<big>' * 2}#{combined_dev}#{'</big>' * 2}" \
              "<br><big>#{inputs} → #{combined_iast}</big>" \
+             "#{SandhiMeanings.html(entry, combined.first['iast'])}" \
              "<br><br><b>#{entry['rule']}</b>" \
              "<br>#{entry['explanation']}</center>"
 

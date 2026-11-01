@@ -9,6 +9,9 @@
     "combined": [
       { "iast": "viṣīdati", "devanagari": "विषीदति" }
     ],
+    "word1_meaning": "apart, away (prefix)",
+    "word2_meaning": "sits, sinks",
+    "combined_meaning": "despairs, sinks down (in grief)",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger इ (a vowel other than अ/आ) · nothing intervening",
@@ -25,6 +28,9 @@
     "combined": [
       { "iast": "agniṣu", "devanagari": "अग्निषु" }
     ],
+    "word1_meaning": "fire",
+    "word2_meaning": "locative plural ending ('in, among')",
+    "combined_meaning": "in the fires",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger इ · nothing intervening · locative plural ending -सु",
@@ -41,6 +47,9 @@
     "combined": [
       { "iast": "abhiṣiñcati", "devanagari": "अभिषिञ्चति" }
     ],
+    "word1_meaning": "toward, over (prefix)",
+    "word2_meaning": "sprinkles, pours",
+    "combined_meaning": "consecrates, anoints",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger इ · nothing intervening",
@@ -57,6 +66,9 @@
     "combined": [
       { "iast": "dhanuṣā", "devanagari": "धनुषा" }
     ],
+    "word1_meaning": "bow",
+    "word2_meaning": "instrumental singular ending ('with, by')",
+    "combined_meaning": "with the bow",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger उ · nothing intervening · the स् is not word-final here, so it may retroflex",
@@ -73,6 +85,9 @@
     "combined": [
       { "iast": "suṣuptaḥ", "devanagari": "सुषुप्तः" }
     ],
+    "word1_meaning": "well, thoroughly (prefix)",
+    "word2_meaning": "asleep",
+    "combined_meaning": "fast asleep",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger उ · nothing intervening",
@@ -89,6 +104,9 @@
     "combined": [
       { "iast": "vākṣu", "devanagari": "वाक्षु" }
     ],
+    "word1_meaning": "speech",
+    "word2_meaning": "locative plural ending ('in, among')",
+    "combined_meaning": "in words",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger क् (क-varga) · nothing intervening",
@@ -105,6 +123,9 @@
     "combined": [
       { "iast": "caturṣu", "devanagari": "चतुर्षु" }
     ],
+    "word1_meaning": "four",
+    "word2_meaning": "locative plural ending ('in, among')",
+    "combined_meaning": "among four",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger र् · nothing intervening",
@@ -121,6 +142,9 @@
     "combined": [
       { "iast": "pitṛṣu", "devanagari": "पितृषु" }
     ],
+    "word1_meaning": "father; (pl.) ancestors",
+    "word2_meaning": "locative plural ending ('in, among')",
+    "combined_meaning": "among the fathers or ancestors",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger ऋ · nothing intervening",
@@ -137,6 +161,9 @@
     "combined": [
       { "iast": "juhoṣi", "devanagari": "जुहोषि" }
     ],
+    "word1_meaning": "strong stem of hu 'to offer'",
+    "word2_meaning": "present-tense ending 'you'",
+    "combined_meaning": "you offer (into the fire)",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger ओ · nothing intervening",
@@ -153,6 +180,9 @@
     "combined": [
       { "iast": "haviḥṣu", "devanagari": "हविःषु" }
     ],
+    "word1_meaning": "oblation",
+    "word2_meaning": "locative plural ending ('in, among')",
+    "combined_meaning": "in the oblations",
     "rule": "स् becomes ष् after any vowel except अ/आ, or after क् or र्",
     "explanation": "Three things must hold: (1) the sound just before the स् is a vowel other than अ/आ, or क-varga, र् or ल्; (2) the स् is neither word-final nor followed by र् (so तिस्रः and तमिस्र keep their स्); (3) only anusvāra, visarga or a sibilant may intervene. Note the contrast with ṇatva, which reaches across vowels, क-varga, प-varga, य् व् and ह् — here the trigger must otherwise be immediately adjacent. हिंस् and पुंस् are lexical exceptions.",
     "analysis": "trigger इ · through the visarga of हविः",
@@ -169,6 +199,9 @@
     "combined": [
       { "iast": "marutsu", "devanagari": "मरुत्सु" }
     ],
+    "word1_meaning": "wind; the Maruts",
+    "word2_meaning": "locative plural ending ('in, among')",
+    "combined_meaning": "among the winds or Maruts",
     "rule": "Blocked: त् is not one of the sounds that trigger ṣatva",
     "explanation": "The ending -सु retroflexes only when the sound just before it is a trigger. Compare अग्नि + सु → अग्निषु (the vowel इ triggers) and वाक् + सु → वाक्षु (क् triggers); after त् nothing happens, so मरुत्सु keeps its dental स्.",
     "analysis": "trigger would have to be त् — not in the set · स् stays dental",
@@ -186,6 +219,9 @@
     "combined": [
       { "iast": "brahmaṇā", "devanagari": "ब्रह्मणा" }
     ],
+    "word1_meaning": "Brahman; Brahmā",
+    "word2_meaning": "instrumental singular ending ('by, with')",
+    "combined_meaning": "by Brahman or Brahmā",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger र् · through अ ह् म् (ह् + प-varga) · न् before आ",
@@ -202,6 +238,9 @@
     "combined": [
       { "iast": "rāmeṇa", "devanagari": "रामेण" }
     ],
+    "word1_meaning": "Rāma",
+    "word2_meaning": "instrumental singular ending ('by, with')",
+    "combined_meaning": "by Rāma",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger र् · through आ म् ए (प-varga + vowels) · न् before अ",
@@ -218,6 +257,9 @@
     "combined": [
       { "iast": "viṣeṇa", "devanagari": "विषेण" }
     ],
+    "word1_meaning": "poison",
+    "word2_meaning": "instrumental singular ending ('by, with')",
+    "combined_meaning": "by poison",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger ष् · through ए (vowel) · न् before अ",
@@ -234,6 +276,9 @@
     "combined": [
       { "iast": "guruṇā", "devanagari": "गुरुणा" }
     ],
+    "word1_meaning": "teacher",
+    "word2_meaning": "instrumental singular ending ('by, with')",
+    "combined_meaning": "by the teacher",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger र् · through उ (vowel) · न् before आ",
@@ -250,6 +295,9 @@
     "combined": [
       { "iast": "mṛgāṇām", "devanagari": "मृगाणाम्" }
     ],
+    "word1_meaning": "deer; animal",
+    "word2_meaning": "genitive plural ending ('of')",
+    "combined_meaning": "of the deer",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger ऋ · through ग् आ (क-varga + vowel) · न् before आ",
@@ -266,6 +314,9 @@
     "combined": [
       { "iast": "kāryāṇi", "devanagari": "कार्याणि" }
     ],
+    "word1_meaning": "duty, what is to be done",
+    "word2_meaning": "neuter plural ending",
+    "combined_meaning": "duties, things to be done",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger र् · through य् आ (य् + vowel) · न् before इ",
@@ -282,6 +333,9 @@
     "combined": [
       { "iast": "sarvāṇi", "devanagari": "सर्वाणि" }
     ],
+    "word1_meaning": "all",
+    "word2_meaning": "neuter plural ending",
+    "combined_meaning": "all (things)",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger र् · through व् आ (व् + vowel) · न् before इ",
@@ -298,6 +352,9 @@
     "combined": [
       { "iast": "bṛṃhaṇa", "devanagari": "बृंहण" }
     ],
+    "word1_meaning": "root bṛṃh 'to grow, strengthen'",
+    "word2_meaning": "action-noun suffix",
+    "combined_meaning": "strengthening, nourishing",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger ऋ · through ं ह् अ (anusvāra + ह्) · न् before अ",
@@ -314,6 +371,9 @@
     "combined": [
       { "iast": "caraṇa", "devanagari": "चरण" }
     ],
+    "word1_meaning": "root car 'to move, walk'",
+    "word2_meaning": "action-noun suffix",
+    "combined_meaning": "foot; movement, conduct",
     "rule": "न् becomes ण् after र् ऋ ॠ or ष् in the same word",
     "explanation": "Three things must all hold: (1) a trigger — र् ऋ ॠ or ष् — earlier in the same word; (2) the न् is followed by a vowel or by न् म् य् व्; (3) only vowels, क-varga, प-varga, य् व् ह् or anusvāra stand in between. Any other intervening sound — a palatal, cerebral, dental, ल् श् or स् — blocks it.",
     "analysis": "trigger र् · through अ (vowel) · न् before अ — condition 2 is met",
@@ -330,6 +390,9 @@
     "combined": [
       { "iast": "caranti", "devanagari": "चरन्ति" }
     ],
+    "word1_meaning": "root car 'to move, walk'",
+    "word2_meaning": "present-tense ending 'they'",
+    "combined_meaning": "they move",
     "rule": "Blocked: the न् must be followed by a vowel or by न् म् य् व्",
     "explanation": "Compare चर् + अन → चरण. The trigger र् and the intervening अ are the same in both; here the न् is followed by त्, which is not one of the permitted following sounds, so it stays dental. This is also why a word-final न् never retroflexes — nothing follows it.",
     "analysis": "trigger र् · through अ (vowel) · न् before त् — condition 2 FAILS",
@@ -347,6 +410,9 @@
     "combined": [
       { "iast": "arjunena", "devanagari": "अर्जुनेन" }
     ],
+    "word1_meaning": "Arjuna",
+    "word2_meaning": "instrumental singular ending ('by, with')",
+    "combined_meaning": "by Arjuna",
     "rule": "Blocked: an intervening palatal, cerebral or dental stops ṇatva",
     "explanation": "The र् of अर्- would retroflex the न् of the ending, but the palatal ज् stands between them and is not one of the permitted intervening sounds — hence अर्जुनेन, never अर्जुणेन. Compare राम + एन → रामेण, where only the labial म् intervenes and does not block.",
     "analysis": "trigger र् · through ज् (palatal) — condition 3 FAILS",

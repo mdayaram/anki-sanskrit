@@ -11,6 +11,9 @@
     "combined": [
       { "iast": "vāgdevī", "devanagari": "वाग्देवी" }
     ],
+    "word1_meaning": "speech",
+    "word2_meaning": "goddess",
+    "combined_meaning": "goddess of speech (Sarasvatī)",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "handout"
@@ -27,6 +30,9 @@
     "combined": [
       { "iast": "tadvanam", "devanagari": "तद्वनम्" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "forest",
+    "combined_meaning": "that forest",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "learnsanskrit.org"
@@ -43,6 +49,9 @@
     "combined": [
       { "iast": "vanādagaccham", "devanagari": "वनादगच्छम्" }
     ],
+    "word1_meaning": "from the forest",
+    "word2_meaning": "I went",
+    "combined_meaning": "I went from the forest",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "learnsanskrit.org"
@@ -59,6 +68,9 @@
     "combined": [
       { "iast": "jagadīśaḥ", "devanagari": "जगदीशः" }
     ],
+    "word1_meaning": "world",
+    "word2_meaning": "lord",
+    "combined_meaning": "lord of the world",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "common compound"
@@ -75,6 +87,9 @@
     "combined": [
       { "iast": "vāṅmaya", "devanagari": "वाङ्मय" }
     ],
+    "word1_meaning": "speech",
+    "word2_meaning": "consisting of",
+    "combined_meaning": "consisting of speech; literature",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "handout"
@@ -91,6 +106,9 @@
     "combined": [
       { "iast": "jagannāthaḥ", "devanagari": "जगन्नाथः" }
     ],
+    "word1_meaning": "world",
+    "word2_meaning": "lord, protector",
+    "combined_meaning": "lord of the world (Jagannātha)",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "common compound"
@@ -107,6 +125,9 @@
     "combined": [
       { "iast": "ṣaṇmāsāḥ", "devanagari": "षण्मासाः" }
     ],
+    "word1_meaning": "six",
+    "word2_meaning": "months",
+    "combined_meaning": "six months",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "common compound"
@@ -123,6 +144,9 @@
     "combined": [
       { "iast": "cinmayaḥ", "devanagari": "चिन्मयः" }
     ],
+    "word1_meaning": "consciousness",
+    "word2_meaning": "consisting of",
+    "combined_meaning": "consisting of consciousness",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "common compound"
@@ -139,6 +163,9 @@
     "combined": [
       { "iast": "tacca", "devanagari": "तच्च" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "and",
+    "combined_meaning": "and that",
     "rule": "त् becomes the corresponding palatal before a palatal",
     "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
     "source": "handout"
@@ -155,6 +182,9 @@
     "combined": [
       { "iast": "saccit", "devanagari": "सच्चित्" }
     ],
+    "word1_meaning": "being, existence",
+    "word2_meaning": "consciousness",
+    "combined_meaning": "being-consciousness (as in saccidānanda)",
     "rule": "त् becomes the corresponding palatal before a palatal",
     "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
     "source": "common compound"
@@ -171,6 +201,9 @@
     "combined": [
       { "iast": "tajjalam", "devanagari": "तज्जलम्" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "water",
+    "combined_meaning": "that water",
     "rule": "त् becomes the corresponding palatal before a palatal",
     "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
     "source": "learnsanskrit.org"
@@ -187,6 +220,9 @@
     "combined": [
       { "iast": "vidyujjāyate", "devanagari": "विद्युज्जायते" }
     ],
+    "word1_meaning": "lightning",
+    "word2_meaning": "is born, arises",
+    "combined_meaning": "lightning arises",
     "rule": "त् becomes the corresponding palatal before a palatal",
     "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
     "source": "Whitney §202"
@@ -203,6 +239,9 @@
     "combined": [
       { "iast": "bhavaḍḍamaru", "devanagari": "भवड्डमरु" }
     ],
+    "word1_meaning": "your (honour's)",
+    "word2_meaning": "ḍamaru, a small hand drum",
+    "combined_meaning": "your drum",
     "rule": "त् becomes the corresponding cerebral before a cerebral",
     "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
     "source": "handout"
@@ -219,6 +258,9 @@
     "combined": [
       { "iast": "taṭṭīkā", "devanagari": "तट्टीका" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "commentary",
+    "combined_meaning": "that commentary",
     "rule": "त् becomes the corresponding cerebral before a cerebral",
     "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
     "source": "Leavitt"
@@ -235,6 +277,9 @@
     "combined": [
       { "iast": "taḍḍamaruḥ", "devanagari": "तड्डमरुः" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "ḍamaru, a small hand drum",
+    "combined_meaning": "that drum",
     "rule": "त् becomes the corresponding cerebral before a cerebral",
     "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
     "source": "Leavitt"
@@ -251,6 +296,9 @@
     "combined": [
       { "iast": "taḍḍhaukate", "devanagari": "तड्ढौकते" }
     ],
+    "word1_meaning": "that, it",
+    "word2_meaning": "approaches",
+    "combined_meaning": "it approaches",
     "rule": "त् becomes the corresponding cerebral before a cerebral",
     "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
     "source": "Leavitt"
@@ -267,6 +315,9 @@
     "combined": [
       { "iast": "tallīna", "devanagari": "तल्लीन" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "absorbed, merged",
+    "combined_meaning": "absorbed in that",
     "rule": "त् + ल् → ल्",
     "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
     "source": "handout"
@@ -283,6 +334,9 @@
     "combined": [
       { "iast": "vidyullatā", "devanagari": "विद्युल्लता" }
     ],
+    "word1_meaning": "lightning",
+    "word2_meaning": "creeper, vine",
+    "combined_meaning": "a streak of lightning (lit. lightning-vine)",
     "rule": "त् + ल् → ल्",
     "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
     "source": "common compound"
@@ -299,6 +353,9 @@
     "combined": [
       { "iast": "grāmāllokaḥ", "devanagari": "ग्रामाल्लोकः" }
     ],
+    "word1_meaning": "from the village",
+    "word2_meaning": "people; world",
+    "combined_meaning": "people from the village",
     "rule": "त् + ल् → ल्",
     "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
     "source": "Leavitt"
@@ -315,6 +372,9 @@
     "combined": [
       { "iast": "tallabhate", "devanagari": "तल्लभते" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "obtains",
+    "combined_meaning": "(he) obtains that",
     "rule": "त् + ल् → ल्",
     "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
     "source": "Whitney §162"
@@ -331,6 +391,9 @@
     "combined": [
       { "iast": "bhagavaccharaṇa", "devanagari": "भगवच्छरण" }
     ],
+    "word1_meaning": "the Lord",
+    "word2_meaning": "refuge",
+    "combined_meaning": "refuge in the Lord",
     "rule": "त् + श् → च्छ्",
     "explanation": "Two changes at once: the त् becomes the palatal च्, and the following श् hardens to छ्.",
     "source": "handout"
@@ -347,6 +410,9 @@
     "combined": [
       { "iast": "tacchrutvā", "devanagari": "तच्छ्रुत्वा" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "having heard",
+    "combined_meaning": "having heard that",
     "rule": "त् + श् → च्छ्",
     "explanation": "Two changes at once: the त् becomes the palatal च्, and the following श् hardens to छ्.",
     "source": "Whitney §203"
@@ -363,6 +429,9 @@
     "combined": [
       { "iast": "sacchāstram", "devanagari": "सच्छास्त्रम्" }
     ],
+    "word1_meaning": "good, true",
+    "word2_meaning": "scripture, teaching",
+    "combined_meaning": "true scripture",
     "rule": "त् + श् → च्छ्",
     "explanation": "Two changes at once: the त् becomes the palatal च्, and the following श् hardens to छ्.",
     "source": "common compound"
@@ -379,6 +448,9 @@
     "combined": [
       { "iast": "ucchvāsaḥ", "devanagari": "उच्छ्वासः" }
     ],
+    "word1_meaning": "up, out (prefix)",
+    "word2_meaning": "breath",
+    "combined_meaning": "exhalation, a sigh",
     "rule": "त् + श् → च्छ्",
     "explanation": "Two changes at once: the त् becomes the palatal च्, and the following श् hardens to छ्.",
     "source": "common compound"
@@ -395,6 +467,9 @@
     "combined": [
       { "iast": "phalaṃ dadāti", "devanagari": "फलं ददाति" }
     ],
+    "word1_meaning": "fruit",
+    "word2_meaning": "gives",
+    "combined_meaning": "(he) gives a fruit",
     "rule": "Final म् becomes anusvāra before a consonant",
     "explanation": "Before any consonant, voiced or voiceless, final म् is written as anusvāra. Before a vowel it stays म्. In careful recitation it may instead be pronounced as the nasal of the following consonant's class.",
     "source": "handout"
@@ -411,6 +486,9 @@
     "combined": [
       { "iast": "vanaṃ gacchati", "devanagari": "वनं गच्छति" }
     ],
+    "word1_meaning": "forest",
+    "word2_meaning": "goes",
+    "combined_meaning": "(he) goes to the forest",
     "rule": "Final म् becomes anusvāra before a consonant",
     "explanation": "Before any consonant, voiced or voiceless, final म् is written as anusvāra. Before a vowel it stays म्. In careful recitation it may instead be pronounced as the nasal of the following consonant's class.",
     "source": "learnsanskrit.org"
@@ -427,6 +505,9 @@
     "combined": [
       { "iast": "satyaṃ vada", "devanagari": "सत्यं वद" }
     ],
+    "word1_meaning": "truth",
+    "word2_meaning": "speak!",
+    "combined_meaning": "speak the truth",
     "rule": "Final म् becomes anusvāra before a consonant",
     "explanation": "Before any consonant, voiced or voiceless, final म् is written as anusvāra. Before a vowel it stays म्. In careful recitation it may instead be pronounced as the nasal of the following consonant's class.",
     "source": "Taittirīya Upaniṣad 1.11"
@@ -443,6 +524,9 @@
     "combined": [
       { "iast": "rāmaṃ paśyati", "devanagari": "रामं पश्यति" }
     ],
+    "word1_meaning": "Rāma (object)",
+    "word2_meaning": "sees",
+    "combined_meaning": "(he) sees Rāma",
     "rule": "Final म् becomes anusvāra before a consonant",
     "explanation": "Before any consonant, voiced or voiceless, final म् is written as anusvāra. Before a vowel it stays म्. In careful recitation it may instead be pronounced as the nasal of the following consonant's class.",
     "source": "constructed"
@@ -459,6 +543,9 @@
     "combined": [
       { "iast": "etāñjuhoti", "devanagari": "एताञ्जुहोति" }
     ],
+    "word1_meaning": "these (object)",
+    "word2_meaning": "offers (into the fire)",
+    "combined_meaning": "(he) offers these",
     "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
     "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
     "source": "handout"
@@ -475,6 +562,9 @@
     "combined": [
       { "iast": "narāñjayāmi", "devanagari": "नराञ्जयामि" }
     ],
+    "word1_meaning": "men (object)",
+    "word2_meaning": "I conquer",
+    "combined_meaning": "I conquer the men",
     "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
     "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
     "source": "learnsanskrit.org"
@@ -491,6 +581,9 @@
     "combined": [
       { "iast": "tāñjanān", "devanagari": "ताञ्जनान्" }
     ],
+    "word1_meaning": "those (object)",
+    "word2_meaning": "people (object)",
+    "combined_meaning": "those people",
     "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
     "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
     "source": "Leavitt"
@@ -507,6 +600,9 @@
     "combined": [
       { "iast": "tāṇḍhaukate", "devanagari": "ताण्ढौकते" }
     ],
+    "word1_meaning": "them, those (object)",
+    "word2_meaning": "approaches",
+    "combined_meaning": "(he) approaches them",
     "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
     "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
     "source": "Leavitt"
@@ -523,6 +619,9 @@
     "combined": [
       { "iast": "tāṃstitikṣasva", "devanagari": "तांस्तितिक्षस्व" }
     ],
+    "word1_meaning": "them, those (object)",
+    "word2_meaning": "endure!, bear patiently",
+    "combined_meaning": "endure them (Gītā 2.14)",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "handout"
@@ -539,6 +638,9 @@
     "combined": [
       { "iast": "tāṃścaranti", "devanagari": "तांश्चरन्ति" }
     ],
+    "word1_meaning": "them, those (object)",
+    "word2_meaning": "move, go",
+    "combined_meaning": "they go to them",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "learnsanskrit.org"
@@ -555,6 +657,9 @@
     "combined": [
       { "iast": "kasmiṃścit", "devanagari": "कस्मिंश्चित्" }
     ],
+    "word1_meaning": "in which?",
+    "word2_meaning": "(indefinite particle)",
+    "combined_meaning": "in some, in something",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "Ruppel"
@@ -571,6 +676,9 @@
     "combined": [
       { "iast": "bhavāṃstiṣṭhati", "devanagari": "भवांस्तिष्ठति" }
     ],
+    "word1_meaning": "you (respectful)",
+    "word2_meaning": "stands, remains",
+    "combined_meaning": "you stand; you remain",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "constructed"
@@ -587,6 +695,9 @@
     "combined": [
       { "iast": "etāṃllokān", "devanagari": "एतांल्लोकान्" }
     ],
+    "word1_meaning": "these (object)",
+    "word2_meaning": "worlds (object)",
+    "combined_meaning": "these worlds",
     "rule": "न् + ल् → anusvāra + ल्",
     "explanation": "The न् assimilates to the ल् but its nasality survives as the anusvāra written before it.",
     "source": "handout"
@@ -603,6 +714,9 @@
     "combined": [
       { "iast": "trīṃllokān", "devanagari": "त्रींल्लोकान्" }
     ],
+    "word1_meaning": "three (object)",
+    "word2_meaning": "worlds (object)",
+    "combined_meaning": "the three worlds",
     "rule": "न् + ल् → anusvāra + ल्",
     "explanation": "The न् assimilates to the ल् but its nasality survives as the anusvāra written before it.",
     "source": "Whitney §206"
@@ -619,6 +733,9 @@
     "combined": [
       { "iast": "tāṃllabhante", "devanagari": "तांल्लभन्ते" }
     ],
+    "word1_meaning": "them, those (object)",
+    "word2_meaning": "obtain",
+    "combined_meaning": "they obtain them",
     "rule": "न् + ल् → anusvāra + ल्",
     "explanation": "The न् assimilates to the ल् but its nasality survives as the anusvāra written before it.",
     "source": "learnsanskrit.org"
@@ -635,6 +752,9 @@
     "combined": [
       { "iast": "tāṃllokān", "devanagari": "तांल्लोकान्" }
     ],
+    "word1_meaning": "those (object)",
+    "word2_meaning": "worlds (object)",
+    "combined_meaning": "those worlds",
     "rule": "न् + ल् → anusvāra + ल्",
     "explanation": "The न् assimilates to the ल् but its nasality survives as the anusvāra written before it.",
     "source": "Whitney §206"
@@ -651,6 +771,9 @@
     "combined": [
       { "iast": "hasanniva", "devanagari": "हसन्निव" }
     ],
+    "word1_meaning": "laughing",
+    "word2_meaning": "as if, like",
+    "combined_meaning": "as if laughing (Gītā 2.10)",
     "rule": "ङ् ण् न् double after a short vowel before a vowel",
     "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
     "source": "handout"
@@ -667,6 +790,9 @@
     "combined": [
       { "iast": "patanniha", "devanagari": "पतन्निह" }
     ],
+    "word1_meaning": "falling",
+    "word2_meaning": "here",
+    "combined_meaning": "falling here",
     "rule": "ङ् ण् न् double after a short vowel before a vowel",
     "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
     "source": "Leavitt"
@@ -683,6 +809,9 @@
     "combined": [
       { "iast": "tasminneva", "devanagari": "तस्मिन्नेव" }
     ],
+    "word1_meaning": "in that",
+    "word2_meaning": "only, very",
+    "combined_meaning": "in that very one",
     "rule": "ङ् ण् न् double after a short vowel before a vowel",
     "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
     "source": "common phrase"
@@ -699,6 +828,9 @@
     "combined": [
       { "iast": "pratyaṅṅudeṣi", "devanagari": "प्रत्यङ्ङुदेषि" }
     ],
+    "word1_meaning": "facing, turned toward",
+    "word2_meaning": "you rise",
+    "combined_meaning": "you rise facing (us)",
     "rule": "ङ् ण् न् double after a short vowel before a vowel",
     "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
     "source": "Whitney §210"
@@ -715,6 +847,9 @@
     "combined": [
       { "iast": "etāniha", "devanagari": "एतानिह" }
     ],
+    "word1_meaning": "these (object)",
+    "word2_meaning": "here",
+    "combined_meaning": "these, here",
     "rule": "No doubling after a LONG vowel",
     "explanation": "The doubling needs a SHORT vowel before the nasal. एतान् has ā, so its न् does not double — it simply joins the following vowel. Contrast हसन् (short अ) + इव → हसन्निव.",
     "contrast": true,
@@ -732,6 +867,9 @@
     "combined": [
       { "iast": "tasmāddhi", "devanagari": "तस्माद्धि" }
     ],
+    "word1_meaning": "therefore, from that",
+    "word2_meaning": "for, indeed",
+    "combined_meaning": "for therefore",
     "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
     "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
     "source": "handout"
@@ -748,6 +886,9 @@
     "combined": [
       { "iast": "vāgghi", "devanagari": "वाग्घि" }
     ],
+    "word1_meaning": "speech",
+    "word2_meaning": "for, indeed",
+    "combined_meaning": "for speech; speech indeed",
     "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
     "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
     "source": "Leavitt"
@@ -764,6 +905,9 @@
     "combined": [
       { "iast": "ṣaḍḍhi", "devanagari": "षड्ढि" }
     ],
+    "word1_meaning": "six",
+    "word2_meaning": "for, indeed",
+    "combined_meaning": "for six; six indeed",
     "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
     "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
     "source": "Leavitt"
@@ -781,6 +925,9 @@
       { "iast": "taddhi", "devanagari": "तद्धि" },
       { "iast": "tad hi", "devanagari": "तद् हि" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "for, indeed",
+    "combined_meaning": "for that; that indeed",
     "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
     "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
     "source": "Whitney §163"
@@ -797,6 +944,9 @@
     "combined": [
       { "iast": "śivacchāyā", "devanagari": "शिवच्छाया" }
     ],
+    "word1_meaning": "Śiva; auspicious",
+    "word2_meaning": "shade, shadow",
+    "combined_meaning": "Śiva's shade; auspicious shade",
     "rule": "Initial छ् becomes च्छ् after a vowel",
     "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
     "source": "handout"
@@ -813,6 +963,9 @@
     "combined": [
       { "iast": "mamacchāyā", "devanagari": "ममच्छाया" }
     ],
+    "word1_meaning": "my",
+    "word2_meaning": "shade, shadow",
+    "combined_meaning": "my shadow",
     "rule": "Initial छ् becomes च्छ् after a vowel",
     "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
     "source": "Leavitt"
@@ -829,6 +982,9 @@
     "combined": [
       { "iast": "snigdhacchāyā", "devanagari": "स्निग्धच्छाया" }
     ],
+    "word1_meaning": "cool, pleasant",
+    "word2_meaning": "shade, shadow",
+    "combined_meaning": "cool shade",
     "rule": "Initial छ् becomes च्छ् after a vowel",
     "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
     "source": "learnsanskrit.org"
@@ -846,6 +1002,9 @@
       { "iast": "nadīcchāyā", "devanagari": "नदीच्छाया" },
       { "iast": "nadī chāyā", "devanagari": "नदी छाया" }
     ],
+    "word1_meaning": "river",
+    "word2_meaning": "shade, shadow",
+    "combined_meaning": "the river's shade",
     "rule": "Initial छ् becomes च्छ् after a vowel",
     "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
     "source": "Leavitt"
@@ -862,6 +1021,9 @@
     "combined": [
       { "iast": "ṣaḍaiśvarya", "devanagari": "षडैश्वर्य" }
     ],
+    "word1_meaning": "six",
+    "word2_meaning": "lordly excellence",
+    "combined_meaning": "the six divine excellences",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "exercise sheet"
@@ -878,6 +1040,9 @@
     "combined": [
       { "iast": "prāṅmardana", "devanagari": "प्राङ्मर्दन" }
     ],
+    "word1_meaning": "before; eastward",
+    "word2_meaning": "crushing",
+    "combined_meaning": "crushing first",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "exercise sheet"
@@ -894,6 +1059,9 @@
     "combined": [
       { "iast": "etaḍḍamaru", "devanagari": "एतड्डमरु" }
     ],
+    "word1_meaning": "this",
+    "word2_meaning": "ḍamaru, a small hand drum",
+    "combined_meaning": "this drum",
     "rule": "त् becomes the corresponding cerebral before a cerebral",
     "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
     "source": "exercise sheet"
@@ -910,6 +1078,9 @@
     "combined": [
       { "iast": "gurūṃśchandān", "devanagari": "गुरूंश्छन्दान्" }
     ],
+    "word1_meaning": "teachers (object)",
+    "word2_meaning": "wishes; pleasing ones (object)",
+    "combined_meaning": "the teachers … the wishes",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "exercise sheet"
@@ -926,6 +1097,9 @@
     "combined": [
       { "iast": "vadannapi", "devanagari": "वदन्नपि" }
     ],
+    "word1_meaning": "speaking",
+    "word2_meaning": "even, also",
+    "combined_meaning": "even while speaking",
     "rule": "ङ् ण् न् double after a short vowel before a vowel",
     "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
     "source": "exercise sheet"
@@ -942,6 +1116,9 @@
     "combined": [
       { "iast": "jagaddātā", "devanagari": "जगद्दाता" }
     ],
+    "word1_meaning": "world",
+    "word2_meaning": "giver",
+    "combined_meaning": "giver of the world",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "exercise sheet"
@@ -958,6 +1135,9 @@
     "combined": [
       { "iast": "tannayati", "devanagari": "तन्नयति" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "leads",
+    "combined_meaning": "(he) leads that",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "exercise sheet"
@@ -974,6 +1154,9 @@
     "combined": [
       { "iast": "bhavajjaṭa", "devanagari": "भवज्जट" }
     ],
+    "word1_meaning": "your (honour's)",
+    "word2_meaning": "matted hair",
+    "combined_meaning": "your matted locks",
     "rule": "त् becomes the corresponding palatal before a palatal",
     "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
     "source": "exercise sheet"
@@ -990,6 +1173,9 @@
     "combined": [
       { "iast": "sarvāñjanān", "devanagari": "सर्वाञ्जनान्" }
     ],
+    "word1_meaning": "all (object)",
+    "word2_meaning": "people (object)",
+    "combined_meaning": "all the people",
     "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
     "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
     "source": "exercise sheet"
@@ -1006,6 +1192,9 @@
     "combined": [
       { "iast": "vāgīśvarī", "devanagari": "वागीश्वरी" }
     ],
+    "word1_meaning": "speech",
+    "word2_meaning": "goddess, sovereign (fem.)",
+    "combined_meaning": "goddess of speech (Sarasvatī)",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "exercise sheet"
@@ -1022,6 +1211,9 @@
     "combined": [
       { "iast": "ṣaṇmukha", "devanagari": "षण्मुख" }
     ],
+    "word1_meaning": "six",
+    "word2_meaning": "face",
+    "combined_meaning": "six-faced: Skanda (Kārttikeya)",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "exercise sheet"
@@ -1038,6 +1230,9 @@
     "combined": [
       { "iast": "taddhita", "devanagari": "तद्धित" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "suitable, beneficial",
+    "combined_meaning": "taddhita, a secondary suffix (grammar); lit. suitable for that",
     "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
     "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
     "source": "exercise sheet"
@@ -1054,6 +1249,9 @@
     "combined": [
       { "iast": "saṭṭīkā", "devanagari": "सट्टीका" }
     ],
+    "word1_meaning": "good, true",
+    "word2_meaning": "commentary",
+    "combined_meaning": "a good commentary",
     "rule": "त् becomes the corresponding cerebral before a cerebral",
     "explanation": "त् becomes ट् before the voiceless cerebrals ट् ठ्, and ड् before the voiced cerebrals ड् ढ्. Cerebral-initial words are rare, so this junction is uncommon.",
     "source": "exercise sheet"
@@ -1070,6 +1268,9 @@
     "combined": [
       { "iast": "tallopa", "devanagari": "तल्लोप" }
     ],
+    "word1_meaning": "that",
+    "word2_meaning": "elision, dropping",
+    "combined_meaning": "the elision of that",
     "rule": "त् + ल् → ल्",
     "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
     "source": "exercise sheet"
@@ -1086,6 +1287,9 @@
     "combined": [
       { "iast": "abdevatā", "devanagari": "अब्देवता" }
     ],
+    "word1_meaning": "water",
+    "word2_meaning": "deity",
+    "combined_meaning": "having water as its deity; the water deity",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "exercise sheet"
@@ -1102,6 +1306,9 @@
     "combined": [
       { "iast": "kaścinmanuṣyaḥ", "devanagari": "कश्चिन्मनुष्यः" }
     ],
+    "word1_meaning": "someone",
+    "word2_meaning": "human being",
+    "combined_meaning": "some person",
     "rule": "A voiceless final becomes the nasal of its own class before a nasal",
     "explanation": "Before न् or म् the final takes both the voicing and the nasality of what follows: क् ट् त् प् become ङ् ण् न् म्.",
     "source": "exercise sheet"
@@ -1118,6 +1325,9 @@
     "combined": [
       { "iast": "tasmāccalati", "devanagari": "तस्माच्चलति" }
     ],
+    "word1_meaning": "therefore, from that",
+    "word2_meaning": "moves",
+    "combined_meaning": "it moves from that",
     "rule": "त् becomes the corresponding palatal before a palatal",
     "explanation": "त् becomes च् before the voiceless palatals च् छ्, and ज् before the voiced palatals ज् झ्.",
     "source": "exercise sheet"
@@ -1134,6 +1344,9 @@
     "combined": [
       { "iast": "pustakaṃ harati", "devanagari": "पुस्तकं हरति" }
     ],
+    "word1_meaning": "book",
+    "word2_meaning": "takes, carries off",
+    "combined_meaning": "(he) takes the book",
     "rule": "Final म् becomes anusvāra before a consonant",
     "explanation": "Before any consonant, voiced or voiceless, final म् is written as anusvāra. Before a vowel it stays म्. In careful recitation it may instead be pronounced as the nasal of the following consonant's class.",
     "source": "exercise sheet"
@@ -1150,6 +1363,9 @@
     "combined": [
       { "iast": "marudāgacchati", "devanagari": "मरुदागच्छति" }
     ],
+    "word1_meaning": "wind",
+    "word2_meaning": "comes",
+    "combined_meaning": "the wind comes",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "exercise sheet"
@@ -1166,6 +1382,9 @@
     "combined": [
       { "iast": "bhagavallaya", "devanagari": "भगवल्लय" }
     ],
+    "word1_meaning": "the Lord",
+    "word2_meaning": "dissolution, absorption",
+    "combined_meaning": "absorption into the Lord",
     "rule": "त् + ल् → ल्",
     "explanation": "त् is fully assimilated to a following ल्, giving a doubled ल्ल.",
     "source": "exercise sheet"
@@ -1182,6 +1401,9 @@
     "combined": [
       { "iast": "mahāṇḍambaraḥ", "devanagari": "महाण्डम्बरः" }
     ],
+    "word1_meaning": "great",
+    "word2_meaning": "pomp, display",
+    "combined_meaning": "great pomp",
     "rule": "न् becomes the corresponding nasal before a voiced palatal or cerebral",
     "explanation": "न् becomes ञ् before ज् झ्, and ण् before ड् ढ् — the nasal of the following consonant's class.",
     "source": "exercise sheet"
@@ -1198,6 +1420,9 @@
     "combined": [
       { "iast": "prāggharati", "devanagari": "प्राग्घरति" }
     ],
+    "word1_meaning": "before; eastward",
+    "word2_meaning": "takes, carries",
+    "combined_meaning": "(he) takes (it) first",
     "rule": "Before ह्, the final voices and the ह् becomes the matching voiced aspirate",
     "explanation": "The final becomes the voiced consonant of its own class, and the ह् becomes that class's voiced aspirate: क्+ह् → ग्घ्, ट्+ह् → ड्ढ्, त्+ह् → द्ध्, प्+ह् → ब्भ्.",
     "source": "exercise sheet"
@@ -1214,6 +1439,9 @@
     "combined": [
       { "iast": "etāṃśca", "devanagari": "एतांश्च" }
     ],
+    "word1_meaning": "these (object)",
+    "word2_meaning": "and",
+    "combined_meaning": "and these",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "exercise sheet"
@@ -1230,6 +1458,9 @@
     "combined": [
       { "iast": "gāyanneva", "devanagari": "गायन्नेव" }
     ],
+    "word1_meaning": "singing",
+    "word2_meaning": "only, just",
+    "combined_meaning": "just singing",
     "rule": "ङ् ण् न् double after a short vowel before a vowel",
     "explanation": "A final nasal preceded by a SHORT vowel doubles when the next word begins with any vowel. After a long vowel there is no doubling.",
     "source": "exercise sheet"
@@ -1246,6 +1477,9 @@
     "combined": [
       { "iast": "nānācchidra", "devanagari": "नानाच्छिद्र" }
     ],
+    "word1_meaning": "various",
+    "word2_meaning": "hole, flaw",
+    "combined_meaning": "having various holes",
     "rule": "Initial छ् becomes च्छ् after a vowel",
     "explanation": "A word-initial छ् doubles to च्छ् after a short vowel. After a long vowel the doubling is optional.",
     "source": "exercise sheet"
@@ -1262,6 +1496,9 @@
     "combined": [
       { "iast": "gacchaṃllokam", "devanagari": "गच्छंल्लोकम्" }
     ],
+    "word1_meaning": "going",
+    "word2_meaning": "world (object)",
+    "combined_meaning": "going to the world",
     "rule": "न् + ल् → anusvāra + ल्",
     "explanation": "The न् assimilates to the ल् but its nasality survives as the anusvāra written before it.",
     "source": "exercise sheet"
@@ -1278,6 +1515,9 @@
     "combined": [
       { "iast": "ṣaḍvastu", "devanagari": "षड्वस्तु" }
     ],
+    "word1_meaning": "six",
+    "word2_meaning": "thing, substance",
+    "combined_meaning": "six things",
     "rule": "A voiceless final becomes the voiced consonant of its own class",
     "explanation": "क् ट् त् प् become ग् ड् द् ब् before a vowel or any voiced consonant. This is the general rule; rules 2-5 override it at particular junctions.",
     "source": "exercise sheet"
@@ -1294,6 +1534,9 @@
     "combined": [
       { "iast": "cicchakti", "devanagari": "चिच्छक्ति" }
     ],
+    "word1_meaning": "consciousness",
+    "word2_meaning": "power",
+    "combined_meaning": "the power of consciousness",
     "rule": "त् + श् → च्छ्",
     "explanation": "Two changes at once: the त् becomes the palatal च्, and the following श् hardens to छ्.",
     "source": "exercise sheet"
@@ -1310,6 +1553,9 @@
     "combined": [
       { "iast": "sarvāṃstyaktvā", "devanagari": "सर्वांस्त्यक्त्वा" }
     ],
+    "word1_meaning": "all (object)",
+    "word2_meaning": "having abandoned",
+    "combined_meaning": "having abandoned all",
     "rule": "न् becomes anusvāra + the corresponding sibilant before a voiceless palatal, cerebral or dental",
     "explanation": "A sibilant is inserted at the place of the following sound — श् before च् छ्, ष् before ट् ठ्, स् before त् थ् — and the न् becomes anusvāra before it.",
     "source": "exercise sheet"

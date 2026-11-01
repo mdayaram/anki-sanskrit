@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../vowel_sandhi_deck"
 
 module Generators
@@ -15,6 +16,7 @@ module Generators
   #   Front: the two parts in Devanagari, space-separated (देव इन्द्र)
   #   Back:  the combined Devanagari, the IAST (deva + indra → devendra),
   #          which sandhi fired, a brief rule explanation, and the CONTEXT.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   #
   # Context matters because the front shows two pieces, and how vowels behave at a
@@ -49,6 +51,7 @@ module Generators
       front   = "<center>#{'<big>' * 3}#{entry['word1_devanagari']} #{entry['word2_devanagari']}#{'</big>' * 3}</center>"
       back    = "<center>#{'<big>' * 2}<b>#{entry['combined_devanagari']}</b>#{'</big>' * 2}" \
                 "<br><big>#{entry['word1_iast']} + #{entry['word2_iast']} → #{entry['combined_iast']}</big>" \
+                "#{SandhiMeanings.html(entry, entry['combined_iast'])}" \
                 "<br><br><b>#{entry['sandhi_name']} sandhi (#{entry['sandhi_devanagari']})</b>" \
                 "<br>#{entry['explanation']}" \
                 "<br><small>(sandhi #{context})</small></center>"

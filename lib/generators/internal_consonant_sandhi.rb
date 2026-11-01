@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "base"
+require_relative "../sandhi_meanings"
 require_relative "../internal_consonant_sandhi_deck"
 
 module Generators
@@ -19,6 +20,7 @@ module Generators
   #          for ṇatva an `analysis` line naming the trigger, what the न् is
   #          followed by, and what intervened — the three conditions the rule
   #          turns on, made visible per card.
+  # Word meanings (lib/sandhi_meanings.rb) sit under the IAST line.
   # No audio.
   class InternalConsonantSandhi < Base
     KEY         = "internal-consonant-sandhi"
@@ -44,6 +46,7 @@ module Generators
 
       back = "<center>#{'<big>' * 2}#{combined_dev}#{'</big>' * 2}" \
              "<br><big>#{inputs} → #{combined_iast}</big>" \
+             "#{SandhiMeanings.html(entry, combined.first['iast'])}" \
              "<br><br><b>#{entry['rule']}</b>" \
              "<br>#{entry['explanation']}"
       # The ṇatva rule turns on three separate conditions, so each card spells out

@@ -8,6 +8,9 @@
     "word1_devanagari": "देव",
     "word2_devanagari": "आलय",
     "combined_devanagari": "देवालय",
+    "word1_meaning": "god",
+    "word2_meaning": "abode, dwelling",
+    "combined_meaning": "temple (abode of a god)",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -21,6 +24,9 @@
     "word1_devanagari": "विद्या",
     "word2_devanagari": "अर्थ",
     "combined_devanagari": "विद्यार्थ",
+    "word1_meaning": "knowledge, learning",
+    "word2_meaning": "purpose, sake",
+    "combined_meaning": "the pursuit of knowledge",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -34,6 +40,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "आत्मन्",
     "combined_devanagari": "महात्मन्",
+    "word1_meaning": "great (compound form of mahat)",
+    "word2_meaning": "self, soul",
+    "combined_meaning": "great soul; a noble-minded person",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -47,6 +56,9 @@
     "word1_devanagari": "धर्म",
     "word2_devanagari": "अर्थ",
     "combined_devanagari": "धर्मार्थ",
+    "word1_meaning": "righteousness, duty",
+    "word2_meaning": "wealth, prosperity",
+    "combined_meaning": "dharma and artha (duty and prosperity)",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -60,6 +72,9 @@
     "word1_devanagari": "रवि",
     "word2_devanagari": "इन्द्र",
     "combined_devanagari": "रवीन्द्र",
+    "word1_meaning": "the sun",
+    "word2_meaning": "Indra; chief, lord",
+    "combined_meaning": "lord among suns; a proper name (Rabindra)",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -73,6 +88,9 @@
     "word1_devanagari": "कवि",
     "word2_devanagari": "ईश्वर",
     "combined_devanagari": "कवीश्वर",
+    "word1_meaning": "poet, sage",
+    "word2_meaning": "lord",
+    "combined_meaning": "lord of poets; a great poet",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -86,6 +104,9 @@
     "word1_devanagari": "गुरु",
     "word2_devanagari": "उपदेश",
     "combined_devanagari": "गुरूपदेश",
+    "word1_meaning": "teacher",
+    "word2_meaning": "instruction, teaching",
+    "combined_meaning": "the teacher's instruction",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -99,6 +120,9 @@
     "word1_devanagari": "वधू",
     "word2_devanagari": "उत्सव",
     "combined_devanagari": "वधूत्सव",
+    "word1_meaning": "bride",
+    "word2_meaning": "festival",
+    "combined_meaning": "wedding festivities",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -112,6 +136,9 @@
     "word1_devanagari": "देव",
     "word2_devanagari": "इन्द्र",
     "combined_devanagari": "देवेन्द्र",
+    "word1_meaning": "god",
+    "word2_meaning": "Indra; chief, lord",
+    "combined_meaning": "Indra, lord of the gods",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -125,6 +152,9 @@
     "word1_devanagari": "गण",
     "word2_devanagari": "ईश",
     "combined_devanagari": "गणेश",
+    "word1_meaning": "troop, host (Śiva's attendants)",
+    "word2_meaning": "lord",
+    "combined_meaning": "Gaṇeśa, lord of the gaṇas",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -138,6 +168,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "इन्द्र",
     "combined_devanagari": "महेन्द्र",
+    "word1_meaning": "great",
+    "word2_meaning": "Indra; chief, lord",
+    "combined_meaning": "the great Indra",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -151,6 +184,9 @@
     "word1_devanagari": "सूर्य",
     "word2_devanagari": "उदय",
     "combined_devanagari": "सूर्योदय",
+    "word1_meaning": "the sun",
+    "word2_meaning": "rising",
+    "combined_meaning": "sunrise",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -164,6 +200,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "उत्सव",
     "combined_devanagari": "महोत्सव",
+    "word1_meaning": "great",
+    "word2_meaning": "festival",
+    "combined_meaning": "great festival",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -177,6 +216,9 @@
     "word1_devanagari": "हित",
     "word2_devanagari": "उपदेश",
     "combined_devanagari": "हितोपदेश",
+    "word1_meaning": "good, beneficial",
+    "word2_meaning": "advice, instruction",
+    "combined_meaning": "beneficial advice (title of the fable collection)",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -190,6 +232,9 @@
     "word1_devanagari": "देव",
     "word2_devanagari": "ऋषि",
     "combined_devanagari": "देवर्षि",
+    "word1_meaning": "god",
+    "word2_meaning": "seer, sage",
+    "combined_meaning": "divine sage (e.g. Nārada)",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -203,6 +248,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "ऋषि",
     "combined_devanagari": "महर्षि",
+    "word1_meaning": "great",
+    "word2_meaning": "seer, sage",
+    "combined_meaning": "great sage",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -216,6 +264,9 @@
     "word1_devanagari": "एक",
     "word2_devanagari": "एक",
     "combined_devanagari": "एकैक",
+    "word1_meaning": "one",
+    "word2_meaning": "one",
+    "combined_meaning": "one by one, each singly",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -229,6 +280,9 @@
     "word1_devanagari": "सदा",
     "word2_devanagari": "एव",
     "combined_devanagari": "सदैव",
+    "word1_meaning": "always",
+    "word2_meaning": "indeed, only",
+    "combined_meaning": "always indeed, forever",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -242,6 +296,9 @@
     "word1_devanagari": "तथा",
     "word2_devanagari": "एव",
     "combined_devanagari": "तथैव",
+    "word1_meaning": "so, thus",
+    "word2_meaning": "indeed, only",
+    "combined_meaning": "just so, in the same way",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -255,6 +312,9 @@
     "word1_devanagari": "न",
     "word2_devanagari": "एव",
     "combined_devanagari": "नैव",
+    "word1_meaning": "not",
+    "word2_meaning": "indeed, only",
+    "combined_meaning": "not at all, certainly not",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -268,6 +328,9 @@
     "word1_devanagari": "जल",
     "word2_devanagari": "ओघ",
     "combined_devanagari": "जलौघ",
+    "word1_meaning": "water",
+    "word2_meaning": "flood, stream",
+    "combined_meaning": "a flood of water",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -281,6 +344,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "ओषधि",
     "combined_devanagari": "महौषधि",
+    "word1_meaning": "great",
+    "word2_meaning": "medicinal herb",
+    "combined_meaning": "great medicinal herb, sovereign remedy",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -294,6 +360,9 @@
     "word1_devanagari": "च",
     "word2_devanagari": "एव",
     "combined_devanagari": "चैव",
+    "word1_meaning": "and",
+    "word2_meaning": "indeed, only",
+    "combined_meaning": "and also, and indeed",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -307,6 +376,9 @@
     "word1_devanagari": "बिम्ब",
     "word2_devanagari": "ओष्ठ",
     "combined_devanagari": "बिम्बौष्ठ",
+    "word1_meaning": "the bimba (a red gourd)",
+    "word2_meaning": "lip",
+    "combined_meaning": "having lips red as the bimba fruit",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -320,6 +392,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "ऐश्वर्य",
     "combined_devanagari": "महैश्वर्य",
+    "word1_meaning": "great",
+    "word2_meaning": "sovereignty, lordship",
+    "combined_meaning": "great sovereignty, majesty",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -333,6 +408,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "औदार्य",
     "combined_devanagari": "महौदार्य",
+    "word1_meaning": "great",
+    "word2_meaning": "generosity, nobility",
+    "combined_meaning": "great generosity",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -346,6 +424,9 @@
     "word1_devanagari": "प्रति",
     "word2_devanagari": "अक्ष",
     "combined_devanagari": "प्रत्यक्ष",
+    "word1_meaning": "toward, before (prefix)",
+    "word2_meaning": "eye",
+    "combined_meaning": "before the eyes; directly perceptible, perception",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -359,6 +440,9 @@
     "word1_devanagari": "इति",
     "word2_devanagari": "आदि",
     "combined_devanagari": "इत्यादि",
+    "word1_meaning": "thus",
+    "word2_meaning": "beginning; and so on",
+    "combined_meaning": "and so on, et cetera",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -372,6 +456,9 @@
     "word1_devanagari": "प्रति",
     "word2_devanagari": "एक",
     "combined_devanagari": "प्रत्येक",
+    "word1_meaning": "each, toward (prefix)",
+    "word2_meaning": "one",
+    "combined_meaning": "each one, every single",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -385,6 +472,9 @@
     "word1_devanagari": "सु",
     "word2_devanagari": "अल्प",
     "combined_devanagari": "स्वल्प",
+    "word1_meaning": "well, very (prefix)",
+    "word2_meaning": "small, little",
+    "combined_meaning": "very small, very little",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -398,6 +488,9 @@
     "word1_devanagari": "सु",
     "word2_devanagari": "आगत",
     "combined_devanagari": "स्वागत",
+    "word1_meaning": "well (prefix)",
+    "word2_meaning": "come, arrived",
+    "combined_meaning": "welcome (lit. well come)",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -411,6 +504,9 @@
     "word1_devanagari": "अनु",
     "word2_devanagari": "अय",
     "combined_devanagari": "अन्वय",
+    "word1_meaning": "after, along (prefix)",
+    "word2_meaning": "going",
+    "combined_meaning": "following along; connection, lineage; prose word order",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -424,6 +520,9 @@
     "word1_devanagari": "ननु",
     "word2_devanagari": "एव",
     "combined_devanagari": "नन्वेव",
+    "word1_meaning": "surely, is it not?",
+    "word2_meaning": "indeed, only",
+    "combined_meaning": "surely indeed",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -437,6 +536,9 @@
     "word1_devanagari": "मधु",
     "word2_devanagari": "इव",
     "combined_devanagari": "मध्विव",
+    "word1_meaning": "honey",
+    "word2_meaning": "like, as if",
+    "combined_meaning": "like honey",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -450,6 +552,9 @@
     "word1_devanagari": "पितृ",
     "word2_devanagari": "अर्थ",
     "combined_devanagari": "पित्रर्थ",
+    "word1_meaning": "father; (pl.) ancestors",
+    "word2_meaning": "purpose, sake",
+    "combined_meaning": "for the sake of the father or ancestors",
     "sandhi_name": "Yaṇ",
     "sandhi_devanagari": "यण्",
     "explanation": "i/ī, u/ū, ṛ/ṝ before a dissimilar vowel become the semivowels y, v, r respectively (the second vowel is kept)."
@@ -463,6 +568,9 @@
     "word1_devanagari": "ने",
     "word2_devanagari": "अन",
     "combined_devanagari": "नयन",
+    "word1_meaning": "guṇa form of nī 'to lead'",
+    "word2_meaning": "action-noun suffix",
+    "combined_meaning": "leading; the eye (that which leads)",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -476,6 +584,9 @@
     "word1_devanagari": "गै",
     "word2_devanagari": "अक",
     "combined_devanagari": "गायक",
+    "word1_meaning": "root gai 'to sing'",
+    "word2_meaning": "agent suffix",
+    "combined_meaning": "singer",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -489,6 +600,9 @@
     "word1_devanagari": "भो",
     "word2_devanagari": "अन",
     "combined_devanagari": "भवन",
+    "word1_meaning": "guṇa form of bhū 'to be, become'",
+    "word2_meaning": "action-noun suffix",
+    "combined_meaning": "dwelling, house; coming into being",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -502,6 +616,9 @@
     "word1_devanagari": "नौ",
     "word2_devanagari": "इक",
     "combined_devanagari": "नाविक",
+    "word1_meaning": "boat",
+    "word2_meaning": "suffix 'relating to'",
+    "combined_meaning": "sailor, boatman",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -515,6 +632,9 @@
     "word1_devanagari": "शे",
     "word2_devanagari": "अन",
     "combined_devanagari": "शयन",
+    "word1_meaning": "guṇa form of śī 'to lie down'",
+    "word2_meaning": "action-noun suffix",
+    "combined_meaning": "bed; lying down",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -528,6 +648,9 @@
     "word1_devanagari": "नै",
     "word2_devanagari": "अक",
     "combined_devanagari": "नायक",
+    "word1_meaning": "vṛddhi form of nī 'to lead'",
+    "word2_meaning": "agent suffix",
+    "combined_meaning": "leader, hero",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -541,6 +664,9 @@
     "word1_devanagari": "पो",
     "word2_devanagari": "अन",
     "combined_devanagari": "पवन",
+    "word1_meaning": "guṇa form of pū 'to purify'",
+    "word2_meaning": "action-noun suffix",
+    "combined_meaning": "wind (the purifier); purifying",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -554,6 +680,9 @@
     "word1_devanagari": "पौ",
     "word2_devanagari": "अक",
     "combined_devanagari": "पावक",
+    "word1_meaning": "vṛddhi form of pū 'to purify'",
+    "word2_meaning": "agent suffix",
+    "combined_meaning": "fire (the purifier)",
     "sandhi_name": "Ayādi",
     "sandhi_devanagari": "अयादि",
     "explanation": "A compound vowel before another vowel becomes ay/āy/av/āv (e→ay, ai→āy, o→av, au→āv)."
@@ -567,6 +696,9 @@
     "word1_devanagari": "एक",
     "word2_devanagari": "एव",
     "combined_devanagari": "एकैव",
+    "word1_meaning": "one",
+    "word2_meaning": "indeed, only",
+    "combined_meaning": "just one, only one",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -580,6 +712,9 @@
     "word1_devanagari": "तथा",
     "word2_devanagari": "अपि",
     "combined_devanagari": "तथापि",
+    "word1_meaning": "so, thus",
+    "word2_meaning": "also, even",
+    "combined_meaning": "even so, nevertheless",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -593,6 +728,9 @@
     "word1_devanagari": "सा",
     "word2_devanagari": "उवाच",
     "combined_devanagari": "सोवाच",
+    "word1_meaning": "she",
+    "word2_meaning": "said",
+    "combined_meaning": "she said",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -606,6 +744,9 @@
     "word1_devanagari": "देव",
     "word2_devanagari": "ईश",
     "combined_devanagari": "देवेश",
+    "word1_meaning": "god",
+    "word2_meaning": "lord",
+    "combined_meaning": "lord of the gods",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -619,6 +760,9 @@
     "word1_devanagari": "सह",
     "word2_devanagari": "उदक",
     "combined_devanagari": "सहोदक",
+    "word1_meaning": "with, together",
+    "word2_meaning": "water",
+    "combined_meaning": "together with water; a kinsman who shares the water-offering to the ancestors",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -632,6 +776,9 @@
     "word1_devanagari": "सीता",
     "word2_devanagari": "इव",
     "combined_devanagari": "सीतेव",
+    "word1_meaning": "Sītā",
+    "word2_meaning": "like, as if",
+    "combined_meaning": "like Sītā",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -645,6 +792,9 @@
     "word1_devanagari": "अस्ति",
     "word2_devanagari": "इति",
     "combined_devanagari": "अस्तीति",
+    "word1_meaning": "is, exists",
+    "word2_meaning": "thus (marks a quotation)",
+    "combined_meaning": "'it is' — thus",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -658,6 +808,9 @@
     "word1_devanagari": "च",
     "word2_devanagari": "एतत्",
     "combined_devanagari": "चैतत्",
+    "word1_meaning": "and",
+    "word2_meaning": "this",
+    "combined_meaning": "and this",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -671,6 +824,9 @@
     "word1_devanagari": "न",
     "word2_devanagari": "इति",
     "combined_devanagari": "नेति",
+    "word1_meaning": "not",
+    "word2_meaning": "thus (marks a quotation)",
+    "combined_meaning": "'not' — thus (as in neti neti, 'not this, not this')",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -684,6 +840,9 @@
     "word1_devanagari": "च",
     "word2_devanagari": "ऊर्ध्वम्",
     "combined_devanagari": "चोर्ध्वम्",
+    "word1_meaning": "and",
+    "word2_meaning": "above, upward",
+    "combined_meaning": "and above",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -697,6 +856,9 @@
     "word1_devanagari": "कर्तृ",
     "word2_devanagari": "ऋषि",
     "combined_devanagari": "कर्तॄषि",
+    "word1_meaning": "doer, maker",
+    "word2_meaning": "seer, sage",
+    "combined_meaning": "the sage who is the maker (a textbook ṛ + ṛ compound)",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -710,6 +872,9 @@
     "word1_devanagari": "अव",
     "word2_devanagari": "ऋतु",
     "combined_devanagari": "अवर्तु",
+    "word1_meaning": "down, away (prefix)",
+    "word2_meaning": "season",
+    "combined_meaning": "a grammarians' example of a + ṛ, not a common word",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -723,6 +888,9 @@
     "word1_devanagari": "ता",
     "word2_devanagari": "ऐक्षत",
     "combined_devanagari": "तैक्षत",
+    "word1_meaning": "they, those (fem.)",
+    "word2_meaning": "looked, reflected (imperfect of īkṣ)",
+    "combined_meaning": "they (fem.) reflected",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -736,6 +904,9 @@
     "word1_devanagari": "सत्त्व",
     "word2_devanagari": "ओजस्",
     "combined_devanagari": "सत्त्वौजस्",
+    "word1_meaning": "goodness, purity; strength",
+    "word2_meaning": "vigour, vitality",
+    "combined_meaning": "the vigour of sattva",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -749,6 +920,9 @@
     "word1_devanagari": "बाला",
     "word2_devanagari": "आदि",
     "combined_devanagari": "बालादि",
+    "word1_meaning": "girl",
+    "word2_meaning": "beginning; and so on",
+    "combined_meaning": "the girl and the others",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -762,6 +936,9 @@
     "word1_devanagari": "अनु",
     "word2_devanagari": "उपम",
     "combined_devanagari": "अनूपम",
+    "word1_meaning": "after, along (prefix)",
+    "word2_meaning": "highest; comparison",
+    "combined_meaning": "as printed on the exercise sheet (not to be confused with anupama 'incomparable', from an- + upama)",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -775,6 +952,9 @@
     "word1_devanagari": "त्रिपुर",
     "word2_devanagari": "अरिः",
     "combined_devanagari": "त्रिपुरारिः",
+    "word1_meaning": "the three cities (of the asuras)",
+    "word2_meaning": "enemy",
+    "combined_meaning": "enemy of Tripura: Śiva",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -788,6 +968,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "आलयः",
     "combined_devanagari": "महालयः",
+    "word1_meaning": "great",
+    "word2_meaning": "abode, dwelling",
+    "combined_meaning": "great abode; Mahālaya (the fortnight of rites for the ancestors)",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -801,6 +984,9 @@
     "word1_devanagari": "अभि",
     "word2_devanagari": "इष्टम्",
     "combined_devanagari": "अभीष्टम्",
+    "word1_meaning": "toward (prefix)",
+    "word2_meaning": "desired, wished for",
+    "combined_meaning": "desired; a wish",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -814,6 +1000,9 @@
     "word1_devanagari": "प्रति",
     "word2_devanagari": "ईक्षणम्",
     "combined_devanagari": "प्रतीक्षणम्",
+    "word1_meaning": "toward (prefix)",
+    "word2_meaning": "seeing, looking",
+    "combined_meaning": "looking forward to, waiting for",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -827,6 +1016,9 @@
     "word1_devanagari": "भानु",
     "word2_devanagari": "उदयः",
     "combined_devanagari": "भानूदयः",
+    "word1_meaning": "the sun; light",
+    "word2_meaning": "rising",
+    "combined_meaning": "sunrise",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -840,6 +1032,9 @@
     "word1_devanagari": "पितृ",
     "word2_devanagari": "ऋणम्",
     "combined_devanagari": "पितॄणम्",
+    "word1_meaning": "father; (pl.) ancestors",
+    "word2_meaning": "debt",
+    "combined_meaning": "the debt owed to the ancestors",
     "sandhi_name": "Savarṇa-dīrgha",
     "sandhi_devanagari": "सवर्णदीर्घ",
     "explanation": "Two like simple vowels coalesce into the corresponding long vowel (a+a→ā, i+i→ī, u+u→ū, ṛ+ṛ→ṝ)."
@@ -853,6 +1048,9 @@
     "word1_devanagari": "गण",
     "word2_devanagari": "ईशः",
     "combined_devanagari": "गणेशः",
+    "word1_meaning": "troop, host (Śiva's attendants)",
+    "word2_meaning": "lord",
+    "combined_meaning": "Gaṇeśa, lord of the gaṇas",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -866,6 +1064,9 @@
     "word1_devanagari": "यथा",
     "word2_devanagari": "इति",
     "combined_devanagari": "यथेति",
+    "word1_meaning": "as, in which way",
+    "word2_meaning": "thus (marks a quotation)",
+    "combined_meaning": "'as' — thus",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -879,6 +1080,9 @@
     "word1_devanagari": "उभा",
     "word2_devanagari": "ईशः",
     "combined_devanagari": "उभेशः",
+    "word1_meaning": "both (dual)",
+    "word2_meaning": "lord",
+    "combined_meaning": "lord of both (as printed on the exercise sheet; cf. umeśa 'lord of Umā', Śiva)",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -892,6 +1096,9 @@
     "word1_devanagari": "हित",
     "word2_devanagari": "उपदेशः",
     "combined_devanagari": "हितोपदेशः",
+    "word1_meaning": "good, beneficial",
+    "word2_meaning": "advice, instruction",
+    "combined_meaning": "beneficial advice (title of the fable collection)",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -905,6 +1112,9 @@
     "word1_devanagari": "एक",
     "word2_devanagari": "ऊनविंशतिः",
     "combined_devanagari": "एकोनविंशतिः",
+    "word1_meaning": "one",
+    "word2_meaning": "twenty less (ūna 'lacking' + viṃśati 'twenty')",
+    "combined_meaning": "nineteen (twenty less one)",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -918,6 +1128,9 @@
     "word1_devanagari": "गङ्गा",
     "word2_devanagari": "उत्तरम्",
     "combined_devanagari": "गङ्गोत्तरम्",
+    "word1_meaning": "the Ganges",
+    "word2_meaning": "north; the far side",
+    "combined_meaning": "north of the Ganges",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -931,6 +1144,9 @@
     "word1_devanagari": "शुभ्र",
     "word2_devanagari": "ऋषिः",
     "combined_devanagari": "शुभ्रर्षिः",
+    "word1_meaning": "bright, white",
+    "word2_meaning": "seer, sage",
+    "combined_meaning": "a radiant sage",
     "sandhi_name": "Guṇa",
     "sandhi_devanagari": "गुण",
     "explanation": "a/ā followed by a dissimilar simple vowel becomes the guṇa vowel: +i/ī→e, +u/ū→o, +ṛ/ṝ→ar."
@@ -944,6 +1160,9 @@
     "word1_devanagari": "जन",
     "word2_devanagari": "एकता",
     "combined_devanagari": "जनैकता",
+    "word1_meaning": "people",
+    "word2_meaning": "unity, oneness",
+    "combined_meaning": "unity of the people",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -957,6 +1176,9 @@
     "word1_devanagari": "महा",
     "word2_devanagari": "ऐश्वर्यम्",
     "combined_devanagari": "महैश्वर्यम्",
+    "word1_meaning": "great",
+    "word2_meaning": "sovereignty, lordship",
+    "combined_meaning": "great sovereignty, majesty",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -970,6 +1192,9 @@
     "word1_devanagari": "जल",
     "word2_devanagari": "ओघः",
     "combined_devanagari": "जलौघः",
+    "word1_meaning": "water",
+    "word2_meaning": "flood, stream",
+    "combined_meaning": "a flood of water",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -983,6 +1208,9 @@
     "word1_devanagari": "सुखस्य",
     "word2_devanagari": "औपयिकम्",
     "combined_devanagari": "सुखस्यौपयिकम्",
+    "word1_meaning": "of happiness",
+    "word2_meaning": "means, expedient",
+    "combined_meaning": "a means to happiness",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -996,6 +1224,9 @@
     "word1_devanagari": "अव",
     "word2_devanagari": "एति",
     "combined_devanagari": "अवैति",
+    "word1_meaning": "down (prefix)",
+    "word2_meaning": "goes",
+    "combined_meaning": "understands, knows (lit. goes down into)",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
@@ -1009,6 +1240,9 @@
     "word1_devanagari": "प्र",
     "word2_devanagari": "एधते",
     "combined_devanagari": "प्रैधते",
+    "word1_meaning": "forth (prefix)",
+    "word2_meaning": "grows, prospers",
+    "combined_meaning": "grows forth, flourishes",
     "sandhi_name": "Vṛddhi",
     "sandhi_devanagari": "वृद्धि",
     "explanation": "a/ā followed by a compound vowel becomes the vṛddhi vowel: +e→ai, +o→au."
