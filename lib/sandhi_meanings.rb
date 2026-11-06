@@ -7,9 +7,11 @@
 # two free words it is a translation of the phrase; for a stem + ending it names
 # the grammatical function (an affix has no dictionary meaning of its own).
 #
-#   forward: deva “god” + ālaya “abode, dwelling”
-#            → devālaya “temple (abode of a god)”
-#   split:   the same, reversed — the whole first, then its parts.
+#   deva “god” + ālaya “abode, dwelling”
+#   → devālaya “temple (abode of a god)”
+#
+# Every deck — forward and splitting alike — shows the parts first, then the
+# whole, so the gloss always reads the same way regardless of the prompt.
 #
 # Curly quotes, not ASCII ones: the decks are tab-separated and a field opening
 # with `"` would be read as a quoted field by Anki's importer.
@@ -20,12 +22,11 @@ module SandhiMeanings
 
   # `combined_iast` is passed in because the decks store it differently (a single
   # string in the vowel deck, the primary form of a `combined` list elsewhere).
-  def html(entry, combined_iast, split: false)
+  def html(entry, combined_iast)
     parts = "#{gloss(entry['word1_iast'], entry['word1_meaning'])} + " \
             "#{gloss(entry['word2_iast'], entry['word2_meaning'])}"
     whole = gloss(combined_iast, entry["combined_meaning"])
-    body  = split ? "#{whole}<br>→ #{parts}" : "#{parts}<br>→ #{whole}"
-    "<br><br><small>#{body}</small>"
+    "<br><br><small>#{parts}<br>→ #{whole}</small>"
   end
 
   def gloss(iast, meaning) = "<i>#{iast}</i> “#{meaning}”"

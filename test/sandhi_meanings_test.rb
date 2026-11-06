@@ -50,19 +50,14 @@ class SandhiMeaningsTest < Minitest::Test
                  "<br>→ <i>devālaya</i> “temple”</small>", html
   end
 
-  def test_split_gloss_reads_whole_then_parts
-    entry = { "word1_iast" => "deva", "word1_meaning" => "god",
-              "word2_iast" => "ālaya", "word2_meaning" => "abode",
-              "combined_meaning" => "temple" }
-    html = SandhiMeanings.html(entry, "devālaya", split: true)
-    assert_match(/<i>devālaya<\/i> “temple”<br>→ <i>deva<\/i>/, html)
-  end
-
   def test_every_generator_renders_the_meanings_on_the_back
     GENERATORS.each do |klass|
       gen = klass.new([], {})
       gen.build.each do |entry|
         _key, front, back = gen.card(entry)
+        # Same order in every deck, forward or splitting: parts, then the whole.
+        assert_operator back.index("“#{entry['word2_meaning']}”"), :<,
+                        back.index("“#{entry['combined_meaning']}”"), "#{klass}: parts must precede the whole"
         %w[word1_meaning word2_meaning combined_meaning].each do |field|
           assert_includes back, "“#{entry[field]}”", "#{klass}: #{entry['word1_iast']} #{field}"
           # The front is the prompt — the meanings would give the answer away.

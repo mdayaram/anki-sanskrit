@@ -44,7 +44,7 @@ module Generators
 
       back = +"<center>#{'<big>' * 2}<b>#{entry['word1_devanagari']} + #{entry['word2_devanagari']}</b>#{'</big>' * 2}" \
               "<br><big>#{primary['iast']} → #{entry['word1_iast']} + #{entry['word2_iast']}</big>" \
-              "#{SandhiMeanings.html(entry, primary['iast'], split: true)}" \
+              "#{SandhiMeanings.html(entry, primary['iast'])}" \
               "<br><br><b>#{entry['rule']}</b>" \
               "<br>#{entry['explanation']}"
       back << "<br><br><small>#{entry['analysis']}</small>" if entry["analysis"]
