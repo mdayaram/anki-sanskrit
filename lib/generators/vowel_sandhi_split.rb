@@ -37,7 +37,7 @@ module Generators
       front   = "<center>#{'<big>' * 3}#{entry['combined_devanagari']}#{'</big>' * 3}</center>"
       back    = "<center>#{'<big>' * 2}<b>#{entry['word1_devanagari']} + #{entry['word2_devanagari']}</b>#{'</big>' * 2}" \
                 "<br><big>#{entry['combined_iast']} → #{entry['word1_iast']} + #{entry['word2_iast']}</big>" \
-                "#{SandhiMeanings.html(entry, entry['combined_iast'], split: true)}" \
+                "#{SandhiMeanings.html(entry, entry['combined_iast'])}" \
                 "<br><br><b>#{entry['sandhi_name']} sandhi (#{entry['sandhi_devanagari']})</b>" \
                 "<br>#{entry['explanation']}" \
                 "<br><small>(sandhi #{context})</small></center>"

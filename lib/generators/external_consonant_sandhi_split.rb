@@ -59,7 +59,7 @@ module Generators
         back << "<br><small>(also accepted: #{alternates.map { |a| a['devanagari'] }.join(' / ')})</small>"
       end
 
-      back << SandhiMeanings.html(entry, primary["iast"], split: true)
+      back << SandhiMeanings.html(entry, primary["iast"])
 
       back << "<br><br><b>#{entry['rule']}</b>" \
               "<br>#{entry['explanation']}</center>"
