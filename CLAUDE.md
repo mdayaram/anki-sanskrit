@@ -229,6 +229,29 @@ A deck (`🕉️ Sanskrit Numbers`, `Anki::NUMBERS_DECK`, `--numbers`) of 126 ca
 
 **Do not copy number lists from the web without validation.** sanskritdocuments.org's 1–100 list has at least six sandhi errors (षड्नवति for षण्णवति, त्र्यस्त्रिंशत् for त्रयस्त्रिंशत्, …); `test/numbers_data_test.rb` runs every stored form through `IastDevanagari.valid_pair?` and catches exactly that class of mistake. It also checks that digits agree with their values, that the core/teens sections are complete, and that rule examples agree with the carded forms. `test/numbers_test.rb` covers rendering (neither direction's front spoils its answer).
 
+### The case-function (vibhakti) decks
+
+The start of declension, built from the Arsha Bodha Beginning Sanskrit Grammar class (taught by Vasanthiji; handouts listed at <https://arshabodha.org/teachings/sanskrit-grammar/>, recordings in the YouTube playlist "Grammar Class N"). The class teaches what each case is *for* (handout [`Vibhakti_1.pdf`](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/Vibhakti_1.pdf), "Sanskrit Case Functions") before the endings, so these decks card the functions only, with **no endings** — those come later (BasicTerminations, then one model-noun handout per class: रामः/फलम्, शाला/दासी, …).
+
+Three decks, **one per skill, nested under one parent** with Anki's `::` (`Anki::CASE_FUNCTIONS_PARENT` = `🕉️ Sanskrit Case Functions`) — the user's call to split them:
+
+| deck | constant | flag | key prefix | cards |
+|---|---|---|---|---|
+| `…::Names` | `Anki::CASE_NAMES_DECK` | `--case-names` | `case_name:{sanskrit,english}:` | 16 (8 cases × both directions) |
+| `…::Uses` | `Anki::CASE_USES_DECK` | `--case-uses` | `case_use:` | 40 (one per handout use) |
+| `…::Examples` | `Anki::CASE_EXAMPLES_DECK` | `--case-examples` | `case_example:` | 71 |
+
+`data/case_functions.json` is the **committed source of truth** (sections `cases`, `uses`, `examples`) and the three generators (`lib/generators/case_{names,uses,examples}.rb`) are pure readers over it via `CaseFunctions.load` (`lib/case_functions.rb`, which also holds the shared rendering helpers `case_label`, `bold_target`, `english_html`). No audio, no JSON intermediate, `requires_letters? == false`.
+
+- **`uses` is exactly the handout's numbered list** (1a–1e, 2a–2d, 3a–3j, 4a–4f, 5a–5e, 6a–6e, 7a–7d, 8a), asserted by the data test, so a card's "2c" is the learner's handout's 2c. Each use has a `description` (the handout's wording, shown on the back) and a `question` (the front), and the data test asserts no question names its own case — 7d originally quoted सति सप्तमी and gave the answer away. Uses with no example on the handout (3f, 3h, 4f, 5e, 6c, 6d, 7d) still get a card, just with no example on the back.
+- **Example cards put the English on the front** (target word underlined, as the handout does) next to the Devanagari (target in bold). This is deliberate: the learner can't yet read the endings, and the deck tests the *function*. Each example names its target's stem, gender and number on the back; `source` records where it came from (`handout`, `class 13`, or `Goldman reading, Lesson N`).
+- **The Rāmāyaṇa examples come from Goldman's *Devavāṇīpraveśikā* reading sections**, which is what the class reads (scans at `…/SanskritMaterial/Reading/Ramayana{1..18}-Lesson-{4..21}.pdf`; the course culminates in reading the Rāmāyaṇa). Lessons 4–7 are carded so far, including several lines of the Lesson 5 memorisation verse रामो राजमणिः सदा विजयते… (memorised in class 26). One sentence is simplified from a relative clause and its `source` says "(adapted)".
+- **Sandhi is broken** in every sentence, as on the handout (रामः वनं गच्छति), so every sentence validates under the **strict** `valid_pair?` and the target is a whole space-separated word (`bold_target` matches whole tokens; the data test asserts the target occurs exactly once in both scripts).
+- **The vocative is named, not numbered**: per Pāṇini it is the nominative used for address, so the Names card says "listed 8th, after the seven numbered cases" and carries the note. Its IAST is `sambodhanam`, not `saṃbodhanam`: `to_iast` reads the anusvāra before ब as the homorganic m.
+- Text uses curly quotes; the data test forbids ASCII `"` (a TSV field opening with one is read as quoted), tabs and markup.
+
+Validated by `test/case_functions_data_test.rb` (structure, handout numbering, every Devanagari↔IAST pair) and `test/case_functions_test.rb` (rendering; no front spoils its answer; keys unique across all three decks, since all use `#guid column:1`).
+
 ### Mantra audio is committed and trimmed by hand
 
 Unlike the Gita recitations, mantra audio **is committed** (`data/mantra_audio/`, one short clip per mantra, not gitignored) — so `Generators::Mantras` needs no `ensure_audio!` download hook, and the deck works straight from a clone. The Gita's GitHub-release tarball only exists because 640 clips / ~289 MB cannot be committed; two clips (~600 KB and ~4.5 MB) can.

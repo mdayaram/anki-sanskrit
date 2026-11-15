@@ -35,6 +35,9 @@ require_relative "lib/generators/external_consonant_sandhi_split"
 require_relative "lib/generators/internal_consonant_sandhi"
 require_relative "lib/generators/internal_consonant_sandhi_split"
 require_relative "lib/generators/numbers"
+require_relative "lib/generators/case_names"
+require_relative "lib/generators/case_uses"
+require_relative "lib/generators/case_examples"
 
 # Registry of every category, in run order. Each maps to a --<key> flag.
 GENERATORS = [
@@ -53,7 +56,10 @@ GENERATORS = [
   Generators::ExternalConsonantSandhiSplit,
   Generators::InternalConsonantSandhi,
   Generators::InternalConsonantSandhiSplit,
-  Generators::Numbers
+  Generators::Numbers,
+  Generators::CaseNames,
+  Generators::CaseUses,
+  Generators::CaseExamples
 ].freeze
 
 selected = []
