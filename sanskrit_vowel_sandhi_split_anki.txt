@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Vowel Sandhi (Splitting)
+#deck:🕉️ Sanskrit Sandhi Splitting::1. Vowel
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

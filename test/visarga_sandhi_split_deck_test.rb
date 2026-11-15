@@ -48,6 +48,6 @@ class VisargaSandhiSplitDeckTest < Minitest::Test
   end
 
   def test_targets_the_split_deck
-    assert_equal "🕉️ Sanskrit Visarga Sandhi (Splitting)", gen.deck
+    assert_equal "🕉️ Sanskrit Sandhi Splitting::2. Visarga", gen.deck
   end
 end

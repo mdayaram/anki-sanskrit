@@ -28,4 +28,23 @@ class AnkiTest < Minitest::Test
     assert_equal 1, rows.size
     assert_includes rows.first, "line1 line2"
   end
+
+  # The sandhi decks nest under two parents (joining, splitting) holding the same
+  # four families, numbered so Anki's alphabetical sort gives the learning order.
+  def test_sandhi_decks_nest_under_joining_and_splitting_parents
+    joining = [Anki::VOWEL_SANDHI_DECK, Anki::VISARGA_SANDHI_DECK,
+               Anki::EXTERNAL_CONSONANT_SANDHI_DECK, Anki::INTERNAL_CONSONANT_SANDHI_DECK]
+    splitting = [Anki::VOWEL_SANDHI_SPLIT_DECK, Anki::VISARGA_SANDHI_SPLIT_DECK,
+                 Anki::EXTERNAL_CONSONANT_SANDHI_SPLIT_DECK, Anki::INTERNAL_CONSONANT_SANDHI_SPLIT_DECK]
+    families = ["1. Vowel", "2. Visarga", "3. External Consonant", "4. Internal Consonant"]
+
+    assert_equal families.map { |f| "#{Anki::SANDHI_JOINING_PARENT}::#{f}" }, joining
+    assert_equal families.map { |f| "#{Anki::SANDHI_SPLITTING_PARENT}::#{f}" }, splitting
+    assert_equal joining.sort, joining, "joining subdecks sort in learning order"
+  end
+
+  def test_case_function_subdecks_sort_in_learning_order
+    decks = [Anki::CASE_NAMES_DECK, Anki::CASE_USES_DECK, Anki::CASE_EXAMPLES_DECK]
+    assert_equal decks.sort, decks
+  end
 end

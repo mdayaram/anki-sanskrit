@@ -32,6 +32,6 @@ class VowelSandhiSplitDeckTest < Minitest::Test
   end
 
   def test_targets_the_split_deck
-    assert_equal "🕉️ Sanskrit Vowel Sandhi (Splitting)", gen.deck
+    assert_equal "🕉️ Sanskrit Sandhi Splitting::1. Vowel", gen.deck
   end
 end

@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Visarga Sandhi (Splitting)
+#deck:🕉️ Sanskrit Sandhi Splitting::2. Visarga
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

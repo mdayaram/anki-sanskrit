@@ -18,40 +18,33 @@ module Anki
   # The Vedanta glossary word deck (a separate deck).
   VEDANTA_DECK = "🕉️ Vedanta Glossary"
 
-  # The vowel (svara) sandhi deck. One of the three sandhi families; visarga and
-  # consonant (vyañjana) sandhi each have their own decks below.
-  VOWEL_SANDHI_DECK = "🕉️ Sanskrit Vowel Sandhi"
+  # The eight sandhi decks, nested with Anki's "::" under two parents so they
+  # collapse in the deck list: one for JOINING (two parts -> combined form) and
+  # one for SPLITTING (combined form -> its parts, vigraha). Each parent holds the
+  # same four families, numbered so Anki's alphabetical sort shows them in the
+  # order they are learned: vowel (svara), visarga, then consonant (vyañjana)
+  # sandhi split the way its Arsha Bodha handout splits it — external (between
+  # two words) and internal (within one word: ṣatva/ṇatva).
+  #
+  # Joining and splitting are separate decks, not one "Basic (and reversed)"
+  # note type, because the joining card's back is a rich teaching panel that
+  # would spoil the prompt on a native reverse.
+  SANDHI_JOINING_PARENT   = "🕉️ Sanskrit Sandhi Joining"
+  SANDHI_SPLITTING_PARENT = "🕉️ Sanskrit Sandhi Splitting"
 
-  # The visarga sandhi deck — the second sandhi family carded (final ḥ + next
-  # sound). Consonant (vyañjana) sandhi follows this same naming.
-  VISARGA_SANDHI_DECK = "🕉️ Sanskrit Visarga Sandhi"
+  VOWEL_SANDHI_DECK              = "#{SANDHI_JOINING_PARENT}::1. Vowel"
+  VISARGA_SANDHI_DECK            = "#{SANDHI_JOINING_PARENT}::2. Visarga"
+  EXTERNAL_CONSONANT_SANDHI_DECK = "#{SANDHI_JOINING_PARENT}::3. External Consonant"
+  INTERNAL_CONSONANT_SANDHI_DECK = "#{SANDHI_JOINING_PARENT}::4. Internal Consonant"
 
-  # The inverse of the vowel-sandhi deck: practice splitting a combined form
-  # back into its two words (vigraha). Separate deck so joining and splitting
-  # are studied independently.
-  VOWEL_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Vowel Sandhi (Splitting)"
-
-  # The inverse of the visarga-sandhi deck: practice splitting a combined form
-  # back into its two words (vigraha). Separate deck, like the vowel splitting deck.
-  VISARGA_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Visarga Sandhi (Splitting)"
+  VOWEL_SANDHI_SPLIT_DECK              = "#{SANDHI_SPLITTING_PARENT}::1. Vowel"
+  VISARGA_SANDHI_SPLIT_DECK            = "#{SANDHI_SPLITTING_PARENT}::2. Visarga"
+  EXTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "#{SANDHI_SPLITTING_PARENT}::3. External Consonant"
+  INTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "#{SANDHI_SPLITTING_PARENT}::4. Internal Consonant"
 
   # The mantra deck: whole mantras (Devanagari -> translation + recitation), the
   # only deck besides the alphabet and the Gita that carries audio.
   MANTRAS_DECK = "🕉️ Sanskrit Mantras"
-
-  # Consonant (vyañjana) sandhi, the third and last sandhi family — split into the
-  # two halves the Arsha Bodha handout that sources these decks uses. External is
-  # the junction between two words; internal is within a single word (ṣatva/ṇatva).
-  # Named in parallel, and WITHOUT a parenthesis: "(...)" is reserved for the
-  # splitting variant of a deck, which is what the two below are.
-  EXTERNAL_CONSONANT_SANDHI_DECK = "🕉️ Sanskrit External Consonant Sandhi"
-  INTERNAL_CONSONANT_SANDHI_DECK = "🕉️ Sanskrit Internal Consonant Sandhi"
-
-  # The inverses of the two consonant-sandhi decks: practice splitting a combined
-  # form back into its parts (vigraha). Separate decks, like the vowel and visarga
-  # splitting decks.
-  EXTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "🕉️ Sanskrit External Consonant Sandhi (Splitting)"
-  INTERNAL_CONSONANT_SANDHI_SPLIT_DECK = "🕉️ Sanskrit Internal Consonant Sandhi (Splitting)"
 
   # The numbers deck: Devanagari digits, number words (both directions), the
   # ordinals as they appear in Gita colophons, and the compounding rules.
@@ -61,11 +54,12 @@ module Anki
   # Functions" handout: the case names, the handout's numbered uses (use -> case),
   # and example sentences (sentence -> case + use). Separate decks so each skill is
   # studied on its own, nested under one parent with Anki's "::" so they sit
-  # together. Later declension decks belong under their own parent.
+  # together, numbered in the order they are learned. Later declension decks
+  # belong under their own parent.
   CASE_FUNCTIONS_PARENT = "🕉️ Sanskrit Case Functions"
-  CASE_NAMES_DECK    = "#{CASE_FUNCTIONS_PARENT}::Names"
-  CASE_USES_DECK     = "#{CASE_FUNCTIONS_PARENT}::Uses"
-  CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::Examples"
+  CASE_NAMES_DECK    = "#{CASE_FUNCTIONS_PARENT}::1. Names"
+  CASE_USES_DECK     = "#{CASE_FUNCTIONS_PARENT}::2. Uses"
+  CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::3. Examples"
 
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)

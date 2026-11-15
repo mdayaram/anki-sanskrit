@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Internal Consonant Sandhi
+#deck:🕉️ Sanskrit Sandhi Joining::4. Internal Consonant
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

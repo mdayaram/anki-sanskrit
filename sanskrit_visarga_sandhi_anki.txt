@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Visarga Sandhi
+#deck:🕉️ Sanskrit Sandhi Joining::2. Visarga
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

@@ -64,7 +64,7 @@ class InternalConsonantSandhiSplitDeckTest < Minitest::Test
   end
 
   def test_targets_the_split_deck
-    assert_equal "🕉️ Sanskrit Internal Consonant Sandhi (Splitting)", gen.deck
+    assert_equal "🕉️ Sanskrit Sandhi Splitting::4. Internal Consonant", gen.deck
   end
 
   def test_does_not_require_letters
