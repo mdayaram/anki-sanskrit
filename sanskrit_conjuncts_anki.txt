@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Alphabet
+#deck:🕉️ Sanskrit Alphabet::4. Conjuncts
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

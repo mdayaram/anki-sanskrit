@@ -19,6 +19,8 @@ module Generators
     OUTPUT_TXT  = "sanskrit_anusvara_anki.txt"
     OUTPUT_JSON = "anusvara.json"
 
+    def deck = Anki::ALPHABET_ANUSVARA_DECK
+
     ANUSVARA = "ं"
 
     # The anusvara/visarga marks themselves. Roman uses ṁ (dot above) to match the

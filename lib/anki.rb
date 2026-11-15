@@ -2,15 +2,23 @@
 
 require "json"
 
-# Shared Anki card primitives. Every generator targets the same deck and the same
+# Shared Anki card primitives and every deck name. All generators write the same
 # tab-separated import format, so the header and field handling live here once.
 #
 # Card HTML avoids inline style="..." attributes: semicolons inside styles
 # collide with parsers that read the TSV as semicolon-separated. Use <big>,
 # <center>, <b>, <ul> instead.
 module Anki
-  # All categories merge into one deck, so importing every file builds one deck.
+  # The alphabet: one parent deck with numbered subdecks (Anki's "::"), numbered
+  # so Anki's alphabetical sort gives the learning order. The basic alphabet file
+  # holds both vowels and consonants, so it sets each row's deck in a Deck column
+  # (see write_deck); the other alphabet files each target one subdeck.
   DECK = "🕉️ Sanskrit Alphabet"
+  ALPHABET_VOWELS_DECK       = "#{DECK}::1. Vowels"
+  ALPHABET_CONSONANTS_DECK   = "#{DECK}::2. Consonants"
+  ALPHABET_COMBINATIONS_DECK = "#{DECK}::3. Combinations"
+  ALPHABET_CONJUNCTS_DECK    = "#{DECK}::4. Conjuncts"
+  ALPHABET_ANUSVARA_DECK     = "#{DECK}::5. Anusvāra"
 
   # The Bhagavad Gita verse deck (a separate deck from the alphabet).
   GITA_DECK = "🕉️ Bhagavad Gita"
@@ -68,19 +76,25 @@ module Anki
 
   # Write an Anki import file: the standard 6-line header followed by one row per
   # entry. `rows` is an array of [key, front, back]; `deck:` sets the #deck header
-  # (defaults to DECK). Tabs and newlines inside a field would break the row/column
-  # split, so both are flattened to spaces. Returns the row count.
+  # (defaults to DECK). A row may instead be [key, front, back, deck] to put that
+  # card in its own deck: then EVERY row must carry one, and the file gets a Deck
+  # column (#deck column:4) instead of a #deck header. Tabs and newlines inside a
+  # field would break the row/column split, so both are flattened to spaces.
+  # Returns the row count.
   def self.write_deck(path, rows, deck: DECK)
+    per_row = rows.any? { |row| row.size > 3 }
+    raise ArgumentError, "either every row names its deck or none does" if per_row && !rows.all? { |row| row.size == 4 }
+
     File.open(path, "w:UTF-8") do |f|
       f.puts "#separator:Tab"
       f.puts "#html:true"
-      f.puts "#deck:#{deck}"
+      f.puts per_row ? "#deck column:4" : "#deck:#{deck}"
       f.puts "#notetype:Basic"
-      f.puts "#columns:Key\tFront\tBack"
+      f.puts per_row ? "#columns:Key\tFront\tBack\tDeck" : "#columns:Key\tFront\tBack"
       f.puts "#guid column:1"
 
-      rows.each do |key, front, back|
-        f.puts [key, front, back].map { |field| field.to_s.gsub(/\t/, " ").gsub(/\r?\n/, " ") }.join("\t")
+      rows.each do |row|
+        f.puts row.map { |field| field.to_s.gsub(/\t/, " ").gsub(/\r?\n/, " ") }.join("\t")
       end
     end
     rows.size

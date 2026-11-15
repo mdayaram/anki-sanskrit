@@ -15,6 +15,8 @@ module Generators
     OUTPUT_TXT  = "sanskrit_combinations_anki.txt"
     OUTPUT_JSON = "combinations.json"
 
+    def deck = Anki::ALPHABET_COMBINATIONS_DECK
+
     # Vowels in barakhadi order. The inherent 'a' is omitted.
     VOWEL_IDS = %w[aa i ii u uu RRi RRI LLi e ai o au aM aH].freeze
 

@@ -47,4 +47,25 @@ class AnkiTest < Minitest::Test
     decks = [Anki::CASE_NAMES_DECK, Anki::CASE_USES_DECK, Anki::CASE_EXAMPLES_DECK]
     assert_equal decks.sort, decks
   end
+
+  # A row carrying a 4th element names its own deck: the file switches from a
+  # #deck header to a Deck column.
+  def test_per_row_deck_uses_a_deck_column
+    out = write([["k1", "f", "b", "A::1"], ["k2", "f", "b", "A::2"]], deck: "ignored")
+    assert_includes out, "#deck column:4"
+    assert_includes out, "#columns:Key\tFront\tBack\tDeck"
+    refute_includes out, "#deck:"
+    assert_includes out, "k2\tf\tb\tA::2"
+  end
+
+  def test_per_row_deck_must_be_on_every_row
+    assert_raises(ArgumentError) { write([["k1", "f", "b", "A::1"], ["k2", "f", "b"]]) }
+  end
+
+  def test_alphabet_subdecks_sort_in_learning_order
+    decks = [Anki::ALPHABET_VOWELS_DECK, Anki::ALPHABET_CONSONANTS_DECK, Anki::ALPHABET_COMBINATIONS_DECK,
+             Anki::ALPHABET_CONJUNCTS_DECK, Anki::ALPHABET_ANUSVARA_DECK]
+    decks.each { |d| assert d.start_with?("#{Anki::DECK}::"), d }
+    assert_equal decks.sort, decks
+  end
 end

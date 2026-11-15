@@ -15,6 +15,8 @@ module Generators
     OUTPUT_TXT  = "sanskrit_conjuncts_anki.txt"
     OUTPUT_JSON = "conjuncts.json"
 
+    def deck = Anki::ALPHABET_CONJUNCTS_DECK
+
     VIRAMA = "्"
 
     # The most common conjuncts in Classical Sanskrit, as [component_ids, frequency].
