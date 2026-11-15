@@ -14,7 +14,7 @@ into Anki right away.
 
 ## The decks
 
-There are six decks, designed to be learned in order — each one builds on the
+There are seven deck families, designed to be learned in order — each one builds on the
 last. They're independent, though, so you can generate and import any of them on
 their own.
 
@@ -78,7 +78,25 @@ consonant is not its dictionary form, the front also shows where it came from
 before any of these rules apply. A few cards are deliberate contrasts, showing a
 junction where the rule does *not* fire. No audio.
 
-### 6. 🕉️ Bhagavad Gita — read whole verses
+### 6. 🕉️ Sanskrit Case Functions — what each case does
+
+The start of declension (*vibhakti*): before learning the endings, learn what each
+of the eight cases is *for*. Three decks, nested under one parent so they sit
+together in Anki, each drilling one skill from the Arsha Bodha "Sanskrit Case
+Functions" handout:
+
+- **Names** (16 cards) — प्रथमा ↔ Nominative and so on, both directions, with each
+  case's core sense and English cue ("by, with", "from", "in, on, at").
+- **Uses** (40 cards) — one card per numbered use on the handout (1a … 8a): "the
+  object of love or devotion" → Locative. The back gives the handout's number and
+  up to two example sentences.
+- **Examples** (71 cards) — a sentence with one word in bold and its English
+  underlined → which case and which use. Sentences come from the handout, the
+  class, and the Goldman *Rāmāyaṇa* readings the class goes on to read (रामः सीतया
+  सह गच्छति, पुत्रेण विना न जीवामि, रामाय तस्मै नमः). Sandhi is left broken, as on
+  the handout. No audio.
+
+### 7. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
@@ -184,6 +202,16 @@ thanks to everyone below — please visit and support the original sources.
   [consonant sandhi handout](http://www.introductory-sanskrit.com/uploads/4/2/9/4/42948489/lesson_13_sandhi_handouts.pdf)**
   — used to verify every rule against an independent statement of it, and the
   source of the additional worked examples on the cards.
+
+### The case-function decks
+
+- **["Sanskrit Case Functions" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/Vibhakti_1.pdf)**
+  from the **[Arsha Bodha Center](https://arshabodha.org/teachings/sanskrit-grammar/)**
+  Beginning Sanskrit Grammar class (taught by Vasanthiji) — the source of the cases,
+  their numbered uses, and many of the example sentences; further examples come
+  from the class itself.
+- **Robert P. Goldman's *Devavāṇīpraveśikā*** — the graded *Rāmāyaṇa* readings
+  (Lessons 4–7) that the class reads, the source of the Rāmāyaṇa example sentences.
 
 ### The Bhagavad Gītā
 

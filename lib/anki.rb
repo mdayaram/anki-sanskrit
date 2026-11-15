@@ -57,6 +57,16 @@ module Anki
   # ordinals as they appear in Gita colophons, and the compounding rules.
   NUMBERS_DECK = "🕉️ Sanskrit Numbers"
 
+  # The three case-function (vibhakti) decks, from the Arsha Bodha "Sanskrit Case
+  # Functions" handout: the case names, the handout's numbered uses (use -> case),
+  # and example sentences (sentence -> case + use). Separate decks so each skill is
+  # studied on its own, nested under one parent with Anki's "::" so they sit
+  # together. Later declension decks belong under their own parent.
+  CASE_FUNCTIONS_PARENT = "🕉️ Sanskrit Case Functions"
+  CASE_NAMES_DECK    = "#{CASE_FUNCTIONS_PARENT}::Names"
+  CASE_USES_DECK     = "#{CASE_FUNCTIONS_PARENT}::Uses"
+  CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::Examples"
+
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)
     "<center>#{'<big>' * 5}#{text}#{'</big>' * 5}</center>"
