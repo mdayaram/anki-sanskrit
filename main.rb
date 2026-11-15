@@ -3,9 +3,10 @@
 
 # Single entry point for generating Sanskrit Anki import files.
 #
-# Each category is a generator under lib/generators/; they are pure transforms
-# over data/letters.json (produced separately by scrape_sanskrit.rb, the only
-# network step). All categories merge into one Anki deck.
+# Each category is a generator under lib/generators/: a pure transform over a
+# committed file in data/ (data/letters.json for the alphabet categories, each
+# other deck's own JSON source of truth otherwise). Each writes one Anki import
+# file naming its deck; the deck names live in lib/anki.rb.
 #
 # Usage:
 #   ./main.rb --all                    # every category
@@ -13,7 +14,8 @@
 #   ./main.rb --list                   # list categories
 #   ./main.rb --help
 #
-# Run `bundle exec ruby scrape_sanskrit.rb` first to fetch the source data.
+# All source data is committed. `bundle exec ruby scrape_sanskrit.rb` and
+# `ruby fetch_gita.rb` are only needed to rebuild it from the original sources.
 
 require "optparse"
 require_relative "lib/letters"

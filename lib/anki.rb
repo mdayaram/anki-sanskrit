@@ -2,7 +2,7 @@
 
 require "json"
 
-# Shared Anki card primitives. Every generator targets the same deck and the same
+# Shared Anki card primitives and every deck name. All generators write the same
 # tab-separated import format, so the header and field handling live here once.
 #
 # Card HTML avoids inline style="..." attributes: semicolons inside styles

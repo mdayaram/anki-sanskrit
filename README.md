@@ -1,22 +1,37 @@
 # Sanskrit Anki Decks
 
 A set of [Anki](https://apps.ankiweb.net/) flashcard decks for learning Sanskrit —
-first the Devanāgarī alphabet, then a Vedānta vocabulary glossary, then the vowel
-sandhi rules, and finally the Bhagavad Gītā. The cards are generated from a few
-well-chosen, openly available
-sources (see **[Sources & Acknowledgements](#sources--acknowledgements)** below —
-these decks exist only thanks to the people and projects who made that material
-freely available).
+first the Devanāgarī alphabet and numbers, then a Vedānta vocabulary glossary, the
+sandhi rules (how words fuse), the uses of the eight cases, and finally whole texts:
+mantras and the Bhagavad Gītā. The cards are generated from a few well-chosen,
+openly available sources (see **[Sources & Acknowledgements](#sources--acknowledgements)**
+below — these decks exist only thanks to the people and projects who made that
+material freely available).
 
 You don't have to generate anything to get started: all the source data is
-already committed to this repo, so you can build the import files and load them
-into Anki right away.
+already committed to this repo, and so are the generated import files, so you can
+load them into Anki right away.
 
 ## The decks
 
-There are seven deck families, designed to be learned in order — each one builds on the
-last. They're independent, though, so you can generate and import any of them on
-their own.
+There are seven deck families, designed to be learned roughly in order — each one
+builds on the last. They're independent, though, so you can generate and import
+any of them on their own.
+
+A family with several parts is a **parent deck with numbered subdecks**, so it
+collapses into a single entry in Anki's deck list; the numbers make Anki's
+alphabetical sort show the subdecks in the order they're meant to be learned:
+
+```
+🕉️ Sanskrit Alphabet         1. Vowels · 2. Consonants · 3. Combinations · 4. Conjuncts · 5. Anusvāra
+🕉️ Sanskrit Numbers
+🕉️ Vedanta Glossary
+🕉️ Sanskrit Sandhi Joining    1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
+🕉️ Sanskrit Sandhi Splitting  1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
+🕉️ Sanskrit Case Functions    1. Names · 2. Uses · 3. Examples
+🕉️ Sanskrit Mantras
+🕉️ Bhagavad Gita
+```
 
 ### 1. 🕉️ Sanskrit Alphabet — learn to read the script
 
@@ -30,96 +45,109 @@ Start here. These are the building blocks of written Sanskrit:
 | 4. Conjuncts | 89 | The most common conjunct ligatures (प्र, क्त, स्त्र …). |
 | 5. Anusvāra | 36 | How the anusvāra (ं) is pronounced — one card per following consonant. |
 
-In Anki these are numbered subdecks of one **🕉️ Sanskrit Alphabet** parent, so the
-whole alphabet collapses into a single entry. Vowels and consonants both come from
-the basic-letters file (`sanskrit_anki.txt`), which sets each card's subdeck itself.
+Vowels and consonants both come from the basic-letters file (`sanskrit_anki.txt`),
+which sets each card's subdeck itself.
 
-### 2. 🕉️ Vedanta Glossary — build vocabulary
+### 2. 🕉️ Sanskrit Numbers — digits and number words
+
+126 cards on the number system: the Devanāgarī digits (०–९), multi-digit numbers and
+verse references as printed (२.४७, ॥१८.६६॥), the number words in both directions,
+the ordinals 1st–18th in the form a Gītā reader meets them (प्रथमोऽध्यायः → chapter 1),
+and the rules for building compounds. Rather than the whole 1–100 grid, it cards the
+~20 building blocks, all of 11–19, and only the compounds that are irregular — the
+rest follow from the rule. No audio.
+
+### 3. 🕉️ Vedanta Glossary — build vocabulary
 
 Once you can read the script, start recognizing words: 2,393 common Vedānta terms.
-Front: Devanāgarī. Back: IAST transliteration and an English meaning. (No audio.)
+Front: Devanāgarī. Back: IAST transliteration and an English meaning. No audio.
 
-The sandhi decks are organised as two parent decks in Anki, **🕉️ Sanskrit Sandhi
-Joining** (two parts → the combined form) and **🕉️ Sanskrit Sandhi Splitting**
-(the combined form → its parts), each holding the same four numbered subdecks —
-1. Vowel, 2. Visarga, 3. External Consonant, 4. Internal Consonant — so each
-direction collapses into one entry in the deck list.
+### 4. 🕉️ Sanskrit Sandhi — learn how words fuse
 
-### 3. 🕉️ Sanskrit Sandhi › Vowel — learn how words fuse
+Running Sanskrit fuses adjacent sounds at their boundaries, so a verse rarely shows
+its words in isolation. Sandhi splits into three families by what meets at the
+junction — vowel (*svara*), visarga, and consonant (*vyañjana*) sandhi — and each is
+carded in **both directions**, as two parent decks:
 
-Running Sanskrit fuses adjacent sounds at their boundaries, so a verse rarely
-shows its words in isolation. Sandhi splits into three families by what meets at
-the junction — vowel (*svara*), consonant (*vyañjana*), and visarga sandhi; this
-deck covers the first. It teaches the five vowel (svara) sandhis — 35 cards.
-Front: the two parts in Devanāgarī (देव इन्द्र).
-Back: the combined form (देवेन्द्र), the IAST for the parts and the whole, which
-sandhi applied, a brief statement of its rule, and the context — whether the
-sandhi happens between two words, inside a compound, or within a single word
-(which matters: the same vowels can combine differently across a word boundary
-than inside a word). No audio.
+- **🕉️ Sanskrit Sandhi Joining** — the two parts in Devanāgarī on the front; the
+  combined form, the rule that applied, and an explanation on the back.
+- **🕉️ Sanskrit Sandhi Splitting** — the reverse skill (*vigraha*): the combined form
+  on the front, the parts it came from on the back.
 
-### 4. 🕉️ Sanskrit Sandhi › Visarga — the final-ḥ rules
+| Subdeck | Joining | Splitting |
+| --- | --- | --- |
+| 1. Vowel | 78 | 78 |
+| 2. Visarga | 86 | 86 |
+| 3. External Consonant | 82 | 81 |
+| 4. Internal Consonant | 22 | 19 |
 
-The second sandhi family: what a word-final visarga (ḥ) becomes depending on the
-vowel before it and the sound after it — 50 cards. Front: the two parts in
-Devanāgarī (नरः गच्छति). Back: the combined form(s) (नरो गच्छति), the IAST for the
-parts and the whole, which rule applied, and a brief statement of that rule. Some
-junctions have more than one accepted outcome (e.g. before a voiceless stop the
-visarga may become a sibilant or stay a visarga); those cards show every form. No
-audio.
+Every card's back also glosses the words — `deva “god” + ālaya “abode” → devālaya
+“temple”` — so you learn vocabulary along the way. No audio.
 
-### 5. 🕉️ Sanskrit Sandhi › External / Internal Consonant — the consonant rules
+**Vowel.** The five vowel sandhis (dīrgha, guṇa, vṛddhi, yaṇ, ayādi): देव इन्द्र →
+देवेन्द्र. Each card also gives the context — whether the sandhi happens between two
+words, inside a compound, or within a single word — because the same vowels can
+combine differently across a word boundary than inside a word.
 
-The third and last sandhi family, split the way its source handout splits it.
-**External** (53 cards) covers the twelve rules for what happens where one word's
-final consonant meets the next word's first sound — voicing (वाक् देवी → वाग्देवी),
-nasal assimilation (वाक् मय → वाङ्मय), the several changes specific to final त् and
-न्, म् becoming anusvāra, and the doubling rules. **Internal** (23 cards) covers the
-two rules that operate inside a single word: स् → ष् (वि + सीदति → विषीदति) and
-न् → ण् (ब्रह्मन् + आ → ब्रह्मणा). Each rule turns on three separate conditions —
-what triggers it, what the target sound may be followed by, and what may stand in
-between — so every card also spells out how its own example satisfies (or fails)
-them. A few cards are deliberate contrasts where the rule does *not* fire.
+**Visarga.** What a word-final visarga (ḥ) becomes depending on the vowel before it
+and the sound after it: नरः गच्छति → नरो गच्छति. The front also shows the word's
+underlying final -s or -r, which decides the outcome. Some junctions have more than
+one accepted form (before a voiceless stop the visarga may become a sibilant or
+stay a visarga); those cards show every form.
 
-Front: the two parts in Devanāgarī. Back: the combined form written joined, the
-way it appears in a printed text (तत् + च → तच्च), the IAST for the parts and the
-whole, which rule applied, and a brief statement of it. Where a word's final
-consonant is not its dictionary form, the front also shows where it came from
-(वाक् ← वाच्) — a word can only end in a few consonants, and that reduction happens
-before any of these rules apply. A few cards are deliberate contrasts, showing a
-junction where the rule does *not* fire. No audio.
+**External and internal consonant.** Split the way their source handout splits
+them. **External** covers the twelve rules for where one word's final consonant
+meets the next word's first sound — voicing (वाक् देवी → वाग्देवी), nasal assimilation
+(वाक् मय → वाङ्मय), the changes specific to final त् and न्, म् becoming anusvāra, and
+the doubling rules. **Internal** covers the two rules that operate inside a single
+word: स् → ष् (वि + सीदति → विषीदति) and न् → ण् (ब्रह्मन् + आ → ब्रह्मणा). Each rule turns
+on three separate conditions — what triggers it, what the target sound may be
+followed by, and what may stand in between — so every card spells out how its own
+example satisfies (or fails) them. Combined forms are written joined, the way they
+appear in a printed text (तत् + च → तच्च). Where a word's final consonant is not its
+dictionary form, the card shows where it came from (वाक् ← वाच्). A few joining cards
+are deliberate contrasts where the rule does *not* fire; those aren't carded in the
+splitting direction, since splitting them teaches nothing.
 
-### 6. 🕉️ Sanskrit Case Functions — what each case does
+### 5. 🕉️ Sanskrit Case Functions — what each case does
 
 The start of declension (*vibhakti*): before learning the endings, learn what each
-of the eight cases is *for*. Three decks, nested under one parent so they sit
-together in Anki (numbered 1–3 in study order), each drilling one skill from the Arsha Bodha "Sanskrit Case
-Functions" handout:
+of the eight cases is *for*. Three subdecks, each drilling one skill from the Arsha
+Bodha "Sanskrit Case Functions" handout:
 
-- **Names** (16 cards) — प्रथमा ↔ Nominative and so on, both directions, with each
+- **1. Names** (16 cards) — प्रथमा ↔ Nominative and so on, both directions, with each
   case's core sense and English cue ("by, with", "from", "in, on, at").
-- **Uses** (40 cards) — one card per numbered use on the handout (1a … 8a): "the
+- **2. Uses** (40 cards) — one card per numbered use on the handout (1a … 8a): "the
   object of love or devotion" → Locative. The back gives the handout's number and
   up to two example sentences.
-- **Examples** (71 cards) — a sentence with one word in bold and its English
+- **3. Examples** (71 cards) — a sentence with one word in bold and its English
   underlined → which case and which use. Sentences come from the handout, the
   class, and the Goldman *Rāmāyaṇa* readings the class goes on to read (रामः सीतया
   सह गच्छति, पुत्रेण विना न जीवामि, रामाय तस्मै नमः). Sandhi is left broken, as on
-  the handout. No audio.
+  the handout.
+
+No audio.
+
+### 6. 🕉️ Sanskrit Mantras — whole mantras with a recitation
+
+Two cards: the Gāyatrī mantra and Ādi Śaṅkara's Prātaḥ Smaraṇa Stotram. Front: the
+mantra in Devanāgarī, and nothing else. Back: an English translation and a
+**recitation audio clip**.
 
 ### 7. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
-a literal and a devotional English translation, and a recitation audio clip.
+a literal and a devotional English translation, and a **recitation audio clip**.
 
 ## Getting started
 
 You'll need [Anki](https://apps.ankiweb.net/) and Ruby (any reasonably recent
 version — the generator uses only Ruby's standard library, no gems to install).
 
-Run `main.rb` from the repository root to build the import files. Flags pick which
-decks to generate, and they combine:
+The import files (`sanskrit_*_anki.txt`) are already committed, so you can skip
+straight to [importing](#importing-into-anki). To rebuild them, run `main.rb` from
+the repository root. Flags pick which files to generate, and they combine:
 
 ```bash
 ./main.rb --all                    # generate everything
@@ -128,27 +156,33 @@ decks to generate, and they combine:
 ./main.rb --help
 ```
 
-| Flag | Generates |
-| --- | --- |
-| `--basic` | Basic alphabet letters (with audio) |
-| `--combinations` | Consonant + vowel syllables |
-| `--conjuncts` | Conjunct ligatures |
-| `--anusvara` | Anusvāra pronunciation |
-| `--vedanta` | Vedānta glossary |
-| `--vowel-sandhi` | Vowel (svara) sandhi word pairs |
-| `--visarga-sandhi` | Visarga sandhi word pairs |
-| `--external-consonant-sandhi` | External consonant sandhi word pairs |
-| `--internal-consonant-sandhi` | Internal consonant sandhi (ṣatva/ṇatva) |
-| `--gita-verses` | Bhagavad Gītā verses |
+| Flag | Generates | Deck |
+| --- | --- | --- |
+| `--basic` | Alphabet letters (with audio) | Alphabet › 1. Vowels, 2. Consonants |
+| `--combinations` | Consonant + vowel syllables | Alphabet › 3. Combinations |
+| `--conjuncts` | Conjunct ligatures | Alphabet › 4. Conjuncts |
+| `--anusvara` | Anusvāra pronunciation | Alphabet › 5. Anusvāra |
+| `--numbers` | Digits, number words, ordinals, rules | Numbers |
+| `--vedanta` | Vedānta glossary | Vedanta Glossary |
+| `--vowel-sandhi` / `--vowel-sandhi-split` | Vowel (svara) sandhi | Sandhi Joining / Splitting › 1. Vowel |
+| `--visarga-sandhi` / `--visarga-sandhi-split` | Visarga sandhi | Sandhi Joining / Splitting › 2. Visarga |
+| `--external-consonant-sandhi` / `--external-consonant-sandhi-split` | External consonant sandhi | Sandhi Joining / Splitting › 3. External Consonant |
+| `--internal-consonant-sandhi` / `--internal-consonant-sandhi-split` | Internal consonant sandhi (ṣatva/ṇatva) | Sandhi Joining / Splitting › 4. Internal Consonant |
+| `--case-names` | Case names | Case Functions › 1. Names |
+| `--case-uses` | Case uses | Case Functions › 2. Uses |
+| `--case-examples` | Case example sentences | Case Functions › 3. Examples |
+| `--mantras` | Mantras (with audio) | Mantras |
+| `--gita-verses` | Bhagavad Gītā verses (with audio) | Bhagavad Gita |
 
 All the data these flags read is already in the repo, so they all work right away.
 
 ### A note on audio
 
-Two decks include audio: the basic alphabet (letter pronunciations) and the
-Bhagavad Gītā (verse recitations). After generating one of these, `main.rb` will
+Three decks include audio: the alphabet letters (pronunciations), the mantras, and
+the Bhagavad Gītā (verse recitations). After generating one of these, `main.rb` will
 **ask you** before copying the mp3s into your Anki media folder — answer `y` so the
-audio plays after import.
+audio plays after import. The Gītā recitations are too large to keep in the repo
+(~289 MB), so the first time you copy them they're downloaded automatically.
 
 It finds your Anki media folder automatically on macOS, Windows, and Linux (it
 prefers Anki's default "User 1" profile). If it can't find it, or you use a
@@ -158,7 +192,7 @@ environment variable (the full path to your `collection.media` folder), or answe
 
 ## Importing into Anki
 
-For each file you generated:
+For each file you want:
 
 1. Open Anki.
 2. **File → Import** and select the file.
@@ -167,6 +201,12 @@ For each file you generated:
 
 The files include a stable ID for every card, so if you regenerate a file and
 re-import it, Anki **updates** your existing cards instead of creating duplicates.
+
+Two things re-importing will *not* do. It won't **move** cards you already have:
+a file's deck name only applies to newly added cards, so if a deck is ever renamed
+here, rename your existing deck in Anki to match (renaming keeps your review
+history). And it won't **delete** cards that a later version of a deck dropped —
+remove those in Anki yourself.
 
 ## Sources & Acknowledgements
 
@@ -177,7 +217,7 @@ thanks to everyone below — please visit and support the original sources.
 
 - **[Enjoy Learning Sanskrit — Sanskrit Alphabet Tutor](https://enjoylearningsanskrit.com/sanskrit-alphabet-tutor/)**
   — the letters, romanization, grammatical properties, and pronunciation tips for
-  the basic alphabet deck.
+  the vowel and consonant cards.
 - **[Kautukam Sanskrit Server](https://sanskritserver.kautukam.com/)** — the
   per-letter pronunciation audio.
 - **[Wikipedia: Devanagari conjuncts](https://en.wikipedia.org/wiki/Devanagari_conjuncts)**
@@ -189,6 +229,14 @@ thanks to everyone below — please visit and support the original sources.
   **[ashtangayoga.info](https://www.ashtangayoga.info/)** — the anusvāra
   pronunciation rules.
 
+### The numbers
+
+- The **[Arsha Bodha Center "Numerals" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Basics/5-6-25-Numerals.pdf)**,
+  **[Whitney's *Sanskrit Grammar*](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))**
+  (§§475–489), **[learnsanskrit.org](https://www.learnsanskrit.org/)**, and the
+  **Monier-Williams** dictionary — the number words, their irregular forms, and the
+  compounding rules.
+
 ### The Vedānta glossary
 
 - **[Vedanta-Sanskrit Glossary](https://arshabodha.org/wp-content/uploads/abc/teachings/Vedanta-Sanskrit-Glossary.pdf)**
@@ -199,20 +247,28 @@ thanks to everyone below — please visit and support the original sources.
 - **[Monier-Williams Sanskrit Dictionary](https://www.sanskrit-lexicon.uni-koeln.de/)**
   (Cologne Digital Sanskrit Dictionaries) — used to verify the glossary headwords.
 
-### The consonant sandhi decks
+### The sandhi decks
 
-- **[Consonant Sandhi handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Sandhi/ConsonantSandhiRules.pdf)**
-  by **Swami Tadatmananda**, published by the
-  **[Arsha Bodha Center](https://arshabodha.org/teachings/sanskrit-grammar/)** —
-  the source of the rules, of how they're divided into external and internal, and
-  of one worked example per rule.
+- The **[Arsha Bodha Center](https://arshabodha.org/teachings/sanskrit-grammar/)**
+  Sanskrit grammar materials: the
+  **[Consonant Sandhi handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Sandhi/ConsonantSandhiRules.pdf)**
+  by **Swami Tadatmananda** (the source of the consonant rules, of how they're
+  divided into external and internal, and of one worked example per rule), and the
+  [vowel](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Exercises/VowelSandhiExercise-1.pdf),
+  [visarga](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Exercises/VisargaSandhiExercise.pdf)
+  and [consonant](https://arshabodha.org/wp-content/uploads/abc/teachings/sanskrit/ConsonantSandhiExercise-1.pdf)
+  sandhi exercise sheets and their answer sheets — the source of many of the
+  examples.
 - **[Whitney's *Sanskrit Grammar*](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))**,
+  **Pāṇini's *Aṣṭādhyāyī***,
   **[learnsanskrit.org](https://www.learnsanskrit.org/references/sandhi/)**,
+  **[ashtangayoga.info](https://www.ashtangayoga.info/)**,
+  **Emeneau & van Nooten's *Sanskrit Sandhi and Exercises***,
   **[Antonia Ruppel's *Cambridge Introduction to Sanskrit* sandhi overview](https://www.cambridge-sanskrit.org/wp-content/uploads/2016/11/Sandhi-Overview-A4.pdf)**,
   and **Guy Leavitt's *Saṁskṛtasubodhinī*
   [consonant sandhi handout](http://www.introductory-sanskrit.com/uploads/4/2/9/4/42948489/lesson_13_sandhi_handouts.pdf)**
   — used to verify every rule against an independent statement of it, and the
-  source of the additional worked examples on the cards.
+  source of further worked examples.
 
 ### The case-function decks
 
@@ -223,6 +279,17 @@ thanks to everyone below — please visit and support the original sources.
   from the class itself.
 - **Robert P. Goldman's *Devavāṇīpraveśikā*** — the graded *Rāmāyaṇa* readings
   (Lessons 4–7) that the class reads, the source of the Rāmāyaṇa example sentences.
+
+### The mantras
+
+- **Gāyatrī mantra** — the sung recitation by **Shri Rattan Mohan Sharma**
+  ([Internet Archive](https://archive.org/details/shri-rattan-mohan-sharma-gayatri-mantra)),
+  trimmed to a single invocation; the translation is adapted from
+  **S. Radhakrishnan**, *The Principal Upanishads* (1953), and checked against
+  Dominik Haas, "Translating the Gāyatrī-Mantra" (2023).
+- **Prātaḥ Smaraṇa Stotram** — the recitation and translation by **Swami
+  Tadatmananda** of the Arsha Bodha Center, from
+  [his YouTube channel](https://www.youtube.com/watch?v=cqPlGaHQUNQ).
 
 ### The Bhagavad Gītā
 
