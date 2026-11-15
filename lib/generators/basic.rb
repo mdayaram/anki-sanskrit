@@ -9,6 +9,9 @@ module Generators
   #
   # This is the only category with audio; its cards carry [sound:...] tags, which
   # drives the media-copy step in main.rb.
+  #
+  # Each row names its own deck (vowels vs consonants), so the file is written
+  # with a Deck column rather than a single #deck header.
   class Basic < Base
     KEY         = "basic"
     DESCRIPTION = "Basic alphabet — one card per letter (with audio)"
@@ -39,7 +42,13 @@ module Generators
       cleaned_tips = clean_tips_html(tips_html)
       back_parts << "<hr><b>Pronunciation</b><br>#{cleaned_tips}" unless cleaned_tips.empty?
 
-      [roman, front, back_parts.join]
+      [roman, front, back_parts.join, letter_deck(letter)]
+    end
+
+    # Vowels (including the aṁ/aḥ marks on a) and consonants (including kṣa, jña)
+    # live in separate subdecks, so each card names its own deck.
+    def letter_deck(letter)
+      (letter["properties"] || []).first == "Vowel" ? Anki::ALPHABET_VOWELS_DECK : Anki::ALPHABET_CONSONANTS_DECK
     end
 
     def audio_files(letters)

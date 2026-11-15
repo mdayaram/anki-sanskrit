@@ -22,12 +22,17 @@ their own.
 
 Start here. These are the building blocks of written Sanskrit:
 
-| File | Cards | What it covers |
+| Subdeck | Cards | What it covers |
 | --- | --- | --- |
-| Basic letters | 50 | Every vowel and consonant, with **pronunciation audio**, romanization, grammatical notes, and learning tips. |
-| Combinations | 378 | Consonant + vowel syllables (का, कि, कं …), limited to the ones that actually occur in the Mahābhārata. |
-| Conjuncts | 89 | The most common conjunct ligatures (प्र, क्त, स्त्र …). |
-| Anusvāra | 36 | How the anusvāra (ं) is pronounced — one card per following consonant. |
+| 1. Vowels | 15 | Every vowel (plus the aṁ/aḥ marks), with **pronunciation audio**, romanization, grammatical notes, and learning tips. |
+| 2. Consonants | 35 | Every consonant (plus kṣa and jña), with the same audio and notes. |
+| 3. Combinations | 378 | Consonant + vowel syllables (का, कि, कं …), limited to the ones that actually occur in the Mahābhārata. |
+| 4. Conjuncts | 89 | The most common conjunct ligatures (प्र, क्त, स्त्र …). |
+| 5. Anusvāra | 36 | How the anusvāra (ं) is pronounced — one card per following consonant. |
+
+In Anki these are numbered subdecks of one **🕉️ Sanskrit Alphabet** parent, so the
+whole alphabet collapses into a single entry. Vowels and consonants both come from
+the basic-letters file (`sanskrit_anki.txt`), which sets each card's subdeck itself.
 
 ### 2. 🕉️ Vedanta Glossary — build vocabulary
 

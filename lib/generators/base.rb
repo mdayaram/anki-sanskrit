@@ -59,7 +59,7 @@ module Generators
         cards: rows.size,
         txt: txt_path,
         json: json_path,
-        deck: deck,
+        deck: rows.any? { |row| row.size > 3 } ? rows.map { |row| row[3] }.uniq.join(", ") : deck,
         audio_files: audio_files(data),
         audio_dir: audio_dir,
         ensure_audio: method(:ensure_audio!)
