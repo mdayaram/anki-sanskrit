@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Case Functions::Uses
+#deck:🕉️ Sanskrit Case Functions::2. Uses
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

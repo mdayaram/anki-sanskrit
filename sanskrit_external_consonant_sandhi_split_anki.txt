@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit External Consonant Sandhi (Splitting)
+#deck:🕉️ Sanskrit Sandhi Splitting::3. External Consonant
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

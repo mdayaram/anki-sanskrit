@@ -34,7 +34,13 @@ Start here. These are the building blocks of written Sanskrit:
 Once you can read the script, start recognizing words: 2,393 common Vedānta terms.
 Front: Devanāgarī. Back: IAST transliteration and an English meaning. (No audio.)
 
-### 3. 🕉️ Sanskrit Vowel Sandhi — learn how words fuse
+The sandhi decks are organised as two parent decks in Anki, **🕉️ Sanskrit Sandhi
+Joining** (two parts → the combined form) and **🕉️ Sanskrit Sandhi Splitting**
+(the combined form → its parts), each holding the same four numbered subdecks —
+1. Vowel, 2. Visarga, 3. External Consonant, 4. Internal Consonant — so each
+direction collapses into one entry in the deck list.
+
+### 3. 🕉️ Sanskrit Sandhi › Vowel — learn how words fuse
 
 Running Sanskrit fuses adjacent sounds at their boundaries, so a verse rarely
 shows its words in isolation. Sandhi splits into three families by what meets at
@@ -47,7 +53,7 @@ sandhi happens between two words, inside a compound, or within a single word
 (which matters: the same vowels can combine differently across a word boundary
 than inside a word). No audio.
 
-### 4. 🕉️ Sanskrit Visarga Sandhi — the final-ḥ rules
+### 4. 🕉️ Sanskrit Sandhi › Visarga — the final-ḥ rules
 
 The second sandhi family: what a word-final visarga (ḥ) becomes depending on the
 vowel before it and the sound after it — 50 cards. Front: the two parts in
@@ -57,7 +63,7 @@ junctions have more than one accepted outcome (e.g. before a voiceless stop the
 visarga may become a sibilant or stay a visarga); those cards show every form. No
 audio.
 
-### 5. 🕉️ Sanskrit External / Internal Consonant Sandhi — the consonant rules
+### 5. 🕉️ Sanskrit Sandhi › External / Internal Consonant — the consonant rules
 
 The third and last sandhi family, split the way its source handout splits it.
 **External** (53 cards) covers the twelve rules for what happens where one word's
@@ -82,7 +88,7 @@ junction where the rule does *not* fire. No audio.
 
 The start of declension (*vibhakti*): before learning the endings, learn what each
 of the eight cases is *for*. Three decks, nested under one parent so they sit
-together in Anki, each drilling one skill from the Arsha Bodha "Sanskrit Case
+together in Anki (numbered 1–3 in study order), each drilling one skill from the Arsha Bodha "Sanskrit Case
 Functions" handout:
 
 - **Names** (16 cards) — प्रथमा ↔ Nominative and so on, both directions, with each

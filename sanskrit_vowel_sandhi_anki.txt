@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Vowel Sandhi
+#deck:🕉️ Sanskrit Sandhi Joining::1. Vowel
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

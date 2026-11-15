@@ -1,6 +1,6 @@
 #separator:Tab
 #html:true
-#deck:🕉️ Sanskrit Case Functions::Examples
+#deck:🕉️ Sanskrit Case Functions::3. Examples
 #notetype:Basic
 #columns:Key	Front	Back
 #guid column:1

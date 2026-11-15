@@ -10,7 +10,7 @@ class ExternalConsonantSandhiGeneratorTest < Minitest::Test
 
   def test_deck_is_external_consonant_sandhi
     assert_equal Anki::EXTERNAL_CONSONANT_SANDHI_DECK, gen.deck
-    refute_includes gen.deck, "(" # "(...)" is reserved for a splitting deck
+    assert gen.deck.start_with?("#{Anki::SANDHI_JOINING_PARENT}::")
   end
 
   def test_does_not_require_letters
