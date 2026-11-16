@@ -48,6 +48,12 @@ class AnkiTest < Minitest::Test
     assert_equal decks.sort, decks
   end
 
+  def test_declension_subdecks_sort_in_learning_order
+    decks = [Anki::BASIC_ENDINGS_DECK, Anki::SHARED_ENDINGS_DECK, Anki::T_NOUNS_DECK]
+    decks.each { |d| assert d.start_with?("#{Anki::DECLENSIONS_PARENT}::"), d }
+    assert_equal decks.sort, decks
+  end
+
   # A row carrying a 4th element names its own deck: the file switches from a
   # #deck header to a Deck column.
   def test_per_row_deck_uses_a_deck_column

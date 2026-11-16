@@ -1,0 +1,1101 @@
+{
+  "endings": [
+    {
+      "case": "nominative",
+      "number": "singular",
+      "devanagari": "ः",
+      "iast": "ḥ",
+      "note": "Pāṇini’s ending is स् (s); the handout writes it as visarga ः."
+    },
+    {
+      "case": "nominative",
+      "number": "dual",
+      "devanagari": "औ",
+      "iast": "au"
+    },
+    {
+      "case": "nominative",
+      "number": "plural",
+      "devanagari": "अः",
+      "iast": "aḥ"
+    },
+    {
+      "case": "accusative",
+      "number": "singular",
+      "devanagari": "अम्",
+      "iast": "am"
+    },
+    {
+      "case": "accusative",
+      "number": "dual",
+      "devanagari": "औ",
+      "iast": "au"
+    },
+    {
+      "case": "accusative",
+      "number": "plural",
+      "devanagari": "अः",
+      "iast": "aḥ"
+    },
+    {
+      "case": "instrumental",
+      "number": "singular",
+      "devanagari": "आ",
+      "iast": "ā"
+    },
+    {
+      "case": "instrumental",
+      "number": "dual",
+      "devanagari": "भ्याम्",
+      "iast": "bhyām"
+    },
+    {
+      "case": "instrumental",
+      "number": "plural",
+      "devanagari": "भिः",
+      "iast": "bhiḥ"
+    },
+    {
+      "case": "dative",
+      "number": "singular",
+      "devanagari": "ए",
+      "iast": "e"
+    },
+    {
+      "case": "dative",
+      "number": "dual",
+      "devanagari": "भ्याम्",
+      "iast": "bhyām"
+    },
+    {
+      "case": "dative",
+      "number": "plural",
+      "devanagari": "भ्यः",
+      "iast": "bhyaḥ"
+    },
+    {
+      "case": "ablative",
+      "number": "singular",
+      "devanagari": "अः",
+      "iast": "aḥ"
+    },
+    {
+      "case": "ablative",
+      "number": "dual",
+      "devanagari": "भ्याम्",
+      "iast": "bhyām"
+    },
+    {
+      "case": "ablative",
+      "number": "plural",
+      "devanagari": "भ्यः",
+      "iast": "bhyaḥ"
+    },
+    {
+      "case": "genitive",
+      "number": "singular",
+      "devanagari": "अः",
+      "iast": "aḥ"
+    },
+    {
+      "case": "genitive",
+      "number": "dual",
+      "devanagari": "ओः",
+      "iast": "oḥ"
+    },
+    {
+      "case": "genitive",
+      "number": "plural",
+      "devanagari": "आम्",
+      "iast": "ām"
+    },
+    {
+      "case": "locative",
+      "number": "singular",
+      "devanagari": "इ",
+      "iast": "i"
+    },
+    {
+      "case": "locative",
+      "number": "dual",
+      "devanagari": "ओः",
+      "iast": "oḥ"
+    },
+    {
+      "case": "locative",
+      "number": "plural",
+      "devanagari": "सु",
+      "iast": "su"
+    },
+    {
+      "case": "vocative",
+      "number": "singular",
+      "devanagari": "ः",
+      "iast": "ḥ",
+      "note": "Pāṇini’s ending is स् (s); the handout writes it as visarga ः."
+    },
+    {
+      "case": "vocative",
+      "number": "dual",
+      "devanagari": "औ",
+      "iast": "au"
+    },
+    {
+      "case": "vocative",
+      "number": "plural",
+      "devanagari": "अः",
+      "iast": "aḥ"
+    }
+  ],
+  "neuter_endings": [
+    {
+      "case": "nominative",
+      "number": "singular",
+      "devanagari": "",
+      "iast": ""
+    },
+    {
+      "case": "nominative",
+      "number": "dual",
+      "devanagari": "ई",
+      "iast": "ī"
+    },
+    {
+      "case": "nominative",
+      "number": "plural",
+      "devanagari": "इ",
+      "iast": "i"
+    },
+    {
+      "case": "accusative",
+      "number": "singular",
+      "devanagari": "",
+      "iast": ""
+    },
+    {
+      "case": "accusative",
+      "number": "dual",
+      "devanagari": "ई",
+      "iast": "ī"
+    },
+    {
+      "case": "accusative",
+      "number": "plural",
+      "devanagari": "इ",
+      "iast": "i"
+    },
+    {
+      "case": "vocative",
+      "number": "singular",
+      "devanagari": "",
+      "iast": ""
+    },
+    {
+      "case": "vocative",
+      "number": "dual",
+      "devanagari": "ई",
+      "iast": "ī"
+    },
+    {
+      "case": "vocative",
+      "number": "plural",
+      "devanagari": "इ",
+      "iast": "i"
+    }
+  ],
+  "sandhi": {
+    "s_dropped": "The ending स् (written ः) drops: a word cannot end in two consonants.",
+    "no_ending": "The neuter nominative and accusative singular take no ending.",
+    "voicing": "The hard त् becomes the soft द् before the soft भ् (a hard consonant followed by a soft one becomes soft; compare external consonant sandhi rule 1).",
+    "hard_su": "त् and स् are both hard, so nothing changes. (No ṣatva either: त् does not turn स् into ष्.)",
+    "num": "Neuter nominative and accusative plural: a न् is inserted before the stem’s final consonant, then the ending इ is added."
+  },
+  "nouns": [
+    {
+      "iast": "marut",
+      "devanagari": "मरुत्",
+      "gender": "m",
+      "meaning": "wind",
+      "source": "class 15 (worked in class)",
+      "forms": [
+        {
+          "case": "nominative",
+          "number": "singular",
+          "devanagari": "मरुत्",
+          "iast": "marut",
+          "sandhi": "s_dropped"
+        },
+        {
+          "case": "nominative",
+          "number": "dual",
+          "devanagari": "मरुतौ",
+          "iast": "marutau",
+          "sandhi": null
+        },
+        {
+          "case": "nominative",
+          "number": "plural",
+          "devanagari": "मरुतः",
+          "iast": "marutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "singular",
+          "devanagari": "मरुतम्",
+          "iast": "marutam",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "dual",
+          "devanagari": "मरुतौ",
+          "iast": "marutau",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "plural",
+          "devanagari": "मरुतः",
+          "iast": "marutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "singular",
+          "devanagari": "मरुता",
+          "iast": "marutā",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "dual",
+          "devanagari": "मरुद्भ्याम्",
+          "iast": "marudbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "instrumental",
+          "number": "plural",
+          "devanagari": "मरुद्भिः",
+          "iast": "marudbhiḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "singular",
+          "devanagari": "मरुते",
+          "iast": "marute",
+          "sandhi": null
+        },
+        {
+          "case": "dative",
+          "number": "dual",
+          "devanagari": "मरुद्भ्याम्",
+          "iast": "marudbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "plural",
+          "devanagari": "मरुद्भ्यः",
+          "iast": "marudbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "singular",
+          "devanagari": "मरुतः",
+          "iast": "marutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "ablative",
+          "number": "dual",
+          "devanagari": "मरुद्भ्याम्",
+          "iast": "marudbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "plural",
+          "devanagari": "मरुद्भ्यः",
+          "iast": "marudbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "genitive",
+          "number": "singular",
+          "devanagari": "मरुतः",
+          "iast": "marutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "dual",
+          "devanagari": "मरुतोः",
+          "iast": "marutoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "plural",
+          "devanagari": "मरुताम्",
+          "iast": "marutām",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "singular",
+          "devanagari": "मरुति",
+          "iast": "maruti",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "dual",
+          "devanagari": "मरुतोः",
+          "iast": "marutoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "plural",
+          "devanagari": "मरुत्सु",
+          "iast": "marutsu",
+          "sandhi": "hard_su"
+        },
+        {
+          "case": "vocative",
+          "number": "singular",
+          "devanagari": "मरुत्",
+          "iast": "marut",
+          "sandhi": "s_dropped"
+        },
+        {
+          "case": "vocative",
+          "number": "dual",
+          "devanagari": "मरुतौ",
+          "iast": "marutau",
+          "sandhi": null
+        },
+        {
+          "case": "vocative",
+          "number": "plural",
+          "devanagari": "मरुतः",
+          "iast": "marutaḥ",
+          "sandhi": null
+        }
+      ]
+    },
+    {
+      "iast": "indrajit",
+      "devanagari": "इन्द्रजित्",
+      "gender": "m",
+      "meaning": "Indrajit, “conqueror of Indra” (Rāvaṇa’s son)",
+      "source": "class 15 homework",
+      "forms": [
+        {
+          "case": "nominative",
+          "number": "singular",
+          "devanagari": "इन्द्रजित्",
+          "iast": "indrajit",
+          "sandhi": "s_dropped"
+        },
+        {
+          "case": "nominative",
+          "number": "dual",
+          "devanagari": "इन्द्रजितौ",
+          "iast": "indrajitau",
+          "sandhi": null
+        },
+        {
+          "case": "nominative",
+          "number": "plural",
+          "devanagari": "इन्द्रजितः",
+          "iast": "indrajitaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "singular",
+          "devanagari": "इन्द्रजितम्",
+          "iast": "indrajitam",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "dual",
+          "devanagari": "इन्द्रजितौ",
+          "iast": "indrajitau",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "plural",
+          "devanagari": "इन्द्रजितः",
+          "iast": "indrajitaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "singular",
+          "devanagari": "इन्द्रजिता",
+          "iast": "indrajitā",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "dual",
+          "devanagari": "इन्द्रजिद्भ्याम्",
+          "iast": "indrajidbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "instrumental",
+          "number": "plural",
+          "devanagari": "इन्द्रजिद्भिः",
+          "iast": "indrajidbhiḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "singular",
+          "devanagari": "इन्द्रजिते",
+          "iast": "indrajite",
+          "sandhi": null
+        },
+        {
+          "case": "dative",
+          "number": "dual",
+          "devanagari": "इन्द्रजिद्भ्याम्",
+          "iast": "indrajidbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "plural",
+          "devanagari": "इन्द्रजिद्भ्यः",
+          "iast": "indrajidbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "singular",
+          "devanagari": "इन्द्रजितः",
+          "iast": "indrajitaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "ablative",
+          "number": "dual",
+          "devanagari": "इन्द्रजिद्भ्याम्",
+          "iast": "indrajidbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "plural",
+          "devanagari": "इन्द्रजिद्भ्यः",
+          "iast": "indrajidbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "genitive",
+          "number": "singular",
+          "devanagari": "इन्द्रजितः",
+          "iast": "indrajitaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "dual",
+          "devanagari": "इन्द्रजितोः",
+          "iast": "indrajitoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "plural",
+          "devanagari": "इन्द्रजिताम्",
+          "iast": "indrajitām",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "singular",
+          "devanagari": "इन्द्रजिति",
+          "iast": "indrajiti",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "dual",
+          "devanagari": "इन्द्रजितोः",
+          "iast": "indrajitoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "plural",
+          "devanagari": "इन्द्रजित्सु",
+          "iast": "indrajitsu",
+          "sandhi": "hard_su"
+        },
+        {
+          "case": "vocative",
+          "number": "singular",
+          "devanagari": "इन्द्रजित्",
+          "iast": "indrajit",
+          "sandhi": "s_dropped"
+        },
+        {
+          "case": "vocative",
+          "number": "dual",
+          "devanagari": "इन्द्रजितौ",
+          "iast": "indrajitau",
+          "sandhi": null
+        },
+        {
+          "case": "vocative",
+          "number": "plural",
+          "devanagari": "इन्द्रजितः",
+          "iast": "indrajitaḥ",
+          "sandhi": null
+        }
+      ]
+    },
+    {
+      "iast": "vidyut",
+      "devanagari": "विद्युत्",
+      "gender": "f",
+      "meaning": "lightning",
+      "source": "class 15 homework",
+      "forms": [
+        {
+          "case": "nominative",
+          "number": "singular",
+          "devanagari": "विद्युत्",
+          "iast": "vidyut",
+          "sandhi": "s_dropped"
+        },
+        {
+          "case": "nominative",
+          "number": "dual",
+          "devanagari": "विद्युतौ",
+          "iast": "vidyutau",
+          "sandhi": null
+        },
+        {
+          "case": "nominative",
+          "number": "plural",
+          "devanagari": "विद्युतः",
+          "iast": "vidyutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "singular",
+          "devanagari": "विद्युतम्",
+          "iast": "vidyutam",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "dual",
+          "devanagari": "विद्युतौ",
+          "iast": "vidyutau",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "plural",
+          "devanagari": "विद्युतः",
+          "iast": "vidyutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "singular",
+          "devanagari": "विद्युता",
+          "iast": "vidyutā",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "dual",
+          "devanagari": "विद्युद्भ्याम्",
+          "iast": "vidyudbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "instrumental",
+          "number": "plural",
+          "devanagari": "विद्युद्भिः",
+          "iast": "vidyudbhiḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "singular",
+          "devanagari": "विद्युते",
+          "iast": "vidyute",
+          "sandhi": null
+        },
+        {
+          "case": "dative",
+          "number": "dual",
+          "devanagari": "विद्युद्भ्याम्",
+          "iast": "vidyudbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "plural",
+          "devanagari": "विद्युद्भ्यः",
+          "iast": "vidyudbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "singular",
+          "devanagari": "विद्युतः",
+          "iast": "vidyutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "ablative",
+          "number": "dual",
+          "devanagari": "विद्युद्भ्याम्",
+          "iast": "vidyudbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "plural",
+          "devanagari": "विद्युद्भ्यः",
+          "iast": "vidyudbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "genitive",
+          "number": "singular",
+          "devanagari": "विद्युतः",
+          "iast": "vidyutaḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "dual",
+          "devanagari": "विद्युतोः",
+          "iast": "vidyutoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "plural",
+          "devanagari": "विद्युताम्",
+          "iast": "vidyutām",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "singular",
+          "devanagari": "विद्युति",
+          "iast": "vidyuti",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "dual",
+          "devanagari": "विद्युतोः",
+          "iast": "vidyutoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "plural",
+          "devanagari": "विद्युत्सु",
+          "iast": "vidyutsu",
+          "sandhi": "hard_su"
+        },
+        {
+          "case": "vocative",
+          "number": "singular",
+          "devanagari": "विद्युत्",
+          "iast": "vidyut",
+          "sandhi": "s_dropped"
+        },
+        {
+          "case": "vocative",
+          "number": "dual",
+          "devanagari": "विद्युतौ",
+          "iast": "vidyutau",
+          "sandhi": null
+        },
+        {
+          "case": "vocative",
+          "number": "plural",
+          "devanagari": "विद्युतः",
+          "iast": "vidyutaḥ",
+          "sandhi": null
+        }
+      ]
+    },
+    {
+      "iast": "jagat",
+      "devanagari": "जगत्",
+      "gender": "n",
+      "meaning": "world",
+      "source": "class 15 (worked in class)",
+      "forms": [
+        {
+          "case": "nominative",
+          "number": "singular",
+          "devanagari": "जगत्",
+          "iast": "jagat",
+          "sandhi": "no_ending"
+        },
+        {
+          "case": "nominative",
+          "number": "dual",
+          "devanagari": "जगती",
+          "iast": "jagatī",
+          "sandhi": null
+        },
+        {
+          "case": "nominative",
+          "number": "plural",
+          "devanagari": "जगन्ति",
+          "iast": "jaganti",
+          "sandhi": "num"
+        },
+        {
+          "case": "accusative",
+          "number": "singular",
+          "devanagari": "जगत्",
+          "iast": "jagat",
+          "sandhi": "no_ending"
+        },
+        {
+          "case": "accusative",
+          "number": "dual",
+          "devanagari": "जगती",
+          "iast": "jagatī",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "plural",
+          "devanagari": "जगन्ति",
+          "iast": "jaganti",
+          "sandhi": "num"
+        },
+        {
+          "case": "instrumental",
+          "number": "singular",
+          "devanagari": "जगता",
+          "iast": "jagatā",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "dual",
+          "devanagari": "जगद्भ्याम्",
+          "iast": "jagadbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "instrumental",
+          "number": "plural",
+          "devanagari": "जगद्भिः",
+          "iast": "jagadbhiḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "singular",
+          "devanagari": "जगते",
+          "iast": "jagate",
+          "sandhi": null
+        },
+        {
+          "case": "dative",
+          "number": "dual",
+          "devanagari": "जगद्भ्याम्",
+          "iast": "jagadbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "plural",
+          "devanagari": "जगद्भ्यः",
+          "iast": "jagadbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "singular",
+          "devanagari": "जगतः",
+          "iast": "jagataḥ",
+          "sandhi": null
+        },
+        {
+          "case": "ablative",
+          "number": "dual",
+          "devanagari": "जगद्भ्याम्",
+          "iast": "jagadbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "plural",
+          "devanagari": "जगद्भ्यः",
+          "iast": "jagadbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "genitive",
+          "number": "singular",
+          "devanagari": "जगतः",
+          "iast": "jagataḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "dual",
+          "devanagari": "जगतोः",
+          "iast": "jagatoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "plural",
+          "devanagari": "जगताम्",
+          "iast": "jagatām",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "singular",
+          "devanagari": "जगति",
+          "iast": "jagati",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "dual",
+          "devanagari": "जगतोः",
+          "iast": "jagatoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "plural",
+          "devanagari": "जगत्सु",
+          "iast": "jagatsu",
+          "sandhi": "hard_su"
+        },
+        {
+          "case": "vocative",
+          "number": "singular",
+          "devanagari": "जगत्",
+          "iast": "jagat",
+          "sandhi": "no_ending"
+        },
+        {
+          "case": "vocative",
+          "number": "dual",
+          "devanagari": "जगती",
+          "iast": "jagatī",
+          "sandhi": null
+        },
+        {
+          "case": "vocative",
+          "number": "plural",
+          "devanagari": "जगन्ति",
+          "iast": "jaganti",
+          "sandhi": "num"
+        }
+      ]
+    },
+    {
+      "iast": "bṛhat",
+      "devanagari": "बृहत्",
+      "gender": "n",
+      "meaning": "big",
+      "source": "class 15 homework",
+      "note": "An adjective; the homework declines it as a neuter noun.",
+      "forms": [
+        {
+          "case": "nominative",
+          "number": "singular",
+          "devanagari": "बृहत्",
+          "iast": "bṛhat",
+          "sandhi": "no_ending"
+        },
+        {
+          "case": "nominative",
+          "number": "dual",
+          "devanagari": "बृहती",
+          "iast": "bṛhatī",
+          "sandhi": null
+        },
+        {
+          "case": "nominative",
+          "number": "plural",
+          "devanagari": "बृहन्ति",
+          "iast": "bṛhanti",
+          "sandhi": "num"
+        },
+        {
+          "case": "accusative",
+          "number": "singular",
+          "devanagari": "बृहत्",
+          "iast": "bṛhat",
+          "sandhi": "no_ending"
+        },
+        {
+          "case": "accusative",
+          "number": "dual",
+          "devanagari": "बृहती",
+          "iast": "bṛhatī",
+          "sandhi": null
+        },
+        {
+          "case": "accusative",
+          "number": "plural",
+          "devanagari": "बृहन्ति",
+          "iast": "bṛhanti",
+          "sandhi": "num"
+        },
+        {
+          "case": "instrumental",
+          "number": "singular",
+          "devanagari": "बृहता",
+          "iast": "bṛhatā",
+          "sandhi": null
+        },
+        {
+          "case": "instrumental",
+          "number": "dual",
+          "devanagari": "बृहद्भ्याम्",
+          "iast": "bṛhadbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "instrumental",
+          "number": "plural",
+          "devanagari": "बृहद्भिः",
+          "iast": "bṛhadbhiḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "singular",
+          "devanagari": "बृहते",
+          "iast": "bṛhate",
+          "sandhi": null
+        },
+        {
+          "case": "dative",
+          "number": "dual",
+          "devanagari": "बृहद्भ्याम्",
+          "iast": "bṛhadbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "dative",
+          "number": "plural",
+          "devanagari": "बृहद्भ्यः",
+          "iast": "bṛhadbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "singular",
+          "devanagari": "बृहतः",
+          "iast": "bṛhataḥ",
+          "sandhi": null
+        },
+        {
+          "case": "ablative",
+          "number": "dual",
+          "devanagari": "बृहद्भ्याम्",
+          "iast": "bṛhadbhyām",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "ablative",
+          "number": "plural",
+          "devanagari": "बृहद्भ्यः",
+          "iast": "bṛhadbhyaḥ",
+          "sandhi": "voicing"
+        },
+        {
+          "case": "genitive",
+          "number": "singular",
+          "devanagari": "बृहतः",
+          "iast": "bṛhataḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "dual",
+          "devanagari": "बृहतोः",
+          "iast": "bṛhatoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "genitive",
+          "number": "plural",
+          "devanagari": "बृहताम्",
+          "iast": "bṛhatām",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "singular",
+          "devanagari": "बृहति",
+          "iast": "bṛhati",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "dual",
+          "devanagari": "बृहतोः",
+          "iast": "bṛhatoḥ",
+          "sandhi": null
+        },
+        {
+          "case": "locative",
+          "number": "plural",
+          "devanagari": "बृहत्सु",
+          "iast": "bṛhatsu",
+          "sandhi": "hard_su"
+        },
+        {
+          "case": "vocative",
+          "number": "singular",
+          "devanagari": "बृहत्",
+          "iast": "bṛhat",
+          "sandhi": "no_ending"
+        },
+        {
+          "case": "vocative",
+          "number": "dual",
+          "devanagari": "बृहती",
+          "iast": "bṛhatī",
+          "sandhi": null
+        },
+        {
+          "case": "vocative",
+          "number": "plural",
+          "devanagari": "बृहन्ति",
+          "iast": "bṛhanti",
+          "sandhi": "num"
+        }
+      ]
+    }
+  ]
+}

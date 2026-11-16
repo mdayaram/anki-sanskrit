@@ -2,7 +2,8 @@
 
 A set of [Anki](https://apps.ankiweb.net/) flashcard decks for learning Sanskrit —
 first the Devanāgarī alphabet and numbers, then a Vedānta vocabulary glossary, the
-sandhi rules (how words fuse), the uses of the eight cases, and finally whole texts:
+sandhi rules (how words fuse), the uses of the eight cases and their endings, and
+finally whole texts:
 mantras and the Bhagavad Gītā. The cards are generated from a few well-chosen,
 openly available sources (see **[Sources & Acknowledgements](#sources--acknowledgements)**
 below — these decks exist only thanks to the people and projects who made that
@@ -14,7 +15,7 @@ load them into Anki right away.
 
 ## The decks
 
-There are seven deck families, designed to be learned roughly in order — each one
+There are eight deck families, designed to be learned roughly in order — each one
 builds on the last. They're independent, though, so you can generate and import
 any of them on their own.
 
@@ -29,6 +30,7 @@ alphabetical sort show the subdecks in the order they're meant to be learned:
 🕉️ Sanskrit Sandhi Joining    1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
 🕉️ Sanskrit Case Functions    1. Names · 2. Uses · 3. Examples
+🕉️ Sanskrit Declensions       1. Endings · 2. Shared Endings · 3. त्-Ending Nouns
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
 ```
@@ -128,13 +130,34 @@ Bodha "Sanskrit Case Functions" handout:
 
 No audio.
 
-### 6. 🕉️ Sanskrit Mantras — whole mantras with a recitation
+### 6. 🕉️ Sanskrit Declensions — the case endings
+
+The endings themselves, from the Arsha Bodha "Basic Terminations" handout and the
+nouns declined with it in class. Each later model-noun handout (रामः/फलम्,
+शाला/दासी, …) is meant to join this family as the next numbered subdeck.
+
+- **1. Endings** (25 cards) — a case and number → its basic ending: *Instrumental
+  dual* → भ्याम्. The back shows the whole row and names the other cells with the
+  same ending. One card covers the vocative (it repeats the nominative), and three
+  cover the neuter's own nominative/accusative (no ending, ई, इ).
+- **2. Shared Endings** (14 cards) — the class exercise of circling the identical
+  endings, as cards: an ending → every case and number it marks (अः → nominative
+  and accusative plural, ablative and genitive singular).
+- **3. त्-Ending Nouns** (120 cards) — five nouns in every case and number: मरुत्
+  "wind" and जगत् "world", declined in class, and the homework nouns इन्द्रजित्,
+  विद्युत् "lightning" and बृहत् "big" (declined as a neuter). *मरुत्, instrumental
+  plural* → मरुद्भिः. The back shows the working (मरुत् + भिः → मरुद्भिः), explains
+  any sandhi change, and names the other cells with the same form.
+
+No audio.
+
+### 7. 🕉️ Sanskrit Mantras — whole mantras with a recitation
 
 Two cards: the Gāyatrī mantra and Ādi Śaṅkara's Prātaḥ Smaraṇa Stotram. Front: the
 mantra in Devanāgarī, and nothing else. Back: an English translation and a
 **recitation audio clip**.
 
-### 7. 🕉️ Bhagavad Gita — read whole verses
+### 8. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
@@ -171,6 +194,9 @@ the repository root. Flags pick which files to generate, and they combine:
 | `--case-names` | Case names | Case Functions › 1. Names |
 | `--case-uses` | Case uses | Case Functions › 2. Uses |
 | `--case-examples` | Case example sentences | Case Functions › 3. Examples |
+| `--basic-endings` | Basic case endings | Declensions › 1. Endings |
+| `--shared-endings` | Endings shared by several cases | Declensions › 2. Shared Endings |
+| `--t-nouns` | Five त्-ending nouns, every form | Declensions › 3. त्-Ending Nouns |
 | `--mantras` | Mantras (with audio) | Mantras |
 | `--gita-verses` | Bhagavad Gītā verses (with audio) | Bhagavad Gita |
 
@@ -279,6 +305,12 @@ thanks to everyone below — please visit and support the original sources.
   from the class itself.
 - **Robert P. Goldman's *Devavāṇīpraveśikā*** — the graded *Rāmāyaṇa* readings
   (Lessons 4–7) that the class reads, the source of the Rāmāyaṇa example sentences.
+
+### The declension decks
+
+- **["Basic Terminations" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/BasicTerminations.pdf)**
+  from the same Arsha Bodha class — the table of endings, and (from the class
+  recording) the five nouns declined with it and the sandhi points made along the way.
 
 ### The mantras
 
