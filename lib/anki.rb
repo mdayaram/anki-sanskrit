@@ -62,12 +62,22 @@ module Anki
   # Functions" handout: the case names, the handout's numbered uses (use -> case),
   # and example sentences (sentence -> case + use). Separate decks so each skill is
   # studied on its own, nested under one parent with Anki's "::" so they sit
-  # together, numbered in the order they are learned. Later declension decks
-  # belong under their own parent.
+  # together, numbered in the order they are learned. The declension decks
+  # (endings and nouns) have their own parent, below.
   CASE_FUNCTIONS_PARENT = "🕉️ Sanskrit Case Functions"
   CASE_NAMES_DECK    = "#{CASE_FUNCTIONS_PARENT}::1. Names"
   CASE_USES_DECK     = "#{CASE_FUNCTIONS_PARENT}::2. Uses"
   CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::3. Examples"
+
+  # The declension decks, from the Arsha Bodha "Basic Terminations" handout and
+  # the nouns declined with it in class 15: the endings themselves (case + number
+  # -> ending), the endings shared by several cells (ending -> every cell), and
+  # whole paradigms of five त्-ending nouns. One parent, so each later model-noun
+  # handout (रामः/फलम्, शाला/दासी, …) can join as the next numbered subdeck.
+  DECLENSIONS_PARENT    = "🕉️ Sanskrit Declensions"
+  BASIC_ENDINGS_DECK    = "#{DECLENSIONS_PARENT}::1. Endings"
+  SHARED_ENDINGS_DECK   = "#{DECLENSIONS_PARENT}::2. Shared Endings"
+  T_NOUNS_DECK          = "#{DECLENSIONS_PARENT}::3. त्-Ending Nouns"
 
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)

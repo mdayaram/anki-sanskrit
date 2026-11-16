@@ -20,7 +20,7 @@ Unit tests for the pure transforms and shared primitives live in `test/` (minite
 
 ## Architecture
 
-Pipeline producing Anki import files for learning Sanskrit: the alphabet, numbers, a Vedānta glossary, the three sandhi families (joining and splitting), the case functions, mantras and the Bhagavad Gītā. Every category generator is a pure transform over a committed file in `data/` — `data/letters.json` for the alphabet categories, and its own JSON source of truth for every other deck. Only the standalone fetch scripts touch the network: `scrape_sanskrit.rb` (alphabet) and `fetch_gita.rb` (Gītā); the generated `sanskrit_*_anki.txt` files are committed too.
+Pipeline producing Anki import files for learning Sanskrit: the alphabet, numbers, a Vedānta glossary, the three sandhi families (joining and splitting), the case functions, the declensions, mantras and the Bhagavad Gītā. Every category generator is a pure transform over a committed file in `data/` — `data/letters.json` for the alphabet categories, and its own JSON source of truth for every other deck. Only the standalone fetch scripts touch the network: `scrape_sanskrit.rb` (alphabet) and `fetch_gita.rb` (Gītā); the generated `sanskrit_*_anki.txt` files are committed too.
 
 1. **`scrape_sanskrit.rb`** scrapes <https://enjoylearningsanskrit.com/sanskrit-alphabet-tutor/> and downloads mp3s from `sanskritserver.kautukam.com`, writing `data/letters.json` + `data/audio/*.mp3`. It stays a standalone script — not a `main.rb` subcommand — since it is the only networked step.
 2. **`main.rb`** is the single entry point for generation. It parses `--<category>` flags (or `--all`), loads `data/letters.json` once if any selected generator needs it (`requires_letters?`), runs each selected generator, then runs the audio-copy step if any generator referenced audio. Generators live in `lib/generators/` and share helpers in `lib/`.
@@ -48,6 +48,7 @@ Every deck family is a single entry in Anki's deck list: a family with several p
 🕉️ Sanskrit Sandhi Joining    ::1. Vowel  ::2. Visarga  ::3. External Consonant  ::4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  ::1. Vowel  ::2. Visarga  ::3. External Consonant  ::4. Internal Consonant
 🕉️ Sanskrit Case Functions    ::1. Names  ::2. Uses  ::3. Examples
+🕉️ Sanskrit Declensions       ::1. Endings  ::2. Shared Endings  ::3. त्-Ending Nouns
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
 ```
@@ -251,7 +252,7 @@ A deck (`🕉️ Sanskrit Numbers`, `Anki::NUMBERS_DECK`, `--numbers`) of 126 ca
 
 ### The case-function (vibhakti) decks
 
-The start of declension, built from the Arsha Bodha Beginning Sanskrit Grammar class (taught by Vasanthiji; handouts listed at <https://arshabodha.org/teachings/sanskrit-grammar/>, recordings in the YouTube playlist "Grammar Class N"). The class teaches what each case is *for* (handout [`Vibhakti_1.pdf`](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/Vibhakti_1.pdf), "Sanskrit Case Functions") before the endings, so these decks card the functions only, with **no endings** — those come later (BasicTerminations, then one model-noun handout per class: रामः/फलम्, शाला/दासी, …).
+The start of declension, built from the Arsha Bodha Beginning Sanskrit Grammar class (taught by Vasanthiji; handouts listed at <https://arshabodha.org/teachings/sanskrit-grammar/>, recordings in the YouTube playlist "Grammar Class N"). The class teaches what each case is *for* (handout [`Vibhakti_1.pdf`](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/Vibhakti_1.pdf), "Sanskrit Case Functions") before the endings, so these decks card the functions only, with **no endings** — those are the declension decks (see below).
 
 Three decks, **one per skill, nested under one parent** with Anki's `::` (`Anki::CASE_FUNCTIONS_PARENT` = `🕉️ Sanskrit Case Functions`) — the user's call to split them — numbered in study order (names → uses → examples), the same subdeck convention as the sandhi decks:
 
@@ -271,6 +272,23 @@ Three decks, **one per skill, nested under one parent** with Anki's `::` (`Anki:
 - Text uses curly quotes; the data test forbids ASCII `"` (a TSV field opening with one is read as quoted), tabs and markup.
 
 Validated by `test/case_functions_data_test.rb` (structure, handout numbering, every Devanagari↔IAST pair) and `test/case_functions_test.rb` (rendering; no front spoils its answer; keys unique across all three decks, since all use `#guid column:1`).
+
+### The declension decks
+
+The endings, from the Arsha Bodha [`BasicTerminations.pdf`](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/BasicTerminations.pdf) handout and class 15 (transcript via `yt-dlp --write-auto-subs`). Three decks under `Anki::DECLENSIONS_PARENT` (`🕉️ Sanskrit Declensions`); each later model-noun handout (रामः/फलम्, शाला/दासी, …) is meant to be the next numbered subdeck.
+
+| deck | constant | flag | key prefix | cards |
+|---|---|---|---|---|
+| `…::1. Endings` | `Anki::BASIC_ENDINGS_DECK` | `--basic-endings` | `basic_ending:` | 25 (21 m/f cells + vocative + 3 neuter) |
+| `…::2. Shared Endings` | `Anki::SHARED_ENDINGS_DECK` | `--shared-endings` | `shared_ending:` | 14 (one per distinct ending) |
+| `…::3. त्-Ending Nouns` | `Anki::T_NOUNS_DECK` | `--t-nouns` | `t_noun:` | 120 (5 nouns × 24 cells) |
+
+`data/declensions.json` is the **committed source of truth** (`endings` = the m/f table, 8 cases × 3 numbers incl. the vocative row; `neuter_endings` = the neuter's own nom/acc/voc − ई इ; `sandhi` = the text per change; `nouns` = each noun with all 24 forms and a `sandhi` tag per form). `lib/declensions.rb` (`Declensions`) loads it and holds the shared helpers (`ending` picks the neuter override by gender, `shared_endings` groups cells by ending, `ending_html` puts a bare ः on the dotted circle and spells out the empty neuter ending). Case names come from `data/case_functions.json` so they match the case-function decks. No audio, no JSON intermediate, `requires_letters? == false`.
+
+- **No Pāṇini sup names** (सु औ जस्…): neither the handout nor the class uses them (the user's call). The nominative singular is shown as the handout prints it, ः, with a note that the underlying ending is स्.
+- **The nouns are the class's**: मरुत् (m) and जगत् (n) were declined in class; इन्द्रजित् (m), विद्युत् (f) and बृहत् were the homework — बृहत् is an adjective that the teacher asked to be declined **as a neuter**, which is why it has no strong stem (बृहन्तम्) here. Every cell is carded, vocative included (the user wanted the extra practice).
+- **The teacher calls the त् → द् before भ् "internal sandhi"**; technically the stem is treated as a pada before भ्/सु endings. The card text describes the change ("a hard consonant followed by a soft one becomes soft") and points at external consonant sandhi rule 1 without picking a label.
+- **Every form is re-derived** by `test/declensions_data_test.rb` from stem + the handout ending for that cell and gender + its sandhi tag (`s_dropped`, `no_ending`, `voicing`, `hard_su`, `num`), and the tag itself is re-derived too, so a typo'd form or tag fails; the test also pins the endings table to the handout and runs every Devanagari through strict `valid_pair?`. This only works because all the nouns are त्-stems — a vowel-stem handout (राम) will need its own derivation or a plainly curated table. `test/declensions_test.rb` covers rendering (no front spoils its answer, keys unique across the three decks).
 
 ### Mantra audio is committed and trimmed by hand
 
