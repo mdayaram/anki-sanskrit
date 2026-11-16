@@ -24,7 +24,7 @@ module Generators
   class VisargaSandhi < Base
     KEY         = "visarga-sandhi"
     DESCRIPTION = "Visarga sandhi (Devanagari word pair -> combined form(s) + rule)"
-    OUTPUT_TXT  = "sanskrit_visarga_sandhi_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_joining_2_visarga_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::VISARGA_SANDHI_DECK

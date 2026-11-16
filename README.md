@@ -47,8 +47,8 @@ Start here. These are the building blocks of written Sanskrit:
 | 4. Conjuncts | 89 | The most common conjunct ligatures (प्र, क्त, स्त्र …). |
 | 5. Anusvāra | 36 | How the anusvāra (ं) is pronounced — one card per following consonant. |
 
-Vowels and consonants both come from the basic-letters file (`sanskrit_anki.txt`),
-which sets each card's subdeck itself.
+Vowels and consonants both come from one file
+(`sanskrit_alphabet_1-2_vowels_consonants_anki.txt`), which sets each card's subdeck itself.
 
 ### 2. 🕉️ Sanskrit Numbers — digits and number words
 
@@ -168,7 +168,9 @@ a literal and a devotional English translation, and a **recitation audio clip**.
 You'll need [Anki](https://apps.ankiweb.net/) and Ruby (any reasonably recent
 version — the generator uses only Ruby's standard library, no gems to install).
 
-The import files (`sanskrit_*_anki.txt`) are already committed, so you can skip
+The import files are already committed, each named after the deck it fills, so the
+listing reads in deck order (`sanskrit_declensions_1_endings_anki.txt`,
+`sanskrit_declensions_2_shared_endings_anki.txt`, …). You can skip
 straight to [importing](#importing-into-anki). To rebuild them, run `main.rb` from
 the repository root. Flags pick which files to generate, and they combine:
 

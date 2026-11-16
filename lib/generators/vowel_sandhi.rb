@@ -31,7 +31,7 @@ module Generators
   class VowelSandhi < Base
     KEY         = "vowel-sandhi"
     DESCRIPTION = "Vowel (svara) sandhi (Devanagari word pair -> combined form + rule)"
-    OUTPUT_TXT  = "sanskrit_vowel_sandhi_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_joining_1_vowel_anki.txt"
 
     # How the two pieces relate, shown on the card so the junction isn't misread.
     CONTEXTS = {

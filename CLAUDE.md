@@ -53,6 +53,8 @@ Every deck family is a single entry in Anki's deck list: a family with several p
 🕉️ Bhagavad Gita
 ```
 
+**Each file is named after its deck**: `sanskrit_` + the family (parent deck minus emoji and "Sanskrit") + the subdeck number + a short subdeck name + `_anki.txt` — e.g. `sanskrit_sandhi_splitting_2_visarga_anki.txt`, `sanskrit_declensions_3_t_nouns_anki.txt`, `sanskrit_vedanta_glossary_anki.txt` — so a directory listing sorts by family, then learning order. `test/deck_filenames_test.rb` enforces this for every generator, so a new subdeck needs a matching `OUTPUT_TXT`. The basic alphabet file fills two subdecks and is `sanskrit_alphabet_1-2_vowels_consonants_anki.txt`. Filenames mean nothing to Anki (notes match on the `#guid` key), so renaming a file never affects an imported collection.
+
 Each generator writes one file and normally names one deck (`Generators::Base#deck`). The exception is `--basic`, whose one file holds both `1. Vowels` and `2. Consonants`: its rows carry a 4th element naming their own deck, which `Anki.write_deck` turns into a `Deck` column (`#deck column:4`).
 
 **Renaming a deck constant does not move cards a user has already imported.** Anki applies the deck from an import file only to *new* notes; existing notes (matched by the `#guid column:1` key) are updated in place but stay in whatever deck they are in. So after any rename, tell the user to rename the existing deck inside Anki to the new name (renaming keeps review history), and regenerate + commit every affected `sanskrit_*_anki.txt`. Re-importing also never *deletes* a card a later version stopped generating, so a long-lived collection can hold orphans of dropped cards.

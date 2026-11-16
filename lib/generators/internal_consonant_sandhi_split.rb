@@ -30,7 +30,7 @@ module Generators
   class InternalConsonantSandhiSplit < Base
     KEY         = "internal-consonant-sandhi-split"
     DESCRIPTION = "Internal consonant sandhi splitting (combined word -> its parts + rule)"
-    OUTPUT_TXT  = "sanskrit_internal_consonant_sandhi_split_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_splitting_4_internal_consonant_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::INTERNAL_CONSONANT_SANDHI_SPLIT_DECK

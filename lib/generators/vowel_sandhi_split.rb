@@ -24,7 +24,7 @@ module Generators
   class VowelSandhiSplit < Base
     KEY         = "vowel-sandhi-split"
     DESCRIPTION = "Vowel (svara) sandhi splitting (combined form -> the two words + rule)"
-    OUTPUT_TXT  = "sanskrit_vowel_sandhi_split_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_splitting_1_vowel_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::VOWEL_SANDHI_SPLIT_DECK

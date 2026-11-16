@@ -20,7 +20,7 @@ module Generators
   class CaseExamples < Base
     KEY         = "case-examples"
     DESCRIPTION = "Sanskrit case examples (a sentence with one word in bold -> its case and use)"
-    OUTPUT_TXT  = "sanskrit_case_examples_anki.txt"
+    OUTPUT_TXT  = "sanskrit_case_functions_3_examples_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::CASE_EXAMPLES_DECK

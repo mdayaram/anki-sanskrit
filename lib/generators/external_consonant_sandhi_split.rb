@@ -32,7 +32,7 @@ module Generators
   class ExternalConsonantSandhiSplit < Base
     KEY         = "external-consonant-sandhi-split"
     DESCRIPTION = "External consonant sandhi splitting (combined form -> the two words + rule)"
-    OUTPUT_TXT  = "sanskrit_external_consonant_sandhi_split_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_splitting_3_external_consonant_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::EXTERNAL_CONSONANT_SANDHI_SPLIT_DECK

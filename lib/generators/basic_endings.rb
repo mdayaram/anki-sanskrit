@@ -17,7 +17,7 @@ module Generators
   class BasicEndings < Base
     KEY         = "basic-endings"
     DESCRIPTION = "Sanskrit basic case endings (case + number -> ending)"
-    OUTPUT_TXT  = "sanskrit_basic_endings_anki.txt"
+    OUTPUT_TXT  = "sanskrit_declensions_1_endings_anki.txt"
 
     # The worked example on each back: the masculine noun declined in class, and
     # the neuter one for the neuter cards.

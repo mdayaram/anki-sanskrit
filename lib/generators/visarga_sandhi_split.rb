@@ -26,7 +26,7 @@ module Generators
   class VisargaSandhiSplit < Base
     KEY         = "visarga-sandhi-split"
     DESCRIPTION = "Visarga sandhi splitting (combined form -> the two words + rule)"
-    OUTPUT_TXT  = "sanskrit_visarga_sandhi_split_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_splitting_2_visarga_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::VISARGA_SANDHI_SPLIT_DECK
