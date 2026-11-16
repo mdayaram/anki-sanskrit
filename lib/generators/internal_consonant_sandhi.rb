@@ -25,7 +25,7 @@ module Generators
   class InternalConsonantSandhi < Base
     KEY         = "internal-consonant-sandhi"
     DESCRIPTION = "Internal consonant sandhi (ṣatva/ṇatva: Devanagari parts -> combined word)"
-    OUTPUT_TXT  = "sanskrit_internal_consonant_sandhi_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_joining_4_internal_consonant_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::INTERNAL_CONSONANT_SANDHI_DECK

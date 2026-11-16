@@ -15,7 +15,7 @@ module Generators
   class Basic < Base
     KEY         = "basic"
     DESCRIPTION = "Basic alphabet — one card per letter (with audio)"
-    OUTPUT_TXT  = "sanskrit_anki.txt"
+    OUTPUT_TXT  = "sanskrit_alphabet_1-2_vowels_consonants_anki.txt"
 
     def build
       @letters

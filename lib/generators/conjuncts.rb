@@ -12,7 +12,7 @@ module Generators
   class Conjuncts < Base
     KEY         = "conjuncts"
     DESCRIPTION = "Conjunct consonants (saṃyuktākṣara ligatures)"
-    OUTPUT_TXT  = "sanskrit_conjuncts_anki.txt"
+    OUTPUT_TXT  = "sanskrit_alphabet_4_conjuncts_anki.txt"
     OUTPUT_JSON = "conjuncts.json"
 
     def deck = Anki::ALPHABET_CONJUNCTS_DECK

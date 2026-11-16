@@ -12,7 +12,7 @@ module Generators
   class Combinations < Base
     KEY         = "combinations"
     DESCRIPTION = "Consonant × vowel syllables (matras)"
-    OUTPUT_TXT  = "sanskrit_combinations_anki.txt"
+    OUTPUT_TXT  = "sanskrit_alphabet_3_combinations_anki.txt"
     OUTPUT_JSON = "combinations.json"
 
     def deck = Anki::ALPHABET_COMBINATIONS_DECK

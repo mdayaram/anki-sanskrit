@@ -16,7 +16,7 @@ module Generators
   class Anusvara < Base
     KEY         = "anusvara"
     DESCRIPTION = "Anusvāra pronunciation — one card per following consonant"
-    OUTPUT_TXT  = "sanskrit_anusvara_anki.txt"
+    OUTPUT_TXT  = "sanskrit_alphabet_5_anusvara_anki.txt"
     OUTPUT_JSON = "anusvara.json"
 
     def deck = Anki::ALPHABET_ANUSVARA_DECK

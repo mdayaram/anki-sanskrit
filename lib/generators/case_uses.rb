@@ -17,7 +17,7 @@ module Generators
   class CaseUses < Base
     KEY         = "case-uses"
     DESCRIPTION = "Sanskrit case uses (a use from the case-functions handout -> its case)"
-    OUTPUT_TXT  = "sanskrit_case_uses_anki.txt"
+    OUTPUT_TXT  = "sanskrit_case_functions_2_uses_anki.txt"
 
     MAX_EXAMPLES = 2
 

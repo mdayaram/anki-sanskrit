@@ -28,7 +28,7 @@ module Generators
   class ExternalConsonantSandhi < Base
     KEY         = "external-consonant-sandhi"
     DESCRIPTION = "External consonant sandhi (Devanagari word pair -> combined form(s) + rule)"
-    OUTPUT_TXT  = "sanskrit_external_consonant_sandhi_anki.txt"
+    OUTPUT_TXT  = "sanskrit_sandhi_joining_3_external_consonant_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::EXTERNAL_CONSONANT_SANDHI_DECK

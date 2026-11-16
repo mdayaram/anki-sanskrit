@@ -12,7 +12,7 @@ module Generators
   class Vedanta < Base
     KEY         = "vedanta"
     DESCRIPTION = "Vedanta glossary terms (Devanagari -> IAST + meaning)"
-    OUTPUT_TXT  = "sanskrit_vedanta_anki.txt"
+    OUTPUT_TXT  = "sanskrit_vedanta_glossary_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::VEDANTA_DECK

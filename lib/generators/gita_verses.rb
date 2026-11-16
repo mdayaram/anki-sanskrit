@@ -16,7 +16,7 @@ module Generators
   class GitaVerses < Base
     KEY         = "gita-verses"
     DESCRIPTION = "Bhagavad Gita verses (Devanagari -> IAST + translations + audio)"
-    OUTPUT_TXT  = "sanskrit_gita_verses_anki.txt"
+    OUTPUT_TXT  = "sanskrit_bhagavad_gita_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::GITA_DECK

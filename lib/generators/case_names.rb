@@ -15,7 +15,7 @@ module Generators
   class CaseNames < Base
     KEY         = "case-names"
     DESCRIPTION = "Sanskrit case names (प्रथमा … संबोधनम् <-> Nominative … Vocative)"
-    OUTPUT_TXT  = "sanskrit_case_names_anki.txt"
+    OUTPUT_TXT  = "sanskrit_case_functions_1_names_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::CASE_NAMES_DECK

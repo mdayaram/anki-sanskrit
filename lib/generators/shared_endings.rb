@@ -20,7 +20,7 @@ module Generators
   class SharedEndings < Base
     KEY         = "shared-endings"
     DESCRIPTION = "Sanskrit basic endings shared by several cases (ending -> every case + number)"
-    OUTPUT_TXT  = "sanskrit_shared_endings_anki.txt"
+    OUTPUT_TXT  = "sanskrit_declensions_2_shared_endings_anki.txt"
 
     SCOPES = { "m/f" => " (masc./fem.)", "n" => " (neuter)", "all" => "" }.freeze
 

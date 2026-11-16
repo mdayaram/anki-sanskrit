@@ -20,7 +20,7 @@ module Generators
   class TNouns < Base
     KEY         = "t-nouns"
     DESCRIPTION = "Five त्-ending nouns in every case and number (stem + case -> form)"
-    OUTPUT_TXT  = "sanskrit_t_nouns_anki.txt"
+    OUTPUT_TXT  = "sanskrit_declensions_3_t_nouns_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::T_NOUNS_DECK
