@@ -29,7 +29,7 @@ alphabetical sort show the subdecks in the order they're meant to be learned:
 🕉️ Vedanta Glossary
 🕉️ Sanskrit Sandhi Joining    1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
-🕉️ Sanskrit Case Functions    1. Names · 2. Uses · 3. Examples
+🕉️ Sanskrit Case Functions    1. Names · 2. Examples
 🕉️ Sanskrit Declensions       1. Endings · 2. Shared Endings · 3. त्-Ending Nouns
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
@@ -114,15 +114,14 @@ splitting direction, since splitting them teaches nothing.
 ### 5. 🕉️ Sanskrit Case Functions — what each case does
 
 The start of declension (*vibhakti*): before learning the endings, learn what each
-of the eight cases is *for*. Three subdecks, each drilling one skill from the Arsha
+of the eight cases is *for*. Two subdecks, each drilling one skill from the Arsha
 Bodha "Sanskrit Case Functions" handout:
 
-- **1. Names** (16 cards) — प्रथमा ↔ Nominative and so on, both directions, with each
-  case's core sense and English cue ("by, with", "from", "in, on, at").
-- **2. Uses** (40 cards) — one card per numbered use on the handout (1a … 8a): "the
-  object of love or devotion" → Locative. The back gives the handout's number and
-  up to two example sentences.
-- **3. Examples** (71 cards) — a sentence with one word in bold and its English
+- **1. Names** (8 cards) — Nominative → प्रथमा and so on (English to Sanskrit only,
+  since the class works with the English names), with each case's core sense and
+  English cue ("by, with", "from", "in, on, at") and every numbered use the handout
+  lists for that case (1a … 8a).
+- **2. Examples** (71 cards) — a sentence with one word in bold and its English
   underlined → which case and which use. Sentences come from the handout, the
   class, and the Goldman *Rāmāyaṇa* readings the class goes on to read (रामः सीतया
   सह गच्छति, पुत्रेण विना न जीवामि, रामाय तस्मै नमः). Sandhi is left broken, as on
@@ -194,8 +193,7 @@ the repository root. Flags pick which files to generate, and they combine:
 | `--external-consonant-sandhi` / `--external-consonant-sandhi-split` | External consonant sandhi | Sandhi Joining / Splitting › 3. External Consonant |
 | `--internal-consonant-sandhi` / `--internal-consonant-sandhi-split` | Internal consonant sandhi (ṣatva/ṇatva) | Sandhi Joining / Splitting › 4. Internal Consonant |
 | `--case-names` | Case names | Case Functions › 1. Names |
-| `--case-uses` | Case uses | Case Functions › 2. Uses |
-| `--case-examples` | Case example sentences | Case Functions › 3. Examples |
+| `--case-examples` | Case example sentences | Case Functions › 2. Examples |
 | `--basic-endings` | Basic case endings | Declensions › 1. Endings |
 | `--shared-endings` | Endings shared by several cases | Declensions › 2. Shared Endings |
 | `--t-nouns` | Five त्-ending nouns, every form | Declensions › 3. त्-Ending Nouns |

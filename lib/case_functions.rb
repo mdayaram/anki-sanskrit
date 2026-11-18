@@ -3,8 +3,8 @@
 require "json"
 require_relative "paths"
 
-# Loads data/case_functions.json, the committed source of truth for the three
-# case-function decks (case names, case uses, case examples). Pure reader, like
+# Loads data/case_functions.json, the committed source of truth for the two
+# case-function decks (case names with their uses, case examples). Pure reader, like
 # Numbers/VisargaSandhiDeck: nothing is derived, and the data is validated in
 # test/case_functions_data_test.rb.
 #
