@@ -66,8 +66,7 @@ module Anki
   # (endings and nouns) have their own parent, below.
   CASE_FUNCTIONS_PARENT = "🕉️ Sanskrit Case Functions"
   CASE_NAMES_DECK    = "#{CASE_FUNCTIONS_PARENT}::1. Names"
-  CASE_USES_DECK     = "#{CASE_FUNCTIONS_PARENT}::2. Uses"
-  CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::3. Examples"
+  CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::2. Examples"
 
   # The declension decks, from the Arsha Bodha "Basic Terminations" handout and
   # the nouns declined with it in class 15: the endings themselves (case + number

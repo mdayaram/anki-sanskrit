@@ -44,7 +44,7 @@ class AnkiTest < Minitest::Test
   end
 
   def test_case_function_subdecks_sort_in_learning_order
-    decks = [Anki::CASE_NAMES_DECK, Anki::CASE_USES_DECK, Anki::CASE_EXAMPLES_DECK]
+    decks = [Anki::CASE_NAMES_DECK, Anki::CASE_EXAMPLES_DECK]
     assert_equal decks.sort, decks
   end
 

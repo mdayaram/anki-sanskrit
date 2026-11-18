@@ -4,8 +4,8 @@ require_relative "base"
 require_relative "../case_functions"
 
 module Generators
-  # Example sentences, asked sentence -> case + use. One of the three
-  # case-function decks, all pure readers over data/case_functions.json.
+  # Example sentences, asked sentence -> case + use. One of the two
+  # case-function decks, both pure readers over data/case_functions.json.
   #
   #   Front: the sentence in Devanagari (sandhi broken, as in the handout) with the
   #          target word in bold, and the English with that word underlined. The
@@ -20,7 +20,7 @@ module Generators
   class CaseExamples < Base
     KEY         = "case-examples"
     DESCRIPTION = "Sanskrit case examples (a sentence with one word in bold -> its case and use)"
-    OUTPUT_TXT  = "sanskrit_case_functions_3_examples_anki.txt"
+    OUTPUT_TXT  = "sanskrit_case_functions_2_examples_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::CASE_EXAMPLES_DECK

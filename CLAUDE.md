@@ -47,7 +47,7 @@ Every deck family is a single entry in Anki's deck list: a family with several p
 🕉️ Vedanta Glossary
 🕉️ Sanskrit Sandhi Joining    ::1. Vowel  ::2. Visarga  ::3. External Consonant  ::4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  ::1. Vowel  ::2. Visarga  ::3. External Consonant  ::4. Internal Consonant
-🕉️ Sanskrit Case Functions    ::1. Names  ::2. Uses  ::3. Examples
+🕉️ Sanskrit Case Functions    ::1. Names  ::2. Examples
 🕉️ Sanskrit Declensions       ::1. Endings  ::2. Shared Endings  ::3. त्-Ending Nouns
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
@@ -256,24 +256,24 @@ A deck (`🕉️ Sanskrit Numbers`, `Anki::NUMBERS_DECK`, `--numbers`) of 126 ca
 
 The start of declension, built from the Arsha Bodha Beginning Sanskrit Grammar class (taught by Vasanthiji; handouts listed at <https://arshabodha.org/teachings/sanskrit-grammar/>, recordings in the YouTube playlist "Grammar Class N"). The class teaches what each case is *for* (handout [`Vibhakti_1.pdf`](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/Vibhakti_1.pdf), "Sanskrit Case Functions") before the endings, so these decks card the functions only, with **no endings** — those are the declension decks (see below).
 
-Three decks, **one per skill, nested under one parent** with Anki's `::` (`Anki::CASE_FUNCTIONS_PARENT` = `🕉️ Sanskrit Case Functions`) — the user's call to split them — numbered in study order (names → uses → examples), the same subdeck convention as the sandhi decks:
+Two decks, **one per skill, nested under one parent** with Anki's `::` (`Anki::CASE_FUNCTIONS_PARENT` = `🕉️ Sanskrit Case Functions`), numbered in study order (names → examples), the same subdeck convention as the sandhi decks:
 
 | deck | constant | flag | key prefix | cards |
 |---|---|---|---|---|
-| `…::1. Names` | `Anki::CASE_NAMES_DECK` | `--case-names` | `case_name:{sanskrit,english}:` | 16 (8 cases × both directions) |
-| `…::2. Uses` | `Anki::CASE_USES_DECK` | `--case-uses` | `case_use:` | 40 (one per handout use) |
-| `…::3. Examples` | `Anki::CASE_EXAMPLES_DECK` | `--case-examples` | `case_example:` | 71 |
+| `…::1. Names` | `Anki::CASE_NAMES_DECK` | `--case-names` | `case_name:english:` | 8 (English → Sanskrit only) |
+| `…::2. Examples` | `Anki::CASE_EXAMPLES_DECK` | `--case-examples` | `case_example:` | 71 |
 
-`data/case_functions.json` is the **committed source of truth** (sections `cases`, `uses`, `examples`) and the three generators (`lib/generators/case_{names,uses,examples}.rb`) are pure readers over it via `CaseFunctions.load` (`lib/case_functions.rb`, which also holds the shared rendering helpers `case_label`, `bold_target`, `english_html`). No audio, no JSON intermediate, `requires_letters? == false`.
+`data/case_functions.json` is the **committed source of truth** (sections `cases`, `uses`, `examples`) and the two generators (`lib/generators/case_{names,examples}.rb`) are pure readers over it via `CaseFunctions.load` (`lib/case_functions.rb`, which also holds the shared rendering helpers `case_label`, `bold_target`, `english_html`). No audio, no JSON intermediate, `requires_letters? == false`.
 
-- **`uses` is exactly the handout's numbered list** (1a–1e, 2a–2d, 3a–3j, 4a–4f, 5a–5e, 6a–6e, 7a–7d, 8a), asserted by the data test, so a card's "2c" is the learner's handout's 2c. Each use has a `description` (the handout's wording, shown on the back) and a `question` (the front), and the data test asserts no question names its own case — 7d originally quoted सति सप्तमी and gave the answer away. Uses with no example on the handout (3f, 3h, 4f, 5e, 6c, 6d, 7d) still get a card, just with no example on the back.
+- **Names is English → Sanskrit only, and carries the uses** (the user's call): the class works with the English case names, so the Sanskrit → English direction was dropped, and the separate Uses deck (one card per handout use, use → case) was dropped as too much — instead every handout use for a case is listed on the back of that case's Names card. `test/case_functions_test.rb` asserts each use appears on exactly its own case's card. Users who imported the earlier version still hold orphaned `case_name:sanskrit:*` and `case_use:*` notes (re-importing never deletes), to be deleted in Anki by hand.
+- **`uses` is exactly the handout's numbered list** (1a–1e, 2a–2d, 3a–3j, 4a–4f, 5a–5e, 6a–6e, 7a–7d, 8a), asserted by the data test, so a card's "2c" is the learner's handout's 2c. Each use has a `description` (the handout's wording, shown on the Names back and the Examples back) and a `question` — a case-hiding prompt that was the front of the removed Uses deck; it is unrendered now but kept (and still checked by the data test never to name its own case) so that deck can be restored.
 - **Example cards put the English on the front** (target word underlined, as the handout does) next to the Devanagari (target in bold). This is deliberate: the learner can't yet read the endings, and the deck tests the *function*. Each example names its target's stem, gender and number on the back; `source` records where it came from (`handout`, `class 13`, or `Goldman reading, Lesson N`).
 - **The Rāmāyaṇa examples come from Goldman's *Devavāṇīpraveśikā* reading sections**, which is what the class reads (scans at `…/SanskritMaterial/Reading/Ramayana{1..18}-Lesson-{4..21}.pdf`; the course culminates in reading the Rāmāyaṇa). Lessons 4–7 are carded so far, including several lines of the Lesson 5 memorisation verse रामो राजमणिः सदा विजयते… (memorised in class 26). One sentence is simplified from a relative clause and its `source` says "(adapted)".
 - **Sandhi is broken** in every sentence, as on the handout (रामः वनं गच्छति), so every sentence validates under the **strict** `valid_pair?` and the target is a whole space-separated word (`bold_target` matches whole tokens; the data test asserts the target occurs exactly once in both scripts).
 - **The vocative is named, not numbered**: per Pāṇini it is the nominative used for address, so the Names card says "listed 8th, after the seven numbered cases" and carries the note. Its IAST is `sambodhanam`, not `saṃbodhanam`: `to_iast` reads the anusvāra before ब as the homorganic m.
 - Text uses curly quotes; the data test forbids ASCII `"` (a TSV field opening with one is read as quoted), tabs and markup.
 
-Validated by `test/case_functions_data_test.rb` (structure, handout numbering, every Devanagari↔IAST pair) and `test/case_functions_test.rb` (rendering; no front spoils its answer; keys unique across all three decks, since all use `#guid column:1`).
+Validated by `test/case_functions_data_test.rb` (structure, handout numbering, every Devanagari↔IAST pair) and `test/case_functions_test.rb` (rendering; no front spoils its answer; keys unique across both decks, since all use `#guid column:1`).
 
 ### The declension decks
 
