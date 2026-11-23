@@ -43,15 +43,15 @@ class AnkiTest < Minitest::Test
     assert_equal joining.sort, joining, "joining subdecks sort in learning order"
   end
 
-  def test_case_function_subdecks_sort_in_learning_order
-    decks = [Anki::CASE_NAMES_DECK, Anki::CASE_EXAMPLES_DECK]
+  # The cases come first, then each noun paradigm.
+  def test_declension_subdecks_sort_in_learning_order
+    decks = [Anki::CASE_NAMES_DECK, Anki::T_NOUNS_DECK]
+    decks.each { |d| assert d.start_with?("#{Anki::DECLENSIONS_PARENT}::"), d }
     assert_equal decks.sort, decks
   end
 
-  def test_declension_subdecks_sort_in_learning_order
-    decks = [Anki::BASIC_ENDINGS_DECK, Anki::SHARED_ENDINGS_DECK, Anki::T_NOUNS_DECK]
-    decks.each { |d| assert d.start_with?("#{Anki::DECLENSIONS_PARENT}::"), d }
-    assert_equal decks.sort, decks
+  def test_case_subdeck_nests_under_its_paradigm
+    assert_equal "#{Anki::T_NOUNS_DECK}::3. Instrumental", Anki.case_subdeck(Anki::T_NOUNS_DECK, 3, "Instrumental")
   end
 
   # A row carrying a 4th element names its own deck: the file switches from a

@@ -2,22 +2,26 @@
 
 require_relative "base"
 require_relative "../case_functions"
+require_relative "../declensions"
 
 module Generators
-  # The eight Sanskrit case names, asked English -> Sanskrit. One of the two
-  # case-function decks, both pure readers over data/case_functions.json.
+  # The eight Sanskrit cases, asked English -> Sanskrit: the first subdeck of the
+  # declensions, a pure reader over data/case_functions.json (names and uses) and
+  # data/declensions.json (endings).
   #
   #   Front: Accusative
-  #   Back:  द्वितीया dvitīyā “second”, its core sense and cue, then every one of
-  #          the handout's numbered uses for that case (2a … 2d)
+  #   Back:  द्वितीया dvitīyā “second”, its core sense and cue, the case's basic
+  #          endings (singular · dual · plural, with the neuter's own row where it
+  #          differs), then every one of the handout's numbered uses (2a … 2d)
   #
   # Only the English -> Sanskrit direction is carded: the class works with the
-  # English case names. The handout's uses live on the back rather than in a deck
-  # of their own. No audio, no JSON intermediate.
+  # English case names. The endings are read from data/declensions.json, the same
+  # table the noun decks derive their forms from, so the two cannot drift apart.
+  # No audio, no JSON intermediate.
   class CaseNames < Base
     KEY         = "case-names"
-    DESCRIPTION = "Sanskrit case names (Nominative … Vocative -> प्रथमा … संबोधनम्, with every use)"
-    OUTPUT_TXT  = "sanskrit_case_functions_1_names_anki.txt"
+    DESCRIPTION = "Sanskrit cases (Nominative … Vocative -> प्रथमा … संबोधनम्, with endings and every use)"
+    OUTPUT_TXT  = "sanskrit_declensions_1_cases_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::CASE_NAMES_DECK
@@ -28,11 +32,12 @@ module Generators
     end
 
     def card(entry)
+      @declensions ||= Declensions.load
       c = entry["case"]
       front = "<center>#{'<big>' * 4}#{c['english']}#{'</big>' * 4}<br><small>Sanskrit name?</small></center>"
       back  = "<center>#{'<big>' * 4}#{c['devanagari']}#{'</big>' * 4}" \
               "<br><big>#{c['iast']}</big> “#{c['literal']}”" \
-              "#{details(c)}</center>#{uses_html(entry['uses'])}"
+              "#{details(c)}#{endings_html(c['id'])}</center>#{uses_html(entry['uses'])}"
       ["case_name:english:#{c['id']}", front, back]
     end
 
@@ -44,6 +49,32 @@ module Generators
       html << "<br>#{c['sense']}<br>cue: #{c['cue']}"
       html << "<br><br><small>#{c['note']}</small>" if c["note"]
       html
+    end
+
+    # The case's basic endings as a small table: one row for every gender, or,
+    # where the neuter has its own ending (nominative, accusative, vocative), a
+    # masculine/feminine row and a neuter row.
+    def endings_html(kase)
+      rows = if Declensions::NEUTER_CASES.include?(kase)
+               [["masc. / fem.", "m"], ["neuter", "n"]]
+             else
+               [["all genders", "m"]]
+             end
+      header = "<tr><td></td>#{Declensions::NUMBERS.map { |n| "<td><small>#{n}</small></td>" }.join}</tr>"
+      body = rows.map do |label, gender|
+        cells = Declensions::NUMBERS.map { |n| "<td><b>#{ending_cell(kase, n, gender)}</b></td>" }.join
+        "<tr><td><small>#{label}</small></td>#{cells}</tr>"
+      end.join
+      notes = Declensions::NUMBERS.filter_map { |n| Declensions.mf_ending(@declensions, kase, n)["note"] }.uniq
+      html = +"<br><br><b>Endings</b><table>#{header}#{body}</table>"
+      html << notes.map { |note| "<small>#{note}</small>" }.join("<br>")
+      html
+    end
+
+    # An ending in a table cell: the neuter's empty ending is a bare dash.
+    def ending_cell(kase, number, gender)
+      e = Declensions.ending(@declensions, kase, number, gender)
+      e["devanagari"].empty? ? "—" : Declensions.ending_html(e)
     end
 
     # The handout's numbered uses, left-aligned so a long list stays readable.

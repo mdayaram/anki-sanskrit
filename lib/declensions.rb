@@ -60,29 +60,6 @@ module Declensions
     dev.start_with?("ः") ? "◌#{dev}" : dev
   end
 
-  def self.ending_iast(e) = e["iast"].empty? ? "no ending" : "-#{e['iast']}"
-
-  # Every distinct ending -> the cells it marks, in table order:
-  #   { "अः" => { "ending" => record, "cells" => [{case, number, scope}] } }
-  # scope is "m/f" for a nominative/accusative/vocative cell (the neuter has its
-  # own ending there), "n" for a neuter ending, and "all" otherwise. The neuter's
-  # empty ending is left out: there is nothing to recognise.
-  def self.shared_endings(data)
-    groups = {}
-    add = lambda do |e, scope|
-      next if e["devanagari"].empty?
-
-      g = groups[e["devanagari"]] ||= { "ending" => e, "cells" => [] }
-      g["cells"] << { "case" => e["case"], "number" => e["number"], "scope" => scope }
-    end
-    data["endings"].each { |e| add.call(e, NEUTER_CASES.include?(e["case"]) ? "m/f" : "all") }
-    data["neuter_endings"].each { |e| add.call(e, "n") }
-    groups
-  end
-
-  def self.noun(data, iast) = data["nouns"].find { |n| n["iast"] == iast } || raise(KeyError, "no noun #{iast}")
-  def self.form(noun, kase, number) = noun["forms"].find { |f| f["case"] == kase && f["number"] == number }
-
   # "मरुत् + भिः → मरुद्भिः", the working shown on a form's back.
   def self.working(noun, form, ending)
     "#{noun['devanagari']} + #{ending_html(ending)} → #{form['devanagari']}"
