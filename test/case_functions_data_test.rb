@@ -5,7 +5,8 @@ require_relative "../lib/case_functions"
 require_relative "../lib/iast_devanagari"
 
 # Data-integrity check on data/case_functions.json, the committed source of truth
-# for the three case-function decks (names, uses, examples). Nothing is derived,
+# for the cases deck (names and uses) and for the example sentences, which no
+# deck renders yet but are kept for a later one. Nothing is derived,
 # so this is the only validation: the cases and uses must match the Arsha Bodha
 # "Sanskrit Case Functions" handout's numbering, every example must point at a
 # real use, and every stored Devanagari must read as exactly its stored IAST.

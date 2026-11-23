@@ -58,25 +58,19 @@ module Anki
   # ordinals as they appear in Gita colophons, and the compounding rules.
   NUMBERS_DECK = "🕉️ Sanskrit Numbers"
 
-  # The three case-function (vibhakti) decks, from the Arsha Bodha "Sanskrit Case
-  # Functions" handout: the case names, the handout's numbered uses (use -> case),
-  # and example sentences (sentence -> case + use). Separate decks so each skill is
-  # studied on its own, nested under one parent with Anki's "::" so they sit
-  # together, numbered in the order they are learned. The declension decks
-  # (endings and nouns) have their own parent, below.
-  CASE_FUNCTIONS_PARENT = "🕉️ Sanskrit Case Functions"
-  CASE_NAMES_DECK    = "#{CASE_FUNCTIONS_PARENT}::1. Names"
-  CASE_EXAMPLES_DECK = "#{CASE_FUNCTIONS_PARENT}::2. Examples"
+  # The declension decks. First the eight cases themselves (English name ->
+  # Sanskrit name, with the case's uses from the "Sanskrit Case Functions"
+  # handout and its endings from the "Basic Terminations" handout), then one
+  # subdeck per noun paradigm, paradigm first: each paradigm holds one subdeck
+  # per case, numbered by the case's own Sanskrit number (prathamā = 1), so a
+  # case can be practised on its own. Each later model-noun handout (रामः/फलम्,
+  # शाला/दासी, …) joins as the next numbered paradigm with the same 8 subdecks.
+  DECLENSIONS_PARENT = "🕉️ Sanskrit Declensions"
+  CASE_NAMES_DECK    = "#{DECLENSIONS_PARENT}::1. Cases"
+  T_NOUNS_DECK       = "#{DECLENSIONS_PARENT}::2. त्-Ending Nouns"
 
-  # The declension decks, from the Arsha Bodha "Basic Terminations" handout and
-  # the nouns declined with it in class 15: the endings themselves (case + number
-  # -> ending), the endings shared by several cells (ending -> every cell), and
-  # whole paradigms of five त्-ending nouns. One parent, so each later model-noun
-  # handout (रामः/फलम्, शाला/दासी, …) can join as the next numbered subdeck.
-  DECLENSIONS_PARENT    = "🕉️ Sanskrit Declensions"
-  BASIC_ENDINGS_DECK    = "#{DECLENSIONS_PARENT}::1. Endings"
-  SHARED_ENDINGS_DECK   = "#{DECLENSIONS_PARENT}::2. Shared Endings"
-  T_NOUNS_DECK          = "#{DECLENSIONS_PARENT}::3. त्-Ending Nouns"
+  # "<paradigm>::3. Instrumental" — a paradigm's subdeck for one case.
+  def self.case_subdeck(paradigm, number, english) = "#{paradigm}::#{number}. #{english}"
 
   # A large centered glyph: the text wrapped in five nested <big> tags.
   def self.glyph_front(text)

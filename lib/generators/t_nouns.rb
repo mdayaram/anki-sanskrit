@@ -15,12 +15,16 @@ module Generators
   #   Back:  the form, stem + ending → form, the sandhi note when the join
   #          changed something, and the other cells with the same form
   #
-  # Every cell gets a card, vocative included. A pure reader over
+  # Every cell gets a card, vocative included. The cards are split into one
+  # subdeck per case (त्-Ending Nouns::3. Instrumental, numbered by the case's
+  # Sanskrit number), so each case can be practised on its own; every row names
+  # its own deck. The front still names the case, so the cards read the same
+  # when the whole paradigm is studied at once. A pure reader over
   # data/declensions.json. No audio, no JSON intermediate.
   class TNouns < Base
     KEY         = "t-nouns"
-    DESCRIPTION = "Five त्-ending nouns in every case and number (stem + case -> form)"
-    OUTPUT_TXT  = "sanskrit_declensions_3_t_nouns_anki.txt"
+    DESCRIPTION = "Five त्-ending nouns in every case and number, one subdeck per case (stem + case -> form)"
+    OUTPUT_TXT  = "sanskrit_declensions_2_t_nouns_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::T_NOUNS_DECK
@@ -49,7 +53,15 @@ module Generators
       back << "<br><br>Same form: #{same.map { |f| Declensions.cell_name(f['case'], f['number']) }.join(', ')}" unless same.empty?
       back << "<br><br><small>#{noun['note']}</small>" if noun["note"]
       back << "</center>"
-      ["t_noun:#{noun['iast']}:#{kase}:#{number}", front, back]
+      ["t_noun:#{noun['iast']}:#{kase}:#{number}", front, back, case_deck(kase)]
+    end
+
+    private
+
+    # This case's subdeck: "…::2. त्-Ending Nouns::3. Instrumental".
+    def case_deck(kase)
+      c = Declensions.case_names.fetch(kase)
+      Anki.case_subdeck(deck, c["number"], c["english"])
     end
   end
 end

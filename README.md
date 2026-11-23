@@ -15,7 +15,7 @@ load them into Anki right away.
 
 ## The decks
 
-There are eight deck families, designed to be learned roughly in order — each one
+There are seven deck families, designed to be learned roughly in order — each one
 builds on the last. They're independent, though, so you can generate and import
 any of them on their own.
 
@@ -29,8 +29,7 @@ alphabetical sort show the subdecks in the order they're meant to be learned:
 🕉️ Vedanta Glossary
 🕉️ Sanskrit Sandhi Joining    1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
-🕉️ Sanskrit Case Functions    1. Names · 2. Examples
-🕉️ Sanskrit Declensions       1. Endings · 2. Shared Endings · 3. त्-Ending Nouns
+🕉️ Sanskrit Declensions       1. Cases · 2. त्-Ending Nouns (1. Nominative … 8. Vocative)
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
 ```
@@ -111,52 +110,35 @@ dictionary form, the card shows where it came from (वाक् ← वाच�
 are deliberate contrasts where the rule does *not* fire; those aren't carded in the
 splitting direction, since splitting them teaches nothing.
 
-### 5. 🕉️ Sanskrit Case Functions — what each case does
+### 5. 🕉️ Sanskrit Declensions — the cases and their endings, put to use
 
-The start of declension (*vibhakti*): before learning the endings, learn what each
-of the eight cases is *for*. Two subdecks, each drilling one skill from the Arsha
-Bodha "Sanskrit Case Functions" handout:
+Declension (*vibhakti*) from the Arsha Bodha Beginning Sanskrit Grammar class: the
+eight cases once, then whole nouns declined through every one of them.
 
-- **1. Names** (8 cards) — Nominative → प्रथमा and so on (English to Sanskrit only,
-  since the class works with the English names), with each case's core sense and
-  English cue ("by, with", "from", "in, on, at") and every numbered use the handout
-  lists for that case (1a … 8a).
-- **2. Examples** (71 cards) — a sentence with one word in bold and its English
-  underlined → which case and which use. Sentences come from the handout, the
-  class, and the Goldman *Rāmāyaṇa* readings the class goes on to read (रामः सीतया
-  सह गच्छति, पुत्रेण विना न जीवामि, रामाय तस्मै नमः). Sandhi is left broken, as on
-  the handout.
-
-No audio.
-
-### 6. 🕉️ Sanskrit Declensions — the case endings
-
-The endings themselves, from the Arsha Bodha "Basic Terminations" handout and the
-nouns declined with it in class. Each later model-noun handout (रामः/फलम्,
-शाला/दासी, …) is meant to join this family as the next numbered subdeck.
-
-- **1. Endings** (25 cards) — a case and number → its basic ending: *Instrumental
-  dual* → भ्याम्. The back shows the whole row and names the other cells with the
-  same ending. One card covers the vocative (it repeats the nominative), and three
-  cover the neuter's own nominative/accusative (no ending, ई, इ).
-- **2. Shared Endings** (14 cards) — the class exercise of circling the identical
-  endings, as cards: an ending → every case and number it marks (अः → nominative
-  and accusative plural, ablative and genitive singular).
-- **3. त्-Ending Nouns** (120 cards) — five nouns in every case and number: मरुत्
+- **1. Cases** (8 cards) — Nominative → प्रथमा and so on (English to Sanskrit only,
+  since the class works with the English names). The back gives the case's core
+  sense and English cue ("by, with", "from", "in, on, at"), its **basic endings**
+  for singular, dual and plural (with the neuter's own row for the nominative,
+  accusative and vocative), and every numbered use the "Sanskrit Case Functions"
+  handout lists for that case (1a … 8a).
+- **2. त्-Ending Nouns** (120 cards) — five nouns in every case and number: मरुत्
   "wind" and जगत् "world", declined in class, and the homework nouns इन्द्रजित्,
   विद्युत् "lightning" and बृहत् "big" (declined as a neuter). *मरुत्, instrumental
   plural* → मरुद्भिः. The back shows the working (मरुत् + भिः → मरुद्भिः), explains
-  any sandhi change, and names the other cells with the same form.
+  any sandhi change, and names the other cells with the same form. The cards are
+  split into **one subdeck per case** (1. Nominative … 8. Vocative, numbered like
+  the Sanskrit cases), so each case can be drilled on its own before mixing them.
 
-No audio.
+Each later model-noun handout (रामः/फलम्, शाला/दासी, …) is meant to join as the next
+numbered paradigm, with the same eight case subdecks. No audio.
 
-### 7. 🕉️ Sanskrit Mantras — whole mantras with a recitation
+### 6. 🕉️ Sanskrit Mantras — whole mantras with a recitation
 
 Two cards: the Gāyatrī mantra and Ādi Śaṅkara's Prātaḥ Smaraṇa Stotram. Front: the
 mantra in Devanāgarī, and nothing else. Back: an English translation and a
 **recitation audio clip**.
 
-### 8. 🕉️ Bhagavad Gita — read whole verses
+### 7. 🕉️ Bhagavad Gita — read whole verses
 
 With the script and a base vocabulary in hand, move on to real text: 640 cards of
 whole-verse reading practice. Front: the Devanāgarī verse(s). Back: transliteration,
@@ -168,8 +150,8 @@ You'll need [Anki](https://apps.ankiweb.net/) and Ruby (any reasonably recent
 version — the generator uses only Ruby's standard library, no gems to install).
 
 The import files are already committed, each named after the deck it fills, so the
-listing reads in deck order (`sanskrit_declensions_1_endings_anki.txt`,
-`sanskrit_declensions_2_shared_endings_anki.txt`, …). You can skip
+listing reads in deck order (`sanskrit_declensions_1_cases_anki.txt`,
+`sanskrit_declensions_2_t_nouns_anki.txt`, …). You can skip
 straight to [importing](#importing-into-anki). To rebuild them, run `main.rb` from
 the repository root. Flags pick which files to generate, and they combine:
 
@@ -192,11 +174,8 @@ the repository root. Flags pick which files to generate, and they combine:
 | `--visarga-sandhi` / `--visarga-sandhi-split` | Visarga sandhi | Sandhi Joining / Splitting › 2. Visarga |
 | `--external-consonant-sandhi` / `--external-consonant-sandhi-split` | External consonant sandhi | Sandhi Joining / Splitting › 3. External Consonant |
 | `--internal-consonant-sandhi` / `--internal-consonant-sandhi-split` | Internal consonant sandhi (ṣatva/ṇatva) | Sandhi Joining / Splitting › 4. Internal Consonant |
-| `--case-names` | Case names | Case Functions › 1. Names |
-| `--case-examples` | Case example sentences | Case Functions › 2. Examples |
-| `--basic-endings` | Basic case endings | Declensions › 1. Endings |
-| `--shared-endings` | Endings shared by several cases | Declensions › 2. Shared Endings |
-| `--t-nouns` | Five त्-ending nouns, every form | Declensions › 3. त्-Ending Nouns |
+| `--case-names` | The eight cases, with endings and uses | Declensions › 1. Cases |
+| `--t-nouns` | Five त्-ending nouns, every form | Declensions › 2. त्-Ending Nouns › 1. Nominative … 8. Vocative |
 | `--mantras` | Mantras (with audio) | Mantras |
 | `--gita-verses` | Bhagavad Gītā verses (with audio) | Bhagavad Gita |
 
@@ -296,18 +275,16 @@ thanks to everyone below — please visit and support the original sources.
   — used to verify every rule against an independent statement of it, and the
   source of further worked examples.
 
-### The case-function decks
+### The declension decks
 
 - **["Sanskrit Case Functions" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/Vibhakti_1.pdf)**
   from the **[Arsha Bodha Center](https://arshabodha.org/teachings/sanskrit-grammar/)**
-  Beginning Sanskrit Grammar class (taught by Vasanthiji) — the source of the cases,
-  their numbered uses, and many of the example sentences; further examples come
-  from the class itself.
+  Beginning Sanskrit Grammar class (taught by Vasanthiji) — the source of the cases
+  and their numbered uses.
 - **Robert P. Goldman's *Devavāṇīpraveśikā*** — the graded *Rāmāyaṇa* readings
-  (Lessons 4–7) that the class reads, the source of the Rāmāyaṇa example sentences.
-
-### The declension decks
-
+  (Lessons 4–7) that the class reads. Example sentences from them (with others from
+  the handout and the class) are kept in `data/case_functions.json` for a later deck,
+  though no deck currently cards them.
 - **["Basic Terminations" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/BasicTerminations.pdf)**
   from the same Arsha Bodha class — the table of endings, and (from the class
   recording) the five nouns declined with it and the sandhi points made along the way.
