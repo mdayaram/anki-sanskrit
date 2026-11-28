@@ -24,7 +24,7 @@ module Generators
   class TNouns < Base
     KEY         = "t-nouns"
     DESCRIPTION = "Five त्-ending nouns in every case and number, one subdeck per case (stem + case -> form)"
-    OUTPUT_TXT  = "sanskrit_declensions_2_t_nouns_anki.txt"
+    OUTPUT_TXT  = "sanskrit_declensions_3_t_nouns_anki.txt"
 
     def self.requires_letters? = false
     def deck = Anki::T_NOUNS_DECK
@@ -58,7 +58,7 @@ module Generators
 
     private
 
-    # This case's subdeck: "…::2. त्-Ending Nouns::3. Instrumental".
+    # This case's subdeck: "…::3. त्-Ending Nouns::3. Instrumental".
     def case_deck(kase)
       c = Declensions.case_names.fetch(kase)
       Anki.case_subdeck(deck, c["number"], c["english"])

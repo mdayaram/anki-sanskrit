@@ -67,7 +67,7 @@ module Anki
   # शाला/दासी, …) joins as the next numbered paradigm with the same 8 subdecks.
   DECLENSIONS_PARENT = "🕉️ Sanskrit Declensions"
   CASE_NAMES_DECK    = "#{DECLENSIONS_PARENT}::1. Cases"
-  T_NOUNS_DECK       = "#{DECLENSIONS_PARENT}::2. त्-Ending Nouns"
+  T_NOUNS_DECK       = "#{DECLENSIONS_PARENT}::3. त्-Ending Nouns"
 
   # "<paradigm>::3. Instrumental" — a paradigm's subdeck for one case.
   def self.case_subdeck(paradigm, number, english) = "#{paradigm}::#{number}. #{english}"

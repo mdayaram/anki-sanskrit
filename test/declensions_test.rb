@@ -11,7 +11,7 @@ class DeclensionsTest < Minitest::Test
   def cards = @cards ||= gen.build.map { |e| [e, gen.card(e)] }
 
   def test_paradigm_is_a_declensions_subdeck
-    assert_equal "#{Anki::DECLENSIONS_PARENT}::2. त्-Ending Nouns", gen.deck
+    assert_equal "#{Anki::DECLENSIONS_PARENT}::3. त्-Ending Nouns", gen.deck
     refute Generators::TNouns.requires_letters?
   end
 

@@ -47,12 +47,12 @@ Every deck family is a single entry in Anki's deck list: a family with several p
 🕉️ Vedanta Glossary
 🕉️ Sanskrit Sandhi Joining    ::1. Vowel  ::2. Visarga  ::3. External Consonant  ::4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  ::1. Vowel  ::2. Visarga  ::3. External Consonant  ::4. Internal Consonant
-🕉️ Sanskrit Declensions       ::1. Cases  ::2. त्-Ending Nouns::{1. Nominative … 8. Vocative}
+🕉️ Sanskrit Declensions       ::1. Cases  ::2. Case Analysis  ::3. त्-Ending Nouns::{1. Nominative … 8. Vocative}
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
 ```
 
-**Each file is named after its deck**: `sanskrit_` + the family (parent deck minus emoji and "Sanskrit") + the subdeck number + a short subdeck name + `_anki.txt` — e.g. `sanskrit_sandhi_splitting_2_visarga_anki.txt`, `sanskrit_declensions_2_t_nouns_anki.txt`, `sanskrit_vedanta_glossary_anki.txt` — so a directory listing sorts by family, then learning order. `test/deck_filenames_test.rb` enforces this for every generator, so a new subdeck needs a matching `OUTPUT_TXT`. The basic alphabet file fills two subdecks and is `sanskrit_alphabet_1-2_vowels_consonants_anki.txt`; a noun-paradigm file fills its paradigm's eight case subdecks and is numbered by the paradigm (`sanskrit_declensions_2_t_nouns_anki.txt`). Filenames mean nothing to Anki (notes match on the `#guid` key), so renaming a file never affects an imported collection.
+**Each file is named after its deck**: `sanskrit_` + the family (parent deck minus emoji and "Sanskrit") + the subdeck number + a short subdeck name + `_anki.txt` — e.g. `sanskrit_sandhi_splitting_2_visarga_anki.txt`, `sanskrit_declensions_3_t_nouns_anki.txt`, `sanskrit_vedanta_glossary_anki.txt` — so a directory listing sorts by family, then learning order. `test/deck_filenames_test.rb` enforces this for every generator, so a new subdeck needs a matching `OUTPUT_TXT`. The basic alphabet file fills two subdecks and is `sanskrit_alphabet_1-2_vowels_consonants_anki.txt`; a noun-paradigm file fills its paradigm's eight case subdecks and is numbered by the paradigm (`sanskrit_declensions_3_t_nouns_anki.txt`). Filenames mean nothing to Anki (notes match on the `#guid` key), so renaming a file never affects an imported collection.
 
 Each generator writes one file and normally names one deck (`Generators::Base#deck`). The exceptions are `--basic`, whose one file holds both `1. Vowels` and `2. Consonants`, and `--t-nouns`, whose one file fills the eight case subdecks of its paradigm: their rows carry a 4th element naming their own deck, which `Anki.write_deck` turns into a `Deck` column (`#deck column:4`).
 
@@ -258,7 +258,7 @@ Declension (*vibhakti*), built from the Arsha Bodha Beginning Sanskrit Grammar c
 | deck | constant | flag | key prefix | cards |
 |---|---|---|---|---|
 | `…::1. Cases` | `Anki::CASE_NAMES_DECK` | `--case-names` | `case_name:english:` | 8 |
-| `…::2. त्-Ending Nouns::1. Nominative` … `::8. Vocative` | `Anki::T_NOUNS_DECK` (+ `Anki.case_subdeck`) | `--t-nouns` | `t_noun:` | 120 (15 per case: 5 nouns × 3 numbers) |
+| `…::3. त्-Ending Nouns::1. Nominative` … `::8. Vocative` | `Anki::T_NOUNS_DECK` (+ `Anki.case_subdeck`) | `--t-nouns` | `t_noun:` | 120 (15 per case: 5 nouns × 3 numbers) |
 
 **Practice over terminology (the user's call, after a first version).** The family used to hold five decks — case names, a case-example sentence deck, an endings deck (case + number → ending), a shared-endings deck (ending → every cell it marks) and the nouns. The user found that this drilled grammar vocabulary rather than its use, so: the endings moved onto the back of the Cases cards (making the endings deck redundant); the shared-endings deck was dropped as reference material for a sheet, not a flashcard; the example-sentence deck was dropped because function-only sentences are not useful before the endings are known — **but the 71 examples stay in `data/case_functions.json`**, still validated, for a later deck (likely context sentences for a vowel-stem paradigm, since they use राम, गुरु, वन…); and the noun paradigm became the core, split by case. The case-function decks used to be their own family, `🕉️ Sanskrit Case Functions`; the user chose to delete the old decks in Anki and re-import rather than move cards (their review history was not worth keeping), so no migration was needed.
 
@@ -275,11 +275,11 @@ Data: `data/case_functions.json` (sections `cases`, `uses`, `examples`; via `Cas
 
 **The noun paradigms** (`lib/generators/t_nouns.rb`):
 
-- **One subdeck per case**, numbered by the case's Sanskrit number (`Anki.case_subdeck(paradigm, number, english)` → `…::2. त्-Ending Nouns::3. Instrumental`), so a case can be drilled on its own; every row names its deck (the `Deck` column). The front still names the case, so cards read the same when the whole paradigm is studied at once. Front: stem, gender, meaning, cell; back: the form, the working (मरुत् + भिः → मरुद्भिः), the sandhi note, and the other cells with the same form.
+- **One subdeck per case**, numbered by the case's Sanskrit number (`Anki.case_subdeck(paradigm, number, english)` → `…::3. त्-Ending Nouns::3. Instrumental`), so a case can be drilled on its own; every row names its deck (the `Deck` column). The front still names the case, so cards read the same when the whole paradigm is studied at once. Front: stem, gender, meaning, cell; back: the form, the working (मरुत् + भिः → मरुद्भिः), the sandhi note, and the other cells with the same form.
 - **The nouns are the class's**: मरुत् (m) and जगत् (n) were declined in class; इन्द्रजित् (m), विद्युत् (f) and बृहत् were the homework — बृहत् is an adjective that the teacher asked to be declined **as a neuter**, which is why it has no strong stem (बृहन्तम्) here. Every cell is carded, vocative included.
 - **The teacher calls the त् → द् before भ् "internal sandhi"**; technically the stem is treated as a pada before भ्/सु endings. The card text describes the change ("a hard consonant followed by a soft one becomes soft") and points at external consonant sandhi rule 1 without picking a label.
 - **Every form is re-derived** by `test/declensions_data_test.rb` from stem + the handout ending for that cell and gender + its sandhi tag (`s_dropped`, `no_ending`, `voicing`, `hard_su`, `num`), and the tag itself is re-derived too, so a typo'd form or tag fails; the test also pins the endings table to the handout and runs every Devanagari through strict `valid_pair?`. This only works because all the nouns are त्-stems — a vowel-stem handout (राम) will need its own derivation or a plainly curated table. `test/declensions_test.rb` covers rendering (no front spoils its answer; exactly 8 case subdecks of 15).
-- **Next paradigms** (रामः/फलम्, शाला/दासी, …) join as `3. …`, `4. …`, each with the same eight case subdecks. **Recognition cards** (form → stem + every cell it could be) are wanted later, as their own subdeck per paradigm — they cannot live inside a case subdeck, whose name would give the answer away.
+- **Next paradigms** (रामः/फलम्, शाला/दासी, …) join as `4. …`, `5. …`, each with the same eight case subdecks. **Recognition cards** (form → stem + every cell it could be) are wanted later, as their own subdeck per paradigm — they cannot live inside a case subdeck, whose name would give the answer away.
 
 ### Mantra audio is committed and trimmed by hand
 
