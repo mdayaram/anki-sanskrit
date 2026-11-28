@@ -76,6 +76,17 @@ class CaseAnalysisDataTest < Minitest::Test
     assert_empty UNCOVERED_USES.keys & covered, "a use listed as uncovered now has a sentence"
   end
 
+  # An alternative is a second reading of the same form, so it can change the
+  # use but never the case: a form like प्रतिज्ञां can only be accusative, and a
+  # remark about how a differently worded sentence would go belongs in the reason.
+  def test_alternatives_keep_the_words_case
+    words.each do |s, w|
+      w["alternatives"].each do |alt|
+        assert_equal w["case"], alt["case"], "#{s['id']} / #{w['devanagari']}: alternative changes the case"
+      end
+    end
+  end
+
   def test_beyond_handout_rows_cite_a_reference
     words.each do |s, w|
       next if w["use"]

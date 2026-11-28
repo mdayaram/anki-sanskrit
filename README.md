@@ -29,7 +29,7 @@ alphabetical sort show the subdecks in the order they're meant to be learned:
 🕉️ Vedanta Glossary
 🕉️ Sanskrit Sandhi Joining    1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
 🕉️ Sanskrit Sandhi Splitting  1. Vowel · 2. Visarga · 3. External Consonant · 4. Internal Consonant
-🕉️ Sanskrit Declensions       1. Cases · 2. त्-Ending Nouns (1. Nominative … 8. Vocative)
+🕉️ Sanskrit Declensions       1. Cases · 2. Case Analysis · 3. त्-Ending Nouns (1. Nominative … 8. Vocative)
 🕉️ Sanskrit Mantras
 🕉️ Bhagavad Gita
 ```
@@ -113,7 +113,8 @@ splitting direction, since splitting them teaches nothing.
 ### 5. 🕉️ Sanskrit Declensions — the cases and their endings, put to use
 
 Declension (*vibhakti*) from the Arsha Bodha Beginning Sanskrit Grammar class: the
-eight cases once, then whole nouns declined through every one of them.
+eight cases once, then recognising them in real sentences, then whole nouns
+declined through every one of them.
 
 - **1. Cases** (8 cards) — Nominative → प्रथमा and so on (English to Sanskrit only,
   since the class works with the English names). The back gives the case's core
@@ -121,7 +122,17 @@ eight cases once, then whole nouns declined through every one of them.
   for singular, dual and plural (with the neuter's own row for the nominative,
   accusative and vocative), and every numbered use the "Sanskrit Case Functions"
   handout lists for that case (1a … 8a).
-- **2. त्-Ending Nouns** (120 cards) — five nouns in every case and number: मरुत्
+- **2. Case Analysis** (61 cards) — a *Rāmāyaṇa* sentence in English on the front
+  ("Rāma comes for the protection of the sages from the rākṣasas."); on the back,
+  the Sanskrit and every declined word with its label in the class's notation
+  (`mNs` = masculine Nominative singular; Ablative is `Ab`) and the reason it takes
+  that case — "the ones protected: object of the verb-derived noun रक्षण
+  'protecting'". Most sentences are the class's own Goldman readings (Lessons
+  4–10); the rest are composed, always about the *Rāmāyaṇa*, so that every use on
+  the case-functions handout comes up. Uses the handout doesn't list (the
+  accusative of time, "best *of* women") are marked "beyond the handout", with a
+  grammar reference.
+- **3. त्-Ending Nouns** (120 cards) — five nouns in every case and number: मरुत्
   "wind" and जगत् "world", declined in class, and the homework nouns इन्द्रजित्,
   विद्युत् "lightning" and बृहत् "big" (declined as a neuter). *मरुत्, instrumental
   plural* → मरुद्भिः. The back shows the working (मरुत् + भिः → मरुद्भिः), explains
@@ -151,7 +162,7 @@ version — the generator uses only Ruby's standard library, no gems to install)
 
 The import files are already committed, each named after the deck it fills, so the
 listing reads in deck order (`sanskrit_declensions_1_cases_anki.txt`,
-`sanskrit_declensions_2_t_nouns_anki.txt`, …). You can skip
+`sanskrit_declensions_2_case_analysis_anki.txt`, …). You can skip
 straight to [importing](#importing-into-anki). To rebuild them, run `main.rb` from
 the repository root. Flags pick which files to generate, and they combine:
 
@@ -175,7 +186,8 @@ the repository root. Flags pick which files to generate, and they combine:
 | `--external-consonant-sandhi` / `--external-consonant-sandhi-split` | External consonant sandhi | Sandhi Joining / Splitting › 3. External Consonant |
 | `--internal-consonant-sandhi` / `--internal-consonant-sandhi-split` | Internal consonant sandhi (ṣatva/ṇatva) | Sandhi Joining / Splitting › 4. Internal Consonant |
 | `--case-names` | The eight cases, with endings and uses | Declensions › 1. Cases |
-| `--t-nouns` | Five त्-ending nouns, every form | Declensions › 2. त्-Ending Nouns › 1. Nominative … 8. Vocative |
+| `--case-analysis` | Rāmāyaṇa sentences: every word's case and why | Declensions › 2. Case Analysis |
+| `--t-nouns` | Five त्-ending nouns, every form | Declensions › 3. त्-Ending Nouns › 1. Nominative … 8. Vocative |
 | `--mantras` | Mantras (with audio) | Mantras |
 | `--gita-verses` | Bhagavad Gītā verses (with audio) | Bhagavad Gita |
 
@@ -282,9 +294,9 @@ thanks to everyone below — please visit and support the original sources.
   Beginning Sanskrit Grammar class (taught by Vasanthiji) — the source of the cases
   and their numbered uses.
 - **Robert P. Goldman's *Devavāṇīpraveśikā*** — the graded *Rāmāyaṇa* readings
-  (Lessons 4–7) that the class reads. Example sentences from them (with others from
-  the handout and the class) are kept in `data/case_functions.json` for a later deck,
-  though no deck currently cards them.
+  that the class reads. Lessons 4–10 supply most of the Case Analysis sentences;
+  further example sentences (with others from the handout and the class) are kept
+  in `data/case_functions.json` for a later deck.
 - **["Basic Terminations" handout](https://arshabodha.org/wp-content/uploads/abc/teachings/SanskritMaterial/Declensions/BasicTerminations.pdf)**
   from the same Arsha Bodha class — the table of endings, and (from the class
   recording) the five nouns declined with it and the sandhi points made along the way.

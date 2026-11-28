@@ -107,16 +107,10 @@
           "number": "singular",
           "case": "accusative",
           "use": "2a",
-          "why": "The thing that gets kept: direct object of the infinitive पालयितुम् “to keep”. The purpose is the keeping, not the promise.",
+          "why": "The thing that gets kept: direct object of the infinitive पालयितुम् “to keep”. The purpose is the keeping, not the promise. (Said instead with a verbal noun, प्रतिज्ञायाः पालनाय “for the keeping of the promise”, the promise would be genitive, as the object of that “-ing” word.)",
           "agrees_with": null,
           "reference": null,
-          "alternatives": [
-            {
-              "case": "genitive",
-              "use": "6e",
-              "why": "if the purpose is said with a verbal noun, प्रतिज्ञायाः पालनाय “for the keeping of the promise”, the promise is the object of that “-ing” word."
-            }
-          ]
+          "alternatives": []
         },
         {
           "english": "father",

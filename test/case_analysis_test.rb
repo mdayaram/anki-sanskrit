@@ -49,9 +49,9 @@ class CaseAnalysisTest < Minitest::Test
   end
 
   def test_alternative_uses_its_own_case
-    s, _, _, back = cards.find { |c, *| c["id"] == "laksmana-rama-padbhyam-vanam" }
-    promise = s["words"].find { |w| w["english"] == "promise" }
-    assert_includes back, "or <b>fGs</b> — #{promise['alternatives'][0]['why']}"
+    s, _, _, back = cards.find { |c, *| c["id"] == "g6-prajanam-raksakah" }
+    people = s["words"].find { |w| w["english"] == "people" }
+    assert_includes back, "or <b>fGp</b> — #{people['alternatives'][0]['why']}"
   end
 
   def test_beyond_handout_note
