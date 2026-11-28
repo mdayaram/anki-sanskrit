@@ -258,6 +258,7 @@ Declension (*vibhakti*), built from the Arsha Bodha Beginning Sanskrit Grammar c
 | deck | constant | flag | key prefix | cards |
 |---|---|---|---|---|
 | `…::1. Cases` | `Anki::CASE_NAMES_DECK` | `--case-names` | `case_name:english:` | 8 |
+| `…::2. Case Analysis` | `Anki::CASE_ANALYSIS_DECK` | `--case-analysis` | `case_analysis:` | 4 |
 | `…::3. त्-Ending Nouns::1. Nominative` … `::8. Vocative` | `Anki::T_NOUNS_DECK` (+ `Anki.case_subdeck`) | `--t-nouns` | `t_noun:` | 120 (15 per case: 5 nouns × 3 numbers) |
 
 **Practice over terminology (the user's call, after a first version).** The family used to hold five decks — case names, a case-example sentence deck, an endings deck (case + number → ending), a shared-endings deck (ending → every cell it marks) and the nouns. The user found that this drilled grammar vocabulary rather than its use, so: the endings moved onto the back of the Cases cards (making the endings deck redundant); the shared-endings deck was dropped as reference material for a sheet, not a flashcard; the example-sentence deck was dropped because function-only sentences are not useful before the endings are known — **but the 71 examples stay in `data/case_functions.json`**, still validated, for a later deck (likely context sentences for a vowel-stem paradigm, since they use राम, गुरु, वन…); and the noun paradigm became the core, split by case. The case-function decks used to be their own family, `🕉️ Sanskrit Case Functions`; the user chose to delete the old decks in Anki and re-import rather than move cards (their review history was not worth keeping), so no migration was needed.
@@ -272,6 +273,16 @@ Data: `data/case_functions.json` (sections `cases`, `uses`, `examples`; via `Cas
 - **No Pāṇini sup names** (सु औ जस्…): neither the handout nor the class uses them. The nominative singular is shown as the handout prints it, ः, with a note that the underlying ending is स्.
 
 **The examples (uncarded).** Sentences from the handout, the class, and Goldman's *Devavāṇīpraveśikā* Rāmāyaṇa readings (Lessons 4–7; scans at `…/SanskritMaterial/Reading/Ramayana{1..18}-Lesson-{4..21}.pdf`), each pointing at a handout use, its target word's stem/gender/number recorded, `source` naming its origin (one is "(adapted)" from a relative clause). Sandhi is broken in every sentence (रामः वनं गच्छति), so each validates under strict `valid_pair?` and the target is a whole space-separated word occurring exactly once in both scripts — all checked by `test/case_functions_data_test.rb`. Text uses curly quotes; the data test forbids ASCII `"`, tabs and markup.
+
+**The Case Analysis deck** (`lib/generators/case_analysis.rb`, design in `docs/superpowers/specs/2026-11-27-case-analysis-deck-design.md`) practises recognising cases in context, which is why it comes before the paradigms. One card per Rāmāyaṇa sentence: the front is plain English with nothing marked; the back is the Sanskrit (sandhi broken, as in the examples) and a table with one row per declined word **in English order**: English · form · class label · reason.
+
+- **Class label notation** (the teacher's): gender + Case + number, `mAp` = masculine Accusative plural, built by `CaseAnalysis.label` (`lib/case_analysis.rb`). Cases are `N A I D Ab G L V` (Ablative is `Ab`, so it can't be confused with Accusative); a word with no grammatical gender (अहम्, त्वम्, numbers above four) drops the gender letter.
+- **Handout use numbers are never rendered** (the user's call: they won't have the handout open, so the reason is the point). Each word's `use` stays in the data only so `test/case_analysis_data_test.rb` can require that every one of the 40 handout uses is covered.
+- **Uses beyond the handout** (accusative of time, partitive genitive, …) are kept: `use: null`, rendered "(beyond the handout)", with a researched reason and a mandatory `reference` (e.g. "Whitney §276b").
+- **Agreeing words** (adjectives, adjectival pronouns, participles, appositives) take their head's case **and use**, and name it in `agrees_with`; the test checks they match their head. In the nominative the handout's own 1c/1d apply.
+- **`alternatives`** hold a second defensible analysis (the "promise" in "to keep his father's promise" is accusative after an infinitive, or genitive after a verbal noun); each renders as "or `fGs` — …".
+- **The English is natural**, bent toward the Sanskrit only where natural English would hide the construction that decides the case (a passive with "by", "of Rāma there is…", "Rāma having gone…").
+- Sentences are mostly Goldman's readings (`source: "Goldman reading, Lesson N"`), plus composed Rāmāyaṇa-themed ones (`source: "composed"`) for the uses the readings miss.
 
 **The noun paradigms** (`lib/generators/t_nouns.rb`):
 
