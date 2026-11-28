@@ -258,7 +258,7 @@ Declension (*vibhakti*), built from the Arsha Bodha Beginning Sanskrit Grammar c
 | deck | constant | flag | key prefix | cards |
 |---|---|---|---|---|
 | `…::1. Cases` | `Anki::CASE_NAMES_DECK` | `--case-names` | `case_name:english:` | 8 |
-| `…::2. Case Analysis` | `Anki::CASE_ANALYSIS_DECK` | `--case-analysis` | `case_analysis:` | 4 |
+| `…::2. Case Analysis` | `Anki::CASE_ANALYSIS_DECK` | `--case-analysis` | `case_analysis:` | 61 |
 | `…::3. त्-Ending Nouns::1. Nominative` … `::8. Vocative` | `Anki::T_NOUNS_DECK` (+ `Anki.case_subdeck`) | `--t-nouns` | `t_noun:` | 120 (15 per case: 5 nouns × 3 numbers) |
 
 **Practice over terminology (the user's call, after a first version).** The family used to hold five decks — case names, a case-example sentence deck, an endings deck (case + number → ending), a shared-endings deck (ending → every cell it marks) and the nouns. The user found that this drilled grammar vocabulary rather than its use, so: the endings moved onto the back of the Cases cards (making the endings deck redundant); the shared-endings deck was dropped as reference material for a sheet, not a flashcard; the example-sentence deck was dropped because function-only sentences are not useful before the endings are known — **but the 71 examples stay in `data/case_functions.json`**, still validated, for a later deck (likely context sentences for a vowel-stem paradigm, since they use राम, गुरु, वन…); and the noun paradigm became the core, split by case. The case-function decks used to be their own family, `🕉️ Sanskrit Case Functions`; the user chose to delete the old decks in Anki and re-import rather than move cards (their review history was not worth keeping), so no migration was needed.
@@ -282,7 +282,9 @@ Data: `data/case_functions.json` (sections `cases`, `uses`, `examples`; via `Cas
 - **Agreeing words** (adjectives, adjectival pronouns, participles, appositives) take their head's case **and use**, and name it in `agrees_with`; the test checks they match their head. In the nominative the handout's own 1c/1d apply.
 - **`alternatives`** hold a second defensible analysis (the "promise" in "to keep his father's promise" is accusative after an infinitive, or genitive after a verbal noun); each renders as "or `fGs` — …".
 - **The English is natural**, bent toward the Sanskrit only where natural English would hide the construction that decides the case (a passive with "by", "of Rāma there is…", "Rāma having gone…").
-- Sentences are mostly Goldman's readings (`source: "Goldman reading, Lesson N"`), plus composed Rāmāyaṇa-themed ones (`source: "composed"`) for the uses the readings miss.
+- Sentences are mostly Goldman's readings (`source: "Goldman reading, Lesson N"`: 46 lines from Lessons 4–10, including Lesson 5's verse that puts Rāma through every case), plus 15 composed Rāmāyaṇa-themed ones (`source: "composed"`) for the uses the readings miss. The readings were transcribed from the scans at 200/400 dpi and sandhi-broken; 60 further transcribed lines were not carded and can be added.
+- **Handout use 4f is deliberately uncovered** (`UNCOVERED_USES` in the data test): it says विना sometimes takes the dative, which no grammar consulted supports (Pāṇini 2.3.32: instrumental, ablative or accusative; Whitney §284: instrumental), so carding it would teach a doubtful construction.
+- **The subject of a passive verb** is marked beyond the handout (whose 1a reads "subject of an active verb"), citing Whitney §267.
 
 **The noun paradigms** (`lib/generators/t_nouns.rb`):
 

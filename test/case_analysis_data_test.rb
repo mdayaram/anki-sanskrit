@@ -63,6 +63,19 @@ class CaseAnalysisDataTest < Minitest::Test
     end
   end
 
+  # Handout uses deliberately left uncovered. 4f says विना sometimes takes the
+  # dative; no grammar consulted supports that (Pāṇini 2.3.32 gives the
+  # instrumental, ablative or accusative; Whitney §284 the instrumental), so a
+  # card would teach a doubtful construction. विना + instrumental is 3d.
+  UNCOVERED_USES = { "4f" => "विना + dative is not attested in the grammars consulted" }.freeze
+
+  def test_every_handout_use_is_covered
+    covered = words.map { |_, w| w["use"] }.compact.uniq
+    missing = uses.keys - covered - UNCOVERED_USES.keys
+    assert_empty missing.sort, "handout uses with no sentence: #{missing.sort.join(' ')}"
+    assert_empty UNCOVERED_USES.keys & covered, "a use listed as uncovered now has a sentence"
+  end
+
   def test_beyond_handout_rows_cite_a_reference
     words.each do |s, w|
       next if w["use"]
