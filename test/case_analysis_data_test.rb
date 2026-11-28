@@ -15,6 +15,7 @@ class CaseAnalysisDataTest < Minitest::Test
   WORD_FIELDS = %w[english devanagari iast stem_devanagari stem_iast case why].freeze
   NUMBERS = %w[singular dual plural].freeze
   GENDERS = ["m", "f", "n", nil].freeze
+  NOMINATIVE_AGREEMENT = %w[1c 1d].freeze
 
   def data      = @data ||= CaseAnalysis.load
   def sentences = data["sentences"]
@@ -102,7 +103,11 @@ class CaseAnalysisDataTest < Minitest::Test
         refute_nil head, "#{where}: agrees_with #{w['agrees_with']} is not a word in the sentence"
         assert_equal head["case"], w["case"], where
         assert_equal head["number"], w["number"], where
-        assert head["use"] == w["use"], "#{where}: use #{w["use"].inspect} differs from its head (#{head["use"].inspect})"
+        # In the nominative the handout has its own uses for agreeing words
+        # (1c apposition, 1d adjective); elsewhere they take their head's use.
+        nominative_own = w["case"] == "nominative" && NOMINATIVE_AGREEMENT.include?(w["use"])
+        assert nominative_own || head["use"] == w["use"],
+               "#{where}: use #{w["use"].inspect} differs from its head (#{head["use"].inspect})"
         assert_equal head["gender"], w["gender"], where if head["gender"] && w["gender"]
       end
     end
