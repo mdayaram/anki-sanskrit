@@ -1,0 +1,132 @@
+{
+  "sentences": [
+    {
+      "id": "laksmana-rama-padbhyam-vanam",
+      "source": "composed",
+      "english": "O Lakṣmaṇa! Rāma goes on foot from Ayodhyā to the forest with Sītā to keep the promise of his father.",
+      "devanagari": "हे लक्ष्मण रामः पितुः प्रतिज्ञां पालयितुं सीतया सह पद्भ्याम् अयोध्यायाः वनं गच्छति",
+      "iast": "he lakṣmaṇa rāmaḥ pituḥ pratijñāṃ pālayituṃ sītayā saha padbhyām ayodhyāyāḥ vanaṃ gacchati",
+      "words": [
+        { "english": "Lakṣmaṇa", "devanagari": "लक्ष्मण", "iast": "lakṣmaṇa", "stem_devanagari": "लक्ष्मण", "stem_iast": "lakṣmaṇa",
+          "gender": "m", "number": "singular", "case": "vocative", "use": "8a",
+          "why": "He is being spoken to (“O …!”); the vocative calls the listener and plays no part in the action.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "Rāma", "devanagari": "रामः", "iast": "rāmaḥ", "stem_devanagari": "राम", "stem_iast": "rāma",
+          "gender": "m", "number": "singular", "case": "nominative", "use": "1a",
+          "why": "He does the going: the subject of the active verb “goes”.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "foot", "devanagari": "पद्भ्याम्", "iast": "padbhyām", "stem_devanagari": "पद्", "stem_iast": "pad",
+          "gender": "m", "number": "dual", "case": "instrumental", "use": "3a",
+          "why": "The means he travels by: “by (his two) feet”. English “on” is misleading; it is not a place, so not locative.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "Ayodhyā", "devanagari": "अयोध्यायाः", "iast": "ayodhyāyāḥ", "stem_devanagari": "अयोध्या", "stem_iast": "ayodhyā",
+          "gender": "f", "number": "singular", "case": "ablative", "use": "5a",
+          "why": "The place the movement starts from (“from”).",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "forest", "devanagari": "वनं", "iast": "vanaṃ", "stem_devanagari": "वन", "stem_iast": "vana",
+          "gender": "n", "number": "singular", "case": "accusative", "use": "2c",
+          "why": "Where a verb of motion ends up: “goes to the forest”. Nothing is done to the forest, so it is not a direct object.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "Sītā", "devanagari": "सीतया", "iast": "sītayā", "stem_devanagari": "सीता", "stem_iast": "sītā",
+          "gender": "f", "number": "singular", "case": "instrumental", "use": "3c",
+          "why": "Accompaniment: she goes along with him (सह “with”), not as a tool he uses.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "promise", "devanagari": "प्रतिज्ञां", "iast": "pratijñāṃ", "stem_devanagari": "प्रतिज्ञा", "stem_iast": "pratijñā",
+          "gender": "f", "number": "singular", "case": "accusative", "use": "2a",
+          "why": "The thing that gets kept: direct object of the infinitive पालयितुम् “to keep”. The purpose is the keeping, not the promise.",
+          "agrees_with": null, "reference": null,
+          "alternatives": [
+            { "case": "genitive", "use": "6e",
+              "why": "if the purpose is said with a verbal noun, प्रतिज्ञायाः पालनाय “for the keeping of the promise”, the promise is the object of that “-ing” word." }
+          ] },
+        { "english": "father", "devanagari": "पितुः", "iast": "pituḥ", "stem_devanagari": "पितृ", "stem_iast": "pitṛ",
+          "gender": "m", "number": "singular", "case": "genitive", "use": "6a",
+          "why": "Possession: it is his father’s promise.",
+          "agrees_with": null, "reference": null,
+          "alternatives": [
+            { "case": "genitive", "use": "6e",
+              "why": "प्रतिज्ञा “a promising” is itself made from a verb, and the father is the one who promised, so he is also the subject of an “-ing” word." }
+          ] }
+      ]
+    },
+    {
+      "id": "sita-aham-tvaya-saha",
+      "source": "composed",
+      "english": "Sītā says: O Rāma, I go to the forest with you.",
+      "devanagari": "सीता वदति हे राम अहं त्वया सह वनं गच्छामि",
+      "iast": "sītā vadati he rāma ahaṃ tvayā saha vanaṃ gacchāmi",
+      "words": [
+        { "english": "Sītā", "devanagari": "सीता", "iast": "sītā", "stem_devanagari": "सीता", "stem_iast": "sītā",
+          "gender": "f", "number": "singular", "case": "nominative", "use": "1a",
+          "why": "She does the saying: subject of the active verb “says”.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "Rāma", "devanagari": "राम", "iast": "rāma", "stem_devanagari": "राम", "stem_iast": "rāma",
+          "gender": "m", "number": "singular", "case": "vocative", "use": "8a",
+          "why": "Sītā is speaking to him (“O Rāma”).",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "I", "devanagari": "अहं", "iast": "ahaṃ", "stem_devanagari": "अस्मद्", "stem_iast": "asmad",
+          "gender": null, "number": "singular", "case": "nominative", "use": "1a",
+          "why": "The one who goes: subject of “go” (गच्छामि, first person to match).",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "forest", "devanagari": "वनं", "iast": "vanaṃ", "stem_devanagari": "वन", "stem_iast": "vana",
+          "gender": "n", "number": "singular", "case": "accusative", "use": "2c",
+          "why": "The destination of the verb of motion “go”.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "you", "devanagari": "त्वया", "iast": "tvayā", "stem_devanagari": "युष्मद्", "stem_iast": "yuṣmad",
+          "gender": null, "number": "singular", "case": "instrumental", "use": "3c",
+          "why": "Accompaniment: “with you”, marked by सह.",
+          "agrees_with": null, "reference": null, "alternatives": [] }
+      ]
+    },
+    {
+      "id": "rama-laksmana-api-vanam",
+      "source": "composed",
+      "english": "Rāma goes to the forest, and Lakṣmaṇa too goes to the forest.",
+      "devanagari": "रामः वनं गच्छति लक्ष्मणः अपि वनं गच्छति",
+      "iast": "rāmaḥ vanaṃ gacchati lakṣmaṇaḥ api vanaṃ gacchati",
+      "words": [
+        { "english": "Rāma", "devanagari": "रामः", "iast": "rāmaḥ", "stem_devanagari": "राम", "stem_iast": "rāma",
+          "gender": "m", "number": "singular", "case": "nominative", "use": "1a",
+          "why": "Subject of the first “goes”.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "forest", "devanagari": "वनं", "iast": "vanaṃ", "stem_devanagari": "वन", "stem_iast": "vana",
+          "gender": "n", "number": "singular", "case": "accusative", "use": "2c",
+          "why": "Destination of a verb of motion.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "Lakṣmaṇa", "devanagari": "लक्ष्मणः", "iast": "lakṣmaṇaḥ", "stem_devanagari": "लक्ष्मण", "stem_iast": "lakṣmaṇa",
+          "gender": "m", "number": "singular", "case": "nominative", "use": "1a",
+          "why": "Subject of the second “goes”; अपि “too” is indeclinable and changes nothing.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "forest", "devanagari": "वनं", "iast": "vanaṃ", "stem_devanagari": "वन", "stem_iast": "vana",
+          "gender": "n", "number": "singular", "case": "accusative", "use": "2c",
+          "why": "Destination again, the same as for Rāma.",
+          "agrees_with": null, "reference": null, "alternatives": [] }
+      ]
+    },
+    {
+      "id": "rama-caturdasa-varsani",
+      "source": "composed",
+      "english": "Rāma lives in the forest for fourteen years.",
+      "devanagari": "रामः चतुर्दश वर्षाणि वने वसति",
+      "iast": "rāmaḥ caturdaśa varṣāṇi vane vasati",
+      "words": [
+        { "english": "Rāma", "devanagari": "रामः", "iast": "rāmaḥ", "stem_devanagari": "राम", "stem_iast": "rāma",
+          "gender": "m", "number": "singular", "case": "nominative", "use": "1a",
+          "why": "He does the living: subject of the active verb “lives”.",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "forest", "devanagari": "वने", "iast": "vane", "stem_devanagari": "वन", "stem_iast": "vana",
+          "gender": "n", "number": "singular", "case": "locative", "use": "7a",
+          "why": "The place where the action happens (“in”).",
+          "agrees_with": null, "reference": null, "alternatives": [] },
+        { "english": "fourteen", "devanagari": "चतुर्दश", "iast": "caturdaśa", "stem_devanagari": "चतुर्दशन्", "stem_iast": "caturdaśan",
+          "gender": null, "number": "plural", "case": "accusative", "use": null,
+          "why": "A number above four works like an adjective with no gender of its own: it agrees with वर्षाणि.",
+          "agrees_with": "वर्षाणि", "reference": "Whitney §276b", "alternatives": [] },
+        { "english": "years", "devanagari": "वर्षाणि", "iast": "varṣāṇi", "stem_devanagari": "वर्ष", "stem_iast": "varṣa",
+          "gender": "n", "number": "plural", "case": "accusative", "use": null,
+          "why": "How long the action lasts. Sanskrit treats a stretch of time as the ground an action covers, the way the accusative marks the ground a verb of motion covers, so “for fourteen years” takes the accusative with no preposition.",
+          "agrees_with": null, "reference": "Whitney §276b", "alternatives": [] }
+      ]
+    }
+  ]
+}
