@@ -45,7 +45,7 @@ class AnkiTest < Minitest::Test
 
   # The cases come first, then each noun paradigm.
   def test_declension_subdecks_sort_in_learning_order
-    decks = [Anki::CASE_NAMES_DECK, Anki::T_NOUNS_DECK]
+    decks = [Anki::CASE_NAMES_DECK, Anki::CASE_ANALYSIS_DECK, Anki::T_NOUNS_DECK]
     decks.each { |d| assert d.start_with?("#{Anki::DECLENSIONS_PARENT}::"), d }
     assert_equal decks.sort, decks
   end

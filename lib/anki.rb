@@ -60,14 +60,16 @@ module Anki
 
   # The declension decks. First the eight cases themselves (English name ->
   # Sanskrit name, with the case's uses from the "Sanskrit Case Functions"
-  # handout and its endings from the "Basic Terminations" handout), then one
+  # handout and its endings from the "Basic Terminations" handout), then
+  # Rāmāyaṇa sentences analysed case by case (Case Analysis), then one
   # subdeck per noun paradigm, paradigm first: each paradigm holds one subdeck
   # per case, numbered by the case's own Sanskrit number (prathamā = 1), so a
   # case can be practised on its own. Each later model-noun handout (रामः/फलम्,
   # शाला/दासी, …) joins as the next numbered paradigm with the same 8 subdecks.
   DECLENSIONS_PARENT = "🕉️ Sanskrit Declensions"
   CASE_NAMES_DECK    = "#{DECLENSIONS_PARENT}::1. Cases"
-  T_NOUNS_DECK       = "#{DECLENSIONS_PARENT}::2. त्-Ending Nouns"
+  CASE_ANALYSIS_DECK = "#{DECLENSIONS_PARENT}::2. Case Analysis"
+  T_NOUNS_DECK       = "#{DECLENSIONS_PARENT}::3. त्-Ending Nouns"
 
   # "<paradigm>::3. Instrumental" — a paradigm's subdeck for one case.
   def self.case_subdeck(paradigm, number, english) = "#{paradigm}::#{number}. #{english}"
